@@ -50,6 +50,29 @@ As a knowledge archive with public data:
 - Search and filter inputs are sanitised before DOM insertion — never use `innerHTML` with unsanitised input; use `textContent` or a sanitiser library.
 - All external links include `rel="noopener noreferrer"`.
 
+## Image & File Upload Security
+
+SVG files must **never** be accepted as user-uploaded images. SVG is an XML-based format that can embed JavaScript (`<script>`), event handlers (`onload`, `onclick`), and external resource references — making it a vector for XSS, SSRF, and data exfiltration attacks.
+
+**Prohibited upload types:**
+| Format | Reason |
+|---|---|
+| `.svg` / `.svgz` | Can contain embedded JS, event handlers, and `<foreignObject>` — XSS risk |
+| `.xml` | Can be crafted as a malicious SVG |
+| `.html` / `.htm` | Stored XSS via direct serving |
+
+**Permitted raster image types only:**
+`image/jpeg`, `image/png`, `image/webp`, `image/gif`, `image/avif`
+
+**Enforcement rules:**
+- Validate MIME type server-side — do not trust the file extension or `Content-Type` header sent by the client.
+- Validate the file's magic bytes (file signature) to confirm the actual format.
+- Strip all metadata (EXIF, XMP) from uploaded images before storage using a server-side library.
+- Never serve user-uploaded files from the same origin as the application — use a separate domain or CDN with `Content-Disposition: attachment` to prevent inline rendering.
+- Set `Content-Security-Policy: default-src 'self'` to block inline script execution even if a malicious file is served.
+
+Note: SVG files authored and committed directly to this repository (not user-uploaded) are permitted, as they are reviewed code under version control.
+
 ---
 
 ## LLM & Generative AI Security (OWASP Top 10 for LLMs 2025)

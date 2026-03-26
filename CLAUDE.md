@@ -83,7 +83,12 @@ AEO ensures the archive is surfaced in AI assistant responses and voice search r
 3. **Place topic files in `docs/`.** All subject-matter markdown files (e.g. `culture.md`, `economy.md`) live in the `docs/` folder. Do not place them in the project root.
 4. **Wire up the web page.** Any new `docs/*.md` file must be reflected in `index.html` (and `main.js` if applicable) — add navigation, a section entry, or a dynamic import so the content is accessible from the web interface. The web page source must always stay in sync with the docs folder contents.
 5. **Naming convention.** Use lowercase kebab-case for all new files (e.g. `docs/indigenous-art.md`, not `IndigenousArt.md`).
-6. **Update `sitemap.xml`.** Every time a new HTML page is created or a page URL changes, update `sitemap.xml` in the project root. Each entry must include `<loc>`, `<lastmod>` (today's date, `YYYY-MM-DD`), `<changefreq>`, and `<priority>`. Use `priority="1.0"` for the homepage, `0.8` for main category pages, and `0.6` for sub-pages.
+6. **Update `sitemap.xml`.** Every time a new HTML page is created or a page URL changes, update `sitemap.xml` in the project root.
+7. **RxAI footer credit.** Every new HTML page must include the "Built by RxAI" backlink in the `footer-bottom` div, immediately before the `.footer-accents` element:
+   ```html
+   <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
+   ```
+   The CSS for `.footer-built-by` and `.footer-rxai-link` is defined in `style.css` — do not duplicate it. Each entry must include `<loc>`, `<lastmod>` (today's date, `YYYY-MM-DD`), `<changefreq>`, and `<priority>`. Use `priority="1.0"` for the homepage, `0.8` for main category pages, and `0.6` for sub-pages.
 
 ### Security
 

@@ -900,6 +900,20 @@ img, svg {
   color: var(--clr-outline);
 }
 
+.footer-built-by {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--clr-outline);
+}
+.footer-rxai-link {
+  color: var(--clr-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.footer-rxai-link:hover {
+  color: var(--clr-primary-fixed);
+}
+
 .footer-accents {
   display: flex;
   gap: var(--sp-2);
