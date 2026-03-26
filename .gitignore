@@ -1,0 +1,71 @@
+# ==========================================
+# 🛑 CRITICAL SECURITY: NEVER COMMIT THESE
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*secret*
+*token*
+credentials.json
+client_secret.json
+aws_credentials
+.aws/
+.npmrc
+.ssh/
+
+# ==========================================
+# 💻 Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# 📦 Build & Dependency Directories 
+# ==========================================
+# Web / Node
+node_modules/
+dist/
+build/
+.npm/
+
+# Java / Kotlin
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.gradle/
+build/
+out/
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/

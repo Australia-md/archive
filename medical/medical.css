@@ -1,0 +1,402 @@
+/* ═══════════════════════════════════════════════════════
+   AUSTRALIA.MD — medical.css
+   Medical Hub page styles — extends style.css
+═══════════════════════════════════════════════════════ */
+
+/* ─── PAGE LAYOUT ────────────────────────────────────── */
+.med-page {
+  background: var(--clr-surface);
+}
+
+.med-wrapper {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 64px; /* nav height */
+  min-height: 100vh;
+}
+
+/* ─── SIDEBAR ────────────────────────────────────────── */
+.med-sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  background: var(--clr-surface-container-lowest);
+  padding: var(--sp-8) var(--sp-6);
+  position: sticky;
+  top: 64px;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--clr-outline-variant) transparent;
+}
+.med-sidebar::-webkit-scrollbar { width: 4px; }
+.med-sidebar::-webkit-scrollbar-track { background: transparent; }
+.med-sidebar::-webkit-scrollbar-thumb { background: var(--clr-outline-variant); border-radius: 2px; }
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-8);
+  flex-wrap: wrap;
+}
+.breadcrumb-item {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--clr-outline);
+  transition: color var(--transition-fast);
+}
+a.breadcrumb-item:hover { color: var(--clr-primary); }
+.breadcrumb-sep {
+  color: var(--clr-outline-variant);
+  font-size: 0.65rem;
+}
+.breadcrumb-current {
+  color: var(--clr-secondary-fixed-dim);
+}
+
+/* Sidebar sections */
+.sidebar-section {
+  margin-bottom: var(--sp-8);
+}
+.sidebar-section-specialty {
+  padding-top: var(--sp-6);
+}
+
+.sidebar-label {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--clr-secondary-fixed-dim);
+  margin-bottom: var(--sp-4);
+}
+
+/* State filter chips */
+.state-filter-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+.state-filter-list li { list-style: none; }
+
+.state-chip {
+  width: 100%;
+  text-align: left;
+  padding: var(--sp-3) var(--sp-4);
+  padding-left: var(--sp-5);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--clr-on-surface-variant);
+  cursor: pointer;
+  position: relative;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.state-chip::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 0;
+  background: var(--clr-primary);
+  border-radius: 0 2px 2px 0;
+  transition: height var(--transition-base);
+}
+.state-chip:hover {
+  background: rgba(113, 220, 138, 0.06);
+  color: var(--clr-on-surface);
+}
+.state-chip.active {
+  background: var(--clr-surface-container-high);
+  color: var(--clr-on-surface);
+  font-weight: 500;
+}
+.state-chip.active::before {
+  height: 60%;
+}
+
+/* Specialty quick-jump */
+.specialty-jump-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+.specialty-jump-list li { list-style: none; }
+
+.specialty-jump-link {
+  display: block;
+  padding: var(--sp-2) var(--sp-3);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  color: var(--clr-on-surface-variant);
+  border-radius: var(--radius-md);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+.specialty-jump-link:hover {
+  color: var(--clr-primary);
+  background: rgba(113, 220, 138, 0.06);
+}
+
+/* ─── MAIN CONTENT ───────────────────────────────────── */
+.med-main {
+  flex: 1;
+  min-width: 0;
+  padding: var(--sp-10) var(--sp-10) var(--sp-16);
+}
+
+/* Page Header */
+.med-header {
+  margin-bottom: var(--sp-12);
+  max-width: 720px;
+}
+
+.med-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--clr-secondary-fixed-dim);
+  margin-bottom: var(--sp-4);
+}
+
+.med-title {
+  font-family: var(--font-headline);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--clr-on-surface);
+  line-height: 1.1;
+  margin-bottom: var(--sp-4);
+}
+
+.med-subtitle {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--clr-on-surface-variant);
+  line-height: 1.65;
+  margin-bottom: var(--sp-8);
+}
+
+/* Medical search — extends base search from style.css */
+.med-search-wrap {
+  max-width: 580px;
+}
+
+/* Specialties count label */
+.specialties-count {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-secondary-fixed-dim);
+  margin-bottom: var(--sp-6);
+}
+
+/* ─── SPECIALTY GRID ─────────────────────────────────── */
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-5);
+}
+
+/* Specialty Card */
+.spec-card {
+  background: var(--clr-surface-container-low);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  position: relative;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.spec-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-xl);
+  outline: 1px solid rgba(62, 74, 62, 0.15);
+  outline-offset: -1px;
+  pointer-events: none;
+  transition: outline-color var(--transition-base);
+}
+.spec-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 33, 10, 0.4);
+}
+.spec-card:hover::before {
+  outline-color: rgba(0, 132, 61, 0.4);
+}
+
+/* Featured card — top gradient line */
+.spec-card:has(.spec-tag-featured)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--clr-primary-container), var(--clr-secondary-container));
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+.spec-card-link {
+  display: flex;
+  flex-direction: column;
+  padding: var(--sp-6);
+  gap: var(--sp-5);
+  height: 100%;
+}
+
+/* Icon wrapper */
+.spec-icon-wrap {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 132, 61, 0.12);
+  border-radius: var(--radius-lg);
+  transition: background var(--transition-base);
+  flex-shrink: 0;
+}
+.spec-card:hover .spec-icon-wrap {
+  background: rgba(0, 132, 61, 0.22);
+}
+
+.spec-icon {
+  width: 22px;
+  height: 22px;
+  color: var(--clr-primary);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Card body */
+.spec-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  flex: 1;
+}
+
+.spec-tag {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--clr-primary);
+}
+.spec-tag-featured {
+  color: var(--clr-secondary-fixed-dim);
+}
+
+.spec-title {
+  font-family: var(--font-headline);
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--clr-on-surface);
+  line-height: 1.25;
+}
+
+.spec-desc {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  line-height: 1.65;
+  color: var(--clr-on-surface-variant);
+  flex: 1;
+}
+
+.spec-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: var(--sp-4);
+}
+
+.spec-count {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--clr-secondary-fixed-dim);
+  letter-spacing: 0.03em;
+}
+
+.spec-explore {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--clr-outline);
+  transition: transform var(--transition-fast), color var(--transition-fast);
+}
+.spec-card:hover .spec-explore {
+  transform: translateX(4px);
+  color: var(--clr-primary);
+}
+
+/* Hidden card (filtered out) */
+.spec-card.hidden {
+  display: none;
+}
+
+/* ─── RESPONSIVE ─────────────────────────────────────── */
+@media (max-width: 1200px) {
+  .spec-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .med-wrapper {
+    flex-direction: column;
+  }
+  .med-sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-bottom: 1px solid rgba(62, 74, 62, 0.2);
+    padding: var(--sp-5) var(--sp-6);
+  }
+  .state-filter-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+  }
+  .state-chip {
+    width: auto;
+    padding: var(--sp-2) var(--sp-4);
+    border-radius: var(--radius-full);
+    background: var(--clr-surface-container-highest);
+    padding-left: var(--sp-4);
+  }
+  .state-chip::before { display: none; }
+  .state-chip.active {
+    background: var(--clr-primary-container);
+    color: var(--clr-on-primary-container);
+  }
+  .specialty-jump-list {
+    display: none;
+  }
+  .med-main {
+    padding: var(--sp-8) var(--sp-6) var(--sp-12);
+  }
+}
+
+@media (max-width: 640px) {
+  .spec-grid {
+    grid-template-columns: 1fr;
+  }
+}
