@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Australia.md — The sovereign open-source knowledge base and medical directory for Australia. Explore curated data on health, tech, nature, history, and culture." />
+  <title>Australia.md | Sovereign Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       TOP NAVIGATION BAR
+  ══════════════════════════════════════════════ -->
+  <header class="nav-bar" id="main-header">
+    <nav class="nav-inner" role="navigation" aria-label="Main navigation">
+      <!-- Logo -->
+      <a href="/" class="nav-logo" aria-label="Australia.md Home">
+        <span class="logo-mark">AU</span>
+        <span class="logo-text">Australia<span class="logo-dot">.md</span></span>
+      </a>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links" role="menubar">
+        <li role="none"><a href="#categories" class="nav-link" role="menuitem">Directory</a></li>
+        <li role="none"><a href="#" class="nav-link" role="menuitem">API</a></li>
+        <li role="none"><a href="#" class="nav-link" role="menuitem">Contribute</a></li>
+        <li role="none"><a href="#" class="nav-link" role="menuitem">About</a></li>
+      </ul>
+
+      <!-- Right Actions -->
+      <div class="nav-actions">
+        <span class="nav-badge" id="version-badge">v2.4.1</span>
+        <a href="https://github.com" class="btn-github" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub" id="github-link">
+          <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+        <button class="nav-mobile-toggle" id="mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ══════════════════════════════════════════════
+       HERO SECTION
+  ══════════════════════════════════════════════ -->
+  <section class="hero" id="hero" aria-labelledby="hero-title">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag" id="hero-tag">
+        <!-- Australian National Flag mini-emblem (public domain) -->
+        <svg class="hero-flag" viewBox="0 0 30 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Australian flag">
+          <rect width="30" height="15" fill="#00008B" rx="1"/>
+          <!-- Union Jack canton -->
+          <g clip-path="url(#huj)">
+            <line x1="0" y1="0" x2="15" y2="7.5" stroke="#fff" stroke-width="3"/>
+            <line x1="15" y1="0" x2="0" y2="7.5" stroke="#fff" stroke-width="3"/>
+            <line x1="0" y1="0" x2="15" y2="7.5" stroke="#CC0000" stroke-width="1"/>
+            <line x1="15" y1="0" x2="0" y2="7.5" stroke="#CC0000" stroke-width="1"/>
+            <rect x="6" y="0" width="3" height="7.5" fill="white"/>
+            <rect x="0" y="3" width="15" height="1.5" fill="white"/>
+            <rect x="6.75" y="0" width="1.5" height="7.5" fill="#CC0000"/>
+            <rect x="0" y="3.38" width="15" height="0.75" fill="#CC0000"/>
+          </g>
+          <clipPath id="huj"><rect width="15" height="7.5"/></clipPath>
+          <!-- Commonwealth Star -->
+          <polygon points="3.75,8.5 4.2,10.1 5.85,10.1 4.58,11 5.03,12.6 3.75,11.7 2.48,12.6 2.93,11 1.65,10.1 3.3,10.1" fill="white"/>
+          <!-- Southern Cross (4 main stars) -->
+          <polygon points="24.5,11 24.85,12.15 26,12.15 25.08,12.76 25.43,13.9 24.5,13.3 23.58,13.9 23.93,12.76 23,12.15 24.15,12.15" fill="white"/>
+          <polygon points="28,7.75 28.27,8.65 29.2,8.65 28.47,9.18 28.73,10.05 28,9.53 27.27,10.05 27.53,9.18 26.8,8.65 27.73,8.65" fill="white"/>
+          <polygon points="24.5,8.5 24.77,9.4 25.7,9.4 24.97,9.93 25.23,10.8 24.5,10.28 23.77,10.8 24.03,9.93 23.3,9.4 24.23,9.4" fill="white"/>
+          <polygon points="21,10 21.27,10.9 22.2,10.9 21.47,11.43 21.73,12.3 21,11.78 20.27,12.3 20.53,11.43 19.8,10.9 20.73,10.9" fill="white"/>
+        </svg>
+        <span class="tag-dot" aria-hidden="true"></span>
+        Open-Source Knowledge Base
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        The Sovereign
+        <span class="hero-title-accent">Archive</span>
+        of Australia
+      </h1>
+      <p class="hero-subtitle">
+        A curated, open-source repository of factual data — spanning medicine, science, heritage, and culture — built for researchers, AI agents, professionals, and curious minds.
+      </p>
+
+      <!-- Search Bar -->
+      <div class="search-container" role="search">
+        <form class="search-form" id="search-form" action="#" method="get" aria-label="Knowledge base search">
+          <label for="search-input" class="sr-only">Search Australia.md</label>
+          <div class="search-inner">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <input
+              type="search"
+              id="search-input"
+              name="q"
+              class="search-input"
+              placeholder="Search across all categories — e.g. 'Great Barrier Reef' or 'Medicare'"
+              autocomplete="off"
+              aria-autocomplete="list"
+              aria-haspopup="listbox"
+            />
+            <button type="submit" class="search-submit" id="search-submit-btn" aria-label="Submit search">
+              Search
+            </button>
+          </div>
+        </form>
+        <!-- Autocomplete dropdown -->
+        <div class="search-suggestions" id="search-suggestions" role="listbox" aria-label="Search suggestions" hidden>
+          <ul class="suggestions-list" id="suggestions-list"></ul>
+        </div>
+      </div>
+
+      <!-- Hero Metadata Stats -->
+      <div class="hero-stats" aria-label="Archive statistics">
+        <div class="stat-item" id="stat-entries">
+          <span class="stat-number" data-target="47200">0</span>
+          <span class="stat-label">Entries</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item" id="stat-categories">
+          <span class="stat-number" data-target="7">0</span>
+          <span class="stat-label">Categories</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item" id="stat-updated">
+          <span class="stat-number stat-date">Today</span>
+          <span class="stat-label">Last Updated</span>
+        </div>
+      </div>
+
+      <!-- National Symbols Strip -->
+      <div class="national-symbols" aria-label="Australian national symbols">
+        <!-- Australian National Flag (accurate, public domain) -->
+        <div class="symbol-item" title="Australian National Flag">
+          <svg class="symbol-flag" viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flag of Australia">
+            <rect width="60" height="30" fill="#00008B" rx="2"/>
+            <g clip-path="url(#flag-uj)">
+              <line x1="0" y1="0" x2="30" y2="15" stroke="white" stroke-width="6"/>
+              <line x1="30" y1="0" x2="0" y2="15" stroke="white" stroke-width="6"/>
+              <line x1="0" y1="0" x2="30" y2="15" stroke="#CC0000" stroke-width="2"/>
+              <line x1="30" y1="0" x2="0" y2="15" stroke="#CC0000" stroke-width="2"/>
+              <rect x="12" y="0" width="6" height="15" fill="white"/>
+              <rect x="0" y="6" width="30" height="3" fill="white"/>
+              <rect x="13.5" y="0" width="3" height="15" fill="#CC0000"/>
+              <rect x="0" y="6.75" width="30" height="1.5" fill="#CC0000"/>
+            </g>
+            <clipPath id="flag-uj"><rect width="30" height="15"/></clipPath>
+            <!-- Commonwealth Star (7-pt below UJ) -->
+            <polygon points="7.5,17 8.4,20.2 11.7,20.2 9.15,22.1 10.05,25.3 7.5,23.4 4.95,25.3 5.85,22.1 3.3,20.2 6.6,20.2" fill="white"/>
+            <!-- Southern Cross -->
+            <polygon points="49,22 49.7,24.3 52,24.3 50.2,25.6 50.9,27.9 49,26.6 47.1,27.9 47.8,25.6 46,24.3 48.3,24.3" fill="white"/>
+            <polygon points="56,15.5 56.54,17.3 58.4,17.3 56.93,18.35 57.47,20.1 56,19.05 54.53,20.1 55.07,18.35 53.6,17.3 55.46,17.3" fill="white"/>
+            <polygon points="49,17 49.54,18.8 51.4,18.8 49.93,19.85 50.47,21.6 49,20.55 47.53,21.6 48.07,19.85 46.6,18.8 48.46,18.8" fill="white"/>
+            <polygon points="42,20 42.54,21.8 44.4,21.8 42.93,22.85 43.47,24.6 42,23.55 40.53,24.6 41.07,22.85 39.6,21.8 41.46,21.8" fill="white"/>
+            <polygon points="53,20 53.35,21.1 54.5,21.1 53.57,21.72 53.93,22.8 53,22.18 52.07,22.8 52.43,21.72 51.5,21.1 52.65,21.1" fill="white"/>
+          </svg>
+          <span class="symbol-label">National Flag</span>
+        </div>
+
+        <div class="symbol-divider" aria-hidden="true"></div>
+
+        <!-- Commonwealth Star (7-pointed) -->
+        <div class="symbol-item" title="Commonwealth Star — 7 points representing 6 states and territories">
+          <svg class="symbol-star" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Commonwealth Star">
+            <!-- 7-pointed Commonwealth Star -->
+            <polygon points="20,2 22.6,11.2 31.4,8.1 26.3,16 34.6,20 26.3,24 31.4,31.9 22.6,28.8 20,38 17.4,28.8 8.6,31.9 13.7,24 5.4,20 13.7,16 8.6,8.1 17.4,11.2" fill="#FFCD00" stroke="rgba(255,205,0,0.3)" stroke-width="0.5"/>
+          </svg>
+          <span class="symbol-label">Commonwealth Star</span>
+        </div>
+
+        <div class="symbol-divider" aria-hidden="true"></div>
+
+        <!-- Golden Wattle floral emblem -->
+        <div class="symbol-item" title="Golden Wattle — Australia's national floral emblem">
+          <svg class="symbol-wattle" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Golden Wattle — national floral emblem">
+            <!-- Stem -->
+            <path d="M20 38 Q18 30 14 22 Q12 16 16 10" stroke="#00843D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <path d="M20 38 Q22 30 26 22 Q28 16 24 10" stroke="#00843D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <!-- Wattle balls (pom-poms) -->
+            <circle cx="14" cy="9" r="4" fill="#FFCD00" opacity="0.9"/>
+            <circle cx="24" cy="9" r="4" fill="#FFCD00" opacity="0.9"/>
+            <circle cx="10" cy="17" r="3.5" fill="#FFCD00" opacity="0.85"/>
+            <circle cx="28" cy="15" r="3.5" fill="#FFCD00" opacity="0.85"/>
+            <circle cx="8" cy="25" r="3" fill="#FFCD00" opacity="0.8"/>
+            <circle cx="30" cy="23" r="3" fill="#FFCD00" opacity="0.8"/>
+            <!-- Leaves -->
+            <ellipse cx="14" cy="9" rx="3" ry="1.5" fill="#00843D" opacity="0.4" transform="rotate(-30 14 9)"/>
+            <ellipse cx="24" cy="9" rx="3" ry="1.5" fill="#00843D" opacity="0.4" transform="rotate(30 24 9)"/>
+          </svg>
+          <span class="symbol-label">Golden Wattle</span>
+        </div>
+
+        <div class="symbol-divider" aria-hidden="true"></div>
+
+        <!-- Kangaroo & Emu (Coat of Arms supporters) -->
+        <div class="symbol-item" title="Kangaroo and Emu — supporters of the Australian Coat of Arms">
+          <svg class="symbol-coa" viewBox="0 0 50 30" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kangaroo and Emu — Australian Coat of Arms supporters">
+            <!-- Kangaroo silhouette (left) -->
+            <path d="M4 25 Q4 18 7 14 Q9 10 10 7 Q11 5 12 6 Q13 7 12 9 Q14 8 16 10 Q17 12 16 15 Q18 13 19 15 Q18 18 15 20 L15 25 Z" fill="#c8a96e" opacity="0.85"/>
+            <!-- Emu silhouette (right) -->
+            <path d="M32 25 L32 16 Q32 12 34 10 Q35 8 36 7 Q37 6 38 7 Q39 8 38 10 L40 9 Q41 10 40 13 Q42 12 43 15 Q42 18 40 20 Q38 22 36 23 L36 25 Z" fill="#8B7355" opacity="0.85"/>
+            <!-- Shield (simplified) -->
+            <rect x="21" y="8" width="8" height="10" rx="1" fill="rgba(0,132,61,0.2)" stroke="rgba(0,132,61,0.4)" stroke-width="0.5"/>
+            <line x1="25" y1="8" x2="25" y2="18" stroke="rgba(0,132,61,0.3)" stroke-width="0.5"/>
+            <line x1="21" y1="13" x2="29" y2="13" stroke="rgba(0,132,61,0.3)" stroke-width="0.5"/>
+          </svg>
+          <span class="symbol-label">Coat of Arms</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       CATEGORY CARDS GRID
+  ══════════════════════════════════════════════ -->
+  <section class="categories" id="categories" aria-labelledby="categories-title">
+    <div class="categories-inner">
+      <div class="section-header">
+        <div class="section-eyebrow">Knowledge Architecture</div>
+        <h2 class="section-title" id="categories-title">Explore the Archive</h2>
+        <p class="section-subtitle">Each category is a curated, continuously maintained corpus of verified Australian data.</p>
+      </div>
+
+      <div class="cards-grid" id="cards-grid" role="list">
+
+        <!-- Card 1: Medical Directory -->
+        <article class="category-card" id="card-medical" role="listitem" data-category="medical">
+          <a href="medical/" class="card-link" aria-label="Explore Medical Directory">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- Rod of Asclepius — official medical symbol (public domain) -->
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rod of Asclepius">
+                <!-- Staff -->
+                <line x1="12" y1="2" x2="12" y2="22"/>
+                <!-- Snake body coiling around staff -->
+                <path d="M12 5 C16 5.5 16 8 12 8.5 C8 9 8 11.5 12 12 C16 12.5 16 15 12 15.5 C8 16 8 18.5 12 19"/>
+                <!-- Snake head -->
+                <path d="M12 3.5 Q14 2.5 15 3.5 Q14.5 5 12 5"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Healthcare</div>
+              <h3 class="card-title">Medical Directory</h3>
+              <p class="card-desc">A comprehensive database of healthcare providers, research institutes, hospitals, and clinical facilities across all Australian states and territories.</p>
+              <div class="card-meta">
+                <span class="card-count">12,400+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 2: AI & IT -->
+        <article class="category-card card-featured" id="card-ai" role="listitem" data-category="ai">
+          <a href="#" class="card-link" aria-label="Explore AI and IT">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path stroke-linecap="round" d="M8 12h2l2-4 2 8 2-4h2"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag card-tag-gold">Featured</div>
+              <h3 class="card-title">AI &amp; IT</h3>
+              <p class="card-desc">The vanguard of Australian technological innovation — from quantum computing breakthroughs at ANU to national fiber network data and digital policy archives.</p>
+              <div class="card-meta">
+                <span class="card-count">8,900+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 3: Flora and Fauna -->
+        <article class="category-card" id="card-flora" role="listitem" data-category="flora">
+          <a href="#" class="card-link" aria-label="Explore Flora and Fauna">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 22V12M12 12C12 7 7 4 3 6c0 4 3 8 9 6M12 12c0-5 5-8 9-6-1 4-4 8-9 6"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Biology</div>
+              <h3 class="card-title">Flora &amp; Fauna</h3>
+              <p class="card-desc">Taxonomic records and conservation status of Australia's unique biological heritage — from the Daintree to the Outback's endemic species.</p>
+              <div class="card-meta">
+                <span class="card-count">9,700+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 4: History & Heritage -->
+        <article class="category-card" id="card-history" role="listitem" data-category="history">
+          <a href="#" class="card-link" aria-label="Explore History and Heritage">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4M8.93 8.93l-1.41-1.41M6 12H4M8.93 15.07l-1.41 1.41M12 18v2M15.07 15.07l1.41 1.41M18 12h2M15.07 8.93l1.41-1.41"/>
+                <circle cx="12" cy="12" r="4"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Heritage</div>
+              <h3 class="card-title">History &amp; Heritage</h3>
+              <p class="card-desc">Uncovering the narrative of the world's oldest continuous living culture alongside colonial history, federation milestones, and modern political archives.</p>
+              <div class="card-meta">
+                <span class="card-count">7,200+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 5: Tourism & Destinations -->
+        <article class="category-card" id="card-tourism" role="listitem" data-category="tourism">
+          <a href="#" class="card-link" aria-label="Explore Tourism and Destinations">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Tourism</div>
+              <h3 class="card-title">Tourism &amp; Destinations</h3>
+              <p class="card-desc">From the Great Barrier Reef to the red center — curated, structured guides for sovereign exploration of the world's largest island continent.</p>
+              <div class="card-meta">
+                <span class="card-count">5,800+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 6: Economy & Innovation -->
+        <article class="category-card" id="card-economy" role="listitem" data-category="economy">
+          <a href="#" class="card-link" aria-label="Explore Economy and Innovation">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+                <polyline points="16 7 22 7 22 13"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Economy</div>
+              <h3 class="card-title">Economy &amp; Innovation</h3>
+              <p class="card-desc">Trade policy, national infrastructure investment, startup ecosystems, ASX data analysis, and technological milestones driving Australia's future economy.</p>
+              <div class="card-meta">
+                <span class="card-count">6,400+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Card 7: Culture & Arts -->
+        <article class="category-card" id="card-culture" role="listitem" data-category="culture">
+          <a href="#" class="card-link" aria-label="Explore Culture and Arts">
+            <div class="card-icon-wrap" aria-hidden="true">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <path stroke-linecap="round" d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                <line x1="15" y1="9" x2="15.01" y2="9"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <div class="card-tag">Arts</div>
+              <h3 class="card-title">Culture &amp; Arts</h3>
+              <p class="card-desc">The pulse of the nation — Indigenous art archives, contemporary performance records, creative policy, and the evolving cultural identity of Australia.</p>
+              <div class="card-meta">
+                <span class="card-count">4,800+ entries</span>
+                <span class="card-arrow" aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+      </div><!-- /cards-grid -->
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       NEWSLETTER / CTA BAND
+  ══════════════════════════════════════════════ -->
+  <section class="cta-band" id="newsletter" aria-labelledby="newsletter-title">
+    <div class="cta-inner">
+      <div class="cta-text">
+        <div class="cta-eyebrow">Sovereign Intelligence Digest</div>
+        <h2 class="cta-title" id="newsletter-title">Stay Ahead of the Archive</h2>
+        <p class="cta-subtitle">Weekly updates on national infrastructure, policy changes, and technological milestones — delivered with precision.</p>
+      </div>
+      <form class="cta-form" id="newsletter-form" aria-label="Newsletter sign-up">
+        <label for="email-input" class="sr-only">Your email address</label>
+        <input
+          type="email"
+          id="email-input"
+          name="email"
+          class="cta-email"
+          placeholder="Your email address"
+          required
+          autocomplete="email"
+        />
+        <button type="submit" class="btn-primary" id="subscribe-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer class="footer" id="main-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo footer-logo" aria-label="Australia.md Home">
+          <span class="logo-mark">AU</span>
+          <span class="logo-text">Australia<span class="logo-dot">.md</span></span>
+        </a>
+        <p class="footer-tagline">The official digital sovereign archive. Curating the continent's data for future generations with integrity and precision.</p>
+      </div>
+
+      <div class="footer-cols">
+        <nav class="footer-col" aria-label="Archive links">
+          <div class="footer-col-title">Archive</div>
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">Medical Directory</a></li>
+            <li><a href="#" class="footer-link">IT &amp; AI</a></li>
+            <li><a href="#" class="footer-link">Heritage</a></li>
+            <li><a href="#" class="footer-link">Flora &amp; Fauna</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Connect links">
+          <div class="footer-col-title">Connect</div>
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">Tourism</a></li>
+            <li><a href="#" class="footer-link">Economy</a></li>
+            <li><a href="#" class="footer-link">Arts &amp; Culture</a></li>
+            <li><a href="https://github.com" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Legal links">
+          <div class="footer-col-title">Legal</div>
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">Privacy</a></li>
+            <li><a href="#" class="footer-link">Terms</a></li>
+            <li><a href="#" class="footer-link">Security</a></li>
+            <li><a href="#" class="footer-link">Licences</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; <span id="current-year"></span> Australia.md — Open-Source Sovereign Archive. Licensed under MIT.</span>
+      <div class="footer-accents" aria-hidden="true">
+        <span class="footer-accent-green"></span>
+        <span class="footer-accent-gold"></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
