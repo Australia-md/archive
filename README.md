@@ -3,8 +3,8 @@
 > A curated, open-source repository of factual data about Australia — spanning medicine, science, heritage, and culture — built for researchers, AI agents, professionals, and curious minds.
 
 [![Licence: AGPL-3.0 / Commercial](https://img.shields.io/badge/licence-AGPL--3.0%20%2F%20Commercial-green)](#licence)
-[![Version](https://img.shields.io/badge/version-2.4.1-blue)](#)
-[![Last Verified](https://img.shields.io/badge/last%20verified-2026--03--26-brightgreen)](#)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue)](#)
+[![Last Verified](https://img.shields.io/badge/last%20verified-2026--03--27-brightgreen)](#)
 [![W3C WCAG 2.1 AA](https://img.shields.io/badge/accessibility-WCAG%202.1%20AA-blue)](#)
 
 ---
@@ -76,18 +76,18 @@ Location-specific specialty files live at `docs/medical/{specialty}/{suburb}-{st
 
 | # | Category | Entries | Detail File |
 |---|---|---|---|
-| 1 | Geography & States | — | [`docs/geography.md`](docs/geography.md) |
-| 2 | Government & Constitution | — | [`docs/government.md`](docs/government.md) |
-| 3 | Economy & Industry | — | [`docs/economy.md`](docs/economy.md) |
-| 4 | Medical & Healthcare | 12,400+ | [`docs/medical.md`](docs/medical.md) |
-| 5 | Education System | — | [`docs/education.md`](docs/education.md) |
-| 6 | Flora & Fauna | 9,700+ | [`docs/flora-fauna.md`](docs/flora-fauna.md) |
-| 7 | History & Heritage | 7,200+ | [`docs/history.md`](docs/history.md) |
-| 8 | Arts, Culture & Sport | 4,800+ | [`docs/culture.md`](docs/culture.md) |
-| 9 | Technology & AI | 8,900+ | [`docs/technology.md`](docs/technology.md) |
-| 10 | Tourism & Travel | 5,800+ | [`docs/tourism.md`](docs/tourism.md) |
-| 11 | Indigenous Australia | — | [`docs/indigenous.md`](docs/indigenous.md) |
-| 12 | Environment & Climate | — | [`docs/environment.md`](docs/environment.md) |
+| 1 | Medical & Healthcare | 8 | [`docs/medical.md`](docs/medical.md) |
+| 2 | Technology & AI | 12 | [`docs/technology.md`](docs/technology.md) |
+| 3 | Flora & Fauna | 18 | [`docs/flora-fauna.md`](docs/flora-fauna.md) |
+| 4 | History & Heritage | 16 | [`docs/history.md`](docs/history.md) |
+| 5 | Tourism & Travel | 11 | [`docs/tourism.md`](docs/tourism.md) |
+| 6 | Economy & Industry | 14 | [`docs/economy.md`](docs/economy.md) |
+| 7 | Arts, Culture & Sport | 9 | [`docs/culture.md`](docs/culture.md) |
+| 8 | Indigenous Australia | 13 | [`docs/indigenous.md`](docs/indigenous.md) |
+| 9 | Environment & Climate | 15 | [`docs/environment.md`](docs/environment.md) |
+| 10 | Geography & Regions | 20 | [`docs/geography.md`](docs/geography.md) |
+| 11 | Government & Policy | 19 | [`docs/government.md`](docs/government.md) |
+| 12 | Education & Learning | 17 | [`docs/education.md`](docs/education.md) |
 
 ---
 
