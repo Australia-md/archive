@@ -2,7 +2,7 @@
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
 **Suburb:** Macquarie Park · Postcode 2113 · Council: City of Ryde
-**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · [Dental Board Practitioner Register](https://www.dentalboard.gov.au/registration/the-register.html)
+**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-03-27
 
 ---
@@ -11,7 +11,7 @@
 
 **Macquarie Park** (postcode 2113) is a commercial and residential suburb in the City of Ryde local government area, approximately 12 km north-west of the Sydney CBD. The suburb is home to a concentration of medical and dental practices serving the surrounding residential communities of North Ryde, Marsfield, West Pymble, and Meadowbank, as well as the large student and professional population associated with Macquarie University.
 
-All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at the [Dental Board of Australia Register](https://www.dentalboard.gov.au/registration/the-register.html).
+All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking "Look up practitioners".
 
 ---
 
@@ -24,7 +24,7 @@ All dental practitioners listed below are required to hold current registration 
 | **Address** | Shop 1044b, Macquarie Shopping Centre, Macquarie Park NSW 2113 |
 | **Phone** | (02) 9887 2044 |
 | **At this location since** | ~30 years (established at Macquarie Shopping Centre) |
-| **AHPRA Registration** | Verify via [Dental Board Register](https://www.dentalboard.gov.au/registration/the-register.html) |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile):**
 
@@ -46,7 +46,7 @@ All dental practitioners listed below are required to hold current registration 
 | **Phone** | (02) 9131 2110 |
 | **Hours** | Mon–Sat 9:00am–5:00pm · Sun Closed |
 | **Access** | 2-minute walk from Macquarie Park Metro Station · On-site parking |
-| **AHPRA Registration** | Verify via [Dental Board Register](https://www.dentalboard.gov.au/registration/the-register.html) |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
@@ -68,7 +68,7 @@ All dental practitioners listed below are required to hold current registration 
 | **Phone** | (02) 8652 9140 |
 | **Hours** | Mon 8:30am–5:30pm (other days: contact clinic) |
 | **Network** | Bupa Members First network |
-| **AHPRA Registration** | Verify via [Dental Board Register](https://www.dentalboard.gov.au/registration/the-register.html) |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile):**
 
@@ -88,7 +88,7 @@ All dental practitioners listed below are required to hold current registration 
 | **Phone** | (02) 9216 7676 |
 | **Hours** | 7 days · 10:00am–10:00pm |
 | **Emergency** | Walk-in emergency clinic available |
-| **AHPRA Registration** | Verify via [Dental Board Register](https://www.dentalboard.gov.au/registration/the-register.html) |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
@@ -112,7 +112,7 @@ All dental practitioners listed below are required to hold current registration 
 | **Address** | Unit 4, Building B, 64 Talavera Rd, Macquarie Park NSW 2113 |
 | **Phone** | (02) 8090 1102 |
 | **Hours** | Mon, Tue, Fri: 9:00am–6:00pm · Thu: 9:00am–8:00pm · Sat: 8:30am–4:00pm |
-| **AHPRA Registration** | Verify via [Dental Board Register](https://www.dentalboard.gov.au/registration/the-register.html) |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
 
@@ -124,8 +124,8 @@ All dental practitioners listed below are required to hold current registration 
 
 All dental practitioners in Australia must hold current registration with the **Dental Board of Australia**. Registration status, conditions, and disciplinary history are publicly searchable:
 
-- **Dental Board Practitioner Register:** [Dental Board of Australia](https://www.dentalboard.gov.au/registration/the-register.html)
-- **Search method:** Search by practitioner name and filter by profession "Dentist" or "Dental Specialist"
+- **Website:** [Dental Board of Australia](https://www.dentalboard.gov.au)
+- **How to search:** Click the "Look up practitioners" button and search by practitioner name
 
 > **Note:** AHPRA registration numbers were not available from public web sources at time of verification. Registration status must be confirmed directly via the AHPRA practitioner register.
 
