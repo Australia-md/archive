@@ -148,6 +148,12 @@ When adding or changing Australia-related content:
    - Homepage: `1.0`
    - Main category pages: `0.8`
    - Sub-pages: `0.6`
+10. **Version control & release management.** Follow [semantic versioning (semver.org)](https://semver.org/) using **MAJOR.MINOR.PATCH** format (e.g. `v1.0.0`, `v1.1.0`). When releasing a new version:
+   - Update version in three places: `index.html` (`<span class="nav-badge">vX.Y.Z</span>`), `README.md` (shield badge), and `AGENTS.md` (this file, if present)
+   - Create a git tag: `git tag vX.Y.Z`
+   - Push with tags: `git push origin main --tags`
+   - MAJOR bumps for breaking changes, MINOR for backwards-compatible features, PATCH for bug fixes
+   - All three files must be in sync before pushing — version mismatch creates confusion for users and agents
 
 ---
 

@@ -114,6 +114,12 @@ AEO ensures the archive is surfaced in AI assistant responses and voice search r
    <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
    ```
    The CSS for `.footer-built-by` and `.footer-rxai-link` is defined in `style.css` — do not duplicate it. Each entry must include `<loc>`, `<lastmod>` (today's date, `YYYY-MM-DD`), `<changefreq>`, and `<priority>`. Use `priority="1.0"` for the homepage, `0.8` for main category pages, and `0.6` for sub-pages.
+9. **Version control & release management.** Follow [semantic versioning (semver.org)](https://semver.org/) using **MAJOR.MINOR.PATCH** format (e.g. `v1.0.0`, `v1.1.0`). When releasing a new version:
+   - Update version in three places: `index.html` (`<span class="nav-badge">vX.Y.Z</span>`), `README.md` (shield badge), and `AGENTS.md` (if present)
+   - Create a git tag: `git tag vX.Y.Z`
+   - Push with tags: `git push origin main --tags`
+   - MAJOR bumps for breaking changes, MINOR for backwards-compatible features, PATCH for bug fixes
+   - All three files must be in sync before pushing — version mismatch creates confusion for users and agents
 
 ### Security
 
