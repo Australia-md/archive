@@ -83,8 +83,30 @@ AEO ensures the archive is surfaced in AI assistant responses and voice search r
 3. **Place topic files in `docs/`.** All subject-matter markdown files (e.g. `culture.md`, `economy.md`) live in the `docs/` folder. Do not place them in the project root.
 4. **Wire up the web page.** Any new `docs/*.md` file must be reflected in `index.html` (and `main.js` if applicable) — add navigation, a section entry, or a dynamic import so the content is accessible from the web interface. The web page source must always stay in sync with the docs folder contents.
 5. **Naming convention.** Use lowercase kebab-case for all new files (e.g. `docs/indigenous-art.md`, not `IndigenousArt.md`).
-6. **Update `sitemap.xml`.** Every time a new HTML page is created or a page URL changes, update `sitemap.xml` in the project root.
-7. **RxAI footer credit.** Every new HTML page must include the "Built by RxAI" backlink in the `footer-bottom` div, immediately before the `.footer-accents` element:
+6. **Location-specific file naming (`docs/locations/`).** Files in `docs/locations/` that cover a specific specialty and suburb **must** follow this format:
+
+   ```
+   {specialty}-{suburb}-{state}.md
+   ```
+
+   | Segment | Rule | Examples |
+   |---|---|---|
+   | `{specialty}` | Lowercase kebab-case specialty name | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
+   | `{suburb}` | Lowercase kebab-case suburb name | `macquarie-park`, `surry-hills`, `north-ryde` |
+   | `{state}` | Lowercase state/territory abbreviation | `nsw`, `vic`, `qld`, `sa`, `wa`, `tas`, `act`, `nt` |
+
+   **Examples:**
+   - `dental-macquarie-park-nsw.md` — dental clinics in Macquarie Park, NSW
+   - `endocrinology-north-sydney-nsw.md` — endocrinology practices in North Sydney, NSW
+   - `general-practice-parramatta-nsw.md` — GP clinics in Parramatta, NSW
+   - `pharmacy-chatswood-nsw.md` — pharmacies in Chatswood, NSW
+
+   This format ensures any agent or script can determine the **subject, location, and jurisdiction** from the filename alone — without opening the file.
+
+   The corresponding web page lives at `medical/{specialty}/{suburb}/index.html` (matching URL structure: `/medical/dental/macquarie-park/`).
+
+7. **Update `sitemap.xml`.** Every time a new HTML page is created or a page URL changes, update `sitemap.xml` in the project root.
+8. **RxAI footer credit.** Every new HTML page must include the "Built by RxAI" backlink in the `footer-bottom` div, immediately before the `.footer-accents` element:
    ```html
    <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
    ```

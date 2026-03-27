@@ -502,6 +502,253 @@ a.lbc-item:hover { color: var(--clr-primary); }
   transform: translateY(0);
 }
 
+/* ─── LISTING INTRO (suburb pages) ──────────────────── */
+.listing-intro {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--clr-on-surface-variant);
+  margin-bottom: var(--sp-5);
+  max-width: 68ch;
+}
+.listing-intro strong { color: var(--clr-on-surface); font-weight: 600; }
+
+/* ─── CLINIC ALSO-KNOWN / ACCESS NOTES ───────────────── */
+.clinic-also-known {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--clr-outline);
+  margin: calc(-1 * var(--sp-2)) 0 var(--sp-3);
+  font-style: italic;
+}
+.clinic-access-note {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--clr-outline);
+  margin-bottom: var(--sp-5);
+  padding: var(--sp-2) var(--sp-3);
+  background: rgba(171, 199, 255, 0.04);
+  border-radius: var(--radius-sm);
+  border-left: 2px solid rgba(171, 199, 255, 0.2);
+}
+.clinic-access-note .meta-icon { color: rgba(171, 199, 255, 0.4); }
+.emergency-note {
+  background: rgba(254, 204, 0, 0.04);
+  border-left-color: rgba(254, 204, 0, 0.3);
+  color: rgba(254, 204, 0, 0.75);
+}
+.emergency-note .meta-icon { color: rgba(254, 204, 0, 0.4); }
+
+/* ─── PRACTITIONERS BLOCK ────────────────────────────── */
+.clinic-practitioners {
+  padding: var(--sp-4) var(--sp-6);
+  border-top: 1px solid rgba(62, 74, 62, 0.12);
+}
+.practitioners-label {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-outline);
+  margin-bottom: var(--sp-3);
+}
+.practitioners-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-3);
+}
+.practitioner-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: var(--sp-3) var(--sp-4);
+  background: rgba(62, 74, 62, 0.08);
+  border-radius: var(--radius-md);
+  border-left: 2px solid rgba(113, 220, 138, 0.25);
+}
+.practitioner-name {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-on-surface);
+}
+.practitioner-detail {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--clr-on-surface-variant);
+  line-height: 1.5;
+}
+.practitioners-unconfirmed {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--clr-on-surface-variant);
+  font-style: italic;
+  margin-bottom: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: rgba(62, 74, 62, 0.06);
+  border-radius: var(--radius-md);
+}
+.ahpra-verify-note {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--clr-outline);
+}
+.ahpra-verify-note a {
+  color: var(--clr-primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(113, 220, 138, 0.3);
+  transition: text-decoration-color var(--transition-fast);
+}
+.ahpra-verify-note a:hover { text-decoration-color: var(--clr-primary); }
+.verify-icon {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  color: rgba(113, 220, 138, 0.4);
+}
+
+/* ─── AHPRA NOTICE BLOCK ─────────────────────────────── */
+.ahpra-notice {
+  display: flex;
+  gap: var(--sp-4);
+  padding: var(--sp-6);
+  background: rgba(0, 132, 61, 0.07);
+  border: 1px solid rgba(0, 132, 61, 0.18);
+  border-radius: var(--radius-xl);
+  align-items: flex-start;
+}
+.ahpra-notice-icon {
+  width: 22px;
+  height: 22px;
+  color: var(--clr-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.ahpra-notice-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+.ahpra-notice-body strong {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--clr-on-surface);
+}
+.ahpra-notice-body p {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--clr-on-surface-variant);
+  line-height: 1.6;
+}
+.ahpra-notice-link {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--clr-primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(113, 220, 138, 0.3);
+  transition: text-decoration-color var(--transition-fast);
+}
+.ahpra-notice-link:hover { text-decoration-color: var(--clr-primary); }
+
+/* ─── MAP DATA NOTE ──────────────────────────────────── */
+.map-data-note {
+  padding: var(--sp-3) var(--sp-5) var(--sp-4);
+  border-top: 1px solid rgba(62, 74, 62, 0.1);
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  color: var(--clr-outline);
+  line-height: 1.5;
+}
+.map-data-note strong { color: var(--clr-on-surface-variant); }
+
+/* ─── FAQ SECTION ────────────────────────────────────── */
+.faq-section {
+  background: var(--clr-surface-container-lowest);
+  border-top: 1px solid rgba(62, 74, 62, 0.12);
+  padding: var(--sp-12) 0;
+}
+.faq-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 var(--sp-10);
+}
+.faq-title {
+  font-family: var(--font-headline);
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--clr-on-surface);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--sp-7);
+}
+.faq-item {
+  border-bottom: 1px solid rgba(62, 74, 62, 0.12);
+}
+.faq-item:first-of-type { border-top: 1px solid rgba(62, 74, 62, 0.12); }
+.faq-question {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--clr-on-surface);
+  padding: var(--sp-5) 0;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--sp-4);
+  transition: color var(--transition-fast);
+}
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question::after {
+  content: '+';
+  font-family: var(--font-headline);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--clr-primary);
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+}
+details[open] .faq-question::after {
+  transform: rotate(45deg);
+}
+.faq-question:hover { color: var(--clr-primary); }
+.faq-answer {
+  padding: 0 0 var(--sp-5);
+}
+.faq-answer p {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--clr-on-surface-variant);
+}
+.faq-answer strong { color: var(--clr-on-surface); }
+.faq-answer a {
+  color: var(--clr-primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(113, 220, 138, 0.3);
+}
+.faq-answer a:hover { text-decoration-color: var(--clr-primary); }
+
+/* ─── btn-view-profile as <a> ────────────────────────── */
+a.btn-view-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+}
+
 /* ─── RESPONSIVE ─────────────────────────────────────── */
 @media (max-width: 1100px) {
   .map-panel { width: 300px; }

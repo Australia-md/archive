@@ -42,6 +42,53 @@
 
 ---
 
+## Archive Structure & File Conventions
+
+> **For AI agents and contributors:** this section defines how files are named and organised so you can locate any record without opening it.
+
+### Folder layout
+
+```
+Australia.md                          ← Root index (start here)
+docs/                                 ← Domain topic files
+  geography.md
+  medical.md
+  culture.md  … (one file per domain)
+docs/locations/                       ← Location-specific specialty data
+  {specialty}-{suburb}-{state}.md
+medical/                              ← Web interface
+  dental/
+    index.html                        ← Specialty listing (all NSW)
+    macquarie-park/
+      index.html                      ← Suburb clinic listing
+  endocrinology/
+    index.html
+```
+
+### `docs/locations/` naming convention
+
+Every file in `docs/locations/` **must** follow this pattern:
+
+```
+{specialty}-{suburb}-{state}.md
+```
+
+| Segment | Format | Examples |
+|---|---|---|
+| `{specialty}` | Lowercase kebab-case specialty | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
+| `{suburb}` | Lowercase kebab-case suburb | `macquarie-park`, `surry-hills`, `north-ryde` |
+| `{state}` | State/territory abbreviation | `nsw`, `vic`, `qld`, `sa`, `wa`, `tas`, `act`, `nt` |
+
+**Examples:**
+- `dental-macquarie-park-nsw.md` — dental clinics in Macquarie Park, NSW
+- `endocrinology-north-sydney-nsw.md` — endocrinology practices in North Sydney, NSW
+- `general-practice-parramatta-nsw.md` — GP clinics in Parramatta, NSW
+- `pharmacy-chatswood-nsw.md` — pharmacies in Chatswood, NSW
+
+The corresponding web page lives at `medical/{specialty}/{suburb}/index.html` (URL: `/medical/dental/macquarie-park/`).
+
+---
+
 ## 1. Geography & States
 
 Australia is both a country and a continent. It comprises six states and two major territories.
@@ -98,8 +145,10 @@ Australia operates a universal public healthcare system called **Medicare**, fun
 
 → **Detail file:** [`docs/medical.md`](docs/medical.md)
 → **Medical Directory (web):** [`medical/`](medical/index.html)
-→ **Dental:** [`medical/dental/`](medical/dental/index.html)
+→ **Dental — NSW:** [`medical/dental/`](medical/dental/index.html)
+→ **Dental — Macquarie Park NSW 2113:** [`medical/dental/macquarie-park/`](medical/dental/macquarie-park/index.html)
 → **Endocrinology & Metabolism:** [`medical/endocrinology/`](medical/endocrinology/index.html)
+→ **Location index:** [`docs/locations/dental-macquarie-park-nsw.md`](docs/locations/dental-macquarie-park-nsw.md)
 
 ---
 
