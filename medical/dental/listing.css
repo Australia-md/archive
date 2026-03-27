@@ -318,6 +318,17 @@ a.lbc-item:hover { color: var(--clr-primary); }
   color: var(--clr-on-primary-container);
   transform: translateY(-1px);
 }
+.btn-view-profile:disabled {
+  background: rgba(62, 74, 62, 0.25);
+  color: var(--clr-outline);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.btn-view-profile:disabled:hover {
+  background: rgba(62, 74, 62, 0.25);
+  color: var(--clr-outline);
+  transform: none;
+}
 
 .btn-map-focus {
   width: 44px;
