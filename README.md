@@ -38,9 +38,11 @@ docs/                                 ← Domain topic files (one per domain)
   tourism.md
   indigenous.md
   environment.md
-docs/locations/                       ← Location-specific specialty data
-  {specialty}-{suburb}-{state}.md     ← Naming convention (see below)
-  dental-macquarie-park-nsw.md        ← Example: dental clinics, Macquarie Park NSW
+docs/medical/                         ← Location-specific specialty data (mirrors web)
+  dental/
+    macquarie-park-nsw.md             ← Example: dental clinics, Macquarie Park NSW
+  endocrinology/
+    …
 medical/                              ← Web interface
   index.html                          ← Medical Directory
   dental/                             ← Dental specialists (NSW)
@@ -53,21 +55,20 @@ index.html                            ← Main web interface
 style.css                             ← Design system ("The Sovereign Archive")
 ```
 
-### `docs/locations/` file naming
+### `docs/medical/` file naming
 
-Files in `docs/locations/` follow a strict machine-readable pattern:
+Location-specific specialty files live at `docs/medical/{specialty}/{suburb}-{state}.md`, directly mirroring the web page at `medical/{specialty}/{suburb}/index.html`:
 
-```
-{specialty}-{suburb}-{state}.md
-```
+| Docs file | Web page |
+|---|---|
+| `docs/medical/dental/macquarie-park-nsw.md` | `medical/dental/macquarie-park/index.html` |
+| `docs/medical/endocrinology/north-sydney-nsw.md` | `medical/endocrinology/north-sydney/index.html` |
 
 | Segment | Format | Examples |
 |---|---|---|
-| `{specialty}` | Lowercase kebab-case | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
+| `{specialty}` | Lowercase kebab-case (folder) | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
 | `{suburb}` | Lowercase kebab-case | `macquarie-park`, `surry-hills`, `north-ryde` |
 | `{state}` | State/territory abbreviation | `nsw`, `vic`, `qld`, `sa`, `wa`, `tas`, `act`, `nt` |
-
-Any agent or script can determine **subject, location, and jurisdiction from the filename alone** — without opening the file. The matching web page lives at `medical/{specialty}/{suburb}/index.html`.
 
 ---
 
@@ -114,7 +115,7 @@ We welcome pull requests! Please ensure your contribution aligns with our format
 3. **Read `Australia.md`** — all contributions must align with the existing archive structure
 4. **Follow the content conventions** in [`CLAUDE.md`](CLAUDE.md) — especially:
    - Place new topic files in `docs/`
-   - Place location-specific specialty files in `docs/locations/` using the naming pattern `{specialty}-{suburb}-{state}.md` (e.g. `dental-macquarie-park-nsw.md`)
+   - Place location-specific specialty files in `docs/medical/{specialty}/` using the filename pattern `{suburb}-{state}.md` (e.g. `docs/medical/dental/macquarie-park-nsw.md`)
    - Update `Australia.md` to reference new content
    - Update `sitemap.xml` if adding new HTML pages
    - All markup must be W3C-valid HTML5

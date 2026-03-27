@@ -1,6 +1,6 @@
 # Macquarie Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../Australia.md) → [Medical & Healthcare](../medical.md) → Dental · NSW
+**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
 **Suburb:** Macquarie Park · Postcode 2113 · Council: City of Ryde
 **Authoritative registration source:** [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au) · [Dental Board of Australia](https://www.dentalboard.gov.au)
 **Last Verified:** 2026-03-27

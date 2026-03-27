@@ -54,8 +54,11 @@ docs/                                 ← Domain topic files
   geography.md
   medical.md
   culture.md  … (one file per domain)
-docs/locations/                       ← Location-specific specialty data
-  {specialty}-{suburb}-{state}.md
+docs/medical/                         ← Location-specific specialty data (mirrors web)
+  dental/
+    macquarie-park-nsw.md             ← {suburb}-{state}.md
+  endocrinology/
+    …
 medical/                              ← Web interface
   dental/
     index.html                        ← Specialty listing (all NSW)
@@ -65,27 +68,25 @@ medical/                              ← Web interface
     index.html
 ```
 
-### `docs/locations/` naming convention
+### `docs/medical/` naming convention
 
-Every file in `docs/locations/` **must** follow this pattern:
+Location-specific docs mirror the web page hierarchy exactly. The full path pattern is:
 
 ```
-{specialty}-{suburb}-{state}.md
+docs/medical/{specialty}/{suburb}-{state}.md
 ```
 
 | Segment | Format | Examples |
 |---|---|---|
-| `{specialty}` | Lowercase kebab-case specialty | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
+| `{specialty}` | Lowercase kebab-case specialty (folder) | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
 | `{suburb}` | Lowercase kebab-case suburb | `macquarie-park`, `surry-hills`, `north-ryde` |
 | `{state}` | State/territory abbreviation | `nsw`, `vic`, `qld`, `sa`, `wa`, `tas`, `act`, `nt` |
 
 **Examples:**
-- `dental-macquarie-park-nsw.md` — dental clinics in Macquarie Park, NSW
-- `endocrinology-north-sydney-nsw.md` — endocrinology practices in North Sydney, NSW
-- `general-practice-parramatta-nsw.md` — GP clinics in Parramatta, NSW
-- `pharmacy-chatswood-nsw.md` — pharmacies in Chatswood, NSW
-
-The corresponding web page lives at `medical/{specialty}/{suburb}/index.html` (URL: `/medical/dental/macquarie-park/`).
+- `docs/medical/dental/macquarie-park-nsw.md` → web: `medical/dental/macquarie-park/`
+- `docs/medical/endocrinology/north-sydney-nsw.md` → web: `medical/endocrinology/north-sydney/`
+- `docs/medical/general-practice/parramatta-nsw.md` → web: `medical/general-practice/parramatta/`
+- `docs/medical/pharmacy/chatswood-nsw.md` → web: `medical/pharmacy/chatswood/`
 
 ---
 
@@ -148,7 +149,7 @@ Australia operates a universal public healthcare system called **Medicare**, fun
 → **Dental — NSW:** [`medical/dental/`](medical/dental/index.html)
 → **Dental — Macquarie Park NSW 2113:** [`medical/dental/macquarie-park/`](medical/dental/macquarie-park/index.html)
 → **Endocrinology & Metabolism:** [`medical/endocrinology/`](medical/endocrinology/index.html)
-→ **Location index:** [`docs/locations/dental-macquarie-park-nsw.md`](docs/locations/dental-macquarie-park-nsw.md)
+→ **Location index:** [`docs/medical/dental/macquarie-park-nsw.md`](docs/medical/dental/macquarie-park-nsw.md)
 
 ---
 
