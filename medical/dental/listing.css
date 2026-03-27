@@ -749,6 +749,163 @@ a.btn-view-profile {
   text-align: center;
 }
 
+/* ─── SUBURB DIRECTORY BLOCK ─────────────────────────── */
+.suburb-directory {
+  background: linear-gradient(135deg, #0d2018 0%, #0a1a10 100%);
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(113, 220, 138, 0.14);
+  overflow: hidden;
+}
+.suburb-dir-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-4) var(--sp-5);
+  border-bottom: 1px solid rgba(62, 74, 62, 0.18);
+}
+.suburb-dir-icon {
+  width: 15px;
+  height: 15px;
+  color: var(--clr-primary);
+  flex-shrink: 0;
+}
+.suburb-dir-label {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-primary);
+}
+.suburb-dir-count {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  color: var(--clr-outline);
+  margin-left: auto;
+}
+.suburb-dir-list {
+  list-style: none;
+  padding: var(--sp-2) var(--sp-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+.suburb-dir-link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-3);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+  border: 1px solid transparent;
+}
+.suburb-dir-link:hover,
+.suburb-dir-link:focus-visible {
+  background: rgba(113, 220, 138, 0.06);
+  border-color: rgba(113, 220, 138, 0.2);
+  outline: none;
+}
+.suburb-dir-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+.suburb-dir-name {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--clr-on-surface);
+}
+.suburb-dir-meta {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--clr-outline);
+}
+.suburb-dir-chips {
+  display: flex;
+  gap: var(--sp-1);
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.suburb-dir-chip {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--clr-primary);
+  background: rgba(113, 220, 138, 0.08);
+  border: 1px solid rgba(113, 220, 138, 0.2);
+  border-radius: 4px;
+  padding: 2px 6px;
+  white-space: nowrap;
+}
+.suburb-dir-arrow {
+  color: var(--clr-primary);
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: transform 0.15s, opacity 0.15s;
+}
+.suburb-dir-link:hover .suburb-dir-arrow { transform: translateX(2px); opacity: 1; }
+
+/* ─── MAP PANEL — SUBURB QUICK-LINK ──────────────────── */
+.map-suburb-link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-4);
+  margin: var(--sp-3) var(--sp-2) 0;
+  background: rgba(113, 220, 138, 0.06);
+  border: 1px solid rgba(113, 220, 138, 0.18);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.map-suburb-link:hover,
+.map-suburb-link:focus-visible {
+  background: rgba(113, 220, 138, 0.12);
+  border-color: rgba(113, 220, 138, 0.35);
+  outline: none;
+}
+.map-suburb-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(113, 220, 138, 0.12);
+  color: var(--clr-primary);
+  flex-shrink: 0;
+}
+.map-suburb-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  min-width: 0;
+}
+.map-suburb-name {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--clr-on-surface);
+}
+.map-suburb-meta {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  color: var(--clr-outline);
+}
+.map-suburb-arrow {
+  color: var(--clr-primary);
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: transform 0.15s, opacity 0.15s;
+}
+.map-suburb-link:hover .map-suburb-arrow { transform: translateX(2px); opacity: 1; }
+
 /* ─── RESPONSIVE ─────────────────────────────────────── */
 @media (max-width: 1100px) {
   .map-panel { width: 300px; }

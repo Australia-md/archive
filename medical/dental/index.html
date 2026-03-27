@@ -123,6 +123,35 @@
     <!-- LEFT: Clinic list -->
     <main class="clinic-list" id="clinic-list" aria-label="Dental clinic listings">
 
+      <!-- Suburb Directory -->
+      <section class="suburb-directory fade-in-up" aria-label="Browse dental clinics by suburb">
+        <div class="suburb-dir-header">
+          <svg class="suburb-dir-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 3H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M13 3h4v4M10 10l7-7"/>
+          </svg>
+          <span class="suburb-dir-label">Browse by Suburb</span>
+          <span class="suburb-dir-count">1 suburb directory</span>
+        </div>
+        <ul class="suburb-dir-list">
+          <li>
+            <a href="macquarie-park/" class="suburb-dir-link" aria-label="View dental clinics in Macquarie Park NSW 2113 — 5 clinics">
+              <span class="suburb-dir-info">
+                <span class="suburb-dir-name">Macquarie Park</span>
+                <span class="suburb-dir-meta">NSW 2113 &nbsp;·&nbsp; 5 verified clinics &nbsp;·&nbsp; near Macquarie University Station</span>
+              </span>
+              <span class="suburb-dir-chips">
+                <span class="suburb-dir-chip">General</span>
+                <span class="suburb-dir-chip">Cosmetic</span>
+                <span class="suburb-dir-chip">Implants</span>
+              </span>
+              <svg class="suburb-dir-arrow" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 5l5 5-5 5"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+
       <!-- Card 1 -->
       <article class="clinic-card fade-in-up" id="clinic-1" data-clinic="1">
         <div class="clinic-card-header">
@@ -214,22 +243,6 @@
           <button class="btn-map-focus" data-clinic-id="3" aria-label="Show on map"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 3L3 5v12l4-2 6 2 4-2V3l-4 2-6-2z"/><path stroke-linecap="round" d="M9 3v12M13 5v12"/></svg></button>
         </div>
       </article>
-
-      <!-- Suburb Directory Link -->
-      <aside class="fade-in-up" style="padding:var(--sp-5) var(--sp-6);background:#0F251A;border-radius:var(--radius-xl);outline:1px solid rgba(62,74,62,0.15);outline-offset:-1px;">
-        <div style="font-family:var(--font-body);font-size:0.65rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--clr-outline);margin-bottom:var(--sp-3);">Browse by Suburb</div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:var(--sp-2);">
-          <li>
-            <a href="macquarie-park/" style="display:flex;align-items:center;justify-content:space-between;padding:var(--sp-3) var(--sp-4);background:rgba(62,74,62,0.08);border-radius:var(--radius-md);text-decoration:none;transition:background 0.15s;" onmouseover="this.style.background='rgba(113,220,138,0.08)'" onmouseout="this.style.background='rgba(62,74,62,0.08)'">
-              <span>
-                <span style="font-family:var(--font-body);font-size:0.875rem;font-weight:600;color:var(--clr-on-surface);">Macquarie Park</span>
-                <span style="font-family:var(--font-body);font-size:0.72rem;color:var(--clr-outline);margin-left:var(--sp-2);">NSW 2113 · 5 clinics</span>
-              </span>
-              <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--clr-primary);flex-shrink:0;" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 7l6 3-6 3V7z"/></svg>
-            </a>
-          </li>
-        </ul>
-      </aside>
 
       <!-- Card 4 -->
       <article class="clinic-card fade-in-up" id="clinic-4" data-clinic="4">
@@ -323,6 +336,23 @@
             <text x="340" y="50" fill="#1a2d1f" font-size="8" font-family="Inter, sans-serif">NSW</text>
           </svg>
         </div>
+
+        <!-- Suburb quick-link in map panel -->
+        <a href="macquarie-park/" class="map-suburb-link" aria-label="View Macquarie Park dental directory — 5 clinics">
+          <span class="map-suburb-pin" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 17.5S3 11.43 3 7a7 7 0 1114 0c0 4.43-7 10.5-7 10.5z"/>
+              <circle cx="10" cy="7" r="2"/>
+            </svg>
+          </span>
+          <span class="map-suburb-info">
+            <span class="map-suburb-name">Macquarie Park</span>
+            <span class="map-suburb-meta">NSW 2113 · 5 clinics</span>
+          </span>
+          <svg class="map-suburb-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 5l5 5-5 5"/>
+          </svg>
+        </a>
 
         <!-- Mini clinic list below map -->
         <div class="map-clinic-list" id="map-clinic-list" aria-label="Quick clinic reference">
