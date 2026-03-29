@@ -49,8 +49,6 @@ Thumbs.db
 # ==========================================
 # Web / Node
 node_modules/
-dist/
-build/
 .npm/
 
 # Java / Kotlin

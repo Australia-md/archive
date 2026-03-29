@@ -4,7 +4,7 @@
 
 [![Licence: AGPL-3.0 / Commercial](https://img.shields.io/badge/licence-AGPL--3.0%20%2F%20Commercial-green)](#licence)
 [![Version](https://img.shields.io/badge/version-1.1.0-blue)](#)
-[![Last Verified](https://img.shields.io/badge/last%20verified-2026--03--27-brightgreen)](#)
+[![Last Verified](https://img.shields.io/badge/last%20verified-2026--03--29-brightgreen)](#)
 [![W3C WCAG 2.1 AA](https://img.shields.io/badge/accessibility-WCAG%202.1%20AA-blue)](#)
 
 ---
@@ -26,31 +26,17 @@ It is designed to be consumed by:
 ```
 Australia.md                          ← Root index (start here)
 docs/                                 ← Domain topic files (one per domain)
-  geography.md
-  government.md
-  economy.md
-  medical.md
-  education.md
-  flora-fauna.md
-  history.md
-  culture.md
-  technology.md
-  tourism.md
-  indigenous.md
-  environment.md
+  geography.md, government.md, economy.md, medical.md,
+  education.md, flora-fauna.md, history.md, culture.md,
+  technology.md, tourism.md, indigenous.md, environment.md
 docs/medical/                         ← Location-specific specialty data (mirrors web)
-  dental/
-    macquarie-park-nsw.md             ← Example: dental clinics, Macquarie Park NSW
-  endocrinology/
-    …
+  dental/, endocrinology/, general-practice/, pharmacy/
 medical/                              ← Web interface
-  index.html                          ← Medical Directory
-  dental/                             ← Dental specialists (NSW)
-    index.html
-    macquarie-park/                   ← Suburb-level clinic listing
-      index.html
-  endocrinology/                      ← Endocrinology & Metabolism (NSW)
-    index.html
+  index.html, dental/, endocrinology/
+src/                                  ← TypeScript source
+  main.ts
+dist/                                 ← Compiled JavaScript output
+  main.js
 index.html                            ← Main web interface
 style.css                             ← Design system ("The Sovereign Archive")
 ```
@@ -64,84 +50,64 @@ Location-specific specialty files live at `docs/medical/{specialty}/{suburb}-{st
 | `docs/medical/dental/macquarie-park-nsw.md` | `medical/dental/macquarie-park/index.html` |
 | `docs/medical/endocrinology/north-sydney-nsw.md` | `medical/endocrinology/north-sydney/index.html` |
 
-| Segment | Format | Examples |
-|---|---|---|
-| `{specialty}` | Lowercase kebab-case (folder) | `dental`, `endocrinology`, `general-practice`, `pharmacy` |
-| `{suburb}` | Lowercase kebab-case | `macquarie-park`, `surry-hills`, `north-ryde` |
-| `{state}` | State/territory abbreviation | `nsw`, `vic`, `qld`, `sa`, `wa`, `tas`, `act`, `nt` |
-
 ---
 
 ## Knowledge Categories
 
-| # | Category | Entries | Detail File |
-|---|---|---|---|
-| 1 | Medical & Healthcare | 8 | [`docs/medical.md`](docs/medical.md) |
-| 2 | Technology & AI | 12 | [`docs/technology.md`](docs/technology.md) |
-| 3 | Flora & Fauna | 18 | [`docs/flora-fauna.md`](docs/flora-fauna.md) |
-| 4 | History & Heritage | 16 | [`docs/history.md`](docs/history.md) |
-| 5 | Tourism & Travel | 11 | [`docs/tourism.md`](docs/tourism.md) |
-| 6 | Economy & Industry | 14 | [`docs/economy.md`](docs/economy.md) |
-| 7 | Arts, Culture & Sport | 9 | [`docs/culture.md`](docs/culture.md) |
-| 8 | Indigenous Australia | 13 | [`docs/indigenous.md`](docs/indigenous.md) |
-| 9 | Environment & Climate | 15 | [`docs/environment.md`](docs/environment.md) |
-| 10 | Geography & Regions | 20 | [`docs/geography.md`](docs/geography.md) |
-| 11 | Government & Policy | 19 | [`docs/government.md`](docs/government.md) |
-| 12 | Education & Learning | 17 | [`docs/education.md`](docs/education.md) |
+| # | Category | Detail File |
+|---|---|---|
+| 1 | Medical & Healthcare | [`docs/medical.md`](docs/medical.md) |
+| 2 | Technology & AI | [`docs/technology.md`](docs/technology.md) |
+| 3 | Flora & Fauna | [`docs/flora-fauna.md`](docs/flora-fauna.md) |
+| 4 | History & Heritage | [`docs/history.md`](docs/history.md) |
+| 5 | Tourism & Travel | [`docs/tourism.md`](docs/tourism.md) |
+| 6 | Economy & Industry | [`docs/economy.md`](docs/economy.md) |
+| 7 | Arts, Culture & Sport | [`docs/culture.md`](docs/culture.md) |
+| 8 | Indigenous Australia | [`docs/indigenous.md`](docs/indigenous.md) |
+| 9 | Environment & Climate | [`docs/environment.md`](docs/environment.md) |
+| 10 | Geography & Regions | [`docs/geography.md`](docs/geography.md) |
+| 11 | Government & Policy | [`docs/government.md`](docs/government.md) |
+| 12 | Education & Learning | [`docs/education.md`](docs/education.md) |
 
 ---
 
 ## Tech Stack
 
+- **TypeScript** — strict mode, compiled via `tsc` to `dist/`
 - **HTML5** — semantic markup, W3C valid
 - **CSS3** — custom properties design system ("The Sovereign Archive / Continental Grid")
-- **Vanilla JavaScript** — no framework dependencies
+- **No frameworks** — no React, Vue, Tailwind, or similar
 - **Fonts** — Space Grotesk (headlines) + Inter (body) via Google Fonts
-- **Standards** — WCAG 2.1 AA · WAI-ARIA 1.2 · Schema.org JSON-LD
+- **Standards** — WCAG 2.1 AA · WAI-ARIA 1.2 · Schema.org JSON-LD · SEO/GEO/AEO
+
+---
+
+## Governance
+
+This project is governed by a **[constitution](.specify/memory/constitution.md)** that defines:
+- **Core Principles** — accuracy, TypeScript/HTML/CSS stack, accessibility (WCAG 2.1 AA), security
+- **Standards** — SEO, Generative Engine Optimisation (GEO), Answer Engine Optimisation (AEO)
+- **Design Identity** — dark mode, archival aesthetic, Australian Green & Gold palette
+- **Development Workflow** — speckit-driven development for advanced features
+
+All AI agents (ChatGPT, Claude, Gemini, Copilot) and human contributors follow this constitution as the single source of truth for project standards.
 
 ---
 
 ## Contributing
 
-We welcome pull requests! Please ensure your contribution aligns with our formatting standards and strict security policies before submitting.
+See **[`CONTRIBUTING.md`](CONTRIBUTING.md)** for the full contributor guide.
 
-### How to Contribute
-
-1. **Fork** the repository
-2. **Create** your feature branch
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. **Read `Australia.md`** — all contributions must align with the existing archive structure
-4. **Follow the content conventions** in [`CLAUDE.md`](CLAUDE.md) — especially:
-   - Place new topic files in `docs/`
-   - Place location-specific specialty files in `docs/medical/{specialty}/` using the filename pattern `{suburb}-{state}.md` (e.g. `docs/medical/dental/macquarie-park-nsw.md`)
-   - Update `Australia.md` to reference new content
-   - Update `sitemap.xml` if adding new HTML pages
-   - All markup must be W3C-valid HTML5
-   - Follow SEO/GEO/AEO standards (meta tags, Schema.org JSON-LD, canonical URLs)
-5. **Commit** your changes
-   ```bash
-   git commit -m 'Add: brief description of your contribution'
-   ```
-6. **Push** to your branch
-   ```bash
-   git push origin feature/YourFeature
-   ```
-7. **Open a Pull Request** — describe what you changed and why
-
-### Contribution Standards
-
-- All data must be verifiable against official Australian government or statutory authority sources
-- Medical content: defer to AHPRA and Services Australia — do not synthesise clinical advice
-- Indigenous content: handle with cultural respect and defer to NIAA and community sources
-- Do not commit sensitive data (API keys, credentials, private keys) — see [`SECURITY.md`](SECURITY.md)
-- Code must be W3C-valid, WCAG 2.1 AA compliant, and free of `innerHTML` with unsanitised input
-- Dependencies with licences incompatible with AGPL-3.0 must not be introduced
+**Quick start:**
+1. Fork the repo and create a feature branch
+2. Read `Australia.md` to understand the archive structure
+3. Follow the [constitution](.specify/memory/constitution.md) for all standards
+4. Run `npm run build` before committing
+5. Open a pull request
 
 ### Security Issues
 
-Do **not** open a public issue for security vulnerabilities. See [`SECURITY.md`](SECURITY.md) for the responsible disclosure process.
+Do **not** open a public issue for security vulnerabilities. See [`SECURITY.md`](Security.md) for the responsible disclosure process.
 
 ---
 
