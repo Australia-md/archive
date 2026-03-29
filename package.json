@@ -1,0 +1,24 @@
+{
+  "name": "australia-md",
+  "version": "1.1.0",
+  "description": "Australia.md — Sovereign Knowledge Archive. Structured, machine-readable data about Australia.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Australia-md/archive.git"
+  },
+  "keywords": ["australia", "knowledge-base", "open-data"],
+  "author": "Australia.md project",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Australia-md/archive/issues"
+  },
+  "homepage": "https://australia.md",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
