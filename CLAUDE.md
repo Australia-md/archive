@@ -1,5 +1,7 @@
 # CLAUDE.md — Claude/Copilot Agent Context
 
+> ⚠️ **Before modifying this file:** If the content you are adding applies to more than one agent file, it belongs in [`.specify/memory/constitution.md`](.specify/memory/constitution.md) — not here. This file is for Claude-specific behaviour only. Anything shared across agents is constitution content.
+
 > **Authoritative source:** All project standards are defined in the [constitution](.specify/memory/constitution.md). This file provides Claude-specific behavioural rules only. Do not duplicate constitution content here.
 
 ---
@@ -14,6 +16,7 @@ Before making any changes, read these files in order:
 4. **[`README.md`](README.md)** — Project overview and tech stack
 5. **[`CONTRIBUTING.md`](CONTRIBUTING.md)** — Contributor guide and file conventions
 6. **[`Security.md`](Security.md)** — Security policies and responsible disclosure
+7. **[`HTML_template.md`](HTML_template.md)** — Canonical HTML structure and rules for generating `medical/dental/{suburb}/index.html` pages. Read this before generating any dental listing page — do not read existing HTML files for template reference.
 
 ---
 
@@ -33,6 +36,7 @@ Before making any changes, read these files in order:
 - **CSS custom properties** — no Sass, Less, or Tailwind.
 - **WCAG 2.1 AA** — contrast ratios, keyboard access, ARIA roles.
 - Run `npm run build` to verify TypeScript compiles before suggesting commits.
+- **Dental listing pages** — always use `HTML_template.md` as the sole structural reference. Never read an existing `index.html` to derive template structure.
 
 ### 4. Content quality
 - All factual claims must be verifiable against authoritative Australian sources.
@@ -46,3 +50,10 @@ Before making any changes, read these files in order:
 - Direct answer format: fact first, then context.
 
 If uncertain, default to: **verify, simplify, cite, and preserve structure.**
+
+## Active Technologies
+- TypeScript 5.x (strict mode, per constitution) + Node.js 20 (Actions runner) (001-simple-md-submission)
+- No database. GitHub Issues = submission queue. Repository files = accepted content. (001-simple-md-submission)
+
+## Recent Changes
+- 001-simple-md-submission: Added TypeScript 5.x (strict mode, per constitution) + Node.js 20 (Actions runner)

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO -->
+  <title>Submit Content — Sovereign Archive | Australia.md</title>
+  <meta name="description" content="Contribute verified facts, medical practices, legislation, cultural sites and statistical data to the Australia.md open archive. Submissions are AI-verified against authoritative Australian sources.">
+  <link rel="canonical" href="https://australiamd.org/submit/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Submit Content — Sovereign Archive | Australia.md">
+  <meta property="og:description" content="Contribute verified Australian facts to the open archive. AI-powered verification against gov.au and edu.au sources.">
+  <meta property="og:url" content="https://australiamd.org/submit/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Australia.md">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Submit Content — Sovereign Archive | Australia.md">
+  <meta name="twitter:description" content="Contribute verified Australian facts to the open archive.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Submit Content — Sovereign Archive | Australia.md",
+    "description": "Contribute verified facts to the Australia.md open archive.",
+    "url": "https://australiamd.org/submit/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Australia.md",
+      "url": "https://australiamd.org/"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://australiamd.org/" },
+        { "@type": "ListItem", "position": 2, "name": "Submit", "item": "https://australiamd.org/submit/" }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- System Status Banner -->
+  <output id="status-banner" role="status" aria-live="polite" aria-atomic="true">
+    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+    <span class="status-text"></span>
+  </output>
+
+  <header class="site-header">
+    <div class="nav-brand-group">
+      <span class="material-symbols-outlined nav-icon" data-icon="account_balance">account_balance</span>
+      <a class="nav-brand" href="/">Sovereign Archive</a>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <header class="page-heading">
+      <h1>Submit New <br><span class="text-primary">Information</span></h1>
+      <p class="lead">Contribute to the collective intelligence. Ensure all data follows our editorial standards for factual integrity.</p>
+    </header>
+
+    <form id="submission-form" class="form-grid" novalidate>
+      <div class="form-group-cluster">
+        <div class="field-group" id="group-category">
+          <label for="category"><span class="dot"></span> Category</label>
+          <div class="input-wrapper">
+            <select id="category" name="category" required aria-describedby="error-category" aria-required="true">
+              <option value="" disabled selected>Select a category…</option>
+            </select>
+            <span class="material-symbols-outlined select-icon">expand_more</span>
+          </div>
+          <p class="field-error" id="error-category" role="alert" aria-live="assertive"></p>
+        </div>
+
+        <div class="field-group" id="group-template" style="margin-top: 1.5rem;">
+          <label for="template"><span class="dot"></span> Template</label>
+          <div class="input-wrapper">
+            <select id="template" name="template" required aria-describedby="error-template" aria-required="true" disabled>
+              <option value="" disabled selected>Select a template…</option>
+            </select>
+            <span class="material-symbols-outlined select-icon">expand_more</span>
+          </div>
+          <p class="field-error" id="error-template" role="alert" aria-live="assertive"></p>
+        </div>
+      </div>
+
+      <div class="form-group-cluster">
+        <div class="field-group" id="group-source-url">
+          <label for="source-url"><span class="dot"></span> Fact-check URL</label>
+          <div class="input-wrapper">
+            <input type="url" id="source-url" name="sourceUrl" required
+              aria-describedby="error-source-url" aria-required="true"
+              placeholder="https://source.authority.org/veritas">
+          </div>
+          <p class="field-error" id="error-source-url" role="alert" aria-live="assertive"></p>
+        </div>
+
+        <div class="field-group" id="group-email" style="margin-top: 1.5rem;">
+          <label for="contributor-email"><span class="dot"></span> Contributor Email Address</label>
+          <div class="input-wrapper">
+            <input type="email" id="contributor-email" name="contributorEmail" required
+              aria-describedby="error-email" aria-required="true"
+              placeholder="archivist@institution.com">
+          </div>
+          <p class="field-error" id="error-email" role="alert" aria-live="assertive"></p>
+        </div>
+      </div>
+
+      <div class="field-group" id="group-content">
+        <div class="field-header">
+          <label for="content"><span class="dot"></span> Markdown Content</label>
+          <span class="rich-text-indicator">Rich Text Enabled</span>
+        </div>
+        <textarea id="content" name="content" required
+          aria-describedby="error-content"
+          aria-required="true"
+          placeholder="# Headline&#10;&#10;Enter your archival data here using standard markdown syntax..."></textarea>
+        <p class="field-error" id="error-content" role="alert" aria-live="assertive"></p>
+      </div>
+
+      <p class="field-error" id="error-form" role="alert" aria-live="assertive"></p>
+
+      <div class="form-actions">
+        <button type="submit" id="submit-btn" class="group">
+          SUBMIT TO ARCHIVE
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </button>
+        <p class="form-disclaimer">Submission implies agreement with editorial bylaws.</p>
+      </div>
+    </form>
+
+    <section class="editorial-anchor">
+      <div class="editorial-card group">
+        <div class="editorial-glow"></div>
+        <h3>Editorial Excellence</h3>
+        <p>Our curators review every submission for linguistic precision and source validity. Submissions typically undergo verification within 48 standard operating hours.</p>
+        <div class="editorial-metrics">
+          <div class="metric">
+            <span class="metric-label">Accuracy Rate</span>
+            <span class="metric-value">99.8%</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric">
+            <span class="metric-label">Global Reach</span>
+            <span class="metric-value">142</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="font-display">SOVEREIGN ARCHIVE</span>
+        <p>© 2024 Sovereign Archive. Editorial Excellence in Information.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Submission Guidelines</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Institutional Access</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../dist/submission/form.js"></script>
+</body>
+</html>

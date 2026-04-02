@@ -24,10 +24,25 @@ aws_credentials
 .npmrc
 .ssh/
 
+
 # ==========================================
 # 🤖 OpenCLAW Agent Staging Area (safety net — actual staging is at ~/.openclaw/)
 # ==========================================
 .openclaw/
+
+# OpenCLAW scheduled job prompt (local config — not for version control)
+openclaw-dental-cronjob-prompt.md
+
+# ==========================================
+# 🔒 RxAI PREMIUM WORK — PRIVATE (never commit to public repo)
+# ==========================================
+# These folders contain proprietary RxAI premium features.
+# They are protected by git hooks, but this rule adds an extra safety layer
+# on public branches (main, scheduling-branch, 001-*).
+# Private branches (002-*, 003-*) can commit to these folders freely;
+# the pre-push hook will block them from reaching the public remote.
+specs/002-rxai-premium-submission/
+specs/003-rxai-premium-submission/
 
 # ==========================================
 # 💻 Operating System & IDE Files
@@ -72,3 +87,11 @@ out/
 .pub-cache/
 .pub/
 build/
+
+# Miscellaneous
+debugImage/
+
+# Specific Specs
+/specs/002-rxai-premium-submission/
+/specs/003-rxai-premium-submission/
+openclaw-dental-cronjob-prompt.md
