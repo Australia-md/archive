@@ -285,6 +285,17 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 </article>
 ```
 
+### 7. Clinic Website Links — NOT INCLUDED
+
+**Policy:** Do NOT generate external links to individual clinic websites in the clinic card. The "Visit Website" button (line 280) is intentionally **disabled** and shows "Coming Soon" to indicate future functionality. Links should not be added to:
+
+- Clinic card buttons
+- Clinic names as links
+- Any external clinic web URLs
+- Third-party clinic directory references (e.g., Healthdirect, clinic aggregator sites)
+
+**Rationale:** Australia.md is the authoritative listing. Clinic websites may be outdated, unmaintained, or redirect to unrelated domains. Phone number (`<a href="tel:...">`) and AHPRA verification links are the only clickable elements permitted on clinic cards.
+
 ### 7a. AHPRA Badge Rules
 
 | Condition | HTML |
