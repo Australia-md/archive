@@ -7,6 +7,7 @@ interface FrontmatterFileContent {
   sourceUrl: string;
   lastVerified: string;
   submissionIssue: string;
+  ahpraStatus: string;
   content: string;
 }
 
@@ -45,7 +46,7 @@ function getFirstHeading(content: string): string {
 }
 
 function buildFileContent(data: FrontmatterFileContent): string {
-  return `---\ntitle: ${data.title}\ncategory: ${data.category}\nsourceUrl: ${data.sourceUrl}\nlastVerified: ${data.lastVerified}\nsubmissionIssue: ${data.submissionIssue}\n---\n\n${data.content}\n`;
+  return `---\ntitle: ${data.title}\ncategory: ${data.category}\nsourceUrl: ${data.sourceUrl}\nlastVerified: ${data.lastVerified}\nsubmissionIssue: ${data.submissionIssue}\nahpraStatus: ${data.ahpraStatus}\n---\n\n${data.content}\n`;
 }
 
 function getArchivePath(contentPath: string, dateStamp: string): string {
@@ -182,6 +183,7 @@ async function run(): Promise<void> {
     sourceUrl,
     lastVerified: dateStamp,
     submissionIssue: String(issueNumber),
+    ahpraStatus: 'unverified',
     content,
   });
 

@@ -238,6 +238,15 @@ a.lbc-item:hover { color: var(--clr-primary); }
   height: 10px;
   color: var(--clr-primary);
 }
+.ahpra-badge--pending,
+.ahpra-badge.ahpra-unverified {
+  background: rgba(180, 100, 0, 0.1);
+  color: #7a4500;
+}
+.ahpra-badge--pending .ahpra-icon,
+.ahpra-badge.ahpra-unverified .ahpra-icon {
+  color: #7a4500;
+}
 
 /* Meta row (address / hours) */
 .clinic-meta-row {
