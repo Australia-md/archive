@@ -2,7 +2,7 @@
 
 **Phase**: 1 — Design  
 **Branch**: `001-simple-md-submission`  
-**Date**: 2026-03-30
+**Date**: 2026-04-02
 
 The AI Verification Agent is a TypeScript script (`.github/scripts/verify-agent.ts`) executed inside a GitHub Action. It is the intelligence layer of the pipeline: it fetches the source URL, calls the GitHub Models API, interprets the response, and outputs a structured result that the workflow acts on.
 
@@ -153,8 +153,11 @@ When `VERIFIED` (or admin applies "Verified" label):
    sourceUrl: https://www.health.gov.au/...
    lastVerified: 2026-03-30
    submissionIssue: 42
+   ahpraStatus: unverified
    ---
    ```
+
+> **FR-011**: `ahpraStatus` is always written as `unverified` for community submissions. This field drives the "AHPRA Unverified" badge displayed on the public-facing page. It MUST NOT be overwritten by this script. Upgrading to `verified` is reserved for spec 002 or an explicit admin process.
 
 3. **Commit via GitHub API** (`PUT /repos/{owner}/{repo}/contents/{path}`)
 

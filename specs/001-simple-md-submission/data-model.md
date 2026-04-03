@@ -2,7 +2,7 @@
 
 **Phase**: 1 — Design  
 **Branch**: `001-simple-md-submission`  
-**Date**: 2026-03-30
+**Date**: 2026-04-02
 
 ---
 
@@ -135,12 +135,13 @@ Issue opened (pending-review)
 
 The Markdown file created on VERIFIED outcome.
 
-| Field | Value | Notes |
-|---|---|---|
-| `path` | `docs/{category}/{slug}.md` | Derived from category and content heading |
-| `slug` | kebab-case from content `# heading` | e.g. `docs/health/royal-north-shore-hospital.md` |
-| `content` | Submitted content (verbatim) | AI-verified before writing |
-| `frontmatter` | Auto-generated | Includes `lastVerified`, `sourceUrl`, `category` |
+| Field | Value | Set by | Notes | Rationale |
+|---|---|---|---|---|
+| `path` | `docs/{category}/{slug}.md` | Pipeline | Derived from category and content heading | — |
+| `slug` | kebab-case from content `# heading` | Pipeline | e.g. `docs/health/royal-north-shore-hospital.md` | — |
+| `content` | Submitted content (verbatim) | Pipeline | AI-verified before writing | — |
+| `frontmatter` | Auto-generated | Pipeline | Includes `lastVerified`, `sourceUrl`, `category` | — |
+| `ahpraStatus` | `"unverified"` | Auto-set | Always `unverified` for community submissions | AHPRA credential not verified — upgraded to `verified` via spec 002 or admin |
 
 **Frontmatter format**:
 ```markdown
@@ -150,6 +151,7 @@ category: Health
 sourceUrl: https://www.health.gov.au/...
 lastVerified: 2026-03-30
 submissionIssue: 42
+ahpraStatus: unverified
 ---
 ```
 
@@ -208,9 +210,9 @@ interface AuthorizedDomain {
     → Admin override (label "Rejected") → admin-override.yml fires → Close Issue → Email contributor
 ```
 
----
+> **Note**: All content files created by this pipeline carry `ahpraStatus: unverified` in frontmatter (FR-011). This field is set by `create-content-file.ts` and is immutable within the community pipeline. Spec 002 (RxAI Premium) provides the upgrade path to `verified`.
 
-## Validation Rules
+---
 
 | Rule | Where enforced | Error message |
 |---|---|---|

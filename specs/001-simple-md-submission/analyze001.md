@@ -59,6 +59,7 @@
 | FR-008 VERIFIED path (archive + PR) | ✅ | T033, T034 | create-content-file.ts |
 | FR-009 REJECTED path | ✅ | T034, T035, T036 | Workflow + email |
 | FR-010 /api/status endpoint | ⚠️ | T025, T026, T043 | Derives Issues quota; does NOT cover Models quota or Action→Worker status update (**B2, E2**) |
+| FR-011 AHPRA Unverified badge | ❌ | — | Added 2026-04-02; no task at time of this report |
 | SC-001 < 3 min UX | ✅ (indirect) | T015–T021 | UX quality, not measurable build item |
 | SC-002 100% correct categorization | ✅ | T016, T017 | Category → template selection |
 | SC-003 Pipeline < 5 min | ⚠️ | — | Operational; no performance test task |
@@ -98,7 +99,7 @@ All tasks (T001–T049) map to at least one functional requirement or user story
 
 | Metric | Value |
 |--------|-------|
-| Total FRs | 10 (FR-001–FR-010, some multi-part) |
+| Total FRs | 11 (FR-001–FR-011, some multi-part) |
 | Total Edge Cases | 9 (EC-001–EC-009) |
 | Total Success Criteria | 5 (SC-001–SC-005) |
 | Total Tasks | 49 (T001–T049) |
@@ -177,3 +178,5 @@ The highest-value fixes to apply before implementation start are the **5 CRITICA
 3. **Update spec.md FR-006 and FR-010** to encode the resolved mechanisms explicitly
 
 Reply **"yes, fix all"**, **"fix critical only"**, or specify which finding IDs to address.
+
+> **Post-report addition (2026-04-02)**: FR-011 (AHPRA Unverified badge) added to spec. Requires: (1) `ahpraStatus: unverified` frontmatter field in `create-content-file.ts` (update T033); (2) badge rendering on public pages (new T055). See analyze002.md for updated coverage.

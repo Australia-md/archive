@@ -248,6 +248,14 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
     </div>
   </div>
 
+  <!-- Billing note — include only if billing/bulk bill data present in source -->
+  <!-- Use one of the two variants below; omit entire block if billing data absent -->
+  <div class="clinic-billing-note" aria-label="Billing information">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
+    Fees apply · No bulk billing
+    <!-- OR for mixed billing: Mixed billing · Bulk billing available with conditions · <a href="https://www.servicesaustralia.gov.au/child-dental-benefits-schedule" target="_blank" rel="noopener noreferrer">CDBS eligible</a> -->
+  </div>
+
   <!-- Practitioners section -->
   <section class="clinic-practitioners" aria-label="Registered practitioners at {Clinic Name}">
     <div class="practitioners-label">Registered Practitioners</div>

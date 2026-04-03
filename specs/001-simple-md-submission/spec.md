@@ -2,8 +2,8 @@
 
 **Feature Branch**: `001-simple-md-submission`
 **Created**: 2026-03-30
-**Updated**: 2026-03-30
-**Status**: Implementation Ready
+**Updated**: 2026-04-02
+**Status**: Draft — Clarified
 **Input**: User description: "I would like to create a UX interface that is very simple for non-technical users who can submit their md file to GitHub. There should be an easy category selection, the format of md template to choose, and where the fact-check URL will be entered so our GitHub Action can validate the URL from an authorised source with content. Verification uses an AI agent (GitHub Models API) for semantic fact-checking, and submissions are staged as GitHub Issues before any file enters the codebase."
 
 ---
@@ -28,11 +28,13 @@ The free Community Web Form serves the Blueprint's critical growth assumption: r
 
 ### What This Spec Does NOT Cover
 
-The **RxAI Premium Submission Suite** (planned as spec `002-rxai-premium-submission`) will add paid features on top of this pipeline, including: priority AI verification, AHPRA credential pre-fill, bulk submission, submission analytics dashboard, draft/preview, and PMS data import. That spec is a separate deliverable with its own requirements, authentication layer, and deployment target (`app.rxai.com.au`).
+The **RxAI Premium Submission Suite** (planned as spec `002-rxai-premium-submission`) will add paid features on top of this pipeline, including: priority AI verification, AHPRA credential pre-fill, bulk submission, submission analytics dashboard, draft/preview, and PMS data import. That spec is a separate deliverable with its own requirements, authentication layer, and deployment target (`ausmd.rxai.com.au`).
+
+**AHPRA verification is explicitly out of scope for this tier.** This submission pipeline does not check submitted practitioner details against the AHPRA register. All content submitted via this form MUST be labelled **"AHPRA Unverified"** on the public-facing web page until credential verification is performed through a future paid tier or manual admin process.
 
 ### Deployment Target
 
-The Community Web Form is part of the Australia.md open-source project and is deployed to `australiamd.org/submit/` (or equivalent static hosting alongside the main site). It is **not** hosted on RxAI infrastructure.
+The Community Web Form is part of the Australia.md open-source project and is deployed to `australia.md/submit/` (or equivalent static hosting alongside the main site). It is **not** hosted on RxAI infrastructure.
 
 ---
 
@@ -124,6 +126,7 @@ As a site administrator, I want to be able to manually override the AI Verificat
 - **FR-008**: When the AI Verification Agent returns `VERIFIED`, the system MUST: (1) check if the target file path already exists; (2) if it exists, archive the current file by copying it to `{slug}-archived-YYYY-MM-DD.md` in the same directory; (3) write the new verified content to the original path; (4) open a Pull Request referencing the originating Issue with the archive operation documented in the PR body; (5) apply a "Verified" label to the Issue.
 - **FR-009**: When the AI Verification Agent returns `REJECTED: [reason]`, the system MUST post a comment on the Submission Issue containing the rejection reason, apply a "Needs Fix" label, and send an email to the contributor with the reason and instructions for correction.
 - **FR-010**: The system MUST expose a public status endpoint (`/api/status`) that returns the current system health as one of three states: `green` (accepting submissions), `amber` (degraded — retrying), or `red` (not accepting — GitHub API or GitHub Models rate limit reached). The submission form MUST read this endpoint on page load and display a visible status banner. When status is not `green`, the Submit button MUST be disabled with the message: "Server is temporarily not accepting submissions. Please check the status indicator — when it shows green, resubmit."
+- **FR-011**: All content pages generated from submissions via this form MUST display a visible **"AHPRA Unverified"** badge or label. This label MUST remain visible until a verified AHPRA credential is associated with the record through a future upgrade path (spec 002 or admin manual process). The badge MUST NOT be removable through the community submission pipeline.
 
 ### Key Entities
 
@@ -161,9 +164,9 @@ As a site administrator, I want to be able to manually override the AI Verificat
 
 This spec (001) and the planned spec 002 share the same backend pipeline: submissions become GitHub Issues, AI verification runs via GitHub Actions, and verified content enters the codebase as PRs. The difference is in the **frontend entry point** and **service tier**:
 
-- **001 (this spec)**: Free web form → standard verification queue → deployed on `australiamd.org/submit/`
-- **002 (planned)**: Authenticated RxAI portal → priority verification queue, AHPRA pre-fill, bulk submission, analytics → deployed on `app.rxai.com.au`
-
+- **001 (this spec)**: Free web form → standard verification queue → deployed on `australia.md/submit/`
+- **002 (planned)**: Authenticated RxAI portal → priority verification queue, AHPRA pre-fill, bulk submission, analytics → deployed on `ausmd.rxai.com.au`
+ 
 The shared backend (Cloudflare Worker proxy, GitHub Actions workflows) defined in this spec's tasks.md is designed to be reusable. Spec 002 will extend — not replace — the Worker and Action code with authentication middleware and priority routing.
 
 ### Upsell Touchpoint

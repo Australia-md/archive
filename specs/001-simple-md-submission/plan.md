@@ -1,6 +1,6 @@
 # Implementation Plan: Simple Markdown Submission Interface (Community Edition)
 
-**Branch**: `001-simple-md-submission` | **Date**: 2026-03-30 | **Spec**: [spec.md](./spec.md)  
+**Branch**: `001-simple-md-submission` | **Date**: 2026-04-02 | **Spec**: [spec.md](./spec.md)  
 **Input**: Feature specification from `/specs/001-simple-md-submission/spec.md`
 
 ## Summary
@@ -19,6 +19,8 @@ This spec (001) covers the **Community Web Form** — the free middle tier in Au
 | GitHub Issues (direct) | GitHub account | Admin-paced | github.com |
 | Community Web Form (this spec) | None (IP rate-limited) | Standard (AI via GitHub Models) | `australiamd.org/submit/` |
 | RxAI Premium Suite (spec 002) | RxAI subscription | Priority (fast-track AI) | `app.rxai.com.au` |
+
+**AHPRA Verification**: Out of scope for this spec. Community submissions are marked `AHPRA Unverified` on generated pages. Spec 002 adds AHPRA pre-fill and credential verification, enabling the `unverified` badge to be upgraded to `verified`.
 
 **Reusability constraint**: The Cloudflare Worker proxy and GitHub Actions workflows defined here MUST be extensible by spec 002. Specifically:
 - Worker route structure must support additional middleware (authentication, priority tagging)
@@ -147,3 +149,4 @@ The following components are designed for reuse by spec 002 (RxAI Premium Submis
 | `.github/scripts/create-content-file.ts` | No changes expected | Same file creation logic for both tiers |
 | `src/submission/types.ts` | Add `SubmissionTier` enum (`community` / `premium`) | Shared type imported by both frontends |
 | Success message (T021) | MAY include non-intrusive upsell touchpoint | "Want faster verification? Try RxAI Premium" link |
+| `ahpra_status` frontmatter field | Set to `verified` when AHPRA credential confirmed via spec 002 | Community submissions always write `unverified`; spec 002 upgrade path writes `verified` |

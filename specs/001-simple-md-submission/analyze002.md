@@ -52,6 +52,7 @@
 | FR-008 VERIFIED path | ✅ | T033, T034, T042 | `create-content-file.ts` + workflow + idempotency |
 | FR-009 REJECTED path | ✅ | T034, T035, T036 | Workflow branches + email notification |
 | FR-010 `/api/status` endpoint | ⚠️ | T025, T026, T043, T052 | Covered but STATUS_KV key schema inconsistent (F2) and TTL mismatch (C2) |
+| FR-011 AHPRA Unverified badge | ⚠️ | T033 (partial), T055 (new) | T033 updated to add `ahpraStatus: unverified` to frontmatter; T055 added for badge rendering on public pages |
 | SC-005 (buildable — status red < 60s) | ⚠️ | T052 (partial) | TTL 3600s causes false-positive `green` before monthly rate limit resets (C2) |
 
 ---
@@ -83,9 +84,9 @@ All 54 tasks (T001–T054) map to at least one functional requirement or user st
 
 | Metric | Value |
 |--------|-------|
-| Total FRs (multi-part counted separately) | 10 |
+| Total FRs (multi-part counted separately) | 11 |
 | Total tasks | 54 |
-| FR coverage (≥1 task) | 10 / 10 (100%) |
+| FR coverage (≥1 task) | 10 / 11 (91%) — FR-011 added post-analysis |
 | SC-005 (buildable) fully covered | ⚠️ Partial (TTL mismatch — C2) |
 | Critical issues | **2** (C1, D1) |
 | High issues | 5 (C2, C3, B1, D2, E1, F1) → 6 |
@@ -163,3 +164,14 @@ Would you like me to apply concrete remediation edits for the top issues? The hi
 4. **Update T043** (B3/F2 — KV key naming)
 
 Reply **"yes, fix all"**, **"fix critical only"**, or specify finding IDs to address.
+
+---
+
+## Post-Report Update (2026-04-02)
+
+FR-011 (AHPRA Unverified badge) was added to `spec.md` after this analysis. Impact:
+- **T033** updated: write `ahpraStatus: unverified` to generated file frontmatter
+- **T055** added: render "AHPRA Unverified" badge on public-facing content pages
+- **Total FRs**: 10 → 11
+- **Total tasks**: 54 → 55
+- This is a LOW-complexity addition with no dependency conflicts.

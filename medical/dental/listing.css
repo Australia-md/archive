@@ -562,6 +562,30 @@ a.lbc-item:hover { color: var(--clr-primary); }
 }
 .emergency-note .meta-icon { color: rgba(254, 204, 0, 0.4); }
 
+/* ─── BILLING NOTE ───────────────────────────────────── */
+.clinic-billing-note {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-6) var(--sp-4);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--clr-on-surface-variant);
+  line-height: 1.5;
+}
+.clinic-billing-note .verify-icon {
+  color: rgba(113, 220, 138, 0.4);
+  flex-shrink: 0;
+}
+.clinic-billing-note a {
+  color: var(--clr-primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(113, 220, 138, 0.3);
+  transition: text-decoration-color var(--transition-fast);
+}
+.clinic-billing-note a:hover { text-decoration-color: var(--clr-primary); }
+
 /* ─── PRACTITIONERS BLOCK ────────────────────────────── */
 .clinic-practitioners {
   padding: var(--sp-4) var(--sp-6);
