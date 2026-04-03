@@ -285,9 +285,9 @@ select:focus-visible,
 input[type='email']:focus-visible,
 input[type='url']:focus-visible,
 textarea:focus-visible {
-  outline: none;
   border-color: transparent;
-  box-shadow: 0 0 0 2px var(--border-focus);
+  outline: 2px solid var(--border-focus);
+  outline-offset: -1px;
 }
 
 /* Action Area */
@@ -328,10 +328,9 @@ button[type='submit']:hover:not(:disabled) .material-symbols-outlined {
 }
 
 button[type='submit']:disabled {
-  background: #3a2e00;
-  color: #a48a27;
+  background: var(--bg-highest);
+  color: var(--text-secondary);
   cursor: not-allowed;
-  opacity: 0.7;
 }
 
 .form-disclaimer {
@@ -467,7 +466,7 @@ footer.site-footer {
 }
 
 .footer-brand p {
-  color: var(--bg-highest); /* text-[#202d25] from tailwind */
+  color: var(--text-muted);
   font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -480,7 +479,7 @@ footer.site-footer {
 }
 
 .footer-links a {
-  color: var(--bg-highest);
+  color: var(--text-muted);
   font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -704,8 +703,17 @@ footer.site-footer {
 
 /* Scrollbar styling */
 ::-webkit-scrollbar { width: 4px; }
-::-webkit-scrollbar-track { background: #0a160f; }
-::-webkit-scrollbar-thumb { background: #202d25; border-radius: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-surface); }
+::-webkit-scrollbar-thumb { background: var(--bg-highest); border-radius: 10px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 
 @media (max-width: 600px) {
   header.site-header {

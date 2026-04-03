@@ -230,49 +230,70 @@ function showSuccessState(issueUrl, issueNumber) {
     if (!mainContent) {
         return;
     }
-    const successHtml = [
-        '<div class="success-state-container">',
-        '  <div class="success-glow-bg"><div class="success-glow"></div></div>',
-        '  <div class="success-icon-container">',
-        '    <div class="success-icon-blur"></div>',
-        '    <div class="success-icon-ring">',
-        '      <span class="material-symbols-outlined">check_circle</span>',
-        '    </div>',
-        '  </div>',
-        '  <div class="success-content">',
-        '    <h2>Submitted!</h2>',
-        '    <p class="receipt-label">Confirmation Receipt</p>',
-        '    <p class="desc">Your reference: <a class="reference" id="success-issue-link" target="_blank" rel="noopener noreferrer"></a>. You will be emailed when verification completes.</p>',
-        '  </div>',
-        '  <div class="success-actions">',
-        '    <button class="btn-primary-action" id="btn-submit-another">Submit Another Entry</button>',
-        '    <a href="/" class="btn-secondary-action">Return to Home</a>',
-        '  </div>',
-        '  <div class="success-metadata-footer">',
-        '    <div class="meta-group">',
-        '      <p class="meta-label">Archival System</p>',
-        '      <p class="meta-value-primary">v4.2.0-stable</p>',
-        '    </div>',
-        '    <div class="meta-divider"></div>',
-        '    <div class="meta-group" style="text-align: right;">',
-        '      <p class="meta-label">Timestamp</p>',
-        '      <p class="meta-value-secondary">2026.ARCHIVE.01</p>',
-        '    </div>',
-        '  </div>',
-        '</div>'
-    ].join('\n');
-    mainContent.innerHTML = successHtml;
-    const issueLink = document.getElementById('success-issue-link');
-    if (issueLink instanceof HTMLAnchorElement) {
-        issueLink.textContent = 'Issue #' + String(issueNumber);
-        issueLink.href = issueUrl;
-    }
-    const anotherBtn = document.getElementById('btn-submit-another');
-    if (anotherBtn instanceof HTMLButtonElement) {
-        anotherBtn.addEventListener('click', () => {
-            window.location.reload();
-        });
-    }
+    mainContent.replaceChildren();
+    const container = document.createElement('div');
+    container.className = 'success-state-container';
+    // Glow background
+    const glowBg = document.createElement('div');
+    glowBg.className = 'success-glow-bg';
+    const glow = document.createElement('div');
+    glow.className = 'success-glow';
+    glowBg.appendChild(glow);
+    container.appendChild(glowBg);
+    // Icon
+    const iconContainer = document.createElement('div');
+    iconContainer.className = 'success-icon-container';
+    const iconBlur = document.createElement('div');
+    iconBlur.className = 'success-icon-blur';
+    const iconRing = document.createElement('div');
+    iconRing.className = 'success-icon-ring';
+    const iconSpan = document.createElement('span');
+    iconSpan.className = 'material-symbols-outlined';
+    iconSpan.textContent = 'check_circle';
+    iconRing.appendChild(iconSpan);
+    iconContainer.appendChild(iconBlur);
+    iconContainer.appendChild(iconRing);
+    container.appendChild(iconContainer);
+    // Content
+    const content = document.createElement('div');
+    content.className = 'success-content';
+    const heading = document.createElement('h2');
+    heading.textContent = 'Submitted!';
+    const receiptLabel = document.createElement('p');
+    receiptLabel.className = 'receipt-label';
+    receiptLabel.textContent = 'Confirmation Receipt';
+    const desc = document.createElement('p');
+    desc.className = 'desc';
+    desc.append('Your reference: ');
+    const issueLink = document.createElement('a');
+    issueLink.className = 'reference';
+    issueLink.target = '_blank';
+    issueLink.rel = 'noopener noreferrer';
+    issueLink.textContent = 'Issue #' + String(issueNumber);
+    issueLink.href = issueUrl;
+    desc.appendChild(issueLink);
+    desc.append('. You will be emailed when verification completes.');
+    content.appendChild(heading);
+    content.appendChild(receiptLabel);
+    content.appendChild(desc);
+    container.appendChild(content);
+    // Actions
+    const actions = document.createElement('div');
+    actions.className = 'success-actions';
+    const anotherBtn = document.createElement('button');
+    anotherBtn.className = 'btn-primary-action';
+    anotherBtn.textContent = 'Submit Another Entry';
+    anotherBtn.addEventListener('click', () => {
+        window.location.reload();
+    });
+    const homeLink = document.createElement('a');
+    homeLink.href = '/';
+    homeLink.className = 'btn-secondary-action';
+    homeLink.textContent = 'Return to Home';
+    actions.appendChild(anotherBtn);
+    actions.appendChild(homeLink);
+    container.appendChild(actions);
+    mainContent.appendChild(container);
 }
 function showErrorState(code, message, retryAfterSeconds) {
     const formError = document.getElementById('error-form');

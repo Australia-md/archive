@@ -57,6 +57,7 @@
   --sp-4:  1rem;
   --sp-5:  1.25rem;
   --sp-6:  1.5rem;
+  --sp-7:  1.75rem;
   --sp-8:  2rem;
   --sp-10: 2.5rem;
   --sp-12: 3rem;
@@ -780,7 +781,8 @@ img, svg {
   display: flex;
   gap: var(--sp-3);
   flex-shrink: 0;
-  width: 420px;
+  width: 100%;
+  max-width: 420px;
 }
 
 .cta-email {
@@ -931,6 +933,13 @@ img, svg {
 }
 .footer-accent-gold {
   background: var(--clr-secondary-container);
+}
+
+/* ─── 8b. CARD FOCUS ─────────────────────────────────── */
+.card-link:focus-visible {
+  outline: 2px solid var(--clr-primary);
+  outline-offset: -2px;
+  border-radius: var(--radius-xl);
 }
 
 /* ─── 9. SCROLL ANIMATIONS ───────────────────────────── */
@@ -1115,6 +1124,16 @@ img, svg {
   }
   .footer-cols {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ─── 10b. REDUCED MOTION ───────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 

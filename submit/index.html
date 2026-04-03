@@ -162,7 +162,7 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <span class="font-display">SOVEREIGN ARCHIVE</span>
-        <p>© 2024 Sovereign Archive. Editorial Excellence in Information.</p>
+        <p>© <span id="current-year"></span> Sovereign Archive. Editorial Excellence in Information.</p>
       </div>
       <div class="footer-links">
         <a href="#">Submission Guidelines</a>
@@ -173,5 +173,6 @@
   </footer>
 
   <script type="module" src="../dist/submission/form.js"></script>
+  <script>document.getElementById('current-year').textContent=new Date().getFullYear();</script>
 </body>
 </html>

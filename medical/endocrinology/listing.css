@@ -166,7 +166,7 @@ a.lbc-item:hover { color: var(--clr-primary); }
 
 /* Clinic Card */
 .clinic-card {
-  background: #0F251A;
+  background: var(--clr-surface-container-low);
   border-radius: var(--radius-xl);
   position: relative;
   overflow: hidden;
@@ -240,12 +240,12 @@ a.lbc-item:hover { color: var(--clr-primary); }
 }
 .ahpra-badge--pending,
 .ahpra-badge.ahpra-unverified {
-  background: rgba(180, 100, 0, 0.1);
-  color: #7a4500;
+  background: rgba(240, 193, 0, 0.1);
+  color: var(--clr-secondary-fixed-dim);
 }
 .ahpra-badge--pending .ahpra-icon,
 .ahpra-badge.ahpra-unverified .ahpra-icon {
-  color: #7a4500;
+  color: var(--clr-secondary-fixed-dim);
 }
 
 /* Meta row (address / hours) */
@@ -397,10 +397,10 @@ a.lbc-item:hover { color: var(--clr-primary); }
   opacity: 0.25;
 }
 .map-pin.active-pin circle:nth-child(2) {
-  fill: #fecc00;
+  fill: var(--clr-secondary-container);
 }
 .map-pin.active-pin text {
-  fill: #3d2f00;
+  fill: var(--clr-on-secondary-container);
 }
 
 /* Mini clinic list */

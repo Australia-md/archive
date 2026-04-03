@@ -134,15 +134,13 @@ If hours/emergency data is absent from source, omit the question — never fabri
       <span class="logo-mark">AU</span>
       <span class="logo-text">Australia<span class="logo-dot">.md</span></span>
     </a>
-    <ul class="nav-links" id="nav-links" role="menubar">
-      <li role="none"><a href="../../../index.html#categories" class="nav-link" role="menuitem">Directory</a></li>
-      <li role="none"><a href="#" class="nav-link" role="menuitem">API</a></li>
-      <li role="none"><a href="#" class="nav-link" role="menuitem">Contribute</a></li>
-      <li role="none"><a href="#" class="nav-link" role="menuitem">About</a></li>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../../../index.html#categories" class="nav-link">Directory</a></li>
+      <li><a href="../../../submit/" class="nav-link">Contribute</a></li>
     </ul>
     <div class="nav-actions">
       <span class="nav-badge">v2.4.1</span>
-      <a href="https://github.com" class="btn-github" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+      <a href="https://github.com/Australia-md/archive" class="btn-github" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
         <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
         </svg>
@@ -414,7 +412,7 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
         <ul class="footer-list">
           <li><a href="#" class="footer-link">Tourism</a></li>
           <li><a href="#" class="footer-link">Economy</a></li>
-          <li><a href="https://github.com" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://github.com/Australia-md/archive" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
       </nav>
       <nav class="footer-col" aria-label="Legal links">
@@ -453,4 +451,87 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
 
 ---
 
-*Last updated: 2026-04-03 | Version: 1.0*
+## 12. Hardening Rules (Non-Negotiable)
+
+These rules were established from a full accessibility/security/design-token audit. All generated pages **must** follow them.
+
+### 12a. Navigation — No ARIA Role Misuse
+
+- **Do NOT** use `role="menubar"`, `role="menuitem"`, or `role="none"` on nav links. The `menubar` pattern requires complex keyboard handling (arrow keys, Home/End) that is not implemented. A plain `<nav>` with `<ul>` is correct and sufficient.
+- **Correct:**
+  ```html
+  <ul class="nav-links" id="nav-links">
+    <li><a href="..." class="nav-link">Directory</a></li>
+    <li><a href="..." class="nav-link">Contribute</a></li>
+  </ul>
+  ```
+- **Wrong:**
+  ```html
+  <ul class="nav-links" role="menubar">
+    <li role="none"><a class="nav-link" role="menuitem">...</a></li>
+  </ul>
+  ```
+
+### 12b. Navigation — No Dead Links
+
+- **Do NOT** include nav links that point to `#`. Only include links to pages that exist.
+- Currently valid nav links: `Directory` (→ `index.html#categories`), `Contribute` (→ `submit/`).
+- Do not include `API` or `About` links until those pages exist.
+
+### 12c. GitHub Links — Must Point to Repository
+
+- All GitHub links (nav button and footer) must use the full repository URL: `https://github.com/Australia-md/archive`
+- **Never** link to bare `https://github.com`.
+
+### 12d. CSS — No Hard-Coded Hex Colors
+
+All colors must use CSS custom properties (design tokens) defined in `style.css` `:root`. Never use raw hex values like `#0F251A` or `#fecc00` in component styles.
+
+| Instead of | Use |
+|---|---|
+| `#0F251A` | `var(--clr-surface-container-low)` |
+| `#fecc00` | `var(--clr-secondary-container)` |
+| `#3d2f00` | `var(--clr-on-secondary-container)` |
+| `#7a4500` | `var(--clr-secondary-fixed-dim)` |
+| `#0a160f` | `var(--clr-surface)` |
+| `#202d25` | `var(--clr-surface-container-high)` |
+| `#889487` | `var(--clr-outline)` |
+
+The only place raw hex values may appear is inside `:root { }` token definitions and inline SVG map elements (Section 8).
+
+### 12e. Accessibility — Focus Indicators
+
+- Focus indicators must use `outline`, not `box-shadow`. `box-shadow` is invisible in Windows High Contrast Mode.
+- **Correct:** `outline: 2px solid var(--clr-primary); outline-offset: -1px;`
+- **Wrong:** `outline: none; box-shadow: 0 0 0 2px var(--clr-primary);`
+
+### 12f. Accessibility — No Redundant Tab Stops
+
+- Do NOT add `tabindex="0"` to elements that already contain focusable children (e.g. a `<div>` wrapping an `<a>`). This creates duplicate tab stops for keyboard users.
+- Cards with an inner `<a class="card-link">` or `<a class="spec-card-link">` should not have `tabindex` on the outer element.
+
+### 12g. Accessibility — Reduced Motion
+
+- `style.css` includes `@media (prefers-reduced-motion: reduce)` which disables all animations and transitions globally. No per-page action is required — the rule is inherited via `../../../style.css`.
+
+### 12h. Accessibility — WCAG Contrast
+
+- All text must meet WCAG 2.1 AA contrast minimums: **4.5:1** for normal text, **3:1** for large text and UI components.
+- Disabled buttons must still have readable text. Use `var(--clr-surface-container-high)` background with `var(--clr-on-surface-variant)` text — never use low-contrast pairs like `#a48a27` on `#3d2f00`.
+- Footer text must use `var(--clr-outline)` or higher — never use background-coloured tokens for text.
+
+### 12i. Security — No innerHTML
+
+- Never use `innerHTML` to insert content that includes any dynamic data (user input, API responses, URL parameters).
+- Use DOM APIs (`document.createElement`, `textContent`, `appendChild`) instead.
+- This applies to JavaScript files only — static HTML in templates is fine.
+
+### 12j. Disabled Buttons — Descriptive Labels
+
+- All disabled buttons must include an `aria-label` explaining the disabled state.
+- **Correct:** `<button disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>`
+- **Wrong:** `<button disabled>Visit Website</button>`
+
+---
+
+*Last updated: 2026-04-03 | Version: 1.1*
