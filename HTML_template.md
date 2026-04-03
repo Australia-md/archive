@@ -532,6 +532,43 @@ The only place raw hex values may appear is inside `:root { }` token definitions
 - **Correct:** `<button disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>`
 - **Wrong:** `<button disabled>Visit Website</button>`
 
+### 12k. Clinic Cards — All Must Have `btn-view-profile`
+
+Every `<article class="clinic-card">` must contain a `<button class="btn-view-profile" disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>` in its `.clinic-card-footer`. Never replace this button with a live `<a href="...">` link to an external clinic website — see Section 7 policy.
+
+### 12l. Accessibility — Inline Text Links Must Have Underlines
+
+`style.css` globally resets `text-decoration: none`. For links inside body/prose content, underlines must be restored so links are distinguishable from surrounding text (WCAG 1.4.1).
+
+Covered by the rule in `style.css`:
+```css
+.faq-answer a,
+.listing-intro a,
+.ahpra-verify-note a,
+.practitioners-unconfirmed a,
+.clinic-billing-note a,
+.map-data-note a,
+p a:not([class]) {
+  text-decoration: underline;
+}
+```
+
+No per-page action required — rule is inherited via `../../../style.css`.
+
+### 12m. Images — Lazy Loading
+
+All images that are not in the initial viewport must include `loading="lazy"`. This includes:
+- `.hero-flag` (only if below the fold — omit if in LCP)
+- The flag image in `.medical-symbol-header`: always add `loading="lazy"` (it is below the nav)
+
+**Correct:** `<img src="../../../assets/images/flag-australia.png" class="hero-flag" alt="Australian flag" width="30" height="15" loading="lazy" />`
+
+### 12n. JavaScript — No Inline `style` Manipulation for Animations
+
+Do not set `element.style.transitionDelay` or inject `<style>` nodes from JavaScript. Use CSS rules instead:
+- Staggered card delays → CSS `:nth-child()` selectors in `style.css`
+- `@keyframes` definitions → static `style.css` (never create a `<style>` element in JS)
+
 ---
 
-*Last updated: 2026-04-03 | Version: 1.1*
+*Last updated: 2026-04-03 | Version: 1.2*

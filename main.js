@@ -318,12 +318,6 @@ function initScrollReveal() {
     }
   );
 
-  // Staggered delay for cards
-  const cards = document.querySelectorAll('.category-card');
-  cards.forEach((card, i) => {
-    card.style.transitionDelay = `${i * 60}ms`;
-  });
-
   els.forEach((el) => observer.observe(el));
 }
 
@@ -369,20 +363,6 @@ function initNewsletterForm() {
     el.style.animation = 'none';
     el.offsetHeight; // force reflow
     el.style.animation = 'shake 400ms ease';
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes shake {
-        0%, 100% { transform: translateX(0); }
-        20%       { transform: translateX(-6px); }
-        40%       { transform: translateX(6px); }
-        60%       { transform: translateX(-4px); }
-        80%       { transform: translateX(4px); }
-      }
-    `;
-    if (!document.head.querySelector('style[data-shake]')) {
-      style.setAttribute('data-shake', '');
-      document.head.appendChild(style);
-    }
   }
 }
 
