@@ -24,11 +24,9 @@
       </a>
 
       <!-- Nav Links -->
-      <ul class="nav-links" id="nav-links" role="menubar">
-        <li role="none"><a href="#categories" class="nav-link" role="menuitem">Directory</a></li>
-        <li role="none"><a href="#" class="nav-link" role="menuitem">API</a></li>
-        <li role="none"><a href="#" class="nav-link" role="menuitem">Contribute</a></li>
-        <li role="none"><a href="#" class="nav-link" role="menuitem">About</a></li>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#categories" class="nav-link">Directory</a></li>
+        <li><a href="/submit/" class="nav-link">Contribute</a></li>
       </ul>
 
       <!-- Right Actions -->
@@ -48,6 +46,8 @@
       </div>
     </nav>
   </header>
+
+  <main id="main-content">
 
   <!-- ══════════════════════════════════════════════
        HERO SECTION
@@ -90,6 +90,7 @@
               autocomplete="off"
               aria-autocomplete="list"
               aria-haspopup="listbox"
+              aria-expanded="false"
             />
             <button type="submit" class="search-submit" id="search-submit-btn" aria-label="Submit search">
               Search
@@ -124,7 +125,7 @@
       <div class="national-symbols" aria-label="Australian national symbols">
         <!-- Australian National Flag (accurate, public domain) -->
         <div class="symbol-item" title="Australian National Flag">
-          <img src="/assets/images/flag-australia.png" class="symbol-flag" alt="Flag of Australia" />
+          <img src="/assets/images/flag-australia.png" class="symbol-flag" alt="Flag of Australia" loading="lazy" />
           <span class="symbol-label">National Flag</span>
         </div>
 
@@ -132,7 +133,7 @@
 
         <!-- Commonwealth Star (7-pointed) -->
         <div class="symbol-item" title="Commonwealth Star — 7 points representing 6 states and territories">
-          <img src="/assets/images/commonwealth-star.png" class="symbol-star" alt="Commonwealth Star" />
+          <img src="/assets/images/commonwealth-star.png" class="symbol-star" alt="Commonwealth Star" loading="lazy" />
           <span class="symbol-label">Commonwealth Star</span>
         </div>
 
@@ -140,7 +141,7 @@
 
         <!-- Golden Wattle floral emblem -->
         <div class="symbol-item" title="Golden Wattle — Australia's national floral emblem">
-          <img src="/assets/images/golden-wattle.png" class="symbol-wattle" alt="Golden Wattle — national floral emblem" />
+          <img src="/assets/images/golden-wattle.png" class="symbol-wattle" alt="Golden Wattle — national floral emblem" loading="lazy" />
           <span class="symbol-label">Golden Wattle</span>
         </div>
 
@@ -148,7 +149,7 @@
 
         <!-- Kangaroo & Emu (Coat of Arms supporters) -->
         <div class="symbol-item" title="Kangaroo and Emu — supporters of the Australian Coat of Arms">
-          <img src="/assets/images/coat-of-arms.png" class="symbol-coa" alt="Kangaroo and Emu — Australian Coat of Arms supporters" />
+          <img src="/assets/images/coat-of-arms.png" class="symbol-coa" alt="Kangaroo and Emu — Australian Coat of Arms supporters" loading="lazy" />
           <span class="symbol-label">Coat of Arms</span>
         </div>
       </div>
@@ -451,6 +452,8 @@
       </form>
     </div>
   </section>
+
+  </main>
 
   <!-- ══════════════════════════════════════════════
        FOOTER

@@ -270,6 +270,24 @@ Australia has diverse climate zones: tropical north, arid interior (the Outback)
 
 ---
 
+## Content Submission Pipeline
+
+The Australia.md archive accepts community contributions via a structured submission pipeline.
+
+| Component | Location | Purpose |
+|---|---|---|
+| Submission form | [`submit/index.html`](submit/index.html) — live at `/submit/` | Web form for non-technical contributors |
+| Cloudflare Worker proxy | [`worker/`](worker/) | Serverless proxy — holds GitHub token, creates Issues, rate-limits |
+| AI Verification Agent | [`.github/workflows/verify-submission.yml`](.github/workflows/verify-submission.yml) | GitHub Actions workflow — semantically verifies submissions via GitHub Models API |
+| Admin Override | [`.github/workflows/admin-override.yml`](.github/workflows/admin-override.yml) | GitHub Actions workflow — admin label-triggered manual override |
+| Shared types | [`src/submission/types.ts`](src/submission/types.ts) | TypeScript interfaces shared by frontend and Worker |
+
+**Submission flow:** Contributor fills form → Cloudflare Worker creates GitHub Issue → AI verifies against source URL → VERIFIED creates file + PR, REJECTED comments with reason, SCRAPE_BLOCKED queues for admin review.
+
+**Spec:** [`specs/001-simple-md-submission/`](specs/001-simple-md-submission/) — IssueOps + Agentic Verification (Community Edition).
+
+---
+
 ## Agent Usage Notes
 
 ```yaml

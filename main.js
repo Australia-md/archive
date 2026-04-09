@@ -234,23 +234,32 @@ function initSearchAutocomplete() {
   });
 
   function renderSuggestions(items) {
-    suggestionsList.innerHTML = items
-      .map(
-        (item, i) => `
-          <li class="suggestion-item" role="option" data-index="${i}" tabindex="-1">
-            <span>${escapeHtml(item.text)}</span>
-            <span class="suggestion-category">${escapeHtml(item.category)}</span>
-          </li>`
-      )
-      .join('');
+    suggestionsList.replaceChildren();
 
-    suggestionsList.querySelectorAll('.suggestion-item').forEach((li) => {
+    items.forEach((item, i) => {
+      const li = document.createElement('li');
+      li.className = 'suggestion-item';
+      li.setAttribute('role', 'option');
+      li.dataset.index = String(i);
+      li.tabIndex = -1;
+
+      const textSpan = document.createElement('span');
+      textSpan.textContent = item.text;
+
+      const catSpan = document.createElement('span');
+      catSpan.className = 'suggestion-category';
+      catSpan.textContent = item.category;
+
+      li.appendChild(textSpan);
+      li.appendChild(catSpan);
+
       li.addEventListener('mousedown', (e) => {
         e.preventDefault();
-        const idx = parseInt(li.dataset.index, 10);
-        input.value = visibleItems[idx].text;
+        input.value = visibleItems[i].text;
         hideSuggestions();
       });
+
+      suggestionsList.appendChild(li);
     });
   }
 
@@ -271,10 +280,6 @@ function initSearchAutocomplete() {
     });
   }
 
-  function escapeHtml(str) {
-    const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
-    return str.replace(/[&<>"]/g, (c) => map[c]);
-  }
 }
 
 
@@ -312,12 +317,6 @@ function initScrollReveal() {
       rootMargin: '0px 0px -40px 0px',
     }
   );
-
-  // Staggered delay for cards
-  const cards = document.querySelectorAll('.category-card');
-  cards.forEach((card, i) => {
-    card.style.transitionDelay = `${i * 60}ms`;
-  });
 
   els.forEach((el) => observer.observe(el));
 }
@@ -364,20 +363,6 @@ function initNewsletterForm() {
     el.style.animation = 'none';
     el.offsetHeight; // force reflow
     el.style.animation = 'shake 400ms ease';
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes shake {
-        0%, 100% { transform: translateX(0); }
-        20%       { transform: translateX(-6px); }
-        40%       { transform: translateX(6px); }
-        60%       { transform: translateX(-4px); }
-        80%       { transform: translateX(4px); }
-      }
-    `;
-    if (!document.head.querySelector('style[data-shake]')) {
-      style.setAttribute('data-shake', '');
-      document.head.appendChild(style);
-    }
   }
 }
 
@@ -395,18 +380,6 @@ function initFooterYear() {
 // 9. CARD HOVER — keyboard accessibility ripple
 // ═══════════════════════════════════════════════════════
 function initCardHover() {
-  const cards = document.querySelectorAll('.category-card');
-  cards.forEach((card) => {
-    const link = card.querySelector('.card-link');
-    if (!link) return;
-
-    // Allow Enter/Space to trigger card link
-    card.setAttribute('tabindex', '0');
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        link.click();
-      }
-    });
-  });
+  // Cards already contain focusable <a> elements — no extra tabindex needed.
+  // Focus styles are handled via CSS on .card-link:focus-visible.
 }

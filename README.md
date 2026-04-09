@@ -25,6 +25,7 @@ It is designed to be consumed by:
 
 ```
 Australia.md                          ← Root index (start here)
+HTML_template.md                      ← Canonical HTML template for dental listing pages
 docs/                                 ← Domain topic files (one per domain)
   geography.md, government.md, economy.md, medical.md,
   education.md, flora-fauna.md, history.md, culture.md,

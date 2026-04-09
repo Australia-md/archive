@@ -1,5 +1,7 @@
 # GEMINI.md — Gemini Agent Context
 
+> ⚠️ **Before modifying this file:** If the content you are adding applies to more than one agent file, it belongs in [`.specify/memory/constitution.md`](.specify/memory/constitution.md) — not here. This file is for Gemini-specific behaviour only. Anything shared across agents is constitution content.
+
 > **Authoritative source:** All project standards are defined in the [constitution](.specify/memory/constitution.md). This file provides Gemini-specific behavioural rules only. Do not duplicate constitution content here.
 
 ---

@@ -74,6 +74,7 @@ Conform to WCAG 2.1 Level AA and WAI-ARIA 1.2:
 4. **Wire up the web page** — new `docs/*.md` must be reflected in `index.html` and `main.ts`
 5. **Naming:** lowercase kebab-case for all files
 6. **Medical files:** `docs/medical/{specialty}/{suburb}-{state}.md` mirroring `medical/{specialty}/{suburb}/index.html`
+7. **Dental listing pages:** use `HTML_template.md` as the sole structural reference when generating `medical/dental/{suburb}/index.html`. Never read an existing `index.html` to derive template structure — `HTML_template.md` is the canonical source for all HTML structure, class names, AHPRA badge rules, Schema.org JSON-LD, and content constraints.
 7. **Update `sitemap.xml`** for every new HTML page. Include `<loc>`, `<lastmod>`, `<changefreq>`, `<priority>`
 8. **RxAI footer credit** on every HTML page:
    ```html

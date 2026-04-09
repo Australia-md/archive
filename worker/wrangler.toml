@@ -1,0 +1,27 @@
+name = "australia-submission-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Secrets (set via `wrangler secret put <NAME>`):
+# GITHUB_TOKEN        - GitHub service account token (create Issues)
+# ALLOWED_ORIGIN      - Allowed CORS origin (e.g. https://australiamd.org)
+# INTER_SVC_TOKEN     - Inter-service auth token (shared with GitHub Actions)
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "REPLACE_WITH_RATE_LIMIT_KV_ID"
+preview_id = "REPLACE_WITH_RATE_LIMIT_KV_PREVIEW_ID"
+
+[[kv_namespaces]]
+binding = "EMAIL_KV"
+id = "REPLACE_WITH_EMAIL_KV_ID"
+preview_id = "REPLACE_WITH_EMAIL_KV_PREVIEW_ID"
+
+[[kv_namespaces]]
+binding = "STATUS_KV"
+id = "REPLACE_WITH_STATUS_KV_ID"
+preview_id = "REPLACE_WITH_STATUS_KV_PREVIEW_ID"
+
+[vars]
+WORKER_ENV = "production"
