@@ -388,7 +388,9 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
 
 ---
 
-## 10. Footer (copy exactly — no changes)
+## 10. Footer
+
+The footer block is mostly static — only the **source Markdown link** (see 10a) varies per page. Every other element is copied exactly as shown.
 
 ```html
 <footer class="footer" id="main-footer" role="contentinfo">
@@ -427,6 +429,7 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
   </div>
   <div class="footer-bottom">
     <span class="footer-copy">&copy; <span id="current-year"></span> Australia.md — Open-Source Sovereign Archive. AGPL-3.0 / Commercial.</span>
+    <span class="footer-source"><a href="../../../docs/medical/dental/{suburb}-{state}.md" class="footer-source-link" rel="alternate" type="text/markdown" aria-label="View source Markdown for {Suburb} {STATE} dental page">View source (Markdown)</a></span>
     <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
     <div class="footer-accents" aria-hidden="true"><span class="footer-accent-green"></span><span class="footer-accent-gold"></span></div>
   </div>
@@ -435,6 +438,17 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
 <script src="../../../main.js"></script>
 <script src="../listing.js"></script>
 ```
+
+### 10a. Source Markdown Link (per-page)
+
+- **Purpose:** give readers and agents a way to retrieve the source `.md` file that generated the page.
+- **Placement:** inside `.footer-bottom`, between `.footer-copy` and `.footer-built-by`.
+- **Target:** always point to the real source path on disk, using the state suffix — `../../../docs/medical/dental/{suburb}-{state}.md`.
+- **Do not** use a simplified path (e.g. `chatswood.md` colocated with `index.html`) — the `.md` file does not live in that directory.
+- **Do not** invent a `{state}` — read it from the source MD filename that triggered the generation (e.g. `chatswood-nsw.md` → `{state}` is `nsw`).
+- **Link text:** exactly `View source (Markdown)`.
+- **Attributes:** include `rel="alternate"` and `type="text/markdown"` so the link is semantically tagged as an alternate representation of the page.
+- **aria-label** must include the suburb and state so it is distinguishable when listed out of context by assistive tech.
 
 ---
 
@@ -448,6 +462,7 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
 6. **SVG map** — place numbered pins at approximate relative positions based on the suburb's street grid. If address data is too sparse to position meaningfully, draw a simple placeholder map with pins clustered near the centre.
 7. **Semantic HTML5** — use `<article>`, `<section>`, `<nav>`, `<main>`, `<aside>`, `<header>`, `<footer>`. Never use `<div>` where a semantic element exists.
 8. **WCAG 2.1 AA** — all images have `alt`, all interactive elements are keyboard-accessible, contrast ≥ 4.5:1.
+9. **Source Markdown link** — every generated `index.html` must include the `.footer-source` link described in Section 10a, pointing to the real `../../../docs/medical/dental/{suburb}-{state}.md` file. Never omit it, and never point it at a path that does not exist on disk.
 
 ---
 
@@ -571,4 +586,4 @@ Do not set `element.style.transitionDelay` or inject `<style>` nodes from JavaSc
 
 ---
 
-*Last updated: 2026-04-03 | Version: 1.2*
+*Last updated: 2026-04-21 | Version: 1.3 — added Section 10a (source Markdown link) and Section 11 rule 9*
