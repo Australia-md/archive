@@ -1,0 +1,97 @@
+# ==========================================
+# 🛑 CRITICAL SECURITY: NEVER COMMIT THESE
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*secret*
+*token*
+credentials.json
+client_secret.json
+aws_credentials
+.aws/
+.npmrc
+.ssh/
+
+
+# ==========================================
+# 🤖 OpenCLAW Agent Staging Area (safety net — actual staging is at ~/.openclaw/)
+# ==========================================
+.openclaw/
+
+# OpenCLAW scheduled job prompt (local config — not for version control)
+openclaw-dental-cronjob-prompt.md
+
+# ==========================================
+# 🔒 RxAI PREMIUM WORK — PRIVATE (never commit to public repo)
+# ==========================================
+# These folders contain proprietary RxAI premium features.
+# They are protected by git hooks, but this rule adds an extra safety layer
+# on public branches (main, scheduling-branch, 001-*).
+# Private branches (002-*, 003-*) can commit to these folders freely;
+# the pre-push hook will block them from reaching the public remote.
+specs/002-rxai-premium-submission/
+specs/003-rxai-premium-submission/
+
+# ==========================================
+# 💻 Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# 📦 Build & Dependency Directories 
+# ==========================================
+# Web / Node
+node_modules/
+.npm/
+
+# Java / Kotlin
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.gradle/
+build/
+out/
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Miscellaneous
+debugImage/
+
+# Specific Specs
+/specs/002-rxai-premium-submission/
+/specs/003-rxai-premium-submission/
+openclaw-dental-cronjob-prompt.md

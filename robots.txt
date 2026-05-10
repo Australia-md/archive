@@ -1,0 +1,142 @@
+# ============================================================
+# robots.txt — Australia.md Sovereign Archive
+# https://australia.md/robots.txt
+#
+# Policy: Open access for all legitimate crawlers.
+# This archive is an open-source knowledge base (MIT licence).
+# AI and LLM crawlers are explicitly welcomed.
+# ============================================================
+
+
+# ── TRADITIONAL SEARCH ENGINES ──────────────────────────────
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+
+# ── AI / LLM CRAWLERS ───────────────────────────────────────
+
+# OpenAI — ChatGPT, GPT-4, SearchGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google — Gemini, AI Overviews, Bard
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+# Microsoft — Copilot, Bing AI
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta — Llama, Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple — Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon — Alexa, Bedrock
+User-agent: Amazonbot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Common Crawl (training data for many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Diffbot (structured data extraction)
+User-agent: Diffbot
+Allow: /
+
+# Bytedance — Doubao / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Mistral AI
+User-agent: MistralBot
+Allow: /
+
+# xAI — Grok
+User-agent: xAI-Bot
+Allow: /
+
+# Brave Search AI
+User-agent: BraveBot
+Allow: /
+
+# Quora — Poe
+User-agent: PetalBot
+Allow: /
+
+
+# ── GLOBAL FALLBACK ─────────────────────────────────────────
+
+# All other crawlers: full access
+User-agent: *
+Allow: /
+
+# Crawl delay — be respectful of server resources
+Crawl-delay: 1
+
+
+# ── SITEMAP ─────────────────────────────────────────────────
+
+Sitemap: https://australia.md/sitemap.xml

@@ -1,0 +1,99 @@
+name: Admin Override
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  override:
+    if: contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: .github/scripts/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: .github/scripts
+
+      - name: Check admin authorization
+        id: admin-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTOR: ${{ github.actor }}
+          ADMIN_USERNAMES: ${{ secrets.ADMIN_USERNAMES }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npx tsx check-admin-runner.ts
+        working-directory: .github/scripts
+
+      - name: Retrieve contributor email
+        id: retrieve-email
+        if: steps.admin-check.outputs.is_admin == 'true'
+        run: |
+          RESPONSE=$(curl -sf -H "Authorization: Bearer ${{ secrets.INTER_SVC_TOKEN }}" \
+            "${{ secrets.WORKER_URL }}/api/email/${{ github.event.issue.number }}" || echo '{"error":"not_found"}')
+          EMAIL=$(echo "$RESPONSE" | node -e "process.stdin.resume();let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{const r=JSON.parse(d);console.log(r.email||'')}catch{console.log('')}})")
+          if [ -z "$EMAIL" ]; then
+            echo "email_missing=true" >> $GITHUB_OUTPUT
+            echo "contributor_email=" >> $GITHUB_OUTPUT
+          else
+            echo "email_missing=false" >> $GITHUB_OUTPUT
+            echo "contributor_email=$EMAIL" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Admin Verified — create content file
+        if: steps.admin-check.outputs.is_admin == 'true' && github.event.label.name == 'Verified'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          CONTENT: ${{ github.event.issue.body }}
+          CATEGORY: ''
+          CONTENT_PATH: ''
+          SOURCE_URL: ''
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npx tsx create-content-file.ts
+        working-directory: .github/scripts
+
+      - name: Admin Rejected — notify and close
+        if: steps.admin-check.outputs.is_admin == 'true' && github.event.label.name == 'Rejected'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'This submission has been rejected by an administrator. The issue will now be closed.'
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, state: 'closed'
+            });
+
+      - name: Email contributor — Admin Rejected
+        if: steps.admin-check.outputs.is_admin == 'true' && github.event.label.name == 'Rejected' && steps.retrieve-email.outputs.email_missing == 'false'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_ADDRESS }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          to: ${{ steps.retrieve-email.outputs.contributor_email }}
+          from: Australia.md Archive <${{ secrets.GMAIL_ADDRESS }}>
+          subject: "Your Australia.md submission has been rejected (#${{ github.event.issue.number }})"
+          body: |
+            Your submission (Issue #${{ github.event.issue.number }}) has been reviewed and rejected by an administrator.
+            Issue: ${{ github.event.issue.html_url }}
+            If you believe this is in error, please open a new submission with an updated source URL.

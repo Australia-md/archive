@@ -1,0 +1,19 @@
+{
+  "name": "australia-github-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub Actions scripts for Australia.md submission pipeline",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "openai": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}

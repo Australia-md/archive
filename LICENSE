@@ -1,0 +1,81 @@
+Australia.md — Dual Licence
+Copyright (c) 2026 Australia.md Project
+
+This work is made available under a dual-licence model. Your use of this
+work is governed by whichever licence applies to your use case below.
+
+================================================================================
+LICENCE 1 — OPEN SOURCE (NON-COMMERCIAL & COPYLEFT)
+GNU Affero General Public License v3.0 (AGPL-3.0)
+================================================================================
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+details.
+
+Key conditions of AGPL-3.0:
+  - You may use, copy, modify, and distribute this work freely.
+  - Any modified version you distribute — including running it as a network
+    service — must also be released under AGPL-3.0 with full source code made
+    publicly available.
+  - You must retain all copyright, licence, and attribution notices.
+  - You must state significant changes made to the original work.
+
+This licence is suitable for:
+  - Personal and individual use
+  - Academic and educational research
+  - Non-profit organisations
+  - Open-source projects that are themselves AGPL-3.0 licensed
+  - Journalism and editorial use
+  - Non-commercial AI/LLM research where derivatives are open-sourced
+
+Full licence text: https://www.gnu.org/licenses/agpl-3.0.txt
+SPDX identifier:  AGPL-3.0-or-later
+
+================================================================================
+LICENCE 2 — COMMERCIAL USE
+Proprietary Commercial Licence
+================================================================================
+
+If you wish to use this work in a manner that does not comply with AGPL-3.0 —
+including but not limited to:
+
+  - Use within a for-profit company or organisation without open-sourcing
+    your own product under AGPL-3.0
+  - Building proprietary products, APIs, or services on top of this work
+  - Incorporating data into commercial AI/ML training datasets
+  - Offering this work as part of a managed or hosted commercial service
+  - Reselling, sublicensing, or redistributing for commercial gain
+  - Any internal commercial use where you are unable or unwilling to comply
+    with the AGPL-3.0 copyleft requirements
+
+— then you must obtain a separate written Commercial Licence Agreement.
+
+To obtain a commercial licence, contact:
+
+  James
+  Email:  james@rxai.com.au
+  Web:    https://rxai.com.au
+
+Unauthorised commercial use of this work without a valid Commercial Licence
+Agreement is a breach of copyright and may result in legal action.
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+THIS WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, OR NON-INFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM THE USE OF OR INABILITY TO USE THIS WORK.
+
+Data is provided for informational purposes only. For medical, legal, or
+financial matters, always consult a qualified professional and refer to
+official authoritative sources.
