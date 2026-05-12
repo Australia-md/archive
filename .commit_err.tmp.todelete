@@ -1,0 +1,9 @@
+warning: unable to unlink '.git/objects/2f/tmp_obj_XqiCzq': Operation not permitted
+warning: unable to unlink '.git/objects/f0/tmp_obj_3T9W1q': Operation not permitted
+warning: unable to unlink '.git/objects/04/tmp_obj_LceSHu': Operation not permitted
+warning: unable to unlink '.git/objects/6c/tmp_obj_Tuhycv': Operation not permitted
+warning: unable to unlink '.git/objects/90/tmp_obj_NLjk3u': Operation not permitted
+warning: unable to unlink '.git/objects/51/tmp_obj_V3Ihju': Operation not permitted
+warning: unable to unlink '.git/objects/26/tmp_obj_ZbQ5ru': Operation not permitted
+warning: unable to unlink '.git/objects/ef/tmp_obj_RXSXXt': Operation not permitted
+warning: unable to unlink '/sessions/brave-intelligent-hamilton/mnt/Australia/.git/HEAD.lock': Operation not permitted
