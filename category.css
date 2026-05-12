@@ -1,0 +1,164 @@
+/* ═══════════════════════════════════════════════════════
+   AUSTRALIA.MD — category.css
+   General Archive / Category page styles — extends style.css
+═══════════════════════════════════════════════════════ */
+
+.category-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: calc(64px + var(--sp-16)) var(--sp-8) var(--sp-24);
+}
+
+.category-header {
+  margin-bottom: var(--sp-16);
+  border-bottom: 1px solid var(--clr-outline-variant);
+  padding-bottom: var(--sp-10);
+}
+
+.category-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--clr-primary);
+  margin-bottom: var(--sp-4);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.category-title {
+  font-family: var(--font-headline);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--clr-on-surface);
+  line-height: 1.1;
+  margin-bottom: var(--sp-6);
+}
+
+.category-intro {
+  font-size: 1.125rem;
+  color: var(--clr-on-surface-variant);
+  line-height: 1.7;
+  max-width: 720px;
+}
+
+.content-section {
+  margin-bottom: var(--sp-20);
+}
+
+.content-section h2 {
+  font-family: var(--font-headline);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: var(--sp-8);
+  color: var(--clr-primary-fixed-dim);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+.content-section h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--clr-outline-variant), transparent);
+}
+
+.content-section h3 {
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: var(--sp-10) 0 var(--sp-4);
+  color: var(--clr-on-surface);
+}
+
+.content-section p {
+  margin-bottom: var(--sp-6);
+  color: var(--clr-on-surface-variant);
+}
+
+/* Tables styling */
+.data-table-wrap {
+  overflow-x: auto;
+  margin: var(--sp-8) 0;
+  background: var(--clr-surface-container-lowest);
+  border: 1px solid var(--clr-outline-variant);
+  border-radius: var(--radius-lg);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  text-align: left;
+}
+
+.data-table th {
+  background: var(--clr-surface-container-low);
+  padding: var(--sp-4) var(--sp-6);
+  font-weight: 600;
+  color: var(--clr-on-surface);
+  border-bottom: 1px solid var(--clr-outline-variant);
+}
+
+.data-table td {
+  padding: var(--sp-4) var(--sp-6);
+  border-bottom: 1px solid rgba(62, 74, 62, 0.2);
+  color: var(--clr-on-surface-variant);
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table a {
+  color: var(--clr-primary);
+  text-decoration: underline;
+}
+
+.data-table a:hover {
+  color: var(--clr-primary-fixed);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-8);
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--clr-outline);
+}
+
+.breadcrumb a { transition: color var(--transition-fast); }
+.breadcrumb a:hover { color: var(--clr-primary); }
+.breadcrumb-sep { color: var(--clr-outline-variant); }
+.breadcrumb-current { color: var(--clr-secondary-fixed-dim); }
+
+.source-link-block {
+  margin-top: var(--sp-12);
+  padding: var(--sp-6);
+  background: rgba(113, 220, 138, 0.04);
+  border: 1px dashed var(--clr-outline-variant);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+}
+
+/* Lists */
+.content-section ul {
+  list-style: disc;
+  margin-left: var(--sp-8);
+  margin-bottom: var(--sp-6);
+  color: var(--clr-on-surface-variant);
+}
+
+.content-section li {
+  margin-bottom: var(--sp-2);
+}
