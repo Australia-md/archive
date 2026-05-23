@@ -22,58 +22,96 @@
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalWebPage",
-        "name": "Dental Clinics — Aberdare NSW 2325 | Australia.md",
-        "description": "Dental clinic in Aberdare NSW 2325 with verified contact details sourced from public directories.",
-        "url": "https://australia.md/medical/dental/aberdare/",
-        "dateModified": "2026-04-02",
-        "inLanguage": "en-AU",
-        "about": { "@type": "MedicalSpecialty", "name": "Dentistry" },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Australia.md", "item": "https://australia.md/" },
-            { "@type": "ListItem", "position": 2, "name": "Medical Directory", "item": "https://australia.md/medical/" },
-            { "@type": "ListItem", "position": 3, "name": "Dental", "item": "https://australia.md/medical/dental/" },
-            { "@type": "ListItem", "position": 4, "name": "Aberdare NSW 2325", "item": "https://australia.md/medical/dental/aberdare/" }
-          ]
-        }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "name": "Dental Clinics — Aberdare NSW 2325 | Australia.md",
+      "description": "Dental clinic in Aberdare NSW 2325 with verified contact details sourced from public directories.",
+      "url": "https://australia.md/medical/dental/aberdare/",
+      "dateModified": "2026-04-02",
+      "inLanguage": "en-AU",
+      "about": {
+        "@type": "MedicalSpecialty",
+        "name": "Dentistry"
       },
-      {
-        "@type": "Dataset",
-        "name": "Aberdare NSW 2325 — Dental Clinic Directory",
-        "description": "Dental clinics in Aberdare, NSW 2325, sourced from public directories.",
-        "url": "https://australia.md/medical/dental/aberdare/",
-        "dateModified": "2026-04-02",
-        "creator": { "@type": "Organization", "name": "Australia.md" },
-        "license": "https://australia.md/LICENSE"
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "How do I verify a dentist's registration in Aberdare?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "All dental practitioners in Australia must hold current registration with the Dental Board of Australia under AHPRA. Visit www.ahpra.gov.au and use the Register of Practitioners to search by name and verify registration status."
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Australia.md",
+            "item": "https://australia.md/"
           },
           {
-            "@type": "Question",
-            "name": "Is Cessnock Dental Clinic a public dental service?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Cessnock Dental Clinic is located within Cessnock Hospital and is a public dental service. Eligibility criteria and appointment availability should be confirmed directly with the clinic on (02) 4991 0380."
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Medical Directory",
+            "item": "https://australia.md/medical/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dental",
+            "item": "https://australia.md/medical/dental/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Aberdare NSW 2325",
+            "item": "https://australia.md/medical/dental/aberdare/"
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Aberdare NSW 2325 — Dental Clinic Directory",
+      "description": "Dental clinics in Aberdare, NSW 2325, sourced from public directories.",
+      "url": "https://australia.md/medical/dental/aberdare/",
+      "dateModified": "2026-04-02",
+      "creator": {
+        "@type": "Organization",
+        "name": "Australia.md"
+      },
+      "license": "https://australia.md/LICENSE"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I verify a dentist's registration in Aberdare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All dental practitioners in Australia must hold current registration with the Dental Board of Australia under AHPRA. Visit www.ahpra.gov.au and use the Register of Practitioners to search by name and verify registration status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cessnock Dental Clinic a public dental service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cessnock Dental Clinic is located within Cessnock Hospital and is a public dental service. Eligibility criteria and appointment availability should be confirmed directly with the clinic on (02) 4991 0380."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Dentist",
+      "name": "Cessnock Dental Clinic",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Aberdare",
+        "addressRegion": "NSW",
+        "postalCode": "2325",
+        "addressCountry": "AU"
+      },
+      "telephone": "+61249910380"
+    }
+  ]
+}
   </script>
 </head>
 <body class="listing-page">

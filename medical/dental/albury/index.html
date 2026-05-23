@@ -22,66 +22,128 @@
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalWebPage",
-        "name": "Dental Clinics — Albury NSW 2640 | Australia.md",
-        "description": "Verified AHPRA-registered dental clinics in Albury NSW 2640 with registered practitioners.",
-        "url": "https://australia.md/medical/dental/albury/",
-        "dateModified": "2026-04-09",
-        "inLanguage": "en-AU",
-        "about": { "@type": "MedicalSpecialty", "name": "Dentistry" },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Australia.md", "item": "https://australia.md/" },
-            { "@type": "ListItem", "position": 2, "name": "Medical Directory", "item": "https://australia.md/medical/" },
-            { "@type": "ListItem", "position": 3, "name": "Dental", "item": "https://australia.md/medical/dental/" },
-            { "@type": "ListItem", "position": 4, "name": "Albury NSW 2640", "item": "https://australia.md/medical/dental/albury/" }
-          ]
-        }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "name": "Dental Clinics — Albury NSW 2640 | Australia.md",
+      "description": "Verified AHPRA-registered dental clinics in Albury NSW 2640 with registered practitioners.",
+      "url": "https://australia.md/medical/dental/albury/",
+      "dateModified": "2026-04-09",
+      "inLanguage": "en-AU",
+      "about": {
+        "@type": "MedicalSpecialty",
+        "name": "Dentistry"
       },
-      {
-        "@type": "Dataset",
-        "name": "Albury NSW 2640 — Dental Clinic Directory",
-        "description": "Verified dental clinics and registered practitioners in Albury, NSW 2640, sourced from public directories and AHPRA-regulated practice profiles.",
-        "url": "https://australia.md/medical/dental/albury/",
-        "dateModified": "2026-04-09",
-        "creator": { "@type": "Organization", "name": "Australia.md" },
-        "license": "https://australia.md/LICENSE"
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "How do I verify a dentist's AHPRA registration in Albury?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Visit the Dental Board of Australia website at www.dentalboard.gov.au and click 'Look up practitioners'. You can search by practitioner name to confirm current registration status, conditions, and disciplinary history."
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Australia.md",
+            "item": "https://australia.md/"
           },
           {
-            "@type": "Question",
-            "name": "Which dental clinics in Albury are open on weekends?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Albury Family Dental at 685 David Street offers Saturday appointments by arrangement. Sunday hours are not available. Contact the clinic directly to confirm weekend availability."
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Medical Directory",
+            "item": "https://australia.md/medical/"
           },
           {
-            "@type": "Question",
-            "name": "Is there a public dental clinic in Albury?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Southern Health Albury Community Health Centre (Dental) at 596 Smollett Street provides public dental clinic services. Eligibility includes under-18s with a medical card and adults with a Centrelink card and Medicare card. Contact 1800 450 046 for details."
-            }
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dental",
+            "item": "https://australia.md/medical/dental/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Albury NSW 2640",
+            "item": "https://australia.md/medical/dental/albury/"
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Albury NSW 2640 — Dental Clinic Directory",
+      "description": "Verified dental clinics and registered practitioners in Albury, NSW 2640, sourced from public directories and AHPRA-regulated practice profiles.",
+      "url": "https://australia.md/medical/dental/albury/",
+      "dateModified": "2026-04-09",
+      "creator": {
+        "@type": "Organization",
+        "name": "Australia.md"
+      },
+      "license": "https://australia.md/LICENSE"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I verify a dentist's AHPRA registration in Albury?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the Dental Board of Australia website at www.dentalboard.gov.au and click 'Look up practitioners'. You can search by practitioner name to confirm current registration status, conditions, and disciplinary history."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which dental clinics in Albury are open on weekends?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Albury Family Dental at 685 David Street offers Saturday appointments by arrangement. Sunday hours are not available. Contact the clinic directly to confirm weekend availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a public dental clinic in Albury?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Southern Health Albury Community Health Centre (Dental) at 596 Smollett Street provides public dental clinic services. Eligibility includes under-18s with a medical card and adults with a Centrelink card and Medicare card. Contact 1800 450 046 for details."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Dentist",
+      "name": "Albury Family Dental",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Albury",
+        "addressRegion": "NSW",
+        "postalCode": "2640",
+        "addressCountry": "AU"
+      },
+      "telephone": "0260487808"
+    },
+    {
+      "@type": "Dentist",
+      "name": "Smollett St Dental",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Albury",
+        "addressRegion": "NSW",
+        "postalCode": "2640",
+        "addressCountry": "AU"
+      },
+      "telephone": "0260411200"
+    },
+    {
+      "@type": "Dentist",
+      "name": "Southern Health Albury Community Health Centre (Dental)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Albury",
+        "addressRegion": "NSW",
+        "postalCode": "2640",
+        "addressCountry": "AU"
+      },
+      "telephone": "1800450046"
+    }
+  ]
+}
   </script>
 </head>
 <body class="listing-page">
