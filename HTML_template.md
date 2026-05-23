@@ -23,26 +23,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="{N} verified AHPRA-registered dental clinics in {Suburb} {STATE} {Postcode}. {Clinic list summary sentence}." />
+  <meta name="description" content="{meta-description}" />
   <title>Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md</title>
   <link rel="canonical" href="https://australia.md/medical/dental/{suburb-slug}/" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" integrity="sha384-1PT8sISk9zQ7SDVmmf11t7IlDJN8vvTQWzVqT4Qd4F9XLIIfHQsj8UH8VCMF5gT" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../../../style.css" />
-  <link rel="stylesheet" href="../listing.css" />
 
-  <!-- Open Graph / Twitter -->
-  <meta property="og:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
-  <meta property="og:description" content="{N} verified AHPRA-registered dental clinics in {Suburb} {STATE} {Postcode} with registered practitioners listed." />
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Australia.md" />
+  <meta property="og:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
+  <meta property="og:description" content="{meta-description}" />
   <meta property="og:url" content="https://australia.md/medical/dental/{suburb-slug}/" />
+  <meta property="og:image" content="https://australia.md/og-default.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
+  <meta name="twitter:description" content="{meta-description}" />
+  <meta name="twitter:image" content="https://australia.md/og-default.png" />
 
   <!-- Schema.org JSON-LD: see Section 3 -->
   <script type="application/ld+json">
   { ... see Section 3 ... }
   </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" integrity="sha384-1PT8sISk9zQ7SDVmmf11t7IlDJN8vvTQWzVqT4Qd4F9XLIIfHQsj8UH8VCMF5gT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../../style.css" />
+  <link rel="stylesheet" href="../listing.css" />
 </head>
 ```
 
@@ -53,12 +63,20 @@
 - `{Postcode}` — postcode number (e.g. `2113`)
 - `{suburb-slug}` — lowercase kebab-case (e.g. `macquarie-park`)
 - `{Last Verified date}` — from MD frontmatter field `Last Verified`
+- `{meta-description}` — see rule below
+
+**Meta description rule (enforced):**
+- Maximum **155 characters**. Google truncates at ~160; 155 gives a safety margin.
+- Format: `"{N} dental clinic(s) in {Suburb} {STATE} {Postcode}. {Clinic name(s)}. {1 key service if space allows}."`
+- Front-load suburb + postcode within the first 60 chars so truncation never cuts them.
+- The same string is used for `name="description"`, `og:description`, and `twitter:description` — keep them in sync.
+- Example (128 chars): `"3 dental clinics in Alstonville NSW 2477. Daley Street Dental, Alstonville Family Dental, and Maven Dental Plateau. AHPRA-registered."`
 
 ---
 
 ## 3. Schema.org JSON-LD
 
-Three objects inside `@graph`:
+Four object types inside `@graph`. All four must be present in every generated page.
 
 ### 3a. MedicalWebPage
 ```json
@@ -103,6 +121,40 @@ Generate 2–4 FAQ entries based on data in the source MD. Typical questions for
 - "Is there a dental clinic near {landmark}?" (only if data present)
 
 If hours/emergency data is absent from source, omit the question — never fabricate answers.
+
+### 3d. Dentist entities (one per clinic — NEW)
+
+For **each clinic** in the source MD, generate one `Dentist` object inside `@graph`. This enables Google rich results (address, phone, hours in search snippets).
+
+```json
+{
+  "@type": "Dentist",
+  "name": "{Clinic Name}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{Street address from source — omit key if absent}",
+    "addressLocality": "{Suburb}",
+    "addressRegion": "{STATE}",
+    "postalCode": "{Postcode}",
+    "addressCountry": "AU"
+  },
+  "telephone": "{phone — omit key if absent}",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday"],
+      "opens": "08:30",
+      "closes": "16:00"
+    }
+  ]
+}
+```
+
+**Rules for Dentist entities:**
+- Only include `streetAddress`, `telephone`, and `openingHoursSpecification` if present in the source MD. Never invent them.
+- Omit `openingHoursSpecification` entirely if hours are not in the source.
+- JSON string values must not contain unescaped double-quote characters — escape any `"` inside string values as `\"`.
+- Repeat one block per clinic. If a page has 5 clinics, there are 5 `Dentist` objects in `@graph`.
 
 ---
 
@@ -457,6 +509,9 @@ The footer block is mostly static — only the **source Markdown link** (see 10a
 1. **Fact-check only** — every clinic name, address, phone, practitioner, service, and hour must appear explicitly in the source MD. If absent, omit it entirely.
 2. **No fabrication** — do not invent postcodes, council names, landmarks, or any suburb description not in the source.
 3. **AHPRA badge** — default to `AHPRA Unverified` (greyed, opacity 0.6) unless the source explicitly states `AHPRA Verified: Yes`.
+4. **Meta description ≤ 155 chars** — the `{meta-description}` variable must not exceed 155 characters. Verify the length before writing it. The same value is used for `name="description"`, `og:description`, and `twitter:description`.
+5. **og:image always present** — every page must include `og:image`, `og:image:width`, `og:image:height`, and `twitter:image` pointing to `https://australia.md/og-default.png`. Never omit these.
+6. **JSON-LD safety** — double-quote characters inside JSON string values must be escaped as `\"`. This is especially relevant for FAQ answers and clinic descriptions that may contain quoted words.
 4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `practitioners.ahpra.gov.au`.
 5. **Hours absent** — omit the hours `<span class="clinic-meta-item">` entirely. Never show "hours not confirmed".
 6. **SVG map** — place numbered pins at approximate relative positions based on the suburb's street grid. If address data is too sparse to position meaningfully, draw a simple placeholder map with pins clustered near the centre.
