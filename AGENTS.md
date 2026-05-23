@@ -49,4 +49,11 @@ Before making any changes, read these files in order:
 - Keep language compact, formal, and exact
 - Improve discoverability for search engines and AI answer engines
 
+### 7. Bing IndexNow operational memory
+- IndexNow key file: `375e338047314ab09f7f78f40d3b420a.txt`
+- IndexNow key value: `375e338047314ab09f7f78f40d3b420a`
+- Hosted key URL: `https://australia.md/375e338047314ab09f7f78f40d3b420a.txt`
+- Submission ledger: [`updateBingIndex.md`](updateBingIndex.md)
+- Before submitting URLs to Bing/IndexNow again, check `updateBingIndex.md` and only resubmit URLs whose content, canonical URL, HTTP status, metadata, or sitemap `<lastmod>` changed after the recorded submission.
+
 If uncertain, default to: **verify, simplify, cite, and preserve structure.**
