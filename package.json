@@ -5,7 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "stats": "node generate-stats.js"
   },
   "repository": {
     "type": "git",
