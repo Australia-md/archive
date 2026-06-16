@@ -103,18 +103,27 @@ interface StatsJson {
  */
 function loadStatsAndInitCounter(): void {
   const entriesEl = document.querySelector<HTMLElement>('#stat-entries .stat-number');
+
+  // No entries element on this page — skip the fetch entirely.
+  if (!entriesEl) {
+    initStatsCounter();
+    return;
+  }
+
   fetch('/stats.json')
     .then((r) => {
       if (!r.ok) throw new Error('stats.json not found');
       return r.json() as Promise<StatsJson>;
     })
     .then((data) => {
-      if (entriesEl && typeof data.entries === 'number') {
+      if (typeof data.entries === 'number') {
         entriesEl.dataset.target = String(data.entries);
       }
-      initStatsCounter();
     })
     .catch(() => {
+      // Fetch failed or data malformed — keep the hardcoded data-target.
+    })
+    .finally(() => {
       initStatsCounter();
     });
 }
