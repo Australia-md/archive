@@ -317,7 +317,7 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
       </li>
     </ul>
     <!-- If no practitioners confirmed from source: -->
-    <!-- <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://practitioners.ahpra.gov.au" target="_blank" rel="noopener noreferrer">practitioners.ahpra.gov.au</a>.</p> -->
+    <!-- <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA Practitioner Register</a>.</p> -->
     <p class="ahpra-verify-note">
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
       Verify registration: <a href="https://www.dentalboard.gov.au/" target="_blank" rel="noopener noreferrer">www.dentalboard.gov.au</a>
@@ -512,7 +512,7 @@ The footer block is mostly static — only the **source Markdown link** (see 10a
 4. **Meta description ≤ 155 chars** — the `{meta-description}` variable must not exceed 155 characters. Verify the length before writing it. The same value is used for `name="description"`, `og:description`, and `twitter:description`.
 5. **og:image always present** — every page must include `og:image`, `og:image:width`, `og:image:height`, and `twitter:image` pointing to `https://australia.md/og-default.png`. Never omit these.
 6. **JSON-LD safety** — double-quote characters inside JSON string values must be escaped as `\"`. This is especially relevant for FAQ answers and clinic descriptions that may contain quoted words.
-4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `practitioners.ahpra.gov.au`.
+4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx`.
 5. **Hours absent** — omit the hours `<span class="clinic-meta-item">` entirely. Never show "hours not confirmed".
 6. **SVG map** — place numbered pins at approximate relative positions based on the suburb's street grid. If address data is too sparse to position meaningfully, draw a simple placeholder map with pins clustered near the centre.
 7. **Semantic HTML5** — use `<article>`, `<section>`, `<nav>`, `<main>`, `<aside>`, `<header>`, `<footer>`. Never use `<div>` where a semantic element exists.
