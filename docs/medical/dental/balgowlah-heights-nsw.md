@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Balgowlah Heights, NSW — Dental Clinics"
+description: "Balgowlah Heights (postcode 2093) is a mixed residential suburb in the Northern Beaches Council local government area, approximately 11 km north-east of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, balgowlah-heights]
+timestamp: 2026-05-19T00:00:00Z
+suburb: "Balgowlah Heights"
+postcode: "2093"
+state: nsw
+lga: "Northern Beaches Council"
+last_verified: "2026-05-19"
+---
+
 # Balgowlah Heights, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

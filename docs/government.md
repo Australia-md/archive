@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Government & Constitution of Australia"
+description: "Australia is a constitutional monarchy and a federal parliamentary democracy."
+resource: "https://www.aph.gov.au"
+tags: [government]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Government & Constitution of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

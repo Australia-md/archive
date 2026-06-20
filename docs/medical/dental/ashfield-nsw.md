@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Ashfield, NSW — Dental Clinics"
+description: "Ashfield (postcode 2131) is a mixed residential and commercial suburb in the Inner West Council local government area, approximately 8 km west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, ashfield]
+timestamp: 2026-05-07T00:00:00Z
+suburb: "Ashfield"
+postcode: "2131"
+state: nsw
+lga: "Inner West Council"
+last_verified: "2026-05-07"
+---
+
 # Ashfield, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

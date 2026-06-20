@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Allambie Heights, NSW — Dental Clinics"
+description: "Allambie Heights (postcode 2100) is a residential suburb in the Northern Beaches Council local government area, approximately 17.5 km north-east of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, allambie-heights]
+timestamp: 2026-04-14T00:00:00Z
+suburb: "Allambie Heights"
+postcode: "2100"
+state: nsw
+lga: "Northern Beaches Council"
+last_verified: "2026-04-14"
+---
+
 # Allambie Heights, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

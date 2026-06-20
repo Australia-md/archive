@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Adamstown, NSW — Dental Clinics"
+description: "Adamstown (postcode 2289) is a mixed residential and commercial suburb in the City of Newcastle / City of Lake Macquarie local government area, approximately 6…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, adamstown]
+timestamp: 2026-04-17T00:00:00Z
+suburb: "Adamstown"
+postcode: "2289"
+state: nsw
+lga: "City of Newcastle / City of Lake Macquarie"
+last_verified: "2026-04-17"
+---
+
 # Adamstown, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Alexandria, NSW — Dental Clinics"
+description: "Alexandria (postcode 2015) is a mixed residential and commercial suburb in the City of Sydney local government area, approximately 5 km south of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, alexandria]
+timestamp: 2026-04-10T00:00:00Z
+suburb: "Alexandria"
+postcode: "2015"
+state: nsw
+lga: "City of Sydney"
+last_verified: "2026-04-10"
+---
+
 # Alexandria, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

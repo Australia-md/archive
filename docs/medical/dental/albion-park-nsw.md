@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Albion Park, NSW — Dental Clinics"
+description: "Albion Park (postcode 2527) is a mixed residential and commercial suburb in the City of Shellharbour local government area, approximately 18 km south of Wollongong CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, albion-park]
+timestamp: 2026-04-05T00:00:00Z
+suburb: "Albion Park"
+postcode: "2527"
+state: nsw
+lga: "City of Shellharbour"
+last_verified: "2026-04-05"
+---
+
 # Albion Park, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

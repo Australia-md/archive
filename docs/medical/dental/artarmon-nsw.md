@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Artarmon, NSW — Dental Clinics"
+description: "Artarmon (postcode 2064) is a mixed residential, commercial, and industrial suburb in the City of Willoughby local government area, approximately 9 km…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, artarmon]
+timestamp: 2026-05-05T00:00:00Z
+suburb: "Artarmon"
+postcode: "2064"
+state: nsw
+lga: "City of Willoughby"
+last_verified: "2026-05-05"
+---
+
 # Artarmon, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Alstonville, NSW — Dental Clinics"
+description: "Alstonville (postcode 2477) is a mixed residential and commercial suburb in the Ballina local government area in the Northern Rivers region of New South Wales."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, alstonville]
+timestamp: 2026-04-24T00:00:00Z
+suburb: "Alstonville"
+postcode: "2477"
+state: nsw
+lga: "Ballina (Area)"
+last_verified: "2026-04-24"
+---
+
 # Alstonville, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

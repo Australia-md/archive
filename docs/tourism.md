@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Tourism & Travel in Australia"
+description: "Australia is consistently ranked among the world's top tourist destinations."
+resource: "https://www.australia.com"
+tags: [tourism]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Tourism & Travel in Australia
 
 **Parent:** [Australia.md](../Australia.md)  

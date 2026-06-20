@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Annandale, NSW — Dental Clinics"
+description: "Annandale (postcode 2038) is a mixed residential and commercial suburb in the Inner West Council local government area, approximately 5 km west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, annandale]
+timestamp: 2026-04-27T00:00:00Z
+suburb: "Annandale"
+postcode: "2038"
+state: nsw
+lga: "Inner West Council"
+last_verified: "2026-04-27"
+---
+
 # Annandale, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

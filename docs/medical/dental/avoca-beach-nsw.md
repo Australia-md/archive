@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Avoca Beach, NSW — Dental Clinics"
+description: "Avoca Beach (postcode 2251) is a mixed residential and tourism-focused coastal suburb in the Central Coast Council local government area, approximately 17 km…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, avoca-beach]
+timestamp: 2026-05-11T00:00:00Z
+suburb: "Avoca Beach"
+postcode: "2251"
+state: nsw
+lga: "Central Coast Council"
+last_verified: "2026-05-11"
+---
+
 # Avoca Beach, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

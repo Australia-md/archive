@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Chatswood, NSW — Dental Clinics"
+description: "Chatswood (postcode 2067) is a major commercial and residential suburb in the City of Willoughby, approximately 10 km north of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, chatswood]
+timestamp: 2026-03-30T00:00:00Z
+suburb: "Chatswood"
+postcode: "2067"
+state: nsw
+lga: "City of Willoughby"
+last_verified: "2026-03-30"
+---
+
 # Chatswood, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Technology & AI Sector of Australia"
+description: "Australia has a growing technology and innovation ecosystem."
+resource: "https://www.industry.gov.au"
+tags: [technology]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Technology & AI Sector of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

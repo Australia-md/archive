@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "History & Heritage of Australia"
+description: "Australia's national heritage places are listed in the Australian Heritage Database, administered by the Department of Climate Change, Energy, the Environment and Water."
+resource: "https://www.nma.gov.au"
+tags: [history]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # History & Heritage of Australia
 
 **Parent:** [Australia.md](../Australia.md)  
