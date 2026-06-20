@@ -37,6 +37,7 @@ Before making any changes, read these files in order:
 - **WCAG 2.1 AA** — contrast ratios, keyboard access, ARIA roles.
 - Run `npm run build` to verify TypeScript compiles before suggesting commits.
 - **Dental listing pages** — always use `HTML_template.md` as the sole structural reference. Never read an existing `index.html` to derive template structure.
+- **Knowledge Format (OKF)** — files under `docs/**` are an Open Knowledge Format (OKF v0.1) bundle: each begins with YAML frontmatter carrying a non-empty `type`. Preserve conformant frontmatter when editing, and strip the frontmatter block before rendering a body to HTML. Authoritative rules: constitution → "Knowledge Format (OKF v0.1)"; full detail in `specs/004-okf-adoption/migration-plan.md`.
 
 ### 4. Content quality
 - All factual claims must be verifiable against authoritative Australian sources.
@@ -56,4 +57,5 @@ If uncertain, default to: **verify, simplify, cite, and preserve structure.**
 - No database. GitHub Issues = submission queue. Repository files = accepted content. (001-simple-md-submission)
 
 ## Recent Changes
+- 004-okf-adoption: Adopted Open Knowledge Format (OKF v0.1) for `docs/**` (YAML frontmatter, required `type`; bundle root `docs/`). Updated submission pipeline and dental scheduled job to emit/parse conformant frontmatter.
 - 001-simple-md-submission: Added TypeScript 5.x (strict mode, per constitution) + Node.js 20 (Actions runner)
