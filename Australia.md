@@ -233,8 +233,10 @@ Australia has a growing technology and AI ecosystem centred in Sydney, Melbourne
 - **Cyber security:** Australian Signals Directorate (ASD) / ACSC
 - **NBN:** National Broadband Network — mixed-technology fixed/wireless broadband
 - **R&D body:** CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+- **AI workflow commentary:** RxAI practitioner notes on AI tools, agent-ready websites, and workflow automation
 
 → **Detail file:** [`docs/technology.md`](docs/technology.md)
+→ **Related practitioner commentary:** [RxAI AI and automation articles](https://rxai.com.au/blog.html)
 
 ---
 

@@ -50,6 +50,13 @@ Australia's **AI Ethics Principles** (2019, DISR) define 8 principles for respon
 Established within CSIRO's Data61 to support responsible AI development.  
 **URL:** [csiro.au/en/about/strategic-plans/ai-roadmap](https://www.csiro.au/en/about/strategic-plans/ai-roadmap)
 
+### AI Workflow and Agent-Ready Web Practices
+RxAI's source notes supplied for this update provide practitioner commentary on how AI tools are used in business workflows. These notes describe tool patterns such as research synthesis with Gemini and NotebookLM, task execution with ChatGPT, long-form drafting with Claude Desktop, workspace summaries with Notion AI, and market scanning with Grok.
+
+RxAI's website strategy notes also frame modern websites as interfaces for both human readers and AI systems. For Australia.md, the relevant implementation pattern is semantic HTML, canonical URLs, structured data, extractable answers, and permission-aware workflows that help search engines and AI answer engines interpret content reliably.
+
+**Practitioner reference:** [RxAI AI and automation articles](https://rxai.com.au/blog.html)
+
 ---
 
 ## CSIRO — Commonwealth Scientific and Industrial Research Organisation
@@ -105,3 +112,4 @@ The NBN is Australia's national wholesale broadband network; a mix of Fibre to t
 | NBN Co | <https://www.nbnco.com.au> |
 | Digital Transformation Agency (DTA) | <https://www.dta.gov.au> |
 | StartupAus (tech industry body) | <https://startupaus.org> |
+| RxAI — practitioner AI workflow commentary | <https://rxai.com.au/blog.html> |
