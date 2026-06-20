@@ -22,58 +22,108 @@
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalWebPage",
-        "name": "Dental Clinics — Adamstown NSW 2289 | Australia.md",
-        "description": "Verified AHPRA-registered dental clinics in Adamstown NSW 2289 with registered practitioners.",
-        "url": "https://australia.md/medical/dental/adamstown/",
-        "dateModified": "2026-04-17",
-        "inLanguage": "en-AU",
-        "about": { "@type": "MedicalSpecialty", "name": "Dentistry" },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Australia.md", "item": "https://australia.md/" },
-            { "@type": "ListItem", "position": 2, "name": "Medical Directory", "item": "https://australia.md/medical/" },
-            { "@type": "ListItem", "position": 3, "name": "Dental", "item": "https://australia.md/medical/dental/" },
-            { "@type": "ListItem", "position": 4, "name": "Adamstown NSW 2289", "item": "https://australia.md/medical/dental/adamstown/" }
-          ]
-        }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "name": "Dental Clinics — Adamstown NSW 2289 | Australia.md",
+      "description": "Verified AHPRA-registered dental clinics in Adamstown NSW 2289 with registered practitioners.",
+      "url": "https://australia.md/medical/dental/adamstown/",
+      "dateModified": "2026-04-17",
+      "inLanguage": "en-AU",
+      "about": {
+        "@type": "MedicalSpecialty",
+        "name": "Dentistry"
       },
-      {
-        "@type": "Dataset",
-        "name": "Adamstown NSW 2289 — Dental Clinic Directory",
-        "description": "Verified dental clinics and registered practitioners in Adamstown, NSW 2289, sourced from public directories and AHPRA-regulated practice profiles.",
-        "url": "https://australia.md/medical/dental/adamstown/",
-        "dateModified": "2026-04-17",
-        "creator": { "@type": "Organization", "name": "Australia.md" },
-        "license": "https://australia.md/LICENSE"
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "How do I verify a dentist's AHPRA registration in Adamstown?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Visit the Dental Board of Australia website at www.dentalboard.gov.au and click 'Look up practitioners'. Search by the practitioner's name to confirm their current registration status, any conditions, and disciplinary history."
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Australia.md",
+            "item": "https://australia.md/"
           },
           {
-            "@type": "Question",
-            "name": "Which dental clinics in Adamstown are open on Saturdays?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Dr Gwendolin Flanagan at 637 Glebe Road is open on Saturdays from 8:30am to 1:00pm. Adamstown Dental at 557 Glebe Road is closed on Saturdays."
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Medical Directory",
+            "item": "https://australia.md/medical/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dental",
+            "item": "https://australia.md/medical/dental/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Adamstown NSW 2289",
+            "item": "https://australia.md/medical/dental/adamstown/"
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Adamstown NSW 2289 — Dental Clinic Directory",
+      "description": "Verified dental clinics and registered practitioners in Adamstown, NSW 2289, sourced from public directories and AHPRA-regulated practice profiles.",
+      "url": "https://australia.md/medical/dental/adamstown/",
+      "dateModified": "2026-04-17",
+      "creator": {
+        "@type": "Organization",
+        "name": "Australia.md"
+      },
+      "license": "https://australia.md/LICENSE"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I verify a dentist's AHPRA registration in Adamstown?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the Dental Board of Australia website at www.dentalboard.gov.au and click 'Look up practitioners'. Search by the practitioner's name to confirm their current registration status, any conditions, and disciplinary history."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which dental clinics in Adamstown are open on Saturdays?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dr Gwendolin Flanagan at 637 Glebe Road is open on Saturdays from 8:30am to 1:00pm. Adamstown Dental at 557 Glebe Road is closed on Saturdays."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Dentist",
+      "name": "Adamstown Dental",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Adamstown",
+        "addressRegion": "NSW",
+        "postalCode": "2289",
+        "addressCountry": "AU"
+      },
+      "telephone": "0249571888"
+    },
+    {
+      "@type": "Dentist",
+      "name": "Dr Gwendolin Flanagan",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Adamstown",
+        "addressRegion": "NSW",
+        "postalCode": "2289",
+        "addressCountry": "AU"
+      },
+      "telephone": "0249561515"
+    }
+  ]
+}
   </script>
 </head>
 <body class="listing-page">
@@ -187,7 +237,7 @@
 
     <section class="clinic-practitioners" aria-label="Registered practitioners at Adamstown Dental">
       <div class="practitioners-label">Registered Practitioners</div>
-      <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://practitioners.ahpra.gov.au" target="_blank" rel="noopener noreferrer">practitioners.ahpra.gov.au</a>.</p>
+      <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA Practitioner Register</a>.</p>
       <p class="ahpra-verify-note">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
         Verify registration: <a href="https://www.dentalboard.gov.au/" target="_blank" rel="noopener noreferrer">www.dentalboard.gov.au</a>

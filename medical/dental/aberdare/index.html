@@ -22,58 +22,96 @@
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalWebPage",
-        "name": "Dental Clinics — Aberdare NSW 2325 | Australia.md",
-        "description": "Dental clinic in Aberdare NSW 2325 with verified contact details sourced from public directories.",
-        "url": "https://australia.md/medical/dental/aberdare/",
-        "dateModified": "2026-04-02",
-        "inLanguage": "en-AU",
-        "about": { "@type": "MedicalSpecialty", "name": "Dentistry" },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Australia.md", "item": "https://australia.md/" },
-            { "@type": "ListItem", "position": 2, "name": "Medical Directory", "item": "https://australia.md/medical/" },
-            { "@type": "ListItem", "position": 3, "name": "Dental", "item": "https://australia.md/medical/dental/" },
-            { "@type": "ListItem", "position": 4, "name": "Aberdare NSW 2325", "item": "https://australia.md/medical/dental/aberdare/" }
-          ]
-        }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "name": "Dental Clinics — Aberdare NSW 2325 | Australia.md",
+      "description": "Dental clinic in Aberdare NSW 2325 with verified contact details sourced from public directories.",
+      "url": "https://australia.md/medical/dental/aberdare/",
+      "dateModified": "2026-04-02",
+      "inLanguage": "en-AU",
+      "about": {
+        "@type": "MedicalSpecialty",
+        "name": "Dentistry"
       },
-      {
-        "@type": "Dataset",
-        "name": "Aberdare NSW 2325 — Dental Clinic Directory",
-        "description": "Dental clinics in Aberdare, NSW 2325, sourced from public directories.",
-        "url": "https://australia.md/medical/dental/aberdare/",
-        "dateModified": "2026-04-02",
-        "creator": { "@type": "Organization", "name": "Australia.md" },
-        "license": "https://australia.md/LICENSE"
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "How do I verify a dentist's registration in Aberdare?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "All dental practitioners in Australia must hold current registration with the Dental Board of Australia under AHPRA. Visit www.ahpra.gov.au and use the Register of Practitioners to search by name and verify registration status."
-            }
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Australia.md",
+            "item": "https://australia.md/"
           },
           {
-            "@type": "Question",
-            "name": "Is Cessnock Dental Clinic a public dental service?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Cessnock Dental Clinic is located within Cessnock Hospital and is a public dental service. Eligibility criteria and appointment availability should be confirmed directly with the clinic on (02) 4991 0380."
-            }
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Medical Directory",
+            "item": "https://australia.md/medical/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Dental",
+            "item": "https://australia.md/medical/dental/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Aberdare NSW 2325",
+            "item": "https://australia.md/medical/dental/aberdare/"
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Aberdare NSW 2325 — Dental Clinic Directory",
+      "description": "Dental clinics in Aberdare, NSW 2325, sourced from public directories.",
+      "url": "https://australia.md/medical/dental/aberdare/",
+      "dateModified": "2026-04-02",
+      "creator": {
+        "@type": "Organization",
+        "name": "Australia.md"
+      },
+      "license": "https://australia.md/LICENSE"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I verify a dentist's registration in Aberdare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All dental practitioners in Australia must hold current registration with the Dental Board of Australia under AHPRA. Visit www.ahpra.gov.au and use the Register of Practitioners to search by name and verify registration status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cessnock Dental Clinic a public dental service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cessnock Dental Clinic is located within Cessnock Hospital and is a public dental service. Eligibility criteria and appointment availability should be confirmed directly with the clinic on (02) 4991 0380."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Dentist",
+      "name": "Cessnock Dental Clinic",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Aberdare",
+        "addressRegion": "NSW",
+        "postalCode": "2325",
+        "addressCountry": "AU"
+      },
+      "telephone": "+61249910380"
+    }
+  ]
+}
   </script>
 </head>
 <body class="listing-page">
@@ -194,7 +232,7 @@
           <div class="practitioners-label">Associated Practitioners</div>
           <p class="ahpra-verify-note" style="margin-top:0.25rem;">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
-            Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via <a href="https://practitioners.ahpra.gov.au" target="_blank" rel="noopener noreferrer">practitioners.ahpra.gov.au</a>.
+            Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA Practitioner Register</a>.
           </p>
           <p class="ahpra-verify-note" style="margin-top:0.75rem;">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
@@ -287,7 +325,7 @@
           <div class="map-clinic-list-title">Sources</div>
           <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.35rem;">
             <li><a href="https://www.dentalboard.gov.au" target="_blank" rel="noopener noreferrer" class="map-clinic-name" style="font-size:0.75rem;">Dental Board of Australia</a></li>
-            <li><a href="https://practitioners.ahpra.gov.au" target="_blank" rel="noopener noreferrer" class="map-clinic-name" style="font-size:0.75rem;">AHPRA Practitioner Register</a></li>
+            <li><a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer" class="map-clinic-name" style="font-size:0.75rem;">AHPRA Practitioner Register</a></li>
             <li><a href="https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10002" target="_blank" rel="noopener noreferrer" class="map-clinic-name" style="font-size:0.75rem;">ABS 2021 Census — Aberdare QuickStats</a></li>
           </ul>
         </div>
@@ -335,7 +373,7 @@
     <div class="footer-bottom">
       <span class="footer-copy">&copy; <span id="current-year"></span> Australia.md — Open-Source Sovereign Archive. AGPL-3.0 / Commercial.</span>
       <span class="footer-source"><a href="../../../docs/medical/dental/aberdare-nsw.md" class="footer-source-link" rel="alternate" type="text/markdown" aria-label="View source Markdown for Aberdare NSW dental page">View source (Markdown)</a></span>
-      <span class="footer-built-by">Built by <a href="https://rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
+      <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
       <div class="footer-accents" aria-hidden="true"><span class="footer-accent-green"></span><span class="footer-accent-gold"></span></div>
     </div>
   </footer>
