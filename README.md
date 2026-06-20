@@ -3,7 +3,7 @@
 > A curated, open-source repository of factual data about Australia — spanning medicine, science, heritage, and culture — built for researchers, AI agents, professionals, and curious minds.
 
 [![Licence: AGPL-3.0 / Commercial](https://img.shields.io/badge/licence-AGPL--3.0%20%2F%20Commercial-green)](#licence)
-[![Version](https://img.shields.io/badge/version-1.1.0-blue)](#)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue)](#)
 [![Last Verified](https://img.shields.io/badge/last%20verified-2026--03--29-brightgreen)](#)
 [![W3C WCAG 2.1 AA](https://img.shields.io/badge/accessibility-WCAG%202.1%20AA-blue)](#)
 

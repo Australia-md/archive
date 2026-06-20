@@ -1,6 +1,6 @@
 {
   "name": "australia-md",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Australia.md — Sovereign Knowledge Archive. Structured, machine-readable data about Australia.",
   "main": "dist/main.js",
   "scripts": {

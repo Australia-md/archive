@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Geography & States of Australia"
+description: "Australia occupies an area of 7,692,024 km², making it the sixth-largest country by total area and the largest country in Oceania."
+resource: "https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/australias-size-compared"
+tags: [geography]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Geography & States of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

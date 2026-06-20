@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Environment & Climate of Australia"
+description: "Australia spans multiple climate zones due to its vast size."
+resource: "https://www.bom.gov.au"
+tags: [environment]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Environment & Climate of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

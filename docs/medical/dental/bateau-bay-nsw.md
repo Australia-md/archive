@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Bateau Bay, NSW — Dental Clinics"
+description: "Bateau Bay (postcode 2261) is a mixed residential and retail suburb in the Central Coast Council local government area, approximately 17 km north-east of Gosford CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, bateau-bay]
+timestamp: 2026-06-06T00:00:00Z
+suburb: "Bateau Bay"
+postcode: "2261"
+state: nsw
+lga: "Central Coast Council"
+last_verified: "2026-06-06"
+---
+
 # Bateau Bay, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Education System of Australia"
+description: "Education in Australia is the joint responsibility of the federal government and state/territory governments."
+resource: "https://www.education.gov.au"
+tags: [education]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Education System of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

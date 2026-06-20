@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Bangor, NSW — Dental Clinics"
+description: "Bangor (postcode 2234) is a mostly residential suburb in the Sutherland Shire local government area, approximately 28 km south of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, bangor]
+timestamp: 2026-05-26T00:00:00Z
+suburb: "Bangor"
+postcode: "2234"
+state: nsw
+lga: "Sutherland Shire"
+last_verified: "2026-05-26"
+---
+
 # Bangor, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Bangalow, NSW — Dental Clinics"
+description: "Bangalow (postcode 2479) is a mixed residential and commercial village in the Byron Shire Council local government area, approximately 24 km north of the Ballina CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, bangalow]
+timestamp: 2026-05-25T00:00:00Z
+suburb: "Bangalow"
+postcode: "2479"
+state: nsw
+lga: "Byron Shire Council"
+last_verified: "2026-05-25"
+---
+
 # Bangalow, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Armidale, NSW — Dental Clinics"
+description: "Armidale (postcode 2350) is a mixed residential, education, health, and commercial centre in the Armidale Regional Council local government area, approximately…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, armidale]
+timestamp: 2026-05-03T00:00:00Z
+suburb: "Armidale"
+postcode: "2350"
+state: nsw
+lga: "Armidale Regional Council"
+last_verified: "2026-05-03"
+---
+
 # Armidale, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

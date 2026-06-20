@@ -1,6 +1,6 @@
 # GitHub Actions Workflows — `.github/workflows/`
 
-There are two workflows in this pipeline. Both are triggered by GitHub Issue events — neither runs on push or pull request.
+There are three workflows. Two are triggered by GitHub Issue events (the submission pipeline); one — `okf-standard-watch.yml` — runs on a schedule to track the upstream Open Knowledge Format standard.
 
 ---
 
@@ -10,6 +10,7 @@ There are two workflows in this pipeline. Both are triggered by GitHub Issue eve
 |------|---------|---------|
 | [`verify-submission.yml`](#verify-submissionyml) | Issue **opened** with `submission` label | AI fact-checks the submission and creates a file + PR or rejects it |
 | [`admin-override.yml`](#admin-overrideyml) | Issue **labeled** with `Verified` or `Rejected` | Lets an authorised admin manually accept or reject a submission |
+| `okf-standard-watch.yml` | **Schedule** (weekly) + `workflow_dispatch` | Checks the upstream OKF standard repo for changes; opens a tracking issue if it moved |
 
 ---
 

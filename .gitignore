@@ -25,6 +25,7 @@ aws_credentials
 .ssh/
 
 
+
 # ==========================================
 # 🤖 OpenCLAW Agent Staging Area (safety net — actual staging is at ~/.openclaw/)
 # ==========================================

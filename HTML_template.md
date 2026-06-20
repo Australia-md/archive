@@ -2,6 +2,8 @@
 
 > **Purpose:** This file is the authoritative reference for generating `medical/dental/{suburb}/index.html` pages. The scheduled job reads THIS file instead of re-parsing an existing HTML page. All structure, class names, rules, and patterns are defined here. Follow exactly — do not deviate from class names, nesting, or element types.
 
+> **OKF v0.1 (since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
+
 ---
 
 ## 1. File Location & Path Depths
@@ -12,6 +14,45 @@
 | `docs/medical/dental/chatswood-nsw.md` | `medical/dental/chatswood/index.html` | `../../../` |
 
 **Rule:** Strip the `-{state}` suffix from the filename. Use the base name as a new directory. Always write `index.html` inside it. CSS/JS refs are always 3 levels deep: `../../../style.css`, `../../../main.js`, `../listing.css`, `../listing.js`.
+
+---
+
+## 1b. Source Markdown Frontmatter (OKF v0.1)
+
+Every source file (e.g. `docs/medical/dental/macquarie-park-nsw.md`) now starts with an OKF YAML frontmatter block. Example:
+
+```yaml
+---
+type: Dental Clinic Directory
+title: Macquarie Park, NSW — Dental Clinics
+description: Verified AHPRA-registered dental clinics in Macquarie Park NSW 2113.
+resource: https://www.dentalboard.gov.au
+tags: [dental, nsw, macquarie-park]
+timestamp: 2026-05-28T00:00:00Z
+suburb: Macquarie Park
+postcode: "2113"
+state: nsw
+lga: City of Ryde
+last_verified: 2026-05-28
+---
+```
+
+**Generator rules:**
+
+1. **Parse, then strip.** Read the frontmatter for metadata, then remove the entire `---` … `---` block (and the blank line after it) before converting the remaining Markdown body to HTML. The frontmatter must not leak into the page text.
+2. **Field usage** — prefer frontmatter over re-deriving from prose:
+
+   | Frontmatter field | Used for |
+   |---|---|
+   | `title` | `<title>` / `og:title` (already in the dental format) |
+   | `suburb`, `postcode`, `state` | `{Suburb}`, `{Postcode}`, `{STATE}` fill-ins, breadcrumbs, schema |
+   | `lga` | `{LGA}` in the sidebar map region label (§8) |
+   | `timestamp` / `last_verified` | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
+   | `resource` | Authoritative registration source link |
+   | `description` | Fallback only — the `{meta-description}` rule below still governs the meta tags |
+
+3. **Fact-check unchanged.** Frontmatter is metadata only. Clinic names, addresses, phones, practitioners, hours, and services are still taken **exclusively** from the Markdown body (§11). Never synthesise page data from frontmatter alone.
+4. **Missing fields.** Frontmatter fields other than `type` are optional. If `suburb`/`postcode`/`lga` are absent, fall back to parsing the body's `**Suburb:**` line as before; never invent values.
 
 ---
 
@@ -62,7 +103,7 @@
 - `{STATE}` — state abbreviation uppercase (e.g. `NSW`)
 - `{Postcode}` — postcode number (e.g. `2113`)
 - `{suburb-slug}` — lowercase kebab-case (e.g. `macquarie-park`)
-- `{Last Verified date}` — from MD frontmatter field `Last Verified`
+- `{Last Verified date}` — from MD frontmatter field `timestamp` (date portion) or `last_verified`; see §1b
 - `{meta-description}` — see rule below
 
 **Meta description rule (enforced):**
@@ -317,7 +358,7 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
       </li>
     </ul>
     <!-- If no practitioners confirmed from source: -->
-    <!-- <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://practitioners.ahpra.gov.au" target="_blank" rel="noopener noreferrer">practitioners.ahpra.gov.au</a>.</p> -->
+    <!-- <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA Practitioner Register</a>.</p> -->
     <p class="ahpra-verify-note">
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
       Verify registration: <a href="https://www.dentalboard.gov.au/" target="_blank" rel="noopener noreferrer">www.dentalboard.gov.au</a>
@@ -512,7 +553,7 @@ The footer block is mostly static — only the **source Markdown link** (see 10a
 4. **Meta description ≤ 155 chars** — the `{meta-description}` variable must not exceed 155 characters. Verify the length before writing it. The same value is used for `name="description"`, `og:description`, and `twitter:description`.
 5. **og:image always present** — every page must include `og:image`, `og:image:width`, `og:image:height`, and `twitter:image` pointing to `https://australia.md/og-default.png`. Never omit these.
 6. **JSON-LD safety** — double-quote characters inside JSON string values must be escaped as `\"`. This is especially relevant for FAQ answers and clinic descriptions that may contain quoted words.
-4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `practitioners.ahpra.gov.au`.
+4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx`.
 5. **Hours absent** — omit the hours `<span class="clinic-meta-item">` entirely. Never show "hours not confirmed".
 6. **SVG map** — place numbered pins at approximate relative positions based on the suburb's street grid. If address data is too sparse to position meaningfully, draw a simple placeholder map with pins clustered near the centre.
 7. **Semantic HTML5** — use `<article>`, `<section>`, `<nav>`, `<main>`, `<aside>`, `<header>`, `<footer>`. Never use `<div>` where a semantic element exists.

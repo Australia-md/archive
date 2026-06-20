@@ -66,6 +66,15 @@ Conform to WCAG 2.1 Level AA and WAI-ARIA 1.2:
 - `<time datetime="YYYY-MM-DD">` for all dates
 - Visible `Last Verified` date on all pages, reflected in structured data
 
+### Knowledge Format (OKF v0.1)
+The Markdown knowledge layer conforms to the **Open Knowledge Format (OKF) v0.1**. The **bundle root is `docs/`**; `Australia.md` remains the human entry point and also carries frontmatter.
+- **Every** concept file under `docs/**` (excluding reserved `index.md` / `log.md`) MUST begin with a parseable YAML frontmatter block whose **`type`** field is present and non-empty. `type` is the only required field.
+- Recommended fields, in priority order: `title`, `description`, `resource` (canonical source URI), `tags`, `timestamp` (ISO 8601 datetime). Producers MAY add extension keys (e.g. `suburb`, `postcode`, `state`, `lga`, `ahpra_status`, `last_verified`, `category`, `submission_issue`); consumers MUST tolerate unknown keys, unknown `type` values, and broken cross-links.
+- **Type vocabulary:** `Country Index` (`Australia.md`), `Domain Overview` (`docs/*.md`), `Dental Clinic Directory` (`docs/medical/dental/*.md`). Extend with descriptive, self-explanatory values for new concept classes.
+- **Reserved filenames:** `index.md` (directory listing for progressive disclosure; no frontmatter except the bundle-root `docs/index.md`, which may declare `okf_version: "0.1"`) and `log.md` (change history). Concepts cross-link with standard Markdown links; relative links are retained for GitHub compatibility.
+- **Last Verified** is mirrored: authoritative in frontmatter (`timestamp` + `last_verified`) and kept visible in the body.
+- **Producers and consumers** — the submission pipeline (`.github/scripts/create-content-file.ts`) and the dental scheduled job (via `HTML_template.md`) — MUST emit/parse conformant frontmatter, and any consumer rendering a body to HTML MUST strip the frontmatter block first. Rationale and migration record: [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).
+
 ## Content & File Conventions
 
 1. **Read `Australia.md` first** before creating or modifying any content
@@ -81,6 +90,7 @@ Conform to WCAG 2.1 Level AA and WAI-ARIA 1.2:
    <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
    ```
 9. **Version control:** Semantic versioning (MAJOR.MINOR.PATCH). Update in `index.html`, `README.md`, and `AGENTS.md` simultaneously. Tag with `git tag vX.Y.Z`
+10. **OKF frontmatter:** every concept file under `docs/**` carries OKF v0.1 frontmatter with a non-empty `type` — see Standards → "Knowledge Format (OKF v0.1)". New files produced by automation must be born conformant.
 
 ## Development Workflow
 
@@ -114,4 +124,6 @@ This constitution is the authoritative governance document for the Australia.md 
 - Constitution amendments are made via pull request like any other file — no special committee required
 - All agents and contributors must reference this constitution as the authority when standards questions arise
 
-**Version**: 1.0.0 | **Ratified**: 2026-03-29 | **Last Amended**: 2026-03-29
+**Version**: 1.1.0 | **Ratified**: 2026-03-29 | **Last Amended**: 2026-06-20
+
+*Amendment 1.1.0 (2026-06-20): adopted the Open Knowledge Format (OKF v0.1) for the `docs/**` knowledge layer — see Standards → "Knowledge Format (OKF v0.1)" and [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).*

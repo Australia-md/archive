@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Economy & Industry of Australia"
+description: "Australia has a highly developed mixed-market economy."
+resource: "https://www.abs.gov.au/statistics/economy"
+tags: [economy]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Economy & Industry of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

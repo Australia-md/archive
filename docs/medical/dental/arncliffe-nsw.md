@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Arncliffe, NSW — Dental Clinics"
+description: "Arncliffe (postcode 2205) is a mixed residential, commercial, and light industrial suburb in the Bayside Council local government area, approximately 11 km…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, arncliffe]
+timestamp: 2026-05-04T00:00:00Z
+suburb: "Arncliffe"
+postcode: "2205"
+state: nsw
+lga: "Bayside Council"
+last_verified: "2026-05-04"
+---
+
 # Arncliffe, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

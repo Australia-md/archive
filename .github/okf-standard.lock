@@ -1,0 +1,9 @@
+# Open Knowledge Format (OKF) — upstream baseline
+# Tracked by .github/workflows/okf-standard-watch.yml via .github/scripts/check-okf-standard.ts.
+# When the watch workflow opens a "OKF standard upstream update" issue, reconcile the spec,
+# then bump `sha` below to the new upstream commit in the same PR to close the issue.
+#
+# Upstream: GoogleCloudPlatform/knowledge-catalog  (path: okf/)
+sha: 4c40ef103cd7dd9ca978bbb190fc795cfde4f7c3
+date: 2026-06-13T17:15:16Z
+okf_version: 0.1

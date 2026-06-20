@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Beecroft, NSW — Dental Clinics"
+description: "Beecroft (postcode 2119) is a mixed residential and village-centre suburb in Sydney's Northern Sydney region, approximately 22 km north-west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, beecroft]
+timestamp: 2026-06-15T00:00:00Z
+suburb: "Beecroft"
+postcode: "2119"
+state: nsw
+lga: "Hornsby Shire / City of Parramatta"
+last_verified: "2026-06-15"
+---
+
 # Beecroft, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Albury, NSW — Dental Clinics"
+description: "Albury (postcode 2640) is a mixed residential and commercial suburb in the City of Albury local government area, on the northern side of the Murray River…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, albury]
+timestamp: 2026-04-09T00:00:00Z
+suburb: "Albury"
+postcode: "2640"
+state: nsw
+lga: "City of Albury"
+last_verified: "2026-04-09"
+---
+
 # Albury, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

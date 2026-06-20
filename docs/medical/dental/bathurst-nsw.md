@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Bathurst, NSW — Dental Clinics"
+description: "Bathurst (postcode 2795) is a mixed regional city suburb in the Bathurst Regional Council local government area, approximately 200 km west of Sydney CBD in the…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, bathurst]
+timestamp: 2026-06-09T00:00:00Z
+suburb: "Bathurst"
+postcode: "2795"
+state: nsw
+lga: "Bathurst Regional Council"
+last_verified: "2026-06-09"
+---
+
 # Bathurst, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

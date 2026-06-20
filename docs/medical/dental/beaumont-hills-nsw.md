@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Beaumont Hills, NSW — Dental Clinics"
+description: "Beaumont Hills (postcode 2155) is a residential suburb in The Hills Shire local government area, approximately 40 km north-west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, beaumont-hills]
+timestamp: 2026-06-13T00:00:00Z
+suburb: "Beaumont Hills"
+postcode: "2155"
+state: nsw
+lga: "The Hills Shire"
+last_verified: "2026-06-13"
+---
+
 # Beaumont Hills, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Baulkham Hills, NSW — Dental Clinics"
+description: "Baulkham Hills (postcode 2153) is a mixed residential and commercial suburb in Sydney's north-west, approximately 30 km north-west of the Sydney CBD, mostly…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, baulkham-hills]
+timestamp: 2026-06-10T00:00:00Z
+suburb: "Baulkham Hills"
+postcode: "2153"
+state: nsw
+lga: "The Hills Shire"
+last_verified: "2026-06-10"
+---
+
 # Baulkham Hills, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

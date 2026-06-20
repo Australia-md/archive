@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Bega, NSW — Dental Clinics"
+description: "Bega (postcode 2550) is a mixed commercial and residential town in the Bega Valley Shire local government area on the Sapphire Coast of south-eastern New South Wales."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, bega]
+timestamp: 2026-06-16T00:00:00Z
+suburb: "Bega"
+postcode: "2550"
+state: nsw
+lga: "Bega Valley Shire"
+last_verified: "2026-06-16"
+---
+
 # Bega, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Arts, Culture & Sport of Australia"
+description: "Australian Broadcasting Corporation (ABC) — Australia's national public broadcaster, funded by the federal government but editorially independent."
+resource: "https://australiacouncil.gov.au"
+tags: [culture]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Arts, Culture & Sport of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

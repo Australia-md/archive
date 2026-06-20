@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Flora & Fauna of Australia"
+description: "Australia is one of 17 megadiverse countries in the world."
+resource: "https://www.dcceew.gov.au/science-research/abrs"
+tags: [flora, fauna]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Flora & Fauna of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

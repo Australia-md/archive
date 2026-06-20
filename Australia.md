@@ -1,3 +1,12 @@
+---
+type: "Country Index"
+title: "Australia.md"
+description: "This file is the canonical entry point for machine-readable knowledge about Australia."
+tags: [australia, index]
+timestamp: 2026-03-26T00:00:00Z
+last_verified: "2026-03-26"
+---
+
 # Australia.md
 
 > **For AI Agents:** This file is the canonical entry point for machine-readable knowledge about Australia. It is structured to be parsed by language models, search indices, and autonomous agents. Each section links to a specialised `.md` file; each specialised file links to the single most authoritative external source of truth for that domain.
@@ -21,7 +30,19 @@
 | **Internet TLD** | `.au` |
 | **Emergency Number** | 000 |
 | **Licence Version** | Dual — AGPL-3.0 (open source) / Commercial (james@rxai.com.au) |
+| **Knowledge Format** | Open Knowledge Format (OKF) v0.1 — Google Cloud open standard |
 | **Last Verified** | 2026-03-26 |
+
+---
+
+## Knowledge Format (OKF)
+
+This archive is published in the **Open Knowledge Format (OKF) v0.1**, the vendor-neutral standard introduced by Google Cloud for representing curated knowledge as a directory of Markdown files with YAML frontmatter. The `docs/` tree is the OKF **bundle** (bundle root `docs/`): every concept file begins with frontmatter carrying a required `type`, and each directory exposes an `index.md` for progressive disclosure.
+
+- **Bundle root:** [`docs/index.md`](docs/index.md) — declares `okf_version: "0.1"`
+- **Specification:** [Open Knowledge Format SPEC](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) · [Google Cloud announcement](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
+- **Our adoption record:** [`specs/004-okf-adoption/migration-plan.md`](specs/004-okf-adoption/migration-plan.md)
+- **Conformance:** every `.md` under `docs/**` (except reserved `index.md` / `log.md`) carries a parseable YAML frontmatter block with a non-empty `type`. Community submissions accepted through the UI are **auto-converted** to OKF on acceptance, and a scheduled GitHub Action watches the upstream standard for changes.
 
 ---
 

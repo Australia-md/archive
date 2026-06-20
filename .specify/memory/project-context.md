@@ -63,3 +63,25 @@ Each entry in `sitemap.xml` must include `<loc>`, `<lastmod>` (YYYY-MM-DD), `<ch
 - Homepage: `1.0`
 - Main category pages: `0.8`
 - Sub-pages: `0.6`
+
+## Open Knowledge Format (OKF v0.1)
+
+The `docs/` tree is an **OKF v0.1 knowledge bundle** (bundle root = `docs/`). Every concept file (all `.md` except reserved `index.md` / `log.md`) begins with a YAML frontmatter block.
+
+**Frontmatter schema**
+
+| Key | Req | Notes |
+|---|---|---|
+| `type` | yes | `Country Index` (`Australia.md`), `Domain Overview` (`docs/*.md`), `Dental Clinic Directory` (`docs/medical/dental/*.md`) |
+| `title` | rec | display name (from H1) |
+| `description` | rec | one-sentence summary |
+| `resource` | rec | canonical authoritative source URI |
+| `tags` | rec | e.g. `[dental, nsw, chatswood]` |
+| `timestamp` | rec | ISO 8601 datetime |
+| `suburb`, `postcode`, `state`, `lga` | ext | location files |
+| `last_verified` | ext | date mirror of "Last Verified" (also kept visible in body) |
+| `ahpra_status`, `category`, `submission_issue` | ext | pipeline-generated files |
+
+**Reserved files:** `index.md` — directory listing for progressive disclosure; only the bundle-root `docs/index.md` may carry frontmatter (`okf_version: "0.1"`). `log.md` — change history. Concepts cross-link with standard **relative** Markdown links (GitHub-compatible).
+
+Full schema, field mapping, and migration record: [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).

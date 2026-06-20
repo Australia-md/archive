@@ -1,0 +1,43 @@
+# Dental Clinics — New South Wales
+
+Suburb-level dental clinic directories. 37 suburbs. See the [Medical overview](../../medical.md).
+
+# Suburbs
+
+* [Aberdare, NSW — Dental Clinics](aberdare-nsw.md) - Aberdare (postcode 2325) is a mixed residential suburb in the Cessnock City Council local government area in the Lower Hunter region of New South Wales.
+* [Adamstown, NSW — Dental Clinics](adamstown-nsw.md) - Adamstown (postcode 2289) is a mixed residential and commercial suburb in the City of Newcastle / City of Lake Macquarie local government area, approximately 6…
+* [Airds, NSW — Dental Clinics](airds-nsw.md) - Airds (postcode 2560) is a predominantly residential suburb in the City of Campbelltown local government area, approximately 56 km south-west of the Sydney CBD.
+* [Albion Park, NSW — Dental Clinics](albion-park-nsw.md) - Albion Park (postcode 2527) is a mixed residential and commercial suburb in the City of Shellharbour local government area, approximately 18 km south of Wollongong CBD.
+* [Albury, NSW — Dental Clinics](albury-nsw.md) - Albury (postcode 2640) is a mixed residential and commercial suburb in the City of Albury local government area, on the northern side of the Murray River…
+* [Alexandria, NSW — Dental Clinics](alexandria-nsw.md) - Alexandria (postcode 2015) is a mixed residential and commercial suburb in the City of Sydney local government area, approximately 5 km south of the Sydney CBD.
+* [Allambie Heights, NSW — Dental Clinics](allambie-heights-nsw.md) - Allambie Heights (postcode 2100) is a residential suburb in the Northern Beaches Council local government area, approximately 17.5 km north-east of the Sydney CBD.
+* [Alstonville, NSW — Dental Clinics](alstonville-nsw.md) - Alstonville (postcode 2477) is a mixed residential and commercial suburb in the Ballina local government area in the Northern Rivers region of New South Wales.
+* [Annandale, NSW — Dental Clinics](annandale-nsw.md) - Annandale (postcode 2038) is a mixed residential and commercial suburb in the Inner West Council local government area, approximately 5 km west of the Sydney CBD.
+* [Armidale, NSW — Dental Clinics](armidale-nsw.md) - Armidale (postcode 2350) is a mixed residential, education, health, and commercial centre in the Armidale Regional Council local government area, approximately…
+* [Arncliffe, NSW — Dental Clinics](arncliffe-nsw.md) - Arncliffe (postcode 2205) is a mixed residential, commercial, and light industrial suburb in the Bayside Council local government area, approximately 11 km…
+* [Artarmon, NSW — Dental Clinics](artarmon-nsw.md) - Artarmon (postcode 2064) is a mixed residential, commercial, and industrial suburb in the City of Willoughby local government area, approximately 9 km…
+* [Ashfield, NSW — Dental Clinics](ashfield-nsw.md) - Ashfield (postcode 2131) is a mixed residential and commercial suburb in the Inner West Council local government area, approximately 8 km west of the Sydney CBD.
+* [Auburn, NSW — Dental Clinics](auburn-nsw.md) - Auburn (postcode 2144) is a mixed residential and commercial suburb in the Cumberland City Council local government area, approximately 16 km west of the Sydney CBD.
+* [Avalon Beach, NSW — Dental Clinics](avalon-beach-nsw.md) - Avalon Beach (postcode 2107) is a mixed residential and commercial beachside suburb in the Northern Beaches Council local government area, approximately 28 km…
+* [Avoca Beach, NSW — Dental Clinics](avoca-beach-nsw.md) - Avoca Beach (postcode 2251) is a mixed residential and tourism-focused coastal suburb in the Central Coast Council local government area, approximately 17 km…
+* [Balgowlah Heights, NSW — Dental Clinics](balgowlah-heights-nsw.md) - Balgowlah Heights (postcode 2093) is a mixed residential suburb in the Northern Beaches Council local government area, approximately 11 km north-east of the Sydney CBD.
+* [Balgowlah, NSW — Dental Clinics](balgowlah-nsw.md) - Balgowlah (postcode 2093) is a mixed residential and commercial suburb in the Northern Beaches Council local government area, approximately 10 km north-east of…
+* [Bangalow, NSW — Dental Clinics](bangalow-nsw.md) - Bangalow (postcode 2479) is a mixed residential and commercial village in the Byron Shire Council local government area, approximately 24 km north of the Ballina CBD.
+* [Bangor, NSW — Dental Clinics](bangor-nsw.md) - Bangor (postcode 2234) is a mostly residential suburb in the Sutherland Shire local government area, approximately 28 km south of the Sydney CBD.
+* [Bankstown, NSW — Dental Clinics](bankstown-nsw.md) - Bankstown (postcode 2200) is a mixed residential and commercial suburb in the City of Canterbury-Bankstown, approximately 19 km south-west of the Sydney CBD.
+* [Banora Point, NSW — Dental Clinics](banora-point-nsw.md) - Banora Point (postcode 2486) is a mixed residential and commercial suburb in Tweed Shire, approximately 665 km north-north-east of the Sydney CBD.
+* [Barham, NSW — Dental Clinics](barham-nsw.md) - Barham (postcode 2732) is a mixed residential and service town in the Murray River Council local government area, on the northern bank of the Murray River…
+* [Barrack Heights, NSW — Dental Clinics](barrack-heights-nsw.md) - Barrack Heights (postcode 2528) is a residential suburb in the City of Shellharbour local government area in the Illawarra region, approximately 16 km south of…
+* [Bateau Bay, NSW — Dental Clinics](bateau-bay-nsw.md) - Bateau Bay (postcode 2261) is a mixed residential and retail suburb in the Central Coast Council local government area, approximately 17 km north-east of Gosford CBD.
+* [Batehaven, NSW — Dental Clinics](batehaven-nsw.md) - Batehaven (postcode 2536) is a mixed residential and coastal suburb in the Eurobodalla Shire local government area, approximately 4 km south of Batemans Bay.
+* [Batemans Bay, NSW — Dental Clinics](batemans-bay-nsw.md) - Batemans Bay (postcode 2536) is a mixed residential, commercial and tourism suburb in the Eurobodalla Shire local government area, approximately 280 km south…
+* [Bathurst, NSW — Dental Clinics](bathurst-nsw.md) - Bathurst (postcode 2795) is a mixed regional city suburb in the Bathurst Regional Council local government area, approximately 200 km west of Sydney CBD in the…
+* [Baulkham Hills, NSW — Dental Clinics](baulkham-hills-nsw.md) - Baulkham Hills (postcode 2153) is a mixed residential and commercial suburb in Sydney's north-west, approximately 30 km north-west of the Sydney CBD, mostly…
+* [Beaconsfield, NSW — Dental Clinics](beaconsfield-nsw.md) - Beaconsfield (postcode 2015) is a mixed inner-southern suburb in the City of Sydney local government area, approximately 5 km south of the Sydney CBD.
+* [Beaumont Hills, NSW — Dental Clinics](beaumont-hills-nsw.md) - Beaumont Hills (postcode 2155) is a residential suburb in The Hills Shire local government area, approximately 40 km north-west of the Sydney CBD.
+* [Beecroft, NSW — Dental Clinics](beecroft-nsw.md) - Beecroft (postcode 2119) is a mixed residential and village-centre suburb in Sydney's Northern Sydney region, approximately 22 km north-west of the Sydney CBD.
+* [Bega, NSW — Dental Clinics](bega-nsw.md) - Bega (postcode 2550) is a mixed commercial and residential town in the Bega Valley Shire local government area on the Sapphire Coast of south-eastern New South Wales.
+* [Belfield, NSW — Dental Clinics](belfield-nsw.md) - Belfield (postcode 2191) is a mixed residential and local-commercial suburb in Sydney's south-west within the City of Canterbury-Bankstown local government area.
+* [Bella Vista, NSW — Dental Clinics](bella-vista-nsw.md) - Bella Vista (postcode 2153) is a mixed residential and business suburb in The Hills Shire, about 33 km north-west of the Sydney CBD.
+* [Chatswood, NSW — Dental Clinics](chatswood-nsw.md) - Chatswood (postcode 2067) is a major commercial and residential suburb in the City of Willoughby, approximately 10 km north of the Sydney CBD.
+* [Macquarie Park, NSW — Dental Clinics](macquarie-park-nsw.md) - Macquarie Park (postcode 2113) is a commercial and residential suburb in the City of Ryde local government area, approximately 12 km north-west of the Sydney CBD.

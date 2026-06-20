@@ -16,6 +16,7 @@ Before making any changes, read these files in order:
 4. **[`README.md`](README.md)** — Project overview and tech stack
 5. **[`CONTRIBUTING.md`](CONTRIBUTING.md)** — Contributor guide and file conventions
 6. **[`Security.md`](Security.md)** — Security policies and responsible disclosure
+7. **[`specs/004-okf-adoption/migration-plan.md`](specs/004-okf-adoption/migration-plan.md)** — Open Knowledge Format (OKF v0.1) standard for the `docs/**` knowledge layer
 
 ---
 

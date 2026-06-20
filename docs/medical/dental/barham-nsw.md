@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Barham, NSW — Dental Clinics"
+description: "Barham (postcode 2732) is a mixed residential and service town in the Murray River Council local government area, on the northern bank of the Murray River…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, barham]
+timestamp: 2026-05-31T00:00:00Z
+suburb: "Barham"
+postcode: "2732"
+state: nsw
+lga: "Murray River Council"
+last_verified: "2026-05-31"
+---
+
 # Barham, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

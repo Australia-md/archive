@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Batemans Bay, NSW — Dental Clinics"
+description: "Batemans Bay (postcode 2536) is a mixed residential, commercial and tourism suburb in the Eurobodalla Shire local government area, approximately 280 km south…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, batemans-bay]
+timestamp: 2026-06-08T00:00:00Z
+suburb: "Batemans Bay"
+postcode: "2536"
+state: nsw
+lga: "Eurobodalla Shire"
+last_verified: "2026-06-08"
+---
+
 # Batemans Bay, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

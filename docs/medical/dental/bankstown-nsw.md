@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Bankstown, NSW — Dental Clinics"
+description: "Bankstown (postcode 2200) is a mixed residential and commercial suburb in the City of Canterbury-Bankstown, approximately 19 km south-west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, bankstown]
+timestamp: 2026-05-27T00:00:00Z
+suburb: "Bankstown"
+postcode: "2200"
+state: nsw
+lga: "City of Canterbury-Bankstown"
+last_verified: "2026-05-27"
+---
+
 # Bankstown, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

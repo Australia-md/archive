@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Medical & Healthcare System of Australia"
+description: "Australia operates a universal public healthcare system called Medicare, established under the Health Insurance Act 1973."
+resource: "https://www.ahpra.gov.au"
+tags: [medical]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Medical & Healthcare System of Australia
 
 **Parent:** [Australia.md](../Australia.md)  

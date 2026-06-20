@@ -1,3 +1,12 @@
+---
+type: "Domain Overview"
+title: "Indigenous Australia"
+description: "Aboriginal Australians and Torres Strait Islander peoples are the traditional custodians of the Australian continent and its surrounding islands."
+resource: "https://www.niaa.gov.au"
+tags: [indigenous]
+timestamp: 2026-05-10T00:00:00Z
+---
+
 # Indigenous Australia
 
 **Parent:** [Australia.md](../Australia.md)  

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Airds, NSW — Dental Clinics"
+description: "Airds (postcode 2560) is a predominantly residential suburb in the City of Campbelltown local government area, approximately 56 km south-west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, airds]
+timestamp: 2026-04-20T00:00:00Z
+suburb: "Airds"
+postcode: "2560"
+state: nsw
+lga: "City of Campbelltown"
+last_verified: "2026-04-20"
+---
+
 # Airds, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

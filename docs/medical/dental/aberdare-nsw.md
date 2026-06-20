@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Aberdare, NSW — Dental Clinics"
+description: "Aberdare (postcode 2325) is a mixed residential suburb in the Cessnock City Council local government area in the Lower Hunter region of New South Wales."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, aberdare]
+timestamp: 2026-04-02T00:00:00Z
+suburb: "Aberdare"
+postcode: "2325"
+state: nsw
+lga: "Cessnock City Council"
+last_verified: "2026-04-02"
+---
+
 # Aberdare, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

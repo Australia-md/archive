@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Batehaven, NSW — Dental Clinics"
+description: "Batehaven (postcode 2536) is a mixed residential and coastal suburb in the Eurobodalla Shire local government area, approximately 4 km south of Batemans Bay."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, batehaven]
+timestamp: 2026-06-07T00:00:00Z
+suburb: "Batehaven"
+postcode: "2536"
+state: nsw
+lga: "Eurobodalla Shire"
+last_verified: "2026-06-07"
+---
+
 # Batehaven, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

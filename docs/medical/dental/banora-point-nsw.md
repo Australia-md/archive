@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Banora Point, NSW — Dental Clinics"
+description: "Banora Point (postcode 2486) is a mixed residential and commercial suburb in Tweed Shire, approximately 665 km north-north-east of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, banora-point]
+timestamp: 2026-05-29T00:00:00Z
+suburb: "Banora Point"
+postcode: "2486"
+state: nsw
+lga: "Tweed Shire"
+last_verified: "2026-05-29"
+---
+
 # Banora Point, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Auburn, NSW — Dental Clinics"
+description: "Auburn (postcode 2144) is a mixed residential and commercial suburb in the Cumberland City Council local government area, approximately 16 km west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, auburn]
+timestamp: 2026-05-09T00:00:00Z
+suburb: "Auburn"
+postcode: "2144"
+state: nsw
+lga: "Cumberland City Council"
+last_verified: "2026-05-09"
+---
+
 # Auburn, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

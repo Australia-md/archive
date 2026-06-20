@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Avalon Beach, NSW — Dental Clinics"
+description: "Avalon Beach (postcode 2107) is a mixed residential and commercial beachside suburb in the Northern Beaches Council local government area, approximately 28 km…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, avalon-beach]
+timestamp: 2026-05-10T00:00:00Z
+suburb: "Avalon Beach"
+postcode: "2107"
+state: nsw
+lga: "Northern Beaches Council"
+last_verified: "2026-05-10"
+---
+
 # Avalon Beach, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

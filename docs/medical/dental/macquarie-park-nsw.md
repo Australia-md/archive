@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Macquarie Park, NSW — Dental Clinics"
+description: "Macquarie Park (postcode 2113) is a commercial and residential suburb in the City of Ryde local government area, approximately 12 km north-west of the Sydney CBD."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, macquarie-park]
+timestamp: 2026-03-27T00:00:00Z
+suburb: "Macquarie Park"
+postcode: "2113"
+state: nsw
+lga: "City of Ryde"
+last_verified: "2026-03-27"
+---
+
 # Macquarie Park, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW

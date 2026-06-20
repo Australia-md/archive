@@ -1,3 +1,17 @@
+---
+type: "Dental Clinic Directory"
+title: "Barrack Heights, NSW — Dental Clinics"
+description: "Barrack Heights (postcode 2528) is a residential suburb in the City of Shellharbour local government area in the Illawarra region, approximately 16 km south of…"
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, barrack-heights]
+timestamp: 2026-06-02T00:00:00Z
+suburb: "Barrack Heights"
+postcode: "2528"
+state: nsw
+lga: "Shellharbour City Council"
+last_verified: "2026-06-02"
+---
+
 # Barrack Heights, NSW — Dental Clinics
 
 **Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
