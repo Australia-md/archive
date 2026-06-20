@@ -16,7 +16,7 @@ Respond ONLY with one of:
 Do not include any other text, explanation, or formatting.`;
 
 function setOutputs(outputs: {
-  status: 'VERIFIED' | 'REJECTED' | 'SCRAPE_BLOCKED' | 'RATE_LIMITED';
+  status: 'VERIFIED' | 'REJECTED' | 'SCRAPE_BLOCKED' | 'RATE_LIMITED' | 'MODEL_ERROR';
   rejectionReason?: string;
   contributorEmail: string;
   contentPath?: string;
@@ -103,8 +103,10 @@ async function run(): Promise<void> {
       return;
     }
 
+    // The source WAS scraped — this is a model/API failure, not a scrape block.
+    core.warning(`Model verification call failed: ${message}`);
     setOutputs({
-      status: 'SCRAPE_BLOCKED',
+      status: 'MODEL_ERROR',
       contributorEmail,
     });
     return;
@@ -123,11 +125,13 @@ async function run(): Promise<void> {
     return;
   }
 
-  const rejectedMatch = sanitizedVerdict.match(/^REJECTED: .{1,500}$/);
-  if (rejectedMatch) {
+  // [\s\S] (not `.`) so a multi-line rejection reason is still recognized;
+  // the reason is then collapsed to a single line.
+  const rejectedMatch = sanitizedVerdict.match(/^REJECTED:\s*([\s\S]{1,500})$/);
+  if (rejectedMatch && rejectedMatch[1]) {
     setOutputs({
       status: 'REJECTED',
-      rejectionReason: sanitizedVerdict.slice('REJECTED: '.length),
+      rejectionReason: rejectedMatch[1].replace(/\s+/g, ' ').trim(),
       contributorEmail,
       contentPath: parsed.contentPath,
       category: parsed.category,
@@ -137,8 +141,11 @@ async function run(): Promise<void> {
     return;
   }
 
+  // Verdict is neither VERIFIED nor a parseable REJECTED — the model returned an
+  // unexpected format. That is a model failure, not a scrape block.
+  core.warning(`Unparseable model verdict: ${JSON.stringify(sanitizedVerdict.slice(0, 120))}`);
   setOutputs({
-    status: 'SCRAPE_BLOCKED',
+    status: 'MODEL_ERROR',
     contributorEmail,
   });
 }

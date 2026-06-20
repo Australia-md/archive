@@ -1,0 +1,45 @@
+name: Update Stats
+
+# Regenerates stats.json (the homepage entries/categories counter source) so it
+# cannot drift as new pages are added by the scheduled content job. Runs daily and
+# on demand. Commits stats.json only when its contents actually change.
+#
+# Loop-safe: there is no `push` trigger, and commits made with the default
+# GITHUB_TOKEN do not trigger further workflow runs.
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # daily 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Avoid overlapping runs racing on the same commit.
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Regenerate stats.json
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Regenerate stats.json
+        run: node generate-stats.js
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- stats.json; then
+            echo "stats.json unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.json
+          git commit -m "chore(stats): regenerate stats.json [skip ci]"
+          git push

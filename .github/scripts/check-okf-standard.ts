@@ -72,7 +72,11 @@ async function run(): Promise<void> {
   core.info(`Recorded baseline  : ${baseline || '(none)'}`);
 
   if (baseline === '') {
-    core.warning(`No baseline recorded in ${LOCK_RELATIVE}. Set "sha: ${upstream.sha}" to start tracking.`);
+    // Fail closed: a missing baseline silently disables change detection, so
+    // surface it as a hard failure instead of a warning that passes the run.
+    core.setFailed(
+      `No baseline recorded in ${LOCK_RELATIVE}. OKF change-detection is DISABLED until you set "sha: ${upstream.sha}".`,
+    );
     return;
   }
   if (!changed) {
@@ -92,8 +96,15 @@ async function run(): Promise<void> {
   }
 
   const octokit = github.getOctokit(token);
-  const open = await octokit.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
-  const duplicate = open.data.find((issue) => issue.title.startsWith(ISSUE_TITLE_PREFIX));
+  // Paginate ALL open issues — a single 100-item page can miss an existing
+  // tracking issue and open a duplicate.
+  const openIssues = await octokit.paginate(octokit.rest.issues.listForRepo, {
+    owner,
+    repo,
+    state: 'open',
+    per_page: 100,
+  });
+  const duplicate = openIssues.find((issue) => issue.title.startsWith(ISSUE_TITLE_PREFIX));
   if (duplicate) {
     core.info(`An open tracking issue already exists (#${duplicate.number}); not opening another.`);
     return;

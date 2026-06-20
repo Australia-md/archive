@@ -1,8 +1,9 @@
 // generate-stats.js
 // Counts real entries in the Australia.md archive and writes stats.json.
-// Run manually:  node generate-stats.js
-// Called automatically by the OpenClaw scheduled handoff job after each
-// new batch of pages is processed and committed.
+// Run manually:        node generate-stats.js   (or: npm run stats)
+// Run automatically:   .github/workflows/update-stats.yml regenerates and
+//   commits stats.json on a daily schedule and on manual dispatch, so the
+//   homepage counter cannot drift as new pages are added by the scheduled job.
 //
 // Entry definition:
 //   - Dental clinics: sum of "N clinics" values from medical/dental/index.html
@@ -27,7 +28,9 @@ function countDentalClinics() {
   let total = 0;
   for (const line of html.split('\n')) {
     if (!line.includes('suburb-dir-meta')) continue;
-    const m = line.match(/(\d+)\s+clinic/);
+    // Allow an optional qualifier between the count and "clinic"
+    // (e.g. "5 verified clinics", "2 partner clinics") so such cards are not skipped.
+    const m = line.match(/(\d+)\s+(?:\w+\s+)*clinic/);
     if (m) total += parseInt(m[1], 10);
   }
   return total;
@@ -67,7 +70,8 @@ const totalEntries = dentalClinics + categorySections;
 
 const stats = {
   entries:    totalEntries,
-  categories: 12,
+  // 11 content categories above + Medical & Healthcare (counted via dental clinics)
+  categories: CONTENT_CATEGORIES.length + 1,
   breakdown: {
     dentalClinics,
     categorySections,

@@ -67,18 +67,19 @@ function isSystemStatus(value: unknown): value is SystemStatus {
   return value === 'green' || value === 'amber' || value === 'red';
 }
 
-router.options('*', (request: Request, env: Env) => {
-  const origin = request.headers.get('Origin') ?? env.ALLOWED_ORIGIN;
+router.options('*', (_request: Request, env: Env) => {
+  // Advertise only the canonical allowed origin — never reflect an arbitrary
+  // request Origin (which would defeat the cross-origin check).
   return new Response(null, {
     status: 204,
-    headers: corsHeaders(origin),
+    headers: corsHeaders(env.ALLOWED_ORIGIN),
   });
 });
 
 router.post('/api/submit', async (request: Request, env: Env) => {
   const origin = request.headers.get('Origin');
   if (!isAllowedOrigin(origin, env.ALLOWED_ORIGIN)) {
-    return jsonResponse({ error: 'Forbidden' }, 403);
+    return jsonResponse({ error: 'Forbidden' }, 403, corsHeaders(env.ALLOWED_ORIGIN));
   }
 
   let body: unknown;
@@ -105,9 +106,9 @@ router.post('/api/submit', async (request: Request, env: Env) => {
   const allowed = await checkRateLimit(getClientIp(request), env.RATE_LIMIT_KV);
   if (!allowed.allowed) {
     return jsonResponse(
-      { error: 'Rate limit exceeded', retryAfterSeconds: 900 },
+      { error: 'Rate limit exceeded', retryAfterSeconds: allowed.retryAfterSeconds },
       429,
-      corsHeaders(env.ALLOWED_ORIGIN),
+      { ...corsHeaders(env.ALLOWED_ORIGIN), 'Retry-After': String(allowed.retryAfterSeconds) },
     );
   }
 
@@ -138,7 +139,9 @@ router.post('/api/submit', async (request: Request, env: Env) => {
 
 router.get('/api/status', async (_request: Request, env: Env) => {
   const status = await getSystemStatus(env);
-  return jsonResponse({ status }, 200);
+  // CORS headers are required so the cross-origin status fetch in the submission
+  // form can actually read the body (otherwise it always hits its catch fallback).
+  return jsonResponse({ status }, 200, corsHeaders(env.ALLOWED_ORIGIN));
 });
 
 router.get('/api/email/:issueNumber', async (request: Request, env: Env) => {

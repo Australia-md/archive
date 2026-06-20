@@ -53,10 +53,20 @@ async function loadSystemStatus(): Promise<void> {
       return;
     }
 
+    if (status === 'green') {
+      submitButton.disabled = false;
+      submitButton.removeAttribute('aria-label');
+      statusBanner.textContent = 'Server status is green. Submissions are open.';
+      statusBanner.className = 'is-green';
+      return;
+    }
+
+    // Unknown/missing status — do NOT assert "green". Allow the submission (the
+    // worker re-validates and is authoritative) but show a neutral banner rather
+    // than a false green/open claim.
     submitButton.disabled = false;
     submitButton.removeAttribute('aria-label');
-    statusBanner.textContent = 'Server status is green. Submissions are open.';
-    statusBanner.className = 'is-green';
+    clearStatusBanner(statusBanner);
   } catch {
     submitButton.disabled = false;
     clearStatusBanner(statusBanner);
@@ -359,7 +369,15 @@ function showErrorState(code: string, message: string, retryAfterSeconds?: numbe
   clearStatusBanner(statusBanner);
 
   if (code === 'RATE_LIMITED' || code === 'NETWORK_ERROR' || code === 'SERVER_ERROR') {
-    rateLimitActive = false;
+    // Keep the lockout flag (set by the 429 handler) ONLY when we can actually
+    // run the countdown that releases it — otherwise the `finally` in
+    // handleSubmit would re-enable the submit button immediately, defeating the
+    // visible "Try again in MM:SS" lockout. For non-rate-limit errors (or if we
+    // cannot render a countdown) clear the flag so the button is never stuck.
+    const canCountdown = code === 'RATE_LIMITED' && Boolean(formError) && Boolean(retryAfterSeconds);
+    if (!canCountdown) {
+      rateLimitActive = false;
+    }
     if (!formError) {
       return;
     }
@@ -367,7 +385,7 @@ function showErrorState(code: string, message: string, retryAfterSeconds?: numbe
     formError.textContent = message;
     formError.classList.add('is-visible');
 
-    if (retryAfterSeconds && code === 'RATE_LIMITED') {
+    if (canCountdown && retryAfterSeconds) {
       startRateLimitCountdown(retryAfterSeconds);
     }
     return;

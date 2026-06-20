@@ -119,13 +119,34 @@ function loadStatsAndInitCounter(): void {
       if (typeof data.entries === 'number') {
         entriesEl.dataset.target = String(data.entries);
       }
+      if (typeof data.generated === 'string' && data.generated) {
+        const updatedEl = document.querySelector<HTMLElement>('#stat-updated .stat-date');
+        if (updatedEl) updatedEl.textContent = formatUpdated(data.generated);
+      }
     })
     .catch(() => {
-      // Fetch failed or data malformed — keep the hardcoded data-target.
+      // Fetch failed or data malformed — keep the hardcoded data-target and "Today" label.
     })
     .finally(() => {
       initStatsCounter();
     });
+}
+
+/**
+ * Render the stats.json `generated` date (YYYY-MM-DD) for the "Last Updated"
+ * tile: "Today" when it is today's date, otherwise a short formatted date.
+ */
+function formatUpdated(iso: string): string {
+  const today = new Date().toISOString().slice(0, 10);
+  if (iso === today) return 'Today';
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-AU', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
 }
 
 function initStatsCounter(): void {

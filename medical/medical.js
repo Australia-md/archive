@@ -23,13 +23,15 @@ function initStateFilter() {
 
   chips.forEach((chip) => {
     chip.addEventListener('click', () => {
-      // Update active chip
+      // The chips are role="radio" with aria-checked — update that attribute on
+      // the chip itself (there is no role="option" ancestor, so the previous
+      // closest('[role="option"]') lookup always returned null and did nothing).
       chips.forEach((c) => {
         c.classList.remove('active');
-        c.closest('[role="option"]')?.setAttribute('aria-selected', 'false');
+        c.setAttribute('aria-checked', 'false');
       });
       chip.classList.add('active');
-      chip.closest('[role="option"]')?.setAttribute('aria-selected', 'true');
+      chip.setAttribute('aria-checked', 'true');
 
       const state = chip.dataset.state;
       filterByState(state);
@@ -38,17 +40,18 @@ function initStateFilter() {
 }
 
 function filterByState(state) {
+  // Specialty cards are not state-scoped (they carry data-specialty, not state),
+  // so there is no per-card state data to filter on yet. Until a card exposes its
+  // states (e.g. a data-states attribute), every card stays visible regardless of
+  // the chosen state — filter here once that data exists.
   const cards = document.querySelectorAll('.spec-card');
-  let visibleCount = 0;
-
   cards.forEach((card) => {
-    // All states shows everything; individual states would normally filter by data-states attr.
-    // For now all cards are visible for every state (real data would come from a backend).
-    const show = state === 'all' || true; // placeholder — extend with real data
+    const cardStates = (card.dataset.states || '').split(/\s+/).filter(Boolean);
+    const show = state === 'all' || cardStates.length === 0 || cardStates.includes(state);
     card.classList.toggle('hidden', !show);
-    if (show) visibleCount++;
   });
 
+  const visibleCount = document.querySelectorAll('.spec-card:not(.hidden)').length;
   const countEl = document.getElementById('visible-count');
   if (countEl) countEl.textContent = visibleCount;
 }

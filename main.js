@@ -101,13 +101,21 @@ function animateBurger(toggle, isOpen) {
  */
 function loadStatsAndInitCounter() {
   const entriesEl = document.querySelector('#stat-entries .stat-number');
+
+  // No entries element on this page (e.g. category/dental pages) — skip the
+  // fetch entirely so 50+ non-homepage pages don't each request /stats.json.
+  if (!entriesEl) {
+    initStatsCounter();
+    return;
+  }
+
   fetch('/stats.json')
     .then((r) => {
       if (!r.ok) throw new Error('stats.json not found');
       return r.json();
     })
     .then((data) => {
-      if (entriesEl && typeof data.entries === 'number') {
+      if (typeof data.entries === 'number') {
         entriesEl.dataset.target = data.entries;
       }
       initStatsCounter();

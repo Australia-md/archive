@@ -15,8 +15,17 @@ export class ParseError extends Error {
 
 const REQUIRED_SECTIONS = ['category', 'template', 'source url', 'content'] as const;
 
+// Top-level issue sections emitted by the worker (issue-builder.ts) / issue form.
+// ONLY these headings act as section boundaries; every other `## ` heading is
+// body content — critically, the free-form `## Content` body legitimately
+// contains `## Overview`, `## Clinics`, `## FAQ`, … subheadings which must NOT
+// be mistaken for new sections (that would truncate the submission).
+const KNOWN_SECTIONS = ['category', 'template', 'source url', 'contributor email', 'content'];
+
 function slugify(value: string): string {
   return value
+    .normalize('NFKD') // decompose accented Latin (e.g. é -> e + combining mark) …
+    .replace(/[\u0300-\u036f]/g, '') // … then drop the combining diacritics
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
@@ -24,6 +33,7 @@ function slugify(value: string): string {
 
 function getSection(body: string, sectionName: (typeof REQUIRED_SECTIONS)[number]): string {
   const sections = new Map<string, string>();
+  const seen = new Set<string>();
   let currentSection = '';
   let currentLines: string[] = [];
 
@@ -37,14 +47,17 @@ function getSection(body: string, sectionName: (typeof REQUIRED_SECTIONS)[number
   for (const line of body.split(/\r?\n/)) {
     const headingMatch = line.match(/^##\s+(.+?)\s*$/);
     if (headingMatch) {
-      flush();
-      const sectionName = headingMatch[1];
-      if (!sectionName) {
-        throw new ParseError('Invalid section heading');
+      const heading = headingMatch[1]?.trim().toLowerCase() ?? '';
+      // A boundary only when it's a known top-level heading seen for the first
+      // time. First-wins prevents a duplicated `## Content` (or any sub-heading)
+      // in the body from overriding or truncating an earlier section.
+      if (heading && KNOWN_SECTIONS.includes(heading) && !seen.has(heading)) {
+        flush();
+        currentSection = heading;
+        seen.add(heading);
+        currentLines = [];
+        continue;
       }
-      currentSection = sectionName.trim().toLowerCase();
-      currentLines = [];
-      continue;
     }
 
     if (currentSection) {

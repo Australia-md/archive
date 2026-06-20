@@ -97,11 +97,17 @@ jobs:
       - name: Label issue — Needs Fix
         if: steps.verify.outputs.status == 'REJECTED'
         uses: actions/github-script@v7
+        env:
+          # Pass the model-derived reason via env and read it at runtime — never
+          # interpolate untrusted output into the script body with ${{ }} (that
+          # allows backticks/${} in the reason to inject code into the runner).
+          REJECTION_REASON: ${{ steps.verify.outputs.rejection_reason }}
         with:
           script: |
             await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels: ['Needs Fix'] });
             await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, name: 'pending-review' }).catch(() => {});
-            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body: `**Verification failed.** Reason: ${{ steps.verify.outputs.rejection_reason }}\n\nPlease update your submission and re-submit.` });
+            const reason = process.env.REJECTION_REASON || 'No reason provided.';
+            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body: `**Verification failed.** Reason: ${reason}\n\nPlease update your submission and re-submit.` });
 
       - name: Email contributor — Rejected
         if: steps.verify.outputs.status == 'REJECTED' && steps.retrieve-email.outputs.email_missing == 'false'
@@ -123,18 +129,25 @@ jobs:
             Please review your submission and source URL, then re-submit.
             Issue: ${{ github.event.issue.html_url }}
 
-      # --- SCRAPE_BLOCKED branch ---
-      - name: Label issue — Scrape Blocked
-        if: steps.verify.outputs.status == 'SCRAPE_BLOCKED'
+      # --- Needs-human-review branch (source fetch OR model verification failed) ---
+      - name: Label issue — Needs Human Review
+        if: steps.verify.outputs.status == 'SCRAPE_BLOCKED' || steps.verify.outputs.status == 'MODEL_ERROR'
         uses: actions/github-script@v7
+        env:
+          VERIFY_STATUS: ${{ steps.verify.outputs.status }}
         with:
           script: |
-            await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels: ['Scrape Blocked', 'Pending Human Review'] });
+            const scrapeBlocked = process.env.VERIFY_STATUS === 'SCRAPE_BLOCKED';
+            const labels = scrapeBlocked ? ['Scrape Blocked', 'Pending Human Review'] : ['Pending Human Review'];
+            await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels });
             await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, name: 'pending-review' }).catch(() => {});
-            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body: 'The source URL could not be fetched for automated verification. This submission has been queued for manual admin review.' });
+            const why = scrapeBlocked
+              ? 'the source URL could not be fetched'
+              : 'automated AI verification could not be completed';
+            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body: `Automated verification did not complete because ${why}. This submission has been queued for manual admin review.` });
 
-      - name: Notify admin — Scrape Blocked
-        if: steps.verify.outputs.status == 'SCRAPE_BLOCKED'
+      - name: Notify admin — Needs Human Review
+        if: steps.verify.outputs.status == 'SCRAPE_BLOCKED' || steps.verify.outputs.status == 'MODEL_ERROR'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -144,13 +157,13 @@ jobs:
           password: ${{ secrets.GMAIL_APP_PASSWORD }}
           to: ${{ secrets.ADMIN_EMAIL }}
           from: Australia.md Archive <${{ secrets.GMAIL_ADDRESS }}>
-          subject: "[Admin] Scrape blocked — manual review required (#${{ github.event.issue.number }})"
+          subject: "[Admin] Manual review required (#${{ github.event.issue.number }})"
           body: |
-            Submission Issue #${{ github.event.issue.number }} could not be automatically verified — source URL was not scrapeable.
+            Submission Issue #${{ github.event.issue.number }} could not be automatically verified (status: ${{ steps.verify.outputs.status }}).
             Please review manually: ${{ github.event.issue.html_url }}
 
-      - name: Email contributor — Scrape Blocked
-        if: steps.verify.outputs.status == 'SCRAPE_BLOCKED' && steps.retrieve-email.outputs.email_missing == 'false'
+      - name: Email contributor — Needs Human Review
+        if: (steps.verify.outputs.status == 'SCRAPE_BLOCKED' || steps.verify.outputs.status == 'MODEL_ERROR') && steps.retrieve-email.outputs.email_missing == 'false'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -162,6 +175,6 @@ jobs:
           from: Australia.md Archive <${{ secrets.GMAIL_ADDRESS }}>
           subject: "Update on your Australia.md submission (#${{ github.event.issue.number }})"
           body: |
-            Your submission (Issue #${{ github.event.issue.number }}) has been queued for manual admin review — the source URL could not be fetched automatically.
+            Your submission (Issue #${{ github.event.issue.number }}) has been queued for manual admin review — automated verification could not be completed.
             You will receive a further update once the review is complete.
             Issue: ${{ github.event.issue.html_url }}
