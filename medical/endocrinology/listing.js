@@ -109,7 +109,12 @@ function initMapInteraction() {
 
   // Map mini-list rows → scroll to card
   mapRows.forEach((row) => {
-    row.addEventListener('click', () => {
+    // Make rows keyboard-operable (the pins are role="button" tabindex=0; rows
+    // are plain <li>), so the interaction is not mouse-only.
+    if (!row.hasAttribute('tabindex')) row.setAttribute('tabindex', '0');
+    if (!row.hasAttribute('role')) row.setAttribute('role', 'button');
+
+    const activateRow = () => {
       const id = row.dataset.clinic;
       activateClinic(id);
       const card = document.getElementById(`clinic-${id}`);
@@ -117,6 +122,11 @@ function initMapInteraction() {
         const top = card.getBoundingClientRect().top + window.scrollY - 90;
         window.scrollTo({ top, behavior: 'smooth' });
       }
+    };
+
+    row.addEventListener('click', activateRow);
+    row.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activateRow(); }
     });
   });
 

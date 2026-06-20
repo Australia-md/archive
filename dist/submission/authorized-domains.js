@@ -1,10 +1,9 @@
 export const AUTHORIZED_DOMAINS = [
+    // Any Australian government or education domain. These wildcards already
+    // authorize the specific agency apexes (abs.gov.au, aihw.gov.au, ahpra.gov.au,
+    // rba.gov.au, …), so listing those separately would be redundant/shadowed.
     '*.gov.au',
     '*.edu.au',
-    'aihw.gov.au',
-    'abs.gov.au',
-    'ahpra.gov.au',
-    'rba.gov.au',
 ];
 /**
  * Returns true if the given URL's hostname matches any authorized domain pattern.

@@ -67,6 +67,11 @@ function deriveDescription(content: string): string {
     if (prose.length < 25 || !prose.includes(' ')) continue;
     const match = prose.match(/(.+?[.!?])(\s|$)/);
     let sentence: string = match && match[1] ? match[1] : prose;
+    // Guard against splitting on an abbreviation period (e.g. "St.", "Dr.",
+    // "approx.") which yields a uselessly short fragment — use the full line.
+    if (sentence.trim().length < 40) {
+      sentence = prose;
+    }
     if (sentence.length > 170) {
       sentence = `${sentence.slice(0, 160).replace(/\s+\S*$/, '')}…`;
     }
@@ -77,7 +82,9 @@ function deriveDescription(content: string): string {
 
 /** Remove any frontmatter block the submitter pasted, so we always emit our own canonical OKF block. */
 function stripLeadingFrontmatter(content: string): string {
-  return content.replace(/^﻿?\s*---\r?\n[\s\S]*?\r?\n---\r?\n+/, '');
+  // Closing `---` may be followed by more body (\r?\n+) OR sit at EOF with no
+  // trailing newline — both must be stripped so the fence never leaks.
+  return content.replace(/^﻿?\s*---\r?\n[\s\S]*?\r?\n---[ \t]*(?:\r?\n+|$)/, '');
 }
 
 function buildFileContent(data: FrontmatterFileContent): string {
@@ -149,6 +156,25 @@ async function hasOpenPullRequest(
   return response.data.length > 0;
 }
 
+/** Resolve the base branch: GITHUB_BASE_REF if it exists, else the repo default. */
+async function resolveBaseBranch(
+  octokit: ReturnType<typeof github.getOctokit>,
+  owner: string,
+  repo: string,
+): Promise<string> {
+  const envBase = process.env['GITHUB_BASE_REF'];
+  if (envBase) {
+    try {
+      await octokit.rest.git.getRef({ owner, repo, ref: `heads/${envBase}` });
+      return envBase;
+    } catch {
+      // GITHUB_BASE_REF set but not a real branch here — fall through to default.
+    }
+  }
+  const repoInfo = await octokit.rest.repos.get({ owner, repo });
+  return repoInfo.data.default_branch;
+}
+
 async function fileExists(
   octokit: ReturnType<typeof github.getOctokit>,
   owner: string,
@@ -201,28 +227,37 @@ async function run(): Promise<void> {
   const branch = `submission/issue-${issueNumber}`;
   const dateStamp = new Date().toISOString().slice(0, 10);
 
+  // Resolve the base branch ONCE (GITHUB_BASE_REF if it exists, else the repo's
+  // default branch) and use it both to cut/reset the submission branch and as
+  // the PR base — otherwise the PR base ('main') can mismatch the branch's base.
+  const baseBranch = await resolveBaseBranch(octokit, owner, repo);
+  const baseRef = await octokit.rest.git.getRef({ owner, repo, ref: `heads/${baseBranch}` });
+  const baseSha = baseRef.data.object.sha;
+
   if (await branchExists(octokit, owner, repo, branch)) {
     if (await hasOpenPullRequest(octokit, owner, repo, branch)) {
       core.info('PR already exists, skipping');
       return;
     }
-    core.info(`Branch ${branch} already exists; reusing it`);
+    // Reuse the branch but reset it to base so stale state from a prior failed
+    // run cannot persist into the new submission.
+    core.info(`Branch ${branch} exists with no open PR; resetting it to ${baseBranch}`);
+    await octokit.rest.git.updateRef({ owner, repo, ref: `heads/${branch}`, sha: baseSha, force: true });
   } else {
-    const baseRef = await octokit.rest.git.getRef({ owner, repo, ref: `heads/${process.env['GITHUB_BASE_REF'] ?? 'main'}` }).catch(async () => {
-      const repoInfo = await octokit.rest.repos.get({ owner, repo });
-      return octokit.rest.git.getRef({ owner, repo, ref: `heads/${repoInfo.data.default_branch}` });
-    });
     await octokit.rest.git.createRef({
       owner,
       repo,
       ref: `refs/heads/${branch}`,
-      sha: baseRef.data.object.sha,
+      sha: baseSha,
     });
   }
 
   const existingFile = await fileExists(octokit, owner, repo, contentPath, branch);
   if (existingFile) {
     const archivePath = getArchivePath(contentPath, dateStamp);
+    // The archive path may already exist (re-running the same day on a reused
+    // branch); pass its sha so the update succeeds instead of 422-failing.
+    const existingArchive = await fileExists(octokit, owner, repo, archivePath, branch);
     await octokit.rest.repos.createOrUpdateFileContents({
       owner,
       repo,
@@ -230,10 +265,14 @@ async function run(): Promise<void> {
       message: `archive: ${contentPath} (#${issueNumber})`,
       content: Buffer.from(existingFile.content, 'utf8').toString('base64'),
       branch,
+      ...(existingArchive ? { sha: existingArchive.sha } : {}),
     });
   }
 
-  const title = getFirstHeading(content);
+  // Derive the title from the SAME stripped body buildFileContent renders, so a
+  // submitter's pasted frontmatter (whose `#` YAML comments look like headings)
+  // can never become the page title.
+  const title = getFirstHeading(stripLeadingFrontmatter(content));
   const fileContent = buildFileContent({
     title,
     category,
@@ -261,7 +300,7 @@ async function run(): Promise<void> {
     repo,
     title: `feat(submission): ${title}`,
     body: `Closes #${issueNumber}\n\nVerified by AI against: ${sourceUrl}`,
-    base: 'main',
+    base: baseBranch,
     head: branch,
   });
 
