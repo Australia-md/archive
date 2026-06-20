@@ -17,6 +17,7 @@ They are **not** part of the Cloudflare Worker — they run on GitHub's `ubuntu-
 | [`check-admin.ts`](#check-admintscheck-admin-runnerts) | `admin-override.yml` | Logic: checks if a GitHub actor is an authorised admin |
 | [`check-admin-runner.ts`](#check-admintscheck-admin-runnerts) | `admin-override.yml` | Entry point: reads env vars and calls `check-admin.ts` |
 | [`setup-labels.ts`](#setup-labelsts) | Run once manually | Creates all required GitHub Issue labels in the repository |
+| `check-okf-standard.ts` | `okf-standard-watch.yml` | Detects upstream OKF spec changes vs `.github/okf-standard.lock`; opens a tracking issue |
 
 ---
 

@@ -1,0 +1,37 @@
+name: OKF Standard Watch
+
+# Checks whether the upstream Open Knowledge Format (OKF) standard repository has
+# been updated past our recorded baseline (.github/okf-standard.lock). Runs weekly
+# and on demand. Opens a tracking issue when the standard moves so we can reconcile.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    name: Check upstream OKF standard
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: .github/scripts/package-lock.json
+      - name: Install script deps
+        working-directory: .github/scripts
+        run: npm ci
+      - name: Compare upstream OKF standard against baseline
+        working-directory: .github/scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: npx tsx check-okf-standard.ts

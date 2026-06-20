@@ -45,8 +45,65 @@ function getFirstHeading(content: string): string {
   return 'Untitled submission';
 }
 
+// --- OKF v0.1 frontmatter (see .specify/memory/constitution.md -> "Knowledge Format (OKF)") ---
+
+function yamlStr(value: string): string {
+  return `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
+}
+
+function tagSlug(category: string): string {
+  return category.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+/** Derive a one-sentence description from the first prose line of the body. Returns '' if none. */
+function deriveDescription(content: string): string {
+  for (const raw of content.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (line.startsWith('#') || line.startsWith('>') || line.startsWith('|')) continue;
+    if (line.startsWith('- ') || line.startsWith('* ') || /^\d+\./.test(line)) continue;
+    if (/^\*\*[\w &/-]+:\*\*/.test(line)) continue;
+    const prose = line.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*`]/g, '').trim();
+    if (prose.length < 25 || !prose.includes(' ')) continue;
+    const match = prose.match(/(.+?[.!?])(\s|$)/);
+    let sentence: string = match && match[1] ? match[1] : prose;
+    if (sentence.length > 170) {
+      sentence = `${sentence.slice(0, 160).replace(/\s+\S*$/, '')}…`;
+    }
+    return sentence;
+  }
+  return '';
+}
+
+/** Remove any frontmatter block the submitter pasted, so we always emit our own canonical OKF block. */
+function stripLeadingFrontmatter(content: string): string {
+  return content.replace(/^﻿?\s*---\r?\n[\s\S]*?\r?\n---\r?\n+/, '');
+}
+
 function buildFileContent(data: FrontmatterFileContent): string {
-  return `---\ntitle: ${data.title}\ncategory: ${data.category}\nsourceUrl: ${data.sourceUrl}\nlastVerified: ${data.lastVerified}\nsubmissionIssue: ${data.submissionIssue}\nahpraStatus: ${data.ahpraStatus}\n---\n\n${data.content}\n`;
+  // OKF v0.1 requires a non-empty `type`; everything else is recommended/extension.
+  // Auto-convert: strip any frontmatter the submitter included, then prepend our canonical block.
+  const body = stripLeadingFrontmatter(data.content);
+  const conceptType = data.category.trim() || 'Reference';
+  const description = deriveDescription(body);
+  const tag = tagSlug(data.category) || 'reference';
+  const lines: string[] = [];
+  lines.push(`type: ${yamlStr(conceptType)}`);
+  lines.push(`title: ${yamlStr(data.title)}`);
+  if (description) {
+    lines.push(`description: ${yamlStr(description)}`);
+  }
+  if (data.sourceUrl) {
+    lines.push(`resource: ${yamlStr(data.sourceUrl)}`);
+  }
+  lines.push(`tags: [${tag}]`);
+  lines.push(`timestamp: ${data.lastVerified}T00:00:00Z`);
+  // Producer extension keys (preserved by OKF consumers):
+  lines.push(`category: ${yamlStr(data.category)}`);
+  lines.push(`ahpra_status: ${yamlStr(data.ahpraStatus)}`);
+  lines.push(`submission_issue: ${yamlStr(data.submissionIssue)}`);
+  lines.push(`last_verified: ${yamlStr(data.lastVerified)}`);
+  return `---\n${lines.join('\n')}\n---\n\n${body}\n`;
 }
 
 function getArchivePath(contentPath: string, dateStamp: string): string {

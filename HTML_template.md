@@ -2,6 +2,8 @@
 
 > **Purpose:** This file is the authoritative reference for generating `medical/dental/{suburb}/index.html` pages. The scheduled job reads THIS file instead of re-parsing an existing HTML page. All structure, class names, rules, and patterns are defined here. Follow exactly — do not deviate from class names, nesting, or element types.
 
+> **OKF v0.1 (since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
+
 ---
 
 ## 1. File Location & Path Depths
@@ -15,6 +17,45 @@
 
 ---
 
+## 1b. Source Markdown Frontmatter (OKF v0.1)
+
+Every source file (e.g. `docs/medical/dental/macquarie-park-nsw.md`) now starts with an OKF YAML frontmatter block. Example:
+
+```yaml
+---
+type: Dental Clinic Directory
+title: Macquarie Park, NSW — Dental Clinics
+description: Verified AHPRA-registered dental clinics in Macquarie Park NSW 2113.
+resource: https://www.dentalboard.gov.au
+tags: [dental, nsw, macquarie-park]
+timestamp: 2026-05-28T00:00:00Z
+suburb: Macquarie Park
+postcode: "2113"
+state: nsw
+lga: City of Ryde
+last_verified: 2026-05-28
+---
+```
+
+**Generator rules:**
+
+1. **Parse, then strip.** Read the frontmatter for metadata, then remove the entire `---` … `---` block (and the blank line after it) before converting the remaining Markdown body to HTML. The frontmatter must not leak into the page text.
+2. **Field usage** — prefer frontmatter over re-deriving from prose:
+
+   | Frontmatter field | Used for |
+   |---|---|
+   | `title` | `<title>` / `og:title` (already in the dental format) |
+   | `suburb`, `postcode`, `state` | `{Suburb}`, `{Postcode}`, `{STATE}` fill-ins, breadcrumbs, schema |
+   | `lga` | `{LGA}` in the sidebar map region label (§8) |
+   | `timestamp` / `last_verified` | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
+   | `resource` | Authoritative registration source link |
+   | `description` | Fallback only — the `{meta-description}` rule below still governs the meta tags |
+
+3. **Fact-check unchanged.** Frontmatter is metadata only. Clinic names, addresses, phones, practitioners, hours, and services are still taken **exclusively** from the Markdown body (§11). Never synthesise page data from frontmatter alone.
+4. **Missing fields.** Frontmatter fields other than `type` are optional. If `suburb`/`postcode`/`lga` are absent, fall back to parsing the body's `**Suburb:**` line as before; never invent values.
+
+---
+
 ## 2. `<head>` Block
 
 ```html
@@ -23,26 +64,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="{N} verified AHPRA-registered dental clinics in {Suburb} {STATE} {Postcode}. {Clinic list summary sentence}." />
+  <meta name="description" content="{meta-description}" />
   <title>Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md</title>
   <link rel="canonical" href="https://australia.md/medical/dental/{suburb-slug}/" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" integrity="sha384-1PT8sISk9zQ7SDVmmf11t7IlDJN8vvTQWzVqT4Qd4F9XLIIfHQsj8UH8VCMF5gT" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../../../style.css" />
-  <link rel="stylesheet" href="../listing.css" />
 
-  <!-- Open Graph / Twitter -->
-  <meta property="og:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
-  <meta property="og:description" content="{N} verified AHPRA-registered dental clinics in {Suburb} {STATE} {Postcode} with registered practitioners listed." />
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Australia.md" />
+  <meta property="og:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
+  <meta property="og:description" content="{meta-description}" />
   <meta property="og:url" content="https://australia.md/medical/dental/{suburb-slug}/" />
+  <meta property="og:image" content="https://australia.md/og-default.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
+  <meta name="twitter:description" content="{meta-description}" />
+  <meta name="twitter:image" content="https://australia.md/og-default.png" />
 
   <!-- Schema.org JSON-LD: see Section 3 -->
   <script type="application/ld+json">
   { ... see Section 3 ... }
   </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" integrity="sha384-1PT8sISk9zQ7SDVmmf11t7IlDJN8vvTQWzVqT4Qd4F9XLIIfHQsj8UH8VCMF5gT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../../style.css" />
+  <link rel="stylesheet" href="../listing.css" />
 </head>
 ```
 
@@ -52,13 +103,21 @@
 - `{STATE}` — state abbreviation uppercase (e.g. `NSW`)
 - `{Postcode}` — postcode number (e.g. `2113`)
 - `{suburb-slug}` — lowercase kebab-case (e.g. `macquarie-park`)
-- `{Last Verified date}` — from MD frontmatter field `Last Verified`
+- `{Last Verified date}` — from MD frontmatter field `timestamp` (date portion) or `last_verified`; see §1b
+- `{meta-description}` — see rule below
+
+**Meta description rule (enforced):**
+- Maximum **155 characters**. Google truncates at ~160; 155 gives a safety margin.
+- Format: `"{N} dental clinic(s) in {Suburb} {STATE} {Postcode}. {Clinic name(s)}. {1 key service if space allows}."`
+- Front-load suburb + postcode within the first 60 chars so truncation never cuts them.
+- The same string is used for `name="description"`, `og:description`, and `twitter:description` — keep them in sync.
+- Example (128 chars): `"3 dental clinics in Alstonville NSW 2477. Daley Street Dental, Alstonville Family Dental, and Maven Dental Plateau. AHPRA-registered."`
 
 ---
 
 ## 3. Schema.org JSON-LD
 
-Three objects inside `@graph`:
+Four object types inside `@graph`. All four must be present in every generated page.
 
 ### 3a. MedicalWebPage
 ```json
@@ -103,6 +162,40 @@ Generate 2–4 FAQ entries based on data in the source MD. Typical questions for
 - "Is there a dental clinic near {landmark}?" (only if data present)
 
 If hours/emergency data is absent from source, omit the question — never fabricate answers.
+
+### 3d. Dentist entities (one per clinic — NEW)
+
+For **each clinic** in the source MD, generate one `Dentist` object inside `@graph`. This enables Google rich results (address, phone, hours in search snippets).
+
+```json
+{
+  "@type": "Dentist",
+  "name": "{Clinic Name}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{Street address from source — omit key if absent}",
+    "addressLocality": "{Suburb}",
+    "addressRegion": "{STATE}",
+    "postalCode": "{Postcode}",
+    "addressCountry": "AU"
+  },
+  "telephone": "{phone — omit key if absent}",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday"],
+      "opens": "08:30",
+      "closes": "16:00"
+    }
+  ]
+}
+```
+
+**Rules for Dentist entities:**
+- Only include `streetAddress`, `telephone`, and `openingHoursSpecification` if present in the source MD. Never invent them.
+- Omit `openingHoursSpecification` entirely if hours are not in the source.
+- JSON string values must not contain unescaped double-quote characters — escape any `"` inside string values as `\"`.
+- Repeat one block per clinic. If a page has 5 clinics, there are 5 `Dentist` objects in `@graph`.
 
 ---
 
@@ -265,7 +358,7 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
       </li>
     </ul>
     <!-- If no practitioners confirmed from source: -->
-    <!-- <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://practitioners.ahpra.gov.au" target="_blank" rel="noopener noreferrer">practitioners.ahpra.gov.au</a>.</p> -->
+    <!-- <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA Practitioner Register</a>.</p> -->
     <p class="ahpra-verify-note">
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
       Verify registration: <a href="https://www.dentalboard.gov.au/" target="_blank" rel="noopener noreferrer">www.dentalboard.gov.au</a>
@@ -457,7 +550,10 @@ The footer block is mostly static — only the **source Markdown link** (see 10a
 1. **Fact-check only** — every clinic name, address, phone, practitioner, service, and hour must appear explicitly in the source MD. If absent, omit it entirely.
 2. **No fabrication** — do not invent postcodes, council names, landmarks, or any suburb description not in the source.
 3. **AHPRA badge** — default to `AHPRA Unverified` (greyed, opacity 0.6) unless the source explicitly states `AHPRA Verified: Yes`.
-4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `practitioners.ahpra.gov.au`.
+4. **Meta description ≤ 155 chars** — the `{meta-description}` variable must not exceed 155 characters. Verify the length before writing it. The same value is used for `name="description"`, `og:description`, and `twitter:description`.
+5. **og:image always present** — every page must include `og:image`, `og:image:width`, `og:image:height`, and `twitter:image` pointing to `https://australia.md/og-default.png`. Never omit these.
+6. **JSON-LD safety** — double-quote characters inside JSON string values must be escaped as `\"`. This is especially relevant for FAQ answers and clinic descriptions that may contain quoted words.
+4. **Practitioners absent** — if a clinic lists no practitioners in the source, use `<p class="practitioners-unconfirmed">` with a link to `https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx`.
 5. **Hours absent** — omit the hours `<span class="clinic-meta-item">` entirely. Never show "hours not confirmed".
 6. **SVG map** — place numbered pins at approximate relative positions based on the suburb's street grid. If address data is too sparse to position meaningfully, draw a simple placeholder map with pins clustered near the centre.
 7. **Semantic HTML5** — use `<article>`, `<section>`, `<nav>`, `<main>`, `<aside>`, `<header>`, `<footer>`. Never use `<div>` where a semantic element exists.
