@@ -326,6 +326,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://australia.md/medical/dental/belmore/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://australia.md/medical/dental/chatswood/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -617,6 +623,12 @@
   </url>
   <url>
     <loc>https://australia.md/docs/medical/dental/bellevue-hill-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/belmore-nsw.md</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
