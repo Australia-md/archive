@@ -12,15 +12,27 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Main category pages -->
+  <!-- Top-level category pages -->
   <url>
-    <loc>https://australia.md/medical/</loc>
+    <loc>https://australia.md/culture/</loc>
     <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://australia.md/culture/</loc>
+    <loc>https://australia.md/economy/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/education/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/environment/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +50,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://australia.md/technology/</loc>
+    <loc>https://australia.md/government/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -50,198 +62,283 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://australia.md/tourism/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://australia.md/economy/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://australia.md/indigenous/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://australia.md/environment/</loc>
+    <loc>https://australia.md/medical/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://australia.md/government/</loc>
+    <loc>https://australia.md/technology/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://australia.md/education/</loc>
+    <loc>https://australia.md/tourism/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Sub-pages -->
+  <!-- Contribute -->
+  <url>
+    <loc>https://australia.md/submit/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Medical sub-directories -->
   <url>
     <loc>https://australia.md/medical/dental/</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://australia.md/medical/endocrinology/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
-  <!-- Suburb-level dental pages (HTML) -->
+  <!-- Dental clinic directory — NSW suburbs -->
   <url>
     <loc>https://australia.md/medical/dental/aberdare/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/adamstown/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/airds/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/albion-park/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/albury/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/alexandria/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/allambie-heights/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/alstonville/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/annandale/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/armidale/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/arncliffe/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/artarmon/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/ashfield/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/auburn/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/avalon-beach/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/avoca-beach/</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://australia.md/medical/dental/balgowlah-heights/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/balgowlah/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://australia.md/medical/dental/balgownie/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://australia.md/medical/dental/balgowlah-heights/</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://australia.md/medical/dental/balmain/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://australia.md/medical/dental/bangalow/</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://australia.md/medical/dental/balranald/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <loc>https://australia.md/medical/dental/bangor/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/bankstown/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/banora-point/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/barham/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/barrack-heights/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/bateau-bay/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/batehaven/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/batemans-bay/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/bathurst/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/baulkham-hills/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/beaconsfield/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/beaumont-hills/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/beecroft/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/bega/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/belfield/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/bella-vista/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/medical/dental/bellevue-hill/</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/chatswood/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://australia.md/medical/dental/macquarie-park/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
-  <!-- Source Documentation (Markdown) -->
+  <!-- OKF v0.1 knowledge bundle (raw Markdown, machine-readable) -->
   <url>
     <loc>https://australia.md/docs/culture.md</loc>
     <lastmod>2026-05-10</lastmod>
@@ -291,6 +388,12 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://australia.md/docs/index.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://australia.md/docs/indigenous.md</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -302,20 +405,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
-  <url>
-    <loc>https://australia.md/docs/technology.md</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://australia.md/docs/tourism.md</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Suburb-level dental documentation (Markdown) -->
   <url>
     <loc>https://australia.md/docs/medical/dental/aberdare-nsw.md</loc>
     <lastmod>2026-05-10</lastmod>
@@ -413,8 +502,134 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://australia.md/docs/medical/dental/balgowlah-heights-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/balgowlah-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bangalow-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bangor-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bankstown-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/banora-point-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/barham-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/barrack-heights-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bateau-bay-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/batehaven-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/batemans-bay-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bathurst-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/baulkham-hills-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/beaconsfield-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/beaumont-hills-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/beecroft-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bega-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/belfield-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bella-vista-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/bellevue-hill-nsw.md</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://australia.md/docs/medical/dental/chatswood-nsw.md</loc>
     <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/medical/dental/index.md</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -424,13 +639,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
-
-  <!-- Submission form -->
   <url>
-    <loc>https://australia.md/submit/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://australia.md/docs/medical/index.md</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/technology.md</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://australia.md/docs/tourism.md</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
 
 </urlset>
