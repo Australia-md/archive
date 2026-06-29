@@ -222,7 +222,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
 
 ```html
 <header class="nav-bar" id="main-header">
-  <nav class="nav-inner" role="navigation" aria-label="Main navigation">
+  <nav class="nav-inner" aria-label="Main navigation">
     <a href="../../../index.html" class="nav-logo" aria-label="Australia.md Home">
       <span class="logo-mark">AU</span>
       <span class="logo-text">Australia<span class="logo-dot">.md</span></span>
@@ -277,7 +277,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
 
     <h1 class="listing-title">Dental Clinics<br/>{Suburb} {STATE}</h1>
 
-    <div class="listing-verified-row" aria-label="Verification status">
+    <div class="listing-verified-row" role="group" aria-label="Verification status">
       <svg class="verified-shield" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
         <path fill-rule="evenodd" d="M10 1l2.39 4.84L18 6.9l-4 3.9.94 5.46L10 13.77l-4.94 2.6L6 10.8 2 6.9l5.61-.06L10 1z" clip-rule="evenodd"/>
       </svg>
@@ -341,7 +341,7 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 
   <!-- Billing note — include only if billing/bulk bill data present in source -->
   <!-- Use one of the two variants below; omit entire block if billing data absent -->
-  <div class="clinic-billing-note" aria-label="Billing information">
+  <div class="clinic-billing-note" role="group" aria-label="Billing information">
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
     Fees apply · No bulk billing
     <!-- OR for mixed billing: Mixed billing · Bulk billing available with conditions · <a href="https://www.servicesaustralia.gov.au/child-dental-benefits-schedule" target="_blank" rel="noopener noreferrer">CDBS eligible</a> -->
@@ -399,8 +399,8 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 
 | Condition | HTML |
 |---|---|
-| AHPRA Verified: Yes in source | `<div class="ahpra-badge" aria-label="AHPRA Registered"><svg ...>...</svg> AHPRA Registered</div>` |
-| AHPRA Verified: No OR not stated | `<div class="ahpra-badge ahpra-unverified" style="opacity:0.6" aria-label="AHPRA Unverified"><svg ...>...</svg> AHPRA Unverified</div>` |
+| AHPRA Verified: Yes in source | `<div class="ahpra-badge" role="img" aria-label="AHPRA Registered"><svg ...>...</svg> AHPRA Registered</div>` |
+| AHPRA Verified: No OR not stated | `<div class="ahpra-badge ahpra-unverified" role="img" style="opacity:0.6" aria-label="AHPRA Unverified"><svg ...>...</svg> AHPRA Unverified</div>` |
 
 AHPRA badge SVG icon (use this exact path):
 ```html
@@ -423,7 +423,7 @@ AHPRA badge SVG icon (use this exact path):
     <!-- Text fill: #fff on dark pins, #0a160f on gold (#fecc00) pins -->
     <!-- Metro/landmark marker: circle fill #071510, stroke #fecc00 -->
     <!-- Compass: gold arrow pointing north -->
-    <div class="sidebar-map" aria-label="Map of dental clinics in {Suburb} {STATE}">
+    <div class="sidebar-map">
       <svg viewBox="0 0 400 340" class="suburb-map-svg" role="img" aria-label="Street map of {Suburb} showing clinic locations" xmlns="http://www.w3.org/2000/svg">
         <rect width="400" height="340" fill="#0d1f12"/>
         <!-- Roads: draw lines for major streets -->
@@ -434,7 +434,7 @@ AHPRA badge SVG icon (use this exact path):
     </div>
 
     <!-- Mini clinic list below map -->
-    <div class="map-clinic-list" id="map-clinic-list" aria-label="Quick clinic reference for {Suburb}">
+    <div class="map-clinic-list" id="map-clinic-list" role="group" aria-label="Quick clinic reference for {Suburb}">
       <div class="map-clinic-list-title">Clinics in {Suburb}</div>
       <ul>
         <!-- Repeat per clinic -->
@@ -486,7 +486,7 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
 The footer block is mostly static — only the **source Markdown link** (see 10a) varies per page. Every other element is copied exactly as shown.
 
 ```html
-<footer class="footer" id="main-footer" role="contentinfo">
+<footer class="footer" id="main-footer">
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="../../../index.html" class="nav-logo footer-logo"><span class="logo-mark">AU</span><span class="logo-text">Australia<span class="logo-dot">.md</span></span></a>

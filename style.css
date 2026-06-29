@@ -1174,6 +1174,21 @@ img, svg {
   .nav-mobile-toggle {
     display: flex;
   }
+  /* Collapse secondary nav actions so they don't overflow past the
+     hamburger on narrow screens. Badge is hidden; GitHub stays as an
+     icon-only button (its aria-label keeps it accessible). */
+  .nav-badge {
+    display: none;
+  }
+  .btn-github {
+    font-size: 0;
+    gap: 0;
+    padding: var(--sp-2);
+  }
+  .github-icon {
+    width: 18px;
+    height: 18px;
+  }
 
   .hero-stats {
     gap: var(--sp-5);
@@ -1193,6 +1208,12 @@ img, svg {
   }
   .footer-cols {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* Let the copyright / built-by / accent strip wrap instead of overflowing
+     horizontally when there isn't room for all three on one line. */
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: var(--sp-3);
   }
 }
 

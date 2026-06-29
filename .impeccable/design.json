@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-29T00:00:00Z",
+  "title": "Design System: Australia.md — The Sovereign Archive",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Australian Green", "canonical": "#71dc8a", "tonalRamp": ["#04150b", "#0a2615", "#0f3b20", "#15572f", "#1f7a43", "#3fa862", "#71dc8a", "#b6f3c6"] },
+      "primary-container": { "role": "primary", "displayName": "Deep Green Container", "canonical": "#00843d", "tonalRamp": ["#021a0d", "#04311a", "#064d28", "#086b37", "#008443", "#1ba35d", "#4fc77f", "#9be8b4"] },
+      "secondary-container": { "role": "secondary", "displayName": "Australian Gold", "canonical": "#fecc00", "tonalRamp": ["#1f1900", "#3d3100", "#6e5700", "#a07f00", "#d4a900", "#fecc00", "#ffdd55", "#fff0b0"] },
+      "tertiary": { "role": "tertiary", "displayName": "Steel Blue", "canonical": "#abc7ff", "tonalRamp": ["#0a1426", "#142a52", "#1f3f7a", "#2c5aa8", "#4c72b5", "#7596d4", "#abc7ff", "#d8e6ff"] },
+      "surface": { "role": "neutral", "displayName": "Vault Surface", "canonical": "#0a160f", "tonalRamp": ["#05110a", "#0a160f", "#121e17", "#16221b", "#202d25", "#2b382f", "#3a4a3f", "#4d6052"] },
+      "on-surface": { "role": "neutral", "displayName": "Primary Ink", "canonical": "#d8e6da", "tonalRamp": ["#2b382f", "#3e4a3e", "#58655a", "#889487", "#aab8ac", "#bdcabb", "#d8e6da", "#eef6ef"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page titles and hero headings. Space Grotesk 700, tracking held at -0.03em." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles (FAQ, content blocks). Space Grotesk 600." },
+      "title": { "displayName": "Title", "purpose": "Card and clinic names. Space Grotesk 600." },
+      "body": { "displayName": "Body", "purpose": "Prose and meta. Inter 400, line-height 1.6, measure capped 65-75ch." },
+      "label": { "displayName": "Label", "purpose": "Eyebrows, service labels, breadcrumbs, badge text. Inter 600, 0.1em tracking, uppercase." }
+    },
+    "shadows": [
+      { "name": "hover-lift", "value": "0 20px 40px rgba(0, 33, 10, 0.4)", "purpose": "Cards on hover, paired with a -2 to -4px translateY. Deep diffuse vault-green depth; state only, never at rest." },
+      { "name": "focus-ring-lift", "value": "0 0 0 3px rgba(0, 132, 61, 0.12), 0 20px 40px rgba(0, 33, 10, 0.4)", "purpose": "Inputs on focus-within: soft green halo plus depth." },
+      { "name": "floating-panel", "value": "0 20px 40px rgba(0, 33, 10, 0.3)", "purpose": "Hero search bar and autocomplete dropdown that float above the page." }
+    ],
+    "motion": [
+      { "name": "transition-fast", "value": "150ms ease", "purpose": "Micro-interactions: hover tints, small transforms, chip/tab state." },
+      { "name": "transition-base", "value": "300ms ease", "purpose": "Default for surface, button, and input state transitions." },
+      { "name": "transition-slow", "value": "500ms ease", "purpose": "Larger, calmer transitions." },
+      { "name": "reveal", "value": "opacity 0.45s ease, transform 0.45s ease", "purpose": "Scroll-reveal fade-in-up; enhances already-visible content, with prefers-reduced-motion fallback." }
+    ],
+    "breakpoints": [
+      { "name": "lg", "value": "1024px" },
+      { "name": "two-col-collapse", "value": "900px" },
+      { "name": "md", "value": "768px" },
+      { "name": "sm", "value": "600px" },
+      { "name": "xs", "value": "480px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (Gold CTA)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single decisive action per view. Gold fill, flips to deep green on hover.",
+      "html": "<button class=\"ds-btn-primary\">Search the archive</button>",
+      "css": ".ds-btn-primary{background:#fecc00;color:#6e5700;border:none;border-radius:.375rem;padding:.75rem 1.5rem;font-family:Inter,sans-serif;font-size:.875rem;font-weight:600;letter-spacing:.02em;cursor:pointer;transition:background .3s ease,color .3s ease,transform .15s ease}.ds-btn-primary:hover{background:#00843d;color:#e7ffe6;transform:translateY(-1px)}.ds-btn-primary:focus-visible{outline:2px solid #71dc8a;outline-offset:2px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action. Transparent with a green-tinted hairline border; warms green on hover.",
+      "html": "<button class=\"ds-btn-ghost\"><svg viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 5h14M6 10h8M9 15h2\"/></svg>Refine Filters</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;gap:.5rem;background:transparent;color:#71dc8a;border:1px solid rgba(62,74,62,.6);border-radius:.375rem;padding:.5rem 1.25rem;font-family:Inter,sans-serif;font-size:.875rem;font-weight:500;cursor:pointer;transition:background .15s ease,border-color .15s ease,color .15s ease}.ds-btn-ghost svg{width:15px;height:15px}.ds-btn-ghost:hover{background:rgba(113,220,138,.08);border-color:#00843d}.ds-btn-ghost:focus-visible{outline:2px solid #71dc8a;outline-offset:2px}"
+    },
+    {
+      "name": "Service Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Static service/category label on the raised surface tone.",
+      "html": "<span class=\"ds-chip\">General Dentistry</span>",
+      "css": ".ds-chip{display:inline-block;background:#2b382f;color:#bdcabb;border-radius:.375rem;padding:4px .75rem;font-family:Inter,sans-serif;font-size:.72rem;font-weight:500;letter-spacing:.02em}"
+    },
+    {
+      "name": "Category Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Flat-at-rest plate; tonal hairline outline; deep green lift on hover.",
+      "html": "<article class=\"ds-card\"><h3>Medical &amp; Healthcare</h3><p>AHPRA-registered clinics and verified specialty directories across Australia.</p></article>",
+      "css": ".ds-card{position:relative;background:#05110a;border-radius:1rem;padding:2rem;color:#d8e6da;outline:1px solid rgba(62,74,62,.15);outline-offset:-1px;transition:transform .3s ease,box-shadow .3s ease,outline-color .3s ease;cursor:pointer}.ds-card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,33,10,.4);outline-color:rgba(0,132,61,.35)}.ds-card h3{font-family:'Space Grotesk',sans-serif;font-size:1.25rem;font-weight:600;letter-spacing:-.02em;margin:0 0 .5rem}.ds-card p{font-family:Inter,sans-serif;font-size:.875rem;line-height:1.6;color:#bdcabb;margin:0}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Hero search: floating dark field with leading icon and a gold submit; green halo on focus.",
+      "html": "<div class=\"ds-search\"><svg viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"9\" r=\"6\"/><path stroke-linecap=\"round\" d=\"M14 14l4 4\"/></svg><input type=\"search\" placeholder=\"Search verified Australian data\" aria-label=\"Search\"/><button class=\"ds-search-submit\">Search</button></div>",
+      "css": ".ds-search{display:flex;align-items:center;gap:.75rem;background:#05110a;border:1px solid rgba(62,74,62,.5);border-radius:.75rem;padding:.25rem .25rem .25rem 1.25rem;box-shadow:0 20px 40px rgba(0,33,10,.3);transition:background .3s ease,border-color .3s ease,box-shadow .3s ease}.ds-search:focus-within{background:#2b382f;border-color:rgba(0,132,61,.6);box-shadow:0 0 0 3px rgba(0,132,61,.12),0 20px 40px rgba(0,33,10,.4)}.ds-search>svg{width:20px;height:20px;color:#889487;flex-shrink:0;transition:color .3s ease}.ds-search:focus-within>svg{color:#71dc8a}.ds-search input{flex:1;min-width:0;background:transparent;border:none;outline:none;padding:1rem;font-family:Inter,sans-serif;font-size:1rem;color:#d8e6da}.ds-search input::placeholder{color:#889487}.ds-search-submit{flex-shrink:0;background:#fecc00;color:#6e5700;border:none;border-radius:.375rem;padding:.75rem 1.5rem;font-family:Inter,sans-serif;font-size:.875rem;font-weight:600;cursor:pointer;transition:background .3s ease,color .3s ease}.ds-search-submit:hover{background:#00843d;color:#e7ffe6}"
+    },
+    {
+      "name": "Sort Tabs (segmented)",
+      "kind": "custom",
+      "refersTo": "chip",
+      "description": "Signature segmented control; active tab raised to the highest surface tone.",
+      "html": "<div class=\"ds-sort\" role=\"radiogroup\" aria-label=\"Sort order\"><button role=\"radio\" aria-checked=\"true\">Nearest</button><button role=\"radio\" aria-checked=\"false\">Alphabetical</button><button role=\"radio\" aria-checked=\"false\">Recently Updated</button></div>",
+      "css": ".ds-sort{display:inline-flex;gap:.25rem;background:#202d25;padding:3px;border-radius:.375rem}.ds-sort button{padding:.5rem 1rem;background:transparent;border:none;border-radius:calc(.375rem - 3px);font-family:Inter,sans-serif;font-size:.8rem;color:#bdcabb;cursor:pointer;transition:background .15s ease,color .15s ease}.ds-sort button[aria-checked=\"true\"]{background:#2b382f;color:#d8e6da;font-weight:500}.ds-sort button:focus-visible{outline:2px solid #71dc8a;outline-offset:2px}"
+    },
+    {
+      "name": "Trust Badge (AHPRA)",
+      "kind": "custom",
+      "refersTo": "chip",
+      "description": "Surfaces verification state honestly: muted gold + dimmed when unverified. role=img with descriptive label.",
+      "html": "<div class=\"ds-badge\" role=\"img\" aria-label=\"AHPRA registration not independently verified\"><svg viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"8\" r=\"6\"/><path stroke-linecap=\"round\" d=\"M8 5v4m0 2v.5\"/></svg>AHPRA Unverified</div>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(240,193,0,.1);color:#f0c100;border-radius:9999px;padding:5px .75rem;font-family:Inter,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.04em;white-space:nowrap;opacity:.85}.ds-badge svg{width:10px;height:10px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sovereign Archive",
+    "overview": "This is the visual language of a national institutional record, not a website that happens to hold facts. Every surface is a dark forest-green plate in a deep vault (#0a160f); information sits on it with the calm authority of an official register. Depth is built from a tonal ramp of near-black greens, never from glow or gloss. The two accents are deliberately national: Australian Green for structure, navigation, and trust signals; Australian Gold for the single most important action on a screen. Steel blue is reserved for tertiary data. The system commits to dark mode only because the archive is a vault: a screen of dense, citable data read with focus, where a deep ground lets green and gold carry meaning instead of decoration. Type is a contrast pair: Space Grotesk for headings, Inter for dense body and labels. Motion is restrained. It rejects tourist-brochure gloss, generic SaaS-dashboard templates, and government-portal sterility alike.",
+    "keyCharacteristics": [
+      "Dark forest-green vault ground; depth via tonal layering, not shadow.",
+      "National Green & Gold accents, used sparingly and meaningfully.",
+      "Dense information, disciplined hierarchy, generous breathing room.",
+      "Geometric-display + humanist-body type contrast.",
+      "WCAG 2.1 AA / WAI-ARIA 1.2 as a floor, not a feature."
+    ],
+    "rules": [
+      { "name": "The Gold-For-One Rule", "body": "Australian Gold (#fecc00) fills exactly one action per view — the primary task. If two gold buttons appear on a screen, one of them is wrong. Everything else that needs emphasis uses green.", "section": "colors" },
+      { "name": "The Tinted-Neutral Rule", "body": "There are no pure grays and no pure white. Every neutral is pulled toward the forest-green hue. Pure #000/#fff/#808080 are prohibited; they read as a different, colder product.", "section": "colors" },
+      { "name": "The -0.03em Floor", "body": "Display tracking never goes below -0.03em. Tighter and the grotesque caps collide; the archive should read as engraved, not cramped.", "section": "typography" },
+      { "name": "The One-Eyebrow Rule", "body": "Uppercase tracked labels are structural captions, not a per-section reflex. Don't stack a tiny uppercase kicker above every heading.", "section": "typography" },
+      { "name": "The Tonal-First Rule", "body": "Reach for the surface-container ramp before reaching for a shadow. If two elements need separating, change the plate, don't add a drop shadow. Shadows are a response to state, never decoration at rest.", "section": "elevation" },
+      { "name": "The Ghost-Card Ban", "body": "Never combine a 1px border with a wide soft drop shadow on the same resting element. Pick tonal layering + hairline outline; let shadow belong to hover/focus.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the body ground on the forest-green vault (#0a160f) and build depth from the surface-container ramp before reaching for any shadow.",
+      "Do reserve Australian Gold (#fecc00) for exactly one primary action per view; use green for every other emphasis.",
+      "Do keep all neutrals tinted toward the green hue — off-white ink (#d8e6da), never pure #fff; hairline borders in rgba green, never pure gray.",
+      "Do pair Space Grotesk display with Inter body, and hold display tracking at -0.03em (never tighter).",
+      "Do surface trust state plainly — 'AHPRA Unverified' in muted gold — because honesty over polish is the brand.",
+      "Do meet WCAG 2.1 AA: body >=4.5:1, large text >=3:1, visible focus rings, descriptive anchor text, prefers-reduced-motion fallbacks, no horizontal scroll to ~320px."
+    ],
+    "donts": [
+      "Don't ship tourist-brochure aesthetics — no stock travel photography, no cheerful marketing gloss.",
+      "Don't ship a generic SaaS dashboard — no hero-metric template, no endless identical card grids, no purple-gradient startup sheen.",
+      "Don't ship government-portal sterility — never cold, cramped, or form-heavy.",
+      "Don't combine a 1px border with a wide soft drop shadow on a resting card or button (the ghost-card pattern).",
+      "Don't over-round: cards top out at 16px; pills only for tags/badges. No 24/28/32px card radii.",
+      "Don't use gradient text, border-left/right color stripes as accents, or decorative glassmorphism (the blurred autocomplete panel is the one sanctioned glass surface).",
+      "Don't introduce a second gold action, pure black/white/gray, or a font that's a near-twin of Space Grotesk or Inter."
+    ]
+  }
+}
