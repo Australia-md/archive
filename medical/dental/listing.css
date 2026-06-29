@@ -1045,9 +1045,20 @@ a.btn-view-profile {
 .suburb-dir-link:hover .suburb-dir-arrow { transform: translateX(2px); opacity: 1; }
 
 /* ─── RESPONSIVE ─────────────────────────────────────── */
+/* Suburb pages keep the two-column clinic-list + map-panel layout; collapse it
+   to a single column on small screens. (The hub index is single-column already,
+   so these rules are harmless there — its .listing-body has one child.) */
+@media (max-width: 1100px) {
+  .map-panel { width: 300px; }
+}
 @media (max-width: 900px) {
   .listing-body {
+    flex-direction: column;
     padding: var(--sp-6) var(--sp-5) var(--sp-12);
+  }
+  .map-panel {
+    width: 100%;
+    position: static;
   }
   .listing-header-content {
     padding: var(--sp-6) var(--sp-5) var(--sp-6);
@@ -1077,10 +1088,19 @@ a.btn-view-profile {
     flex: 1 1 100%;
     min-width: 0;
   }
+
+  /* Suburb-page clinic cards: stack the name/AHPRA-badge row and the
+     address/hours meta row vertically so neither is cramped on phones. */
+  .clinic-name-row { flex-direction: column; align-items: flex-start; }
+  .clinic-meta-row { flex-direction: column; gap: var(--sp-2); }
 }
 @media (max-width: 400px) {
   .listing-header-content,
   .listing-body { padding-left: var(--sp-4); padding-right: var(--sp-4); }
+  /* Suburb-page clinic-card sections keep comfortable side padding. */
+  .clinic-card-header,
+  .clinic-services,
+  .clinic-card-footer { padding-left: var(--sp-5); padding-right: var(--sp-5); }
 }
 
 /* Comfortable 44px touch targets on coarse-pointer (touch) devices, without
