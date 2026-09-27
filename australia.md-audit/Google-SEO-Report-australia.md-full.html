@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 22mm 18mm 25mm 18mm;
+    @bottom-center {
+      content: "Page " counter(page) " of " counter(pages);
+      font-size: 9pt;
+      color: #6b7280;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+    @bottom-left {
+      content: "Confidential";
+      font-size: 7pt;
+      color: #d6d3cc;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+    @bottom-right {
+      content: "australia.md Google SEO Report";
+      font-size: 8pt;
+      color: #cbd5e1;
+      font-family: 'DejaVu Serif', 'Times New Roman', Georgia, serif;
+    }
+  }
+
+  @page :first {
+    margin: 0;
+    @bottom-left { content: none; }
+    @bottom-center { content: none; }
+    @bottom-right { content: none; }
+  }
+
+  @page toc {
+    @bottom-center {
+      content: counter(page);
+      font-size: 9pt;
+      color: #6b7280;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Times New Roman', 'DejaVu Serif', Georgia, serif;
+    font-size: 10pt;
+    line-height: 1.55;
+    color: #1e293b;
+    background: white;
+  }
+
+  /* ─── Title Page (Clean White) ─── */
+  .title-page {
+    page: first;
+    width: 210mm;
+    height: 297mm;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1a1a2e;
+    position: relative;
+    padding: 50mm 30mm 40mm 30mm;
+    border-top: 6mm solid #1e3a5f;
+  }
+
+  .title-page .badge {
+    background: #f7f6f3;
+    border: 1px solid #d6d3cc;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15mm;
+    color: #1e3a5f;
+  }
+
+  .title-page h1 {
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 5mm;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: #1a1a2e;
+  }
+
+  .title-page .subtitle {
+    font-size: 13pt;
+    color: #6b7280;
+    margin-bottom: 12mm;
+    font-weight: 300;
+  }
+
+  .title-page .url {
+    font-size: 12pt;
+    color: #1e3a5f;
+    margin-bottom: 15mm;
+    padding: 4mm 8mm;
+    border: 1px solid #d6d3cc;
+    border-radius: 6px;
+    background: #faf9f7;
+  }
+
+  .title-page .score-box {
+    background: #faf9f7;
+    border: 2px solid #d6d3cc;
+    border-radius: 12px;
+    padding: 6mm 12mm;
+    margin-bottom: 15mm;
+  }
+
+  .title-page .score-number {
+    font-size: 42pt;
+    font-weight: bold;
+    color: #1e3a5f;
+    line-height: 1;
+  }
+
+  .title-page .score-label {
+    font-size: 10pt;
+    color: #6b7280;
+    margin-top: 2mm;
+  }
+
+  .title-page .meta {
+    font-size: 9pt;
+    color: #6b7280;
+    margin-top: 8mm;
+    padding-top: 5mm;
+    border-top: 1px solid #d6d3cc;
+  }
+
+  .title-page .meta span {
+    margin: 0 8px;
+  }
+
+  /* ─── Table of Contents ─── */
+  .toc-page {
+    page: toc;
+    page-break-before: always;
+  }
+
+  .toc-page h2 {
+    font-size: 18pt;
+    color: #1e3a5f;
+    margin-bottom: 8mm;
+    padding-bottom: 3mm;
+    border-bottom: 2px solid #1e3a5f;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .toc-list li {
+    padding: 2mm 0;
+    border-bottom: 1px solid #f1f5f9;
+    overflow: hidden;
+  }
+
+  .toc-list li.toc-section {
+    font-weight: bold;
+    font-size: 11pt;
+    padding-top: 4mm;
+    color: #0f172a;
+  }
+
+  .toc-list li.toc-sub {
+    padding-left: 8mm;
+    font-size: 9.5pt;
+    color: #475569;
+  }
+
+  .toc-score {
+    display: inline-block;
+    float: right;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 9pt;
+    font-weight: bold;
+    color: white;
+  }
+
+  .score-good { background: #2d6a4f; }
+  .score-warn { background: #d4740e; }
+  .score-bad { background: #c53030; }
+
+  /* ─── Section Styles ─── */
+  div.section {
+    page-break-before: always;
+  }
+
+  .section-header {
+    background: #faf9f7;
+    border-left: 4px solid #1e3a5f;
+    padding: 5mm 6mm;
+    margin-bottom: 6mm;
+    page-break-after: avoid;
+  }
+
+  .section-header h2 {
+    font-size: 16pt;
+    color: #0f172a;
+    margin-bottom: 1mm;
+  }
+
+  .section-header .section-score {
+    font-size: 12pt;
+    font-weight: bold;
+    float: right;
+    margin-top: -6mm;
+  }
+
+  h3 {
+    font-size: 12pt;
+    color: #1e3a5f;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
+    padding-bottom: 1.5mm;
+    border-bottom: 1px solid #d6d3cc;
+    page-break-after: avoid;
+  }
+
+  h4 {
+    font-size: 10.5pt;
+    color: #334155;
+    margin-top: 4mm;
+    margin-bottom: 2mm;
+    page-break-after: avoid;
+  }
+
+  p {
+    margin-bottom: 3mm;
+    color: #334155;
+  }
+
+  .highlight {
+    background: #fef3c7;
+    border-left: 3px solid #d4740e;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .critical-box {
+    background: #fef2f2;
+    border-left: 3px solid #c53030;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .success-box {
+    background: #f0fdf4;
+    border-left: 3px solid #2d6a4f;
+    padding: 3mm 4mm;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  /* ─── Tables ─── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4mm 0 6mm 0;
+    font-size: 9pt;
+  }
+
+  thead th {
+    background: #f7f6f3;
+    color: #0f172a;
+    font-weight: bold;
+    padding: 3mm 4mm;
+    text-align: left;
+    border-bottom: 2px solid #d6d3cc;
+    font-size: 9pt;
+  }
+
+  tbody td {
+    padding: 2.5mm 3mm;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #fdfcfa;
+  }
+
+  .status-pass {
+    color: #2d6a4f;
+    font-weight: bold;
+  }
+
+  .status-fail {
+    color: #c53030;
+    font-weight: bold;
+  }
+
+  .status-warn {
+    color: #d4740e;
+    font-weight: bold;
+  }
+
+  .status-partial {
+    color: #4a5568;
+    font-weight: bold;
+  }
+
+  /* ─── Charts ─── */
+  .chart-container {
+    text-align: center;
+    margin: 4mm 0;
+  }
+
+  .chart-container img {
+    max-width: 100%;
+    max-height: 120mm;
+    height: auto;
+  }
+
+  .chart-caption {
+    font-size: 8.5pt;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 2mm;
+    text-align: center;
+  }
+
+  .chart-half {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .chart-half img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ─── Two column layout ─── */
+  .two-col {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 3mm 0;
+  }
+
+  .two-col .col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 2mm;
+  }
+
+  .four-col {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 3mm 0;
+  }
+
+  .four-col .col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 1.5mm;
+  }
+
+  /* ─── Metric Cards ─── */
+  .metric-card {
+    background: #faf9f7;
+    border: 1px solid #d6d3cc;
+    border-radius: 6px;
+    padding: 2.5mm 3mm;
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .metric-card .value {
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .metric-card .label {
+    font-size: 7.5pt;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 1mm;
+  }
+
+  /* ─── Action Plan ─── */
+  .action-item {
+    background: #faf9f7;
+    border-radius: 4px;
+    padding: 3mm 4mm;
+    margin: 3mm 0;
+    border-left: 3px solid #cbd5e1;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .action-item.critical {
+    border-left-color: #c53030;
+    background: #fdf2f2;
+  }
+
+  .action-item.high {
+    border-left-color: #d4740e;
+    background: #fdf8ef;
+  }
+
+  .action-item.medium {
+    border-left-color: #1e3a5f;
+    background: #f0f4f8;
+  }
+
+  .action-item.low {
+    border-left-color: #94a3b8;
+  }
+
+  .action-item h4 {
+    margin-top: 0;
+    margin-bottom: 1.5mm;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .action-item .effort {
+    font-size: 8.5pt;
+    color: #64748b;
+    float: right;
+  }
+
+  .priority-tag {
+    display: inline-block;
+    padding: 0.5mm 3mm;
+    border-radius: 3px;
+    font-size: 8pt;
+    font-weight: bold;
+    color: white;
+    margin-right: 2mm;
+    vertical-align: middle;
+  }
+
+  .priority-critical { background: #c53030; }
+  .priority-high { background: #d4740e; }
+  .priority-medium { background: #1e3a5f; }
+  .priority-low { background: #94a3b8; }
+
+  /* ─── Code blocks ─── */
+  .code-block {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 3mm 4mm;
+    border-radius: 4px;
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 8pt;
+    line-height: 1.6;
+    margin: 3mm 0;
+    white-space: pre-wrap;
+    word-break: break-all;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  /* ─── Divider ─── */
+  .divider {
+    border: none;
+    border-top: 1px solid #d6d3cc;
+    margin: 5mm 0;
+  }
+
+  /* ─── Roadmap ─── */
+  .roadmap-phase {
+    background: #faf9f7;
+    border-radius: 6px;
+    padding: 4mm 5mm;
+    margin: 4mm 0;
+    border: 1px solid #d6d3cc;
+    /* allow page breaks to prevent white gaps */
+  }
+
+  .roadmap-phase h4 {
+    margin-top: 0;
+    border-bottom: none;
+    color: #1e3a5f;
+  }
+
+  .roadmap-phase ul {
+    margin: 2mm 0 0 5mm;
+    padding: 0;
+  }
+
+  .roadmap-phase li {
+    margin-bottom: 1.5mm;
+    font-size: 9.5pt;
+    color: #334155;
+  }
+
+  /* ─── Lists ─── */
+  ul {
+    margin-left: 5mm;
+    margin-bottom: 3mm;
+  }
+
+  li {
+    margin-bottom: 1.5mm;
+  }
+
+  /* ─── Data freshness ─── */
+  .data-freshness {
+    font-size: 8pt;
+    color: #6b7280;
+    font-style: italic;
+    margin-top: 4mm;
+    padding-top: 2mm;
+    border-top: 1px solid #d6d3cc;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- ======================================================= TITLE PAGE === -->
+<div class="title-page">
+  <div class="badge">Full SEO Audit Report</div>
+  <h1>australia.md</h1>
+  <div class="subtitle">Prepared by Claude SEO</div>
+  <div class="score-box">
+    <div class="score-number">92<span style="font-size: 20pt; color: #94a3b8;">/100</span></div>
+    <div class="score-label">SEO Health Score</div>
+  </div>
+  <div class="meta">
+    <span>September 27, 2026</span>
+    <span>Full Audit</span>
+  </div>
+</div>
+
+
+<!-- ======================================================= TABLE OF CONTENTS === -->
+<div class="toc-page">
+  <h2>Table of Contents</h2>
+  <ul class="toc-list">
+    <li class="toc-section"><span>1. Executive Summary</span></li>
+    <li class="toc-sub"><span>Key Metrics, Critical Issues &amp; Quick Wins</span></li>
+    <li class="toc-section"><span>2. Audit Categories</span></li>
+    <li class="toc-sub"><span>What Works</span></li>
+    <li class="toc-sub"><span>Findings by Severity</span></li>
+    <li class="toc-section"><span>3. Action Plan</span></li>
+    <li class="toc-sub"><span>Phased Roadmap</span></li>
+    <li class="toc-section"><span>4. Data Sources &amp; Methodology</span></li>
+  </ul>
+</div>
+
+
+<!-- ======================================================= 1. EXECUTIVE SUMMARY === -->
+<div class="section">
+  <div class="section-header">
+    <h2>1. Executive Summary</h2>
+  </div>
+
+  <p>This report presents a comprehensive SEO audit of <strong>australia.md</strong> for a <strong>Curated Knowledge Archive &amp; Healthcare Directory</strong> site, generated on September 27, 2026. Findings combine technical, content, schema, performance, visual, and search-readiness evidence as available.</p>
+
+  <div class="two-col">
+    <div class="col">
+      <div class="metric-card">
+        <div class="value" style="color: #2d6a4f;">92/100</div>
+        <div class="label">SEO Health Score</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="critical-box">
+    <strong>Critical Issues Found:</strong>
+    <ol>
+      <li><strong>Info:</strong> 42 HTML pages missing from sitemap.xml (including 41 newly generated local dental suburb pages)</li>
+      <li><strong>Info:</strong> Raw Markdown (.md) URLs declared directly in XML sitemap instead of a dedicated LLM manifest</li>
+      <li><strong>Info:</strong> Missing HTTP security headers (HSTS, CSP, X-Content-Type-Options) on GitHub Pages hosting</li>
+      <li><strong>Info:</strong> Top-level category hub pages (8 pages) have thin content (&lt;250 words) functioning primarily as navigational links</li>
+      <li><strong>Info:</strong> Local Dentist schema lacks geo coordinates, opening hours, and price range attributes</li>
+    </ol>
+  </div>
+
+  <div class="success-box">
+    <strong>Quick Wins:</strong>
+    <ol>
+      <li>Regenerate sitemap.xml to include all 97 published HTML pages with priority weights</li>
+      <li>Create /llms.txt and /llms-full.txt following the llms.txt standard for AI search engines</li>
+      <li>Add explicit width and height attributes to the 4 flag and heraldic PNG images on the homepage</li>
+      <li>Fix heading hierarchy skip (h1 to h3) on submit/index.html to maintain valid semantic outline</li>
+      <li>Extend title tags on culture/index.html and flora-fauna/index.html to reach optimal 50-60 character length</li>
+    </ol>
+  </div>
+
+</div>
+
+<!-- ======================================================= 2. AUDIT CATEGORIES === -->
+<div class="section">
+  <div class="section-header">
+    <h2>2. Audit Categories</h2>
+  </div>
+
+  <h3>2.1 Technical SEO</h3>
+  <p><strong>Score:</strong> <span class="status-pass">80/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Robots.txt is comprehensively configured, explicitly welcoming all major search and AI crawlers (Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended)</li>
+    <li>Canonical tags are 100% self-referential and consistently formatted with trailing slashes across all 97 pages</li>
+    <li>Clean static HTML architecture with zero JavaScript framework overhead and zero broken internal links</li>
+    <li>Fastly/GitHub Pages CDN delivers sub-10ms TTFB on cached requests</li>
+    <li>Mobile viewport meta tag is present, correct, and responsive on all pages</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>42 Published HTML Pages Missing from XML Sitemap <span class="status-warn">High</span></h4>
+    <p>42 production HTML pages are absent from sitemap.xml. While internal linking aids discovery, search engines rely heavily on sitemaps for crawl scheduling and canonical index prioritization of programmatic directory pages.</p>
+    <p><strong>Recommendation:</strong> Regenerate sitemap.xml to include all 97 HTML routes with accurate lastmod timestamps (YYYY-MM-DD) and tiered priorities (1.0 home, 0.8 categories, 0.6 suburbs).</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Raw Markdown (.md) URLs Declared in Standard XML Sitemap <span class="status-warn">Medium</span></h4>
+    <p>Standard web search engines (Google, Bing) expect sitemap URLs to serve indexable HTML documents. Mixing raw markdown documents into the primary sitemap dilutes crawl budget and generates non-canonical index warnings in Google Search Console.</p>
+    <p><strong>Recommendation:</strong> Separate web sitemaps from AI manifests. Exclude raw .md files from sitemap.xml and serve them via llms.txt or a secondary ai-sitemap.xml.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Missing Security Headers (HSTS, CSP, X-Content-Type-Options) <span class="status-warn">Medium</span></h4>
+    <p>Direct hosting on GitHub Pages without a reverse proxy or Cloudflare CDN layer prevents injecting custom security headers, precluding HSTS domain preload eligibility.</p>
+    <p><strong>Recommendation:</strong> Route DNS through Cloudflare (or a Cloudflare Worker / edge reverse proxy) to inject HSTS (max-age=31536000; includeSubDomains; preload), CSP, and nosniff headers.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.2 Content Quality</h3>
+  <p><strong>Score:</strong> <span class="status-pass">95/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Overall homepage content quality scored 97/100 by QRG-aligned analyzer with zero filler and zero generic AI patterns</li>
+    <li>Medical dental directory pages feature deep, suburb-specific content (700-1,200 words each) with verified AHPRA clinics and transport details</li>
+    <li>Constitutional adherence to direct answer format, verified institutional sources, and clear Last Verified timestamps</li>
+    <li>Formal, precise sovereign tone with zero marketing fluff or spammy keyword stuffing</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Top-Level Category Hub Pages Contain Thin Content (&lt;250 words) <span class="status-warn">Medium</span></h4>
+    <p>Category hubs currently act predominantly as link matrices to documentation files without providing standalone topical depth. Google core updates favor hub pages with comprehensive contextual overviews.</p>
+    <p><strong>Recommendation:</strong> Expand each hub page with 150-250 words of verified executive summaries, core national statistics (ABS/statutory data), and key domain FAQs.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.3 On-Page SEO</h3>
+  <p><strong>Score:</strong> <span class="status-pass">96/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Every single page (97/97) features exactly one H1 tag with descriptive topical keywords</li>
+    <li>Meta descriptions are 100% present, non-duplicate, and strictly formatted between 120 and 160 characters</li>
+    <li>Zero generic anchor texts (&#x27;click here&#x27;, &#x27;read more&#x27;) across all internal links</li>
+    <li>Open Graph and Twitter Card tags are 100% complete across all 97 HTML files</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Sub-optimal Title Tag Length on Top-Level Category Hubs <span class="status-warn">Low</span></h4>
+    <p>Titles under 30 characters underutilize Google SERP real estate and miss opportunities for secondary topical keywords.</p>
+    <p><strong>Recommendation:</strong> Expand titles to 50-60 characters (e.g., &#x27;Culture &amp; Arts in Australia: Sovereign National Archive&#x27; and &#x27;Flora &amp; Fauna of Australia: Biodiversity &amp; Species Records&#x27;).</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Heading Level Jump in Submit Page (h1 to h3) <span class="status-warn">Low</span></h4>
+    <p>Skipping heading levels breaks standard document outline semantics for screen readers and search engine crawlers.</p>
+    <p><strong>Recommendation:</strong> Convert the &lt;h3&gt; headings in submit/index.html to &lt;h2&gt; to maintain strict h1 -&gt; h2 -&gt; h3 hierarchy.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.4 Schema / Structured Data</h3>
+  <p><strong>Score:</strong> <span class="status-pass">93/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>100% of HTML pages feature valid JSON-LD structured data with zero syntax errors</li>
+    <li>Homepage implements comprehensive Organization, WebSite, and WebPage schemas with primary image and contact information</li>
+    <li>Directory pages implement MedicalWebPage, Dataset, FAQPage, and Dentist schemas with AHPRA clinic listings</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Dentist Schema Missing GeoCoordinates, Opening Hours, and PriceRange <span class="status-warn">Medium</span></h4>
+    <p>Rich local business snippets and Google Maps integration require or strongly recommend geographical coordinates and operating hours for local pack eligibility.</p>
+    <p><strong>Recommendation:</strong> Enrich the clinic schema generation pipeline to include geo coordinates (suburb centroid or clinic geocode), priceRange (&#x27;$$&#x27;), and openingHours.</p>
+  </div>
+  <div class="action-item medium">
+    <h4>Missing BreadcrumbList Schema on Sub-Category and Directory Pages <span class="status-warn">Low</span></h4>
+    <p>Without BreadcrumbList schema, search engines may display raw URL paths instead of formatted hierarchical breadcrumbs in search results.</p>
+    <p><strong>Recommendation:</strong> Add JSON-LD BreadcrumbList schema to all sub-pages representing the visual trail (e.g., Home &gt; Medical &gt; Dental &gt; Chatswood).</p>
+  </div>
+  <hr class="divider">
+  <h3>2.5 Performance (CWV)</h3>
+  <p><strong>Score:</strong> <span class="status-pass">100/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Desktop LCP measured in real Chromium at 456 ms (far below Google&#x27;s 2,500 ms threshold)</li>
+    <li>Mobile LCP measured on simulated iPhone 14 at 464 ms</li>
+    <li>Desktop CLS measured at 0.0044 and Mobile CLS measured at 0.0000 (well within Google&#x27;s &lt; 0.1 threshold)</li>
+    <li>TTFB of 9 ms via CDN edge caching with 342 ms DOMContentLoaded and 488 ms total page load</li>
+    <li>Pure vanilla HTML5/CSS3 architecture with zero render-blocking JavaScript frameworks</li>
+    <li>Total transfer size of homepage is only 6.8 KB compressed</li>
+  </ul>
+  <hr class="divider">
+  <h3>2.6 AI Search Readiness</h3>
+  <p><strong>Score:</strong> <span class="status-pass">95/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>Robots.txt explicitly grants access to all major generative AI bots (GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended, Google-Extended, Cohere, Bytespider, CCBot)</li>
+    <li>Content structured in high-citability direct answer format with bolded entities, dates, and statutory citations</li>
+    <li>Open Knowledge Format (OKF v0.1) compliance ensures clean machine-readable knowledge ingestion</li>
+    <li>Zero expired domain abuse risk and 0.0 parasite SEO risk on topical evaluation</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Missing llms.txt and llms-full.txt Standard Manifests <span class="status-warn">Medium</span></h4>
+    <p>The llms.txt standard provides a concise, structured markdown file for AI crawlers to efficiently discover the core corpus without full-site parsing.</p>
+    <p><strong>Recommendation:</strong> Publish /llms.txt and /llms-full.txt at root summarizing the archive structure, key domains, and links to the 12 primary OKF docs.</p>
+  </div>
+  <hr class="divider">
+  <h3>2.7 Images</h3>
+  <p><strong>Score:</strong> <span class="status-pass">98/100</span></p>
+  <h4>What Works</h4>
+  <ul>
+    <li>100% of images across all pages possess descriptive, meaningful alt text (zero missing alt tags)</li>
+    <li>Images utilize native loading=&#x27;lazy&#x27; where appropriate</li>
+    <li>Asset file sizes are lightweight and optimized</li>
+  </ul>
+  <h4>Findings</h4>
+  <div class="action-item medium">
+    <h4>Missing Explicit Width and Height Attributes on Homepage PNG Assets <span class="status-warn">Low</span></h4>
+    <p>Omitting dimensional attributes can trigger layout shifts during slow rendering on constrained devices.</p>
+    <p><strong>Recommendation:</strong> Add explicit width and height attributes to all &lt;img&gt; tags in index.html matching their natural aspect ratio.</p>
+  </div>
+  <hr class="divider">
+</div>
+
+<!-- ======================================================= 3. ACTION PLAN === -->
+<div class="section">
+  <div class="section-header">
+    <h2>3. Action Plan</h2>
+  </div>
+
+  <div class="roadmap-phase">
+    <h4>Phase 1: Critical Fixes &amp; Sitemap Reconciliation <span class="effort">Week 1</span></h4>
+    <ul>
+      <li>Regenerate sitemap.xml to include all 97 published HTML pages with tiered priority weights</li>
+      <li>Remove raw .md URLs from sitemap.xml and migrate to llms.txt manifest</li>
+      <li>Add /llms.txt and /llms-full.txt following the llms.txt specification for AI search engines</li>
+      <li>Fix heading hierarchy skip on submit/index.html (convert h3 to h2)</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Phase 2: High-Impact Schema &amp; On-Page Enhancements <span class="effort">Weeks 2-3</span></h4>
+    <ul>
+      <li>Enrich Dentist schema across all 40+ suburb directories with geo coordinates (lat/long), priceRange, and openingHours</li>
+      <li>Add BreadcrumbList JSON-LD schema to all sub-pages and directory listings</li>
+      <li>Expand title tags on culture/index.html and flora-fauna/index.html to 50-60 characters</li>
+      <li>Add explicit width and height attributes to the 4 heraldic image assets on index.html</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Phase 3: Content Expansion &amp; Authority Building <span class="effort">Month 2</span></h4>
+    <ul>
+      <li>Expand 8 thin category hub pages (education, tourism, government, environment, economy, technology, history, submit) with 150-250 words of verified statistics and executive summaries</li>
+      <li>Deploy Cloudflare proxy or Worker to inject Strict-Transport-Security (HSTS), CSP, and security response headers</li>
+      <li>Submit updated sitemap.xml and key URLs via IndexNow protocol using updateBingIndex.md memory ledger</li>
+    </ul>
+  </div>
+  <div class="roadmap-phase">
+    <h4>Phase 4: Monitoring &amp; Ongoing Governance <span class="effort">Ongoing</span></h4>
+    <ul>
+      <li>Run periodic drift checks using claude-seo drift_compare.py against the initial baseline ID #1</li>
+      <li>Automate sitemap regeneration in GitHub Actions deployment workflow whenever new suburb pages are added</li>
+      <li>Monitor Google Search Console and Bing Webmaster Tools for crawl coverage and rich snippet validation</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ======================================================= DATA SOURCES & METHODOLOGY === -->
+<div class="section" style="text-align: center; padding-top: 15mm;">
+  <hr class="divider">
+  <h3 style="text-align: left;">Data Sources &amp; Methodology</h3>
+  <table>
+    <thead>
+      <tr><th>Source</th><th>Description</th><th>Update Frequency</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>PageSpeed Insights API</td>
+          <td>Lighthouse lab audit (mobile emulation, Moto G Power, slow 4G)</td>
+          <td>Real-time</td></tr>
+      <tr><td>Chrome UX Report (CrUX)</td>
+          <td>28-day rolling field data from real Chrome users</td>
+          <td>Daily ~04:00 UTC</td></tr>
+      <tr><td>CrUX History API</td>
+          <td>25-week p75 trend data per metric</td>
+          <td>Weekly</td></tr>
+      <tr><td>Google Search Console</td>
+          <td>Search Analytics (clicks, impressions, CTR, position)</td>
+          <td>2-3 day lag</td></tr>
+      <tr><td>URL Inspection API</td>
+          <td>Per-URL index status, coverage state, crawl info</td>
+          <td>Real-time (2,000/day)</td></tr>
+    </tbody>
+  </table>
+  <p style="color: #94a3b8; font-size: 9pt; margin-top: 5mm;">
+    Report generated by Claude SEO &mdash; Google SEO Intelligence Skill &mdash; September 27, 2026<br>
+    Methodology based on Google Web Vitals thresholds, Search Console documentation, and Lighthouse scoring algorithms.
+  </p>
+</div>
+
+</body>
+</html>

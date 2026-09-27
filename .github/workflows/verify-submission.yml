@@ -16,11 +16,11 @@ jobs:
       models: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
           cache-dependency-path: .github/scripts/package-lock.json
 
@@ -68,7 +68,7 @@ jobs:
 
       - name: Label issue — Verified
         if: steps.verify.outputs.status == 'VERIFIED'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, labels: ['Verified'] });
@@ -96,7 +96,7 @@ jobs:
       # --- REJECTED branch ---
       - name: Label issue — Needs Fix
         if: steps.verify.outputs.status == 'REJECTED'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           # Pass the model-derived reason via env and read it at runtime — never
           # interpolate untrusted output into the script body with ${{ }} (that
@@ -132,7 +132,7 @@ jobs:
       # --- Needs-human-review branch (source fetch OR model verification failed) ---
       - name: Label issue — Needs Human Review
         if: steps.verify.outputs.status == 'SCRAPE_BLOCKED' || steps.verify.outputs.status == 'MODEL_ERROR'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           VERIFY_STATUS: ${{ steps.verify.outputs.status }}
         with:

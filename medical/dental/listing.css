@@ -125,6 +125,10 @@ a.lbc-item:hover { color: var(--clr-primary); }
 .sort-tab:not(.active):hover {
   color: var(--clr-on-surface);
 }
+.sort-tab:focus-visible {
+  outline: 2px solid var(--clr-primary);
+  outline-offset: 2px;
+}
 .btn-refine {
   display: flex;
   align-items: center;
@@ -494,32 +498,48 @@ a.lbc-item:hover { color: var(--clr-primary); }
   height: 15px;
   border-radius: 2px;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 /* ─── SCROLL REVEAL ──────────────────────────────────── */
-.fade-in-up {
+/* The reveal is a progressive enhancement: content is fully visible by default,
+   so it never depends on JS or an IntersectionObserver firing. Only when JS has
+   flagged itself (.js on <html>) AND motion is allowed do elements start hidden
+   and fade in. No-JS, headless renderers, and reduced-motion all ship visible. */
+.js .fade-in-up {
   opacity: 0;
   transform: translateY(16px);
   transition: opacity 0.45s ease, transform 0.45s ease;
 }
-.fade-in-up.visible {
+.js .fade-in-up.visible {
   opacity: 1;
   transform: translateY(0);
 }
-.listing-eyebrow,
-.listing-title,
-.listing-verified-row,
-.listing-filter-row {
+.js .listing-eyebrow,
+.js .listing-title,
+.js .listing-verified-row,
+.js .listing-filter-row {
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.4s ease, transform 0.4s ease;
 }
-.listing-eyebrow.visible,
-.listing-title.visible,
-.listing-verified-row.visible,
-.listing-filter-row.visible {
+.js .listing-eyebrow.visible,
+.js .listing-title.visible,
+.js .listing-verified-row.visible,
+.js .listing-filter-row.visible {
   opacity: 1;
   transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .fade-in-up,
+  .js .listing-eyebrow,
+  .js .listing-title,
+  .js .listing-verified-row,
+  .js .listing-filter-row {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* ─── LISTING INTRO (suburb pages) ──────────────────── */
@@ -804,6 +824,7 @@ a.btn-view-profile {
   display: flex;
   align-items: center;
   gap: var(--sp-2);
+  flex-wrap: wrap;
   padding: var(--sp-4) var(--sp-5);
   border-bottom: 1px solid rgba(62, 74, 62, 0.18);
 }
@@ -825,25 +846,153 @@ a.btn-view-profile {
   font-family: var(--font-body);
   font-size: 0.65rem;
   color: var(--clr-outline);
-  margin-left: auto;
 }
-.suburb-dir-list {
-  list-style: none;
-  padding: var(--sp-2) var(--sp-3);
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-1);
-}
-.suburb-dir-link {
+
+/* Live name filter (right side of the directory header) */
+.suburb-dir-search {
   display: flex;
   align-items: center;
-  gap: var(--sp-3);
-  padding: var(--sp-3) var(--sp-3);
+  gap: var(--sp-2);
+  margin-left: auto;
+  min-width: 210px;
+  padding: 4px var(--sp-3);
+  background: var(--clr-surface-container-lowest);
+  border: 1px solid rgba(62, 74, 62, 0.5);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+.suburb-dir-search:focus-within {
+  border-color: rgba(0, 132, 61, 0.6);
+  background: var(--clr-surface-container-high);
+}
+.suburb-dir-search-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  color: var(--clr-outline);
+  transition: color var(--transition-fast);
+}
+.suburb-dir-search:focus-within .suburb-dir-search-icon { color: var(--clr-primary); }
+.suburb-dir-input {
+  flex: 1;
+  min-width: 0;
+  padding: 3px 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--clr-on-surface);
+}
+.suburb-dir-input::placeholder { color: var(--clr-outline); }
+
+.suburb-dir-list {
+  list-style: none;
+  padding: var(--sp-3);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--sp-2);
+}
+.suburb-dir-link {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "info  arrow"
+    "chips chips";
+  align-items: center;
+  column-gap: var(--sp-3);
+  row-gap: var(--sp-2);
+  height: 100%;
+  padding: var(--sp-3);
   border-radius: var(--radius-md);
   text-decoration: none;
   transition: background 0.15s, border-color 0.15s;
   border: 1px solid transparent;
 }
+
+/* Filter empty state */
+.suburb-dir-empty {
+  padding: var(--sp-5) var(--sp-5) var(--sp-6);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--clr-on-surface-variant);
+}
+.suburb-dir-empty[hidden] { display: none; }
+.suburb-dir-clearall {
+  font: inherit;
+  color: var(--clr-primary);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(113, 220, 138, 0.4);
+  transition: text-decoration-color var(--transition-fast);
+}
+.suburb-dir-clearall:hover { text-decoration-color: var(--clr-primary); }
+.suburb-dir-clearall:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+
+/* ─── SERVICE FACETS (filter the suburb grid by service tag) ──── */
+.suburb-dir-facets {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-3) 0;
+}
+.suburb-dir-facets[hidden] { display: none; }
+.suburb-dir-facets-label {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-outline);
+  margin-right: var(--sp-1);
+}
+.suburb-facet {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--clr-primary);
+  background: rgba(113, 220, 138, 0.06);
+  border: 1px solid rgba(113, 220, 138, 0.2);
+  border-radius: var(--radius-full);
+  padding: 4px var(--sp-3);
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+}
+.suburb-facet:hover {
+  background: rgba(113, 220, 138, 0.12);
+  border-color: rgba(113, 220, 138, 0.35);
+}
+.suburb-facet[aria-pressed="true"] {
+  background: var(--clr-primary-container);
+  border-color: var(--clr-primary-container);
+  color: var(--clr-on-primary-container);
+  font-weight: 600;
+}
+.suburb-facet:focus-visible {
+  outline: 2px solid var(--clr-primary);
+  outline-offset: 2px;
+}
+.suburb-dir-facets-clear {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--clr-outline);
+  background: transparent;
+  border: none;
+  padding: 4px var(--sp-2);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(136, 148, 135, 0.4);
+  transition: color var(--transition-fast);
+}
+.suburb-dir-facets-clear:hover { color: var(--clr-on-surface); }
+.suburb-dir-facets-clear:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+.suburb-dir-facets-clear[hidden] { display: none; }
 .suburb-dir-link:hover,
 .suburb-dir-link:focus-visible {
   background: rgba(113, 220, 138, 0.06);
@@ -851,10 +1000,10 @@ a.btn-view-profile {
   outline: none;
 }
 .suburb-dir-info {
+  grid-area: info;
   display: flex;
   flex-direction: column;
   gap: 2px;
-  flex: 1;
   min-width: 0;
 }
 .suburb-dir-name {
@@ -869,10 +1018,10 @@ a.btn-view-profile {
   color: var(--clr-outline);
 }
 .suburb-dir-chips {
+  grid-area: chips;
   display: flex;
   gap: var(--sp-1);
   flex-wrap: wrap;
-  flex-shrink: 0;
 }
 .suburb-dir-chip {
   font-family: var(--font-body);
@@ -887,6 +1036,7 @@ a.btn-view-profile {
   white-space: nowrap;
 }
 .suburb-dir-arrow {
+  grid-area: arrow;
   color: var(--clr-primary);
   flex-shrink: 0;
   opacity: 0.7;
@@ -894,63 +1044,10 @@ a.btn-view-profile {
 }
 .suburb-dir-link:hover .suburb-dir-arrow { transform: translateX(2px); opacity: 1; }
 
-/* ─── MAP PANEL — SUBURB QUICK-LINK ──────────────────── */
-.map-suburb-link {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-2);
-  padding: var(--sp-3) var(--sp-4);
-  margin: var(--sp-3) var(--sp-2) 0;
-  background: rgba(113, 220, 138, 0.06);
-  border: 1px solid rgba(113, 220, 138, 0.18);
-  border-radius: var(--radius-md);
-  text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
-}
-.map-suburb-link:hover,
-.map-suburb-link:focus-visible {
-  background: rgba(113, 220, 138, 0.12);
-  border-color: rgba(113, 220, 138, 0.35);
-  outline: none;
-}
-.map-suburb-pin {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: rgba(113, 220, 138, 0.12);
-  color: var(--clr-primary);
-  flex-shrink: 0;
-}
-.map-suburb-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  flex: 1;
-  min-width: 0;
-}
-.map-suburb-name {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--clr-on-surface);
-}
-.map-suburb-meta {
-  font-family: var(--font-body);
-  font-size: 0.65rem;
-  color: var(--clr-outline);
-}
-.map-suburb-arrow {
-  color: var(--clr-primary);
-  flex-shrink: 0;
-  opacity: 0.6;
-  transition: transform 0.15s, opacity 0.15s;
-}
-.map-suburb-link:hover .map-suburb-arrow { transform: translateX(2px); opacity: 1; }
-
 /* ─── RESPONSIVE ─────────────────────────────────────── */
+/* Suburb pages keep the two-column clinic-list + map-panel layout; collapse it
+   to a single column on small screens. (The hub index is single-column already,
+   so these rules are harmless there — its .listing-body has one child.) */
 @media (max-width: 1100px) {
   .map-panel { width: 300px; }
 }
@@ -969,6 +1066,48 @@ a.btn-view-profile {
 }
 @media (max-width: 600px) {
   .listing-filter-row { gap: var(--sp-3); }
+
+  /* Sort tabs span the row and wrap inside the pill so long labels
+     ("Recently Updated") never push past the viewport on small phones. */
+  .sort-tabs {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .sort-tab {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  .btn-refine {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Filter input drops to its own full-width row under the directory label. */
+  .suburb-dir-search {
+    margin-left: 0;
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  /* Suburb-page clinic cards: stack the name/AHPRA-badge row and the
+     address/hours meta row vertically so neither is cramped on phones. */
   .clinic-name-row { flex-direction: column; align-items: flex-start; }
   .clinic-meta-row { flex-direction: column; gap: var(--sp-2); }
+}
+@media (max-width: 400px) {
+  .listing-header-content,
+  .listing-body { padding-left: var(--sp-4); padding-right: var(--sp-4); }
+  /* Suburb-page clinic-card sections keep comfortable side padding. */
+  .clinic-card-header,
+  .clinic-services,
+  .clinic-card-footer { padding-left: var(--sp-5); padding-right: var(--sp-5); }
+}
+
+/* Comfortable 44px touch targets on coarse-pointer (touch) devices, without
+   bulking up the same controls under a precise mouse cursor. */
+@media (pointer: coarse) {
+  .sort-tab { min-height: 44px; }
+  .suburb-dir-search { min-height: 44px; }
+  .suburb-facet { min-height: 44px; }
+  .btn-refine { min-height: 44px; }
 }

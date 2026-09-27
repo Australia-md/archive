@@ -94,6 +94,10 @@ last_verified: 2026-05-28
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" integrity="sha384-1PT8sISk9zQ7SDVmmf11t7IlDJN8vvTQWzVqT4Qd4F9XLIIfHQsj8UH8VCMF5gT" crossorigin="anonymous" />
   <link rel="stylesheet" href="../../../style.css" />
   <link rel="stylesheet" href="../listing.css" />
+  <!-- Progressive enhancement: flag that JS is available so the scroll-reveal
+       only hides content it can guarantee to reveal. No-JS / headless renders
+       ship fully visible. Required — listing.css gates the reveal behind .js. -->
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 ```
 
@@ -222,7 +226,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
 
 ```html
 <header class="nav-bar" id="main-header">
-  <nav class="nav-inner" role="navigation" aria-label="Main navigation">
+  <nav class="nav-inner" aria-label="Main navigation">
     <a href="../../../index.html" class="nav-logo" aria-label="Australia.md Home">
       <span class="logo-mark">AU</span>
       <span class="logo-text">Australia<span class="logo-dot">.md</span></span>
@@ -277,7 +281,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
 
     <h1 class="listing-title">Dental Clinics<br/>{Suburb} {STATE}</h1>
 
-    <div class="listing-verified-row" aria-label="Verification status">
+    <div class="listing-verified-row" role="group" aria-label="Verification status">
       <svg class="verified-shield" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
         <path fill-rule="evenodd" d="M10 1l2.39 4.84L18 6.9l-4 3.9.94 5.46L10 13.77l-4.94 2.6L6 10.8 2 6.9l5.61-.06L10 1z" clip-rule="evenodd"/>
       </svg>
@@ -341,7 +345,7 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 
   <!-- Billing note — include only if billing/bulk bill data present in source -->
   <!-- Use one of the two variants below; omit entire block if billing data absent -->
-  <div class="clinic-billing-note" aria-label="Billing information">
+  <div class="clinic-billing-note" role="group" aria-label="Billing information">
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
     Fees apply · No bulk billing
     <!-- OR for mixed billing: Mixed billing · Bulk billing available with conditions · <a href="https://www.servicesaustralia.gov.au/child-dental-benefits-schedule" target="_blank" rel="noopener noreferrer">CDBS eligible</a> -->
@@ -399,8 +403,8 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 
 | Condition | HTML |
 |---|---|
-| AHPRA Verified: Yes in source | `<div class="ahpra-badge" aria-label="AHPRA Registered"><svg ...>...</svg> AHPRA Registered</div>` |
-| AHPRA Verified: No OR not stated | `<div class="ahpra-badge ahpra-unverified" style="opacity:0.6" aria-label="AHPRA Unverified"><svg ...>...</svg> AHPRA Unverified</div>` |
+| AHPRA Verified: Yes in source | `<div class="ahpra-badge" role="img" aria-label="AHPRA Registered"><svg ...>...</svg> AHPRA Registered</div>` |
+| AHPRA Verified: No OR not stated | `<div class="ahpra-badge ahpra-unverified" role="img" style="opacity:0.6" aria-label="AHPRA Unverified"><svg ...>...</svg> AHPRA Unverified</div>` |
 
 AHPRA badge SVG icon (use this exact path):
 ```html
@@ -423,7 +427,7 @@ AHPRA badge SVG icon (use this exact path):
     <!-- Text fill: #fff on dark pins, #0a160f on gold (#fecc00) pins -->
     <!-- Metro/landmark marker: circle fill #071510, stroke #fecc00 -->
     <!-- Compass: gold arrow pointing north -->
-    <div class="sidebar-map" aria-label="Map of dental clinics in {Suburb} {STATE}">
+    <div class="sidebar-map">
       <svg viewBox="0 0 400 340" class="suburb-map-svg" role="img" aria-label="Street map of {Suburb} showing clinic locations" xmlns="http://www.w3.org/2000/svg">
         <rect width="400" height="340" fill="#0d1f12"/>
         <!-- Roads: draw lines for major streets -->
@@ -434,7 +438,7 @@ AHPRA badge SVG icon (use this exact path):
     </div>
 
     <!-- Mini clinic list below map -->
-    <div class="map-clinic-list" id="map-clinic-list" aria-label="Quick clinic reference for {Suburb}">
+    <div class="map-clinic-list" id="map-clinic-list" role="group" aria-label="Quick clinic reference for {Suburb}">
       <div class="map-clinic-list-title">Clinics in {Suburb}</div>
       <ul>
         <!-- Repeat per clinic -->
@@ -486,7 +490,7 @@ Minimum: always include "How do I verify a dentist's AHPRA registration in {Subu
 The footer block is mostly static — only the **source Markdown link** (see 10a) varies per page. Every other element is copied exactly as shown.
 
 ```html
-<footer class="footer" id="main-footer" role="contentinfo">
+<footer class="footer" id="main-footer">
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="../../../index.html" class="nav-logo footer-logo"><span class="logo-mark">AU</span><span class="logo-text">Australia<span class="logo-dot">.md</span></span></a>
@@ -682,4 +686,66 @@ Do not set `element.style.transitionDelay` or inject `<style>` nodes from JavaSc
 
 ---
 
-*Last updated: 2026-04-21 | Version: 1.3 — added Section 10a (source Markdown link) and Section 11 rule 9*
+## 13. Hub Directory Index — Adding the Suburb Entry
+
+After generating a suburb page, register it in the hub directory at
+**`medical/dental/index.html`**. The hub is a **single-column, self-sorting,
+self-counting suburb grid** — it is NOT the old two-column map layout. Make
+exactly one change: append a single `<li>` to `<ul class="suburb-dir-list">`.
+
+### The one entry to append
+
+Insert this block anywhere inside `<ul class="suburb-dir-list">` (insertion order
+does not matter — `listing.js` sorts the grid A–Z on load):
+
+```html
+<li>
+  <a href="{suburb-slug}/" class="suburb-dir-link" aria-label="View dental clinics in {Suburb} {STATE} {Postcode} — {N} clinic(s)">
+    <span class="suburb-dir-info">
+      <span class="suburb-dir-name">{Suburb}</span>
+      <span class="suburb-dir-meta">{STATE} {Postcode} &nbsp;&middot;&nbsp; {N} clinic(s) &nbsp;&middot;&nbsp; {LGA}</span>
+    </span>
+    <span class="suburb-dir-chips">
+      <span class="suburb-dir-chip">{Service 1}</span>
+      <span class="suburb-dir-chip">{Service 2}</span>
+      <span class="suburb-dir-chip">{Service 3}</span>
+    </span>
+    <svg class="suburb-dir-arrow" width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M7 5l5 5-5 5"/>
+    </svg>
+  </a>
+</li>
+```
+
+- `{N} clinic(s)` — use `1 clinic` (singular) or `N clinics` (plural), and the
+  same in the `aria-label`.
+- Meta separators are `&nbsp;&middot;&nbsp;` (the `·` middot).
+- Include **at most 3** `suburb-dir-chip`s — the most representative real
+  services for the suburb.
+
+### Hard rules for the hub (do NOT)
+
+1. **Do NOT edit `<span class="suburb-dir-count">`.** The count is computed at
+   runtime by `listing.js` from the number of `.suburb-dir-link` items, so it is
+   self-healing. Leave the existing value exactly as-is — do not bump it.
+2. **Do NOT add any map markup.** The hub has no map. Never add `.map-panel`,
+   `.map-suburb-link`, `.map-pin`, `.map-clinic-list`, a sidebar, or map
+   quick-links to `medical/dental/index.html`.
+3. **Do NOT add clinic cards** (`.clinic-card`), `View Clinic Profile` buttons,
+   or AHPRA badges to the hub. Those belong on the suburb page only.
+4. **Do NOT touch** the page header, the sort tabs, the service-facet container
+   (`<div id="suburb-facets">`), or any other chrome. Append the one `<li>` and
+   nothing else.
+
+### Service chips feed the facet filter
+
+The `suburb-dir-chip` values are the data source for the hub's **"Filter by
+service"** facet, which `listing.js` builds automatically from the chips present
+across all suburbs. Spell services consistently (`General`, `Cosmetic`,
+`Implants`, `Emergency`, `Orthodontics`, `Sedation`, `Family`, `Public`, …) —
+a misspelling or a near-duplicate (`Paediatric` vs `Pediatric`) creates a
+spurious extra facet button.
+
+---
+
+*Last updated: 2026-06-29 | Version: 1.4 — added Section 13 (hub directory index entry, single-column grid format) and the progressive-enhancement `.js` flag in §2.*
