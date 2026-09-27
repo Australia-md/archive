@@ -1,0 +1,28 @@
+# Australia.md — Sovereign Knowledge Archive
+
+> Australia.md is a curated, open-source knowledge base and machine-readable sovereign archive for Australia. Published in the Open Knowledge Format (OKF) v0.1 — a vendor-neutral standard introduced by Google Cloud for representing curated knowledge. All content is strictly verifiable against authoritative Australian sources (government, statutory authorities, institutional records) with visible Last Verified timestamps.
+
+## Core Documentation
+
+- [Australia Overview](https://australia.md/Australia.md): Master sovereign index and country meta specifications
+- [Geography & States](https://australia.md/docs/geography.md): Land area, borders, states, territories, and geographic data
+- [Government & Constitution](https://australia.md/docs/government.md): Constitutional framework, parliamentary system, and head of state
+- [Economy & Innovation](https://australia.md/docs/economy.md): GDP, trade, major industries, RBA monetary policy, and ASX
+- [Medical & Healthcare](https://australia.md/docs/medical.md): Healthcare system, Medicare, PBS, and AHPRA regulatory standards
+- [Education System](https://australia.md/docs/education.md): Universities, primary/secondary schooling, AQF qualifications
+- [Flora & Fauna](https://australia.md/docs/flora-fauna.md): Endemic marsupials, botanical classifications, EPBC Act conservation status
+- [History & Heritage](https://australia.md/docs/history.md): Deep-time Indigenous history, Federation, and statutory heritage registers
+- [Culture & Arts](https://australia.md/docs/culture.md): National institutions, creative policy, screen, music, and public holidays
+- [Technology & AI](https://australia.md/docs/technology.md): National AI initiatives, quantum computing, and sovereign tech infrastructure
+- [Tourism & Destinations](https://australia.md/docs/tourism.md): World Heritage areas, state tourism frameworks, and travel standards
+- [Indigenous Cultures](https://australia.md/docs/indigenous.md): World's oldest continuous living culture, language groups, and heritage
+
+## Specialized Healthcare Directories
+
+- [NSW Dental Clinic Directory](https://australia.md/medical/dental/): Comprehensive, AHPRA-verified dental directory covering 80+ Sydney and regional NSW suburbs
+- [Endocrinology Directory](https://australia.md/medical/endocrinology/): Specialist endocrinologist clinical services
+
+## Technical Standards & Specifications
+
+- [Open Knowledge Format v0.1 Specification](https://australia.md/docs/index.md): Vendor-neutral standard for curated Markdown knowledge bundles
+- [Sitemap](https://australia.md/sitemap.xml): Full canonical HTML page index

@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "scoring_method": "v1",
+    "knowledge_cutoff": "2026-08-12",
+    "audit_mode": "sampled"
+  },
+  "crawl": {
+    "tier": "sitemap-sample",
+    "discovered": 111,
+    "crawled": 97,
+    "skipped": 0,
+    "blocked_robots": 0,
+    "redirected": 0,
+    "failed": 0
+  },
+  "summary": {
+    "health_score": 92,
+    "business_type": "Curated Knowledge Archive & Healthcare Directory",
+    "top_findings": [
+      "42 HTML pages missing from sitemap.xml (including 41 newly generated local dental suburb pages)",
+      "Raw Markdown (.md) URLs declared directly in XML sitemap instead of a dedicated LLM manifest",
+      "Missing HTTP security headers (HSTS, CSP, X-Content-Type-Options) on GitHub Pages hosting",
+      "Top-level category hub pages (8 pages) have thin content (<250 words) functioning primarily as navigational links",
+      "Local Dentist schema lacks geo coordinates, opening hours, and price range attributes"
+    ],
+    "quick_wins": [
+      "Regenerate sitemap.xml to include all 97 published HTML pages with priority weights",
+      "Create /llms.txt and /llms-full.txt following the llms.txt standard for AI search engines",
+      "Add explicit width and height attributes to the 4 flag and heraldic PNG images on the homepage",
+      "Fix heading hierarchy skip (h1 to h3) on submit/index.html to maintain valid semantic outline",
+      "Extend title tags on culture/index.html and flora-fauna/index.html to reach optimal 50-60 character length"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 80,
+      "status": "scored",
+      "what_works": [
+        "Robots.txt is comprehensively configured, explicitly welcoming all major search and AI crawlers (Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended)",
+        "Canonical tags are 100% self-referential and consistently formatted with trailing slashes across all 97 pages",
+        "Clean static HTML architecture with zero JavaScript framework overhead and zero broken internal links",
+        "Fastly/GitHub Pages CDN delivers sub-10ms TTFB on cached requests",
+        "Mobile viewport meta tag is present, correct, and responsive on all pages"
+      ],
+      "findings": [
+        {
+          "title": "42 Published HTML Pages Missing from XML Sitemap",
+          "severity": "High",
+          "confidence": "high",
+          "evidence": "sitemap.xml lists 55 HTML pages out of 97 total HTML pages on disk (42 unlisted, including medical/dental/belrose/, bexley/, bondi/, blackalls-park/, and medical/endocrinology/)",
+          "description": "42 production HTML pages are absent from sitemap.xml. While internal linking aids discovery, search engines rely heavily on sitemaps for crawl scheduling and canonical index prioritization of programmatic directory pages.",
+          "recommendation": "Regenerate sitemap.xml to include all 97 HTML routes with accurate lastmod timestamps (YYYY-MM-DD) and tiered priorities (1.0 home, 0.8 categories, 0.6 suburbs)."
+        },
+        {
+          "title": "Raw Markdown (.md) URLs Declared in Standard XML Sitemap",
+          "severity": "Medium",
+          "confidence": "high",
+          "evidence": "sitemap.xml contains 56 .md URLs (e.g., https://australia.md/docs/culture.md) served with content-type: text/markdown",
+          "description": "Standard web search engines (Google, Bing) expect sitemap URLs to serve indexable HTML documents. Mixing raw markdown documents into the primary sitemap dilutes crawl budget and generates non-canonical index warnings in Google Search Console.",
+          "recommendation": "Separate web sitemaps from AI manifests. Exclude raw .md files from sitemap.xml and serve them via llms.txt or a secondary ai-sitemap.xml."
+        },
+        {
+          "title": "Missing Security Headers (HSTS, CSP, X-Content-Type-Options)",
+          "severity": "Medium",
+          "confidence": "high",
+          "evidence": "Live HTTP response headers lack Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options: nosniff, and X-Frame-Options",
+          "description": "Direct hosting on GitHub Pages without a reverse proxy or Cloudflare CDN layer prevents injecting custom security headers, precluding HSTS domain preload eligibility.",
+          "recommendation": "Route DNS through Cloudflare (or a Cloudflare Worker / edge reverse proxy) to inject HSTS (max-age=31536000; includeSubDomains; preload), CSP, and nosniff headers."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 95,
+      "status": "scored",
+      "what_works": [
+        "Overall homepage content quality scored 97/100 by QRG-aligned analyzer with zero filler and zero generic AI patterns",
+        "Medical dental directory pages feature deep, suburb-specific content (700-1,200 words each) with verified AHPRA clinics and transport details",
+        "Constitutional adherence to direct answer format, verified institutional sources, and clear Last Verified timestamps",
+        "Formal, precise sovereign tone with zero marketing fluff or spammy keyword stuffing"
+      ],
+      "findings": [
+        {
+          "title": "Top-Level Category Hub Pages Contain Thin Content (<250 words)",
+          "severity": "Medium",
+          "confidence": "high",
+          "evidence": "8 hub pages have low word counts: submit (102w), education (198w), tourism (200w), government (205w), environment (223w), economy (232w), technology (232w), history (240w)",
+          "description": "Category hubs currently act predominantly as link matrices to documentation files without providing standalone topical depth. Google core updates favor hub pages with comprehensive contextual overviews.",
+          "recommendation": "Expand each hub page with 150-250 words of verified executive summaries, core national statistics (ABS/statutory data), and key domain FAQs."
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 96,
+      "status": "scored",
+      "what_works": [
+        "Every single page (97/97) features exactly one H1 tag with descriptive topical keywords",
+        "Meta descriptions are 100% present, non-duplicate, and strictly formatted between 120 and 160 characters",
+        "Zero generic anchor texts ('click here', 'read more') across all internal links",
+        "Open Graph and Twitter Card tags are 100% complete across all 97 HTML files"
+      ],
+      "findings": [
+        {
+          "title": "Sub-optimal Title Tag Length on Top-Level Category Hubs",
+          "severity": "Low",
+          "confidence": "high",
+          "evidence": "culture/index.html title is 'Culture & Arts | Australia.md' (29 chars); flora-fauna/index.html title is 'Flora & Fauna | Australia.md' (28 chars)",
+          "description": "Titles under 30 characters underutilize Google SERP real estate and miss opportunities for secondary topical keywords.",
+          "recommendation": "Expand titles to 50-60 characters (e.g., 'Culture & Arts in Australia: Sovereign National Archive' and 'Flora & Fauna of Australia: Biodiversity & Species Records')."
+        },
+        {
+          "title": "Heading Level Jump in Submit Page (h1 to h3)",
+          "severity": "Low",
+          "confidence": "high",
+          "evidence": "submit/index.html features an <h1> tag followed immediately by <h3>Submit New Entry</h3> with no intervening <h2>",
+          "description": "Skipping heading levels breaks standard document outline semantics for screen readers and search engine crawlers.",
+          "recommendation": "Convert the <h3> headings in submit/index.html to <h2> to maintain strict h1 -> h2 -> h3 hierarchy."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 93,
+      "status": "scored",
+      "what_works": [
+        "100% of HTML pages feature valid JSON-LD structured data with zero syntax errors",
+        "Homepage implements comprehensive Organization, WebSite, and WebPage schemas with primary image and contact information",
+        "Directory pages implement MedicalWebPage, Dataset, FAQPage, and Dentist schemas with AHPRA clinic listings"
+      ],
+      "findings": [
+        {
+          "title": "Dentist Schema Missing GeoCoordinates, Opening Hours, and PriceRange",
+          "severity": "Medium",
+          "confidence": "high",
+          "evidence": "All 40+ dental clinic directory pages declare Dentist schema with PostalAddress and telephone, but omit 'geo' (latitude/longitude), 'openingHoursSpecification', and 'priceRange'",
+          "description": "Rich local business snippets and Google Maps integration require or strongly recommend geographical coordinates and operating hours for local pack eligibility.",
+          "recommendation": "Enrich the clinic schema generation pipeline to include geo coordinates (suburb centroid or clinic geocode), priceRange ('$$'), and openingHours."
+        },
+        {
+          "title": "Missing BreadcrumbList Schema on Sub-Category and Directory Pages",
+          "severity": "Low",
+          "confidence": "high",
+          "evidence": "Pages below the root (e.g., medical/dental/chatswood/) feature visual navigation breadcrumbs but omit BreadcrumbList JSON-LD schema",
+          "description": "Without BreadcrumbList schema, search engines may display raw URL paths instead of formatted hierarchical breadcrumbs in search results.",
+          "recommendation": "Add JSON-LD BreadcrumbList schema to all sub-pages representing the visual trail (e.g., Home > Medical > Dental > Chatswood)."
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 100,
+      "status": "scored",
+      "what_works": [
+        "Desktop LCP measured in real Chromium at 456 ms (far below Google's 2,500 ms threshold)",
+        "Mobile LCP measured on simulated iPhone 14 at 464 ms",
+        "Desktop CLS measured at 0.0044 and Mobile CLS measured at 0.0000 (well within Google's < 0.1 threshold)",
+        "TTFB of 9 ms via CDN edge caching with 342 ms DOMContentLoaded and 488 ms total page load",
+        "Pure vanilla HTML5/CSS3 architecture with zero render-blocking JavaScript frameworks",
+        "Total transfer size of homepage is only 6.8 KB compressed"
+      ],
+      "findings": []
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 95,
+      "status": "scored",
+      "what_works": [
+        "Robots.txt explicitly grants access to all major generative AI bots (GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended, Google-Extended, Cohere, Bytespider, CCBot)",
+        "Content structured in high-citability direct answer format with bolded entities, dates, and statutory citations",
+        "Open Knowledge Format (OKF v0.1) compliance ensures clean machine-readable knowledge ingestion",
+        "Zero expired domain abuse risk and 0.0 parasite SEO risk on topical evaluation"
+      ],
+      "findings": [
+        {
+          "title": "Missing llms.txt and llms-full.txt Standard Manifests",
+          "severity": "Medium",
+          "confidence": "high",
+          "evidence": "https://australia.md/llms.txt and https://australia.md/llms-full.txt return HTTP 404",
+          "description": "The llms.txt standard provides a concise, structured markdown file for AI crawlers to efficiently discover the core corpus without full-site parsing.",
+          "recommendation": "Publish /llms.txt and /llms-full.txt at root summarizing the archive structure, key domains, and links to the 12 primary OKF docs."
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 98,
+      "status": "scored",
+      "what_works": [
+        "100% of images across all pages possess descriptive, meaningful alt text (zero missing alt tags)",
+        "Images utilize native loading='lazy' where appropriate",
+        "Asset file sizes are lightweight and optimized"
+      ],
+      "findings": [
+        {
+          "title": "Missing Explicit Width and Height Attributes on Homepage PNG Assets",
+          "severity": "Low",
+          "confidence": "high",
+          "evidence": "index.html image elements for flag-australia.png, commonwealth-star.png, golden-wattle.png, and coat-of-arms.png lack HTML width and height attributes",
+          "description": "Omitting dimensional attributes can trigger layout shifts during slow rendering on constrained devices.",
+          "recommendation": "Add explicit width and height attributes to all <img> tags in index.html matching their natural aspect ratio."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes & Sitemap Reconciliation",
+        "timeframe": "Week 1",
+        "items": [
+          "Regenerate sitemap.xml to include all 97 published HTML pages with tiered priority weights",
+          "Remove raw .md URLs from sitemap.xml and migrate to llms.txt manifest",
+          "Add /llms.txt and /llms-full.txt following the llms.txt specification for AI search engines",
+          "Fix heading hierarchy skip on submit/index.html (convert h3 to h2)"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Schema & On-Page Enhancements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Enrich Dentist schema across all 40+ suburb directories with geo coordinates (lat/long), priceRange, and openingHours",
+          "Add BreadcrumbList JSON-LD schema to all sub-pages and directory listings",
+          "Expand title tags on culture/index.html and flora-fauna/index.html to 50-60 characters",
+          "Add explicit width and height attributes to the 4 heraldic image assets on index.html"
+        ]
+      },
+      {
+        "name": "Phase 3: Content Expansion & Authority Building",
+        "timeframe": "Month 2",
+        "items": [
+          "Expand 8 thin category hub pages (education, tourism, government, environment, economy, technology, history, submit) with 150-250 words of verified statistics and executive summaries",
+          "Deploy Cloudflare proxy or Worker to inject Strict-Transport-Security (HSTS), CSP, and security response headers",
+          "Submit updated sitemap.xml and key URLs via IndexNow protocol using updateBingIndex.md memory ledger"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Ongoing Governance",
+        "timeframe": "Ongoing",
+        "items": [
+          "Run periodic drift checks using claude-seo drift_compare.py against the initial baseline ID #1",
+          "Automate sitemap regeneration in GitHub Actions deployment workflow whenever new suburb pages are added",
+          "Monitor Google Search Console and Bing Webmaster Tools for crawl coverage and rich snippet validation"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}
