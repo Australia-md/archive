@@ -35,8 +35,8 @@
 - [Avoca Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/avoca-beach-nsw.md): 1 clinic(s), checked 2026-05-11 · HTML: https://australia.md/medical/dental/avoca-beach/
 - [Balgowlah Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-heights-nsw.md): 1 clinic(s), checked 2026-05-19 · HTML: https://australia.md/medical/dental/balgowlah-heights/
 - [Balgowlah, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-nsw.md): 2 clinic(s), checked 2026-05-17 · HTML: https://australia.md/medical/dental/balgowlah/
-- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20
-- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22
+- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20 · HTML: https://australia.md/medical/dental/balgownie/
+- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22 · HTML: https://australia.md/medical/dental/balmain/
 - [Bangalow, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangalow-nsw.md): 2 clinic(s), checked 2026-05-25 · HTML: https://australia.md/medical/dental/bangalow/
 - [Bangor, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangor-nsw.md): 2 clinic(s), checked 2026-05-26 · HTML: https://australia.md/medical/dental/bangor/
 - [Bankstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bankstown-nsw.md): 6 clinic(s), checked 2026-05-27 · HTML: https://australia.md/medical/dental/bankstown/
