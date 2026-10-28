@@ -144,7 +144,7 @@ Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`
 
 ## 3. Schema.org JSON-LD
 
-Four object types inside `@graph` are written by the generator: `MedicalWebPage`, `Dataset`, `FAQPage`, and one `Dentist` per clinic. The post-processor then adds an `ItemList` (`@id` `…/#clinics`), a `@id` on every `Dentist` (`…/#dentist-{N}`, in card order), `MedicalWebPage.mainEntity` and `Dataset.distribution` (the source `.md`). Do not write those four additions by hand.
+Three object types inside `@graph` are written by the generator: `MedicalWebPage`, `Dataset`, and one `Dentist` per clinic (no `FAQPage` — see §3c). The post-processor then adds an `ItemList` (`@id` `…/#clinics`), a `@id` on every `Dentist` (`…/#dentist-{N}`, in card order), `MedicalWebPage.mainEntity` and `Dataset.distribution` (the source `.md`). Do not write those four additions by hand.
 
 ### 3a. MedicalWebPage
 ```json
@@ -181,14 +181,8 @@ Four object types inside `@graph` are written by the generator: `MedicalWebPage`
 }
 ```
 
-### 3c. FAQPage
-Generate 2–4 FAQ entries based on data in the source MD. Typical questions for dental pages:
-- "How do I verify a dentist's AHPRA registration in {Suburb}?"
-- "Which dental clinics in {Suburb} are open on weekends?" (only if hours data present)
-- "Which {Suburb} dental clinics offer emergency dental care?" (only if data present)
-- "Is there a dental clinic near {landmark}?" (only if data present)
-
-If hours/emergency data is absent from source, omit the question — never fabricate answers.
+### 3c. FAQPage — removed (2026-10-28)
+Google stopped showing FAQ rich results on 7 May 2026 and removed the documentation in June 2026. **Do not write a `FAQPage` object.** Keep the visible FAQ section (§9): it is useful page content. The post-processor strips any `FAQPage` it finds, and `seo-validate` check 13 fails if one appears.
 
 ### 3d. Dentist entities (one per clinic — NEW)
 
@@ -795,7 +789,7 @@ What each step owns — never edit these by hand:
 | Step | Script | Owns |
 |---|---|---|
 | `okf:backfill` | `scripts/okf-v02-backfill.mjs` | the OKF v0.2 frontmatter keys `generated`, `verified`, `stale_after`, `sources` of every `docs/**` concept that lacks them, derived only from the file's own `timestamp`, `last_verified` and Data Sources table (§1b). A key that is already present is never rewritten |
-| `seo:postprocess` | `scripts/seo-postprocess.mjs` | every internal `<a href>` rewritten to a root-relative path (`/medical/dental/{slug}/`, never `../{slug}/` or `{slug}/`), site-wide including `404.html`; head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->`; the clinic comparison table between `<!-- clinic-compare:start -->` and `<!-- clinic-compare:end -->` (top of `<main>`, pages with 2+ clinics, built only from the page's own cards); the "Services listed by these clinics include …" clause in `.listing-answer` (specific services from the cards, generic ones like "General dentistry" skipped); the national "Dental costs in Australia" block between `<!-- dental-reference:start -->` and `<!-- dental-reference:end -->`, rendered only from `data/medicare-constants.json` |
+| `seo:postprocess` | `scripts/seo-postprocess.mjs` | every internal `<a href>` rewritten to a root-relative path (`/medical/dental/{slug}/`, never `../{slug}/` or `{slug}/`), site-wide including `404.html`; head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->`; the clinic comparison table between `<!-- clinic-compare:start -->` and `<!-- clinic-compare:end -->` (top of `<main>`, pages with 2+ clinics, built only from the page's own cards); the "Services listed by these clinics include …" clause in `.listing-answer` (specific services from the cards, generic ones like "General dentistry" skipped); a one-line "Dental costs" link block between `<!-- dental-reference:start -->` and `<!-- dental-reference:end -->` (no figures, no table) pointing to `/medical/dental-costs/`; the `/medical/dental-costs/` page itself, generated whole from `data/medicare-constants.json` (the only place the CDBS table and ADA item numbers appear); `<div data-nosnippet>` wrappers around the site header (`#main-header`) and footer (`#main-footer`); and the rewrite of unverified "AHPRA-registered"/"verified" phrasing in descriptions and JSON-LD |
 | `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source verification date: latest `verified[].at`, else `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
 | `seo:llms` | `scripts/build-llms.mjs` | `llms.txt` and `llms-full.txt` from `docs/**` frontmatter |
 
@@ -815,6 +809,10 @@ The post-processor also prints `WARN` lines: a page whose clinic-card count diff
 | `llms.txt` advertised HTML pages that do not exist; `llms-full.txt` kept relative links that broke once bodies were concatenated; a concept without `title` crashed the generator | Every australia.md URL in the llms files exists; no relative links in `llms-full.txt`; title falls back to H1/filename (check 6) |
 | Relative links (`berala/` on the hub, `dental/` on `/medical/`) were resolved by Bing against the slash-less page URL, creating ~49 `/medical/{suburb}` and `/dental` 404s | Every internal `<a href>` is root-relative and must point to a file on disk (check 8) |
 | Version badges were hand-typed and drifted: v2.0 on the home page, v2.4.1 on dental pages, v1.1.0 on category pages, while the real release was 2.0.0 | `package.json` `version` is the only source; the post-processor writes `v{version}` into every `.nav-badge`, and any other value fails (check 11). Bump the version only in `package.json`, then tag the release on `main` |
+| Meta descriptions ended "AHPRA-registered." and JSON-LD said "Verified AHPRA-registered dental clinics", although no source says `AHPRA Verified: Yes` | Never write AHPRA-registered/verified about listed clinics; the post-processor rewrites old phrasings and check 12 fails on any that remain |
+| The same CDBS/ADA table on all 101 suburb pages (shared boilerplate) | The table lives once on `/medical/dental-costs/`; suburb pages carry a one-line link with no figures (check 9) |
+| `FAQPage` JSON-LD kept after Google retired FAQ rich results (May 2026) | Not generated; stripped; check 13 |
+| Category pages' `lastmod` jumped to today after template-only edits (links, wrappers, version badge) | Non-dental `lastmod` = the commit where the page's visible main text last changed (chrome and markup ignored); dental pages keep the source verification date; `/medical/dental-costs/` uses the constants date |
 | A plan to label practitioners "AHPRA Registered" although no source says `AHPRA Verified: Yes` | The comparison table says "Practitioners named in public sources" and links the AHPRA register; claiming AHPRA registration fails (check 10) |
 | A plan to call ADA item numbers "ADA / Medicare standard codes" | ADA items are labelled ADA, never Medicare; each is paired with its 88-prefixed CDBS item (check 9) |
 | National dental-cost figures typed into templates go stale (the CDBS cap is indexed every 1 January) | Every figure lives once in `data/medicare-constants.json` with sources and `last_verified`; pages may only show those figures (check 9). The post-processor warns when the current year's cap is missing or the file is over 400 days old — the owner re-verifies it at Services Australia each January |

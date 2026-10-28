@@ -4,8 +4,14 @@
 // from the HTML pages on disk. <lastmod> is PER URL:
 //   1. dental pages  → verification date of the matching docs/medical/dental/*.md: latest `verified[].at`,
 //                      else `last_verified`, else `timestamp` (scripts/okf-frontmatter.mjs)
-//   2. everything else → today if the file has uncommitted changes, else its last git commit date
-//   3. fallback → file mtime
+//   2. /medical/dental-costs/ → `last_verified` of data/medicare-constants.json (the facts it shows)
+//   3. everything else → the date its VISIBLE MAIN TEXT last changed: walk the file's git history
+//      and stop at the first version whose text differs. Site chrome (header, footer, breadcrumbs,
+//      version badge), markup, attributes, scripts and JSON-LD are ignored, so template-only edits
+//      (link rewrites, nosnippet wrappers, a version bump) do not move lastmod. Google: lastmod should
+//      reflect "the last significant update to the page" and is used only if consistently accurate.
+//      Uncommitted text change → today.
+//   4. fallback → file mtime
 // Never the build date: identical lastmod values across all URLs are ignored by Google.
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative, dirname } from 'node:path';
@@ -33,13 +39,37 @@ function frontmatterDate(mdPath) {
   return verificationDate(frontmatterBlock(readFileSync(mdPath, 'utf8'))) || null;
 }
 
-const TODAY = new Date().toISOString().slice(0, 10);
-function gitDate(file) {
+const TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Australia/Sydney' });
+const sh = (cmd) => execSync(cmd, { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
+
+// Visible main text: what a reader sees as the page's content, excluding site chrome and markup.
+function visibleText(html) {
+  return html
+    .replace(/<script\b[\s\S]*?<\/script>|<style\b[\s\S]*?<\/style>|<!--[\s\S]*?-->/g, ' ')
+    .replace(/<header\b(?=[^>]*(?:id="main-header"|class="[^"]*\b(?:nav-bar|site-header)\b))[^>]*>[\s\S]*?<\/header>/g, ' ')
+    .replace(/<footer\b[\s\S]*?<\/footer>/g, ' ')
+    .replace(/<nav\b(?=[^>]*aria-label="Breadcrumb")[^>]*>[\s\S]*?<\/nav>/g, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function contentDate(file) {
   try {
-    if (execSync(`git status --porcelain -- "${file}"`, { cwd: ROOT, encoding: 'utf8' }).trim()) return TODAY; // uncommitted edit
-    return execSync(`git log -1 --format=%cs -- "${file}"`, { cwd: ROOT, encoding: 'utf8' }).trim() || null;
+    const current = visibleText(readFileSync(join(ROOT, file), 'utf8'));
+    const log = sh(`git log --format="%H %cs" -- "${file}"`).trim().split('\n').filter(Boolean).map((l) => l.split(' '));
+    if (!log.length) return null;
+    const at = (sha) => { try { return visibleText(sh(`git show ${sha}:"${file}"`)); } catch { return null; } };
+    if (at(log[0][0]) !== current) return TODAY;                 // uncommitted change to the text
+    let date = log[0][1];
+    for (let i = 1; i < log.length; i++) {                        // go back while the text is unchanged
+      if (at(log[i][0]) !== current) break;
+      date = log[i][1];
+    }
+    return date;
   } catch { return null; }
 }
+const COSTS_CONSTANTS = join(ROOT, 'data/medicare-constants.json');
 
 function lastmod(rel) {
   const dental = rel.match(/^medical\/dental\/([^/]+)\/index\.html$/);
@@ -49,7 +79,11 @@ function lastmod(rel) {
     const d = md && frontmatterDate(join(ROOT, 'docs/medical/dental', md));
     if (d) return d;
   }
-  return gitDate(rel) || statSync(join(ROOT, rel)).mtime.toISOString().slice(0, 10);
+  if (rel === 'medical/dental-costs/index.html' && existsSync(COSTS_CONSTANTS)) {
+    const d = JSON.parse(readFileSync(COSTS_CONSTANTS, 'utf8')).last_verified;
+    if (/^\d{4}-\d{2}-\d{2}$/.test(d || '')) return d;
+  }
+  return contentDate(rel) || statSync(join(ROOT, rel)).mtime.toISOString().slice(0, 10);
 }
 
 function priority(rel) {

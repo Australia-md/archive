@@ -21,6 +21,8 @@
 //  8. Internal <a href> links are root-relative and point to a file that exists.
 //  9. The national dental-cost block (CDBS, ADA items) shows only figures from data/medicare-constants.json,
 //     with its verification date, ADA items labelled as ADA and paired with their 88-prefixed CDBS item.
+// 12. No unverified "AHPRA-registered" / "verified" claims about clinics or dentists.
+// 13. No FAQPage JSON-LD (FAQ rich results were removed from Google Search in May 2026).
 // 11. Every nav version badge equals v{package.json version}.
 // 10. The clinic comparison table and the "services listed" clause match the page's own clinic cards,
 //     and nothing claims AHPRA registration.
@@ -91,6 +93,9 @@ for (const rel of allPages) {
   }
   for (const m of html.matchAll(/<nav\b(?=[^>]*aria-label="Breadcrumb")[^>]*>/g)) {
     if (!/<(?:div|span|section)\b[^>]*\bdata-nosnippet\b[^>]*>\s*$/.test(html.slice(Math.max(0, m.index - 120), m.index))) fail('3', rel, 'breadcrumb <nav> is not inside a data-nosnippet wrapper');
+  }
+  for (const [what, re] of [['site header', /<header\b(?=[^>]*(?:id="main-header"|class="[^"]*\b(?:nav-bar|site-header)\b))[^>]*>/g], ['site footer', /<footer\b(?=[^>]*(?:id="main-footer"|class="[^"]*\b(?:footer|site-footer)\b))[^>]*>/g]]) {
+    for (const m of html.matchAll(re)) if (!/<(?:div|span|section)\b[^>]*\bdata-nosnippet\b[^>]*>\s*$/.test(html.slice(Math.max(0, m.index - 120), m.index))) fail('3', rel, `${what} is not inside a data-nosnippet wrapper`);
   }
 }
 
@@ -171,16 +176,25 @@ else {
   for (const sec of ['cdbs', 'ada_items']) if (!(K[sec]?.sources || []).length || K[sec].sources.some((s) => !/^https:\/\//.test(s.url))) fail('9', 'data/medicare-constants.json', `${sec} needs https sources`);
   for (const i of K.ada_items?.items || []) if (i.cdbs !== `88${i.ada}`) fail('9', 'data/medicare-constants.json', `ADA ${i.ada} must map to CDBS 88${i.ada}, not ${i.cdbs}`);
   const allowed = new Set((K.cdbs?.caps || []).map((c) => '$' + Number(c.amount_aud).toLocaleString('en-AU')));
+  // Suburb pages carry only a short link block (no figures) — the shared table lives once on the costs page.
   for (const slug of slugs) {
     const where = `medical/dental/${slug}`;
-    const html = read(join(DENTAL, slug, 'index.html'));
-    const blk = (html.match(/<!-- dental-reference:start[\s\S]*?<!-- dental-reference:end -->/) || [''])[0];
-    if (!blk) { fail('9', where, 'national dental-cost reference block missing'); continue; }
-    for (const amt of blk.match(/\$\d[\d,]*/g) || []) if (!allowed.has(amt)) fail('9', where, `amount ${amt} is not in data/medicare-constants.json`);
-    if (!blk.includes(`datetime="${K.last_verified}"`)) fail('9', where, 'reference block does not show the constants last_verified date');
+    const blk = (read(join(DENTAL, slug, 'index.html')).match(/<!-- dental-reference:start[\s\S]*?<!-- dental-reference:end -->/) || [''])[0];
+    if (!blk) { fail('9', where, 'dental-costs link block missing'); continue; }
+    if (!blk.includes('href="/medical/dental-costs/"')) fail('9', where, 'link block must link /medical/dental-costs/');
+    if (/\$\d|<table/.test(blk)) fail('9', where, 'suburb pages must not repeat the national cost table or figures (it lives on /medical/dental-costs/)');
+  }
+  const COSTS = 'medical/dental-costs/index.html';
+  if (!existsSync(join(ROOT, COSTS))) fail('9', COSTS, 'missing — run npm run seo:build');
+  else {
+    const page = read(join(ROOT, COSTS));
+    const blk = (page.match(/<!-- dental-reference:start[\s\S]*?<!-- dental-reference:end -->/) || [''])[0];
+    if (!blk) fail('9', COSTS, 'national dental-cost reference block missing');
+    for (const amt of page.replace(/<script[\s\S]*?<\/script>/g, '').match(/\$\d[\d,]*/g) || []) if (!allowed.has(amt)) fail('9', COSTS, `amount ${amt} is not in data/medicare-constants.json`);
+    if (!blk.includes(`datetime="${K.last_verified}"`)) fail('9', COSTS, 'reference block does not show the constants last_verified date');
     // "They are not Medicare item numbers" is the correct statement; anything else calling them Medicare codes fails.
-    if (/(?<!not )Medicare (?:standard|item) (?:code|number)/i.test(blk)) fail('9', where, 'ADA item numbers must not be called Medicare codes');
-    for (const i of K.ada_items.items) if (!new RegExp(`<th scope="row">${i.ada}</th><td>[^<]*</td><td>${i.cdbs}</td>`).test(blk)) fail('9', where, `ADA ${i.ada} / CDBS ${i.cdbs} row missing or altered`);
+    if (/(?<!not )Medicare (?:standard|item) (?:code|number)/i.test(blk)) fail('9', COSTS, 'ADA item numbers must not be called Medicare codes');
+    for (const i of K.ada_items.items) if (!new RegExp(`<th scope="row">${i.ada}</th><td>[^<]*</td><td>${i.cdbs}</td>`).test(blk)) fail('9', COSTS, `ADA ${i.ada} / CDBS ${i.cdbs} row missing or altered`);
   }
 }
 
@@ -229,6 +243,21 @@ for (const rel of allPages) {
     if (m[1].trim() !== `v${SITE_VERSION}`) fail('11', rel, `version badge "${m[1].trim()}" — must be v${SITE_VERSION} (package.json)`);
   }
 }
+
+// ── 12: no unverified AHPRA registration claims ──────────────────────────────
+// No source says "AHPRA Verified: Yes"; calling clinics/dentists "AHPRA-registered" or "verified" is a
+// factual claim the data cannot support (older meta descriptions and JSON-LD did exactly that).
+for (const rel of allPages.filter((r) => r.startsWith('medical/'))) {
+  const html = read(join(ROOT, rel));
+  const slug = (rel.match(/^medical\/dental\/([^/]+)\/index\.html$/) || [])[1];
+  const src = slug && readdirSync(join(DOCS, 'medical/dental')).find((f) => new RegExp(`^${slug}-[a-z]{2,3}\\.md$`).test(f));
+  if (src && /AHPRA Verified:\s*Yes/i.test(read(join(DOCS, 'medical/dental', src)))) continue;
+  const hit = html.match(/\bAHPRA[- ](?:registered|verified)\b|\bverified AHPRA\b/i);
+  if (hit) fail('12', rel, `claims "${hit[0]}" but no source states AHPRA Verified: Yes`);
+}
+
+// ── 13: no FAQPage JSON-LD (Google removed FAQ rich results in May 2026) ─────────
+for (const rel of allPages) if (/"@type":\s*"FAQPage"/.test(read(join(ROOT, rel)))) fail('13', rel, 'FAQPage JSON-LD is no longer used by Google Search; keep the visible FAQ and drop the markup');
 
 // ── Report ──────────────────────────────────────────────────────────────────
 if (failures.length) {
