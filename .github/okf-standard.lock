@@ -3,7 +3,10 @@
 # When the watch workflow opens a "OKF standard upstream update" issue, reconcile the spec,
 # then bump `sha` below to the new upstream commit in the same PR to close the issue.
 #
-# Upstream: GoogleCloudPlatform/knowledge-catalog  (path: okf/)
-sha: 4c40ef103cd7dd9ca978bbb190fc795cfde4f7c3
-date: 2026-06-13T17:15:16Z
-okf_version: 0.1
+# Upstream: GoogleCloudPlatform/open-knowledge-format  (path: SPEC.md, at the repository root)
+# The previous upstream, GoogleCloudPlatform/knowledge-catalog (path: okf/), is frozen; do not track it.
+# `sha` is the latest commit touching SPEC.md, which is what the watcher compares against.
+# Repository HEAD when this baseline was recorded: ad30107c31c06aec8a7d5636e0d1058118604e6f (merge of upstream PR #6).
+sha: 0b87c52c6ef999286c745e19998fdfcd03d5dbee
+date: 2026-08-21T19:31:43Z
+okf_version: 0.2
