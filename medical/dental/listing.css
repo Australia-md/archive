@@ -1197,3 +1197,32 @@ a.btn-view-profile {
 /* Let the clinic column shrink below its content width so the comparison table
    scrolls inside .compare-scroll instead of widening the whole page on mobile. */
 .listing-body > .clinic-list, .clinic-compare, .ref-module { min-width: 0; max-width: 100%; }
+
+/* Short "Dental costs" link block on suburb pages (full guide lives on /medical/dental-costs/) */
+.ref-link {
+  margin: 2rem 0 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--clr-primary);
+  border-radius: 8px;
+  background: var(--clr-surface-container-low);
+  color: var(--clr-on-surface-variant);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.ref-link p { margin: 0; }
+.ref-link strong { color: var(--clr-on-surface); }
+.ref-link a { text-decoration: underline; }
+.ref-link a:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+
+/* /medical/dental-costs/ single-column guide page (nav bar is position: fixed) */
+.costs-page { max-width: 60rem; margin: 0 auto; padding: 6.5rem 1.25rem 3rem; }
+.costs-main { min-width: 0; }
+.costs-title {
+  font-family: var(--font-headline);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--clr-on-surface);
+  margin: 1rem 0 0.75rem;
+}
