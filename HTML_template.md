@@ -6,7 +6,7 @@
 >
 > **Titles and meta descriptions are frozen** at the §2 formulas until the Search Console baseline review on or after **2026-11-25**. Do not change the title or description wording before then.
 
-> **OKF v0.1 (since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
+> **OKF v0.2 (since 2026-10-28; v0.1 since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
 
 ---
 
@@ -21,25 +21,42 @@
 
 ---
 
-## 1b. Source Markdown Frontmatter (OKF v0.1)
+## 1b. Source Markdown Frontmatter (OKF v0.2)
 
-Every source file (e.g. `docs/medical/dental/macquarie-park-nsw.md`) now starts with an OKF YAML frontmatter block. Example:
+Every source file (e.g. `docs/medical/dental/aberdare-nsw.md`) starts with an OKF YAML frontmatter block. OKF v0.2 (upstream `GoogleCloudPlatform/open-knowledge-format` `SPEC.md` §5) adds provenance (`sources`), trust (`generated`, `verified`) and lifecycle (`stale_after`) fields; the v0.1 keys `timestamp` and `last_verified` are kept during the transition. Example (`docs/medical/dental/aberdare-nsw.md`, sources list shortened):
 
 ```yaml
 ---
-type: Dental Clinic Directory
-title: Macquarie Park, NSW — Dental Clinics
-description: Verified AHPRA-registered dental clinics in Macquarie Park NSW 2113.
-resource: https://www.dentalboard.gov.au
-tags: [dental, nsw, macquarie-park]
-timestamp: 2026-05-28T00:00:00Z
-suburb: Macquarie Park
-postcode: "2113"
+type: "Dental Clinic Directory"
+title: "Aberdare, NSW — Dental Clinics"
+description: "Aberdare (postcode 2325) is a mixed residential suburb in the Cessnock City Council local government area in the Lower Hunter region of New South Wales."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, aberdare]
+timestamp: 2026-04-02T00:00:00Z
+suburb: "Aberdare"
+postcode: "2325"
 state: nsw
-lga: City of Ryde
-last_verified: 2026-05-28
+lga: "Cessnock City Council"
+last_verified: "2026-04-02"
+generated: { by: openclaw/dental-cron, at: 2026-04-02T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-04-02T00:00:00Z }
+stale_after: 2026-09-29T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  # … one entry per URL in the body's "Data Sources" table
 ---
 ```
+
+| Field | Meaning (OKF v0.2) |
+|---|---|
+| `generated` | `{ by, at }` — who wrote the current content and when (`at` supersedes `timestamp`). Dental cron output uses `by: openclaw/dental-cron`. |
+| `verified` | `{ by, at }` or a list of them — each confirmation against public sources. Consumers MUST treat a bare mapping as a one-element list; "how recently" is the **latest** `at`. `openclaw/dental-cron` is a machine actor (machine-confirmed tier); only a person may be written as `human:<id>`. |
+| `stale_after` | Absolute instant (latest `verified.at` + 180 days) after which the listing is due for re-verification. |
+| `sources` | One `{ id, resource, title }` per URL in the body's **Data Sources** table. The body table stays. |
+
+Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`) is an ISO 8601 datetime with an explicit offset, e.g. `2026-04-02T00:00:00Z`. `last_verified` stays a plain `YYYY-MM-DD` date.
 
 **Generator rules:**
 
@@ -51,7 +68,8 @@ last_verified: 2026-05-28
    | `title` | `<title>` / `og:title` (already in the dental format) |
    | `suburb`, `postcode`, `state` | `{Suburb}`, `{Postcode}`, `{STATE}` fill-ins, breadcrumbs, schema |
    | `lga` | `{LGA}` in the sidebar map region label (§8) |
-   | `timestamp` / `last_verified` | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
+   | latest `verified[].at`, else `last_verified`, else `timestamp` (date part) | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
+   | `generated`, `stale_after`, `sources` | Metadata only — not rendered. The page's Data Sources list still comes from the body table |
    | `resource` | Authoritative registration source link |
    | `description` | Fallback only — the `{meta-description}` rule below still governs the meta tags |
 
@@ -112,7 +130,7 @@ last_verified: 2026-05-28
 - `{STATE}` — state abbreviation uppercase (e.g. `NSW`)
 - `{Postcode}` — postcode number (e.g. `2113`)
 - `{suburb-slug}` — lowercase kebab-case (e.g. `macquarie-park`)
-- `{Last Verified date}` — from MD frontmatter field `timestamp` (date portion) or `last_verified`; see §1b
+- `{Last Verified date}` — date of the latest frontmatter `verified[].at`, else `last_verified`, else `timestamp` (date portion); see §1b
 - `{meta-description}` — see rule below
 
 **Meta description rule (enforced):**
@@ -764,8 +782,8 @@ spurious extra facet button.
 Run from the repo root after the page(s) and the hub entry are written:
 
 ```bash
-npm run seo:build    # post-process every dental page, then regenerate sitemap.xml, llms.txt, llms-full.txt
-npm run seo:check    # post-processor --check ("files needing changes: 0") + scripts/seo-validate.mjs; must exit 0
+npm run seo:build    # add missing OKF v0.2 fields to docs/**, post-process every dental page, then regenerate sitemap.xml, llms.txt, llms-full.txt
+npm run seo:check    # OKF v0.2 backfill --check + post-processor --check ("files needing changes: 0") + scripts/seo-validate.mjs; must exit 0
 ```
 
 Search-engine submission is automatic after the owner merges to `main`: `.github/workflows/indexnow.yml` waits for the GitHub Pages deploy and submits new or changed live URLs to IndexNow (Bing), recording them in `updateBingIndex.md`. Generators never submit URLs themselves.
@@ -776,8 +794,9 @@ What each step owns — never edit these by hand:
 
 | Step | Script | Owns |
 |---|---|---|
+| `okf:backfill` | `scripts/okf-v02-backfill.mjs` | the OKF v0.2 frontmatter keys `generated`, `verified`, `stale_after`, `sources` of every `docs/**` concept that lacks them, derived only from the file's own `timestamp`, `last_verified` and Data Sources table (§1b). A key that is already present is never rewritten |
 | `seo:postprocess` | `scripts/seo-postprocess.mjs` | head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
-| `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
+| `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source verification date: latest `verified[].at`, else `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
 | `seo:llms` | `scripts/build-llms.mjs` | `llms.txt` and `llms-full.txt` from `docs/**` frontmatter |
 
 The nearby block lists up to 6 other suburb pages: first those in the same council area (from frontmatter `lga`, else the body `Council:` line), then pages within ±20 of the postcode. Adding a suburb changes its neighbours' blocks too, which is why the post-processor runs over **all** pages every time.
@@ -800,7 +819,7 @@ When a reviewer (human or Copilot) finds a new class of defect, add a check for 
 
 ## 15. Re-verified sources
 
-A handoff item can be a **re-verification** of a suburb that already has a page (handoff JSON `"mode": "reverify"`, or a source `.md` whose `last_verified`/`timestamp` is newer than the project copy). In that case:
+A handoff item can be a **re-verification** of a suburb that already has a page (handoff JSON `"mode": "reverify"`, or a source `.md` whose verification date — latest `verified[].at`, else `last_verified`/`timestamp` — is newer than the project copy). In that case:
 
 1. Overwrite `docs/medical/dental/{suburb}-{state}.md` with the new source.
 2. Regenerate `medical/dental/{suburb}/index.html` **from scratch** from the new source (do not patch the old page — clinics may have been added or removed).
@@ -809,5 +828,6 @@ A handoff item can be a **re-verification** of a suburb that already has a page 
 
 ---
 
-*Last updated: 2026-10-28 | Version: 1.5 — added mandatory post-processing and generated SEO files (§14), re-verified sources (§15), head alternate link, breadcrumb data-nosnippet, Raw .md badge, "Checked {date}" label and answer-first paragraph. Titles/descriptions frozen until 2026-11-25.*
+*Last updated: 2026-10-28 | Version: 1.6 — OKF v0.2 source frontmatter (§1b: `generated`, `verified`, `stale_after`, `sources`); the Last Verified date prefers the latest `verified[].at`; `seo:build` runs `okf:backfill` first (§14).*
+*Previous: 2026-10-28 | Version: 1.5 — added mandatory post-processing and generated SEO files (§14), re-verified sources (§15), head alternate link, breadcrumb data-nosnippet, Raw .md badge, "Checked {date}" label and answer-first paragraph. Titles/descriptions frozen until 2026-11-25.*
 *Previous: 2026-06-29 | Version: 1.4 — added Section 13 (hub directory index entry, single-column grid format) and the progressive-enhancement `.js` flag in §2.*

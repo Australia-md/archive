@@ -5,6 +5,20 @@ description: "Australia has a highly developed mixed-market economy."
 resource: "https://www.abs.gov.au/statistics/economy"
 tags: [economy]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: abs-national-accounts-gdp
+    resource: "https://www.abs.gov.au/statistics/economy/national-accounts"
+    title: "ABS — National Accounts (GDP)"
+  - id: rba-economic-indicators
+    resource: "https://www.rba.gov.au/statistics"
+    title: "RBA — Economic Indicators"
+  - id: treasury-budget-papers
+    resource: "https://budget.gov.au"
+    title: "Treasury — Budget Papers"
+  - id: austrade-trade-investment-data
+    resource: "https://www.austrade.gov.au"
+    title: "Austrade — Trade & Investment Data"
 ---
 
 # Economy & Industry of Australia

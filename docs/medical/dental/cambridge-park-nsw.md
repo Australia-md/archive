@@ -8,6 +8,61 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, cambridge-park]
 timestamp: "2026-10-21T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-21T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-21T00:00:00Z }
+stale_after: 2027-04-19T00:00:00Z
+sources:
+  - id: healthdirect-australia-cambridge-park-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/cambridge-park-2747-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Cambridge Park dentists"
+  - id: healthdirect-australia-best-western-dental-centre
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cambridge-park-2747-nsw/best-western-dental-centre/dentists/57194a97-253b-ec38-d093-47672e6d60f3"
+    title: "Healthdirect Australia — Best Western Dental Centre"
+  - id: best-western-dental-centre-contact
+    resource: "https://bestwesterndental.com.au/contact/"
+    title: "Best Western Dental Centre — Contact"
+  - id: best-western-dental-centre-services
+    resource: "https://bestwesterndental.com.au/services/"
+    title: "Best Western Dental Centre — Services"
+  - id: healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/cambridge-park/best-western-dental-centre/s36855"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/cambridge-park-nsw-2747/dentists"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/cambridge-park/dentists"
+    title: "Word of Mouth Australia"
+  - id: google-maps
+    resource: "https://www.google.com/maps/search/dental+clinic+Cambridge+Park+NSW+2747"
+    title: "Google Maps"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/cambridge-park-2747"
+    title: "HotDoc"
+  - id: nps-medicinewise-findahealthservice
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / FindAHealthService"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/cambridge-park"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10767"
+    title: "ABS 2021 Census QuickStats"
+  - id: penrith-city-council-government-wards
+    resource: "https://www.penrithcity.nsw.gov.au/council/council-business/government-wards"
+    title: "Penrith City Council — Government Wards"
+  - id: the-dictionary-of-sydney-cambridge-park
+    resource: "https://dictionaryofsydney.org/place/cambridge_park"
+    title: "The Dictionary of Sydney — Cambridge Park"
+  - id: cambridge-park-location-and-distance-reference
+    resource: "https://en.wikipedia.org/wiki/Cambridge_Park,_New_South_Wales"
+    title: "Cambridge Park location and distance reference"
 ---
 
 # Cambridge Park, NSW — Dental Clinics

@@ -5,6 +5,29 @@ description: "Australia spans multiple climate zones due to its vast size."
 resource: "https://www.bom.gov.au"
 tags: [environment]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: bureau-of-meteorology
+    resource: "https://www.bom.gov.au"
+    title: "Bureau of Meteorology"
+  - id: dcceew-climate-environment
+    resource: "https://www.dcceew.gov.au"
+    title: "DCCEEW — Climate & Environment"
+  - id: clean-energy-regulator
+    resource: "https://www.cer.gov.au"
+    title: "Clean Energy Regulator"
+  - id: great-barrier-reef-marine-park-authority
+    resource: "https://www.gbrmpa.gov.au"
+    title: "Great Barrier Reef Marine Park Authority"
+  - id: csiro-climate-science
+    resource: "https://www.csiro.au/en/research/environment/climate"
+    title: "CSIRO — Climate Science"
+  - id: state-of-the-environment-report-dcceew
+    resource: "https://soe.dcceew.gov.au"
+    title: "State of the Environment Report (DCCEEW)"
+  - id: murray-darling-basin-authority
+    resource: "https://www.mdba.gov.au"
+    title: "Murray-Darling Basin Authority"
 ---
 
 # Environment & Climate of Australia

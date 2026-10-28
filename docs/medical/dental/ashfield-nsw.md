@@ -10,6 +10,61 @@ postcode: "2131"
 state: nsw
 lga: "Inner West Council"
 last_verified: "2026-05-07"
+generated: { by: openclaw/dental-cron, at: 2026-05-07T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-07T00:00:00Z }
+stale_after: 2026-11-03T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-ashfield-nsw-2131-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/ashfield-2131-nsw/dentists/310144008"
+    title: "Dentists in Ashfield, NSW 2131 — Healthdirect"
+  - id: ashfield-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/ashfield"
+    title: "Ashfield Postcode — Australia Post"
+  - id: wikipedia-ashfield-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Ashfield,_New_South_Wales"
+    title: "Wikipedia — Ashfield, New South Wales"
+  - id: simply-braces-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/simply-braces/dentists/bd7f4deb-a876-2659-e6c5-b4ea8acf1882"
+    title: "Simply Braces — Healthdirect"
+  - id: clement-cheung-dental-centre-dynamic-smile-ashfield
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/clement-cheung-dental-centre-dynamic-smile-ashfield/dentists/709a51c8-41b0-82ad-4e5f-9631e3318147"
+    title: "Clement Cheung Dental Centre - Dynamic Smile Ashfield — Healthdirect"
+  - id: ashfield-dental-and-orthodontic-centre-healthdirect
+    resource: "https://healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/ashfield-dental-and-orthodontic-centre/dentists/b6cd7cf7-3d1d-b504-5eab-989c25bdcc0d"
+    title: "Ashfield Dental And Orthodontic Centre — Healthdirect"
+  - id: divine-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/divine-dental-care/dentists/5ce5de18-5b44-4639-22ac-aebdc76f989d"
+    title: "Divine Dental Care — Healthdirect"
+  - id: ashfield-family-dental-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/ashfield-family-dental/dentists/cb20b2da-b559-8e83-0750-e122f03737d7"
+    title: "Ashfield Family Dental — Healthdirect"
+  - id: dr-ewa-walczak-dentist-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/dr-ewa-walczak-dentist/dentists/a53f82e9-a92d-5abf-3b63-7bb20aac5dc8"
+    title: "Dr Ewa Walczak - Dentist — Healthdirect"
+  - id: signature-dental-sydney-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/signature-dental-sydney/dentists/c76d2c18-824d-dbad-3e0d-fccf2ad3ae68"
+    title: "Signature Dental Sydney — Healthdirect"
+  - id: colin-leece-and-associates-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/colin-leece-and-associates/dentists/79ea712e-acbb-bf3d-0cb1-6687b630f4ce"
+    title: "Colin Leece and Associates — Healthdirect"
+  - id: rumianek-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/rumianek-dental-surgery/dentists/f01793e4-967b-9677-9ebc-ee6ff76deb18"
+    title: "Rumianek Dental Surgery — Healthdirect"
+  - id: pacific-smiles-dental-ashfield-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/pacific-smiles-dental-ashfield/dentists/54e679ff-055a-4964-8a7d-38364d5f6d6b"
+    title: "Pacific Smiles Dental - Ashfield — Healthdirect"
+  - id: midway-dental-clinic-ashfield-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/midway-dental-clinic-ashfield/dentists/031737ca-2404-0ecc-82d0-aa10a1474f3d"
+    title: "Midway Dental Clinic Ashfield — Healthdirect"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Ashfield, NSW — Dental Clinics

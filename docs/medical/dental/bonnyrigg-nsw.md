@@ -8,6 +8,58 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bonnyrigg]
 timestamp: "2026-08-10T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-10T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-10T00:00:00Z }
+stale_after: 2027-02-06T00:00:00Z
+sources:
+  - id: australia-post-bonnyrigg-postcode
+    resource: "https://auspost.com.au/postcode/bonnyrigg"
+    title: "Australia Post — Bonnyrigg postcode"
+  - id: 2021-census-quickstats-bonnyrigg
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10469"
+    title: "2021 Census QuickStats — Bonnyrigg"
+  - id: fairfield-city-council-bonnyrigg
+    resource: "https://www.fairfieldcity.nsw.gov.au/Business/Town-Centres/Bonnyrigg"
+    title: "Fairfield City Council — Bonnyrigg"
+  - id: transport-for-nsw-bonnyrigg-plaza-bonnyrigg-ave
+    resource: "https://transportnsw.info/stop?q=10143112"
+    title: "Transport for NSW — Bonnyrigg Plaza, Bonnyrigg Ave"
+  - id: healthdirect-dentists-in-bonnyrigg-nsw-2177
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bonnyrigg-2177-nsw/dentists/310144008"
+    title: "Healthdirect — Dentists in Bonnyrigg, NSW 2177"
+  - id: healthdirect-dental-surgery-bonnyrigg
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bonnyrigg-2177-nsw/dental-surgery-bonnyrigg/dentists/80bdd6a8-e334-d42b-78cd-eae257c05588"
+    title: "Healthdirect — Dental Surgery - Bonnyrigg"
+  - id: bonnyrigg-dental-surgery
+    resource: "https://www.bonnyriggdentalsurgery.com.au/"
+    title: "Bonnyrigg Dental Surgery"
+  - id: healthengine-bonnyrigg-dental-surgery
+    resource: "https://healthengine.com.au/dentist/nsw/bonnyrigg/bonnyrigg-dental-surgery/s36777"
+    title: "Healthengine — Bonnyrigg Dental Surgery"
+  - id: bonnyrigg-family-dental
+    resource: "https://www.bonnyriggfamilydental.com.au/"
+    title: "Bonnyrigg Family Dental"
+  - id: bonnyrigg-family-dental-our-practice
+    resource: "https://www.bonnyriggfamilydental.com.au/our-practice"
+    title: "Bonnyrigg Family Dental — Our Practice"
+  - id: grace-dental-group-bonnyrigg
+    resource: "https://www.gracedentalgroup.com.au/areas/dentists-bonnyrigg/"
+    title: "Grace Dental Group — Bonnyrigg"
+  - id: grace-dental-group-contact-us
+    resource: "https://www.gracedentalgroup.com.au/contact-us/"
+    title: "Grace Dental Group — Contact Us"
+  - id: healthdirect-grace-dental-group-bonnyrigg
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bonnyrigg-2177-nsw/grace-dental-group-bonnyrigg/dentists/96fb1cc4-ef89-43cb-a115-e59be7540041"
+    title: "Healthdirect — Grace Dental Group - Bonnyrigg"
+  - id: healthengine-grace-dental-group-bonnyrigg
+    resource: "https://healthengine.com.au/dentist/nsw/bonnyrigg/grace-dental-group-bonnyrigg/s69749"
+    title: "Healthengine — Grace Dental Group - Bonnyrigg"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bonnyrigg, NSW — Dental Clinics

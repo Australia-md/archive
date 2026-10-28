@@ -6,10 +6,12 @@ import { join } from 'node:path';
 // Watches the upstream Open Knowledge Format (OKF) standard for changes and opens a
 // tracking issue when it moves past our recorded baseline (.github/okf-standard.lock).
 
-const UPSTREAM_REPO = 'GoogleCloudPlatform/knowledge-catalog';
-const UPSTREAM_PATH = 'okf';
+// The spec moved out of GoogleCloudPlatform/knowledge-catalog (okf/, now frozen)
+// into its own repository on 2026-08-21; SPEC.md now sits at the repository root.
+const UPSTREAM_REPO = 'GoogleCloudPlatform/open-knowledge-format';
+const UPSTREAM_PATH = 'SPEC.md';
 const LOCK_RELATIVE = '.github/okf-standard.lock';
-const SPEC_URL = `https://github.com/${UPSTREAM_REPO}/blob/main/okf/SPEC.md`;
+const SPEC_URL = `https://github.com/${UPSTREAM_REPO}/blob/main/${UPSTREAM_PATH}`;
 const ISSUE_TITLE_PREFIX = 'OKF standard upstream update';
 
 interface UpstreamCommit {
@@ -41,7 +43,7 @@ async function getUpstreamHead(token: string): Promise<UpstreamCommit> {
   const data = (await res.json()) as ApiCommit[];
   const head = data[0];
   if (!head) {
-    throw new Error('Upstream API returned no commits for the okf/ path');
+    throw new Error(`Upstream API returned no commits for ${UPSTREAM_PATH}`);
   }
   const firstLine = head.commit.message.split('\n')[0] ?? '';
   return { sha: head.sha, htmlUrl: head.html_url, date: head.commit.committer.date, summary: firstLine };
@@ -68,8 +70,8 @@ async function run(): Promise<void> {
 
   core.setOutput('changed', String(changed));
   core.setOutput('upstream_sha', upstream.sha);
-  core.info(`Upstream okf/ HEAD : ${upstream.sha} (${upstream.date})`);
-  core.info(`Recorded baseline  : ${baseline || '(none)'}`);
+  core.info(`Upstream ${UPSTREAM_PATH} HEAD : ${upstream.sha} (${upstream.date})`);
+  core.info(`Recorded baseline     : ${baseline || '(none)'}`);
 
   if (baseline === '') {
     // Fail closed: a missing baseline silently disables change detection, so
@@ -113,7 +115,7 @@ async function run(): Promise<void> {
   const body = [
     'The upstream **Open Knowledge Format (OKF)** standard has changed since our recorded baseline.',
     '',
-    `- Upstream: \`${UPSTREAM_REPO}\` (path \`${UPSTREAM_PATH}/\`)`,
+    `- Upstream: \`${UPSTREAM_REPO}\` (path \`${UPSTREAM_PATH}\`)`,
     `- New commit: ${upstream.htmlUrl}`,
     `- Summary: ${upstream.summary}`,
     `- Upstream date: ${upstream.date}`,
@@ -121,7 +123,7 @@ async function run(): Promise<void> {
     '',
     '**Action required:**',
     `1. Review the [OKF SPEC](${SPEC_URL}) and the linked commit for breaking or additive changes.`,
-    '2. Re-check our bundle conformance under `docs/**` and update `specs/004-okf-adoption/migration-plan.md` if needed.',
+    '2. Re-check our bundle conformance under `docs/**` (`npx tsx check-okf-conformance.ts`) and update `specs/004-okf-adoption/migration-plan.md` if needed.',
     `3. Bump \`${LOCK_RELATIVE}\` to \`${upstream.sha}\` in the reconciliation PR to close this issue.`,
     '',
     '_Opened automatically by the `OKF Standard Watch` workflow._',

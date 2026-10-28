@@ -8,6 +8,43 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bingara]
 timestamp: "2026-07-13T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-13T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-13T00:00:00Z }
+stale_after: 2027-01-09T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: bingara-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bingara"
+    title: "Bingara postcode — Australia Post"
+  - id: bingara-dental-clinic-yellow-pages
+    resource: "https://www.yellowpages.com.au/bingara-nsw/bpp/bingara-dental-clinic-580872721"
+    title: "Bingara Dental Clinic — Yellow Pages"
+  - id: dentists-in-bingara-nsw-2404-yellow-pages
+    resource: "https://www.yellowpages.com.au/bingara-nsw-2404/dentists"
+    title: "Dentists in Bingara, NSW 2404 — Yellow Pages"
+  - id: bingara-smiles-dental-clinic-localsearch
+    resource: "https://www.localsearch.com.au/profile/bingara-smiles-dental-clinic/bingara-nsw/dqKM"
+    title: "Bingara Smiles Dental Clinic — Localsearch"
+  - id: australasian-dental-group-partner-listing
+    resource: "https://www.ausdentalgroup.com/old-home-4"
+    title: "Australasian Dental Group partner listing"
+  - id: 2021-bingara-census-quickstats-australian-bureau-of
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10364"
+    title: "2021 Bingara Census QuickStats — Australian Bureau of Statistics"
+  - id: contact-council-gwydir-shire-council
+    resource: "https://www.gwydir.nsw.gov.au/Council/Contact-Council"
+    title: "Contact Council — Gwydir Shire Council"
+  - id: bingara-central-school-project-profile-nsw-school
+    resource: "https://www.schoolinfrastructure.nsw.gov.au/schools/1/1234"
+    title: "Bingara Central School project profile — NSW School Infrastructure"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bingara, NSW — Dental Clinics

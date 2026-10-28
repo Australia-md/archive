@@ -1,10 +1,10 @@
 ---
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # Australia.md Knowledge Bundle
 
-Open Knowledge Format (OKF) v0.1 bundle. Root index for the Australian knowledge archive. See [Australia.md](../Australia.md) for the human-facing entry point.
+Open Knowledge Format (OKF) v0.2 bundle. Root index for the Australian knowledge archive. See [Australia.md](../Australia.md) for the human-facing entry point.
 
 # Domains
 

@@ -8,6 +8,100 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, burwood]
 timestamp: "2026-10-07T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-07T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-07T00:00:00Z }
+stale_after: 2027-04-05T00:00:00Z
+sources:
+  - id: healthdirect-australia-burwood-dentist-search
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/burwood-2134-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Burwood dentist search"
+  - id: maven-dental-burwood-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/maven-dental-burwood/dentists/027a4123-1bb9-6de2-6885-7e065aa21101"
+    title: "Maven Dental Burwood — Healthdirect"
+  - id: dr-bernard-zayour-dental-surgeon-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/dr-bernard-zayour-dental-surgeon/dentists/249a884d-df9a-c18f-513a-cac8379f1606"
+    title: "Dr Bernard Zayour Dental Surgeon — Healthdirect"
+  - id: western-sydney-dental-group-pty-ltd-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/western-sydney-dental-group-pty-ltd/dentists/63036593-695d-015e-99e8-b4d99ea99fa0"
+    title: "Western Sydney Dental Group Pty Ltd — Healthdirect"
+  - id: dr-michael-piras-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/dr-michael-piras-surgery/dentists/d44297ea-b395-0f87-bd65-1a6968dc3fcf"
+    title: "Dr Michael Piras Surgery — Healthdirect"
+  - id: inner-west-endodontics-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/inner-west-endodontics/dentists/7342556f-8197-d17d-f028-4aea1d1d933e"
+    title: "Inner West Endodontics — Healthdirect"
+  - id: dental-266-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/dental-266/dentists/a058856f-e9ae-5cfa-453e-664f40061e9b"
+    title: "Dental 266 — Healthdirect"
+  - id: wong-and-kao-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/wong-and-kao-dental-surgery/dentists/9bd0d773-0621-74af-ea15-b19feba8c8a8"
+    title: "Wong and Kao Dental Surgery — Healthdirect"
+  - id: tailored-teeth-dental-cosmetics-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/tailored-teeth-dental-cosmetics/dentists/7861c7d8-b82c-e263-004f-dc9de1d3a3d5"
+    title: "Tailored Teeth Dental & Cosmetics — Healthdirect"
+  - id: burwood-dental-centre-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/burwood-dental-centre/dentists/1a5a1044-6a2b-894f-7a97-e812e83cd8e1"
+    title: "Burwood Dental Centre — Healthdirect"
+  - id: the-dentist-at-burwood-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/the-dentist-at-burwood/dentists/2fca5138-0956-c79e-dd01-08b6935e2727"
+    title: "The Dentist At Burwood — Healthdirect"
+  - id: bupa-dental-burwood-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/bupa-dental-burwood/dentists/fc2a58a2-2c8e-641a-26c8-c33ad0ccd3f3"
+    title: "Bupa Dental - Burwood — Healthdirect"
+  - id: burwood-family-dentist-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/burwood-family-dentist/dentists/8b7abe3f-e8b8-aea0-b78e-42c49d62cf8f"
+    title: "Burwood Family Dentist — Healthdirect"
+  - id: sydney-smile-care-burwood-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/sydney-smile-care-burwood/dentists/717c52cc-668c-f97e-b32a-0a02fc3aedac"
+    title: "Sydney Smile Care - Burwood — Healthdirect"
+  - id: blossom-burwood-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/blossom-burwood-dental-care/dentists/ffe3cced-1a05-63b4-2b8e-cbff5a7e72a3"
+    title: "Blossom Burwood Dental Care — Healthdirect"
+  - id: focus-orthodontics-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/focus-orthodontics/dentists/4aaf2f7e-88aa-956d-618d-5bc1e235f94a"
+    title: "Focus Orthodontics — Healthdirect"
+  - id: dr-roger-gomez-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/dr-roger-gomez-dental-surgery/dentists/b7a45cb4-07e9-072b-8d1c-9deca9a27d68"
+    title: "Dr Roger Gomez Dental Surgery — Healthdirect"
+  - id: dr-sri-thamby-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/dr-sri-thamby/dentists/a3e4302a-e816-cf25-75fc-39223e0a71db"
+    title: "Dr Sri Thamby — Healthdirect"
+  - id: the-dental-practice-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burwood-2134-nsw/the-dental-practice/dentists/45ea8aa9-b4f0-4504-b362-9c8617b5af9d"
+    title: "The Dental Practice — Healthdirect"
+  - id: healthengine-burwood-dentists
+    resource: "https://healthengine.com.au/search/dentistry/NSW/burwood-2134"
+    title: "HealthEngine — Burwood dentists"
+  - id: yellow-pages-australia-burwood-dentists
+    resource: "https://www.yellowpages.com.au/find/dentists/burwood-nsw-2134"
+    title: "Yellow Pages Australia — Burwood dentists"
+  - id: word-of-mouth-burwood-dentists
+    resource: "https://www.wordofmouth.com.au/nsw/burwood/dentists"
+    title: "Word of Mouth — Burwood dentists"
+  - id: google-maps-dental-clinic-burwood-nsw-2134
+    resource: "https://www.google.com/maps/search/dental+clinic+Burwood+NSW+2134"
+    title: "Google Maps — dental clinic Burwood NSW 2134"
+  - id: google-search-dental-clinic-burwood-nsw-2134
+    resource: "https://www.google.com/search?q=dental+clinic+Burwood+NSW+2134"
+    title: "Google Search — dental clinic Burwood NSW 2134"
+  - id: hotdoc-burwood-dentists
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/burwood-2134"
+    title: "HotDoc — Burwood dentists"
+  - id: australia-post-burwood-postcode
+    resource: "https://auspost.com.au/postcode/burwood"
+    title: "Australia Post — Burwood postcode"
+  - id: your-council-nsw-burwood-profile
+    resource: "https://www.yourcouncil.nsw.gov.au/council-data/burwood-1787123466/"
+    title: "Your Council NSW — Burwood profile"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: nps-medicinewise-successor-directory
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / successor directory"
 ---
 
 # Burwood, NSW — Dental Clinics

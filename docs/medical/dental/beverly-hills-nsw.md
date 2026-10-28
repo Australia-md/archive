@@ -8,6 +8,40 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, beverly-hills]
 timestamp: "2026-07-06T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-06T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-06T00:00:00Z }
+stale_after: 2027-01-02T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-beverly-hills-nsw-2209-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/beverly-hills-2209-nsw/dentists/310144008"
+    title: "Dentists in Beverly Hills, NSW 2209 — Healthdirect"
+  - id: beverly-hills-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beverly-hills-2209-nsw/beverly-hills-dental-surgery/dentists/cf364310-775b-9e31-0608-e57d2d25b44a"
+    title: "Beverly Hills Dental Surgery — Healthdirect"
+  - id: no-gaps-dental-beverly-hills-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beverly-hills-2209-nsw/no-gaps-dental-beverly-hills/dentists/b54dac61-d165-d087-0b0b-ab05c9765f9e"
+    title: "No Gaps Dental - Beverly Hills — Healthdirect"
+  - id: no-gaps-dental-beverly-hills
+    resource: "https://www.nogapsdental.com/location/dentist-beverly-hills/"
+    title: "No Gaps Dental Beverly Hills"
+  - id: beverly-hills-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/beverly-hills"
+    title: "Beverly Hills postcode — Australia Post"
+  - id: 2021-beverly-hills-census-quickstats-australian-bureau-of
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10330"
+    title: "2021 Beverly Hills Census QuickStats — Australian Bureau of Statistics"
+  - id: beverly-hills-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Beverly_Hills%2C_New_South_Wales"
+    title: "Beverly Hills, New South Wales"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Beverly Hills, NSW — Dental Clinics

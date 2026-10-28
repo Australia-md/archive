@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bourke]
 timestamp: "2026-08-19T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-19T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-19T00:00:00Z }
+stale_after: 2027-02-15T00:00:00Z
+sources:
+  - id: bourke-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bourke"
+    title: "Bourke postcode — Australia Post"
+  - id: bourke-new-south-wales-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Bourke%2C_New_South_Wales"
+    title: "Bourke, New South Wales — Wikipedia"
+  - id: about-bachs
+    resource: "https://bachs.com.au/about/"
+    title: "About BACHS"
+  - id: bachs-services
+    resource: "https://bachs.com.au/services/"
+    title: "BACHS Services"
+  - id: bachs-contact
+    resource: "https://bachs.com.au/contact/"
+    title: "BACHS Contact"
+  - id: bourke-aboriginal-corporation-health-service-play-safe-nsw
+    resource: "https://playsafe.health.nsw.gov.au/healthcareservice/bourke-aboriginal-corporation-health-service/"
+    title: "Bourke Aboriginal Corporation Health Service — Play Safe NSW"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bourke, NSW — Dental Clinics

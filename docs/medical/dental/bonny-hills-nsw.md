@@ -8,6 +8,37 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bonny-hills]
 timestamp: "2026-08-09T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-09T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-09T00:00:00Z }
+stale_after: 2027-02-05T00:00:00Z
+sources:
+  - id: australia-post-bonny-hills-postcode
+    resource: "https://auspost.com.au/postcode/bonny-hills"
+    title: "Australia Post — Bonny Hills postcode"
+  - id: healthdirect-dentists-in-bonny-hills-nsw-2445
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bonny-hills-2445-nsw/dentists/310144008"
+    title: "Healthdirect — Dentists in Bonny Hills, NSW 2445"
+  - id: healthdirect-port-smiles-dental-bonny-hills
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bonny-hills-2445-nsw/port-smiles-dental-bonny-hills/orthodontics/05fd2d83-9f81-ce54-f91e-0c9ca1e5c8a7"
+    title: "Healthdirect — Port Smiles Dental - Bonny Hills"
+  - id: port-smiles-dental
+    resource: "https://www.portsmiles.com.au/"
+    title: "Port Smiles Dental"
+  - id: port-smiles-dental-contact-us
+    resource: "https://www.portsmiles.com.au/contact-us"
+    title: "Port Smiles Dental — Contact Us"
+  - id: 2021-census-quickstats-bonny-hills
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10468"
+    title: "2021 Census QuickStats — Bonny Hills"
+  - id: port-macquarie-hastings-council-bonny-hills-community-plan
+    resource: "https://www.pmhc.nsw.gov.au/files/assets/public/v/1/document-files/your-council/publications/plans/communityplans/bonny-hills-community-plan-a4_0.17.pdf"
+    title: "Port Macquarie-Hastings Council — Bonny Hills Community Plan"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bonny Hills, NSW — Dental Clinics

@@ -8,6 +8,46 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, broadway]
 timestamp: "2026-09-06T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-06T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-06T00:00:00Z }
+stale_after: 2027-03-05T00:00:00Z
+sources:
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/broadway"
+    title: "Australia Post postcode finder"
+  - id: broadway-sydney-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Broadway,_Sydney"
+    title: "Broadway, Sydney — Wikipedia"
+  - id: city-of-sydney-venue-listing
+    resource: "https://whatson.cityofsydney.nsw.gov.au/venues/broadway"
+    title: "City of Sydney venue listing"
+  - id: healthdirect-broadway-dentist-search
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/broadway-2007-nsw/dentists/310144008"
+    title: "Healthdirect Broadway dentist search"
+  - id: bupa-dental-broadway
+    resource: "https://www.bupadental.com.au/find-a-dentist/nsw-ultimo-2007-au/bupa-dental-broadway/"
+    title: "Bupa Dental - Broadway"
+  - id: bupa-dental-broadway-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/ultimo/bupa-dental-broadway/s65450"
+    title: "Bupa Dental Broadway — Healthengine"
+  - id: fy-smile-broadway-clinic
+    resource: "https://www.fysmile.com.au/dentist-broadway"
+    title: "FY Smile Broadway clinic"
+  - id: broadway-healthcare-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/broadway/broadway-healthcare/s88954"
+    title: "Broadway Healthcare — Healthengine"
+  - id: floss-dental-contact
+    resource: "https://flossdental.com.au/contact/"
+    title: "Floss Dental contact"
+  - id: floss-dental-location
+    resource: "https://flossdental.com.au/contact/location/"
+    title: "Floss Dental location"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Broadway, NSW — Dental Clinics

@@ -8,6 +8,31 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bowenfels]
 timestamp: "2026-08-21T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-21T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-21T00:00:00Z }
+stale_after: 2027-02-17T00:00:00Z
+sources:
+  - id: bowenfels-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bowenfels"
+    title: "Bowenfels postcode — Australia Post"
+  - id: 2021-bowenfels-census-quickstats-abs
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10527"
+    title: "2021 Bowenfels Census QuickStats — ABS"
+  - id: bowenfels-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Bowenfels"
+    title: "Bowenfels — Wikipedia"
+  - id: lithgow-community-private-day-surgery-and-specialist-centre
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bowenfels-2790-nsw/lithgow-community-private-day-surgery-and-specialist-centre/oral-surgery-service/e946d169-115c-6401-15f6-c2e542bdf9cd"
+    title: "Lithgow Community Private Day Surgery and Specialist Centre — Healthdirect"
+  - id: lithgow-community-private-brochure
+    resource: "https://www.lcprivate.com.au/documents/Information-Brochure.pdf"
+    title: "Lithgow Community Private brochure"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bowenfels, NSW — Dental Clinics

@@ -20,6 +20,7 @@
 // Flags:  --check   report what would change and exit 1 if anything would; write nothing
 import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { verificationDate } from './okf-frontmatter.mjs';
 
 const ROOT = process.cwd();
 const ORIGIN = 'https://australia.md';
@@ -55,7 +56,7 @@ function sourceFor(slug) {
     suburb: fm.suburb || slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()),
     postcode: fm.postcode || ((raw.match(/Postcode\s+(\d{4})/) || [])[1] || ''),
     lga: fm.lga || council,
-    date: (fm.last_verified || fm.timestamp || '').slice(0, 10),
+    date: verificationDate(fmBlock),   // latest verified[].at, else last_verified, else timestamp
     N: sections.length,
     H: hours.filter((h) => HAS_TIME.test(h) && !DISPUTED.test(h)).length,
     S: hours.filter((h) => !DISPUTED.test(h) && saturdayOpen(h)).length,

@@ -2,13 +2,15 @@
 // scripts/build-sitemap.mjs — run from the repo root: `npm run seo:sitemap`
 // Generates sitemap.xml (and sitemap-N.xml + sitemap-index.xml when > 50,000 URLs or > 50 MB)
 // from the HTML pages on disk. <lastmod> is PER URL:
-//   1. dental pages  → frontmatter `timestamp` / `last_verified` of the matching docs/medical/dental/*.md
+//   1. dental pages  → verification date of the matching docs/medical/dental/*.md: latest `verified[].at`,
+//                      else `last_verified`, else `timestamp` (scripts/okf-frontmatter.mjs)
 //   2. everything else → today if the file has uncommitted changes, else its last git commit date
 //   3. fallback → file mtime
 // Never the build date: identical lastmod values across all URLs are ignored by Google.
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative, dirname } from 'node:path';
 import { execSync } from 'node:child_process';
+import { frontmatterBlock, verificationDate } from './okf-frontmatter.mjs';
 
 const ROOT = process.cwd();
 const ORIGIN = 'https://australia.md';
@@ -28,9 +30,7 @@ function walk(dir, out = []) {
 
 function frontmatterDate(mdPath) {
   if (!existsSync(mdPath)) return null;
-  const head = readFileSync(mdPath, 'utf8').split('\n---', 2)[0];
-  const m = head.match(/^(?:last_verified|timestamp):\s*"?(\d{4}-\d{2}-\d{2})/m);
-  return m ? m[1] : null;
+  return verificationDate(frontmatterBlock(readFileSync(mdPath, 'utf8'))) || null;
 }
 
 const TODAY = new Date().toISOString().slice(0, 10);

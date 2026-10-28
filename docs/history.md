@@ -5,6 +5,23 @@ description: "Australia's national heritage places are listed in the Australian 
 resource: "https://www.nma.gov.au"
 tags: [history]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: national-museum-of-australia
+    resource: "https://www.nma.gov.au"
+    title: "National Museum of Australia"
+  - id: australian-war-memorial
+    resource: "https://www.awm.gov.au"
+    title: "Australian War Memorial"
+  - id: australian-heritage-database-dcceew
+    resource: "https://www.dcceew.gov.au/parks-heritage/heritage/places"
+    title: "Australian Heritage Database (DCCEEW)"
+  - id: national-archives-of-australia
+    resource: "https://www.naa.gov.au"
+    title: "National Archives of Australia"
+  - id: australian-dictionary-of-biography
+    resource: "https://adb.anu.edu.au"
+    title: "Australian Dictionary of Biography"
 ---
 
 # History & Heritage of Australia

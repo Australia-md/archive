@@ -1,0 +1,47 @@
+name: OKF Conformance
+
+# Checks that the docs/** knowledge bundle conforms to the Open Knowledge Format (OKF) v0.2:
+# parseable frontmatter with a non-empty `type` on every concept, frontmatter only on the
+# bundle-root index.md, and ISO 8601 datetimes (with offset) for every OKF timestamp key.
+# See .github/scripts/check-okf-conformance.ts and the constitution → "Knowledge Format (OKF)".
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '.github/scripts/**'
+      - '.github/workflows/okf-conformance.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - '.github/scripts/**'
+      - '.github/workflows/okf-conformance.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  conformance:
+    name: OKF v0.2 conformance
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: .github/scripts/package-lock.json
+      - name: Install script deps
+        working-directory: .github/scripts
+        run: npm ci
+      - name: Type-check scripts
+        working-directory: .github/scripts
+        run: npx tsc --noEmit
+      - name: Check docs/** against OKF v0.2
+        working-directory: .github/scripts
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: npx tsx check-okf-conformance.ts

@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, braidwood]
 timestamp: "2026-08-26T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-26T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-26T00:00:00Z }
+stale_after: 2027-02-22T00:00:00Z
+sources:
+  - id: braidwood-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/braidwood"
+    title: "Braidwood postcode - Australia Post"
+  - id: abs-2021-census-quickstats-braidwood
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/UCL115026"
+    title: "ABS 2021 Census QuickStats - Braidwood"
+  - id: braidwood-new-south-wales-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Braidwood%2C_New_South_Wales"
+    title: "Braidwood, New South Wales - Wikipedia"
+  - id: braidwood-dental
+    resource: "https://www.braidwooddentalpractice.com/"
+    title: "Braidwood Dental"
+  - id: braidwood-dental-services
+    resource: "https://www.braidwooddentalpractice.com/services"
+    title: "Braidwood Dental Services"
+  - id: braidwood-dental-practice-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/braidwood/braidwood-dental-practice/s76787"
+    title: "Braidwood Dental Practice - Healthengine"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Braidwood, NSW — Dental Clinics

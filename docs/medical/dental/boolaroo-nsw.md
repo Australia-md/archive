@@ -8,6 +8,46 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, boolaroo]
 timestamp: "2026-08-12T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-12T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-12T00:00:00Z }
+stale_after: 2027-02-08T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-boolaroo-nsw-2284-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/boolaroo-2284-nsw/dentists/310144008"
+    title: "Dentists in Boolaroo, NSW 2284 — Healthdirect"
+  - id: macquarie-family-dental-boolaroo-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/boolaroo-2284-nsw/macquarie-family-dental-boolaroo/dentists/e21f536e-0cef-bbcc-3dd3-25df7955800f"
+    title: "Macquarie Family Dental - Boolaroo — Healthdirect"
+  - id: macquarie-family-dental
+    resource: "https://mfdental.com.au/"
+    title: "Macquarie Family Dental"
+  - id: contact-macquarie-family-dental
+    resource: "https://mfdental.com.au/contact/"
+    title: "Contact — Macquarie Family Dental"
+  - id: macquarie-family-dental-yellow-pages
+    resource: "https://www.yellowpages.com.au/boolaroo-nsw/bpp/macquarie-family-dental-580274790"
+    title: "Macquarie Family Dental — Yellow Pages"
+  - id: macquarie-family-dental-white-pages
+    resource: "https://www.whitepages.com.au/macquarie-family-dental-10377413/boolaroo-nsw-10377415B"
+    title: "Macquarie Family Dental — White Pages"
+  - id: boolaroo-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/boolaroo"
+    title: "Boolaroo postcode — Australia Post"
+  - id: 2021-boolaroo-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10480"
+    title: "2021 Boolaroo Census QuickStats — Australian Bureau of Statistics"
+  - id: boolaroo-lake-mac-history
+    resource: "https://history.lakemac.com.au/narrative/16"
+    title: "Boolaroo — Lake Mac History"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Boolaroo, NSW — Dental Clinics

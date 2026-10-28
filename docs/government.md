@@ -5,6 +5,23 @@ description: "Australia is a constitutional monarchy and a federal parliamentary
 resource: "https://www.aph.gov.au"
 tags: [government]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: parliament-of-australia
+    resource: "https://www.aph.gov.au"
+    title: "Parliament of Australia"
+  - id: full-text-of-the-constitution
+    resource: "https://www.aph.gov.au/constitution"
+    title: "Full text of the Constitution"
+  - id: high-court-of-australia
+    resource: "https://www.hcourt.gov.au"
+    title: "High Court of Australia"
+  - id: federal-register-of-legislation
+    resource: "https://www.legislation.gov.au"
+    title: "Federal Register of Legislation"
+  - id: australian-electoral-commission
+    resource: "https://www.aec.gov.au"
+    title: "Australian Electoral Commission"
 ---
 
 # Government & Constitution of Australia

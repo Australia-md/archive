@@ -8,6 +8,49 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, cabramatta-west]
 timestamp: "2026-10-14T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-14T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-14T00:00:00Z }
+stale_after: 2027-04-12T00:00:00Z
+sources:
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/cabramatta-west"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10739"
+    title: "ABS 2021 Census QuickStats"
+  - id: healthdirect-australia-cabramatta-west-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/cabramatta-west-2166-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Cabramatta West dentists"
+  - id: healthdirect-australia-golden-smile-denture-clinic
+    resource: "https://healthdirect.gov.au/australian-health-services/20127017/golden-smile-denture-clinic/services/cabramatta-west-2166-8-meadows-road"
+    title: "Healthdirect Australia — Golden Smile Denture Clinic"
+  - id: healthengine
+    resource: "https://healthengine.com.au/search/dentistry/NSW/cabramatta-west-2166"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentists/cabramatta-west-nsw-2166"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/cabramatta-west/dentists"
+    title: "Word of Mouth Australia"
+  - id: google-maps
+    resource: "https://www.google.com/maps/search/Golden+Smile+Denture+Clinic+Cabramatta+West+NSW+2166"
+    title: "Google Maps"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/cabramatta-west-2166"
+    title: "HotDoc"
+  - id: nps-medicinewise-findahealthservice
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / FindAHealthService"
+  - id: golden-smile-denture-clinic
+    resource: "https://www.goldensmiledentureclinic.com.au/"
+    title: "Golden Smile Denture Clinic"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Cabramatta West, NSW — Dental Clinics

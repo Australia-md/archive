@@ -8,6 +8,49 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, canley-vale]
 timestamp: "2026-10-28T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-28T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-28T00:00:00Z }
+stale_after: 2027-04-26T00:00:00Z
+sources:
+  - id: healthdirect-australia-canley-vale-dental-surgery
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/canley-vale-2166-nsw/canley-vale-dental-surgery/dentists/e6f8ac53-065e-4905-d303-24c196fffbbe"
+    title: "Healthdirect Australia — Canley Vale Dental Surgery"
+  - id: healthdirect-australia-dentists-search
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/canley-vale-2166-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Dentists search"
+  - id: healthengine-canley-vale-dental-clinic
+    resource: "https://healthengine.com.au/dentist/nsw/canley-vale/canley-vale-dental-clinic/s87737"
+    title: "HealthEngine — Canley Vale Dental Clinic"
+  - id: healthengine-15-dental
+    resource: "https://healthengine.com.au/dentist/nsw/canley-vale/15-dental/s81847"
+    title: "HealthEngine — 15 Dental"
+  - id: yellow-pages-australia-dentists-in-canley-vale
+    resource: "https://www.yellowpages.com.au/find/dentists/canley-vale-nsw-2166"
+    title: "Yellow Pages Australia — Dentists in Canley Vale"
+  - id: word-of-mouth-15-dental-listing
+    resource: "https://www.wordofmouth.com.au/reviews/15-dental"
+    title: "Word of Mouth — 15 Dental listing"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: 15-dental
+    resource: "https://15dental.com.au/"
+    title: "15 Dental"
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/canley-vale"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10791"
+    title: "ABS 2021 Census QuickStats"
+  - id: fairfield-city-council-canley-vale-profile
+    resource: "https://www.fairfieldcity.nsw.gov.au/Business/Place-Management-and-Town-Centres/Cabramatta-Place/Canley-Vale"
+    title: "Fairfield City Council — Canley Vale profile"
+  - id: fairfield-city-council-suburb-and-ward-list
+    resource: "https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/2/documents/your-council/council/suburb-and-ward-list.pdf"
+    title: "Fairfield City Council — Suburb and ward list"
 ---
 
 # Canley Vale, NSW — Dental Clinics

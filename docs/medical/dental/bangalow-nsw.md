@@ -10,6 +10,43 @@ postcode: "2479"
 state: nsw
 lga: "Byron Shire Council"
 last_verified: "2026-05-25"
+generated: { by: openclaw/dental-cron, at: 2026-05-25T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-25T00:00:00Z }
+stale_after: 2026-11-21T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: bangalow-dental
+    resource: "https://www.bangalowdental.com/"
+    title: "Bangalow Dental"
+  - id: bangalow-dental-our-team
+    resource: "https://www.bangalowdental.com/our-team-at-bangalow-dental/"
+    title: "Bangalow Dental - Our Team"
+  - id: bangalow-dental-dental-services
+    resource: "https://www.bangalowdental.com/dental-services/"
+    title: "Bangalow Dental - Dental Services"
+  - id: bangalow-holistic-dentist
+    resource: "https://bangalowholisticdentist.com.au/"
+    title: "Bangalow Holistic Dentist"
+  - id: bangalow-holistic-dentist-contact
+    resource: "https://bangalowholisticdentist.com.au/holistic-dentist-dr-nigel-cluer/"
+    title: "Bangalow Holistic Dentist - Contact"
+  - id: bangalow-holistic-dentist-our-practitioners
+    resource: "https://bangalowholisticdentist.com.au/cosmetic-dentistry-byron-bay/"
+    title: "Bangalow Holistic Dentist - Our Practitioners"
+  - id: bangalow-holistic-dentist-services
+    resource: "https://bangalowholisticdentist.com.au/dental-services-bangalow/"
+    title: "Bangalow Holistic Dentist - Services"
+  - id: healthengine
+    resource: "https://healthengine.com.au"
+    title: "HealthEngine"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bangalow, NSW — Dental Clinics

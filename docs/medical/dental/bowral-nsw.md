@@ -8,6 +8,37 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bowral]
 timestamp: "2026-08-23T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-23T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-23T00:00:00Z }
+stale_after: 2027-02-19T00:00:00Z
+sources:
+  - id: bowral-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bowral"
+    title: "Bowral postcode - Australia Post"
+  - id: bowral-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Bowral"
+    title: "Bowral - Wikipedia"
+  - id: bowral-dentists-search-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bowral-2576-nsw/dentists/310144008"
+    title: "Bowral dentists search - Healthdirect"
+  - id: village-dental-care-bowral
+    resource: "https://www.villagedentalcare.com.au/"
+    title: "Village Dental Care - Bowral"
+  - id: wingecarribee-community-health-centre
+    resource: "https://www.swslhd.health.nsw.gov.au/communityhealth/centres_wingecarribee.html"
+    title: "Wingecarribee Community Health Centre"
+  - id: bupa-dental-bowral
+    resource: "https://www.bupadental.com.au/find-a-dentist/nsw-bowral-2576-au/bupa-dental-bowral"
+    title: "Bupa Dental Bowral"
+  - id: orthodontics-exclusively-bowral
+    resource: "http://www.ortho-x.com.au/"
+    title: "Orthodontics Exclusively Bowral"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bowral, NSW — Dental Clinics

@@ -10,6 +10,58 @@ postcode: "2486"
 state: nsw
 lga: "Tweed Shire"
 last_verified: "2026-05-29"
+generated: { by: openclaw/dental-cron, at: 2026-05-29T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-29T00:00:00Z }
+stale_after: 2026-11-25T00:00:00Z
+sources:
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/banora-point"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10186"
+    title: "Australian Bureau of Statistics — 2021 Census QuickStats, Banora Point"
+  - id: wikipedia-banora-point
+    resource: "https://en.wikipedia.org/wiki/Banora_Point"
+    title: "Wikipedia — Banora Point"
+  - id: healthdirect-dentists-in-banora-point-nsw-2486
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/banora-point-2486-nsw/dentists/310144008"
+    title: "Healthdirect — Dentists in Banora Point, NSW 2486"
+  - id: banora-seaview-dental-care
+    resource: "https://www.banoradental.com.au/"
+    title: "Banora Seaview Dental Care"
+  - id: banora-seaview-dental-care-our-team
+    resource: "https://www.banoradental.com.au/our-team/"
+    title: "Banora Seaview Dental Care — Our Team"
+  - id: dentist-com-au-dr-gavin-stuart
+    resource: "https://www.dentist.com.au/general-dentist/dr-gavin-stuart/C11006855"
+    title: "Dentist.com.au — Dr Gavin Stuart"
+  - id: dentist-com-au-dr-martin-ackland
+    resource: "https://www.dentist.com.au/general-dentist/dr-martin-ackland/C11002762"
+    title: "Dentist.com.au — Dr Martin Ackland"
+  - id: dentist-com-au-dr-terry-mckiernan
+    resource: "https://www.dentist.com.au/general-dentist/dr-terrence-mckiernan/C11012345"
+    title: "Dentist.com.au — Dr Terry McKiernan"
+  - id: coastal-dental-care-banora-point
+    resource: "https://coastaldentalcare.com.au/practices/banora-point-dental-care/"
+    title: "Coastal Dental Care Banora Point"
+  - id: dentist-com-au-coastal-dental-care-banora-point
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/banora-point/coastal-dental-care-banora-point/A18015075"
+    title: "Dentist.com.au — Coastal Dental Care Banora Point"
+  - id: dentist-com-au-dr-jason-bulmer
+    resource: "https://www.dentist.com.au/general-dentist/dr-jason-bulmer/C19039590"
+    title: "Dentist.com.au — Dr Jason Bulmer"
+  - id: dentist-com-au-dr-kaeli-etheridge
+    resource: "https://www.dentist.com.au/general-dentist/dr-kaeli-etheridge/C15027594"
+    title: "Dentist.com.au — Dr Kaeli Etheridge"
+  - id: dentist-com-au-dr-jeremy-martin
+    resource: "https://www.dentist.com.au/general-dentist/dr-jeremy-martin/C17029796"
+    title: "Dentist.com.au — Dr Jeremy Martin"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Banora Point, NSW — Dental Clinics

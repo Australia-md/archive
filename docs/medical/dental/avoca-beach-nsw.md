@@ -10,6 +10,28 @@ postcode: "2251"
 state: nsw
 lga: "Central Coast Council"
 last_verified: "2026-05-11"
+generated: { by: openclaw/dental-cron, at: 2026-05-11T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-11T00:00:00Z }
+stale_after: 2026-11-07T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth
+    resource: "https://www.wordofmouth.com.au"
+    title: "Word of Mouth"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Avoca Beach, NSW — Dental Clinics

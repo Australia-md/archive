@@ -8,6 +8,55 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, berkeley-vale]
 timestamp: "2026-06-29T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-06-29T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-29T00:00:00Z }
+stale_after: 2026-12-26T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-berkeley-vale-nsw-2261-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/berkeley-vale-2261-nsw/dentists/310144008"
+    title: "Dentists in Berkeley Vale, NSW 2261 — Healthdirect"
+  - id: berkeley-vale-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berkeley-vale-2261-nsw/berkeley-vale-dental-surgery/dentists/6efc3f1b-175f-fdc8-d19b-52f15a2c8b1f"
+    title: "Berkeley Vale Dental Surgery — Healthdirect"
+  - id: the-lakes-family-dental-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berkeley-vale-2261-nsw/the-lakes-family-dental/dentists/e01de18a-eefb-dc01-5029-12a4d4744ea9"
+    title: "The Lakes Family Dental — Healthdirect"
+  - id: berkeley-vale-dental-surgery-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/berkeley-vale-dental-surgery/A11001136"
+    title: "Berkeley Vale Dental Surgery — dentist.com.au"
+  - id: dr-philip-hp-ng-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-philip-ng/C11009233"
+    title: "Dr Philip HP Ng — dentist.com.au"
+  - id: dr-neil-a-hutchison-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-neil-hutchison/C11007353"
+    title: "Dr Neil A Hutchison — dentist.com.au"
+  - id: the-lakes-family-dental
+    resource: "https://thelakesfamilydental.com.au/"
+    title: "The Lakes Family Dental"
+  - id: the-lakes-family-dental-our-team
+    resource: "https://thelakesfamilydental.com.au/our-team/"
+    title: "The Lakes Family Dental — Our Team"
+  - id: the-lakes-family-dental-contact-us
+    resource: "https://thelakesfamilydental.com.au/contact-us/"
+    title: "The Lakes Family Dental — Contact Us"
+  - id: the-lakes-family-dental-patient-info
+    resource: "https://thelakesfamilydental.com.au/patient-info/"
+    title: "The Lakes Family Dental — Patient Info"
+  - id: berkeley-vale-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/berkeley-vale"
+    title: "Berkeley Vale postcode — Australia Post"
+  - id: 2021-berkeley-vale-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10304"
+    title: "2021 Berkeley Vale Census QuickStats — Australian Bureau of Statistics"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Berkeley Vale, NSW — Dental Clinics

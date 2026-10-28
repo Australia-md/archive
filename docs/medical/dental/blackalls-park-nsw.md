@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, blackalls-park]
 timestamp: "2026-07-24T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-24T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-24T00:00:00Z }
+stale_after: 2027-01-20T00:00:00Z
+sources:
+  - id: australia-post-postcode-blackalls-park
+    resource: "https://auspost.com.au/postcode/blackalls-park"
+    title: "Australia Post postcode — Blackalls Park"
+  - id: 2021-census-quickstats-blackalls-park
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10389"
+    title: "2021 Census QuickStats — Blackalls Park"
+  - id: blackalls-park-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Blackalls_Park"
+    title: "Blackalls Park — Wikipedia"
+  - id: paul-s-denture-studio-yellow-pages
+    resource: "https://www.yellowpages.com.au/blackalls-park-nsw/bpp/pauls-denture-studio-581048616"
+    title: "Paul's Denture Studio — Yellow Pages"
+  - id: blackalls-park-dental-prosthetist-listings-whereis
+    resource: "https://www.whereis.com/blackalls-park-nsw-2283/dental-prosthetist"
+    title: "Blackalls Park dental prosthetist listings — Whereis"
+  - id: paul-s-denture-studio-facebook
+    resource: "https://www.facebook.com/paulsdenturestudio/"
+    title: "Paul's Denture Studio — Facebook"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Blackalls Park, NSW — Dental Clinics

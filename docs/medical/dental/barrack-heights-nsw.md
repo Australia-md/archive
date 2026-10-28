@@ -10,6 +10,37 @@ postcode: "2528"
 state: nsw
 lga: "Shellharbour City Council"
 last_verified: "2026-06-02"
+generated: { by: openclaw/dental-cron, at: 2026-06-02T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-02T00:00:00Z }
+stale_after: 2026-11-29T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-barrack-heights-nsw-2528-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/barrack-heights-2528-nsw/dentists/310144008"
+    title: "Dentists in Barrack Heights, NSW 2528 — Healthdirect"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/barrack-heights"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10208"
+    title: "Australian Bureau of Statistics QuickStats"
+  - id: shellharbour-city-council-locality-page
+    resource: "https://discover.shellharbour.nsw.gov.au/nodes/view/470"
+    title: "Shellharbour City Council locality page"
+  - id: shellharbour-dentists-website
+    resource: "https://shellharbourdentist.com.au/"
+    title: "Shellharbour Dentists website"
+  - id: shellharbour-dentists-directory-profile
+    resource: "https://www.dentist.com.au/dentist-detail/centre-health-dental-clinic/a11000273"
+    title: "Shellharbour Dentists directory profile"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Barrack Heights, NSW — Dental Clinics

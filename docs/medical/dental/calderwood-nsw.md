@@ -8,6 +8,58 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, calderwood]
 timestamp: "2026-10-17T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-17T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-17T00:00:00Z }
+stale_after: 2027-04-15T00:00:00Z
+sources:
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/calderwood"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10749"
+    title: "ABS 2021 Census QuickStats"
+  - id: shellharbour-city-council-calderwood
+    resource: "https://discover.shellharbour.nsw.gov.au/nodes/view/453"
+    title: "Shellharbour City Council — Calderwood"
+  - id: healthdirect-australia-calderwood-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/calderwood-2527-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Calderwood dentists"
+  - id: healthdirect-australia-calderwood-family-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/calderwood-2527-nsw/calderwood-family-dental/dentists/f7e22269-8e24-4464-9dfd-b59507b1eeef"
+    title: "Healthdirect Australia — Calderwood Family Dental"
+  - id: healthengine
+    resource: "https://healthengine.com.au/search/dentistry/NSW/calderwood-2527"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentists/calderwood-nsw-2527"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/calderwood/dentists"
+    title: "Word of Mouth Australia"
+  - id: google-maps
+    resource: "https://www.google.com/maps/search/dental+clinic+Calderwood+NSW+2527"
+    title: "Google Maps"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/calderwood-2527"
+    title: "HotDoc"
+  - id: nps-medicinewise-findahealthservice
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / FindAHealthService"
+  - id: calderwood-family-dental
+    resource: "https://calderwoodfamilydental.com.au/"
+    title: "Calderwood Family Dental"
+  - id: calderwood-family-dental-contact-us
+    resource: "https://calderwoodfamilydental.com.au/contact-us/"
+    title: "Calderwood Family Dental — Contact Us"
+  - id: calderwood-family-dental-services
+    resource: "https://calderwoodfamilydental.com.au/services/"
+    title: "Calderwood Family Dental — Services"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Calderwood, NSW — Dental Clinics

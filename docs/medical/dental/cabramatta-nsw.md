@@ -8,6 +8,55 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, cabramatta]
 timestamp: "2026-10-13T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-13T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-13T00:00:00Z }
+stale_after: 2027-04-11T00:00:00Z
+sources:
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/cabramatta"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10738"
+    title: "ABS 2021 Census QuickStats"
+  - id: fairfield-city-council-cabramatta
+    resource: "https://www.fairfieldcity.nsw.gov.au/Business/Town-Centres/Cabramatta"
+    title: "Fairfield City Council — Cabramatta"
+  - id: healthdirect-australia-cabramatta-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/cabramatta-2166-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Cabramatta dentists"
+  - id: healthengine
+    resource: "https://healthengine.com.au/search/dentistry/NSW/cabramatta-2166"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentists/cabramatta-nsw-2166"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/cabramatta/dentists"
+    title: "Word of Mouth Australia"
+  - id: google-maps
+    resource: "https://www.google.com/maps/search/dental+clinic+Cabramatta+NSW+2166"
+    title: "Google Maps"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/cabramatta-2166"
+    title: "HotDoc"
+  - id: nps-medicinewise-findahealthservice
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / FindAHealthService"
+  - id: cabramatta-dental-care
+    resource: "https://cabramattadentalcare.com.au/"
+    title: "Cabramatta Dental Care"
+  - id: leap-ahead-dental
+    resource: "https://leapaheaddental.com.au/"
+    title: "Leap Ahead Dental"
+  - id: tripitaka-dental
+    resource: "https://www.tripitakadental.com.au/"
+    title: "Tripitaka Dental"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Cabramatta, NSW — Dental Clinics

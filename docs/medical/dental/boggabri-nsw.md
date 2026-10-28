@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, boggabri]
 timestamp: "2026-08-01T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-01T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-01T00:00:00Z }
+stale_after: 2027-01-28T00:00:00Z
+sources:
+  - id: australia-post-boggabri-postcode
+    resource: "https://auspost.com.au/postcode/boggabri"
+    title: "Australia Post — Boggabri postcode"
+  - id: boggabri-narrabri-shire-council
+    resource: "https://www.narrabri.nsw.gov.au/Your-Council/Introduction-to-Narrabri-Shire/Boggabri"
+    title: "Boggabri — Narrabri Shire Council"
+  - id: 2021-census-quickstats-boggabri
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10441"
+    title: "2021 Census QuickStats — Boggabri"
+  - id: ochre-medical-centre-boggabri
+    resource: "https://ochrehealth.com.au/medical-centre-boggabri/"
+    title: "Ochre Medical Centre Boggabri"
+  - id: ochre-medical-centre-boggabri-hotdoc
+    resource: "https://www.hotdoc.com.au/medical-centres/boggabri-NSW-2382/boggabri-medical-centre/doctors"
+    title: "Ochre Medical Centre Boggabri — HotDoc"
+  - id: boggabri-medical-centre-healthengine
+    resource: "https://healthengine.com.au/medical-centre/nsw/boggabri/boggabri-medical-centre/s14443"
+    title: "Boggabri Medical Centre — Healthengine"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Boggabri, NSW — Dental Clinics

@@ -5,6 +5,20 @@ description: "Australia occupies an area of 7,692,024 km², making it the sixth-
 resource: "https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/australias-size-compared"
 tags: [geography]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: geoscience-australia-national-location-information
+    resource: "https://www.ga.gov.au/scientific-topics/national-location-information"
+    title: "Geoscience Australia — National Location Information"
+  - id: australian-bureau-of-statistics-regional-statistics
+    resource: "https://www.abs.gov.au/statistics/people/population/regional-population"
+    title: "Australian Bureau of Statistics — Regional Statistics"
+  - id: national-map-interactive
+    resource: "https://nationalmap.gov.au"
+    title: "National Map (interactive)"
+  - id: state-territory-boundaries-gis
+    resource: "https://data.gov.au/dataset/ds-dga-bdcf5dc0-de07-4f13-8b75-57a4d7a1b0e3"
+    title: "State & Territory boundaries (GIS)"
 ---
 
 # Geography & States of Australia
