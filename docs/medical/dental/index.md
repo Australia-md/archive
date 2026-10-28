@@ -1,10 +1,3 @@
----
-type: "Directory Index"
-title: "Dental Clinics — New South Wales"
-description: "Index of suburb-level dental clinic directories in New South Wales."
-tags: [dental, nsw, index]
----
-
 # Dental Clinics — New South Wales
 
 Suburb-level dental clinic directories. 37 suburbs. See the [Medical overview](../../medical.md).

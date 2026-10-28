@@ -12,7 +12,6 @@
 - [Government & Constitution of Australia](https://australia.md/docs/government.md): Australia is a constitutional monarchy and a federal parliamentary democracy.
 - [History & Heritage of Australia](https://australia.md/docs/history.md): Australia's national heritage places are listed in the Australian Heritage Database, administered by the Department of Climate Change, Energy, the Environment and Water.
 - [Indigenous Australia](https://australia.md/docs/indigenous.md): Aboriginal Australians and Torres Strait Islander peoples are the traditional custodians of the Australian continent and its surrounding islands.
-- [Dental Clinics — New South Wales](https://australia.md/docs/medical/dental/index.md): Index of suburb-level dental clinic directories in New South Wales.
 - [Medical & Healthcare System of Australia](https://australia.md/docs/medical.md): Australia operates a universal public healthcare system called Medicare, established under the Health Insurance Act 1973.
 - [Technology & AI Sector of Australia](https://australia.md/docs/technology.md): Australia has a growing technology and innovation ecosystem.
 - [Tourism & Travel in Australia](https://australia.md/docs/tourism.md): Australia is consistently ranked among the world's top tourist destinations.
