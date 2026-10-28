@@ -8,6 +8,55 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bexley]
 timestamp: "2026-07-07T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-07T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-07T00:00:00Z }
+stale_after: 2027-01-03T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bexley-nsw-2207-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bexley-2207-nsw/dentists/310144008"
+    title: "Dentists in Bexley, NSW 2207 — Healthdirect"
+  - id: bexley-dental-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bexley-2207-nsw/bexley-dental/dentists/ba53b757-8b0b-b901-7aa9-6c4d8fdebbdc"
+    title: "Bexley Dental — Healthdirect"
+  - id: aelite-dental-bexley-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bexley-2207-nsw/aelite-dental-bexley-dental-care/dentists/0928c996-0ecb-3bb7-9b38-125a67787c4e"
+    title: "Aelite Dental - Bexley Dental Care — Healthdirect"
+  - id: bexley-dental
+    resource: "https://bexleydental.com.au/"
+    title: "Bexley Dental"
+  - id: about-us-bexley-dental
+    resource: "https://bexleydental.com.au/about-us/"
+    title: "About Us - Bexley Dental"
+  - id: contact-us-bexley-dental
+    resource: "https://bexleydental.com.au/contact-us/"
+    title: "Contact Us - Bexley Dental"
+  - id: aelite-dental
+    resource: "https://aelitedental.com.au/"
+    title: "Aelite Dental"
+  - id: meet-our-experienced-dentists-in-bexley
+    resource: "https://aelitedental.com.au/our-team/"
+    title: "Meet Our Experienced Dentists in Bexley"
+  - id: contact-aelite-dental-in-bexley
+    resource: "https://aelitedental.com.au/contact-us/"
+    title: "Contact Aelite Dental in Bexley"
+  - id: bexley-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bexley"
+    title: "Bexley postcode — Australia Post"
+  - id: 2021-bexley-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10333"
+    title: "2021 Bexley Census QuickStats — Australian Bureau of Statistics"
+  - id: bexley-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Bexley%2C_New_South_Wales"
+    title: "Bexley, New South Wales"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bexley, NSW — Dental Clinics

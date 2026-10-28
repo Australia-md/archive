@@ -63,6 +63,7 @@ jobs:
           CONTENT_PATH: ''
           SOURCE_URL: ''
           GITHUB_REPOSITORY: ${{ github.repository }}
+          VERIFIED_BY: human:${{ github.actor }} # OKF v0.2 `verified` actor: the admin who applied the Verified label
         run: npx tsx create-content-file.ts
         working-directory: .github/scripts
 

@@ -8,6 +8,70 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bondi-junction-2022]
 timestamp: "2026-08-18T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-18T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-18T00:00:00Z }
+stale_after: 2027-02-14T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bondi-junction-nsw-2022-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bondi-junction-2022-nsw/dentists/310144008"
+    title: "Dentists in Bondi Junction, NSW 2022 — Healthdirect"
+  - id: better-smiles-bondi-junction-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-junction-2022-nsw/better-smiles-bondi-junction/dental-hygiene-service/5b7be2c8-7ed0-430c-829e-efdc7fcefc57"
+    title: "Better Smiles Bondi Junction — Healthdirect"
+  - id: better-smiles-bondi-junction
+    resource: "https://www.bsmilesbondijunction.com.au/"
+    title: "Better Smiles Bondi Junction"
+  - id: pacific-smiles-dental-bondi-junction-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-junction-2022-nsw/pacific-smiles-dental-bondi-junction/dentists/adcad0ab-2618-4941-95eb-5bfa96c9eb26"
+    title: "Pacific Smiles Dental - Bondi Junction — Healthdirect"
+  - id: pacific-smiles-dental-bondi-junction
+    resource: "https://pacificsmilesdental.com.au/locations/bondi-junction/"
+    title: "Pacific Smiles Dental Bondi Junction"
+  - id: bondi-dental-lifeline-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-junction-2022-nsw/bondi-dental-lifeline/dentists/20c56078-c992-e532-0a24-aef22b61fdd6"
+    title: "Bondi Dental Lifeline — Healthdirect"
+  - id: bondi-dental-lifeline
+    resource: "https://dentallifeline.com.au/"
+    title: "Bondi Dental Lifeline"
+  - id: smile-by-design-bondi-dentist-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-junction-2022-nsw/smile-by-design-bondi-dentist/dentists/5bd3737b-9144-0e6f-cf71-a6a398189c19"
+    title: "Smile by Design - Bondi Dentist — Healthdirect"
+  - id: smile-by-design-bondi-junction
+    resource: "https://smilebydesign.com.au/bondi-junction-dentists"
+    title: "Smile By Design Bondi Junction"
+  - id: bupa-dental-bondi-junction
+    resource: "https://www.bupadental.com.au/find-a-dentist/nsw-bondi_junction-2022-au/bupa-dental-bondi-junction"
+    title: "Bupa Dental - Bondi Junction"
+  - id: bupa-dental-bondi-junction-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-junction-2022-nsw/bupa-dental-bondi-junction/dentists/5891642c-c618-df99-03ef-794ec7c8df71"
+    title: "Bupa Dental - Bondi Junction — Healthdirect"
+  - id: primary-dental-bondi
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-junction-2022-nsw/primary-dental-bondi/dentists/e1cc699b-b65a-45fe-b82d-76e0af4d1904"
+    title: "Primary Dental Bondi"
+  - id: dentist-in-bondi-junction
+    resource: "https://www.primarydental.com.au/dental-centre/bondi-junction/"
+    title: "Dentist in Bondi Junction"
+  - id: bondi-junction-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bondi-junction"
+    title: "Bondi Junction Postcode — Australia Post"
+  - id: 2021-bondi-junction-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10465"
+    title: "2021 Bondi Junction Census QuickStats — Australian Bureau of Statistics"
+  - id: special-entertainment-precincts-in-bondi-junction-waverley
+    resource: "https://haveyoursay.waverley.nsw.gov.au/special-entertainment-precincts-bondi-junction"
+    title: "Special Entertainment Precincts in Bondi Junction — Waverley Council"
+  - id: sydney-cbd-to-bondi-junction-rome2rio
+    resource: "https://www.rome2rio.com/s/Sydney-CBD/Bondi-Junction"
+    title: "Sydney CBD to Bondi Junction — Rome2Rio"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bondi Junction, NSW — Dental Clinics

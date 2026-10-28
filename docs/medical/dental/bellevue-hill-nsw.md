@@ -8,6 +8,67 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bellevue-hill]
 timestamp: "2026-06-21T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-06-21T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-21T00:00:00Z }
+stale_after: 2026-12-18T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bellevue-hill-nsw-2023-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bellevue-hill-2023-nsw/dentists/310144008"
+    title: "Dentists in Bellevue Hill, NSW 2023 — Healthdirect"
+  - id: mint-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bellevue-hill-2023-nsw/mint-dental-care/dentists/e3ed2c97-665e-efc5-4ca2-43338b9f237c"
+    title: "Mint Dental Care — Healthdirect"
+  - id: mint-dental-care-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/bondi-junction/mint-dental-care/s36702"
+    title: "Mint Dental Care — Healthengine"
+  - id: mint-dental-care-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/mint-dental-care/A11000491"
+    title: "Mint Dental Care — Dentist.com.au"
+  - id: dr-shahin-nourozi-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-shahin-nourozi/C12022534"
+    title: "Dr Shahin Nourozi — Dentist.com.au"
+  - id: bellevue-hill-dental-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bellevue-hill-2023-nsw/bellevue-hill-dental/dentists/b37f7b6d-9a3a-3f89-733e-b4713a8056fd"
+    title: "Bellevue Hill Dental — Healthdirect"
+  - id: bellevue-hill-dental
+    resource: "https://bellevuehilldental.com.au/"
+    title: "Bellevue Hill Dental"
+  - id: bellevue-hill-dental-contact-us
+    resource: "https://bellevuehilldental.com.au/contact-us/"
+    title: "Bellevue Hill Dental — Contact Us"
+  - id: bellevue-hill-dental-meet-the-team
+    resource: "https://bellevuehilldental.com.au/meet-the-team/"
+    title: "Bellevue Hill Dental — Meet the Team"
+  - id: bellevue-hill-dental-services
+    resource: "https://bellevuehilldental.com.au/services/"
+    title: "Bellevue Hill Dental — Services"
+  - id: dr-david-digges
+    resource: "https://bellevuehilldental.com.au/team/dr-david-digges/"
+    title: "Dr David Digges"
+  - id: dr-james-digges
+    resource: "https://bellevuehilldental.com.au/team/dr-james-digges/"
+    title: "Dr James Digges"
+  - id: dr-karen-donnelly
+    resource: "https://bellevuehilldental.com.au/team/dr-karen-donnelly/"
+    title: "Dr Karen Donnelly"
+  - id: bellevue-hill-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bellevue-hill"
+    title: "Bellevue Hill postcode — Australia Post"
+  - id: 2021-bellevue-hill-census-all-persons-quickstats-australian
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10271"
+    title: "2021 Bellevue Hill, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: about-the-profile-areas
+    resource: "https://profile.id.com.au/woollahra/about?WebID=100"
+    title: "About the profile areas"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 # Bellevue Hill, NSW — Dental Clinics
 

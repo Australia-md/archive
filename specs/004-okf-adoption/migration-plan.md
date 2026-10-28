@@ -1,6 +1,6 @@
 # OKF Adoption — Migration Plan & ADR
 
-**Status:** Proposed — §11 schema decisions captured 2026-06-20
+**Status:** v0.1 adopted 2026-06-20 (§1–§11); migrated to **OKF v0.2** 2026-10-28 (§13)
 **Author:** Prepared for James Ho / RxAI
 **Date:** 2026-06-20
 **Scope:** Whether and how to align the Australia.md knowledge layer with the **Open Knowledge Format (OKF) v0.1**
@@ -237,5 +237,65 @@ Target state is **OKF v0.1 conformant**.
 ## 12. Sources
 
 - OKF blog announcement — https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
-- OKF v0.1 specification — https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+- OKF v0.2 specification (current) — https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md (baseline commit `0b87c52`)
+- OKF v0.1 specification (historical; the `okf/` copy is frozen) — https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
 - Repository files verified: `Australia.md`, `.specify/memory/constitution.md`, `.specify/memory/project-context.md`, `HTML_template.md`, `docs/medical.md`, `docs/government.md`, `docs/technology.md`, `docs/indigenous.md`, `docs/medical/dental/*.md`, `.github/scripts/create-content-file.ts`, `src/main.ts`.
+
+---
+
+## 13. OKF v0.2 migration (2026-10-28)
+
+### 13.1 Upstream change **[SPEC] [REPO]**
+
+- OKF **v0.2** is specified in `SPEC.md` at the root of **`GoogleCloudPlatform/open-knowledge-format`**. The spec moved there from `GoogleCloudPlatform/knowledge-catalog` (`okf/`) on 2026-08-21; the old copy is frozen and no longer tracked.
+- Baseline recorded in `.github/okf-standard.lock`: commit `0b87c52c6ef999286c745e19998fdfcd03d5dbee` (2026-08-21T19:31:43Z), the latest commit touching `SPEC.md`. `.github/scripts/check-okf-standard.ts` now watches that file in the new repository. The previous tracking issue (#25) reported only a June README commit in the old repository.
+
+### 13.2 What v0.2 changes **[SPEC §13]**
+
+- **Breaking:** `timestamp` is superseded by `generated.at`; the body `# Citations` list is superseded by the `sources` frontmatter list. Consumers MAY fall back to a legacy `timestamp`.
+- **Additive:** `generated` / `verified` (trust), `status` / `stale_after` (lifecycle), `sources` with per-source credibility signals and `usage_window` (provenance), the actor convention (§7), and the `Attested Computation` type (§10). Every OKF timestamp is an ISO 8601 datetime with an explicit UTC offset (§5).
+- **Conformance (§11)** keeps the same three checks as v0.1 §9. Consumers additionally MUST treat a bare `verified` mapping as a one-element list.
+
+### 13.3 Impact on this bundle **[REPO]**
+
+- The bundle was already v0.2-conformant before this migration: all 95 concepts on `main` carried parseable frontmatter with a non-empty `type`, and only `docs/index.md` carried frontmatter among the `index.md` files.
+- No concept has a `# Citations` heading. Sources live in body tables (`## Data Sources` in dental listings; `## Authoritative Sources` / `## Authoritative Data Sources` in domain overviews), so nothing is retired. The tables stay in the body; `sources` mirrors them.
+- Every `timestamp` already had the form `YYYY-MM-DDT00:00:00Z` (49 unquoted, 46 quoted).
+
+### 13.4 Field mapping (v0.2 field → where its value comes from) **[REPO]**
+
+| Field | Scope | Value derived from |
+|---|---|---|
+| `okf_version: "0.2"` | `docs/index.md` only | — (declaration, §12) |
+| `generated.by` | every concept | `openclaw/dental-cron` for `docs/medical/dental/*-{state}.md`; `human:jamesho` for `docs/*.md`; overrides in §13.5 |
+| `generated.at` | every concept | the file's existing `timestamp`, verbatim |
+| `verified` | dental concepts written by the cron | `{ by: openclaw/dental-cron, at: <last_verified, else timestamp date>T00:00:00Z }` — a machine actor, so the trust tier is **machine-confirmed** (§5.3). No `human:` verification is claimed. |
+| `stale_after` | dental concepts with `verified` | latest `verified.at` + 180 days |
+| `sources[]` | every concept with a source table | one entry per URL in the body source table: `id` = slug of the row's Source text (deduplicated with `-2`, `-3`), `resource` = the URL, `title` = the Source text (plus the link text when a cell holds several links) |
+| `timestamp`, `last_verified` | unchanged | kept for v0.1 consumers during the transition |
+
+Not adopted: `status` (absent ⇒ `stable`, which is accurate), per-source `author` / `usage_count` / `last_modified` / `usage_window` (no recorded data to derive them from), `Attested Computation` (no computed values in the bundle).
+
+### 13.5 Producer attribution **[REPO]**
+
+The dental cron's own output folder (`~/.openclaw/AustraliaMD/docs/medical/dental/`) holds every dental concept in the repository except two, and the cron's first run was 2026-04-05. Those two are attributed to the owner and carry no `verified`, because the cron never confirmed them:
+
+| Concept | Evidence | `generated.by` | `verified` |
+|---|---|---|---|
+| `docs/medical/dental/macquarie-park-nsw.md` | first committed in `f8daa1d` on 2026-03-27 (hand-authored, before the cron existed) | `human:jamesho` | none |
+| `docs/medical/dental/chatswood-nsw.md` | committed in `b9b55d0` on 2026-04-21; the file states it was reconstructed from the published HTML | `human:jamesho` | none |
+
+All other dental concepts — including those first committed by `2ddac35` and by "Australia.md Automation" / "Bot" identities — are present in the cron's output and use `openclaw/dental-cron`.
+
+### 13.6 Tooling **[REPO]**
+
+- **Backfill:** `scripts/okf-v02-backfill.mjs` (`npm run okf:backfill`) adds missing v0.2 fields from each file's own data. It never rewrites a key that is already present (later re-verifications survive), never touches `index.md` / `log.md`, leaves out (with a `WARN`) any `resource` that does not appear verbatim in the body, and is idempotent (`--check` exits 1 if anything would change). `npm run seo:build` runs it first and `npm run seo:check` runs its `--check`, so concepts the nightly job copies in are given their v0.2 fields before publication, whether or not the cron writes them itself.
+- **Readers:** the SEO post-processor, sitemap builder, llms.txt builder and re-verification queue (`scripts/*.mjs`) take a concept's verification date from `scripts/okf-frontmatter.mjs`: the latest `verified[].at`, then `last_verified`, then `timestamp`, then `generated.at`. A bare `verified` mapping counts as a one-element list. Because `verified.at` was derived from `last_verified` / `timestamp`, no published date changed (`npm run seo:check`: "files needing changes: 0"; `sitemap.xml` unchanged).
+- **Writers:** `.github/scripts/create-content-file.ts` emits `generated`, `verified` (only when the workflow names the verifier), `sources` and the legacy keys. `HTML_template.md` §1b documents the dental frontmatter. The OpenClaw cron prompt (outside this repository) needs the matching change. It is drafted in the migration pull request for the owner to apply.
+- **Conformance:** `.github/scripts/check-okf-conformance.ts` (workflow `OKF Conformance`, on pull requests and pushes touching `docs/**`) parses every frontmatter block with a YAML parser and fails on: a concept without parseable frontmatter or a non-empty `type`; frontmatter on any `index.md` except the bundle root, or any key there except `okf_version: "0.2"`; a `log.md` date heading that is not `YYYY-MM-DD`; any OKF timestamp that is not an ISO 8601 datetime with an offset; a malformed `generated` / `verified` / `sources` value or actor.
+
+### 13.7 Open items **[INFERENCE]**
+
+1. Remove the legacy `timestamp` / `last_verified` keys once every consumer (including the cron and any external reader) reads `generated` / `verified`.
+2. `stale_after` uses 180 days, while `scripts/reverify-queue.mjs` defaults to `--min-age-days 90`. The owner may want one policy for both.
+3. `Australia.md` sits outside the bundle root and keeps its v0.1-style frontmatter.

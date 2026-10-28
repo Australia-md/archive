@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, blayney]
 timestamp: "2026-07-26T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-26T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-26T00:00:00Z }
+stale_after: 2027-01-22T00:00:00Z
+sources:
+  - id: 2021-census-quickstats-blayney
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10409"
+    title: "2021 Census QuickStats — Blayney"
+  - id: dentists-in-blayney-nsw-2799-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/blayney-2799-nsw/dentists/310144008"
+    title: "Dentists in Blayney, NSW 2799 — Healthdirect"
+  - id: blayney-dental-surgery-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/blayney/blayney-dental-surgery/s87833"
+    title: "Blayney Dental Surgery — Healthengine"
+  - id: blayney-shire-new-residents-kit
+    resource: "https://www.blayney.nsw.gov.au/ArticleDocuments/258/Blayney%20Shire%20New%20Residents%20Kit%20updated%2031102018.pdf.aspx"
+    title: "Blayney Shire New Residents' Kit"
+  - id: blayney-shire-council-contact-page
+    resource: "https://www.blayney.nsw.gov.au/council/contacts/contact-council"
+    title: "Blayney Shire Council contact page"
+  - id: blayney-station-transport-for-nsw
+    resource: "https://transportnsw.info/stop?q=27991"
+    title: "Blayney Station — Transport for NSW"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Blayney, NSW — Dental Clinics

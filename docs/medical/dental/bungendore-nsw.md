@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bungendore]
 timestamp: "2026-09-29T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-29T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-29T00:00:00Z }
+stale_after: 2027-03-28T00:00:00Z
+sources:
+  - id: bungendore-dental-surgery
+    resource: "https://www.bungendoredentalsurgery.com.au/"
+    title: "Bungendore Dental Surgery"
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au/australian-health-services"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au"
+    title: "Word of Mouth Australia"
+  - id: queanbeyan-palerang-regional-council
+    resource: "https://www.queanbeyanpalerang.com.au/see-and-do/bungendore/"
+    title: "Queanbeyan-Palerang Regional Council"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bungendore, NSW — Dental Clinics

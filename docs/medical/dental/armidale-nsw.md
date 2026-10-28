@@ -10,6 +10,37 @@ postcode: "2350"
 state: nsw
 lga: "Armidale Regional Council"
 last_verified: "2026-05-03"
+generated: { by: openclaw/dental-cron, at: 2026-05-03T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-03T00:00:00Z }
+stale_after: 2026-10-30T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth
+    resource: "https://www.wordofmouth.com.au"
+    title: "Word of Mouth"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: maven-dental-armidale
+    resource: "https://mavendental.com.au/dentists/maven-dental-armidale/"
+    title: "Maven Dental Armidale"
+  - id: markham-street-dental
+    resource: "https://www.markhamstdental.com.au/"
+    title: "Markham Street Dental"
+  - id: wikipedia-armidale
+    resource: "https://en.wikipedia.org/wiki/Armidale"
+    title: "Wikipedia — Armidale"
 ---
 
 # Armidale, NSW — Dental Clinics

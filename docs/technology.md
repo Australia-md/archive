@@ -5,6 +5,29 @@ description: "Australia has a growing technology and innovation ecosystem."
 resource: "https://www.industry.gov.au"
 tags: [technology]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: disr-ai-ethics-principles
+    resource: "https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles"
+    title: "DISR — AI Ethics Principles"
+  - id: csiro
+    resource: "https://www.csiro.au"
+    title: "CSIRO"
+  - id: australian-cyber-security-centre
+    resource: "https://www.cyber.gov.au"
+    title: "Australian Cyber Security Centre"
+  - id: nbn-co
+    resource: "https://www.nbnco.com.au"
+    title: "NBN Co"
+  - id: digital-transformation-agency-dta
+    resource: "https://www.dta.gov.au"
+    title: "Digital Transformation Agency (DTA)"
+  - id: startupaus-tech-industry-body
+    resource: "https://startupaus.org"
+    title: "StartupAus (tech industry body)"
+  - id: rxai-practitioner-ai-workflow-commentary
+    resource: "https://rxai.com.au/blog.html"
+    title: "RxAI — practitioner AI workflow commentary"
 ---
 
 # Technology & AI Sector of Australia

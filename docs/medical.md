@@ -5,6 +5,29 @@ description: "Australia operates a universal public healthcare system called Med
 resource: "https://www.ahpra.gov.au"
 tags: [medical]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: ahpra-practitioner-register
+    resource: "https://www.ahpra.gov.au"
+    title: "AHPRA — Practitioner Register"
+  - id: services-australia-medicare
+    resource: "https://www.servicesaustralia.gov.au/medicare"
+    title: "Services Australia — Medicare"
+  - id: department-of-health-and-aged-care
+    resource: "https://www.health.gov.au"
+    title: "Department of Health and Aged Care"
+  - id: pharmaceutical-benefits-scheme-pbs
+    resource: "https://www.pbs.gov.au"
+    title: "Pharmaceutical Benefits Scheme (PBS)"
+  - id: australian-institute-of-health-and-welfare-aihw
+    resource: "https://www.aihw.gov.au"
+    title: "Australian Institute of Health and Welfare (AIHW)"
+  - id: myhospitals-aihw
+    resource: "https://www.aihw.gov.au/reports-data/myhospitals"
+    title: "MyHospitals (AIHW)"
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
 ---
 
 # Medical & Healthcare System of Australia

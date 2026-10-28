@@ -8,6 +8,58 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, byron-bay]
 timestamp: "2026-10-11T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-11T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-11T00:00:00Z }
+stale_after: 2027-04-09T00:00:00Z
+sources:
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/byron-bay"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10731"
+    title: "ABS 2021 Census QuickStats"
+  - id: byron-shire-council
+    resource: "https://www.byron.nsw.gov.au/Home"
+    title: "Byron Shire Council"
+  - id: visit-nsw-most-easterly-point
+    resource: "https://www.visitnsw.com/destinations/north-coast/byron-bay-area/byron-bay/hire/most-easterly-point"
+    title: "Visit NSW — Most Easterly Point"
+  - id: healthdirect-australia-byron-bay-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/byron-bay-2481-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Byron Bay dentists"
+  - id: healthdirect-bytes-of-byron-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/byron-bay-2481-nsw/bytes-of-byron-dental-pty-ltd/dentists/c683e3ca-a314-1f8b-e55b-f285ba849d88"
+    title: "Healthdirect — Bytes Of Byron Dental"
+  - id: healthdirect-byron-family-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/byron-bay-2481-nsw/byron-family-dental/dentists/c26ebe40-1579-42a6-3b3b-2df08a04f188"
+    title: "Healthdirect — Byron Family Dental"
+  - id: healthdirect-national-dental-care
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/byron-bay-2481-nsw/national-dental-care/dentists/4b61e9db-00f0-7638-0a04-e497f5119a25"
+    title: "Healthdirect — National Dental Care"
+  - id: healthdirect-dr-john-patterson-dental-surgery
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/byron-bay-2481-nsw/dr-john-patterson-dental-surgery/dentists/0dc0f052-fef0-0d0d-52e2-f86de5c67360"
+    title: "Healthdirect — Dr John Patterson Dental Surgery"
+  - id: healthdirect-byron-bay-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/byron-bay-2481-nsw/byron-bay-dental/dentists/3bf3cd33-3f42-4ddf-9694-d8ed2c2c45bb"
+    title: "Healthdirect — Byron Bay Dental"
+  - id: byron-family-dental
+    resource: "https://byronfamilydental.com.au/"
+    title: "Byron Family Dental"
+  - id: bytes-dental
+    resource: "https://bytesdental.com.au/"
+    title: "Bytes Dental"
+  - id: national-dental-care
+    resource: "https://www.nationaldentalcare.com.au/"
+    title: "National Dental Care"
+  - id: byron-bay-dental
+    resource: "https://www.byronbaydental.com/"
+    title: "Byron Bay Dental"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Byron Bay, NSW — Dental Clinics

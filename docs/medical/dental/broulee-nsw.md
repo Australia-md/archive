@@ -8,6 +8,40 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, broulee]
 timestamp: "2026-09-13T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-13T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-13T00:00:00Z }
+stale_after: 2027-03-12T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth
+    resource: "https://www.wordofmouth.com.au"
+    title: "Word of Mouth"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/broulee"
+    title: "Australia Post postcode finder"
+  - id: australian-bureau-of-statistics-2021-census-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10605"
+    title: "Australian Bureau of Statistics, 2021 Census QuickStats"
+  - id: visit-nsw
+    resource: "https://www.visitnsw.com/destinations/south-coast/batemans-bay-and-eurobodalla/broulee"
+    title: "Visit NSW"
+  - id: tidy-tooth-dental-broulee
+    resource: "https://tidytooth.com.au/locations/broulee"
+    title: "Tidy Tooth Dental — Broulee"
 ---
 
 # Broulee, NSW — Dental Clinics

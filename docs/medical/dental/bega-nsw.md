@@ -10,6 +10,58 @@ postcode: "2550"
 state: nsw
 lga: "Bega Valley Shire"
 last_verified: "2026-06-16"
+generated: { by: openclaw/dental-cron, at: 2026-06-16T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-16T00:00:00Z }
+stale_after: 2026-12-13T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bega-nsw-2550-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bega-2550-nsw/dentists/310144008"
+    title: "Dentists in Bega, NSW 2550 — Healthdirect"
+  - id: bega-dental-surgery-laboratory-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bega-2550-nsw/bega-dental-surgery-laboratory/dentists/ab1a7d35-f98a-e27d-be22-f77d1e6f8df9"
+    title: "Bega Dental Surgery & Laboratory — Healthdirect"
+  - id: bega-dental-practice
+    resource: "https://begadentalpractice.com.au/"
+    title: "Bega Dental Practice"
+  - id: bega-dental-practice-our-team
+    resource: "https://begadentalpractice.com.au/about-us/our-team/"
+    title: "Bega Dental Practice — Our Team"
+  - id: bega-dental-practice-our-practice
+    resource: "https://begadentalpractice.com.au/about-us/our-practice/"
+    title: "Bega Dental Practice — Our Practice"
+  - id: bega-dental
+    resource: "https://www.begadental.com.au/"
+    title: "Bega Dental"
+  - id: about-bega-dental
+    resource: "https://www.begadental.com.au/about"
+    title: "About Bega Dental"
+  - id: bega-dental-services
+    resource: "https://www.begadental.com.au/services"
+    title: "Bega Dental — Services"
+  - id: bega-dental-contacts
+    resource: "https://www.begadental.com.au/contacts"
+    title: "Bega Dental — Contacts"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/bega"
+    title: "Australia Post postcode search"
+  - id: 2021-bega-census-all-persons-quickstats-australian-bureau
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10253"
+    title: "2021 Bega, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: about-the-bega-valley-shire
+    resource: "https://www.begavalley.nsw.gov.au/Our-Community/Our-Shire/About-the-bega-valley-shire"
+    title: "About the Bega Valley Shire"
+  - id: getting-here
+    resource: "https://civiccentre.begavalley.nsw.gov.au/Your-Visit/Getting-here"
+    title: "Getting here"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bega, NSW — Dental Clinics

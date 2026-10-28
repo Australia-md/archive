@@ -8,6 +8,43 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bondi]
 timestamp: "2026-08-06T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-06T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-06T00:00:00Z }
+stale_after: 2027-02-02T00:00:00Z
+sources:
+  - id: dentists-in-bondi-nsw-2026-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bondi-2026-nsw/dentists/310144008"
+    title: "Dentists in Bondi, NSW 2026 — Healthdirect"
+  - id: bondi-family-dentist-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-2026-nsw/bondi-family-dentist/dentists/e37baec4-8385-9f9c-2448-ac2b3f32bc07"
+    title: "Bondi Family Dentist — Healthdirect"
+  - id: bondi-family-dentist
+    resource: "https://bondifamilydentist.com/"
+    title: "Bondi Family Dentist"
+  - id: meet-our-dentists-oral-hygienist-team
+    resource: "https://bondifamilydentist.com/meet-our-family/"
+    title: "Meet Our Dentists & Oral Hygienist & Team"
+  - id: say-hello-contact-bondi-family-dentist
+    resource: "https://bondifamilydentist.com/say-hello/"
+    title: "Say Hello - Contact Bondi Family Dentist"
+  - id: browse-our-dental-services-in-bondi
+    resource: "https://bondifamilydentist.com/our-services/"
+    title: "Browse Our Dental Services in Bondi"
+  - id: bondi-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bondi"
+    title: "Bondi postcode — Australia Post"
+  - id: 2021-census-quickstats-bondi
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10462"
+    title: "2021 Census QuickStats — Bondi"
+  - id: about-us-waverley-council
+    resource: "https://www.waverley.nsw.gov.au/top/about_us"
+    title: "About Us — Waverley Council"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bondi, NSW — Dental Clinics

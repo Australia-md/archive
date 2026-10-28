@@ -8,6 +8,8 @@ interface FrontmatterFileContent {
   lastVerified: string;
   submissionIssue: string;
   ahpraStatus: string;
+  /** OKF actor that confirmed the content (e.g. `process:verify-submission`); '' when nothing did. */
+  verifiedBy: string;
   content: string;
 }
 
@@ -45,7 +47,12 @@ function getFirstHeading(content: string): string {
   return 'Untitled submission';
 }
 
-// --- OKF v0.1 frontmatter (see .specify/memory/constitution.md -> "Knowledge Format (OKF)") ---
+// --- OKF v0.2 frontmatter (see .specify/memory/constitution.md -> "Knowledge Format (OKF)") ---
+
+/** The pipeline writes the file around the submitter's text, so it is the `generated.by` actor. */
+const GENERATED_BY = 'process:submission-pipeline';
+/** OKF §7 actor convention: `<producer>/<version>`, `human:<id>` or `process:<id>`. */
+const OKF_ACTOR = /^(?:human|process):[A-Za-z0-9._-]+$|^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
 
 function yamlStr(value: string): string {
   return `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
@@ -88,7 +95,7 @@ function stripLeadingFrontmatter(content: string): string {
 }
 
 function buildFileContent(data: FrontmatterFileContent): string {
-  // OKF v0.1 requires a non-empty `type`; everything else is recommended/extension.
+  // OKF requires a non-empty `type`; everything else is recommended/extension.
   // Auto-convert: strip any frontmatter the submitter included, then prepend our canonical block.
   const body = stripLeadingFrontmatter(data.content);
   const conceptType = data.category.trim() || 'Reference';
@@ -104,7 +111,18 @@ function buildFileContent(data: FrontmatterFileContent): string {
     lines.push(`resource: ${yamlStr(data.sourceUrl)}`);
   }
   lines.push(`tags: [${tag}]`);
-  lines.push(`timestamp: ${data.lastVerified}T00:00:00Z`);
+  const at = `${data.lastVerified}T00:00:00Z`;
+  // OKF v0.2 §5.2 trust and §5.1 provenance. `verified` is written only when the calling
+  // workflow names who confirmed the content; an unnamed check is left unverified.
+  lines.push(`generated: { by: ${GENERATED_BY}, at: ${at} }`);
+  if (data.verifiedBy) {
+    lines.push(`verified: { by: ${data.verifiedBy}, at: ${at} }`);
+  }
+  if (data.sourceUrl) {
+    lines.push('sources:', '  - id: submission-source', `    resource: ${yamlStr(data.sourceUrl)}`);
+  }
+  // Legacy v0.1 key, kept during the v0.1 -> v0.2 transition (superseded by `generated.at`).
+  lines.push(`timestamp: ${at}`);
   // Producer extension keys (preserved by OKF consumers):
   lines.push(`category: ${yamlStr(data.category)}`);
   lines.push(`ahpra_status: ${yamlStr(data.ahpraStatus)}`);
@@ -212,9 +230,14 @@ async function run(): Promise<void> {
   const contentPath = process.env['CONTENT_PATH'];
   const sourceUrl = process.env['SOURCE_URL'];
   const repository = process.env['GITHUB_REPOSITORY'];
+  const verifiedBy = (process.env['VERIFIED_BY'] ?? '').trim();
 
   if (!token || !issueNumberRaw || !content || !category || !contentPath || !sourceUrl || !repository) {
     throw new Error('Missing required environment variables');
+  }
+
+  if (verifiedBy && !OKF_ACTOR.test(verifiedBy)) {
+    throw new Error(`VERIFIED_BY must be an OKF actor (human:<id>, process:<id> or <producer>/<version>); got "${verifiedBy}"`);
   }
 
   const issueNumber = Number(issueNumberRaw);
@@ -280,6 +303,7 @@ async function run(): Promise<void> {
     lastVerified: dateStamp,
     submissionIssue: String(issueNumber),
     ahpraStatus: 'unverified',
+    verifiedBy,
     content,
   });
 

@@ -10,6 +10,25 @@ postcode: "2560"
 state: nsw
 lga: "City of Campbelltown"
 last_verified: "2026-04-20"
+generated: { by: openclaw/dental-cron, at: 2026-04-20T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-04-20T00:00:00Z }
+stale_after: 2026-10-17T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: tharawal-aboriginal-corporation-contact
+    resource: "https://tacams.com.au/contact/"
+    title: "Tharawal Aboriginal Corporation — Contact"
+  - id: tharawal-aboriginal-corporation-dental-clinic
+    resource: "https://tacams.com.au/primary-health-care/medical/dental-clinic/"
+    title: "Tharawal Aboriginal Corporation — Dental Clinic"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Airds, NSW — Dental Clinics

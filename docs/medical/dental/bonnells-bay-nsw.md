@@ -8,6 +8,43 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bonnells-bay]
 timestamp: "2026-08-08T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-08T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-08T00:00:00Z }
+stale_after: 2027-02-04T00:00:00Z
+sources:
+  - id: healthengine-bonnells-bay-dental
+    resource: "https://healthengine.com.au/dentist/nsw/bonnells-bay/bonnells-bay-dental/s91146"
+    title: "Healthengine — Bonnells Bay Dental"
+  - id: yellow-pages-bonnells-bay-dental
+    resource: "https://www.yellowpages.com.au/bonnells-bay-nsw/bpp/bonnells-bay-dental-580285550"
+    title: "Yellow Pages — Bonnells Bay Dental"
+  - id: bonnells-bay-dental
+    resource: "https://bonnellsbaydental.com.au/"
+    title: "Bonnells Bay Dental"
+  - id: bonnells-bay-dental-contact-us
+    resource: "https://bonnellsbaydental.com.au/contact-us/"
+    title: "Bonnells Bay Dental — Contact Us"
+  - id: bonnells-bay-dental-our-dentists
+    resource: "https://bonnellsbaydental.com.au/our-practitioners/"
+    title: "Bonnells Bay Dental — Our Dentists"
+  - id: dr-ned-restom
+    resource: "https://bonnellsbaydental.com.au/team-showcase/dr-ned-restom/"
+    title: "Dr Ned Restom"
+  - id: dr-caitlin-deveridge
+    resource: "https://bonnellsbaydental.com.au/team-showcase/dr-caitlin-deveridge/"
+    title: "Dr Caitlin Deveridge"
+  - id: 2021-census-quickstats-bonnells-bay
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10466"
+    title: "2021 Census QuickStats — Bonnells Bay"
+  - id: lake-macquarie-city-council-wards
+    resource: "https://www.lakemac.com.au/Our-Council/Councillors-and-wards/Wards"
+    title: "Lake Macquarie City Council — Wards"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bonnells Bay, NSW — Dental Clinics

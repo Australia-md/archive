@@ -8,6 +8,58 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, camden]
 timestamp: "2026-10-22T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-22T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-22T00:00:00Z }
+stale_after: 2027-04-20T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/camden-2570-nsw/dentists/310144008"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au/find/dentist/NSW/Camden-2570"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/camden-nsw-2570/dentists"
+    title: "Yellow Pages Australia"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/camden"
+    title: "Australia Post postcode finder"
+  - id: camden-council-suburb-maps
+    resource: "https://www.camden.nsw.gov.au/community/community-information/suburb-maps"
+    title: "Camden Council — suburb maps"
+  - id: camden-council-town-centre-paper
+    resource: "https://www.camden.nsw.gov.au/assets/pdfs/Major-Developments/Camden-Town-Centre-Urban-Design-Framework/Camden-Town-Centre-Opportunities-and-Issues-Paper-Final-April-2015.PDF"
+    title: "Camden Council — town-centre paper"
+  - id: camden-family-dental
+    resource: "https://camdenfamilydental.com.au/"
+    title: "Camden Family Dental"
+  - id: camden-dental-centre
+    resource: "https://www.camdendental.com.au/"
+    title: "Camden Dental Centre"
+  - id: camden-truong-dental-surgery
+    resource: "https://www.camdentruongdentalsurgery.com.au/"
+    title: "Camden Truong Dental Surgery"
+  - id: aesthetic-dental-clinic-camden
+    resource: "https://aestheticdentalclinic.com.au/location/camden-clinic/"
+    title: "Aesthetic Dental Clinic Camden"
+  - id: clearly-dental-camden
+    resource: "https://www.clearlydental.com.au/locations/camden"
+    title: "Clearly Dental Camden"
+  - id: camden-orthodontics-and-dental-specialists
+    resource: "https://www.smilesgroup.com/where/camden-orthodontics-and-dental-specialists"
+    title: "Camden Orthodontics and Dental Specialists"
+  - id: macarthur-paediatric-dentistry
+    resource: "https://healthengine.com.au/dentist/nsw/camden/macarthur-paediatric-dentistry/s88453"
+    title: "Macarthur Paediatric Dentistry"
+  - id: macarthur-smiles-dental-care
+    resource: "https://healthengine.com.au/dentist/nsw/camden/macarthur-smiles-dental-care/s74188"
+    title: "Macarthur Smiles Dental Care"
 ---
 
 # Camden, NSW — Dental Clinics

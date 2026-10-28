@@ -10,6 +10,46 @@ postcode: "2205"
 state: nsw
 lga: "Bayside Council"
 last_verified: "2026-05-04"
+generated: { by: openclaw/dental-cron, at: 2026-05-04T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-04T00:00:00Z }
+stale_after: 2026-10-31T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dr-ali-bazzi-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/arncliffe-2205-nsw/dr-ali-bazzi-dental-surgery/dentists/2481549a-b9a4-54a2-e73f-0ee2069960cf"
+    title: "Dr Ali Bazzi Dental Surgery — Healthdirect"
+  - id: arncliffe-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/arncliffe-2205-nsw/arncliffe-dental-care/dentists/d136756a-d90c-75a9-30e1-5f7176dfab8f"
+    title: "Arncliffe Dental Care — Healthdirect"
+  - id: arncliffe-dental-care
+    resource: "https://www.arncliffedentalcare.com.au/"
+    title: "Arncliffe Dental Care"
+  - id: arncliffe-dental-care-about-us
+    resource: "https://www.arncliffedentalcare.com.au/about-us/"
+    title: "Arncliffe Dental Care — About Us"
+  - id: arncliffe-dental-care-treatments
+    resource: "https://www.arncliffedentalcare.com.au/treatments/"
+    title: "Arncliffe Dental Care — Treatments"
+  - id: arncliffe-dental-care-contact-us
+    resource: "https://www.arncliffedentalcare.com.au/contact-us/"
+    title: "Arncliffe Dental Care — Contact Us"
+  - id: dr-ali-bazzi-dental-surgery-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/arncliffe/dr-ali-bazzi-dental-surgery/A11004835"
+    title: "Dr Ali Bazzi Dental Surgery — Dentist.com.au"
+  - id: arncliffe-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/arncliffe"
+    title: "Arncliffe Postcode — Australia Post"
+  - id: wikipedia-arncliffe-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Arncliffe,_New_South_Wales"
+    title: "Wikipedia — Arncliffe, New South Wales"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Arncliffe, NSW — Dental Clinics

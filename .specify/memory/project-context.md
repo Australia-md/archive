@@ -64,9 +64,9 @@ Each entry in `sitemap.xml` must include `<loc>`, `<lastmod>` (YYYY-MM-DD), `<ch
 - Main category pages: `0.8`
 - Sub-pages: `0.6`
 
-## Open Knowledge Format (OKF v0.1)
+## Open Knowledge Format (OKF v0.2)
 
-The `docs/` tree is an **OKF v0.1 knowledge bundle** (bundle root = `docs/`). Every concept file (all `.md` except reserved `index.md` / `log.md`) begins with a YAML frontmatter block.
+The `docs/` tree is an **OKF v0.2 knowledge bundle** (bundle root = `docs/`). Every concept file (all `.md` except reserved `index.md` / `log.md`) begins with a YAML frontmatter block.
 
 **Frontmatter schema**
 
@@ -77,11 +77,15 @@ The `docs/` tree is an **OKF v0.1 knowledge bundle** (bundle root = `docs/`). Ev
 | `description` | rec | one-sentence summary |
 | `resource` | rec | canonical authoritative source URI |
 | `tags` | rec | e.g. `[dental, nsw, chatswood]` |
-| `timestamp` | rec | ISO 8601 datetime |
+| `generated` | v0.2 | `{ by: <actor>, at: <ISO 8601 datetime> }` — who wrote the content and when; `at` supersedes `timestamp` |
+| `verified` | v0.2 | `{ by, at }` or a list — each confirmation; latest `at` wins. Dental cron: `openclaw/dental-cron` (machine-confirmed) |
+| `stale_after` | v0.2 | ISO 8601 datetime; dental listings = latest `verified.at` + 180 days |
+| `sources` | v0.2 | `[{ id, resource, title }]` mirroring the body Data Sources table (body table stays) |
+| `timestamp` | legacy | ISO 8601 datetime; kept during the v0.1 → v0.2 transition |
 | `suburb`, `postcode`, `state`, `lga` | ext | location files |
 | `last_verified` | ext | date mirror of "Last Verified" (also kept visible in body) |
 | `ahpra_status`, `category`, `submission_issue` | ext | pipeline-generated files |
 
-**Reserved files:** `index.md` — directory listing for progressive disclosure; only the bundle-root `docs/index.md` may carry frontmatter (`okf_version: "0.1"`). `log.md` — change history. Concepts cross-link with standard **relative** Markdown links (GitHub-compatible).
+**Reserved files:** `index.md` — directory listing for progressive disclosure; only the bundle-root `docs/index.md` may carry frontmatter (`okf_version: "0.2"`). `log.md` — change history. Concepts cross-link with standard **relative** Markdown links (GitHub-compatible).
 
 Full schema, field mapping, and migration record: [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).

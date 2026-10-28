@@ -10,6 +10,49 @@ postcode: "2064"
 state: nsw
 lga: "City of Willoughby"
 last_verified: "2026-05-05"
+generated: { by: openclaw/dental-cron, at: 2026-05-05T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-05T00:00:00Z }
+stale_after: 2026-11-01T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-artarmon-nsw-2064-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/artarmon-2064-nsw/dentists/310144008"
+    title: "Dentists in Artarmon, NSW 2064 — Healthdirect"
+  - id: no-gaps-dental-artarmon-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/artarmon-2064-nsw/no-gaps-dental-artarmon/dentists/15c263d4-b990-8a23-905f-4ab2ea5f950d"
+    title: "No Gaps Dental - Artarmon — Healthdirect"
+  - id: no-gaps-dental-artarmon
+    resource: "https://www.nogapsdental.com/location/dentist-artarmon/"
+    title: "No Gaps Dental Artarmon"
+  - id: no-gaps-dental-artarmon-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/no-gaps-dental-artarmon/A11003812"
+    title: "No Gaps Dental Artarmon — Dentist.com.au"
+  - id: artarmon-fine-dental-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/artarmon-2064-nsw/artarmon-fine-dental/dentists/e488eb97-7589-212c-e9a6-1dc2af968ee0"
+    title: "Artarmon Fine Dental — Healthdirect"
+  - id: artarmon-fine-dental
+    resource: "https://artarmonfinedental.com.au/"
+    title: "Artarmon Fine Dental"
+  - id: artarmon-fine-dental-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/artarmon/artarmon-fine-dental/s36587"
+    title: "Artarmon Fine Dental — Healthengine"
+  - id: dr-mark-chung-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/artarmon/dr-mark-chung/p34457"
+    title: "Dr Mark Chung — Healthengine"
+  - id: artarmon-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/artarmon"
+    title: "Artarmon Postcode — Australia Post"
+  - id: wikipedia-artarmon-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Artarmon,_New_South_Wales"
+    title: "Wikipedia — Artarmon, New South Wales"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Artarmon, NSW — Dental Clinics

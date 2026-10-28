@@ -8,6 +8,49 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, busby]
 timestamp: "2026-10-08T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-08T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-08T00:00:00Z }
+stale_after: 2027-04-06T00:00:00Z
+sources:
+  - id: supreme-dental-busby
+    resource: "https://supreme-dental.com.au/contact"
+    title: "Supreme Dental Busby"
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/busby-2168-nsw/dentists/310144008"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/busby/supreme-dental-busby/s67315"
+    title: "HealthEngine"
+  - id: australia-post
+    resource: "https://auspost.com.au/postcode/busby"
+    title: "Australia Post"
+  - id: liverpool-city-council-library
+    resource: "https://mylibrary.liverpool.nsw.gov.au/history/ourstories/suburbs-of-liverpool/busby"
+    title: "Liverpool City Council Library"
+  - id: busby-suburb-profile
+    resource: "https://www.inthesuburbs.com.au/suburb/busby-nsw-2168.html"
+    title: "Busby suburb profile"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentists/busby-nsw-2168"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/busby/dentists"
+    title: "Word of Mouth Australia"
+  - id: google-maps
+    resource: "https://www.google.com/maps/search/dental+clinic+busby+NSW+2168"
+    title: "Google Maps"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/busby-2168"
+    title: "HotDoc"
+  - id: nps-medicinewise-findahealthservice
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / FindAHealthService"
 ---
 
 # Busby, NSW — Dental Clinics

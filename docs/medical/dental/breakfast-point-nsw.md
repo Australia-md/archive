@@ -8,6 +8,37 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, breakfast-point]
 timestamp: "2026-09-01T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-01T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-01T00:00:00Z }
+stale_after: 2027-02-28T00:00:00Z
+sources:
+  - id: breakfast-point-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/breakfast-point"
+    title: "Breakfast Point postcode - Australia Post"
+  - id: our-places-city-of-canada-bay-council
+    resource: "https://www.canadabay.nsw.gov.au/lifestyle/our-area/our-places"
+    title: "Our places - City of Canada Bay Council"
+  - id: breakfast-point-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Breakfast_Point"
+    title: "Breakfast Point - Wikipedia"
+  - id: canada-bay-dental-healthdirect-search-result
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/breakfast-point-2137-nsw/dentists/310144008"
+    title: "Canada Bay Dental - Healthdirect search result"
+  - id: canada-bay-dental-healthdirect-service-profile
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/breakfast-point-2137-nsw/canada-bay-dental/dentists/7fcc019e-9eeb-ae74-3ffa-e9a498c21622"
+    title: "Canada Bay Dental - Healthdirect service profile"
+  - id: canada-bay-dental-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/breakfast-point/canada-bay-dental/s48229"
+    title: "Canada Bay Dental - Healthengine"
+  - id: canada-bay-dental-and-dermal-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/canada-bay-dental-and-dermal/A11004839"
+    title: "Canada Bay Dental and Dermal - Dentist.com.au"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Breakfast Point, NSW — Dental Clinics

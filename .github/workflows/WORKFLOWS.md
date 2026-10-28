@@ -11,6 +11,7 @@ There are three workflows. Two are triggered by GitHub Issue events (the submiss
 | [`verify-submission.yml`](#verify-submissionyml) | Issue **opened** with `submission` label | AI fact-checks the submission and creates a file + PR or rejects it |
 | [`admin-override.yml`](#admin-overrideyml) | Issue **labeled** with `Verified` or `Rejected` | Lets an authorised admin manually accept or reject a submission |
 | `okf-standard-watch.yml` | **Schedule** (weekly) + `workflow_dispatch` | Checks the upstream OKF standard repo for changes; opens a tracking issue if it moved |
+| `okf-conformance.yml` | **Pull request** / **push to `main`** touching `docs/**` or `.github/scripts/**` + `workflow_dispatch` | Type-checks the scripts and runs the OKF v0.2 conformance check on `docs/**` |
 
 ---
 

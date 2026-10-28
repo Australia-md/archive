@@ -11,6 +11,7 @@
 // Files in <handoff>: reverify-next.json (written/removed by `next`), reverify-log.json (appended by `record`).
 import { readFileSync, writeFileSync, readdirSync, existsSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
+import { verificationDate } from './okf-frontmatter.mjs';
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -51,7 +52,7 @@ for (const f of readdirSync(DOCS)) {
   const raw = readFileSync(join(DOCS, f), 'utf8');
   const fm = (raw.match(/^---\r?\n([\s\S]*?)\r?\n---/) || [, ''])[1];
   const get = (k) => ((fm.match(new RegExp(`^${k}:\\s*"?([^"\\n]*)"?`, 'm')) || [])[1] || '').trim();
-  const date = (get('last_verified') || get('timestamp')).slice(0, 10);
+  const date = verificationDate(fm); // latest verified[].at, else last_verified, else timestamp
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) continue;
   const key = `${m[1]}-${m[2]}`;
   if (recent.has(key)) continue;

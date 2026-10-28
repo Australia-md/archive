@@ -10,6 +10,20 @@ postcode: "2067"
 state: nsw
 lga: "City of Willoughby"
 last_verified: "2026-03-30"
+generated: { by: human:jamesho, at: 2026-03-30T00:00:00Z }
+sources:
+  - id: services-australia-child-dental-benefits-schedule
+    resource: "https://www.servicesaustralia.gov.au/child-dental-benefits-schedule"
+    title: "Services Australia — Child Dental Benefits Schedule"
+  - id: ahpra-register-of-practitioners
+    resource: "https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx"
+    title: "AHPRA Register of Practitioners"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: dentist-com-au-third-party-practitioner-directory-k-family
+    resource: "https://dentist.com.au"
+    title: "dentist.com.au (third-party practitioner directory — K Family Dental roster)"
 ---
 
 # Chatswood, NSW — Dental Clinics

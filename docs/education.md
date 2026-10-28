@@ -5,6 +5,26 @@ description: "Education in Australia is the joint responsibility of the federal 
 resource: "https://www.education.gov.au"
 tags: [education]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: department-of-education
+    resource: "https://www.education.gov.au"
+    title: "Department of Education"
+  - id: australian-qualifications-framework
+    resource: "https://www.aqf.edu.au"
+    title: "Australian Qualifications Framework"
+  - id: teqsa
+    resource: "https://www.teqsa.gov.au"
+    title: "TEQSA"
+  - id: my-skills-vet-search
+    resource: "https://www.myskills.gov.au"
+    title: "My Skills (VET search)"
+  - id: study-in-australia-international-students
+    resource: "https://www.studyinaustralia.gov.au"
+    title: "Study in Australia (international students)"
+  - id: naplan-results
+    resource: "https://www.acara.edu.au/reporting/national-report-on-schooling"
+    title: "NAPLAN results"
 ---
 
 # Education System of Australia

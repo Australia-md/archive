@@ -8,6 +8,46 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, broken-hill]
 timestamp: "2026-09-09T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-09T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-09T00:00:00Z }
+stale_after: 2027-03-08T00:00:00Z
+sources:
+  - id: healthdirect-australia-broken-hill-dentist-search
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/broken-hill-2880-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Broken Hill dentist search"
+  - id: healthdirect-australia-the-dental-centre
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broken-hill-2880-nsw/the-dental-centre/dentists/9f01d66c-fc0b-47c4-1ee8-ff857972f88d"
+    title: "Healthdirect Australia — The Dental Centre"
+  - id: healthdirect-australia-barrier-dental-clinic
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broken-hill-2880-nsw/barrier-dental-clinic/dentists/dc4f42ff-9df9-0f3b-592c-51bceeb89f74"
+    title: "Healthdirect Australia — Barrier Dental Clinic"
+  - id: healthdirect-australia-go-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broken-hill-2880-nsw/go-dental/dentists/3320cacf-52ea-2e7d-ee7c-f2a42baccb2f"
+    title: "Healthdirect Australia — Go Dental"
+  - id: the-dental-centre
+    resource: "https://thedentalcentre.com.au/"
+    title: "The Dental Centre"
+  - id: healthengine
+    resource: "https://healthengine.com.au/find/dentist/NSW/Broken-Hill-2880"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentist/broken-hill-nsw-2880"
+    title: "Yellow Pages Australia"
+  - id: dentist-com-au-broken-hill-listings
+    resource: "https://www.dentist.com.au/dentist/nsw/broken-hill"
+    title: "Dentist.com.au — Broken Hill listings"
+  - id: broken-hill-city-council
+    resource: "https://www.brokenhill.nsw.gov.au/Community/About-the-city/Profile-Broken-Hill"
+    title: "Broken Hill City Council"
+  - id: australian-bureau-of-statistics-census-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/LGA11250"
+    title: "Australian Bureau of Statistics Census QuickStats"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Broken Hill, NSW — Dental Clinics

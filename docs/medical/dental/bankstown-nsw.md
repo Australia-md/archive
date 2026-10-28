@@ -10,6 +10,61 @@ postcode: "2200"
 state: nsw
 lga: "City of Canterbury-Bankstown"
 last_verified: "2026-05-27"
+generated: { by: openclaw/dental-cron, at: 2026-05-27T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-27T00:00:00Z }
+stale_after: 2026-11-23T00:00:00Z
+sources:
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/bankstown"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10181"
+    title: "Australian Bureau of Statistics — 2021 Census QuickStats, Bankstown"
+  - id: wikipedia-bankstown
+    resource: "https://en.wikipedia.org/wiki/Bankstown"
+    title: "Wikipedia — Bankstown"
+  - id: perfection-dental
+    resource: "https://perfectiondental.com.au/"
+    title: "Perfection Dental"
+  - id: dentist-com-au-perfection-dental
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/bankstown/perfection-dental/A25019942"
+    title: "Dentist.com.au — Perfection Dental"
+  - id: looks-wow-dental-clinic
+    resource: "https://www.lookswowdentalclinic.com.au/"
+    title: "Looks Wow Dental Clinic"
+  - id: dentist-com-au-looks-wow-dental-clinic
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/bankstown/looks-wow-dental-clinic/A24019713"
+    title: "Dentist.com.au — Looks Wow Dental Clinic"
+  - id: smile-dental-bankstown
+    resource: "https://www.smiledentalbankstown.com.au/"
+    title: "Smile Dental Bankstown"
+  - id: smile-dental-bankstown-about-us
+    resource: "https://www.smiledentalbankstown.com.au/about-us"
+    title: "Smile Dental Bankstown — About Us"
+  - id: chapel-road-dental-surgery
+    resource: "https://www.dentist.com.au/dentist-detail/chapel-road-dental-surgery/A11004031"
+    title: "Chapel Road Dental Surgery"
+  - id: always-smiles-dental-bankstown
+    resource: "https://www.alwayssmiles.com.au/bankstown/"
+    title: "Always Smiles Dental Bankstown"
+  - id: dentist-com-au-always-smiles-dental
+    resource: "https://www.dentist.com.au/dentist-detail/always-smiles-dental/A20016165"
+    title: "Dentist.com.au — Always Smiles Dental"
+  - id: pacific-smiles-dental-bankstown
+    resource: "https://pacificsmilesdental.com.au/locations/bankstown/"
+    title: "Pacific Smiles Dental Bankstown"
+  - id: dentist-com-au-pacific-smiles-dental-bankstown
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/bankstown/pacific-smiles-dental-bankstown/A23018502"
+    title: "Dentist.com.au — Pacific Smiles Dental Bankstown"
+  - id: pacific-smiles-dental-bankstown-dr-heba-ebid
+    resource: "https://pacificsmilesdental.com.au/locations/bankstown/pacific-smiles-dental-bankstown-dr-heba-ebid/"
+    title: "Pacific Smiles Dental Bankstown — Dr Heba Ebid"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bankstown, NSW — Dental Clinics

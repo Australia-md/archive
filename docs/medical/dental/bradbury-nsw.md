@@ -8,6 +8,40 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bradbury]
 timestamp: "2026-08-25T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-25T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-25T00:00:00Z }
+stale_after: 2027-02-21T00:00:00Z
+sources:
+  - id: bradbury-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bradbury"
+    title: "Bradbury postcode - Australia Post"
+  - id: 2021-bradbury-nsw-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10540"
+    title: "2021 Bradbury (NSW) Census QuickStats - Australian Bureau of Statistics"
+  - id: history-of-bradbury-campbelltown-city-council
+    resource: "https://www.campbelltown.nsw.gov.au/About-Campbelltown/History/Campbelltowns-Streets-and-Suburbs-a-History/History-of-Bradbury"
+    title: "History of Bradbury - Campbelltown City Council"
+  - id: bradbury-dentists-search-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bradbury-2560-nsw/dentists/310144008"
+    title: "Bradbury dentists search - Healthdirect"
+  - id: bradbury-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bradbury-2560-nsw/bradbury-dental-surgery/dentists/75506b6c-3bd9-4a11-b560-d41fb2d24d1b"
+    title: "Bradbury Dental Surgery - Healthdirect"
+  - id: bradbury-dental-surgery
+    resource: "https://www.bradburydentalsurgery.com.au/"
+    title: "Bradbury Dental Surgery"
+  - id: about-us-bradbury-dental-surgery
+    resource: "https://www.bradburydentalsurgery.com.au/about-us"
+    title: "About Us - Bradbury Dental Surgery"
+  - id: bradbury-dental-surgery-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/bradbury/bradbury-dental-surgery/s36792"
+    title: "Bradbury Dental Surgery - HealthEngine"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bradbury, NSW — Dental Clinics

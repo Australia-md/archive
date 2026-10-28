@@ -8,6 +8,31 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bligh-park]
 timestamp: "2026-07-26T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-26T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-26T00:00:00Z }
+stale_after: 2027-01-22T00:00:00Z
+sources:
+  - id: 2021-census-quickstats-bligh-park
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10410"
+    title: "2021 Census QuickStats — Bligh Park"
+  - id: lga-and-suburb-maps-hawkesbury-city-council
+    resource: "https://www.hawkesbury.nsw.gov.au/for-residents/mapping/lga-and-suburb-maps"
+    title: "LGA and Suburb Maps — Hawkesbury City Council"
+  - id: community-halls-hawkesbury-city-council
+    resource: "https://www.hawkesbury.nsw.gov.au/your-spaces/book-a-space/community-halls"
+    title: "Community Halls — Hawkesbury City Council"
+  - id: hawkesbury-orthodontics-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bligh-park-2756-nsw/hawkesbury-orthodontics/orthodontics/dc074e3c-a1e3-447e-866c-eadad8b4ecb3"
+    title: "Hawkesbury Orthodontics — Healthdirect"
+  - id: hawkesbury-orthodontics-bligh-park
+    resource: "https://hbortho.com.au/the-orthodontists/bligh-park/"
+    title: "Hawkesbury Orthodontics — Bligh Park"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bligh Park, NSW — Dental Clinics

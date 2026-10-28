@@ -1,6 +1,6 @@
 # Australia.md — Sovereign Knowledge Archive
 
-> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Each dental directory page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
+> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.2) bundle: Markdown concepts with YAML frontmatter under /docs/, each recording its sources and when it was generated and verified. Each dental directory page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
 
 ## Core concepts
 - [Arts, Culture & Sport of Australia](https://australia.md/docs/culture.md): Australian Broadcasting Corporation (ABC) — Australia's national public broadcaster, funded by the federal government but editorially independent.

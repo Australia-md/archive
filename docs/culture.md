@@ -5,6 +5,23 @@ description: "Australian Broadcasting Corporation (ABC) — Australia's national
 resource: "https://australiacouncil.gov.au"
 tags: [culture]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: australia-council-for-the-arts
+    resource: "https://australiacouncil.gov.au"
+    title: "Australia Council for the Arts"
+  - id: sport-australia
+    resource: "https://www.sportaus.gov.au"
+    title: "Sport Australia"
+  - id: screen-australia
+    resource: "https://www.screenaustralia.gov.au"
+    title: "Screen Australia"
+  - id: australian-broadcasting-corporation
+    resource: "https://www.abc.net.au"
+    title: "Australian Broadcasting Corporation"
+  - id: tourism-australia-culture
+    resource: "https://www.australia.com/en/arts-culture.html"
+    title: "Tourism Australia — Culture"
 ---
 
 # Arts, Culture & Sport of Australia

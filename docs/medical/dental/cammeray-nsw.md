@@ -8,6 +8,82 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, cammeray]
 timestamp: "2026-10-24T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-24T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-24T00:00:00Z }
+stale_after: 2027-04-22T00:00:00Z
+sources:
+  - id: australian-bureau-of-statistics-2021-cammeray-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10777"
+    title: "Australian Bureau of Statistics — 2021 Cammeray QuickStats"
+  - id: australian-bureau-of-statistics-suburbs-and-localities
+    resource: "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/non-abs-structures/suburbs-and-localities"
+    title: "Australian Bureau of Statistics — Suburbs and Localities"
+  - id: australia-post-cammeray-postcode-2062
+    resource: "https://auspost.com.au/postcode/cammeray"
+    title: "Australia Post — Cammeray postcode 2062"
+  - id: north-sydney-council-area-profile-council-profile
+    resource: "https://profile.id.com.au/north-sydney/about"
+    title: "North Sydney Council area profile — Council profile"
+  - id: healthdirect-australia-cammeray-dentist-directory
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/cammeray-2062-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Cammeray dentist directory"
+  - id: healthdirect-australia-advanced-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/advanced-dental/dentists/2f10406c-7772-4d5c-2c67-3c38b44da9c0"
+    title: "Healthdirect Australia — Advanced Dental"
+  - id: healthdirect-australia-dental-implants-on-miller
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/dental-implants-on-miller/dentists/286f7482-2ad9-4ff9-bd1b-67a20bb4e876"
+    title: "Healthdirect Australia — Dental Implants on Miller"
+  - id: healthdirect-australia-miller-street-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/miller-street-dental/dentists/8b60b95c-e57e-a99d-9720-1ac17d74c00c"
+    title: "Healthdirect Australia — Miller Street Dental"
+  - id: healthengine-cammeray-search
+    resource: "https://healthengine.com.au/search/dentistry/NSW/cammeray-2062"
+    title: "HealthEngine — Cammeray search"
+  - id: healthengine-1300smiles-cammeray
+    resource: "https://healthengine.com.au/dentist/nsw/cammeray/1300smiles-cammeray/s36863"
+    title: "HealthEngine — 1300SMILES Cammeray"
+  - id: healthengine-miller-street-dental
+    resource: "https://healthengine.com.au/prosthodontist/nsw/cammeray/miller-street-dental/s36864"
+    title: "HealthEngine — Miller Street Dental"
+  - id: healthengine-dental-implants-on-miller
+    resource: "https://healthengine.com.au/dentist/nsw/cammeray/dental-implants-on-miller/s90053"
+    title: "HealthEngine — Dental Implants on Miller"
+  - id: yellow-pages-australia-cammeray-dentists
+    resource: "https://www.yellowpages.com.au/find/dentist/cammeray-nsw-2062"
+    title: "Yellow Pages Australia — Cammeray dentists"
+  - id: yellow-pages-australia-advanced-dental
+    resource: "https://www.yellowpages.com.au/nsw/cammeray/advanced-dental-12042812-listing.html"
+    title: "Yellow Pages Australia — Advanced Dental"
+  - id: yellow-pages-australia-miller-street-dental
+    resource: "https://www.yellowpages.com.au/nsw/cammeray/miller-street-dental-14262359-listing.html"
+    title: "Yellow Pages Australia — Miller Street Dental"
+  - id: word-of-mouth-cammeray-dentist-search
+    resource: "https://www.wordofmouth.com.au/nsw/cammeray/dentist"
+    title: "Word of Mouth — Cammeray dentist search"
+  - id: google-maps-google-business-cammeray-dental-search
+    resource: "https://www.google.com/maps/search/?api=1&query=dental+clinics+Cammeray+NSW+2062"
+    title: "Google Maps / Google Business — Cammeray dental search"
+  - id: hotdoc-cammeray-dentist-search
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/cammeray-2062"
+    title: "HotDoc — Cammeray dentist search"
+  - id: nps-findahealthservice-nps
+    resource: "https://www.nps.org.au"
+    title: "NPS / FindAHealthService — NPS"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: practice-websites-advanced-dental
+    resource: "https://www.advanceddental.com.au/contact-us/"
+    title: "Practice websites — Advanced Dental"
+  - id: practice-websites-1300smiles-cammeray
+    resource: "https://www.1300smiles.com.au/locations/cammeray/"
+    title: "Practice websites — 1300SMILES Cammeray"
+  - id: practice-websites-miller-street-dental
+    resource: "http://www.millerstreetdental.com.au/ContactUs.aspx"
+    title: "Practice websites — Miller Street Dental"
 ---
 
 # Cammeray, NSW — Dental Clinics
