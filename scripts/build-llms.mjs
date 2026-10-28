@@ -5,6 +5,7 @@
 // clinic counts, so agents can route straight to the .md they need.
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative, basename } from 'node:path';
+import { verificationDate } from './okf-frontmatter.mjs';
 
 const ROOT = process.cwd(), DOCS = join(ROOT, 'docs'), ORIGIN = 'https://australia.md';
 
@@ -20,7 +21,7 @@ function parse(file) {
   const body = m ? raw.slice(m[0].length) : raw;
   // `title` is optional in OKF (only `type` is required): fall back to the first H1, then the filename.
   const title = fm.title || ((body.match(/^#\s+(.+?)\s*$/m) || [])[1]) || basename(file, '.md').replace(/-/g, ' ');
-  return { fm, title, body, clinics: (body.match(/^### \d+\. /gm) || []).length };
+  return { fm, title, body, checked: verificationDate(m ? m[1] : ''), clinics: (body.match(/^### \d+\. /gm) || []).length };
 }
 
 // Bodies are concatenated into llms-full.txt (served from the site root), so a relative link such as
@@ -42,11 +43,11 @@ const dental = concepts.filter(isSuburb).sort((a, b) => a.title.localeCompare(b.
 const slugOf = c => c.rel.replace(/^docs\/medical\/dental\/|-[a-z]{2,3}\.md$/g, '');
 const htmlFor = c => (existsSync(join(ROOT, 'medical/dental', slugOf(c), 'index.html')) ? ` · HTML: ${ORIGIN}/medical/dental/${slugOf(c)}/` : ''); // only advertise published pages
 const line = c => `- [${c.title}](${ORIGIN}/${c.rel})${c.fm.description ? ': ' + c.fm.description : ''}`;
-const dentalLine = c => `- [${c.title}](${ORIGIN}/${c.rel}): ${c.clinics} clinic(s), checked ${(c.fm.last_verified || c.fm.timestamp || '').slice(0, 10)}${htmlFor(c)}`;
+const dentalLine = c => `- [${c.title}](${ORIGIN}/${c.rel}): ${c.clinics} clinic(s), checked ${c.checked}${htmlFor(c)}`;
 
 const index = `# Australia.md — Sovereign Knowledge Archive
 
-> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Each dental directory page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
+> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.2) bundle: Markdown concepts with YAML frontmatter under /docs/, each recording its sources and when it was generated and verified. Each dental directory page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
 
 ## Core concepts
 ${core.map(line).join('\n')}

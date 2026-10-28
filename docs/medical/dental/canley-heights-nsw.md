@@ -8,6 +8,37 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, canley-heights]
 timestamp: "2026-10-27T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-27T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-27T00:00:00Z }
+stale_after: 2027-04-25T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: healthengine
+    resource: "https://healthengine.com.au"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth
+    resource: "https://www.wordofmouth.com.au"
+    title: "Word of Mouth"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: australian-bureau-of-statistics
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10790"
+    title: "Australian Bureau of Statistics"
+  - id: fairfield-city-council
+    resource: "https://www.fairfieldcity.nsw.gov.au/Business/Town-Centres/Canley-Heights"
+    title: "Fairfield City Council"
+  - id: australia-post-postcode-lookup
+    resource: "https://auspost.com.au/postcode/canley-heights"
+    title: "Australia Post postcode lookup"
 ---
 
 # Canley Heights, NSW — Dental Clinics

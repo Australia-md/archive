@@ -17,9 +17,13 @@
 // producer-written values survive), which makes the script idempotent: run it again after new
 // concepts land and only those change. Reserved files (index.md, log.md) are never touched.
 //
+// `npm run seo:build` runs this first, so concepts copied in by the nightly job get their v0.2 fields before
+// the pages are post-processed; `npm run seo:check` fails if any are still missing.
+//
 // Flags:  --check   report what would change and exit 1 if anything would; write nothing
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { verifiedAts } from './okf-frontmatter.mjs';
 
 const ROOT = process.cwd();
 const DOCS = join(ROOT, 'docs');
@@ -75,7 +79,7 @@ function tableSources(body) {
     const cells = line.replace(/^\|/, '').replace(/\|\s*$/, '').split('|').map((c) => c.trim());
     const urlCell = cells.pop() || '';
     const name = cells.join(' | '); // a Source cell may itself contain "|" (e.g. "Contact Us | Berry Dental Studio")
-    const links = [...urlCell.matchAll(/\[([^\]]*)\]\((https?:\/\/[^\s)]+)\)/g)].map((m) => ({ text: m[1].trim(), url: m[2] }));
+    const links = [...urlCell.matchAll(/\[([^\]]*)\]\((https?:\/\/(?:[^\s()]|\([^\s()]*\))+)\)/g)].map((m) => ({ text: m[1].trim(), url: m[2] }));
     if (!links.length) {
       const bare = urlCell.match(/<?(https?:\/\/[^\s<>|]+)>?/);
       if (bare) links.push({ text: '', url: bare[1] });
@@ -104,12 +108,6 @@ function topLevel(block) {
   return fm;
 }
 
-/** Every `at:` datetime inside an existing `verified` value (bare mapping or list). */
-function existingVerifiedAts(block) {
-  const m = block.match(/^verified:(.*(?:\n[ \t-].*)*)/m);
-  return m ? [...m[1].matchAll(/\bat:\s*"?([0-9T:.+\-Z]+)"?/g)].map((x) => x[1]).filter((v) => DATETIME.test(v)) : [];
-}
-
 const stats = { concepts: 0, changed: 0, generated: 0, verified: 0, stale_after: 0, sources: 0, entries: 0 };
 const warnings = [], changed = [];
 
@@ -135,26 +133,29 @@ for (const file of walk(DOCS).sort()) {
     else warnings.push(`${rel}: no usable \`timestamp\` — \`generated\` not added`);
   }
 
-  let verifiedAts = existingVerifiedAts(block);
+  let ats = verifiedAts(block);
   if (dental && producer === DENTAL_CRON && !('verified' in fm)) {
     const day = (DATE.test(lastVerified) ? lastVerified : timestamp.slice(0, 10));
     if (DATE.test(day)) {
       const at = `${day}T00:00:00Z`;
       add.push(`verified: { by: ${DENTAL_CRON}, at: ${at} }`);
-      verifiedAts = [at];
+      ats = [at];
       stats.verified++;
     } else warnings.push(`${rel}: no \`last_verified\` or \`timestamp\` date — \`verified\` not added`);
   }
 
-  if (dental && !('stale_after' in fm) && verifiedAts.length) {
-    const latest = Math.max(...verifiedAts.map((v) => Date.parse(v)));
+  if (dental && !('stale_after' in fm) && ats.length) {
+    const latest = Math.max(...ats.map((v) => Date.parse(v)));
     add.push(`stale_after: ${isoZ(latest + STALE_AFTER_DAYS * 86400000)}`);
     stats.stale_after++;
   }
 
   if (!('sources' in fm)) {
-    const sources = tableSources(body);
-    for (const s of sources) if (!body.includes(s.resource)) throw new Error(`${rel}: derived resource not found verbatim in body: ${s.resource}`);
+    const sources = tableSources(body).filter((s) => {
+      if (body.includes(s.resource)) return true;
+      warnings.push(`${rel}: derived resource not found verbatim in the body, left out: ${s.resource}`);
+      return false;
+    });
     if (sources.length) {
       add.push('sources:', ...sources.flatMap((s) => [`  - id: ${s.id}`, `    resource: ${ystr(s.resource)}`, `    title: ${ystr(s.title)}`]));
       stats.sources++;

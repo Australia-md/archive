@@ -8,6 +8,49 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, cameron-park]
 timestamp: "2026-10-23T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-23T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-23T00:00:00Z }
+stale_after: 2027-04-21T00:00:00Z
+sources:
+  - id: healthdirect-australia-suburb-search
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/cameron-park-2285-nsw/dentists/310144008"
+    title: "Healthdirect Australia — suburb search"
+  - id: healthdirect-australia-pacific-smiles-service-profile
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cameron-park-2285-nsw/pacific-smiles-dental-cameron-park/dentists/0839523c-0f94-4835-951b-226c363ce973"
+    title: "Healthdirect Australia — Pacific Smiles service profile"
+  - id: healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/cameron-park/pacific-smiles-dental-cameron-park/s101733"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/cameron-park-nsw-2285/dentist"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/cameron-park/dentist"
+    title: "Word of Mouth Australia"
+  - id: pacific-smiles-dental-cameron-park
+    resource: "https://pacificsmilesdental.com.au/locations/cameron-park/"
+    title: "Pacific Smiles Dental Cameron Park"
+  - id: cameron-park-plaza
+    resource: "https://www.cameronparkplaza.com.au/"
+    title: "Cameron Park Plaza"
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/cameron-park/nsw/ccif"
+    title: "Australia Post postcode finder"
+  - id: lake-mac-local-history
+    resource: "https://history.lakemac.com.au/narrative/20"
+    title: "Lake Mac Local History"
+  - id: lake-macquarie-city-council-cameron-park-community-centre
+    resource: "https://www.lakemac.com.au/Venues/Cameron-Park-Community-Centre"
+    title: "Lake Macquarie City Council — Cameron Park Community Centre"
+  - id: mapcarta-cameron-park
+    resource: "https://mapcarta.com/29042602"
+    title: "Mapcarta — Cameron Park"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Cameron Park, NSW — Dental Clinics

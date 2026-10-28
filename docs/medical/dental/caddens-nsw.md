@@ -8,6 +8,55 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, caddens]
 timestamp: "2026-10-15T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-15T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-15T00:00:00Z }
+stale_after: 2027-04-13T00:00:00Z
+sources:
+  - id: australia-post-postcode-finder
+    resource: "https://auspost.com.au/postcode/caddens"
+    title: "Australia Post postcode finder"
+  - id: abs-2021-census-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10741"
+    title: "ABS 2021 Census QuickStats"
+  - id: penrith-city-council-government-wards
+    resource: "https://www.penrithcity.nsw.gov.au/council/council-business/government-wards"
+    title: "Penrith City Council — Government & Wards"
+  - id: healthdirect-australia-caddens-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/caddens-2747-nsw/dentists/310144008"
+    title: "Healthdirect Australia — Caddens dentists"
+  - id: healthdirect-australia-the-caddens-dental-bar
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/caddens-2747-nsw/the-caddens-dental-bar/dentists/7d11520b-1f0f-4fb7-d6ff-205e70c940c2"
+    title: "Healthdirect Australia — The Caddens Dental Bar"
+  - id: healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/caddens/the-caddens-dental-bar/s89621"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentists/caddens-nsw-2747"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth-australia
+    resource: "https://www.wordofmouth.com.au/nsw/caddens/dentists"
+    title: "Word of Mouth Australia"
+  - id: google-maps
+    resource: "https://www.google.com/maps/search/dental%20clinic%20Caddens%20NSW%202747"
+    title: "Google Maps"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/caddens-2747"
+    title: "HotDoc"
+  - id: nps-medicinewise-findahealthservice
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / FindAHealthService"
+  - id: the-caddens-dental-bar
+    resource: "https://www.thecaddensdentalbar.com.au/"
+    title: "The Caddens Dental Bar"
+  - id: myhealth1st
+    resource: "https://www.myhealth1st.com.au/find/dentists/nsw/sydney-outer-west-and-blue-mountains/caddens/the-caddens-dental-bar"
+    title: "MyHealth1st"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Caddens, NSW — Dental Clinics

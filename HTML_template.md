@@ -130,7 +130,7 @@ Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`
 - `{STATE}` — state abbreviation uppercase (e.g. `NSW`)
 - `{Postcode}` — postcode number (e.g. `2113`)
 - `{suburb-slug}` — lowercase kebab-case (e.g. `macquarie-park`)
-- `{Last Verified date}` — from MD frontmatter field `timestamp` (date portion) or `last_verified`; see §1b
+- `{Last Verified date}` — date of the latest frontmatter `verified[].at`, else `last_verified`, else `timestamp` (date portion); see §1b
 - `{meta-description}` — see rule below
 
 **Meta description rule (enforced):**
@@ -782,8 +782,8 @@ spurious extra facet button.
 Run from the repo root after the page(s) and the hub entry are written:
 
 ```bash
-npm run seo:build    # post-process every dental page, then regenerate sitemap.xml, llms.txt, llms-full.txt
-npm run seo:check    # post-processor --check ("files needing changes: 0") + scripts/seo-validate.mjs; must exit 0
+npm run seo:build    # add missing OKF v0.2 fields to docs/**, post-process every dental page, then regenerate sitemap.xml, llms.txt, llms-full.txt
+npm run seo:check    # OKF v0.2 backfill --check + post-processor --check ("files needing changes: 0") + scripts/seo-validate.mjs; must exit 0
 ```
 
 `seo:check` is the release gate: **never commit or push while it fails.** CI (`.github/workflows/seo-validate.yml`) runs the same checks on every pull request and on every push to `scheduling-branch`.
@@ -792,8 +792,9 @@ What each step owns — never edit these by hand:
 
 | Step | Script | Owns |
 |---|---|---|
+| `okf:backfill` | `scripts/okf-v02-backfill.mjs` | the OKF v0.2 frontmatter keys `generated`, `verified`, `stale_after`, `sources` of every `docs/**` concept that lacks them, derived only from the file's own `timestamp`, `last_verified` and Data Sources table (§1b). A key that is already present is never rewritten |
 | `seo:postprocess` | `scripts/seo-postprocess.mjs` | head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
-| `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
+| `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source verification date: latest `verified[].at`, else `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
 | `seo:llms` | `scripts/build-llms.mjs` | `llms.txt` and `llms-full.txt` from `docs/**` frontmatter |
 
 The nearby block lists up to 6 other suburb pages: first those in the same council area (from frontmatter `lga`, else the body `Council:` line), then pages within ±20 of the postcode. Adding a suburb changes its neighbours' blocks too, which is why the post-processor runs over **all** pages every time.
@@ -816,7 +817,7 @@ When a reviewer (human or Copilot) finds a new class of defect, add a check for 
 
 ## 15. Re-verified sources
 
-A handoff item can be a **re-verification** of a suburb that already has a page (handoff JSON `"mode": "reverify"`, or a source `.md` whose `last_verified`/`timestamp` is newer than the project copy). In that case:
+A handoff item can be a **re-verification** of a suburb that already has a page (handoff JSON `"mode": "reverify"`, or a source `.md` whose verification date — latest `verified[].at`, else `last_verified`/`timestamp` — is newer than the project copy). In that case:
 
 1. Overwrite `docs/medical/dental/{suburb}-{state}.md` with the new source.
 2. Regenerate `medical/dental/{suburb}/index.html` **from scratch** from the new source (do not patch the old page — clinics may have been added or removed).

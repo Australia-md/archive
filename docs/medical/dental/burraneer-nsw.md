@@ -8,6 +8,46 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, burraneer]
 timestamp: "2026-10-03T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-10-03T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-10-03T00:00:00Z }
+stale_after: 2027-04-01T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-burraneer-nsw-2230-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/burraneer-2230-nsw/dentists/310144008"
+    title: "Dentists in Burraneer, NSW 2230 — Healthdirect"
+  - id: bayside-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/burraneer-2230-nsw/bayside-dental-care/dentists/2a0072b5-2cab-a021-b41a-319a05b2d2c4"
+    title: "Bayside Dental Care — Healthdirect"
+  - id: australia-post-postcode-finder-burraneer
+    resource: "https://auspost.com.au/postcode/burraneer"
+    title: "Australia Post postcode finder — Burraneer"
+  - id: burraneer-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Burraneer"
+    title: "Burraneer, New South Wales"
+  - id: healthengine
+    resource: "https://healthengine.com.au/search/dentistry/NSW/burraneer-2230"
+    title: "HealthEngine"
+  - id: yellow-pages-australia
+    resource: "https://www.yellowpages.com.au/find/dentists/burraneer-nsw-2230"
+    title: "Yellow Pages Australia"
+  - id: word-of-mouth
+    resource: "https://www.wordofmouth.com.au/nsw/burraneer/dentists"
+    title: "Word of Mouth"
+  - id: hotdoc
+    resource: "https://www.hotdoc.com.au/find/dentist/NSW/burraneer-2230"
+    title: "HotDoc"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
+  - id: nps-medicinewise-find-a-health-service
+    resource: "https://www.nps.org.au"
+    title: "NPS MedicineWise / Find a Health Service"
 ---
 
 # Burraneer, NSW — Dental Clinics
