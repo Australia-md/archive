@@ -2,6 +2,10 @@
 
 > **Purpose:** This file is the authoritative reference for generating `medical/dental/{suburb}/index.html` pages. The scheduled job reads THIS file instead of re-parsing an existing HTML page. All structure, class names, rules, and patterns are defined here. Follow exactly — do not deviate from class names, nesting, or element types.
 
+> **Post-processing (since 2026-10-28) — mandatory every run:** after writing or regenerating any suburb page, run `npm run seo:build` from the repo root, then `npm run seo:check` (must exit 0). The post-processor (`scripts/seo-postprocess.mjs`) owns the head alternate link, breadcrumb `data-nosnippet`, the "Raw .md" nav badge, the hero label, the answer-first paragraph, the JSON-LD `ItemList` / `@id` / `distribution` fields and the nearby-suburbs block; the generators own `sitemap.xml`, `llms.txt` and `llms-full.txt`. Never hand-edit those parts or files. See §14.
+>
+> **Titles and meta descriptions are frozen** at the §2 formulas until the Search Console baseline review on or after **2026-11-25**. Do not change the title or description wording before then.
+
 > **OKF v0.1 (since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
 
 ---
@@ -67,6 +71,7 @@ last_verified: 2026-05-28
   <meta name="description" content="{meta-description}" />
   <title>Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md</title>
   <link rel="canonical" href="https://australia.md/medical/dental/{suburb-slug}/" />
+  <link rel="alternate" type="text/markdown" href="https://australia.md/docs/medical/dental/{suburb-slug}-{state}.md" title="OKF source (Markdown)" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -121,7 +126,7 @@ last_verified: 2026-05-28
 
 ## 3. Schema.org JSON-LD
 
-Four object types inside `@graph`. All four must be present in every generated page.
+Four object types inside `@graph` are written by the generator: `MedicalWebPage`, `Dataset`, `FAQPage`, and one `Dentist` per clinic. The post-processor then adds an `ItemList` (`@id` `…/#clinics`), a `@id` on every `Dentist` (`…/#dentist-{N}`, in card order), `MedicalWebPage.mainEntity` and `Dataset.distribution` (the source `.md`). Do not write those four additions by hand.
 
 ### 3a. MedicalWebPage
 ```json
@@ -210,7 +215,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
   <header class="nav-bar">            ← Navigation (Section 5)
   <div class="listing-header-wrap">  ← Page header (Section 6)
   <div class="listing-body">         ← Two-column layout
-    <main class="clinic-list">       ← Clinic cards (Section 7)
+    <main class="clinic-list">       ← Clinic cards (Section 7), then the nearby-suburbs block (§14, post-processor)
     <aside class="listing-sidebar">  ← SVG map + sidebar (Section 8)
   </div>
   <section class="faq-section">      ← FAQ (Section 9)
@@ -237,6 +242,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
     </ul>
     <div class="nav-actions">
       <span class="nav-badge">v2.4.1</span>
+      <a href="../../../docs/medical/dental/{suburb-slug}-{state}.md" class="nav-raw-md" rel="alternate" type="text/markdown" aria-label="View the raw Markdown source of this page (for AI agents and LLMs)">Raw .md</a>
       <a href="https://github.com/Australia-md/archive" class="btn-github" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
         <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
@@ -259,8 +265,8 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
 <div class="listing-header-wrap">
   <div class="listing-header-content">
 
-    <!-- Breadcrumb -->
-    <nav class="listing-breadcrumb" aria-label="Breadcrumb">
+    <!-- Breadcrumb. data-nosnippet keeps Google from using the trail as the search snippet. -->
+    <nav class="listing-breadcrumb" aria-label="Breadcrumb" data-nosnippet>
       <a href="../../../index.html" class="lbc-item">Australia.md</a>
       <span class="lbc-sep" aria-hidden="true">/</span>
       <a href="../../" class="lbc-item">Medical Directory</a>
@@ -285,9 +291,11 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
       <svg class="verified-shield" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
         <path fill-rule="evenodd" d="M10 1l2.39 4.84L18 6.9l-4 3.9.94 5.46L10 13.77l-4.94 2.6L6 10.8 2 6.9l5.61-.06L10 1z" clip-rule="evenodd"/>
       </svg>
-      <span class="verified-label">{N} Verified Clinics · {Suburb} · Postcode {Postcode} · AHPRA Regulated</span>
+      <span class="verified-label">{N} Clinic(s) · {Suburb} · Postcode {Postcode} · Checked {D Mon YYYY}</span>
     </div>
 
+    <!-- Answer-first paragraph — written and kept exact by the post-processor (data-gated clauses). -->
+    <p class="listing-answer"><strong>{N} dental clinic(s)</strong> are listed in <strong>{Suburb} {STATE} {Postcode}</strong>{, H with confirmed opening hours}{, S open on Saturdays}. Clinic details were checked against public sources on <time datetime="{YYYY-MM-DD}">{D Month YYYY}</time>.</p>
     <p class="listing-intro">
       <strong>{Suburb}</strong> (postcode {Postcode}) is {suburb description from MD}. The {N} dental practice(s) below hold required registration with the <strong>Dental Board of Australia</strong> under AHPRA. Last verified: <time datetime="{YYYY-MM-DD}">{DD Month YYYY}</time>.
     </p>
@@ -748,4 +756,37 @@ spurious extra facet button.
 
 ---
 
-*Last updated: 2026-06-29 | Version: 1.4 — added Section 13 (hub directory index entry, single-column grid format) and the progressive-enhancement `.js` flag in §2.*
+## 14. Post-processing and SEO files (mandatory every run)
+
+Run from the repo root after the page(s) and the hub entry are written:
+
+```bash
+npm run seo:build    # post-process every dental page, then regenerate sitemap.xml, llms.txt, llms-full.txt
+npm run seo:check    # must print "files needing changes: 0" and exit 0
+```
+
+What each step owns — never edit these by hand:
+
+| Step | Script | Owns |
+|---|---|---|
+| `seo:postprocess` | `scripts/seo-postprocess.mjs` | head `rel="alternate" type="text/markdown"` link; `data-nosnippet` on every breadcrumb `<nav>` site-wide; "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
+| `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
+| `seo:llms` | `scripts/build-llms.mjs` | `llms.txt` and `llms-full.txt` from `docs/**` frontmatter |
+
+The nearby block lists up to 6 other suburb pages: first those in the same council area (from frontmatter `lga`, else the body `Council:` line), then pages within ±20 of the postcode. Adding a suburb changes its neighbours' blocks too, which is why the post-processor runs over **all** pages every time.
+
+The post-processor also prints `WARN` lines: a page whose clinic-card count differs from its source (regenerate that page), a page with no source `.md`, or a suburb directory missing from the hub (add it per §13). Resolve every `WARN` before committing.
+
+## 15. Re-verified sources
+
+A handoff item can be a **re-verification** of a suburb that already has a page (handoff JSON `"mode": "reverify"`, or a source `.md` whose `last_verified`/`timestamp` is newer than the project copy). In that case:
+
+1. Overwrite `docs/medical/dental/{suburb}-{state}.md` with the new source.
+2. Regenerate `medical/dental/{suburb}/index.html` **from scratch** from the new source (do not patch the old page — clinics may have been added or removed).
+3. Update that suburb's existing hub `<li>` in place (clinic count, `aria-label`, LGA, chips). Do not add a second `<li>`.
+4. Run §14 as usual.
+
+---
+
+*Last updated: 2026-10-28 | Version: 1.5 — added mandatory post-processing and generated SEO files (§14), re-verified sources (§15), head alternate link, breadcrumb data-nosnippet, Raw .md badge, "Checked {date}" label and answer-first paragraph. Titles/descriptions frozen until 2026-11-25.*
+*Previous: 2026-06-29 | Version: 1.4 — added Section 13 (hub directory index entry, single-column grid format) and the progressive-enhancement `.js` flag in §2.*

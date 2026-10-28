@@ -6,13 +6,22 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "stats": "node generate-stats.js"
+    "stats": "node generate-stats.js",
+    "seo:postprocess": "node scripts/seo-postprocess.mjs",
+    "seo:sitemap": "node scripts/build-sitemap.mjs",
+    "seo:llms": "node scripts/build-llms.mjs",
+    "seo:build": "npm run seo:postprocess && npm run seo:sitemap && npm run seo:llms",
+    "seo:check": "node scripts/seo-postprocess.mjs --check"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Australia-md/archive.git"
   },
-  "keywords": ["australia", "knowledge-base", "open-data"],
+  "keywords": [
+    "australia",
+    "knowledge-base",
+    "open-data"
+  ],
   "author": "Australia.md project",
   "license": "AGPL-3.0-or-later",
   "bugs": {
