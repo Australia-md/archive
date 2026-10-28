@@ -1,6 +1,6 @@
 # Australia.md — Sovereign Knowledge Archive
 
-> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Every HTML page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
+> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Each dental directory page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
 
 ## Core concepts
 - [Arts, Culture & Sport of Australia](https://australia.md/docs/culture.md): Australian Broadcasting Corporation (ABC) — Australia's national public broadcaster, funded by the federal government but editorially independent.
@@ -35,8 +35,8 @@
 - [Avoca Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/avoca-beach-nsw.md): 1 clinic(s), checked 2026-05-11 · HTML: https://australia.md/medical/dental/avoca-beach/
 - [Balgowlah Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-heights-nsw.md): 1 clinic(s), checked 2026-05-19 · HTML: https://australia.md/medical/dental/balgowlah-heights/
 - [Balgowlah, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-nsw.md): 2 clinic(s), checked 2026-05-17 · HTML: https://australia.md/medical/dental/balgowlah/
-- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20 · HTML: https://australia.md/medical/dental/balgownie/
-- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22 · HTML: https://australia.md/medical/dental/balmain/
+- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20
+- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22
 - [Bangalow, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangalow-nsw.md): 2 clinic(s), checked 2026-05-25 · HTML: https://australia.md/medical/dental/bangalow/
 - [Bangor, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangor-nsw.md): 2 clinic(s), checked 2026-05-26 · HTML: https://australia.md/medical/dental/bangor/
 - [Bankstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bankstown-nsw.md): 6 clinic(s), checked 2026-05-27 · HTML: https://australia.md/medical/dental/bankstown/

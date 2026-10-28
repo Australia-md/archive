@@ -7,7 +7,7 @@
 // identical and data-exact on every page. Running it twice changes nothing.
 //
 //   1. <link rel="alternate" type="text/markdown"> to the OKF source in <head>
-//   2. data-nosnippet on every breadcrumb <nav> (dental pages, hubs, category pages)
+//   2. every breadcrumb <nav> wrapped in <div data-nosnippet> (dental pages, hubs, category pages)
 //   3. "Raw .md" badge in the nav bar
 //   4. Hero label: "{N} Clinics · {Suburb} · Postcode {P} · Checked {DD Mon YYYY}"
 //   5. Answer-first paragraph (.listing-answer) before .listing-intro
@@ -35,6 +35,9 @@ const fmtLong = (iso) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-AU'
 const plural = (n, one, many) => (n === 1 ? one : many);
 
 // ── Source facts ─────────────────────────────────────────────────────────────
+const HAS_TIME = /\d\s*(?:am|pm)|\d{1,2}:\d{2}/i;
+const DISPUTED = /\b(?:conflict\w*|varied|vary|varies|differ\w*|inconsisten\w*|discrepan\w*)\b/i;
+const saturdayOpen = (h) => h.split(/[·;|,]/).some((seg) => /\bSat(?:urday)?s?\b/i.test(seg) && HAS_TIME.test(seg) && !/appointment|closed|not confirmed/i.test(seg));
 function sourceFor(slug) {
   const md = readdirSync(DOCS).find((f) => new RegExp(`^${slug.replace(/[-]/g, '\\-')}-([a-z]{2,3})\\.md$`).test(f));
   if (!md) return null;
@@ -43,6 +46,8 @@ function sourceFor(slug) {
   const fm = Object.fromEntries([...fmBlock.matchAll(/^(\w+):\s*"?([^"\n]*)"?\s*$/gm)].map((m) => [m[1], m[2].trim()]));
   const sections = raw.split(/^### \d+\. /m).slice(1);
   const hours = sections.map((s) => (s.match(/\*\*Hours\*\*\s*\|\s*([^|\n]*)/) || [])[1] || '');
+  // A schedule the source itself calls conflicting/varying is not "confirmed", and a Saturday that is
+  // closed or appointment-only is not "open on Saturdays".
   const council = ((raw.match(/Council:\s*([^·*|\n]+)/) || [])[1] || '').trim();
   const state = md.match(/-([a-z]{2,3})\.md$/)[1];
   return {
@@ -52,8 +57,8 @@ function sourceFor(slug) {
     lga: fm.lga || council,
     date: (fm.last_verified || fm.timestamp || '').slice(0, 10),
     N: sections.length,
-    H: hours.filter((h) => /\d\s*(?:am|pm)|\d{1,2}:\d{2}/i.test(h)).length,
-    S: hours.filter((h) => /\bSat(?:urday)?s?(?:\s*[–-]\s*Sun(?:day)?s?)?\s*:?\s*\d/i.test(h)).length,
+    H: hours.filter((h) => HAS_TIME.test(h) && !DISPUTED.test(h)).length,
+    S: hours.filter((h) => !DISPUTED.test(h) && saturdayOpen(h)).length,
   };
 }
 
@@ -89,8 +94,24 @@ ${items}
 // ── Page transforms ──────────────────────────────────────────────────────────
 const tagWith = (tag, attr) => new RegExp(`<${tag}\\b(?=[^>]*${attr})[^>]*>`);
 
+// Google honours data-nosnippet only on <span>, <div> and <section> — not on <nav>
+// (developers.google.com/search/docs/crawling-indexing/robots-meta-tag#data-nosnippet-attr).
+// So each breadcrumb <nav> is wrapped in <div class="nosnippet-wrap" data-nosnippet> (display: contents in
+// style.css, so layout is unchanged) and any data-nosnippet left on the <nav> itself is removed.
+const WRAP_OPEN = '<div class="nosnippet-wrap" data-nosnippet>';
 function addNosnippet(html) {
-  return html.replace(/<nav\b(?=[^>]*aria-label="Breadcrumb")[^>]*>/g, (t) => (/\bdata-nosnippet\b/.test(t) ? t : t.replace(/\s*>$/, ' data-nosnippet>')));
+  html = html.replace(/<nav\b(?=[^>]*aria-label="Breadcrumb")[^>]*>/g, (t) => t.replace(/\s+data-nosnippet\b(?:="[^"]*")?/, ''));
+  const re = /<nav\b(?=[^>]*aria-label="Breadcrumb")[^>]*>/g;
+  let out = '', from = 0, m;
+  while ((m = re.exec(html))) {
+    const end = html.indexOf('</nav>', m.index);
+    if (end === -1) break;
+    if (html.slice(Math.max(0, m.index - WRAP_OPEN.length - 4), m.index).trimEnd().endsWith(WRAP_OPEN)) continue; // already wrapped
+    out += html.slice(from, m.index) + WRAP_OPEN + html.slice(m.index, end + 6) + '</div>';
+    from = end + 6;
+    re.lastIndex = from;
+  }
+  return out + html.slice(from);
 }
 
 function answerHtml(page, N) {

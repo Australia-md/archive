@@ -265,8 +265,9 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
 <div class="listing-header-wrap">
   <div class="listing-header-content">
 
-    <!-- Breadcrumb. data-nosnippet keeps Google from using the trail as the search snippet. -->
-    <nav class="listing-breadcrumb" aria-label="Breadcrumb" data-nosnippet>
+    <!-- Breadcrumb. Google honours data-nosnippet only on span/div/section, so the post-processor wraps
+         this <nav> in <div class="nosnippet-wrap" data-nosnippet> … </div>. Write the <nav> plainly. -->
+    <nav class="listing-breadcrumb" aria-label="Breadcrumb">
       <a href="../../../index.html" class="lbc-item">Australia.md</a>
       <span class="lbc-sep" aria-hidden="true">/</span>
       <a href="../../" class="lbc-item">Medical Directory</a>
@@ -295,6 +296,8 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
     </div>
 
     <!-- Answer-first paragraph — written and kept exact by the post-processor (data-gated clauses). -->
+    <!-- H counts only Hours lines with a time that the source does not call conflicting/varying; S counts only
+         Saturday segments with a time that are not closed or appointment-only. -->
     <p class="listing-answer"><strong>{N} dental clinic(s)</strong> are listed in <strong>{Suburb} {STATE} {Postcode}</strong>{, H with confirmed opening hours}{, S open on Saturdays}. Clinic details were checked against public sources on <time datetime="{YYYY-MM-DD}">{D Month YYYY}</time>.</p>
     <p class="listing-intro">
       <strong>{Suburb}</strong> (postcode {Postcode}) is {suburb description from MD}. The {N} dental practice(s) below hold required registration with the <strong>Dental Board of Australia</strong> under AHPRA. Last verified: <time datetime="{YYYY-MM-DD}">{DD Month YYYY}</time>.
@@ -769,7 +772,7 @@ What each step owns — never edit these by hand:
 
 | Step | Script | Owns |
 |---|---|---|
-| `seo:postprocess` | `scripts/seo-postprocess.mjs` | head `rel="alternate" type="text/markdown"` link; `data-nosnippet` on every breadcrumb `<nav>` site-wide; "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
+| `seo:postprocess` | `scripts/seo-postprocess.mjs` | head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
 | `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
 | `seo:llms` | `scripts/build-llms.mjs` | `llms.txt` and `llms-full.txt` from `docs/**` frontmatter |
 

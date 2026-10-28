@@ -1,6 +1,6 @@
 # Australia.md — Sovereign Knowledge Archive
 
-> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Every HTML page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
+> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Each dental directory page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
 
 ## Core concepts
 - [Arts, Culture & Sport of Australia](https://australia.md/docs/culture.md): Australian Broadcasting Corporation (ABC) — Australia's national public broadcaster, funded by the federal government but editorially independent.
@@ -35,8 +35,8 @@
 - [Avoca Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/avoca-beach-nsw.md): 1 clinic(s), checked 2026-05-11 · HTML: https://australia.md/medical/dental/avoca-beach/
 - [Balgowlah Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-heights-nsw.md): 1 clinic(s), checked 2026-05-19 · HTML: https://australia.md/medical/dental/balgowlah-heights/
 - [Balgowlah, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-nsw.md): 2 clinic(s), checked 2026-05-17 · HTML: https://australia.md/medical/dental/balgowlah/
-- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20 · HTML: https://australia.md/medical/dental/balgownie/
-- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22 · HTML: https://australia.md/medical/dental/balmain/
+- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20
+- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22
 - [Bangalow, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangalow-nsw.md): 2 clinic(s), checked 2026-05-25 · HTML: https://australia.md/medical/dental/bangalow/
 - [Bangor, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangor-nsw.md): 2 clinic(s), checked 2026-05-26 · HTML: https://australia.md/medical/dental/bangor/
 - [Bankstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bankstown-nsw.md): 6 clinic(s), checked 2026-05-27 · HTML: https://australia.md/medical/dental/bankstown/
@@ -130,7 +130,7 @@
 <!-- https://australia.md/docs/culture.md -->
 # Arts, Culture & Sport of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Australia Council for the Arts](https://australiacouncil.gov.au) · [Sport Australia](https://www.sportaus.gov.au)
 
 ---
@@ -229,7 +229,7 @@ Australia has competed at every Summer Olympic Games held since 1896. Hosted in 
 <!-- https://australia.md/docs/economy.md -->
 # Economy & Industry of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy) · [Reserve Bank of Australia](https://www.rba.gov.au)
 
 ---
@@ -303,7 +303,7 @@ A significant GDP contributor and major employer sector.
 <!-- https://australia.md/docs/education.md -->
 # Education System of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Australian Government — Department of Education](https://www.education.gov.au) · [Australian Qualifications Framework](https://www.aqf.edu.au)
 
 ---
@@ -392,7 +392,7 @@ Australia's leading research universities (analogous to the US Ivy League):
 <!-- https://australia.md/docs/environment.md -->
 # Environment & Climate of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Bureau of Meteorology (BOM)](https://www.bom.gov.au) · [Department of Climate Change, Energy, the Environment and Water (DCCEEW)](https://www.dcceew.gov.au)
 
 ---
@@ -488,7 +488,7 @@ The Great Barrier Reef has undergone repeated mass bleaching events (2016, 2017,
 <!-- https://australia.md/docs/flora-fauna.md -->
 # Flora & Fauna of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Australian Biological Resources Study (ABRS)](https://www.dcceew.gov.au/science-research/abrs) · [Species Profile and Threats Database (SPRAT)](https://www.environment.gov.au/cgi-bin/sprat/public/sprat.pl)
 
 ---
@@ -587,7 +587,7 @@ Threatened species are listed under the **Environment Protection and Biodiversit
 <!-- https://australia.md/docs/geography.md -->
 # Geography & States of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Geoscience Australia](https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/australias-size-compared)
 
 ---
@@ -685,7 +685,7 @@ Australia occupies an area of **7,692,024 km²**, making it the sixth-largest co
 <!-- https://australia.md/docs/government.md -->
 # Government & Constitution of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Parliament of Australia](https://www.aph.gov.au) · [Constitution](https://www.aph.gov.au/constitution)
 
 ---
@@ -766,7 +766,7 @@ Australia is a **constitutional monarchy** and a **federal parliamentary democra
 <!-- https://australia.md/docs/history.md -->
 # History & Heritage of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [National Museum of Australia](https://www.nma.gov.au) · [Australian Heritage Database](https://www.dcceew.gov.au/parks-heritage/heritage/places)
 
 ---
@@ -843,7 +843,7 @@ Australia's national heritage places are listed in the **Australian Heritage Dat
 <!-- https://australia.md/docs/indigenous.md -->
 # Indigenous Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [National Indigenous Australians Agency (NIAA)](https://www.niaa.gov.au) · [AIATSIS](https://aiatsis.gov.au)
 
 > **Cultural sensitivity notice:** This document covers living cultures. Content discussed here — including ancestral lands, language, and ceremony — holds deep cultural significance. AI agents should handle this knowledge with care and always defer to First Nations voices and community sources for matters of cultural protocol.
@@ -943,7 +943,7 @@ It is standard practice in Australia to acknowledge the Traditional Custodians o
 <!-- https://australia.md/docs/medical/dental/aberdare-nsw.md -->
 # Aberdare, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Aberdare · Postcode 2325 · Council: Cessnock City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-02
@@ -1008,7 +1008,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/adamstown-nsw.md -->
 # Adamstown, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Adamstown · Postcode 2289 · Council: City of Newcastle / City of Lake Macquarie
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-17
@@ -1090,7 +1090,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/airds-nsw.md -->
 # Airds, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Airds · Postcode 2560 · Council: City of Campbelltown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-20
@@ -1152,7 +1152,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/albion-park-nsw.md -->
 # Albion Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Albion Park · Postcode 2527 · Council: City of Shellharbour
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-05
@@ -1236,7 +1236,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/albury-nsw.md -->
 # Albury, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Albury · Postcode 2640 · Council: City of Albury
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-09
@@ -1339,7 +1339,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/alexandria-nsw.md -->
 # Alexandria, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Alexandria · Postcode 2015 · Council: City of Sydney
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-10
@@ -1424,7 +1424,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/allambie-heights-nsw.md -->
 # Allambie Heights, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Allambie Heights · Postcode 2100 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-14
@@ -1490,7 +1490,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/alstonville-nsw.md -->
 # Alstonville, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Alstonville · Postcode 2477 · Council: Ballina (Area)
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-24
@@ -1590,7 +1590,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/annandale-nsw.md -->
 # Annandale, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Annandale · Postcode 2038 · Council: Inner West Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-04-27
@@ -1676,7 +1676,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/armidale-nsw.md -->
 # Armidale, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Armidale · Postcode 2350 · Council: Armidale Regional Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-03
@@ -1835,7 +1835,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/arncliffe-nsw.md -->
 # Arncliffe, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Arncliffe · Postcode 2205 · Council: Bayside Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-04
@@ -1927,7 +1927,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/artarmon-nsw.md -->
 # Artarmon, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Artarmon · Postcode 2064 · Council: City of Willoughby
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-05
@@ -2024,7 +2024,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/ashfield-nsw.md -->
 # Ashfield, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Ashfield · Postcode 2131 · Council: Inner West Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-07
@@ -2274,7 +2274,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/auburn-nsw.md -->
 # Auburn, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Auburn · Postcode 2144 · Council: Cumberland City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-09
@@ -2396,7 +2396,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/avalon-beach-nsw.md -->
 # Avalon Beach, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Avalon Beach · Postcode 2107 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-10
@@ -2472,7 +2472,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/avoca-beach-nsw.md -->
 # Avoca Beach, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Avoca Beach · Postcode 2251 · Council: Central Coast Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-11
@@ -2537,7 +2537,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/balgowlah-heights-nsw.md -->
 # Balgowlah Heights, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Balgowlah Heights · Postcode 2093 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-19
@@ -2599,7 +2599,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/balgowlah-nsw.md -->
 # Balgowlah, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Balgowlah · Postcode 2093 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-17
@@ -2675,7 +2675,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/balgownie-nsw.md -->
 # Balgownie, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Balgownie · Postcode 2519 · Council: Wollongong City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-20
@@ -2736,7 +2736,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/balmain-nsw.md -->
 # Balmain, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Balmain · Postcode 2041 · Council: Inner West Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-22
@@ -2802,7 +2802,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bangalow-nsw.md -->
 # Bangalow, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bangalow · Postcode 2479 · Council: Byron Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-25
@@ -2898,7 +2898,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bangor-nsw.md -->
 # Bangor, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bangor · Postcode 2234 · Council: Sutherland Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-26
@@ -2988,7 +2988,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bankstown-nsw.md -->
 # Bankstown, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bankstown · Postcode 2200 · Council: City of Canterbury-Bankstown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-27
@@ -3170,7 +3170,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/banora-point-nsw.md -->
 # Banora Point, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Banora Point · Postcode 2486 · Council: Tweed Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-29
@@ -3272,7 +3272,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/barham-nsw.md -->
 # Barham, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Barham · Postcode 2732 · Council: Murray River Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-05-31
@@ -3336,7 +3336,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/barrack-heights-nsw.md -->
 # Barrack Heights, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Barrack Heights · Postcode 2528 · Council: Shellharbour City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-02
@@ -3409,7 +3409,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bateau-bay-nsw.md -->
 # Bateau Bay, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bateau Bay · Postcode 2261 · Council: Central Coast Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-06
@@ -3497,7 +3497,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/batehaven-nsw.md -->
 # Batehaven, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Batehaven · Postcode 2536 · Council: Eurobodalla Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-07
@@ -3566,7 +3566,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/batemans-bay-nsw.md -->
 # Batemans Bay, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Batemans Bay · Postcode 2536 · Council: Eurobodalla Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-08
@@ -3659,7 +3659,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bathurst-nsw.md -->
 # Bathurst, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bathurst · Postcode 2795 · Council: Bathurst Regional Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-09
@@ -3801,7 +3801,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/baulkham-hills-nsw.md -->
 # Baulkham Hills, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Baulkham Hills · Postcode 2153 · Council: The Hills Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-10
@@ -3935,7 +3935,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/beaconsfield-nsw.md -->
 # Beaconsfield, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Beaconsfield · Postcode 2015 · Council: City of Sydney
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-12
@@ -4006,7 +4006,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/beaumont-hills-nsw.md -->
 # Beaumont Hills, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Beaumont Hills · Postcode 2155 · Council: The Hills Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-13
@@ -4083,7 +4083,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/beecroft-nsw.md -->
 # Beecroft, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Beecroft · Postcode 2119 · Council: Hornsby Shire / City of Parramatta
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-15
@@ -4294,7 +4294,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bega-nsw.md -->
 # Bega, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bega · Postcode 2550 · Council: Bega Valley Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-16
@@ -4390,7 +4390,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/belfield-nsw.md -->
 # Belfield, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Belfield · Postcode 2191 · Council: City of Canterbury-Bankstown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-17
@@ -4461,7 +4461,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bella-vista-nsw.md -->
 # Bella Vista, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bella Vista · Postcode 2153 · Council: The Hills Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-19
@@ -4653,7 +4653,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bellevue-hill-nsw.md -->
 # Bellevue Hill, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bellevue Hill · Postcode 2023 · Council: Woollahra Municipality
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-21
@@ -4752,7 +4752,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/belmore-nsw.md -->
 # Belmore, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Belmore · Postcode 2192 · Council: City of Canterbury-Bankstown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-22
@@ -4871,7 +4871,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/belrose-nsw.md -->
 # Belrose, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Belrose · Postcode 2085 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-23
@@ -4946,7 +4946,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/berala-nsw.md -->
 # Berala, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Berala · Postcode 2141 · Council: Cumberland City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-27
@@ -5021,7 +5021,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/beresfield-nsw.md -->
 # Beresfield, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Beresfield · Postcode 2322 · Council: City of Newcastle
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-28
@@ -5090,7 +5090,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/berkeley-vale-nsw.md -->
 # Berkeley Vale, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Berkeley Vale · Postcode 2261 · Council: Central Coast Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-06-29
@@ -5186,7 +5186,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/berowra-heights-nsw.md -->
 # Berowra Heights, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Berowra Heights · Postcode 2082 · Council: Hornsby Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-01
@@ -5277,7 +5277,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/berry-nsw.md -->
 # Berry, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Berry · Postcode 2535 · Council: City of Shoalhaven
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-04
@@ -5374,7 +5374,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/beverly-hills-nsw.md -->
 # Beverly Hills, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Beverly Hills · Postcode 2209 · Council: Georges River Council and City of Canterbury-Bankstown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-06
@@ -5460,7 +5460,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bexley-north-nsw.md -->
 # Bexley North, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bexley North · Postcode 2207 · Council: Bayside Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-08
@@ -5557,7 +5557,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bexley-nsw.md -->
 # Bexley, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bexley · Postcode 2207 · Council: Bayside Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-07
@@ -5656,7 +5656,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bilgola-plateau-nsw.md -->
 # Bilgola Plateau, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bilgola Plateau · Postcode 2107 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-09
@@ -5728,7 +5728,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/billinudgel-nsw.md -->
 # Billinudgel, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Billinudgel · Postcode 2483 · Council: Byron Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-10
@@ -5795,7 +5795,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bingara-nsw.md -->
 # Bingara, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bingara · Postcode 2404 · Council: Gwydir Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-13
@@ -5861,7 +5861,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/blackalls-park-nsw.md -->
 # Blackalls Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Blackalls Park · Postcode 2283 · Council: City of Lake Macquarie
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-24
@@ -5924,7 +5924,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/blayney-nsw.md -->
 # Blayney, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Blayney · Postcode 2799 · Council: Blayney Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-26
@@ -5987,7 +5987,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bligh-park-nsw.md -->
 # Bligh Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bligh Park · Postcode 2756 · Council: Hawkesbury City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-07-26
@@ -6049,7 +6049,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/boggabri-nsw.md -->
 # Boggabri, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Boggabri · Postcode 2382 · Council: Narrabri Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-01
@@ -6112,7 +6112,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bomaderry-nsw.md -->
 # Bomaderry, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bomaderry · Postcode 2541 · Council: Shoalhaven City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-05
@@ -6207,7 +6207,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bondi-beach-nsw.md -->
 # Bondi Beach, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bondi Beach · Postcode 2026 · Council: Waverley Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-07
@@ -6284,7 +6284,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bondi-junction-2022-nsw.md -->
 # Bondi Junction, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bondi Junction · Postcode 2022 · Council: Waverley Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-18
@@ -6459,7 +6459,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bondi-nsw.md -->
 # Bondi, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bondi · Postcode 2026 · Council: Waverley Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-06
@@ -6530,7 +6530,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bonnells-bay-nsw.md -->
 # Bonnells Bay, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bonnells Bay · Postcode 2264 · Council: Lake Macquarie City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-08
@@ -6601,7 +6601,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bonny-hills-nsw.md -->
 # Bonny Hills, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bonny Hills · Postcode 2445 · Council: Port Macquarie-Hastings Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-09
@@ -6666,7 +6666,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bonnyrigg-nsw.md -->
 # Bonnyrigg, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bonnyrigg · Postcode 2177 · Council: Fairfield City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-10
@@ -6798,7 +6798,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/boolaroo-nsw.md -->
 # Boolaroo, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Boolaroo · Postcode 2284 · Council: Lake Macquarie City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-12
@@ -6873,7 +6873,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/boomerang-beach-nsw.md -->
 # Boomerang Beach, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Boomerang Beach · Postcode 2428 · Council: MidCoast Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-13
@@ -6944,7 +6944,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bourke-nsw.md -->
 # Bourke, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bourke · Postcode 2840 · Council: Bourke Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-19
@@ -7007,7 +7007,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bowenfels-nsw.md -->
 # Bowenfels, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bowenfels · Postcode 2790 · Council: City of Lithgow
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-21
@@ -7069,7 +7069,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bowral-nsw.md -->
 # Bowral, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bowral · Postcode 2576 · Council: Wingecarribee Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-23
@@ -7193,7 +7193,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/box-hill-nsw.md -->
 # Box Hill, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Box Hill · Postcode 2765 · Council: The Hills Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-24
@@ -7266,7 +7266,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bradbury-nsw.md -->
 # Bradbury, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bradbury · Postcode 2560 · Council: City of Campbelltown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-25
@@ -7340,7 +7340,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/braidwood-nsw.md -->
 # Braidwood, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Braidwood · Postcode 2622 · Council: Queanbeyan-Palerang Regional Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-08-26
@@ -7408,7 +7408,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/breakfast-point-nsw.md -->
 # Breakfast Point, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Breakfast Point · Postcode 2137 · Council: City of Canada Bay
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-01
@@ -7478,7 +7478,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/brighton-le-sands-nsw.md -->
 # Brighton-Le-Sands, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Brighton-Le-Sands · Postcode 2216 · Council: Bayside Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-03
@@ -7569,7 +7569,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/broadmeadow-nsw.md -->
 # Broadmeadow, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Broadmeadow · Postcode 2292 · Council: City of Newcastle
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-05
@@ -7695,7 +7695,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/broadway-nsw.md -->
 # Broadway, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Broadway · Postcode 2007 · Council: City of Sydney
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-06
@@ -7821,7 +7821,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/broken-hill-nsw.md -->
 # Broken Hill, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Broken Hill · Postcode 2880 · Council: Broken Hill City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-09
@@ -7946,7 +7946,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bronte-nsw.md -->
 # Bronte, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bronte · Postcode 2024 · Council: Waverley Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-10
@@ -8036,7 +8036,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/brookvale-nsw.md -->
 # Brookvale, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Brookvale · Postcode 2100 · Council: Northern Beaches Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-12
@@ -8225,7 +8225,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/broulee-nsw.md -->
 # Broulee, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Broulee · Postcode 2537 · Council: Eurobodalla Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-13
@@ -8290,7 +8290,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/brunswick-heads-nsw.md -->
 # Brunswick Heads, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Brunswick Heads · Postcode 2483 · Council: Byron Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-16
@@ -8349,7 +8349,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/budgewoi-nsw.md -->
 # Budgewoi, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Budgewoi · Postcode 2262 · Council: Central Coast Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-20
@@ -8426,7 +8426,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bulahdelah-nsw.md -->
 # Bulahdelah, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bulahdelah · Postcode 2423 · Council: Mid-Coast Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-22
@@ -8487,7 +8487,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/bungendore-nsw.md -->
 # Bungendore, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Bungendore · Postcode 2621 · Council: Queanbeyan-Palerang Regional Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-09-29
@@ -8556,7 +8556,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/burraneer-nsw.md -->
 # Burraneer, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Burraneer · Postcode 2230 · Council: Sutherland Shire
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-03
@@ -8623,7 +8623,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/burwood-nsw.md -->
 # Burwood, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Burwood · Postcode 2134 · Council: Municipality of Burwood
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-07
@@ -9034,7 +9034,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/busby-nsw.md -->
 # Busby, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Busby · Postcode 2168 · Council: City of Liverpool
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-08
@@ -9105,7 +9105,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/byron-bay-nsw.md -->
 # Byron Bay, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Byron Bay · Postcode 2481 · Council: Byron Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-11
@@ -9237,7 +9237,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/cabarita-beach-nsw.md -->
 # Cabarita Beach, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Cabarita Beach · Postcode 2488 · Council: Tweed Shire Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-12
@@ -9306,7 +9306,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/cabramatta-nsw.md -->
 # Cabramatta, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Cabramatta · Postcode 2166 · Council: City of Fairfield
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-13
@@ -9606,7 +9606,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/cabramatta-west-nsw.md -->
 # Cabramatta West, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Cabramatta West · Postcode 2166 · Council: City of Fairfield
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-14
@@ -9673,7 +9673,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/caddens-nsw.md -->
 # Caddens, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Caddens · Postcode 2747 · Council: Penrith City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-15
@@ -9753,7 +9753,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/calderwood-nsw.md -->
 # Calderwood, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Calderwood · Postcode 2527 · Council: Shellharbour City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-17
@@ -9828,7 +9828,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/cambridge-park-nsw.md -->
 # Cambridge Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Cambridge Park · Postcode 2747 · Council: Penrith City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-21
@@ -9903,7 +9903,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/camden-nsw.md -->
 # Camden, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Camden · Postcode 2570 · Council: Camden Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-22
@@ -10117,7 +10117,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/cameron-park-nsw.md -->
 # Cameron Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Cameron Park · Postcode 2285 · Council: City of Lake Macquarie
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-23
@@ -10189,7 +10189,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/cammeray-nsw.md -->
 # Cammeray, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW  
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW  
 **Suburb:** Cammeray · Postcode 2062 · Council: North Sydney Council  
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click “Look up practitioners” to search the register  
 **Last Verified:** 2026-10-24
@@ -10315,7 +10315,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/campbelltown-nsw.md -->
 # Campbelltown, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Campbelltown · Postcode 2560 · Council: Campbelltown City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-25
@@ -10739,7 +10739,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/campsie-nsw.md -->
 # Campsie, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Campsie · Postcode 2194 · Council: City of Canterbury Bankstown
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-26
@@ -10857,7 +10857,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/canley-heights-nsw.md -->
 # Canley Heights, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Canley Heights · Postcode 2166 · Council: Fairfield City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-27
@@ -10975,7 +10975,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/canley-vale-nsw.md -->
 # Canley Vale, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Canley Vale · Postcode 2166 · Council: Fairfield City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-10-28
@@ -11055,7 +11055,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/chatswood-nsw.md -->
 # Chatswood, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Chatswood · Postcode 2067 · Council: City of Willoughby
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-03-30
@@ -11181,7 +11181,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/macquarie-park-nsw.md -->
 # Macquarie Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](../../../Australia.md) → [Medical & Healthcare](../../medical.md) → Dental · NSW
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Macquarie Park · Postcode 2113 · Council: City of Ryde
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
 **Last Verified:** 2026-03-27
@@ -11330,7 +11330,7 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical.md -->
 # Medical & Healthcare System of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Australian Health Practitioner Regulation Agency (AHPRA)](https://www.ahpra.gov.au) · [Services Australia — Medicare](https://www.servicesaustralia.gov.au/medicare)
 
 ---
@@ -11418,8 +11418,8 @@ Public hospitals are funded by the states and territories. Elective surgery wait
 
 ## Medical Directory (Australia.md)
 
-→ [Medical Hub](../medical/index.html) — Browse specialties  
-→ [Endocrinology NSW](../medical/endocrinology/index.html) — AHPRA-compliant listing
+→ [Medical Hub](https://australia.md/medical/index.html) — Browse specialties  
+→ [Endocrinology NSW](https://australia.md/medical/endocrinology/index.html) — AHPRA-compliant listing
 
 ---
 
@@ -11440,7 +11440,7 @@ Public hospitals are funded by the states and territories. Elective surgery wait
 <!-- https://australia.md/docs/technology.md -->
 # Technology & AI Sector of Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Department of Industry, Science and Resources (DISR)](https://www.industry.gov.au) · [CSIRO](https://www.csiro.au)
 
 ---
@@ -11550,7 +11550,7 @@ The NBN is Australia's national wholesale broadband network; a mix of Fibre to t
 <!-- https://australia.md/docs/tourism.md -->
 # Tourism & Travel in Australia
 
-**Parent:** [Australia.md](../Australia.md)  
+**Parent:** [Australia.md](https://australia.md/Australia.md)  
 **Authoritative source:** [Tourism Australia](https://www.australia.com) · [Department of Home Affairs](https://www.homeaffairs.gov.au)
 
 ---
