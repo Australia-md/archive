@@ -13,7 +13,8 @@
     "okf:backfill": "node scripts/okf-v02-backfill.mjs",
     "seo:build": "npm run okf:backfill && npm run seo:postprocess && npm run seo:sitemap && npm run seo:llms",
     "seo:check": "node scripts/okf-v02-backfill.mjs --check && node scripts/seo-postprocess.mjs --check && node scripts/seo-validate.mjs",
-    "seo:validate": "node scripts/seo-validate.mjs"
+    "seo:validate": "node scripts/seo-validate.mjs",
+    "seo:indexnow": "node scripts/indexnow-submit.mjs"
   },
   "repository": {
     "type": "git",
