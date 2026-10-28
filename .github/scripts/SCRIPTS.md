@@ -16,6 +16,7 @@ They are **not** part of the Cloudflare Worker — they run on GitHub's `ubuntu-
 | [`notify-contributor.ts`](#notify-contributorts) | `verify-submission.yml`, `admin-override.yml` | Builds email subject and body for all pipeline outcomes |
 | [`check-admin.ts`](#check-admintscheck-admin-runnerts) | `admin-override.yml` | Logic: checks if a GitHub actor is an authorised admin |
 | [`check-admin-runner.ts`](#check-admintscheck-admin-runnerts) | `admin-override.yml` | Entry point: reads env vars and calls `check-admin.ts` |
+| `parse-issue-runner.ts` | `admin-override.yml` | Parses an admin-verified submission issue into the content, category, path and source URL `create-content-file.ts` needs |
 | [`setup-labels.ts`](#setup-labelsts) | Run once manually | Creates all required GitHub Issue labels in the repository |
 | `check-okf-standard.ts` | `okf-standard-watch.yml` | Detects upstream OKF spec changes (`GoogleCloudPlatform/open-knowledge-format`, `SPEC.md`) vs `.github/okf-standard.lock`; opens a tracking issue |
 | `check-okf-conformance.ts` | `okf-conformance.yml` | Fails if any `docs/**` file breaks OKF v0.2 conformance (frontmatter, `type`, `index.md`/`log.md` rules, ISO 8601 timestamps) |
