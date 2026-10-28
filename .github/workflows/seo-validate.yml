@@ -1,0 +1,38 @@
+name: SEO validate
+
+# Release gate for generated pages and SEO files. Runs the same checks the nightly
+# job (australia-dental-nightly) runs before it pushes, so a bad page or a broken
+# sitemap/llms file fails here instead of reaching main. Every check exists because
+# that defect shipped once — see HTML_template.md §14 "Lessons".
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [scheduling-branch]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: seo:check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      # Branches that predate the SEO scripts (e.g. a PR based on an older main) skip these steps.
+      - name: Generated page parts are up to date
+        if: hashFiles('scripts/seo-postprocess.mjs') != ''
+        run: node scripts/seo-postprocess.mjs --check
+      - name: llms.txt / llms-full.txt are up to date
+        if: hashFiles('scripts/build-llms.mjs') != ''
+        run: |
+          node scripts/build-llms.mjs
+          git diff --exit-code -- llms.txt llms-full.txt || { echo "::error::llms files are stale — run npm run seo:build and commit"; exit 1; }
+      - name: Release gate (claims, snippet control, hub, sitemap, llms, OKF)
+        if: hashFiles('scripts/seo-validate.mjs') != ''
+        run: node scripts/seo-validate.mjs

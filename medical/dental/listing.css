@@ -1111,3 +1111,54 @@ a.btn-view-profile {
   .suburb-facet { min-height: 44px; }
   .btn-refine { min-height: 44px; }
 }
+
+/* ═══════════════════════════════════════════════════════
+   SEO post-processing additions (scripts/seo-postprocess.mjs)
+   Design tokens only (§12d); focus uses outline (§12e).
+   ═══════════════════════════════════════════════════════ */
+
+/* Raw-source badge in the nav bar */
+.nav-raw-md {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--clr-outline);
+  border-radius: 999px;
+  color: var(--clr-on-surface-variant);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-raw-md:hover { color: var(--clr-on-surface); border-color: var(--clr-primary); }
+.nav-raw-md:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+@media (max-width: 640px) { .nav-raw-md { display: none; } }
+
+/* Answer-first paragraph */
+.listing-answer {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0.75rem 0 0.5rem;
+  color: var(--clr-on-surface);
+}
+
+/* Same council area and nearby postcodes */
+.nearby-suburbs {
+  margin: 2rem 0 0;
+  padding: 1.25rem;
+  border: 1px solid var(--clr-outline-variant);
+  border-radius: 12px;
+  background: var(--clr-surface-container-low);
+}
+.nearby-title { font-size: 1.1rem; margin: 0 0 0.75rem; }
+.nearby-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.6rem 1.25rem;
+}
+.nearby-list a { text-decoration: underline; }
+.nearby-list a:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+.nearby-meta { display: block; color: var(--clr-on-surface-variant); font-size: 0.85rem; }
