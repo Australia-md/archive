@@ -18,6 +18,7 @@
 //     duplicates, valid per-URL lastmod (not one date for everything).
 //  6. llms.txt / llms-full.txt: every australia.md URL exists on disk; no relative Markdown links
 //     in llms-full.txt (bodies are concatenated, so relative links would resolve wrongly).
+//  8. Internal <a href> links are root-relative and point to a file that exists.
 //  7. OKF bundle (docs/): every non-reserved .md has frontmatter with a non-empty `type`;
 //     index.md/log.md carry no frontmatter, except an `okf_version`-only block on docs/index.md.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
@@ -90,7 +91,7 @@ for (const rel of allPages) {
 
 // ── 4: hub completeness ─────────────────────────────────────────────────────
 const hub = read(join(DENTAL, 'index.html'));
-const hubLinks = [...hub.matchAll(/<a\b(?=[^>]*class="suburb-dir-link")[^>]*\bhref="([^"/]+)\/"/g)].map((m) => m[1]);
+const hubLinks = [...hub.matchAll(/<a\b(?=[^>]*class="suburb-dir-link")[^>]*\bhref="(?:\/medical\/dental\/)?([a-z0-9-]+)\/"/g)].map((m) => m[1]);
 for (const s of slugs) { const n = hubLinks.filter((h) => h === s).length; if (n !== 1) fail('4', 'medical/dental/index.html', `${s} appears ${n} times in the hub list (expected 1)`); }
 for (const h of new Set(hubLinks)) if (!slugs.includes(h)) fail('4', 'medical/dental/index.html', `hub links to ${h}/ which has no page`);
 
@@ -136,6 +137,22 @@ for (const f of mdFiles(DOCS)) {
   }
   if (!fm) { fail('7', rel, 'no YAML frontmatter'); continue; }
   if (!/^type:\s*"?[^"\s][^"\n]*"?\s*$/m.test(fm[1])) fail('7', rel, 'frontmatter has no non-empty `type`');
+}
+
+// ── 8: internal links are root-relative and resolve ─────────────────────────
+// Bing resolves relative links against the slash-less page URL, which turned hub links into ~49
+// /medical/{suburb} 404s and /medical/'s "dental/" into /dental (Oct 2026).
+for (const rel of [...allPages, ...(existsSync(join(ROOT, '404.html')) ? ['404.html'] : [])]) {
+  const html = read(join(ROOT, rel));
+  const seen = new Set();
+  for (const m of html.matchAll(/<a\b[^>]*?\bhref="([^"]*)"/g)) {
+    const href = m[1];
+    if (!href || seen.has(href) || /^(?:[a-z][a-z0-9+.-]*:|#)/i.test(href)) continue;
+    seen.add(href);
+    if (!href.startsWith('/')) { fail('8', rel, `relative link href="${href}" — use a root-relative path`); continue; }
+    const path = decodeURI(href.split(/[?#]/)[0]);
+    if (!existsSync(path.endsWith('/') ? join(ROOT, path, 'index.html') : join(ROOT, path))) fail('8', rel, `internal link ${href} points to nothing on disk`);
+  }
 }
 
 // ── Report ──────────────────────────────────────────────────────────────────

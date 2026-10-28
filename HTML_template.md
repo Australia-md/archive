@@ -729,7 +729,7 @@ does not matter — `listing.js` sorts the grid A–Z on load):
 
 ```html
 <li>
-  <a href="{suburb-slug}/" class="suburb-dir-link" aria-label="View dental clinics in {Suburb} {STATE} {Postcode} — {N} clinic(s)">
+  <a href="/medical/dental/{suburb-slug}/" class="suburb-dir-link" aria-label="View dental clinics in {Suburb} {STATE} {Postcode} — {N} clinic(s)">
     <span class="suburb-dir-info">
       <span class="suburb-dir-name">{Suburb}</span>
       <span class="suburb-dir-meta">{STATE} {Postcode} &nbsp;&middot;&nbsp; {N} clinic(s) &nbsp;&middot;&nbsp; {LGA}</span>
@@ -795,7 +795,7 @@ What each step owns — never edit these by hand:
 | Step | Script | Owns |
 |---|---|---|
 | `okf:backfill` | `scripts/okf-v02-backfill.mjs` | the OKF v0.2 frontmatter keys `generated`, `verified`, `stale_after`, `sources` of every `docs/**` concept that lacks them, derived only from the file's own `timestamp`, `last_verified` and Data Sources table (§1b). A key that is already present is never rewritten |
-| `seo:postprocess` | `scripts/seo-postprocess.mjs` | head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
+| `seo:postprocess` | `scripts/seo-postprocess.mjs` | every internal `<a href>` rewritten to a root-relative path (`/medical/dental/{slug}/`, never `../{slug}/` or `{slug}/`), site-wide including `404.html`; head `rel="alternate" type="text/markdown"` link; the `<div class="nosnippet-wrap" data-nosnippet>` wrapper around every breadcrumb `<nav>` site-wide (Google ignores `data-nosnippet` on `<nav>`); "Raw .md" nav badge; `.verified-label` text; `.listing-answer` paragraph; JSON-LD `ItemList`, `Dentist.@id`, `mainEntity`, `distribution`; the block between `<!-- nearby-suburbs:start -->` and `<!-- nearby-suburbs:end -->` |
 | `seo:sitemap` | `scripts/build-sitemap.mjs` | `sitemap.xml` — every `index.html` on disk, per-URL `<lastmod>` (dental pages = source verification date: latest `verified[].at`, else `last_verified`/`timestamp`; others = last commit date, or today if uncommitted); splits above 50,000 URLs |
 | `seo:llms` | `scripts/build-llms.mjs` | `llms.txt` and `llms-full.txt` from `docs/**` frontmatter |
 
@@ -813,6 +813,7 @@ The post-processor also prints `WARN` lines: a page whose clinic-card count diff
 | A page existed with no hub entry (Ashfield) | Every suburb directory appears exactly once in the hub (check 4) |
 | Sitemap missed 18–42 pages and gave every URL one `lastmod` | Every page is in the sitemap, every `<loc>` exists, `lastmod` varies per URL (check 5) |
 | `llms.txt` advertised HTML pages that do not exist; `llms-full.txt` kept relative links that broke once bodies were concatenated; a concept without `title` crashed the generator | Every australia.md URL in the llms files exists; no relative links in `llms-full.txt`; title falls back to H1/filename (check 6) |
+| Relative links (`berala/` on the hub, `dental/` on `/medical/`) were resolved by Bing against the slash-less page URL, creating ~49 `/medical/{suburb}` and `/dental` 404s | Every internal `<a href>` is root-relative and must point to a file on disk (check 8) |
 | Frontmatter added to a non-root `index.md` | `index.md`/`log.md` carry no frontmatter except `okf_version` on `docs/index.md` (check 7) |
 
 When a reviewer (human or Copilot) finds a new class of defect, add a check for it to `scripts/seo-validate.mjs` in the same fix, so it cannot recur silently.
