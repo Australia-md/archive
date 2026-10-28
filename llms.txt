@@ -1,28 +1,126 @@
 # Australia.md — Sovereign Knowledge Archive
 
-> Australia.md is a curated, open-source knowledge base and machine-readable sovereign archive for Australia. Published in the Open Knowledge Format (OKF) v0.1 — a vendor-neutral standard introduced by Google Cloud for representing curated knowledge. All content is strictly verifiable against authoritative Australian sources (government, statutory authorities, institutional records) with visible Last Verified timestamps.
+> Curated, source-verified knowledge about Australia, published as an Open Knowledge Format (OKF v0.1) bundle: Markdown concepts with YAML frontmatter under /docs/. Every HTML page links its source .md via <link rel="alternate" type="text/markdown">. Licence: AGPL-3.0-or-later. Facts carry Last Verified dates; nothing is inferred beyond the cited sources.
 
-## Core Documentation
+## Core concepts
+- [Arts, Culture & Sport of Australia](https://australia.md/docs/culture.md): Australian Broadcasting Corporation (ABC) — Australia's national public broadcaster, funded by the federal government but editorially independent.
+- [Economy & Industry of Australia](https://australia.md/docs/economy.md): Australia has a highly developed mixed-market economy.
+- [Education System of Australia](https://australia.md/docs/education.md): Education in Australia is the joint responsibility of the federal government and state/territory governments.
+- [Environment & Climate of Australia](https://australia.md/docs/environment.md): Australia spans multiple climate zones due to its vast size.
+- [Flora & Fauna of Australia](https://australia.md/docs/flora-fauna.md): Australia is one of 17 megadiverse countries in the world.
+- [Geography & States of Australia](https://australia.md/docs/geography.md): Australia occupies an area of 7,692,024 km², making it the sixth-largest country by total area and the largest country in Oceania.
+- [Government & Constitution of Australia](https://australia.md/docs/government.md): Australia is a constitutional monarchy and a federal parliamentary democracy.
+- [History & Heritage of Australia](https://australia.md/docs/history.md): Australia's national heritage places are listed in the Australian Heritage Database, administered by the Department of Climate Change, Energy, the Environment and Water.
+- [Indigenous Australia](https://australia.md/docs/indigenous.md): Aboriginal Australians and Torres Strait Islander peoples are the traditional custodians of the Australian continent and its surrounding islands.
+- [Dental Clinics — New South Wales](https://australia.md/docs/medical/dental/index.md): Index of suburb-level dental clinic directories in New South Wales.
+- [Medical & Healthcare System of Australia](https://australia.md/docs/medical.md): Australia operates a universal public healthcare system called Medicare, established under the Health Insurance Act 1973.
+- [Technology & AI Sector of Australia](https://australia.md/docs/technology.md): Australia has a growing technology and innovation ecosystem.
+- [Tourism & Travel in Australia](https://australia.md/docs/tourism.md): Australia is consistently ranked among the world's top tourist destinations.
 
-- [Australia Overview](https://australia.md/Australia.md): Master sovereign index and country meta specifications
-- [Geography & States](https://australia.md/docs/geography.md): Land area, borders, states, territories, and geographic data
-- [Government & Constitution](https://australia.md/docs/government.md): Constitutional framework, parliamentary system, and head of state
-- [Economy & Innovation](https://australia.md/docs/economy.md): GDP, trade, major industries, RBA monetary policy, and ASX
-- [Medical & Healthcare](https://australia.md/docs/medical.md): Healthcare system, Medicare, PBS, and AHPRA regulatory standards
-- [Education System](https://australia.md/docs/education.md): Universities, primary/secondary schooling, AQF qualifications
-- [Flora & Fauna](https://australia.md/docs/flora-fauna.md): Endemic marsupials, botanical classifications, EPBC Act conservation status
-- [History & Heritage](https://australia.md/docs/history.md): Deep-time Indigenous history, Federation, and statutory heritage registers
-- [Culture & Arts](https://australia.md/docs/culture.md): National institutions, creative policy, screen, music, and public holidays
-- [Technology & AI](https://australia.md/docs/technology.md): National AI initiatives, quantum computing, and sovereign tech infrastructure
-- [Tourism & Destinations](https://australia.md/docs/tourism.md): World Heritage areas, state tourism frameworks, and travel standards
-- [Indigenous Cultures](https://australia.md/docs/indigenous.md): World's oldest continuous living culture, language groups, and heritage
+## Dental clinic directory (NSW) — one OKF concept per suburb
+- [Aberdare, NSW — Dental Clinics](https://australia.md/docs/medical/dental/aberdare-nsw.md): 1 clinic(s), checked 2026-04-02 · HTML: https://australia.md/medical/dental/aberdare/
+- [Adamstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/adamstown-nsw.md): 2 clinic(s), checked 2026-04-17 · HTML: https://australia.md/medical/dental/adamstown/
+- [Airds, NSW — Dental Clinics](https://australia.md/docs/medical/dental/airds-nsw.md): 1 clinic(s), checked 2026-04-20 · HTML: https://australia.md/medical/dental/airds/
+- [Albion Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albion-park-nsw.md): 2 clinic(s), checked 2026-04-05 · HTML: https://australia.md/medical/dental/albion-park/
+- [Albury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albury-nsw.md): 3 clinic(s), checked 2026-04-09 · HTML: https://australia.md/medical/dental/albury/
+- [Alexandria, NSW — Dental Clinics](https://australia.md/docs/medical/dental/alexandria-nsw.md): 2 clinic(s), checked 2026-04-10 · HTML: https://australia.md/medical/dental/alexandria/
+- [Allambie Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/allambie-heights-nsw.md): 1 clinic(s), checked 2026-04-14 · HTML: https://australia.md/medical/dental/allambie-heights/
+- [Alstonville, NSW — Dental Clinics](https://australia.md/docs/medical/dental/alstonville-nsw.md): 3 clinic(s), checked 2026-04-24 · HTML: https://australia.md/medical/dental/alstonville/
+- [Annandale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/annandale-nsw.md): 2 clinic(s), checked 2026-04-27 · HTML: https://australia.md/medical/dental/annandale/
+- [Armidale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/armidale-nsw.md): 6 clinic(s), checked 2026-05-03 · HTML: https://australia.md/medical/dental/armidale/
+- [Arncliffe, NSW — Dental Clinics](https://australia.md/docs/medical/dental/arncliffe-nsw.md): 2 clinic(s), checked 2026-05-04 · HTML: https://australia.md/medical/dental/arncliffe/
+- [Artarmon, NSW — Dental Clinics](https://australia.md/docs/medical/dental/artarmon-nsw.md): 2 clinic(s), checked 2026-05-05 · HTML: https://australia.md/medical/dental/artarmon/
+- [Ashfield, NSW — Dental Clinics](https://australia.md/docs/medical/dental/ashfield-nsw.md): 11 clinic(s), checked 2026-05-07 · HTML: https://australia.md/medical/dental/ashfield/
+- [Auburn, NSW — Dental Clinics](https://australia.md/docs/medical/dental/auburn-nsw.md): 5 clinic(s), checked 2026-05-09 · HTML: https://australia.md/medical/dental/auburn/
+- [Avalon Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/avalon-beach-nsw.md): 2 clinic(s), checked 2026-05-10 · HTML: https://australia.md/medical/dental/avalon-beach/
+- [Avoca Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/avoca-beach-nsw.md): 1 clinic(s), checked 2026-05-11 · HTML: https://australia.md/medical/dental/avoca-beach/
+- [Balgowlah Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-heights-nsw.md): 1 clinic(s), checked 2026-05-19 · HTML: https://australia.md/medical/dental/balgowlah-heights/
+- [Balgowlah, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgowlah-nsw.md): 2 clinic(s), checked 2026-05-17 · HTML: https://australia.md/medical/dental/balgowlah/
+- [Balgownie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balgownie-nsw.md): 1 clinic(s), checked 2026-05-20 · HTML: https://australia.md/medical/dental/balgownie/
+- [Balmain, NSW — Dental Clinics](https://australia.md/docs/medical/dental/balmain-nsw.md): 1 clinic(s), checked 2026-05-22 · HTML: https://australia.md/medical/dental/balmain/
+- [Bangalow, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangalow-nsw.md): 2 clinic(s), checked 2026-05-25 · HTML: https://australia.md/medical/dental/bangalow/
+- [Bangor, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bangor-nsw.md): 2 clinic(s), checked 2026-05-26 · HTML: https://australia.md/medical/dental/bangor/
+- [Bankstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bankstown-nsw.md): 6 clinic(s), checked 2026-05-27 · HTML: https://australia.md/medical/dental/bankstown/
+- [Banora Point, NSW — Dental Clinics](https://australia.md/docs/medical/dental/banora-point-nsw.md): 2 clinic(s), checked 2026-05-29 · HTML: https://australia.md/medical/dental/banora-point/
+- [Barham, NSW — Dental Clinics](https://australia.md/docs/medical/dental/barham-nsw.md): 1 clinic(s), checked 2026-05-31 · HTML: https://australia.md/medical/dental/barham/
+- [Barrack Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/barrack-heights-nsw.md): 1 clinic(s), checked 2026-06-02 · HTML: https://australia.md/medical/dental/barrack-heights/
+- [Bateau Bay, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bateau-bay-nsw.md): 2 clinic(s), checked 2026-06-06 · HTML: https://australia.md/medical/dental/bateau-bay/
+- [Batehaven, NSW — Dental Clinics](https://australia.md/docs/medical/dental/batehaven-nsw.md): 1 clinic(s), checked 2026-06-07 · HTML: https://australia.md/medical/dental/batehaven/
+- [Batemans Bay, NSW — Dental Clinics](https://australia.md/docs/medical/dental/batemans-bay-nsw.md): 2 clinic(s), checked 2026-06-08 · HTML: https://australia.md/medical/dental/batemans-bay/
+- [Bathurst, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bathurst-nsw.md): 4 clinic(s), checked 2026-06-09 · HTML: https://australia.md/medical/dental/bathurst/
+- [Baulkham Hills, NSW — Dental Clinics](https://australia.md/docs/medical/dental/baulkham-hills-nsw.md): 4 clinic(s), checked 2026-06-10 · HTML: https://australia.md/medical/dental/baulkham-hills/
+- [Beaconsfield, NSW — Dental Clinics](https://australia.md/docs/medical/dental/beaconsfield-nsw.md): 1 clinic(s), checked 2026-06-12 · HTML: https://australia.md/medical/dental/beaconsfield/
+- [Beaumont Hills, NSW — Dental Clinics](https://australia.md/docs/medical/dental/beaumont-hills-nsw.md): 1 clinic(s), checked 2026-06-13 · HTML: https://australia.md/medical/dental/beaumont-hills/
+- [Beecroft, NSW — Dental Clinics](https://australia.md/docs/medical/dental/beecroft-nsw.md): 7 clinic(s), checked 2026-06-15 · HTML: https://australia.md/medical/dental/beecroft/
+- [Bega, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bega-nsw.md): 2 clinic(s), checked 2026-06-16 · HTML: https://australia.md/medical/dental/bega/
+- [Belfield, NSW — Dental Clinics](https://australia.md/docs/medical/dental/belfield-nsw.md): 1 clinic(s), checked 2026-06-17 · HTML: https://australia.md/medical/dental/belfield/
+- [Bella Vista, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bella-vista-nsw.md): 7 clinic(s), checked 2026-06-19 · HTML: https://australia.md/medical/dental/bella-vista/
+- [Bellevue Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bellevue-hill-nsw.md): 2 clinic(s), checked 2026-06-21 · HTML: https://australia.md/medical/dental/bellevue-hill/
+- [Belmore, NSW — Dental Clinics](https://australia.md/docs/medical/dental/belmore-nsw.md): 3 clinic(s), checked 2026-06-22 · HTML: https://australia.md/medical/dental/belmore/
+- [Belrose, NSW — Dental Clinics](https://australia.md/docs/medical/dental/belrose-nsw.md): 1 clinic(s), checked 2026-06-23 · HTML: https://australia.md/medical/dental/belrose/
+- [Berala, NSW — Dental Clinics](https://australia.md/docs/medical/dental/berala-nsw.md): 1 clinic(s), checked 2026-06-27 · HTML: https://australia.md/medical/dental/berala/
+- [Beresfield, NSW — Dental Clinics](https://australia.md/docs/medical/dental/beresfield-nsw.md): 1 clinic(s), checked 2026-06-28 · HTML: https://australia.md/medical/dental/beresfield/
+- [Berkeley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/berkeley-vale-nsw.md): 2 clinic(s), checked 2026-06-29 · HTML: https://australia.md/medical/dental/berkeley-vale/
+- [Berowra Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/berowra-heights-nsw.md): 2 clinic(s), checked 2026-07-01 · HTML: https://australia.md/medical/dental/berowra-heights/
+- [Berry, NSW — Dental Clinics](https://australia.md/docs/medical/dental/berry-nsw.md): 2 clinic(s), checked 2026-07-04 · HTML: https://australia.md/medical/dental/berry/
+- [Beverly Hills, NSW — Dental Clinics](https://australia.md/docs/medical/dental/beverly-hills-nsw.md): 2 clinic(s), checked 2026-07-06 · HTML: https://australia.md/medical/dental/beverly-hills/
+- [Bexley North, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bexley-north-nsw.md): 2 clinic(s), checked 2026-07-08 · HTML: https://australia.md/medical/dental/bexley-north/
+- [Bexley, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bexley-nsw.md): 2 clinic(s), checked 2026-07-07 · HTML: https://australia.md/medical/dental/bexley/
+- [Bilgola Plateau, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bilgola-plateau-nsw.md): 1 clinic(s), checked 2026-07-09 · HTML: https://australia.md/medical/dental/bilgola-plateau/
+- [Billinudgel, NSW — Dental Clinics](https://australia.md/docs/medical/dental/billinudgel-nsw.md): 1 clinic(s), checked 2026-07-10 · HTML: https://australia.md/medical/dental/billinudgel/
+- [Bingara, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bingara-nsw.md): 1 clinic(s), checked 2026-07-13 · HTML: https://australia.md/medical/dental/bingara/
+- [Blackalls Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/blackalls-park-nsw.md): 1 clinic(s), checked 2026-07-24 · HTML: https://australia.md/medical/dental/blackalls-park/
+- [Blayney, NSW — Dental Clinics](https://australia.md/docs/medical/dental/blayney-nsw.md): 1 clinic(s), checked 2026-07-26 · HTML: https://australia.md/medical/dental/blayney/
+- [Bligh Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bligh-park-nsw.md): 1 clinic(s), checked 2026-07-26 · HTML: https://australia.md/medical/dental/bligh-park/
+- [Boggabri, NSW — Dental Clinics](https://australia.md/docs/medical/dental/boggabri-nsw.md): 1 clinic(s), checked 2026-08-01 · HTML: https://australia.md/medical/dental/boggabri/
+- [Bomaderry, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bomaderry-nsw.md): 2 clinic(s), checked 2026-08-05 · HTML: https://australia.md/medical/dental/bomaderry/
+- [Bondi Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bondi-beach-nsw.md): 2 clinic(s), checked 2026-08-07 · HTML: https://australia.md/medical/dental/bondi-beach/
+- [Bondi Junction, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bondi-junction-2022-nsw.md): 6 clinic(s), checked 2026-08-18 · HTML: https://australia.md/medical/dental/bondi-junction-2022/
+- [Bondi, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bondi-nsw.md): 1 clinic(s), checked 2026-08-06 · HTML: https://australia.md/medical/dental/bondi/
+- [Bonnells Bay, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bonnells-bay-nsw.md): 1 clinic(s), checked 2026-08-08 · HTML: https://australia.md/medical/dental/bonnells-bay/
+- [Bonny Hills, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bonny-hills-nsw.md): 1 clinic(s), checked 2026-08-09 · HTML: https://australia.md/medical/dental/bonny-hills/
+- [Bonnyrigg, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bonnyrigg-nsw.md): 3 clinic(s), checked 2026-08-10 · HTML: https://australia.md/medical/dental/bonnyrigg/
+- [Boolaroo, NSW — Dental Clinics](https://australia.md/docs/medical/dental/boolaroo-nsw.md): 1 clinic(s), checked 2026-08-12 · HTML: https://australia.md/medical/dental/boolaroo/
+- [Boomerang Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/boomerang-beach-nsw.md): 1 clinic(s), checked 2026-08-13 · HTML: https://australia.md/medical/dental/boomerang-beach/
+- [Bourke, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bourke-nsw.md): 1 clinic(s), checked 2026-08-19 · HTML: https://australia.md/medical/dental/bourke/
+- [Bowenfels, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bowenfels-nsw.md): 1 clinic(s), checked 2026-08-21 · HTML: https://australia.md/medical/dental/bowenfels/
+- [Bowral, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bowral-nsw.md): 5 clinic(s), checked 2026-08-23 · HTML: https://australia.md/medical/dental/bowral/
+- [Box Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/box-hill-nsw.md): 1 clinic(s), checked 2026-08-24 · HTML: https://australia.md/medical/dental/box-hill/
+- [Bradbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bradbury-nsw.md): 1 clinic(s), checked 2026-08-25 · HTML: https://australia.md/medical/dental/bradbury/
+- [Braidwood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/braidwood-nsw.md): 1 clinic(s), checked 2026-08-26 · HTML: https://australia.md/medical/dental/braidwood/
+- [Breakfast Point, NSW — Dental Clinics](https://australia.md/docs/medical/dental/breakfast-point-nsw.md): 1 clinic(s), checked 2026-09-01 · HTML: https://australia.md/medical/dental/breakfast-point/
+- [Brighton-Le-Sands, NSW — Dental Clinics](https://australia.md/docs/medical/dental/brighton-le-sands-nsw.md): 2 clinic(s), checked 2026-09-03 · HTML: https://australia.md/medical/dental/brighton-le-sands/
+- [Broadmeadow, NSW — Dental Clinics](https://australia.md/docs/medical/dental/broadmeadow-nsw.md): 3 clinic(s), checked 2026-09-05 · HTML: https://australia.md/medical/dental/broadmeadow/
+- [Broadway, NSW — Dental Clinics](https://australia.md/docs/medical/dental/broadway-nsw.md): 4 clinic(s), checked 2026-09-06 · HTML: https://australia.md/medical/dental/broadway/
+- [Broken Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/broken-hill-nsw.md): 4 clinic(s), checked 2026-09-09 · HTML: https://australia.md/medical/dental/broken-hill/
+- [Bronte, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bronte-nsw.md): 3 clinic(s), checked 2026-09-10 · HTML: https://australia.md/medical/dental/bronte/
+- [Brookvale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/brookvale-nsw.md): 9 clinic(s), checked 2026-09-12 · HTML: https://australia.md/medical/dental/brookvale/
+- [Broulee, NSW — Dental Clinics](https://australia.md/docs/medical/dental/broulee-nsw.md): 1 clinic(s), checked 2026-09-13 · HTML: https://australia.md/medical/dental/broulee/
+- [Brunswick Heads, NSW — Dental Clinics](https://australia.md/docs/medical/dental/brunswick-heads-nsw.md): 1 clinic(s), checked 2026-09-16 · HTML: https://australia.md/medical/dental/brunswick-heads/
+- [Budgewoi, NSW — Dental Clinics](https://australia.md/docs/medical/dental/budgewoi-nsw.md): 2 clinic(s), checked 2026-09-20 · HTML: https://australia.md/medical/dental/budgewoi/
+- [Bulahdelah, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bulahdelah-nsw.md): 1 clinic(s), checked 2026-09-22 · HTML: https://australia.md/medical/dental/bulahdelah/
+- [Bungendore, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bungendore-nsw.md): 1 clinic(s), checked 2026-09-29 · HTML: https://australia.md/medical/dental/bungendore/
+- [Burraneer, NSW — Dental Clinics](https://australia.md/docs/medical/dental/burraneer-nsw.md): 1 clinic(s), checked 2026-10-03 · HTML: https://australia.md/medical/dental/burraneer/
+- [Burwood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/burwood-nsw.md): 18 clinic(s), checked 2026-10-07 · HTML: https://australia.md/medical/dental/burwood/
+- [Busby, NSW — Dental Clinics](https://australia.md/docs/medical/dental/busby-nsw.md): 1 clinic(s), checked 2026-10-08 · HTML: https://australia.md/medical/dental/busby/
+- [Byron Bay, NSW — Dental Clinics](https://australia.md/docs/medical/dental/byron-bay-nsw.md): 5 clinic(s), checked 2026-10-11 · HTML: https://australia.md/medical/dental/byron-bay/
+- [Cabarita Beach, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cabarita-beach-nsw.md): 1 clinic(s), checked 2026-10-12 · HTML: https://australia.md/medical/dental/cabarita-beach/
+- [Cabramatta West, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cabramatta-west-nsw.md): 1 clinic(s), checked 2026-10-14 · HTML: https://australia.md/medical/dental/cabramatta-west/
+- [Cabramatta, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cabramatta-nsw.md): 16 clinic(s), checked 2026-10-13 · HTML: https://australia.md/medical/dental/cabramatta/
+- [Caddens, NSW — Dental Clinics](https://australia.md/docs/medical/dental/caddens-nsw.md): 1 clinic(s), checked 2026-10-15 · HTML: https://australia.md/medical/dental/caddens/
+- [Calderwood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/calderwood-nsw.md): 1 clinic(s), checked 2026-10-17 · HTML: https://australia.md/medical/dental/calderwood/
+- [Cambridge Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cambridge-park-nsw.md): 1 clinic(s), checked 2026-10-21 · HTML: https://australia.md/medical/dental/cambridge-park/
+- [Camden, NSW — Dental Clinics](https://australia.md/docs/medical/dental/camden-nsw.md): 9 clinic(s), checked 2026-10-22 · HTML: https://australia.md/medical/dental/camden/
+- [Cameron Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cameron-park-nsw.md): 1 clinic(s), checked 2026-10-23 · HTML: https://australia.md/medical/dental/cameron-park/
+- [Cammeray, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cammeray-nsw.md): 4 clinic(s), checked 2026-10-24 · HTML: https://australia.md/medical/dental/cammeray/
+- [Campbelltown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/campbelltown-nsw.md): 22 clinic(s), checked 2026-10-25 · HTML: https://australia.md/medical/dental/campbelltown/
+- [Campsie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/campsie-nsw.md): 4 clinic(s), checked 2026-10-26 · HTML: https://australia.md/medical/dental/campsie/
+- [Canley Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-heights-nsw.md): 5 clinic(s), checked 2026-10-27 · HTML: https://australia.md/medical/dental/canley-heights/
+- [Canley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-vale-nsw.md): 2 clinic(s), checked 2026-10-28 · HTML: https://australia.md/medical/dental/canley-vale/
+- [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 4 clinic(s), checked 2026-03-30 · HTML: https://australia.md/medical/dental/chatswood/
+- [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 5 clinic(s), checked 2026-03-27 · HTML: https://australia.md/medical/dental/macquarie-park/
 
-## Specialized Healthcare Directories
-
-- [NSW Dental Clinic Directory](https://australia.md/medical/dental/): Comprehensive, AHPRA-verified dental directory covering 80+ Sydney and regional NSW suburbs
-- [Endocrinology Directory](https://australia.md/medical/endocrinology/): Specialist endocrinologist clinical services
-
-## Technical Standards & Specifications
-
-- [Open Knowledge Format v0.1 Specification](https://australia.md/docs/index.md): Vendor-neutral standard for curated Markdown knowledge bundles
-- [Sitemap](https://australia.md/sitemap.xml): Full canonical HTML page index
+## Machine endpoints
+- [Sitemap](https://australia.md/sitemap.xml): canonical HTML URLs with per-URL lastmod
+- [Full corpus](https://australia.md/llms-full.txt): this index followed by every concept body
+- [Repository](https://github.com/Australia-md/archive): clone for the whole bundle
