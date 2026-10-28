@@ -116,6 +116,7 @@
 - [Campsie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/campsie-nsw.md): 4 clinic(s), checked 2026-10-26 · HTML: https://australia.md/medical/dental/campsie/
 - [Canley Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-heights-nsw.md): 5 clinic(s), checked 2026-10-27 · HTML: https://australia.md/medical/dental/canley-heights/
 - [Canley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-vale-nsw.md): 2 clinic(s), checked 2026-10-28 · HTML: https://australia.md/medical/dental/canley-vale/
+- [Canterbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canterbury-nsw.md): 6 clinic(s), checked 2026-10-29 · HTML: https://australia.md/medical/dental/canterbury/
 - [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 4 clinic(s), checked 2026-03-30 · HTML: https://australia.md/medical/dental/chatswood/
 - [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 5 clinic(s), checked 2026-03-27 · HTML: https://australia.md/medical/dental/macquarie-park/
 
