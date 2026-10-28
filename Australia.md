@@ -5,6 +5,7 @@ description: "This file is the canonical entry point for machine-readable knowle
 tags: [australia, index]
 timestamp: 2026-03-26T00:00:00Z
 last_verified: "2026-03-26"
+generated: { by: human:jamesho, at: 2026-03-26T00:00:00Z }
 ---
 
 # Australia.md

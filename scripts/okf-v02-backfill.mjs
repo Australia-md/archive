@@ -2,7 +2,7 @@
 // scripts/okf-v02-backfill.mjs — run from the repo root: `node scripts/okf-v02-backfill.mjs`
 //
 // Adds the OKF v0.2 provenance / trust / lifecycle families (SPEC.md §5, upstream
-// GoogleCloudPlatform/open-knowledge-format) to every concept under docs/**. Every value is
+// GoogleCloudPlatform/open-knowledge-format) to every concept under docs/** and to Australia.md. Every value is
 // derived ONLY from data already in the file; nothing is looked up or inferred.
 //
 //   generated    { by: <actor>, at: <timestamp> }                    §5.2 — supersedes `timestamp` (§13.1)
@@ -33,6 +33,9 @@ const HUMAN_OWNER = 'human:jamesho';
 const STALE_AFTER_DAYS = 180;
 const RESERVED = new Set(['index.md', 'log.md']);
 const DENTAL = /^docs\/medical\/dental\/[a-z0-9-]+-[a-z]{2,3}\.md$/;
+// Concepts outside the bundle root that also carry OKF frontmatter (constitution → Knowledge Format).
+// Australia.md is the country index: it has no source table, so it gets `generated` only.
+const EXTRA_CONCEPTS = new Set(['Australia.md']);
 
 // Dental concepts the cron did not write. Evidence: both are absent from the cron's own output
 // (~/.openclaw/AustraliaMD/docs/medical/dental/) and both predate its first run (2026-04-05).
@@ -111,7 +114,7 @@ function topLevel(block) {
 const stats = { concepts: 0, changed: 0, generated: 0, verified: 0, stale_after: 0, sources: 0, entries: 0 };
 const warnings = [], changed = [];
 
-for (const file of walk(DOCS).sort()) {
+for (const file of [...walk(DOCS).sort(), ...[...EXTRA_CONCEPTS].map((f) => join(ROOT, f))]) {
   const rel = relative(ROOT, file).replace(/\\/g, '/');
   const raw = readFileSync(file, 'utf8');
   const m = raw.match(/^---\n([\s\S]*?)\n---(?=\n|$)/);
@@ -160,7 +163,7 @@ for (const file of walk(DOCS).sort()) {
       add.push('sources:', ...sources.flatMap((s) => [`  - id: ${s.id}`, `    resource: ${ystr(s.resource)}`, `    title: ${ystr(s.title)}`]));
       stats.sources++;
       stats.entries += sources.length;
-    } else warnings.push(`${rel}: no source table found — \`sources\` not added`);
+    } else if (!EXTRA_CONCEPTS.has(rel)) warnings.push(`${rel}: no source table found — \`sources\` not added`);
   }
 
   if (!add.length) continue;
