@@ -19,6 +19,10 @@
 //  6. llms.txt / llms-full.txt: every australia.md URL exists on disk; no relative Markdown links
 //     in llms-full.txt (bodies are concatenated, so relative links would resolve wrongly).
 //  8. Internal <a href> links are root-relative and point to a file that exists.
+//  9. The national dental-cost block (CDBS, ADA items) shows only figures from data/medicare-constants.json,
+//     with its verification date, ADA items labelled as ADA and paired with their 88-prefixed CDBS item.
+// 10. The clinic comparison table and the "services listed" clause match the page's own clinic cards,
+//     and nothing claims AHPRA registration.
 //  7. OKF bundle (docs/): every non-reserved .md has frontmatter with a non-empty `type`;
 //     index.md/log.md carry no frontmatter, except an `okf_version`-only block on docs/index.md.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
@@ -152,6 +156,65 @@ for (const rel of [...allPages, ...(existsSync(join(ROOT, '404.html')) ? ['404.h
     if (!href.startsWith('/')) { fail('8', rel, `relative link href="${href}" — use a root-relative path`); continue; }
     const path = decodeURI(href.split(/[?#]/)[0]);
     if (!existsSync(path.endsWith('/') ? join(ROOT, path, 'index.html') : join(ROOT, path))) fail('8', rel, `internal link ${href} points to nothing on disk`);
+  }
+}
+
+// ── 9: national dental-cost reference block matches data/medicare-constants.json ──
+// The block may only state figures from the constants file (each with a source and date), must
+// label ADA item numbers as ADA (not Medicare) and pair each with its 88-prefixed CDBS item.
+const KFILE = join(ROOT, 'data/medicare-constants.json');
+const K = existsSync(KFILE) ? JSON.parse(read(KFILE)) : null;
+if (!K) fail('9', 'data/medicare-constants.json', 'missing');
+else {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(K.last_verified || '')) fail('9', 'data/medicare-constants.json', 'last_verified must be YYYY-MM-DD');
+  for (const sec of ['cdbs', 'ada_items']) if (!(K[sec]?.sources || []).length || K[sec].sources.some((s) => !/^https:\/\//.test(s.url))) fail('9', 'data/medicare-constants.json', `${sec} needs https sources`);
+  for (const i of K.ada_items?.items || []) if (i.cdbs !== `88${i.ada}`) fail('9', 'data/medicare-constants.json', `ADA ${i.ada} must map to CDBS 88${i.ada}, not ${i.cdbs}`);
+  const allowed = new Set((K.cdbs?.caps || []).map((c) => '$' + Number(c.amount_aud).toLocaleString('en-AU')));
+  for (const slug of slugs) {
+    const where = `medical/dental/${slug}`;
+    const html = read(join(DENTAL, slug, 'index.html'));
+    const blk = (html.match(/<!-- dental-reference:start[\s\S]*?<!-- dental-reference:end -->/) || [''])[0];
+    if (!blk) { fail('9', where, 'national dental-cost reference block missing'); continue; }
+    for (const amt of blk.match(/\$\d[\d,]*/g) || []) if (!allowed.has(amt)) fail('9', where, `amount ${amt} is not in data/medicare-constants.json`);
+    if (!blk.includes(`datetime="${K.last_verified}"`)) fail('9', where, 'reference block does not show the constants last_verified date');
+    // "They are not Medicare item numbers" is the correct statement; anything else calling them Medicare codes fails.
+    if (/(?<!not )Medicare (?:standard|item) (?:code|number)/i.test(blk)) fail('9', where, 'ADA item numbers must not be called Medicare codes');
+    for (const i of K.ada_items.items) if (!new RegExp(`<th scope="row">${i.ada}</th><td>[^<]*</td><td>${i.cdbs}</td>`).test(blk)) fail('9', where, `ADA ${i.ada} / CDBS ${i.cdbs} row missing or altered`);
+  }
+}
+
+// ── 10: comparison table and services clause agree with the page's own clinic cards ──
+for (const slug of slugs) {
+  const where = `medical/dental/${slug}`;
+  const html = read(join(DENTAL, slug, 'index.html'));
+  const cards = [...html.matchAll(/<article\b(?=[^>]*class="clinic-card)[^>]*>([\s\S]*?)<\/article>/g)].map((m) => ({
+    name: ((m[1].match(/class="clinic-name"[^>]*>([^<]+)</) || [])[1] || '').trim(),
+    prac: [...m[1].matchAll(/class="practitioner-name"[^>]*>([^<]+)</g)].map((x) => x[1].trim()),
+    svc: [...m[1].matchAll(/class="service-chip"[^>]*>([^<]+)</g)].map((x) => x[1].trim()),
+  }));
+  const cmp = (html.match(/<!-- clinic-compare:start[\s\S]*?<!-- clinic-compare:end -->/) || [''])[0];
+  if (cards.length >= 2 && !cmp) fail('10', where, 'comparison table missing (page has 2+ clinics)');
+  if (cards.length < 2 && cmp) fail('10', where, 'comparison table present on a single-clinic page');
+  if (cmp) {
+    const rows = [...cmp.matchAll(/<tr><th scope="row"><a href="#clinic-\d+">([^<]+)<\/a><\/th><td>([^<]*)<\/td><td>([\s\S]*?)<\/td><\/tr>/g)];
+    if (rows.length !== cards.length) fail('10', where, `comparison table has ${rows.length} rows for ${cards.length} clinics`);
+    rows.forEach((r, i) => {
+      const c = cards[i]; if (!c) return;
+      if (r[1].trim() !== c.name) fail('10', where, `row ${i + 1} names "${r[1]}" but card ${i + 1} is "${c.name}"`);
+      if (c.svc.length && r[2] !== c.svc.join(', ')) fail('10', where, `row ${i + 1} services differ from the card`);
+      if (c.prac.length && r[3] !== c.prac.join(', ')) fail('10', where, `row ${i + 1} practitioners differ from the card`);
+      if (!c.prac.length && !/AHPRA register/.test(r[3])) fail('10', where, `row ${i + 1} must point to the AHPRA register when no practitioner is named`);
+    });
+    if (/AHPRA[- ]registered|AHPRA[- ]verified/i.test(cmp)) fail('10', where, 'comparison table must not claim AHPRA registration (no source states AHPRA Verified: Yes)');
+  }
+  const ans = (html.match(/<p class="listing-answer">([\s\S]*?)<\/p>/) || [, ''])[1].replace(/<[^>]+>/g, '');
+  const sm = ans.match(/Services listed by (?:this clinic|these clinics) include (.+?)\. Clinic details/);
+  if (sm) {
+    // Remove every service the cards list (longest first, since labels can contain "and"); only separators may remain.
+    const chips = [...new Set(cards.flatMap((c) => c.svc.map((x) => x.replace(/&amp;/g, '&').toLowerCase())))].sort((a, b) => b.length - a.length);
+    let rest = sm[1].replace(/&amp;/g, '&').toLowerCase();
+    for (const ch of chips) rest = rest.split(ch).join(' ');
+    if (rest.replace(/,|\band\b|\s/g, '') !== '') fail('10', where, `services clause names something no clinic card lists ("${rest.replace(/\s+/g, ' ').trim()}")`);
   }
 }
 

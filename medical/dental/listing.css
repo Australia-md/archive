@@ -1162,3 +1162,38 @@ a.btn-view-profile {
 .nearby-list a { text-decoration: underline; }
 .nearby-list a:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
 .nearby-meta { display: block; color: var(--clr-on-surface-variant); font-size: 0.85rem; }
+
+/* ═══════════════════════════════════════════════════════
+   Information-gain modules (scripts/seo-postprocess.mjs §9)
+   Design tokens only (§12d); focus uses outline (§12e).
+   ═══════════════════════════════════════════════════════ */
+.clinic-compare, .ref-module {
+  margin: 0 0 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--clr-outline-variant);
+  border-radius: 12px;
+  background: var(--clr-surface-container-low);
+}
+.ref-module { margin: 2rem 0 0; }
+.compare-title, .ref-title { font-size: 1.1rem; margin: 0 0 0.75rem; }
+.compare-scroll { overflow-x: auto; }
+.compare-scroll:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+.compare-table, .ref-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 0 0 1rem; }
+.compare-table { min-width: 36rem; }
+.compare-table caption, .ref-table caption { text-align: left; font-size: 0.85rem; color: var(--clr-on-surface-variant); padding: 0 0 0.5rem; }
+.compare-table th, .compare-table td, .ref-table th, .ref-table td {
+  text-align: left; vertical-align: top; padding: 0.55rem 0.65rem;
+  border-top: 1px solid var(--clr-outline-variant);
+}
+.compare-table thead th, .ref-table thead th { font-weight: 600; color: var(--clr-on-surface-variant); }
+.compare-table tbody th, .ref-table tbody th { font-weight: 600; color: var(--clr-on-surface); }
+.ref-table tbody th { width: 9rem; white-space: nowrap; }
+.compare-table a, .ref-module a { text-decoration: underline; }
+.compare-table a:focus-visible, .ref-module a:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+.ref-lead, .ref-source { color: var(--clr-on-surface-variant); font-size: 0.92rem; line-height: 1.55; }
+@media (max-width: 640px) {
+  .ref-table tbody th { width: auto; white-space: normal; }
+}
+/* Let the clinic column shrink below its content width so the comparison table
+   scrolls inside .compare-scroll instead of widening the whole page on mobile. */
+.listing-body > .clinic-list, .clinic-compare, .ref-module { min-width: 0; max-width: 100%; }
