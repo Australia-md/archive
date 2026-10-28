@@ -25,7 +25,7 @@ This file records URLs submitted to Bing and IndexNow so unchanged URLs are not 
 
 | URL | Sitemap lastmod at submission | Last submitted UTC | Method | Response | Resubmit only when |
 |---|---:|---:|---|---|---|
-| https://australia.md/ | 2026-09-28 | 2026-10-28T10:19:49Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
+| https://australia.md/ | 2026-10-28 | 2026-10-28T11:07:33Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/ | 2026-10-28 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/culture/ | 2026-10-28 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/flora-fauna/ | 2026-10-28 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
