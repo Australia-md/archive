@@ -1253,3 +1253,8 @@ img, svg {
     grid-template-columns: 1fr;
   }
 }
+
+/* Snippet control: Google honours data-nosnippet only on span/div/section, so breadcrumbs are wrapped
+   in <div class="nosnippet-wrap" data-nosnippet> (scripts/seo-postprocess.mjs). display: contents keeps
+   the wrapper out of layout so the <nav> renders exactly as before. */
+.nosnippet-wrap { display: contents; }
