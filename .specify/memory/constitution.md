@@ -66,14 +66,23 @@ Conform to WCAG 2.1 Level AA and WAI-ARIA 1.2:
 - `<time datetime="YYYY-MM-DD">` for all dates
 - Visible `Last Verified` date on all pages, reflected in structured data
 
-### Knowledge Format (OKF v0.1)
-The Markdown knowledge layer conforms to the **Open Knowledge Format (OKF) v0.1**. The **bundle root is `docs/`**; `Australia.md` remains the human entry point and also carries frontmatter.
+### Knowledge Format (OKF v0.2)
+The Markdown knowledge layer conforms to the **Open Knowledge Format (OKF) v0.2** (upstream: `GoogleCloudPlatform/open-knowledge-format`, `SPEC.md`; baseline commit in `.github/okf-standard.lock`). The **bundle root is `docs/`**; `Australia.md` remains the human entry point and also carries frontmatter.
 - **Every** concept file under `docs/**` (excluding reserved `index.md` / `log.md`) MUST begin with a parseable YAML frontmatter block whose **`type`** field is present and non-empty. `type` is the only required field.
-- Recommended fields, in priority order: `title`, `description`, `resource` (canonical source URI), `tags`, `timestamp` (ISO 8601 datetime). Producers MAY add extension keys (e.g. `suburb`, `postcode`, `state`, `lga`, `ahpra_status`, `last_verified`, `category`, `submission_issue`); consumers MUST tolerate unknown keys, unknown `type` values, and broken cross-links.
+- Recommended fields, in priority order: `title`, `description`, `resource` (canonical source URI), `tags`. Producers MAY add extension keys (e.g. `suburb`, `postcode`, `state`, `lga`, `ahpra_status`, `last_verified`, `category`, `submission_issue`); consumers MUST tolerate unknown keys, unknown `type` values, and broken cross-links.
+- **Provenance, trust, lifecycle (OKF v0.2 §5):**
+  - `generated: { by, at }` — who wrote the current content and when. `at` supersedes the v0.1 `timestamp`.
+  - `verified: { by, at }` (or a list of them) — each confirmation of the content against its sources. Consumers MUST treat a bare mapping as a one-element list and use the **latest** `at`. Trust tier: no `verified` ⇒ unverified; only non-`human:` actors ⇒ machine-confirmed; any `human:<id>` ⇒ human-reviewed. Never write `human:` for a check no person performed.
+  - `stale_after` — absolute instant after which the concept is stale. Dental listings use latest `verified.at` + 180 days.
+  - `sources` — list of `{ id, resource, title }` (`resource` required). Supersedes the v0.1 body `# Citations` list. Our body source tables (**Data Sources** / **Authoritative Sources**) stay in the body; `sources` mirrors them, one entry per URL.
+  - **Actors** (OKF §7): `<producer>/<version>` for agents and tools (the dental cron is `openclaw/dental-cron`), `process:<id>` for automated processes (`process:submission-pipeline`, `process:verify-submission`), `human:<id>` for people (`human:jamesho`).
+  - Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `sources[].last_modified`, legacy `timestamp`) is an ISO 8601 datetime with an explicit offset, e.g. `2026-06-30T00:00:00Z`. `last_verified` stays a `YYYY-MM-DD` date.
+  - **Values are derived, never invented.** Every v0.2 field must come from data already in the concept or from the producer's own run; leave a field out rather than guess it.
+- **Transition (v0.1 → v0.2):** producers keep writing the legacy `timestamp` and `last_verified` keys alongside the v0.2 fields until every consumer reads `generated` / `verified`. Readers prefer the latest `verified[].at`, then `last_verified`, then `timestamp`. `scripts/okf-v02-backfill.mjs` adds missing v0.2 fields to existing concepts from their own data and is safe to re-run.
 - **Type vocabulary:** `Country Index` (`Australia.md`), `Domain Overview` (`docs/*.md`), `Dental Clinic Directory` (`docs/medical/dental/*.md`). Extend with descriptive, self-explanatory values for new concept classes.
-- **Reserved filenames:** `index.md` (directory listing for progressive disclosure; no frontmatter except the bundle-root `docs/index.md`, which may declare `okf_version: "0.1"`) and `log.md` (change history). Concepts cross-link with standard Markdown links; relative links are retained for GitHub compatibility.
-- **Last Verified** is mirrored: authoritative in frontmatter (`timestamp` + `last_verified`) and kept visible in the body.
-- **Producers and consumers** — the submission pipeline (`.github/scripts/create-content-file.ts`) and the dental scheduled job (via `HTML_template.md`) — MUST emit/parse conformant frontmatter, and any consumer rendering a body to HTML MUST strip the frontmatter block first. Rationale and migration record: [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).
+- **Reserved filenames:** `index.md` (directory listing for progressive disclosure; no frontmatter except the bundle-root `docs/index.md`, which may declare `okf_version: "0.2"` and nothing else) and `log.md` (change history; `## YYYY-MM-DD` date headings). Concepts cross-link with standard Markdown links; relative links are retained for GitHub compatibility.
+- **Last Verified** is mirrored: authoritative in frontmatter (`verified`, plus legacy `timestamp` + `last_verified`) and kept visible in the body.
+- **Producers and consumers** — the submission pipeline (`.github/scripts/create-content-file.ts`), the dental scheduled job (via `HTML_template.md`) and the SEO/sitemap/re-verification scripts — MUST emit/parse conformant frontmatter, and any consumer rendering a body to HTML MUST strip the frontmatter block first. `.github/scripts/check-okf-conformance.ts` (workflow `OKF Conformance`) enforces conformance on every pull request touching `docs/**`. Rationale and migration record: [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).
 
 ## Content & File Conventions
 
@@ -90,7 +99,7 @@ The Markdown knowledge layer conforms to the **Open Knowledge Format (OKF) v0.1*
    <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
    ```
 9. **Version control:** Semantic versioning (MAJOR.MINOR.PATCH). Update in `index.html`, `README.md`, and `AGENTS.md` simultaneously. Tag with `git tag vX.Y.Z`
-10. **OKF frontmatter:** every concept file under `docs/**` carries OKF v0.1 frontmatter with a non-empty `type` — see Standards → "Knowledge Format (OKF v0.1)". New files produced by automation must be born conformant.
+10. **OKF frontmatter:** every concept file under `docs/**` carries OKF v0.2 frontmatter with a non-empty `type` — see Standards → "Knowledge Format (OKF v0.2)". New files produced by automation must be born conformant.
 
 ## Development Workflow
 
@@ -124,6 +133,8 @@ This constitution is the authoritative governance document for the Australia.md 
 - Constitution amendments are made via pull request like any other file — no special committee required
 - All agents and contributors must reference this constitution as the authority when standards questions arise
 
-**Version**: 1.1.0 | **Ratified**: 2026-03-29 | **Last Amended**: 2026-06-20
+**Version**: 1.2.0 | **Ratified**: 2026-03-29 | **Last Amended**: 2026-10-28
 
 *Amendment 1.1.0 (2026-06-20): adopted the Open Knowledge Format (OKF v0.1) for the `docs/**` knowledge layer — see Standards → "Knowledge Format (OKF v0.1)" and [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md).*
+
+*Amendment 1.2.0 (2026-10-28): migrated the `docs/**` knowledge layer to OKF v0.2 (`generated`, `verified`, `stale_after`, `sources`; legacy `timestamp` / `last_verified` kept during the transition) and tracked the spec at its new upstream, `GoogleCloudPlatform/open-knowledge-format` — see Standards → "Knowledge Format (OKF v0.2)" and [`specs/004-okf-adoption/migration-plan.md`](../../specs/004-okf-adoption/migration-plan.md) §v0.2.*

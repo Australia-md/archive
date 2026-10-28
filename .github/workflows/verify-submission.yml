@@ -63,6 +63,7 @@ jobs:
           CONTENT_PATH: ${{ steps.verify.outputs.content_path }}
           SOURCE_URL: ${{ steps.verify.outputs.source_url }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          VERIFIED_BY: process:verify-submission # OKF v0.2 `verified` actor: the AI source check above
         run: npx tsx create-content-file.ts
         working-directory: .github/scripts
 

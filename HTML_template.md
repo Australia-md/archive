@@ -2,7 +2,7 @@
 
 > **Purpose:** This file is the authoritative reference for generating `medical/dental/{suburb}/index.html` pages. The scheduled job reads THIS file instead of re-parsing an existing HTML page. All structure, class names, rules, and patterns are defined here. Follow exactly — do not deviate from class names, nesting, or element types.
 
-> **OKF v0.1 (since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
+> **OKF v0.2 (since 2026-10-28; v0.1 since 2026-06-20):** Source Markdown files under `docs/medical/dental/` begin with an **Open Knowledge Format YAML frontmatter block** (delimited by `---`). The scheduled job MUST (1) parse page metadata from that frontmatter, and (2) **strip the frontmatter block before rendering the Markdown body** into HTML — the `---`/`---` block must never appear in the generated page. See §1b. Bundle root is `docs/`; the format is governed by `.specify/memory/constitution.md` → "Knowledge Format (OKF)".
 
 ---
 
@@ -17,25 +17,42 @@
 
 ---
 
-## 1b. Source Markdown Frontmatter (OKF v0.1)
+## 1b. Source Markdown Frontmatter (OKF v0.2)
 
-Every source file (e.g. `docs/medical/dental/macquarie-park-nsw.md`) now starts with an OKF YAML frontmatter block. Example:
+Every source file (e.g. `docs/medical/dental/aberdare-nsw.md`) starts with an OKF YAML frontmatter block. OKF v0.2 (upstream `GoogleCloudPlatform/open-knowledge-format` `SPEC.md` §5) adds provenance (`sources`), trust (`generated`, `verified`) and lifecycle (`stale_after`) fields; the v0.1 keys `timestamp` and `last_verified` are kept during the transition. Example (`docs/medical/dental/aberdare-nsw.md`, sources list shortened):
 
 ```yaml
 ---
-type: Dental Clinic Directory
-title: Macquarie Park, NSW — Dental Clinics
-description: Verified AHPRA-registered dental clinics in Macquarie Park NSW 2113.
-resource: https://www.dentalboard.gov.au
-tags: [dental, nsw, macquarie-park]
-timestamp: 2026-05-28T00:00:00Z
-suburb: Macquarie Park
-postcode: "2113"
+type: "Dental Clinic Directory"
+title: "Aberdare, NSW — Dental Clinics"
+description: "Aberdare (postcode 2325) is a mixed residential suburb in the Cessnock City Council local government area in the Lower Hunter region of New South Wales."
+resource: "https://www.dentalboard.gov.au"
+tags: [dental, nsw, aberdare]
+timestamp: 2026-04-02T00:00:00Z
+suburb: "Aberdare"
+postcode: "2325"
 state: nsw
-lga: City of Ryde
-last_verified: 2026-05-28
+lga: "Cessnock City Council"
+last_verified: "2026-04-02"
+generated: { by: openclaw/dental-cron, at: 2026-04-02T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-04-02T00:00:00Z }
+stale_after: 2026-09-29T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  # … one entry per URL in the body's "Data Sources" table
 ---
 ```
+
+| Field | Meaning (OKF v0.2) |
+|---|---|
+| `generated` | `{ by, at }` — who wrote the current content and when (`at` supersedes `timestamp`). Dental cron output uses `by: openclaw/dental-cron`. |
+| `verified` | `{ by, at }` or a list of them — each confirmation against public sources. Consumers MUST treat a bare mapping as a one-element list; "how recently" is the **latest** `at`. `openclaw/dental-cron` is a machine actor (machine-confirmed tier); only a person may be written as `human:<id>`. |
+| `stale_after` | Absolute instant (latest `verified.at` + 180 days) after which the listing is due for re-verification. |
+| `sources` | One `{ id, resource, title }` per URL in the body's **Data Sources** table. The body table stays. |
+
+Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`) is an ISO 8601 datetime with an explicit offset, e.g. `2026-04-02T00:00:00Z`. `last_verified` stays a plain `YYYY-MM-DD` date.
 
 **Generator rules:**
 
@@ -47,7 +64,8 @@ last_verified: 2026-05-28
    | `title` | `<title>` / `og:title` (already in the dental format) |
    | `suburb`, `postcode`, `state` | `{Suburb}`, `{Postcode}`, `{STATE}` fill-ins, breadcrumbs, schema |
    | `lga` | `{LGA}` in the sidebar map region label (§8) |
-   | `timestamp` / `last_verified` | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
+   | latest `verified[].at`, else `last_verified`, else `timestamp` (date part) | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
+   | `generated`, `stale_after`, `sources` | Metadata only — not rendered. The page's Data Sources list still comes from the body table |
    | `resource` | Authoritative registration source link |
    | `description` | Fallback only — the `{meta-description}` rule below still governs the meta tags |
 
