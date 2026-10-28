@@ -21,6 +21,7 @@
 //  8. Internal <a href> links are root-relative and point to a file that exists.
 //  9. The national dental-cost block (CDBS, ADA items) shows only figures from data/medicare-constants.json,
 //     with its verification date, ADA items labelled as ADA and paired with their 88-prefixed CDBS item.
+// 11. Every nav version badge equals v{package.json version}.
 // 10. The clinic comparison table and the "services listed" clause match the page's own clinic cards,
 //     and nothing claims AHPRA registration.
 //  7. OKF bundle (docs/): every non-reserved .md has frontmatter with a non-empty `type`;
@@ -215,6 +216,17 @@ for (const slug of slugs) {
     let rest = sm[1].replace(/&amp;/g, '&').toLowerCase();
     for (const ch of chips) rest = rest.split(ch).join(' ');
     if (rest.replace(/,|\band\b|\s/g, '') !== '') fail('10', where, `services clause names something no clinic card lists ("${rest.replace(/\s+/g, ' ').trim()}")`);
+  }
+}
+
+// ── 11: one site version, from package.json ──────────────────────────────────
+// Badges were hand-typed and drifted (v2.0 home, v2.4.1 dental, v1.1.0 categories) while the
+// real release was 2.0.0. package.json "version" is now the only source.
+const SITE_VERSION = JSON.parse(read(join(ROOT, 'package.json'))).version;
+if (!/^\d+\.\d+\.\d+$/.test(SITE_VERSION || '')) fail('11', 'package.json', `version "${SITE_VERSION}" is not semver`);
+for (const rel of allPages) {
+  for (const m of read(join(ROOT, rel)).matchAll(/<span\b[^>]*class="nav-badge"[^>]*>([^<]*)<\/span>/g)) {
+    if (m[1].trim() !== `v${SITE_VERSION}`) fail('11', rel, `version badge "${m[1].trim()}" — must be v${SITE_VERSION} (package.json)`);
   }
 }
 

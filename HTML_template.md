@@ -259,7 +259,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
       <li><a href="../../../submit/" class="nav-link">Contribute</a></li>
     </ul>
     <div class="nav-actions">
-      <span class="nav-badge">v2.4.1</span>
+      <span class="nav-badge">v{version}</span>   <!-- written by the post-processor from package.json "version"; never type a number -->
       <a href="../../../docs/medical/dental/{suburb-slug}-{state}.md" class="nav-raw-md" rel="alternate" type="text/markdown" aria-label="View the raw Markdown source of this page (for AI agents and LLMs)">Raw .md</a>
       <a href="https://github.com/Australia-md/archive" class="btn-github" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
         <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -814,6 +814,7 @@ The post-processor also prints `WARN` lines: a page whose clinic-card count diff
 | Sitemap missed 18–42 pages and gave every URL one `lastmod` | Every page is in the sitemap, every `<loc>` exists, `lastmod` varies per URL (check 5) |
 | `llms.txt` advertised HTML pages that do not exist; `llms-full.txt` kept relative links that broke once bodies were concatenated; a concept without `title` crashed the generator | Every australia.md URL in the llms files exists; no relative links in `llms-full.txt`; title falls back to H1/filename (check 6) |
 | Relative links (`berala/` on the hub, `dental/` on `/medical/`) were resolved by Bing against the slash-less page URL, creating ~49 `/medical/{suburb}` and `/dental` 404s | Every internal `<a href>` is root-relative and must point to a file on disk (check 8) |
+| Version badges were hand-typed and drifted: v2.0 on the home page, v2.4.1 on dental pages, v1.1.0 on category pages, while the real release was 2.0.0 | `package.json` `version` is the only source; the post-processor writes `v{version}` into every `.nav-badge`, and any other value fails (check 11). Bump the version only in `package.json`, then tag the release on `main` |
 | A plan to label practitioners "AHPRA Registered" although no source says `AHPRA Verified: Yes` | The comparison table says "Practitioners named in public sources" and links the AHPRA register; claiming AHPRA registration fails (check 10) |
 | A plan to call ADA item numbers "ADA / Medicare standard codes" | ADA items are labelled ADA, never Medicare; each is paired with its 88-prefixed CDBS item (check 9) |
 | National dental-cost figures typed into templates go stale (the CDBS cap is indexed every 1 January) | Every figure lives once in `data/medicare-constants.json` with sources and `last_verified`; pages may only show those figures (check 9). The post-processor warns when the current year's cap is missing or the file is over 400 days old — the owner re-verifies it at Services Australia each January |
