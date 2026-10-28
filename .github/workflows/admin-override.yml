@@ -53,15 +53,25 @@ jobs:
             echo "contributor_email=$EMAIL" >> $GITHUB_OUTPUT
           fi
 
+      # The admin path skips verify-agent.ts, so parse the issue body here into the same
+      # fields it would have output; create-content-file.ts requires all four.
+      - name: Admin Verified — parse submission
+        id: parse
+        if: steps.admin-check.outputs.is_admin == 'true' && github.event.label.name == 'Verified'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: npx tsx parse-issue-runner.ts
+        working-directory: .github/scripts
+
       - name: Admin Verified — create content file
         if: steps.admin-check.outputs.is_admin == 'true' && github.event.label.name == 'Verified'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
-          CONTENT: ${{ github.event.issue.body }}
-          CATEGORY: ''
-          CONTENT_PATH: ''
-          SOURCE_URL: ''
+          CONTENT: ${{ steps.parse.outputs.content }}
+          CATEGORY: ${{ steps.parse.outputs.category }}
+          CONTENT_PATH: ${{ steps.parse.outputs.content_path }}
+          SOURCE_URL: ${{ steps.parse.outputs.source_url }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           VERIFIED_BY: human:${{ github.actor }} # OKF v0.2 `verified` actor: the admin who applied the Verified label
         run: npx tsx create-content-file.ts
