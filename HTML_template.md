@@ -768,6 +768,8 @@ npm run seo:build    # post-process every dental page, then regenerate sitemap.x
 npm run seo:check    # post-processor --check ("files needing changes: 0") + scripts/seo-validate.mjs; must exit 0
 ```
 
+Search-engine submission is automatic after the owner merges to `main`: `.github/workflows/indexnow.yml` waits for the GitHub Pages deploy and submits new or changed live URLs to IndexNow (Bing), recording them in `updateBingIndex.md`. Generators never submit URLs themselves.
+
 `seo:check` is the release gate: **never commit or push while it fails.** CI (`.github/workflows/seo-validate.yml`) runs the same checks on every pull request and on every push to `scheduling-branch`.
 
 What each step owns — never edit these by hand:

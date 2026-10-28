@@ -19,6 +19,7 @@ This file records URLs submitted to Bing and IndexNow so unchanged URLs are not 
 - Do not resubmit a URL if its page and sitemap `<lastmod>` are unchanged since the recorded submission.
 - After any future successful submission, update this file with the submitted URL, sitemap `<lastmod>`, submission time, endpoint, and HTTP response.
 - `HTTP 200` means the URL was accepted. `HTTP 202` means the request was accepted and processing is pending.
+- **Automated since 2026-10-28:** `.github/workflows/indexnow.yml` runs `scripts/indexnow-submit.mjs` after `sitemap.xml` changes on `main`. It waits for the GitHub Pages deploy, submits only new or changed URLs that return HTTP 200, and updates this table. Retry by hand with the workflow's "Run workflow" button or `npm run seo:indexnow`.
 
 ## Submission History
 

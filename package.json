@@ -12,7 +12,8 @@
     "seo:llms": "node scripts/build-llms.mjs",
     "seo:build": "npm run seo:postprocess && npm run seo:sitemap && npm run seo:llms",
     "seo:check": "node scripts/seo-postprocess.mjs --check && node scripts/seo-validate.mjs",
-    "seo:validate": "node scripts/seo-validate.mjs"
+    "seo:validate": "node scripts/seo-validate.mjs",
+    "seo:indexnow": "node scripts/indexnow-submit.mjs"
   },
   "repository": {
     "type": "git",

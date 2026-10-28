@@ -1,0 +1,48 @@
+name: IndexNow submit
+
+# After main changes the sitemap, wait until GitHub Pages has deployed that commit,
+# then submit new/changed live URLs to IndexNow (Bing and other IndexNow engines)
+# and record them in updateBingIndex.md. Google does not support IndexNow; it reads
+# sitemap.xml. Run by hand with "Run workflow" to retry.
+#
+# Loop-safe: the ledger commit uses GITHUB_TOKEN and [skip ci], which do not trigger
+# further workflow runs.
+
+on:
+  push:
+    branches: [main]
+    paths: ['sitemap.xml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    name: Submit changed URLs
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Wait for deploy, then submit to IndexNow
+        if: hashFiles('scripts/indexnow-submit.mjs') != ''
+        run: node scripts/indexnow-submit.mjs --wait-live 1200
+      - name: Commit ledger if changed
+        run: |
+          if git diff --quiet -- updateBingIndex.md; then
+            echo "Ledger unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add updateBingIndex.md
+          git commit -m "chore(indexnow): record IndexNow submission [skip ci]"
+          git pull --rebase origin main
+          git push
