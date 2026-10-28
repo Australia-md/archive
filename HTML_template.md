@@ -765,8 +765,10 @@ Run from the repo root after the page(s) and the hub entry are written:
 
 ```bash
 npm run seo:build    # post-process every dental page, then regenerate sitemap.xml, llms.txt, llms-full.txt
-npm run seo:check    # must print "files needing changes: 0" and exit 0
+npm run seo:check    # post-processor --check ("files needing changes: 0") + scripts/seo-validate.mjs; must exit 0
 ```
+
+`seo:check` is the release gate: **never commit or push while it fails.** CI (`.github/workflows/seo-validate.yml`) runs the same checks on every pull request and on every push to `scheduling-branch`.
 
 What each step owns — never edit these by hand:
 
@@ -779,6 +781,20 @@ What each step owns — never edit these by hand:
 The nearby block lists up to 6 other suburb pages: first those in the same council area (from frontmatter `lga`, else the body `Council:` line), then pages within ±20 of the postcode. Adding a suburb changes its neighbours' blocks too, which is why the post-processor runs over **all** pages every time.
 
 The post-processor also prints `WARN` lines: a page whose clinic-card count differs from its source (regenerate that page), a page with no source `.md`, or a suburb directory missing from the hub (add it per §13). Resolve every `WARN` before committing.
+
+### Lessons (each became an automated check in `scripts/seo-validate.mjs`)
+
+| Shipped defect (2026) | Rule now enforced |
+|---|---|
+| Nightly job's GitHub token expired; 18 pages sat unpublished for a week with no alarm | Job pushes with the owner's `gh`, then verifies the remote head equals the local head and notifies on any mismatch |
+| Pages said "N with confirmed opening hours" where the source said schedules conflict; "open on Saturdays" for appointment-only Saturdays | Hours that the source calls conflicting/varying are never "confirmed"; closed or appointment-only Saturdays are never "open" (check 2) |
+| `data-nosnippet` placed on `<nav>`, which Google ignores | `data-nosnippet` only on `span`/`div`/`section`; every breadcrumb `<nav>` sits inside a `div[data-nosnippet]` (check 3) |
+| A page existed with no hub entry (Ashfield) | Every suburb directory appears exactly once in the hub (check 4) |
+| Sitemap missed 18–42 pages and gave every URL one `lastmod` | Every page is in the sitemap, every `<loc>` exists, `lastmod` varies per URL (check 5) |
+| `llms.txt` advertised HTML pages that do not exist; `llms-full.txt` kept relative links that broke once bodies were concatenated; a concept without `title` crashed the generator | Every australia.md URL in the llms files exists; no relative links in `llms-full.txt`; title falls back to H1/filename (check 6) |
+| Frontmatter added to a non-root `index.md` | `index.md`/`log.md` carry no frontmatter except `okf_version` on `docs/index.md` (check 7) |
+
+When a reviewer (human or Copilot) finds a new class of defect, add a check for it to `scripts/seo-validate.mjs` in the same fix, so it cannot recur silently.
 
 ## 15. Re-verified sources
 

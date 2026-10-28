@@ -213,7 +213,7 @@ for (const page of all) {
 }
 
 // Breadcrumb snippet control on every other site page (hubs, category pages).
-const EXCLUDE = /^(node_modules|dist|_to_delete|australia\.md-audit|debugImage|worker|src|specs|docs|medical\/dental\/[^/]+)(\/|$)/;
+const EXCLUDE = /^(node_modules|dist|_to_delete|australia\.md-audit|debugImage|worker|src|specs|docs|scripts|medical\/dental\/[^/]+\/)/; // suburb dirs are handled above; the hub itself is not excluded
 function walk(dir, out = []) {
   for (const n of readdirSync(dir)) {
     const p = join(dir, n), rel = relative(ROOT, p);
