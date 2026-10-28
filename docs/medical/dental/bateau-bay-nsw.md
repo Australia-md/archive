@@ -10,6 +10,43 @@ postcode: "2261"
 state: nsw
 lga: "Central Coast Council"
 last_verified: "2026-06-06"
+generated: { by: openclaw/dental-cron, at: 2026-06-06T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-06T00:00:00Z }
+stale_after: 2026-12-03T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bateau-bay-nsw-2261-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bateau-bay-2261-nsw/dentists/310144008"
+    title: "Dentists in Bateau Bay, NSW 2261 — Healthdirect"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/bateau-bay"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10227"
+    title: "Australian Bureau of Statistics QuickStats"
+  - id: central-coast-council-bateau-bay-page
+    resource: "https://www.centralcoast.nsw.gov.au/recreation/recreational-area/bateau-bay"
+    title: "Central Coast Council Bateau Bay page"
+  - id: pacific-smiles-dental-bateau-bay
+    resource: "https://pacificsmilesdental.com.au/locations/bateau-bay/"
+    title: "Pacific Smiles Dental Bateau Bay"
+  - id: dr-mojtaba-dian-profile
+    resource: "https://pacificsmilesdental.com.au/locations/bateau-bay/dr-mojtaba-dian-trusted-family-dentist-at-pacific-smiles-dental-bateau-bay/"
+    title: "Dr Mojtaba Dian profile"
+  - id: nicholas-lototzky-profile
+    resource: "https://pacificsmilesdental.com.au/locations/bateau-bay/nick-lototzky-at-pacific-smiles-dental-bateau-bay/"
+    title: "Nicholas Lototzky profile"
+  - id: gentle-dental-bateau-bay
+    resource: "https://gentledentalbb.com.au/"
+    title: "Gentle Dental Bateau Bay"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bateau Bay, NSW — Dental Clinics

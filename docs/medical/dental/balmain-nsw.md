@@ -8,6 +8,31 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, balmain]
 timestamp: "2026-05-22T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-05-22T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-22T00:00:00Z }
+stale_after: 2026-11-18T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/balmain"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10165"
+    title: "Australian Bureau of Statistics QuickStats"
+  - id: smile-dentistry
+    resource: "https://www.smiledentistry.com.au/"
+    title: "Smile Dentistry"
+  - id: dr-christina-howard-profile
+    resource: "https://www.smiledentistry.com.au/dr-christina-howard-bds-ba-syd-uni/"
+    title: "Dr Christina Howard profile"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 # Balmain, NSW — Dental Clinics
 

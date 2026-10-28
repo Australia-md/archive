@@ -10,6 +10,46 @@ postcode: "2015"
 state: nsw
 lga: "City of Sydney"
 last_verified: "2026-06-12"
+generated: { by: openclaw/dental-cron, at: 2026-06-12T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-12T00:00:00Z }
+stale_after: 2026-12-09T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: green-square-dental-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beaconsfield-2015-nsw/green-square-dental/dentists/3e5628ce-c024-f7b6-151e-964c9bf903c4"
+    title: "Green Square Dental — Healthdirect"
+  - id: green-square-dental-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/alexandria/green-square-dental/s36573"
+    title: "Green Square Dental — Healthengine"
+  - id: green-square-dental
+    resource: "https://greensquaredental.com.au/"
+    title: "Green Square Dental"
+  - id: dr-dion-shapiro-green-square-dental
+    resource: "https://greensquaredental.com.au/our-practice/dr-dion-shapiro/"
+    title: "Dr. Dion Shapiro — Green Square Dental"
+  - id: procedures-green-square-dental
+    resource: "https://greensquaredental.com.au/procedures/"
+    title: "Procedures — Green Square Dental"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/beaconsfield"
+    title: "Australia Post postcode search"
+  - id: 2021-beaconsfield-nsw-census-all-persons-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10239"
+    title: "2021 Beaconsfield (NSW), Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: areas-of-service-city-of-sydney
+    resource: "https://www.cityofsydney.nsw.gov.au/areas-of-service"
+    title: "Areas of service — City of Sydney"
+  - id: green-square-city-of-sydney
+    resource: "https://www.cityofsydney.nsw.gov.au/green-square"
+    title: "Green Square — City of Sydney"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Beaconsfield, NSW — Dental Clinics

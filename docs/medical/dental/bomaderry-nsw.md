@@ -8,6 +8,52 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bomaderry]
 timestamp: "2026-08-05T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-05T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-05T00:00:00Z }
+stale_after: 2027-02-01T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bomaderry-nsw-2541-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bomaderry-2541-nsw/dentists/310144008"
+    title: "Dentists in Bomaderry, NSW 2541 — Healthdirect"
+  - id: bomaderry-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bomaderry-2541-nsw/bomaderry-dental-surgery/dentists/b45eeac1-1bcd-9cf0-af63-f198201ec9fe"
+    title: "Bomaderry Dental Surgery — Healthdirect"
+  - id: bomaderry-dental-surgery
+    resource: "https://www.bomaderrydentalsurgery.com.au/"
+    title: "Bomaderry Dental Surgery"
+  - id: location-contact-bomaderry-dental-surgery
+    resource: "https://www.bomaderrydentalsurgery.com.au/loaction-contact"
+    title: "Location & Contact - Bomaderry Dental Surgery"
+  - id: your-mouth-matters-bomaderry-denture-clinic
+    resource: "https://www.yourmouthmatters.net.au/locations/bomaderry/"
+    title: "Your Mouth Matters - Bomaderry Denture Clinic"
+  - id: your-mouth-matters-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/bomaderry/your-mouth-matters/s88849"
+    title: "Your Mouth Matters — Healthengine"
+  - id: bomaderry-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bomaderry"
+    title: "Bomaderry postcode — Australia Post"
+  - id: 2021-bomaderry-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10452"
+    title: "2021 Bomaderry Census QuickStats — Australian Bureau of Statistics"
+  - id: about-the-profile-areas-shoalhaven-city-council
+    resource: "https://profile.id.com.au/shoalhaven/about?WebID=120"
+    title: "About the profile areas — Shoalhaven City Council"
+  - id: bomaderry-town-centre-shoalhaven-dcp-2014
+    resource: "https://dcp2014.shoalhaven.nsw.gov.au/content/bomaderry-town-centre"
+    title: "Bomaderry Town Centre - Shoalhaven DCP 2014"
+  - id: sydney-cbd-to-bomaderry-rome2rio
+    resource: "https://www.rome2rio.com/s/Sydney-CBD/Bomaderry"
+    title: "Sydney CBD to Bomaderry — Rome2Rio"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bomaderry, NSW — Dental Clinics

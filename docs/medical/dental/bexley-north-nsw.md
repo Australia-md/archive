@@ -8,6 +8,52 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bexley-north]
 timestamp: "2026-07-08T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-08T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-08T00:00:00Z }
+stale_after: 2027-01-04T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bexley-north-nsw-2207-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bexley-north-2207-nsw/dentists/310144008"
+    title: "Dentists in Bexley North, NSW 2207 — Healthdirect"
+  - id: dr-george-tsepetzis-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bexley-north-2207-nsw/dr-george-tsepetzis-dental-surgery/dentists/9e586651-f774-268f-eae0-0f3b1f4e0a35"
+    title: "Dr George Tsepetzis Dental Surgery — Healthdirect"
+  - id: smile-inn-dentistry-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bexley-north-2207-nsw/smile-inn-dentistry/dentists/a8985d52-b507-d5d8-88d4-0203a27d9d5d"
+    title: "Smile Inn Dentistry — Healthdirect"
+  - id: smile-inn-dentistry
+    resource: "https://smileinndentistry.com.au/"
+    title: "Smile Inn Dentistry"
+  - id: about-us-smile-inn-dentistry
+    resource: "https://smileinndentistry.com.au/about-us/"
+    title: "About Us – Smile Inn Dentistry"
+  - id: contact-us-smile-inn-dentistry
+    resource: "https://smileinndentistry.com.au/contact-us/"
+    title: "Contact Us – Smile Inn Dentistry"
+  - id: dr-george-tsepetzis-dental-surgery-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/dr-george-tsepetzis-dental-surgery/A11004353"
+    title: "Dr George Tsepetzis Dental Surgery — Dentist.com.au"
+  - id: 303-bexley-road-dental-surgery-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/bexley-north/303-bexley-road-dental-surgery/s36720"
+    title: "303 Bexley Road Dental Surgery — Healthengine"
+  - id: bexley-north-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bexley-north"
+    title: "Bexley North postcode — Australia Post"
+  - id: 2021-bexley-north-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10334"
+    title: "2021 Bexley North Census QuickStats — Australian Bureau of Statistics"
+  - id: bexley-north-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Bexley_North"
+    title: "Bexley North, New South Wales"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bexley North, NSW — Dental Clinics

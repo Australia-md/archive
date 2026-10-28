@@ -8,6 +8,31 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bondi-beach]
 timestamp: "2026-08-07T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-07T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-07T00:00:00Z }
+stale_after: 2027-02-03T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: healthdirect-search-bondi-beach-dentists
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bondi-beach-2026-nsw/dentists/310144008"
+    title: "Healthdirect search — Bondi Beach dentists"
+  - id: bondi-dental
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-beach-2026-nsw/bondi-dental/dentists/9516d9fc-3c02-fd7e-3d6b-24436b0d8f7d"
+    title: "Bondi Dental"
+  - id: bondi-dentistry
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bondi-beach-2026-nsw/bondi-dentistry/dentists/5ff64f44-7a20-cf4d-89fa-c7a216dea435"
+    title: "Bondi Dentistry"
+  - id: 2021-census-quickstats-bondi-beach
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10463"
+    title: "2021 Census QuickStats — Bondi Beach"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bondi Beach, NSW — Dental Clinics

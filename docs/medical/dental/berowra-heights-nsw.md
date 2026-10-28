@@ -8,6 +8,52 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, berowra-heights]
 timestamp: "2026-07-01T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-01T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-01T00:00:00Z }
+stale_after: 2026-12-28T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-berowra-heights-nsw-2082-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/berowra-heights-2082-nsw/dentists/310144008"
+    title: "Dentists in Berowra Heights, NSW 2082 — Healthdirect"
+  - id: clear-dental-berowra-heights-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berowra-heights-2082-nsw/clear-dental-berowra-heights/dentists/c9177431-ed18-6218-846a-974a962dc7dc"
+    title: "Clear Dental - Berowra Heights — Healthdirect"
+  - id: berowra-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berowra-heights-2082-nsw/berowra-dental-care/dentists/40fae6be-334b-a375-669a-2f37f255a5e9"
+    title: "Berowra Dental Care — Healthdirect"
+  - id: clear-dental-berowra-heights
+    resource: "https://www.cleardental.com.au/berowra-dentist.html"
+    title: "Clear Dental Berowra Heights"
+  - id: berowra-dental-care
+    resource: "https://berowradental.com.au/"
+    title: "Berowra Dental Care"
+  - id: dr-sherif-ibrahim-berowra-dental-care
+    resource: "https://berowradental.com.au/sherif-ibrahim/"
+    title: "Dr Sherif Ibrahim — Berowra Dental Care"
+  - id: dr-ashna-vora-berowra-dental-care
+    resource: "https://berowradental.com.au/ashna-vora/"
+    title: "Dr Ashna Vora — Berowra Dental Care"
+  - id: dr-shivani-rattan-berowra-dental-care
+    resource: "https://berowradental.com.au/shivani-rattan/"
+    title: "Dr Shivani Rattan — Berowra Dental Care"
+  - id: berowra-heights-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/berowra-heights"
+    title: "Berowra Heights postcode — Australia Post"
+  - id: 2021-berowra-heights-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10309"
+    title: "2021 Berowra Heights Census QuickStats — Australian Bureau of Statistics"
+  - id: berowra-heights-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Berowra_Heights"
+    title: "Berowra Heights — Wikipedia"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Berowra Heights, NSW — Dental Clinics

@@ -10,6 +10,46 @@ postcode: "2191"
 state: nsw
 lga: "City of Canterbury-Bankstown"
 last_verified: "2026-06-17"
+generated: { by: openclaw/dental-cron, at: 2026-06-17T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-17T00:00:00Z }
+stale_after: 2026-12-14T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-belfield-nsw-2191-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/belfield-2191-nsw/dentists/310144008"
+    title: "Dentists in Belfield, NSW 2191 — Healthdirect"
+  - id: belfield-dental
+    resource: "https://www.belfielddental.com.au/"
+    title: "Belfield Dental"
+  - id: belfield-dental-contact
+    resource: "https://www.belfielddental.com.au/belfield-dental-contact/"
+    title: "Belfield Dental Contact"
+  - id: belfield-dental-promotional-pdf
+    resource: "https://www.belfielddental.com.au/wp-content/uploads/2018/10/Torch-17874-T2507b.indd_.pdf"
+    title: "Belfield Dental promotional PDF"
+  - id: belfield-dental-healthshare-practice-profile
+    resource: "https://www.healthshare.com.au/practices/belfield-dental/53354-belfield-2191/"
+    title: "Belfield Dental — HealthShare practice profile"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/belfield"
+    title: "Australia Post postcode search"
+  - id: 2021-belfield-census-all-persons-quickstats-australian
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10257"
+    title: "2021 Belfield, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: your-council-city-of-canterbury-bankstown
+    resource: "https://www.cbcity.nsw.gov.au/your-council"
+    title: "Your Council — City of Canterbury Bankstown"
+  - id: belfield-master-plan-urban-design-analysis
+    resource: "https://hdp-au-prod-app-cbnks-haveyoursay-files.s3.ap-southeast-2.amazonaws.com/1517/6230/4704/Belfield_Urban_Design_Analysis_Report_-_Part_1.pdf"
+    title: "Belfield Master Plan: Urban Design Analysis"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Belfield, NSW — Dental Clinics

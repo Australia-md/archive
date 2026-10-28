@@ -10,6 +10,40 @@ postcode: "2536"
 state: nsw
 lga: "Eurobodalla Shire"
 last_verified: "2026-06-07"
+generated: { by: openclaw/dental-cron, at: 2026-06-07T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-07T00:00:00Z }
+stale_after: 2026-12-04T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-narooma-nsw-2546-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/narooma-2546-nsw/dentists/310144008"
+    title: "Dentists in Narooma, NSW 2546 — Healthdirect"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/batehaven"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10228"
+    title: "Australian Bureau of Statistics QuickStats"
+  - id: corrigans-beach-reserve-park-and-accessible-playground-nsw
+    resource: "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/corrigans-beach-reserve-park-and-accessible-playground"
+    title: "Corrigans Beach Reserve Park and Accessible Playground — NSW Government"
+  - id: batehaven-dental-care
+    resource: "https://www.batehavendentalcare.com.au/"
+    title: "Batehaven Dental Care"
+  - id: batehaven-dental-care-services-page
+    resource: "https://www.batehavendentalcare.com.au/dental-care"
+    title: "Batehaven Dental Care services page"
+  - id: batehaven-dental-care-profile-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/batehaven-dental-care/A23018542"
+    title: "Batehaven Dental Care profile — Dentist.com.au"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Batehaven, NSW — Dental Clinics

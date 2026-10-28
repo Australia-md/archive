@@ -10,6 +10,85 @@ postcode: "2153"
 state: nsw
 lga: "The Hills Shire"
 last_verified: "2026-06-19"
+generated: { by: openclaw/dental-cron, at: 2026-06-19T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-19T00:00:00Z }
+stale_after: 2026-12-16T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bella-vista-nsw-2153-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bella-vista-2153-nsw/dentists/310144008"
+    title: "Dentists in Bella Vista, NSW 2153 — Healthdirect"
+  - id: oralux-dental-bella-vista-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bella-vista-2153-nsw/oralux-dental-bella-vista/dentists/529612eb-a056-c3fb-f254-bac6d84f2146"
+    title: "Oralux Dental - Bella Vista — Healthdirect"
+  - id: oralux-dental
+    resource: "https://oraluxdental.com.au/"
+    title: "Oralux Dental"
+  - id: norwest-dental-centre-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bella-vista-2153-nsw/norwest-dental-centre/dentists/b4532479-5957-beb7-cffe-dcd18b7425e5"
+    title: "Norwest Dental Centre — Healthdirect"
+  - id: norwest-dental-care
+    resource: "https://www.norwestdentalcare.com.au/"
+    title: "Norwest Dental Care"
+  - id: norwest-dental-care-contact-us
+    resource: "https://www.norwestdentalcare.com.au/contact-us/"
+    title: "Norwest Dental Care — Contact Us"
+  - id: norwest-paediatric-dentistry-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bella-vista-2153-nsw/norwest-paediatric-dentistry/dentists/8a413126-e682-ccdf-00d1-3bf01b90fce9"
+    title: "Norwest Paediatric Dentistry — Healthdirect"
+  - id: norwest-paediatric-dentistry
+    resource: "https://nwpd.com.au/"
+    title: "Norwest Paediatric Dentistry"
+  - id: bella-vista-family-dental-centre
+    resource: "https://bellavistafamilydental.com/"
+    title: "Bella Vista Family Dental Centre"
+  - id: bella-vista-family-dental-centre-contact-us
+    resource: "https://bellavistafamilydental.com/contact-us.html"
+    title: "Bella Vista Family Dental Centre — Contact Us"
+  - id: bella-vista-family-dental-centre-meet-the-team
+    resource: "https://bellavistafamilydental.com/meet-the-team.html"
+    title: "Bella Vista Family Dental Centre — Meet the Team"
+  - id: my-dental-team-bella-vista-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bella-vista-2153-nsw/my-dental-team-bella-vista/orthodontics/1f0c7a3c-8f8d-e404-e75e-22dac47aecf7"
+    title: "My Dental Team - Bella Vista — Healthdirect"
+  - id: my-dental-team-bella-vista-location-page
+    resource: "https://mydentalteam.com.au/location/dentist-bella-vista/"
+    title: "My Dental Team — Bella Vista location page"
+  - id: my-dental-team-orthodontics
+    resource: "https://mydentalteam.com.au/orthodontics/"
+    title: "My Dental Team — Orthodontics"
+  - id: dr-ken-lipworth-dental-surgery-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bella-vista-2153-nsw/dr-ken-lipworth-dental-surgery/dentists/25d49a17-789c-0f84-5070-5ff1d8eb5e89"
+    title: "Dr Ken Lipworth Dental Surgery — Healthdirect"
+  - id: lexington-dental
+    resource: "https://lexingtondental.com.au/"
+    title: "Lexington Dental"
+  - id: lexington-dental-services
+    resource: "https://lexingtondental.com.au/services/"
+    title: "Lexington Dental — Services"
+  - id: lexington-dental-contact-us
+    resource: "https://lexingtondental.com.au/contact-us/"
+    title: "Lexington Dental — Contact Us"
+  - id: dr-david-le-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/bella-vista/dr-david-le/p112195"
+    title: "Dr David Le — Healthengine"
+  - id: bella-vista-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/bella-vista"
+    title: "Bella Vista postcode — Australia Post"
+  - id: 2021-bella-vista-census-all-persons-quickstats-australian
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10263"
+    title: "2021 Bella Vista, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: bella-vista-new-south-wales-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Bella_Vista%2C_New_South_Wales"
+    title: "Bella Vista, New South Wales — Wikipedia"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bella Vista, NSW — Dental Clinics

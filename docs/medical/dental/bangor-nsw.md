@@ -10,6 +10,43 @@ postcode: "2234"
 state: nsw
 lga: "Sutherland Shire"
 last_verified: "2026-05-26"
+generated: { by: openclaw/dental-cron, at: 2026-05-26T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-26T00:00:00Z }
+stale_after: 2026-11-22T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/bangor"
+    title: "Australia Post postcode search"
+  - id: wikipedia-bangor-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Bangor%2C_New_South_Wales"
+    title: "Wikipedia — Bangor, New South Wales"
+  - id: bangor-dental
+    resource: "https://bangordental.com.au/"
+    title: "Bangor Dental"
+  - id: healthengine-bangor-dental
+    resource: "https://healthengine.com.au/dentist/nsw/bangor/bangor-dental/s83233"
+    title: "HealthEngine — Bangor Dental"
+  - id: healthengine-dr-stephen-peter-zorbas
+    resource: "https://healthengine.com.au/dentist/nsw/bangor/dr-stephen-peter-zorbas/p96772"
+    title: "HealthEngine — Dr Stephen Peter Zorbas"
+  - id: koudmani-dental
+    resource: "https://www.koudmanidental.com.au/"
+    title: "Koudmani Dental"
+  - id: dentist-com-au-koudmani-dental-bangor
+    resource: "https://www.dentist.com.au/dentist-detail/koudmani-dental-bangor/A25020066"
+    title: "Dentist.com.au — Koudmani Dental Bangor"
+  - id: dentist-com-au-dr-mouhamad-al-koudmani
+    resource: "https://www.dentist.com.au/general-dentist/dr-mouhamad-al-koudmani/C11000957"
+    title: "Dentist.com.au — Dr Mouhamad Al Koudmani"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bangor, NSW — Dental Clinics

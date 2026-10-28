@@ -10,6 +10,58 @@ postcode: "2153"
 state: nsw
 lga: "The Hills Shire"
 last_verified: "2026-06-10"
+generated: { by: openclaw/dental-cron, at: 2026-06-10T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-10T00:00:00Z }
+stale_after: 2026-12-07T00:00:00Z
+sources:
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/baulkham-hills"
+    title: "Australia Post postcode search"
+  - id: dentists-in-baulkham-hills-nsw-2153-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/baulkham-hills-2153-nsw/dentists/310144008"
+    title: "Dentists in Baulkham Hills, NSW 2153 — Healthdirect"
+  - id: 2021-baulkham-hills-census-quickstats-australian-bureau-of
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/11501"
+    title: "2021 Baulkham Hills Census QuickStats — Australian Bureau of Statistics"
+  - id: integrity-dental
+    resource: "https://integritydental.com.au/"
+    title: "Integrity Dental"
+  - id: integrity-dental-treatments
+    resource: "https://integritydental.com.au/treatments/"
+    title: "Integrity Dental — Treatments"
+  - id: integrity-dental-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/integrity-dental/A11009760"
+    title: "Integrity Dental — Dentist.com.au"
+  - id: prodental-clinic
+    resource: "https://prodentalclinic.com.au/"
+    title: "Prodental Clinic"
+  - id: my-hills-dentist
+    resource: "https://myhillsdentist.com/"
+    title: "My Hills Dentist"
+  - id: my-hills-dentist-contact
+    resource: "https://myhillsdentist.com/contact/"
+    title: "My Hills Dentist — Contact"
+  - id: baulkham-hills-bella-vista-7-day-dental-centre-contact
+    resource: "https://24hrdentist.com.au/contact-us/"
+    title: "Baulkham Hills & Bella Vista 7 Day Dental Centre — Contact"
+  - id: baulkham-hills-bella-vista-7-day-dental-centre-about
+    resource: "https://24hrdentist.com.au/about-us/"
+    title: "Baulkham Hills & Bella Vista 7 Day Dental Centre — About"
+  - id: baulkham-hills-bella-vista-7-day-dental-centre-general
+    resource: "https://24hrdentist.com.au/services/general-dental/"
+    title: "Baulkham Hills & Bella Vista 7 Day Dental Centre — General Dental"
+  - id: dr-winnie-chui-baulkham-hills-bella-vista-7-day-dental
+    resource: "https://24hrdentist.com.au/about-us/our-team/dr-winnie-chui"
+    title: "Dr. Winnie Chui — Baulkham Hills & Bella Vista 7 Day Dental Centre"
+  - id: dr-nibir-hossain-baulkham-hills-bella-vista-7-day-dental
+    resource: "https://24hrdentist.com.au/about-us/our-team/dr-nibir-hossain/"
+    title: "Dr. Nibir Hossain — Baulkham Hills & Bella Vista 7 Day Dental Centre"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Baulkham Hills, NSW — Dental Clinics

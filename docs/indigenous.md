@@ -5,6 +5,29 @@ description: "Aboriginal Australians and Torres Strait Islander peoples are the 
 resource: "https://www.niaa.gov.au"
 tags: [indigenous]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: national-indigenous-australians-agency
+    resource: "https://www.niaa.gov.au"
+    title: "National Indigenous Australians Agency"
+  - id: aiatsis
+    resource: "https://aiatsis.gov.au"
+    title: "AIATSIS"
+  - id: aiatsis-map-of-indigenous-australia
+    resource: "https://aiatsis.gov.au/explore/map-indigenous-australia"
+    title: "AIATSIS Map of Indigenous Australia"
+  - id: national-native-title-tribunal
+    resource: "https://www.nntt.gov.au"
+    title: "National Native Title Tribunal"
+  - id: reconciliation-australia
+    resource: "https://www.reconciliation.org.au"
+    title: "Reconciliation Australia"
+  - id: closing-the-gap
+    resource: "https://www.closingthegap.gov.au"
+    title: "Closing the Gap"
+  - id: stolen-generations-bringing-them-home-report
+    resource: "https://humanrights.gov.au/our-work/bringing-them-home-report-1997"
+    title: "Stolen Generations — Bringing Them Home Report"
 ---
 
 # Indigenous Australia

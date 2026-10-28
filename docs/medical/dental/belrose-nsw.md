@@ -8,6 +8,49 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, belrose]
 timestamp: "2026-06-23T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-06-23T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-23T00:00:00Z }
+stale_after: 2026-12-20T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-belrose-nsw-2085-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/belrose-2085-nsw/dentists/310144008"
+    title: "Dentists in Belrose, NSW 2085 — Healthdirect"
+  - id: pacific-smiles-dental-belrose-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/belrose-2085-nsw/pacific-smiles-dental-belrose/dentists/5c06608e-f744-4e5a-8af9-cb5f7f7ad605"
+    title: "Pacific Smiles Dental - Belrose — Healthdirect"
+  - id: pacific-smiles-dental-belrose
+    resource: "https://pacificsmilesdental.com.au/locations/belrose/"
+    title: "Pacific Smiles Dental Belrose"
+  - id: meet-dr-helen-wang-pacific-smiles-dental-belrose
+    resource: "https://pacificsmilesdental.com.au/locations/belrose/meet-dr-helen-wang-gentle-family-focused-dentist-at-pacific-smiles-dental-belrose/"
+    title: "Meet Dr Helen Wang — Pacific Smiles Dental Belrose"
+  - id: meet-dr-angela-kemm-pacific-smiles-dental-belrose
+    resource: "https://pacificsmilesdental.com.au/locations/belrose/meet-dr-angela-kemm-experienced-and-caring-dentist-at-pacific-smiles-dental-belrose/"
+    title: "Meet Dr Angela Kemm — Pacific Smiles Dental Belrose"
+  - id: dr-mojtaba-dian-pacific-smiles-dental-belrose
+    resource: "https://pacificsmilesdental.com.au/locations/belrose/dr-mojtaba-dian-caring-community-focused-dentist-at-pacific-smiles-dental-belrose/"
+    title: "Dr Mojtaba Dian — Pacific Smiles Dental Belrose"
+  - id: belrose-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/belrose"
+    title: "Belrose postcode — Australia Post"
+  - id: wards-and-suburbs-northern-beaches-council
+    resource: "https://www.northernbeaches.nsw.gov.au/council/about-northern-beaches-council/wards-and-suburbs"
+    title: "Wards and suburbs — Northern Beaches Council"
+  - id: population-and-dwellings-northern-beaches-council-profile
+    resource: "https://profile.id.com.au/northern-beaches/population?WebID=160"
+    title: "Population and dwellings — Northern Beaches Council profile"
+  - id: belrose-new-south-wales-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Belrose,_New_South_Wales"
+    title: "Belrose, New South Wales — Wikipedia"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 # Belrose, NSW — Dental Clinics
 

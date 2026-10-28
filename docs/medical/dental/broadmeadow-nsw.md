@@ -8,6 +8,73 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, broadmeadow]
 timestamp: "2026-09-05T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-05T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-05T00:00:00Z }
+stale_after: 2027-03-04T00:00:00Z
+sources:
+  - id: broadmeadow-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/broadmeadow"
+    title: "Broadmeadow postcode - Australia Post"
+  - id: broadmeadow-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Broadmeadow"
+    title: "Broadmeadow - Wikipedia"
+  - id: broadmeadow-place-strategy-city-of-newcastle
+    resource: "https://newcastle.nsw.gov.au/about-us/news-and-updates/projects-and-works/broadmeadow-place-strategy"
+    title: "Broadmeadow Place Strategy - City of Newcastle"
+  - id: broadmeadow-dentist-search-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/broadmeadow-2292-nsw/dentists/310144008"
+    title: "Broadmeadow dentist search - Healthdirect"
+  - id: kidssmile-paediatric-dental-healthdirect-service-profile
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broadmeadow-2292-nsw/kids-smile-paediatric-dental/dentists/3874a1d9-3e3f-0b8d-1cd7-9b5764b9f9bb"
+    title: "KidsSmile Paediatric Dental - Healthdirect service profile"
+  - id: kidssmile-paediatric-dental
+    resource: "https://www.kidssmile.com.au/"
+    title: "KidsSmile Paediatric Dental"
+  - id: kidssmile-team-page
+    resource: "https://www.kidssmile.com.au/about-us"
+    title: "KidsSmile team page"
+  - id: dr-helen-cornwell-kidssmile-profile
+    resource: "https://www.kidssmile.com.au/about-us/dr-helen-cornwell/38339"
+    title: "Dr Helen Cornwell - KidsSmile profile"
+  - id: abc-orthodontics-broadmeadow-healthdirect-service-profile
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broadmeadow-2292-nsw/abc-orthodontics-broadmeadow/orthodontics/efed9f66-0179-d107-a003-68853a672d87"
+    title: "ABC Orthodontics - Broadmeadow - Healthdirect service profile"
+  - id: abc-orthodontics
+    resource: "https://abcorthodontics.com.au/"
+    title: "ABC Orthodontics"
+  - id: abc-orthodontics-our-orthodontists
+    resource: "https://abcorthodontics.com.au/our-orthodontists/"
+    title: "ABC Orthodontics - Our Orthodontists"
+  - id: broadmeadow-dentist-search-healthengine
+    resource: "https://healthengine.com.au/search/dentistry/NSW/broadmeadow-2292"
+    title: "Broadmeadow dentist search - Healthengine"
+  - id: dr-mandy-pabla-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/broadmeadow/dr-mandy-pabla/p144931"
+    title: "Dr Mandy Pabla - Healthengine"
+  - id: dr-ben-van-veenendaal-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/broadmeadow/dr-ben-van-veenendaal/p60329"
+    title: "Dr Ben Van Veenendaal - Healthengine"
+  - id: the-smile-factory
+    resource: "https://www.thesmilefactory.com.au/"
+    title: "The Smile Factory"
+  - id: meet-the-dentists-at-the-smile-factory
+    resource: "https://www.thesmilefactory.com.au/meet-the-dentists/"
+    title: "Meet the Dentists at The Smile Factory"
+  - id: dr-hitesh-gupta-at-the-smile-factory
+    resource: "https://www.thesmilefactory.com.au/dr-hitesh-gupta/"
+    title: "Dr Hitesh Gupta at The Smile Factory"
+  - id: dr-mandy-pabla-of-the-smile-factory
+    resource: "https://www.thesmilefactory.com.au/dr-mandy-pabla/"
+    title: "Dr Mandy Pabla of The Smile Factory"
+  - id: dr-ben-van-veenendaal-at-the-smile-factory
+    resource: "https://www.thesmilefactory.com.au/dr-ben-van-veenendaal/"
+    title: "Dr Ben Van Veenendaal at The Smile Factory"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Broadmeadow, NSW — Dental Clinics

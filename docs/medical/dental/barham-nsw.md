@@ -10,6 +10,37 @@ postcode: "2732"
 state: nsw
 lga: "Murray River Council"
 last_verified: "2026-05-31"
+generated: { by: openclaw/dental-cron, at: 2026-05-31T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-05-31T00:00:00Z }
+stale_after: 2026-11-27T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/barham"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10200"
+    title: "Australian Bureau of Statistics QuickStats"
+  - id: murray-river-council-local-profile
+    resource: "https://www.murrayriver.nsw.gov.au/files/assets/public/v/1/documents/planning-strategies/murray-river-council-local-profile.pdf"
+    title: "Murray River Council local profile"
+  - id: local-dental-clinics-about
+    resource: "https://localdentalclinics.com.au/about/"
+    title: "Local Dental Clinics - About"
+  - id: local-dental-barham-directory-profile
+    resource: "https://www.dentist.com.au/dentist-detail/local-dental-barham/A22018065"
+    title: "Local Dental Barham directory profile"
+  - id: local-dental-clinics-services
+    resource: "https://localdentalclinics.com.au/services/general-examination"
+    title: "Local Dental Clinics services"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Barham, NSW — Dental Clinics

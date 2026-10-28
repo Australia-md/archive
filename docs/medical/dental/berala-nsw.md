@@ -8,6 +8,43 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, berala]
 timestamp: "2026-06-27T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-06-27T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-27T00:00:00Z }
+stale_after: 2026-12-24T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-berala-nsw-2141-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/berala-2141-nsw/dentists/310144008"
+    title: "Dentists in Berala, NSW 2141 — Healthdirect"
+  - id: alys-dental-service-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berala-2141-nsw/alys-dental-service/dentists/7c1f7c0b-42ad-bfec-1369-e1d36f355d73"
+    title: "Alys Dental Service — Healthdirect"
+  - id: berala-dental
+    resource: "https://www.beraladental.com.au/"
+    title: "Berala Dental"
+  - id: about-berala-dental
+    resource: "https://www.beraladental.com.au/about"
+    title: "About Berala Dental"
+  - id: contact-berala-dental
+    resource: "https://www.beraladental.com.au/contact"
+    title: "Contact Berala Dental"
+  - id: berala-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/berala"
+    title: "Berala postcode — Australia Post"
+  - id: 2021-berala-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10299"
+    title: "2021 Berala Census QuickStats — Australian Bureau of Statistics"
+  - id: berala-heritage-listing-sheets-cumberland-city-council
+    resource: "https://www.cumberland.nsw.gov.au/sites/default/files/inline-files/berala-listing-sheets-sep-2024.pdf"
+    title: "Berala heritage listing sheets — Cumberland City Council"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 # Berala, NSW — Dental Clinics
 

@@ -8,6 +8,43 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, box-hill]
 timestamp: "2026-08-24T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-24T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-24T00:00:00Z }
+stale_after: 2027-02-20T00:00:00Z
+sources:
+  - id: box-hill-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/box-hill/nsw/chgf"
+    title: "Box Hill postcode - Australia Post"
+  - id: 2021-box-hill-nsw-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10537"
+    title: "2021 Box Hill (NSW) Census QuickStats - Australian Bureau of Statistics"
+  - id: the-hills-shire-suburb-and-postcode-list
+    resource: "https://www.thehills.nsw.gov.au/files/sharedassets/public/v/2/ecm-website-documents/page-documents/council/about-the-hills-shire-council/the_hills_shire_local_government_area_suburb__postcode_list.pdf"
+    title: "The Hills Shire suburb and postcode list"
+  - id: about-the-box-hill-release-area-the-hills-shire-council
+    resource: "https://www.thehills.nsw.gov.au/Building/Road-and-Building-Projects/Sydneys-Growth-Centres/Box-Hill-Release-Area"
+    title: "About the Box Hill Release Area - The Hills Shire Council"
+  - id: box-hill-dentists-search-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/box-hill-2765-nsw/dentists/310144008"
+    title: "Box Hill dentists search - Healthdirect"
+  - id: u-smile-dental-club-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/box-hill/u-smile-dental-club/s95050"
+    title: "U Smile Dental Club - HealthEngine"
+  - id: dr-kunal-goyal-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/box-hill/dr-kunal-goyal/p114803"
+    title: "Dr Kunal Goyal - HealthEngine"
+  - id: u-smile-dental-club-carmel-village
+    resource: "https://carmelvillage.com.au/store/u-smile-dental/"
+    title: "U Smile Dental Club - Carmel Village"
+  - id: u-smile-dental-club-veneers-page
+    resource: "https://usmiledentalclub.com.au/dental-service/veneers/"
+    title: "U Smile Dental Club veneers page"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Box Hill, NSW — Dental Clinics

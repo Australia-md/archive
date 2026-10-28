@@ -10,6 +10,91 @@ postcode: "2119"
 state: nsw
 lga: "Hornsby Shire / City of Parramatta"
 last_verified: "2026-06-15"
+generated: { by: openclaw/dental-cron, at: 2026-06-15T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-15T00:00:00Z }
+stale_after: 2026-12-12T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-beecroft-nsw-2119-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/beecroft-2119-nsw/dentists/310144008"
+    title: "Dentists in Beecroft, NSW 2119 — Healthdirect"
+  - id: teeth-and-gums-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beecroft-2119-nsw/teeth-and-gums/dentists/25fac9d7-348a-4c18-bc79-05cdf77bd007"
+    title: "Teeth and Gums — Healthdirect"
+  - id: beecroft-dental-centre-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beecroft-2119-nsw/beecroft-dental-centre/dentists/2a76b5b1-b56b-a3d9-6353-39550f7a5ce7"
+    title: "Beecroft Dental Centre — Healthdirect"
+  - id: beecroft-elegant-dental-clinic
+    resource: "https://beecroftelegantdental.com.au/"
+    title: "Beecroft Elegant Dental Clinic"
+  - id: beecroft-elegant-dental-clinic-contact-us
+    resource: "https://beecroftelegantdental.com.au/contact-us/"
+    title: "Beecroft Elegant Dental Clinic — Contact Us"
+  - id: beecroft-smiles
+    resource: "https://www.beecroftsmiles.com.au/"
+    title: "Beecroft Smiles"
+  - id: beecroft-smiles-contact-us
+    resource: "https://www.beecroftsmiles.com.au/contact-us/"
+    title: "Beecroft Smiles — Contact Us"
+  - id: beecroft-smiles-meet-our-dentists
+    resource: "https://www.beecroftsmiles.com.au/meet-the-dentists/"
+    title: "Beecroft Smiles — Meet Our Dentists"
+  - id: dentistry-for-life-contact-us
+    resource: "https://www.dentistryforlife.com.au/make-enquiry-or-appointment"
+    title: "Dentistry For Life — Contact Us"
+  - id: dentistry-for-life-about-us
+    resource: "https://www.dentistryforlife.com.au/about-us"
+    title: "Dentistry For Life — About Us"
+  - id: dentistry-for-life-our-services
+    resource: "https://www.dentistryforlife.com.au/our-services"
+    title: "Dentistry For Life — Our Services"
+  - id: mcconnell-dental-contact
+    resource: "https://mcconnelldental.com.au/contact/"
+    title: "McConnell Dental — Contact"
+  - id: mcconnell-dental-team
+    resource: "https://mcconnelldental.com.au/team/"
+    title: "McConnell Dental — Team"
+  - id: dr-olivia-mcconnell
+    resource: "https://mcconnelldental.com.au/about-us/dr-olivia-mcconnell/"
+    title: "Dr Olivia McConnell"
+  - id: dr-adam-roach
+    resource: "https://mcconnelldental.com.au/about-us/dr-adam-roach/"
+    title: "Dr Adam Roach"
+  - id: dr-cheryl-mcconnell
+    resource: "https://mcconnelldental.com.au/about-us/dr-cheryl-mcconnell/"
+    title: "Dr Cheryl McConnell"
+  - id: orchard-dental-home
+    resource: "https://orchard-dental.com.au/"
+    title: "Orchard Dental — Home"
+  - id: orchard-dental-contact-us
+    resource: "https://orchard-dental.com.au/contact-dentist-carlingford-nsw/"
+    title: "Orchard Dental — Contact Us"
+  - id: orchard-dental-about-us
+    resource: "https://orchard-dental.com.au/about/"
+    title: "Orchard Dental — About Us"
+  - id: orchard-dental-meet-our-team
+    resource: "https://orchard-dental.com.au/about/dental-clinic-carlingford-nsw/"
+    title: "Orchard Dental — Meet Our Team"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/beecroft"
+    title: "Australia Post postcode search"
+  - id: 2021-beecroft-census-all-persons-quickstats-australian
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10249"
+    title: "2021 Beecroft, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: beecroft-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Beecroft%2C_New_South_Wales"
+    title: "Beecroft, New South Wales"
+  - id: beecroft-station
+    resource: "https://transportnsw.info/stop?q=10101197"
+    title: "Beecroft Station"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Beecroft, NSW — Dental Clinics

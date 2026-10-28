@@ -5,6 +5,26 @@ description: "Australia is consistently ranked among the world's top tourist des
 resource: "https://www.australia.com"
 tags: [tourism]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: tourism-australia
+    resource: "https://www.australia.com"
+    title: "Tourism Australia"
+  - id: department-of-home-affairs-visas
+    resource: "https://www.homeaffairs.gov.au/trav/visi"
+    title: "Department of Home Affairs — Visas"
+  - id: parks-australia-national-parks
+    resource: "https://parksaustralia.gov.au"
+    title: "Parks Australia — National Parks"
+  - id: daff-biosecurity
+    resource: "https://www.agriculture.gov.au/biosecurity-trade"
+    title: "DAFF — Biosecurity"
+  - id: bureau-of-meteorology-weather
+    resource: "https://www.bom.gov.au"
+    title: "Bureau of Meteorology — Weather"
+  - id: smartraveller
+    resource: "https://www.smartraveller.gov.au"
+    title: "Smartraveller"
 ---
 
 # Tourism & Travel in Australia

@@ -8,6 +8,34 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, billinudgel]
 timestamp: "2026-07-10T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-10T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-10T00:00:00Z }
+stale_after: 2027-01-06T00:00:00Z
+sources:
+  - id: australia-post-postcode-billinudgel
+    resource: "https://auspost.com.au/postcode/billinudgel"
+    title: "Australia Post postcode — Billinudgel"
+  - id: 2021-census-quickstats-billinudgel
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10354"
+    title: "2021 Census QuickStats — Billinudgel"
+  - id: book-a-venue-byron-shire-council
+    resource: "https://www.byron.nsw.gov.au/Recreation-Culture/Events-Venues/Book-a-Venue"
+    title: "Book a Venue — Byron Shire Council"
+  - id: billinudgel-new-south-wales-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Billinudgel%2C_New_South_Wales"
+    title: "Billinudgel, New South Wales — Wikipedia"
+  - id: denture-designs-yellow-pages
+    resource: "https://www.yellowpages.com.au/billinudgel-nsw/bpp/denture-designs-580268278"
+    title: "Denture Designs — Yellow Pages"
+  - id: della-croce-sandro-localsearch
+    resource: "https://www.localsearch.com.au/profile/denture-designs/billinudgel-nsw/GjfE"
+    title: "Della Croce Sandro — Localsearch"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Billinudgel, NSW — Dental Clinics

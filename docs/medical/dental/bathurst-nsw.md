@@ -10,6 +10,70 @@ postcode: "2795"
 state: nsw
 lga: "Bathurst Regional Council"
 last_verified: "2026-06-09"
+generated: { by: openclaw/dental-cron, at: 2026-06-09T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-09T00:00:00Z }
+stale_after: 2026-12-06T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-bathurst-nsw-2795-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/bathurst-2795-nsw/dentists/310144008"
+    title: "Dentists in Bathurst, NSW 2795 — Healthdirect"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/bathurst"
+    title: "Australia Post postcode search"
+  - id: bathurst-regional-council
+    resource: "https://www.bathurst.nsw.gov.au/Council"
+    title: "Bathurst Regional Council"
+  - id: visit-nsw-bathurst
+    resource: "https://www.visitnsw.com/destinations/country-nsw/bathurst-area/bathurst"
+    title: "Visit NSW — Bathurst"
+  - id: the-dental-practice-contact
+    resource: "https://www.dentalpractice.net.au/contact/"
+    title: "The Dental Practice — Contact"
+  - id: the-dental-practice-about
+    resource: "https://www.dentalpractice.net.au/about/"
+    title: "The Dental Practice — About"
+  - id: dr-william-c-fitzpatrick-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-william-fitzpatrick/C22052999"
+    title: "Dr William C Fitzpatrick — Dentist.com.au"
+  - id: dr-jessica-j-bloomfield-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-jessica-bloomfield/C22053000"
+    title: "Dr Jessica J Bloomfield — Dentist.com.au"
+  - id: bowman-dental-our-practice
+    resource: "https://www.bowmandental.com.au/about/our-practice/"
+    title: "Bowman Dental — Our Practice"
+  - id: dr-kathryn-r-bowman-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-kathryn-bowman/C11001781"
+    title: "Dr Kathryn R Bowman — Dentist.com.au"
+  - id: dr-gerrard-m-bowman-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-gerrard-bowman/C11010997"
+    title: "Dr Gerrard M Bowman — Dentist.com.au"
+  - id: bathurst-centre-for-dental-excellence
+    resource: "https://www.cdebathurst.com/"
+    title: "Bathurst Centre for Dental Excellence"
+  - id: centre-for-dental-excellence-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/bathurst/centre-for-dental-excellence/A11003817"
+    title: "Centre for Dental Excellence — Dentist.com.au"
+  - id: bathurst-dental-care-about
+    resource: "https://bathurstdentalcare.com.au/about/"
+    title: "Bathurst Dental Care — About"
+  - id: bathurst-dental-care-our-team
+    resource: "https://bathurstdentalcare.com.au/our-team/"
+    title: "Bathurst Dental Care — Our Team"
+  - id: bathurst-dental-care-treatments
+    resource: "https://bathurstdentalcare.com.au/treatments-copy/"
+    title: "Bathurst Dental Care — Treatments"
+  - id: bathurst-dental-care-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist-detail/nsw/bathurst/bathurst-dental-care/A17014741"
+    title: "Bathurst Dental Care — Dentist.com.au"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bathurst, NSW — Dental Clinics

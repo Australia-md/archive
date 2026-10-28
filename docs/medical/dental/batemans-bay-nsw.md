@@ -10,6 +10,55 @@ postcode: "2536"
 state: nsw
 lga: "Eurobodalla Shire"
 last_verified: "2026-06-08"
+generated: { by: openclaw/dental-cron, at: 2026-06-08T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-08T00:00:00Z }
+stale_after: 2026-12-05T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-batemans-bay-nsw-2536-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/batemans-bay-2536-nsw/dentists/310144008"
+    title: "Dentists in Batemans Bay, NSW 2536 — Healthdirect"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/batemans-bay"
+    title: "Australia Post postcode search"
+  - id: australian-bureau-of-statistics-quickstats
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/1004"
+    title: "Australian Bureau of Statistics QuickStats"
+  - id: visit-nsw-batemans-bay
+    resource: "https://www.visitnsw.com/destinations/south-coast/batemans-bay-and-eurobodalla/batemans-bay"
+    title: "Visit NSW — Batemans Bay"
+  - id: eurobodalla-council-batemans-bay-town-centre-structure-plan
+    resource: "https://www.esc.nsw.gov.au/property/planning-guides-and-tools/Structure-plans/batemans-bay-town-centre-structure-plan"
+    title: "Eurobodalla Council — Batemans Bay Town Centre Structure Plan"
+  - id: bayside-family-dental-care-our-team
+    resource: "https://www.baysidefamilydentalcare.com.au/about-us"
+    title: "Bayside Family Dental Care — Our Team"
+  - id: bayside-family-dental-care-services
+    resource: "https://www.baysidefamilydentalcare.com.au/services"
+    title: "Bayside Family Dental Care — Services"
+  - id: dr-chad-d-henderson-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-chad-henderson/C18038870"
+    title: "Dr Chad D Henderson — Dentist.com.au"
+  - id: tidy-tooth-dental-batemans-bay-directions-and-contact
+    resource: "https://tidytooth.com.au/directions-contact/batemans-bay/"
+    title: "Tidy Tooth Dental — Batemans Bay directions and contact"
+  - id: tidy-tooth-dental-meet-our-team
+    resource: "https://tidytooth.com.au/meet-our-team/"
+    title: "Tidy Tooth Dental — Meet Our Team"
+  - id: tidy-tooth-dental-general-treatments
+    resource: "https://tidytooth.com.au/services/general-treatments/"
+    title: "Tidy Tooth Dental — General Treatments"
+  - id: dr-eoin-f-lehane-dentist-com-au
+    resource: "https://www.dentist.com.au/general-dentist/dr-eoin-lehane/C19040952"
+    title: "Dr Eoin F Lehane — Dentist.com.au"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Batemans Bay, NSW — Dental Clinics

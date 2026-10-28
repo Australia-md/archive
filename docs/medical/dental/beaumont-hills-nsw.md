@@ -10,6 +10,52 @@ postcode: "2155"
 state: nsw
 lga: "The Hills Shire"
 last_verified: "2026-06-13"
+generated: { by: openclaw/dental-cron, at: 2026-06-13T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-13T00:00:00Z }
+stale_after: 2026-12-10T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: precise-dental-surgery-beaumont-hills-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beaumont-hills-2155-nsw/precise-dental-surgery-beaumont-hills/orthodontics/607adc45-74c1-5b26-4484-d31bdf315265"
+    title: "Precise Dental Surgery - Beaumont Hills — Healthdirect"
+  - id: orthodontics-in-beaumont-hills-nsw-2155-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/beaumont-hills-2155-nsw/orthodontics/310146005"
+    title: "Orthodontics in Beaumont Hills, NSW 2155 — Healthdirect"
+  - id: precise-dental-surgery
+    resource: "https://www.precisedentalsurgery.com.au/"
+    title: "Precise Dental Surgery"
+  - id: contact-us-precise-dental-surgery
+    resource: "https://www.precisedentalsurgery.com.au/contact-us/"
+    title: "Contact Us — Precise Dental Surgery"
+  - id: meet-our-team-precise-dental-surgery
+    resource: "https://www.precisedentalsurgery.com.au/our-team/"
+    title: "Meet Our Team — Precise Dental Surgery"
+  - id: treatments-precise-dental-surgery
+    resource: "https://www.precisedentalsurgery.com.au/treatment/"
+    title: "Treatments — Precise Dental Surgery"
+  - id: precise-dental-surgery-healthshare
+    resource: "https://www.healthshare.com.au/practices/precise-dental-surgery/"
+    title: "Precise Dental Surgery — HealthShare"
+  - id: australia-post-postcode-search
+    resource: "https://auspost.com.au/postcode/beaumont-hills"
+    title: "Australia Post postcode search"
+  - id: 2021-beaumont-hills-census-all-persons-quickstats
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10243"
+    title: "2021 Beaumont Hills, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: beaumont-hills-community-centre-main-hall-the-hills-shire
+    resource: "https://www.thehills.nsw.gov.au/Venues/Explore-Venues-for-Hire/Venues-Facilities-Directory/Beaumont-Hills-Community-Centre-Main-Hall"
+    title: "Beaumont Hills Community Centre - Main Hall — The Hills Shire Council"
+  - id: beaumont-drive-reserve-the-hills-shire-council
+    resource: "https://www.thehills.nsw.gov.au/Venues/Parks-Recreation/Parks-Recreation-Directory/Beaumont-Drive-Reserve"
+    title: "Beaumont Drive Reserve — The Hills Shire Council"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Beaumont Hills, NSW — Dental Clinics

@@ -5,6 +5,26 @@ description: "Australia is one of 17 megadiverse countries in the world."
 resource: "https://www.dcceew.gov.au/science-research/abrs"
 tags: [flora, fauna]
 timestamp: 2026-05-10T00:00:00Z
+generated: { by: human:jamesho, at: 2026-05-10T00:00:00Z }
+sources:
+  - id: australian-biological-resources-study-abrs
+    resource: "https://www.dcceew.gov.au/science-research/abrs"
+    title: "Australian Biological Resources Study (ABRS)"
+  - id: sprat-species-profile-and-threats-database
+    resource: "https://www.environment.gov.au/cgi-bin/sprat/public/sprat.pl"
+    title: "SPRAT — Species Profile and Threats Database"
+  - id: parks-australia
+    resource: "https://parksaustralia.gov.au"
+    title: "Parks Australia"
+  - id: atlas-of-living-australia-ala
+    resource: "https://www.ala.org.au"
+    title: "Atlas of Living Australia (ALA)"
+  - id: epbc-act-protected-matters-search
+    resource: "https://www.environment.gov.au/epbc/protected-matters-search-tool"
+    title: "EPBC Act Protected Matters Search"
+  - id: australian-faunal-directory
+    resource: "https://biodiversity.org.au/afd"
+    title: "Australian Faunal Directory"
 ---
 
 # Flora & Fauna of Australia

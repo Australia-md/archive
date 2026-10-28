@@ -8,6 +8,40 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, beresfield]
 timestamp: "2026-06-28T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-06-28T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-28T00:00:00Z }
+stale_after: 2026-12-25T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-beresfield-nsw-2322-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/beresfield-2322-nsw/dentists/310144008"
+    title: "Dentists in Beresfield, NSW 2322 — Healthdirect"
+  - id: dr-graham-johnson-beresfield-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/beresfield-2322-nsw/dr-graham-johnson-beresfield/dentists/896cf8c6-6d23-3854-08c4-afc72a8044ea"
+    title: "Dr Graham Johnson - Beresfield — Healthdirect"
+  - id: graham-johnson-dental-surgery
+    resource: "https://www.grahamjohnsondental.com.au/"
+    title: "Graham Johnson Dental Surgery"
+  - id: johnson-graham-dr-yellow-pages
+    resource: "https://www.yellowpages.com.au/nsw/beresfield/johnson-graham-dr-14590646-listing.html"
+    title: "Johnson Graham Dr — Yellow Pages"
+  - id: beresfield-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/beresfield"
+    title: "Beresfield postcode — Australia Post"
+  - id: 2021-beresfield-census-quickstats-australian-bureau-of
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10301"
+    title: "2021 Beresfield Census QuickStats — Australian Bureau of Statistics"
+  - id: beresfield-placemaking-and-engagement-case-study-city-of
+    resource: "https://newcastle.nsw.gov.au/getmedia/E48BA966-A169-4259-B656-CE54C38D2D20/Beresfield-Place-Making-Case-Study.pdf"
+    title: "Beresfield placemaking and engagement case study — City of Newcastle"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Beresfield, NSW — Dental Clinics

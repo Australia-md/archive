@@ -8,6 +8,46 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, boomerang-beach]
 timestamp: "2026-08-13T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-08-13T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-08-13T00:00:00Z }
+stale_after: 2027-02-09T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-boomerang-beach-nsw-2428-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/boomerang-beach-2428-nsw/dentists/310144008"
+    title: "Dentists in Boomerang Beach, NSW 2428 — Healthdirect"
+  - id: beaches-dental-care-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/boomerang-beach-2428-nsw/beaches-dental-care/dentists/3d757cd1-08a1-cceb-b611-efee5b415539"
+    title: "Beaches Dental Care — Healthdirect"
+  - id: about-us-beaches-dental-care
+    resource: "https://beachesdental.com.au/about-us/"
+    title: "About Us — Beaches Dental Care"
+  - id: our-team-beaches-dental-care
+    resource: "https://beachesdental.com.au/our-team/"
+    title: "Our Team — Beaches Dental Care"
+  - id: beaches-dental-crown-group-dental
+    resource: "https://crowngroupdental.com.au/locations/beaches-dental/"
+    title: "Beaches Dental — Crown Group Dental"
+  - id: dentists-in-boomerang-beach-nsw-2428-dentist-com-au
+    resource: "https://www.dentist.com.au/dentist/nsw/boomerang-beach"
+    title: "Dentists in Boomerang Beach NSW 2428 — Dentist.com.au"
+  - id: boomerang-beach-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/boomerang-beach"
+    title: "Boomerang Beach postcode — Australia Post"
+  - id: boomerang-beach-and-beach-reserve-midcoast-council
+    resource: "https://www.midcoast.nsw.gov.au/Services/Facilities-and-venues/Find-a-Facility/Outdoor-Facilities/Boomerang-Beach-Reserve"
+    title: "Boomerang Beach and Beach Reserve — MidCoast Council"
+  - id: boomerang-beach-pacific-palms-nsw-government
+    resource: "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/boomerang-beach-pacific-palms"
+    title: "Boomerang Beach, Pacific Palms — NSW Government"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Boomerang Beach, NSW — Dental Clinics

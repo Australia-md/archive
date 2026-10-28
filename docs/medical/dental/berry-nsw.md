@@ -8,6 +8,61 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, berry]
 timestamp: "2026-07-04T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-04T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-04T00:00:00Z }
+stale_after: 2026-12-31T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-berry-nsw-2535-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/berry-2535-nsw/dentists/310144008"
+    title: "Dentists in Berry, NSW 2535 — Healthdirect"
+  - id: berry-dentist-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berry-2535-nsw/berry-dentist/dentists/28ec8125-5dba-a248-b214-b29a9d1c7709"
+    title: "Berry Dentist — Healthdirect"
+  - id: berry-dentist
+    resource: "https://www.berrydentist.com.au/"
+    title: "Berry Dentist"
+  - id: berry-dental-studio
+    resource: "https://www.berrydentalstudio.com/"
+    title: "Berry Dental Studio"
+  - id: contact-us-berry-dental-studio
+    resource: "https://www.berrydentalstudio.com/contact"
+    title: "Contact Us | Berry Dental Studio"
+  - id: dr-jenna-cutting-berry-dental-studio
+    resource: "https://www.berrydentalstudio.com/drjennacutting"
+    title: "Dr Jenna Cutting | Berry Dental Studio"
+  - id: dr-mindie-nguyen-berry-dental-studio
+    resource: "https://www.berrydentalstudio.com/drmindienguyen"
+    title: "Dr Mindie Nguyen | Berry Dental Studio"
+  - id: dr-olivia-elwell-berry-dental-studio
+    resource: "https://www.berrydentalstudio.com/copy-of-dr-olivia-elwell"
+    title: "Dr Olivia Elwell | Berry Dental Studio"
+  - id: berry-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/berry"
+    title: "Berry postcode — Australia Post"
+  - id: berry-south-coast-nsw
+    resource: "https://berry.org.au/"
+    title: "Berry, South Coast NSW"
+  - id: map-of-berry-berry-south-coast-nsw
+    resource: "https://berry.org.au/about/map-berry/"
+    title: "Map of Berry — Berry, South Coast NSW"
+  - id: shoalhaven-town-berry-awarded-gold-as-top-tourism-town-in
+    resource: "https://www.shoalhaven.nsw.gov.au/News-and-feedback/News-and-media/News/Shoalhaven-Town-Berry-Awarded-Gold-as-Top-Tourism-Town-in-NSW"
+    title: "Shoalhaven Town Berry Awarded Gold as Top Tourism Town in NSW"
+  - id: 2021-berry-census-quickstats-australian-bureau-of-statistics
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10321"
+    title: "2021 Berry Census QuickStats — Australian Bureau of Statistics"
+  - id: berry-new-south-wales
+    resource: "https://en.wikipedia.org/wiki/Berry%2C_New_South_Wales"
+    title: "Berry, New South Wales"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Berry, NSW — Dental Clinics

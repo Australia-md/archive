@@ -8,6 +8,43 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, brighton-le-sands]
 timestamp: "2026-09-03T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-09-03T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-09-03T00:00:00Z }
+stale_after: 2027-03-02T00:00:00Z
+sources:
+  - id: brighton-le-sands-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/brighton-le-sands"
+    title: "Brighton-Le-Sands postcode - Australia Post"
+  - id: brighton-le-sands-new-south-wales-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Brighton-Le-Sands,_New_South_Wales"
+    title: "Brighton-Le-Sands, New South Wales - Wikipedia"
+  - id: brighton-le-sands-dentist-search-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/brighton-le-sands-2216-nsw/dentists/310144008"
+    title: "Brighton-Le-Sands dentist search - Healthdirect"
+  - id: bright-on-bay-dental-healthdirect-service-profile
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/brighton-le-sands-2216-nsw/bright-on-bay-dental/dentists/40ac4933-7048-b4f7-16aa-3fd53bea9bc5"
+    title: "Bright On Bay Dental - Healthdirect service profile"
+  - id: family-dental-practice-healthdirect-service-profile
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/brighton-le-sands-2216-nsw/family-dental-practice/dentists/c6af1197-61b3-759d-7d37-22cea589b769"
+    title: "Family Dental Practice - Healthdirect service profile"
+  - id: bright-on-bay-dental
+    resource: "https://brightonbaydental.com.au/"
+    title: "Bright On Bay Dental"
+  - id: bright-on-bay-dental-about-us
+    resource: "https://brightonbaydental.com.au/about-us/"
+    title: "Bright On Bay Dental - About Us"
+  - id: family-dental-practice
+    resource: "https://familydentalpractice.com.au/"
+    title: "Family Dental Practice"
+  - id: family-dental-practice-dr-fiona-gallagher
+    resource: "https://familydentalpractice.com.au/about-family-dental/dr-fiona-gallagher/"
+    title: "Family Dental Practice - Dr Fiona Gallagher"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Brighton-Le-Sands, NSW — Dental Clinics

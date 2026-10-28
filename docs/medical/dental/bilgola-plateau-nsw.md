@@ -8,6 +8,46 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, bilgola-plateau]
 timestamp: "2026-07-09T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-07-09T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-07-09T00:00:00Z }
+stale_after: 2027-01-05T00:00:00Z
+sources:
+  - id: australia-post-postcode-bilgola-plateau
+    resource: "https://auspost.com.au/postcode/bilgola-plateau"
+    title: "Australia Post postcode — Bilgola Plateau"
+  - id: 2021-census-quickstats-bilgola-plateau
+    resource: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10350"
+    title: "2021 Census QuickStats — Bilgola Plateau"
+  - id: wards-and-suburbs-northern-beaches-council
+    resource: "https://www.northernbeaches.nsw.gov.au/council/about-northern-beaches-council/wards-and-suburbs"
+    title: "Wards and suburbs — Northern Beaches Council"
+  - id: bilgola-plateau-wikipedia
+    resource: "https://en.wikipedia.org/wiki/Bilgola_Plateau"
+    title: "Bilgola Plateau — Wikipedia"
+  - id: smile-me-dental
+    resource: "https://smilemedental.com.au/"
+    title: "Smile Me Dental"
+  - id: contact-us-smile-me-dental
+    resource: "https://smilemedental.com.au/contactusdentist"
+    title: "Contact Us — Smile Me Dental"
+  - id: about-smile-me-dental
+    resource: "https://smilemedental.com.au/smilemedentalnorthernbeaches"
+    title: "About Smile Me Dental"
+  - id: dr-claudia-cespedes-smile-me-dental
+    resource: "https://smilemedental.com.au/dentistnorthernbeaches"
+    title: "Dr Claudia Cespedes — Smile Me Dental"
+  - id: the-team-at-smile-me-dental
+    resource: "https://smilemedental.com.au/teamatsmilemedental"
+    title: "The Team at Smile Me Dental"
+  - id: full-list-of-dental-services-smile-me-dental
+    resource: "https://smilemedental.com.au/full-list-of-dental-services"
+    title: "Full List of Dental Services — Smile Me Dental"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 
 # Bilgola Plateau, NSW — Dental Clinics

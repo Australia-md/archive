@@ -8,6 +8,64 @@ state: "nsw"
 resource: "https://www.dentalboard.gov.au"
 tags: [dental, nsw, belmore]
 timestamp: "2026-06-22T00:00:00Z"
+generated: { by: openclaw/dental-cron, at: 2026-06-22T00:00:00Z }
+verified: { by: openclaw/dental-cron, at: 2026-06-22T00:00:00Z }
+stale_after: 2026-12-19T00:00:00Z
+sources:
+  - id: healthdirect-australia
+    resource: "https://www.healthdirect.gov.au"
+    title: "Healthdirect Australia"
+  - id: dentists-in-belmore-nsw-2192-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/search/belmore-2192-nsw/dentists/310144008"
+    title: "Dentists in Belmore, NSW 2192 — Healthdirect"
+  - id: the-dentists-belmore-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/belmore-2192-nsw/the-dentists-belmore/dentists/f4cf7be1-0850-c563-120d-5ba4c2711969"
+    title: "The Dentists @ Belmore — Healthdirect"
+  - id: belmore-dental-services-healthdirect
+    resource: "https://www.healthdirect.gov.au/australian-health-services/healthcare-service/belmore-2192-nsw/belmore-dental-services/dentists/bb51e6d1-ef57-48b8-cf3d-a3bf85d83403"
+    title: "Belmore Dental Services — Healthdirect"
+  - id: the-dentists-belmore-contact
+    resource: "https://www.thedentistsbelmore.com.au/contact"
+    title: "The Dentists @ Belmore — Contact"
+  - id: the-dentists-belmore-faq
+    resource: "https://www.thedentistsbelmore.com.au/faq/dental-practice-located/41199"
+    title: "The Dentists @ Belmore — FAQ"
+  - id: dr-ibrahim-al-salti
+    resource: "https://www.thedentistsbelmore.com.au/about-us/dr-ibrahim-al-salti/41854"
+    title: "Dr Ibrahim Al-Salti"
+  - id: dr-sarah-elmir
+    resource: "https://www.thedentistsbelmore.com.au/about-us/dr-sarah-elmir/36373"
+    title: "Dr Sarah Elmir"
+  - id: nexgen-dental-contact
+    resource: "https://www.nexgendental.com.au/contact"
+    title: "Nexgen Dental — Contact"
+  - id: dr-elias-azzi-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/belmore/dr-elias-azzi/p41599"
+    title: "Dr Elias Azzi — Healthengine"
+  - id: dr-mohammad-ali-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/kirrawee/dr-mohammad-ali/p68775"
+    title: "Dr Mohammad Ali — Healthengine"
+  - id: dr-elayne-tran-healthengine
+    resource: "https://healthengine.com.au/dentist/nsw/belmore/dr-elayne-tran/p33350"
+    title: "Dr Elayne Tran — Healthengine"
+  - id: belmore-postcode-australia-post
+    resource: "https://auspost.com.au/postcode/belmore"
+    title: "Belmore postcode — Australia Post"
+  - id: 2021-belmore-census-all-persons-quickstats-australian
+    resource: "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10279"
+    title: "2021 Belmore, Census All persons QuickStats — Australian Bureau of Statistics"
+  - id: about-the-profile-areas-city-of-canterbury-bankstown
+    resource: "https://profile.id.com.au/canterbury-bankstown/about?WebID=150"
+    title: "About the profile areas — City of Canterbury Bankstown"
+  - id: 2024-belmore-north-public-school-annual-report-nsw
+    resource: "https://reports.sparo.schools.nsw.gov.au/annual-report/2024/1185/2024_Belmore_North_Public_School_Annual_Report.pdf"
+    title: "2024 Belmore North Public School Annual Report — NSW Government"
+  - id: dental-board-of-australia
+    resource: "https://www.dentalboard.gov.au"
+    title: "Dental Board of Australia"
+  - id: ahpra-practitioner-register
+    resource: "https://practitioners.ahpra.gov.au"
+    title: "AHPRA Practitioner Register"
 ---
 # Belmore, NSW — Dental Clinics
 
