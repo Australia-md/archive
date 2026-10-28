@@ -826,5 +826,6 @@ A handoff item can be a **re-verification** of a suburb that already has a page 
 
 ---
 
-*Last updated: 2026-10-28 | Version: 1.5 — added mandatory post-processing and generated SEO files (§14), re-verified sources (§15), head alternate link, breadcrumb data-nosnippet, Raw .md badge, "Checked {date}" label and answer-first paragraph. Titles/descriptions frozen until 2026-11-25.*
+*Last updated: 2026-10-28 | Version: 1.6 — OKF v0.2 source frontmatter (§1b: `generated`, `verified`, `stale_after`, `sources`); the Last Verified date prefers the latest `verified[].at`; `seo:build` runs `okf:backfill` first (§14).*
+*Previous: 2026-10-28 | Version: 1.5 — added mandatory post-processing and generated SEO files (§14), re-verified sources (§15), head alternate link, breadcrumb data-nosnippet, Raw .md badge, "Checked {date}" label and answer-first paragraph. Titles/descriptions frozen until 2026-11-25.*
 *Previous: 2026-06-29 | Version: 1.4 — added Section 13 (hub directory index entry, single-column grid format) and the progressive-enhancement `.js` flag in §2.*
