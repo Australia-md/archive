@@ -14,6 +14,7 @@
 //   6. JSON-LD: Dentist @id, ItemList, MedicalWebPage.mainEntity, Dataset.distribution
 //   7. "Same council area and nearby postcodes" internal-link block (between markers)
 //   8. Every internal <a href> rewritten to a root-relative path (all site pages + 404.html)
+//  10. Every nav version badge set to v{package.json version} (site-wide)
 //   9. Clinic comparison table (2+ clinics), services clause in the answer paragraph, and the
 //      national "Dental costs in Australia" block rendered from data/medicare-constants.json
 //
@@ -137,6 +138,9 @@ function rootRelativeLinks(html, fileRel) {
 // (b) a "services listed" clause in the answer paragraph, and (c) a national
 // "Dental costs in Australia" reference block rendered ONLY from data/medicare-constants.json.
 // Nothing here is per-clinic pricing; no field is invented — every cell comes from a card or the constants file.
+// Site version: package.json "version" is the single source; every nav badge shows `v{version}`.
+const VERSION = JSON.parse(readFileSync(join(ROOT, 'package.json'), 'utf8')).version;
+const syncBadge = (html) => html.replace(/(<span\b[^>]*class="nav-badge"[^>]*>)[^<]*(<\/span>)/g, (_, a, b) => `${a}v${VERSION}${b}`);
 const CONSTANTS_FILE = join(ROOT, 'data/medicare-constants.json');
 const K = existsSync(CONSTANTS_FILE) ? JSON.parse(readFileSync(CONSTANTS_FILE, 'utf8')) : null;
 const aud = (n) => '$' + Number(n).toLocaleString('en-AU');
@@ -324,7 +328,7 @@ for (const page of all) {
   const warnings = [];
   let after = transformDental(before, page.slug, page, all, warnings);
   after = addNosnippet(after);
-  after = rootRelativeLinks(after, relative(ROOT, file));
+  after = syncBadge(rootRelativeLinks(after, relative(ROOT, file)));
   for (const w of warnings) warnLines.push(`  ${page.slug}: ${w}`);
   if (after !== before) { changed.push(relative(ROOT, file)); if (!CHECK) writeFileSync(file, after); }
 }
@@ -341,7 +345,7 @@ function walk(dir, out = []) {
 }
 for (const file of [...walk(ROOT), ...(existsSync(join(ROOT, '404.html')) ? [join(ROOT, '404.html')] : [])]) {
   const before = readFileSync(file, 'utf8');
-  const after = rootRelativeLinks(addNosnippet(before), relative(ROOT, file));
+  const after = syncBadge(rootRelativeLinks(addNosnippet(before), relative(ROOT, file)));
   if (after !== before) { changed.push(relative(ROOT, file)); if (!CHECK) writeFileSync(file, after); }
 }
 
