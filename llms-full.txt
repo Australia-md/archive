@@ -116,8 +116,9 @@
 - [Campsie, NSW — Dental Clinics](https://australia.md/docs/medical/dental/campsie-nsw.md): 4 clinic(s), checked 2026-10-26 · HTML: https://australia.md/medical/dental/campsie/
 - [Canley Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-heights-nsw.md): 5 clinic(s), checked 2026-10-27 · HTML: https://australia.md/medical/dental/canley-heights/
 - [Canley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-vale-nsw.md): 2 clinic(s), checked 2026-10-28 · HTML: https://australia.md/medical/dental/canley-vale/
+- [Canterbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canterbury-nsw.md): 6 clinic(s), checked 2026-10-29 · HTML: https://australia.md/medical/dental/canterbury/
 - [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 4 clinic(s), checked 2026-03-30 · HTML: https://australia.md/medical/dental/chatswood/
-- [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 5 clinic(s), checked 2026-03-27 · HTML: https://australia.md/medical/dental/macquarie-park/
+- [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 9 clinic(s), checked 2026-10-30 · HTML: https://australia.md/medical/dental/macquarie-park/
 
 ## Machine endpoints
 - [Sitemap](https://australia.md/sitemap.xml): canonical HTML URLs with per-URL lastmod
@@ -11052,6 +11053,157 @@ All dental practitioners in Australia must hold current registration with the **
 
 ---
 
+<!-- https://australia.md/docs/medical/dental/canterbury-nsw.md -->
+# Canterbury, NSW — Dental Clinics
+
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW  
+**Suburb:** Canterbury · Postcode 2193 · Council: City of Canterbury-Bankstown  
+**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click “Look up practitioners” to search the register  
+**Last Verified:** 2026-10-29
+
+---
+
+## Overview
+
+**Canterbury** is an established mixed-use suburb approximately 10.5 km southwest of the Sydney CBD within the City of Canterbury-Bankstown. This directory includes only providers whose public listings place their practice address in Canterbury, NSW 2193; nearby practices in Campsie, Ashfield, Hurlstone Park and Bexley North are excluded. ([NSW Government planning document](https://www.sydneymetro.info/sites/default/files/2021-09/Canterbury_SDPP.PDF); [Australia Post postcode listing](https://auspost.com.au/postcode/219))
+
+All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking “Look up practitioners”.
+
+---
+
+## Dental Clinics — Canterbury NSW 2193
+
+### 1. [Ausbridge Dental](https://www.yellowpages.com.au/canterbury-nsw/bpp/ausbridge-dental-581694104)
+
+| Field | Detail |
+|---|---|
+| **Address** | 133 Canterbury Road, Canterbury NSW 2193 |
+| **Phone** | (02) 9787 1635 |
+| **Hours** | Mon–Sat 9:00am–5:00pm · Sunday not listed by HealthEngine |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+
+**Services:** Not confirmed from public sources at time of verification.
+
+---
+
+### 2. [Canterbury Dental Smiles](https://healthengine.com.au/dentist/nsw/canterbury/canterbury-dental-smiles/s82678)
+
+| Field | Detail |
+|---|---|
+| **Address** | 353 Canterbury Road, Canterbury NSW 2193 |
+| **Phone** | [0404 888 099](https://airflowdentalspa.com.au/practice/category/general-dentistry/page/11/?sort_by=post_title_asc) |
+| **Hours** | Not confirmed from public sources at time of verification. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+
+**Services:** General dentistry.
+
+---
+
+### 3. [Canterbury Denture Clinic](https://www.yellowpages.com.au/find/dental-prosthetist/canterbury-nsw-2193)
+
+| Field | Detail |
+|---|---|
+| **Address** | Shop 5, 1 Cooks Avenue, Canterbury NSW 2193 |
+| **Phone** | (02) 9789 4220 |
+| **Hours** | Not confirmed from public sources at time of verification. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+
+**Services:** Denture services; Yellow Pages lists the business as a dental prosthetist.
+
+---
+
+### 4. [MHM Medical & Dental Centre](https://healthengine.com.au/dentist/nsw/canterbury/mhm-medical-and-dental-centre/s102317)
+
+| Field | Detail |
+|---|---|
+| **Address** | 351–353 Canterbury Road, Canterbury NSW 2193 |
+| **Phone** | Not confirmed from public sources at time of verification. |
+| **Hours** | Mon–Tue 10:00am–6:00pm · Thu 1:00pm–6:00pm · Fri 10:00am–6:00pm; Wednesday, Saturday and Sunday not listed by HealthEngine |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+
+**Services:** Dental services; specific procedures not confirmed from public sources at time of verification.
+
+---
+
+### 5. [Miracle Dental Care](https://www.miracledentalfamily.com/contact-us)
+
+| Field | Detail |
+|---|---|
+| **Address** | Canterbury Plaza, Shop 116/2B Charles Street, Canterbury NSW 2193 |
+| **Phone** | (02) 9037 6376 |
+| **Hours** | Mon/Thu 9:00am–5:30pm · Tue/Wed/Fri 9:30am–5:00pm · Sat 9:00am–3:00pm (appointment or online booking only) · Sun and public holidays closed |
+| **Access** | HealthEngine lists site parking; the practice is beside Canterbury Station, with bus stops outside. |
+| **Network** | HealthEngine identifies the practice as a preferred provider for eight health funds; fund names are not listed in the available profile. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+
+**Services:** General and preventive dentistry, cosmetic dentistry, children’s dentistry, teeth whitening, emergency dental care, dental implants, orthodontics and clear aligners.
+
+---
+
+### 6. [Pearl Dental Clinic](https://www.dentist.com.au/dentist-detail/pearl-dental-clinic/A14012515)
+
+| Field | Detail |
+|---|---|
+| **Address** | Shop 6, 1 Cooks Avenue, Canterbury NSW 2193 |
+| **Phone** | (02) 8084 2626 |
+| **Hours** | Not confirmed from public sources at time of verification; current directory schedules conflict. |
+| **Access** | Dentist360 lists a wheelchair-accessible entrance and surgery. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+
+**Services:** Check-up and clean.
+
+---
+
+## AHPRA Registration Verification
+
+All dental practitioners in Australia must hold current registration with the **Dental Board of Australia**. Registration status, conditions, and disciplinary history are publicly searchable:
+
+- **Website:** [Dental Board of Australia](https://www.dentalboard.gov.au)
+- **How to search:** Click the “Look up practitioners” button and search by practitioner name
+
+> **Note:** AHPRA registration numbers were not available from public web sources at time of verification. Registration status must be confirmed directly via the AHPRA practitioner register.
+
+---
+
+## Data Sources
+
+| Source | URL |
+|---|---|
+| Healthdirect Australia | https://www.healthdirect.gov.au |
+| HealthEngine | https://healthengine.com.au |
+| Yellow Pages Australia | https://www.yellowpages.com.au |
+| Word of Mouth Australia | https://www.wordofmouth.com.au |
+| Dental Board of Australia | https://www.dentalboard.gov.au |
+| AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+
+**Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-10-29. Rosters change; always verify current practitioners and hours directly with the clinic.
+
+---
+
 <!-- https://australia.md/docs/medical/dental/chatswood-nsw.md -->
 # Chatswood, NSW — Dental Clinics
 
@@ -11184,13 +11336,13 @@ All dental practitioners in Australia must hold current registration with the **
 **Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
 **Suburb:** Macquarie Park · Postcode 2113 · Council: City of Ryde
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
-**Last Verified:** 2026-03-27
+**Last Verified:** 2026-10-30
 
 ---
 
 ## Overview
 
-**Macquarie Park** (postcode 2113) is a commercial and residential suburb in the City of Ryde local government area, approximately 12 km north-west of the Sydney CBD. The suburb is home to a concentration of medical and dental practices serving the surrounding residential communities of North Ryde, Marsfield, West Pymble, and Meadowbank, as well as the large student and professional population associated with Macquarie University.
+**Macquarie Park** (postcode 2113) is a mixed-use suburb in the City of Ryde local government area, approximately 13 km northwest of Sydney City Centre. The City of Ryde identifies the precinct as a major employment district; the 2021 Census recorded 11,071 usual residents in Macquarie Park. [City of Ryde planning document](https://www.ryde.nsw.gov.au/files/assets/public/environment/macquarie-park-pamp.pdf) · [Australian Bureau of Statistics, 2021 Census QuickStats](https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL12446)
 
 All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking "Look up practitioners".
 
@@ -11198,106 +11350,169 @@ All dental practitioners listed below are required to hold current registration 
 
 ## Dental Clinics — Macquarie Park NSW 2113
 
-### 1. MHP Dental (Macquarie Health Professionals)
-
-| Field | Detail |
-|---|---|
-| **Address** | Shop 1044b, Macquarie Shopping Centre, Macquarie Park NSW 2113 |
-| **Phone** | (02) 9887 2044 |
-| **At this location since** | ~30 years (established at Macquarie Shopping Centre) |
-| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
-
-**Registered Practitioners (sourced from practice profile):**
-
-| Practitioner | Qualification | Notes |
-|---|---|---|
-| Dr Ash | BDS, University of Sheffield (UK), 1999 | At practice since 2008; special interests: removable prosthetics, anti-wrinkle injections, orthodontics, cosmetic dentistry |
-| Dr Madeleine La | BDS, James Cook University, Queensland | General dentistry |
-| Dr Obaid | Not confirmed from public sources | General dentistry |
-
-**Services:** General dentistry, check-ups, fillings, dental implants, orthodontic treatment, cosmetic dentistry, removable prosthetics, anti-wrinkle injections.
-
----
-
-### 2. MacPark Dental
-
-| Field | Detail |
-|---|---|
-| **Address** | Suite 3, Level 2, 50 Waterloo Rd, Macquarie Park NSW 2113 |
-| **Phone** | (02) 9131 2110 |
-| **Hours** | Mon–Sat 9:00am–5:00pm · Sun Closed |
-| **Access** | 2-minute walk from Macquarie Park Metro Station · On-site parking |
-| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
-
-**Registered Practitioners (sourced from practice profile and public directories):**
-
-| Practitioner | Qualification | Notes |
-|---|---|---|
-| Dr Wei-Jie Jiang | General Dentist | Principal practitioner |
-| Dr Aida Varnaseri | General Dentist | Languages: English, Farsi |
-| Dr Paulina Lee | General Dentist | — |
-
-**Services:** General dentistry, check-up and clean, dental implants, restorative dentistry.
-
----
-
-### 3. Bupa Dental — Macquarie Centre
+### 1. [Bupa Dental — Macquarie Centre](https://www.bupadental.com.au/find-a-dentist/nsw-macquarie_park-2113-au/bupa-dental-macquarie-centre)
 
 | Field | Detail |
 |---|---|
 | **Address** | Shop UC10A, Cnr Herring Rd & Waterloo Rd, Macquarie Park NSW 2113 |
 | **Phone** | (02) 8652 9140 |
-| **Hours** | Mon 8:30am–5:30pm (other days: contact clinic) |
-| **Network** | Bupa Members First network |
-| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
-
-**Registered Practitioners (sourced from practice profile):**
-
-| Practitioner | Notes |
-|---|---|
-| Dr Christina Kim | Associate Dentist; general dentistry |
-
-**Services:** General dentistry, restorative dental services, dentures, cosmetic dentistry, dental sedation.
-
----
-
-### 4. Wise Dental
-
-| Field | Detail |
-|---|---|
-| **Address** | 11 Khartoum Rd, Macquarie Park NSW 2113 |
-| **Phone** | (02) 9216 7676 |
-| **Hours** | 7 days · 10:00am–10:00pm |
-| **Emergency** | Walk-in emergency clinic available |
+| **Hours** | Mon–Wed 8:30am–6:00pm · Thu 8:30am–8:00pm · Fri 8:30am–6:00pm · Sat 8:30am–4:00pm · Sun Closed |
+| **Access** | Wheelchair-accessible entry; Macquarie Centre bus interchange and Macquarie University Metro Station nearby |
+| **Network** | Bupa Australia preferred provider; Members First Ultimate practice |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
-| Practitioner | Qualification | Notes |
-|---|---|---|
-| Dr Michael Shang | General Dentist | — |
-| Dr Sahar Kesheh | General Dentist | — |
-| Dr Vikas Sharma | General Dentist | Postgraduate Diploma in Implant Dentistry, Royal College of Surgeons (England) |
-| Dr Jackleen Soghmonian | General Dentist | — |
-| Dr Jason Liu | BAppSc (Medical Radiation Sciences); DDM, University of Sydney | General Dentist |
-| Dr Rhema Ndukwe | General Dentist | — |
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
 
-**Services:** General dentistry, cosmetic dentistry, specialist dentistry, emergency dental care, dental implants.
+**Services:** General and preventive dentistry, check-ups and cleans, dental emergencies, periodontics, children's dentistry, mouthguards, sedation, crowns and bridges, fillings, root canal treatment, teeth whitening, dentures, veneers, and wisdom tooth removal. [Practice services and details](https://www.bupadental.com.au/find-a-dentist/nsw-macquarie_park-2113-au/bupa-dental-macquarie-centre)
 
 ---
 
-### 5. North Ryde Dentistry
+### 2. [Eve Dental — Macquarie Park](https://www.evedental.com.au/contact/)
 
 | Field | Detail |
 |---|---|
-| **Address** | Unit 4, Building B, 64 Talavera Rd, Macquarie Park NSW 2113 |
-| **Phone** | (02) 8090 1102 |
-| **Hours** | Mon, Tue, Fri: 9:00am–6:00pm · Thu: 9:00am–8:00pm · Sat: 8:30am–4:00pm |
+| **Address** | 33/46–48 Khartoum Road, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9808 5252 |
+| **Hours** | Mon–Fri 9:00am–6:00pm · Sat 8:30am–1:00pm · Sun not confirmed from public sources at time of verification |
+| **Access** | On-site parking available |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (sourced from practice profile and public directories):**
 
-**Services:** General dentistry, family dentistry (services confirmed; full list: contact clinic directly).
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General and preventive dentistry, cosmetic dentistry, children's dentistry, periodontics, orthodontics, Invisalign, endodontics, implants, laser dentistry, airway dentistry, twilight dentistry, teeth whitening, dental emergencies, and holistic dentistry. [Practice services](https://www.evedental.com.au/services/)
+
+---
+
+### 3. [MacPark Dental](https://macparkdental.com.au/contact-us/)
+
+| Field | Detail |
+|---|---|
+| **Address** | Suite 3, Level 2/50 Waterloo Road, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9131 2110 |
+| **Hours** | Mon–Sat 9:00am–5:00pm · Sun Closed |
+| **Access** | On-site parking; approximately 2-minute walk from Macquarie Park Metro Station |
+| **Network** | Accepts major health funds; on-site HICAPS claims |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General dentistry, children's dentistry, cosmetic dentistry, veneers, dental implants, Invisalign and orthodontics, wisdom tooth removal, and emergency dentistry. [Practice services](https://macparkdental.com.au/)
+
+---
+
+### 4. [Macquarie Dentists](https://macquariedentists.com.au/contact-us/)
+
+| Field | Detail |
+|---|---|
+| **Address** | Shop 2/78 Waterloo Road, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9887 2122 |
+| **Hours** | Mon–Fri 9:00am–5:30pm · Sat 9:00am–2:00pm · Sun Closed |
+| **Access** | Entry on Byfield Street; public transport access nearby |
+| **Network** | CBHS Dental Choice Network provider |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General and preventive dentistry, emergency dentistry, cosmetic dentistry, dental implants, Invisalign, and children's dentistry. [Practice services](https://macquariedentists.com.au/dental-services/)
+
+---
+
+### 5. [Macquarie Park Endodontics](https://www.mpendo.com.au/contact-us)
+
+| Field | Detail |
+|---|---|
+| **Address** | Hobart Building, HG01/2 Mooltan Avenue, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9449 9568 |
+| **Hours** | Mon–Sat 9:00am–6:00pm · Sun not confirmed from public sources at time of verification |
+| **Access** | On-site car parking; about 8-minute walk from Macquarie University Station and 1-minute walk from bus stops |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Specialist endodontic care and root canal treatment. [Practice information](https://www.mpendo.com.au/)
+
+---
+
+### 6. [MHP Dental](https://mhpdental.com.au/contact/)
+
+| Field | Detail |
+|---|---|
+| **Address** | Level 1U, Shop 1043, Macquarie Shopping Centre, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9887 2044 |
+| **Hours** | Mon–Fri 8:30am–5:30pm · Sat 8:30am–4:00pm · Sun not confirmed from public sources at time of verification |
+| **Access** | Macquarie Centre Red-level car park; Macquarie University Metro Station and bus services nearby |
+| **Network** | Preferred provider for Medibank Private and Bupa |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Check-ups, fillings, implants, orthodontic treatment, and cosmetic dentistry. [Practice services](https://mhpdental.com.au/services/)
+
+---
+
+### 7. [North Ryde Dentistry — Macquarie Park](https://www.northrydedentistry.com.au/contact-us/)
+
+| Field | Detail |
+|---|---|
+| **Address** | Unit 4, Building B, 64 Talavera Road, Macquarie Park NSW 2113 |
+| **Phone** | (02) 8090 1102 |
+| **Hours** | Mon, Tue, Thu, Fri 9:00am–6:00pm · Wed Closed · Sat 8:30am–4:00pm · Sun Closed |
+| **Access** | Free on-site parking; approximately 3-minute walk from Macquarie University Station |
+| **Network** | HICAPS on site; Westfund Provider of Choice |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Check-ups and cleans, children's dentistry, fillings, crowns, root canal treatment, wisdom tooth removal, dental implants, Invisalign and clear aligners, veneers, teeth whitening, and emergency appointments. [Practice location and services](https://www.northrydedentistry.com.au/dentist-macquarie-park/)
+
+---
+
+### 8. [North Ryde Macquarie Park Dentists](https://northrydedental.com.au/contact-us/)
+
+| Field | Detail |
+|---|---|
+| **Address** | 285–297 Lane Cove Road, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9888 6066 |
+| **Hours** | Mon 8:00am–5:00pm · Tue 7:30am–6:00pm · Wed 8:00am–5:00pm · Thu 8:00am–7:00pm · Fri 8:00am–5:00pm · Sat by appointment · Sun not confirmed from public sources at time of verification |
+| **Access** | Free parking for up to 2 hours (ticket required); near Macquarie Park station |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General, preventive, cosmetic, restorative, orthodontic and emergency dentistry, including implants, crowns, and teeth whitening. [Practice services](https://northrydedental.com.au/service/)
+
+---
+
+### 9. [WiSE Dental](https://wisedental.com.au/contact-us/)
+
+| Field | Detail |
+|---|---|
+| **Address** | 11 Khartoum Road, Macquarie Park NSW 2113 |
+| **Phone** | (02) 9216 7676 |
+| **Hours** | Daily 10:00am–10:00pm (as listed by the practice) |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> Current individual practitioners were not independently matched against the AHPRA register in this run. Verify each current practitioner via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General and cosmetic dentistry, emergency care, dental implants, endodontics, orthodontics, children's dentistry, and preventive care. [Practice services](https://wisedental.com.au/service/)
 
 ---
 
@@ -11323,7 +11538,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
 
-**Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-03-27. Rosters change; always verify current practitioners and hours directly with the clinic.
+Re-verified 2026-10-30; previous verification 2026-03-27.
+
+**Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-10-30. Rosters change; always verify current practitioners and hours directly with the clinic.
 
 ---
 
