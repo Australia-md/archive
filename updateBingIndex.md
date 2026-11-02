@@ -38,7 +38,7 @@ This file records URLs submitted to Bing and IndexNow so unchanged URLs are not 
 | https://australia.md/environment/ | 2026-05-12 | 2026-10-28T11:48:14Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/government/ | 2026-05-12 | 2026-10-28T11:48:14Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/education/ | 2026-05-12 | 2026-10-28T11:48:14Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
-| https://australia.md/medical/dental/ | 2026-10-28 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
+| https://australia.md/medical/dental/ | 2026-11-02 | 2026-11-02T12:42:33Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/endocrinology/ | 2026-05-10 | 2026-10-28T11:48:14Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/aberdare/ | 2026-04-02 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/adamstown/ | 2026-04-17 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
@@ -56,8 +56,8 @@ This file records URLs submitted to Bing and IndexNow so unchanged URLs are not 
 | https://australia.md/medical/dental/auburn/ | 2026-05-09 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/avalon-beach/ | 2026-05-10 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/avoca-beach/ | 2026-05-11 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
-| https://australia.md/medical/dental/chatswood/ | 2026-03-30 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
-| https://australia.md/medical/dental/macquarie-park/ | 2026-03-27 | 2026-10-28T10:29:26Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
+| https://australia.md/medical/dental/chatswood/ | 2026-11-02 | 2026-11-02T12:42:33Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
+| https://australia.md/medical/dental/macquarie-park/ | 2026-10-30 | 2026-11-02T12:42:33Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/docs/culture.md | 2026-05-10 | 2026-05-12T11:18:42Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 202 Accepted | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/docs/economy.md | 2026-05-10 | 2026-05-12T11:18:42Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 202 Accepted | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/docs/education.md | 2026-05-10 | 2026-05-12T11:18:42Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 202 Accepted | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
@@ -173,6 +173,7 @@ This file records URLs submitted to Bing and IndexNow so unchanged URLs are not 
 | https://australia.md/medical/dental/balgownie/ | 2026-05-20 | 2026-10-28T11:04:07Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/balmain/ | 2026-05-22 | 2026-10-28T11:04:07Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental-costs/ | 2026-10-28 | 2026-10-28T11:48:14Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
+| https://australia.md/medical/dental/canterbury/ | 2026-10-29 | 2026-11-02T12:42:33Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 
 ## Additional Verification Submissions
 
