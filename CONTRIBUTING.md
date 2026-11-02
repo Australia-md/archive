@@ -77,7 +77,7 @@ Learn more at [github.com/github/spec-kit](https://github.com/github/spec-kit).
 - Schema.org JSON-LD (at minimum: `WebPage` + `BreadcrumbList`)
 - RxAI footer credit:
   ```html
-  <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
+  <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="nofollow noopener noreferrer">RxAI</a></span>
   ```
 
 ---

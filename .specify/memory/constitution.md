@@ -96,7 +96,7 @@ The Markdown knowledge layer conforms to the **Open Knowledge Format (OKF) v0.2*
 7. **Update `sitemap.xml`** for every new HTML page. Include `<loc>`, `<lastmod>`, `<changefreq>`, `<priority>`
 8. **RxAI footer credit** on every HTML page:
    ```html
-   <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="noopener noreferrer">RxAI</a></span>
+   <span class="footer-built-by">Built by <a href="https://www.rxai.com.au" class="footer-rxai-link" target="_blank" rel="nofollow noopener noreferrer">RxAI</a></span>
    ```
 9. **Version control:** Semantic versioning (MAJOR.MINOR.PATCH). Update in `index.html`, `README.md`, and `AGENTS.md` simultaneously. Tag with `git tag vX.Y.Z`
 10. **OKF frontmatter:** every concept file under `docs/**` carries OKF v0.2 frontmatter with a non-empty `type` — see Standards → "Knowledge Format (OKF v0.2)". New files produced by automation must be born conformant.
