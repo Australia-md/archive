@@ -429,6 +429,13 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 
 **Rationale:** Australia.md is the authoritative listing. Clinic websites may be outdated, unmaintained, or redirect to unrelated domains. Phone number (`<a href="tel:...">`) and AHPRA verification links are the only clickable elements permitted on clinic cards.
 
+**Owner-approved exceptions (2026-11-03):** The site owner has approved a live website link for the clinics listed below only. For these, the disabled button is replaced by `<a class="btn-view-profile" href="<official site>" target="_blank" rel="noopener" aria-label="Visit <Clinic> website (opens in a new tab)">Visit Website</a>`, and the source `.md` carries a `**Website**` row. Every other clinic keeps the disabled button. Do not add further exceptions without the owner's explicit approval.
+
+| Clinic | Page | Website |
+|---|---|---|
+| K Family Dental | `/medical/dental/chatswood/` | https://kfamilydental.com.au |
+| Smile To Go | `/medical/dental/blackburn-3130/` | https://smiletogo.com.au |
+
 ### 7a. AHPRA Badge Rules
 
 | Condition | HTML |
@@ -531,7 +538,7 @@ The footer block is mostly static — only the **source Markdown link** (see 10a
         <div class="footer-col-title">Archive</div>
         <ul class="footer-list">
           <li><a href="../../" class="footer-link">Medical Directory</a></li>
-          <li><a href="../" class="footer-link">Dental — NSW</a></li>
+          <li><a href="../" class="footer-link">Dental Directory</a></li>
           <li><a href="#" class="footer-link">IT &amp; AI</a></li>
           <li><a href="#" class="footer-link">Heritage</a></li>
         </ul>
@@ -679,7 +686,7 @@ The only place raw hex values may appear is inside `:root { }` token definitions
 
 ### 12k. Clinic Cards — All Must Have `btn-view-profile`
 
-Every `<article class="clinic-card">` must contain a `<button class="btn-view-profile" disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>` in its `.clinic-card-footer`. Never replace this button with a live `<a href="...">` link to an external clinic website — see Section 7 policy.
+Every `<article class="clinic-card">` must contain a `<button class="btn-view-profile" disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>` in its `.clinic-card-footer`. Never replace this button with a live `<a href="...">` link to an external clinic website — see Section 7 policy (the only exceptions are the owner-approved clinics listed in Section 7).
 
 ### 12l. Accessibility — Inline Text Links Must Have Underlines
 
@@ -719,13 +726,18 @@ Do not set `element.style.transitionDelay` or inject `<style>` nodes from JavaSc
 ## 13. Hub Directory Index — Adding the Suburb Entry
 
 After generating a suburb page, register it in the hub directory at
-**`medical/dental/index.html`**. The hub is a **single-column, self-sorting,
-self-counting suburb grid** — it is NOT the old two-column map layout. Make
-exactly one change: append a single `<li>` to `<ul class="suburb-dir-list">`.
+**`medical/dental/index.html`**. The hub is grouped by **state/territory**: one
+`<section class="state-dir" data-state="{state}">` per state (NSW, VIC, QLD, WA,
+SA, TAS, ACT, NT), each with its own self-sorting, self-counting suburb grid. Make
+exactly one change: append a single `<li>` to the list of the page's own state,
+`<ul class="suburb-dir-list" data-state="{state}">` (lowercase `{state}` from the
+source filename, e.g. `box-hill-3128-vic.md` → `vic`). A state with no suburbs yet
+shows "Coming soon"; `listing.js` hides that note and updates every count once its
+list has an entry — do not edit the note, the state headings or the jump links.
 
 ### The one entry to append
 
-Insert this block anywhere inside `<ul class="suburb-dir-list">` (insertion order
+Insert this block anywhere inside your state's `<ul class="suburb-dir-list" data-state="{state}">` (insertion order
 does not matter — `listing.js` sorts the grid A–Z on load):
 
 ```html

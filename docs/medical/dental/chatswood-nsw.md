@@ -157,6 +157,9 @@ sources:
   - id: white-dental-clinic-chatswood
     resource: "https://whitedentalclinic.com.au/contact-us/"
     title: "White Dental Clinic Chatswood"
+  - id: k-family-dental
+    resource: "https://kfamilydental.com.au"
+    title: "K Family Dental"
 ---
 
 # Chatswood, NSW — Dental Clinics
@@ -595,6 +598,24 @@ All dental practitioners listed below are required to hold current registration 
 
 ---
 
+### 28. K Family Dental
+
+| Field | Detail |
+|---|---|
+| **Address** | Unit 52/47 Neridah Street, Chatswood NSW 2067 |
+| **Phone** | (02) 9415 2868 |
+| **Website** | [kfamilydental.com.au](https://kfamilydental.com.au) |
+| **Hours** | Monday–Tuesday 10:00am–6:00pm · Wednesday Closed · Thursday 10:00am–5:00pm · Friday 10:00am–6:00pm · Saturday 9:00am–6:00pm · Sunday Closed |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Braces (conventional and invisible), check-up and clean, cosmetic dentistry, crowns and bridges, dental implants, dentures, gum disease treatment, Invisalign, TMJ (jaw pain) treatment, root canal therapy, emergency dentistry, teeth whitening, wisdom tooth extraction.
+
+*Added 2026-11-03 from the clinic's own website.*
+
+---
+
 ## AHPRA Registration Verification
 
 All dental practitioners in Australia must hold current registration with the **Dental Board of Australia**. Registration status, conditions, and disciplinary history are publicly searchable:
@@ -658,6 +679,7 @@ All dental practitioners in Australia must hold current registration with the **
 | TranscenDental Chatswood | https://transcendentalchatswood.com.au/faqs/ |
 | HealthEngine — TranscenDental Chatswood | https://healthengine.com.au/dentist/nsw/chatswood/transcendental-chatswood/s91637 |
 | White Dental Clinic Chatswood | https://whitedentalclinic.com.au/contact-us/ |
+| K Family Dental | https://kfamilydental.com.au |
 
 | **Data limitations** | Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-11-02. Rosters change; always verify current practitioners and hours directly with the clinic. |
 

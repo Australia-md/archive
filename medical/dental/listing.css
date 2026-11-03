@@ -1226,3 +1226,52 @@ a.btn-view-profile {
   color: var(--clr-on-surface);
   margin: 1rem 0 0.75rem;
 }
+
+
+/* ── State / territory sections on the dental hub ─────────────────────── */
+.state-dir-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-5) 0;
+}
+.state-dir-jump {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--clr-on-surface);
+  text-decoration: none;
+  padding: var(--sp-1) var(--sp-3);
+  border: 1px solid var(--clr-outline-variant, var(--clr-outline));
+  border-radius: 999px;
+  transition: border-color var(--transition-fast);
+}
+.state-dir-jump:hover { border-color: var(--clr-primary); }
+.state-dir-jump:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+.state-dir-jump-count { font-weight: 400; color: var(--clr-outline); margin-left: var(--sp-1); }
+.state-dir { scroll-margin-top: 80px; }
+.state-dir[hidden] { display: none; }
+.state-dir-title {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--clr-on-surface);
+  margin: 0;
+  padding: var(--sp-4) var(--sp-5) 0;
+}
+.state-dir-count {
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--clr-outline);
+  margin-left: var(--sp-2);
+}
+.state-dir .suburb-dir-list:empty { display: none; }
+.state-dir-soon {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--clr-on-surface-variant);
+  margin: 0;
+  padding: var(--sp-2) var(--sp-5) var(--sp-3);
+}
+.state-dir-soon[hidden] { display: none; }

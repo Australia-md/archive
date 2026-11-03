@@ -69,6 +69,7 @@
 - [Billinudgel, NSW — Dental Clinics](https://australia.md/docs/medical/dental/billinudgel-nsw.md): 1 clinic(s), checked 2026-07-10 · HTML: https://australia.md/medical/dental/billinudgel/
 - [Bingara, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bingara-nsw.md): 1 clinic(s), checked 2026-07-13 · HTML: https://australia.md/medical/dental/bingara/
 - [Blackalls Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/blackalls-park-nsw.md): 1 clinic(s), checked 2026-07-24 · HTML: https://australia.md/medical/dental/blackalls-park/
+- [Blackburn, VIC — Dental Clinics](https://australia.md/docs/medical/dental/blackburn-3130-vic.md): 11 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/blackburn-3130/
 - [Blayney, NSW — Dental Clinics](https://australia.md/docs/medical/dental/blayney-nsw.md): 1 clinic(s), checked 2026-07-26 · HTML: https://australia.md/medical/dental/blayney/
 - [Bligh Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bligh-park-nsw.md): 1 clinic(s), checked 2026-07-26 · HTML: https://australia.md/medical/dental/bligh-park/
 - [Boggabri, NSW — Dental Clinics](https://australia.md/docs/medical/dental/boggabri-nsw.md): 1 clinic(s), checked 2026-08-01 · HTML: https://australia.md/medical/dental/boggabri/
@@ -119,7 +120,7 @@
 - [Canley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-vale-nsw.md): 2 clinic(s), checked 2026-10-28 · HTML: https://australia.md/medical/dental/canley-vale/
 - [Canterbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canterbury-nsw.md): 6 clinic(s), checked 2026-10-29 · HTML: https://australia.md/medical/dental/canterbury/
 - [Cardiff, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cardiff-nsw.md): 3 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/cardiff/
-- [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 27 clinic(s), checked 2026-11-02 · HTML: https://australia.md/medical/dental/chatswood/
+- [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 28 clinic(s), checked 2026-11-02 · HTML: https://australia.md/medical/dental/chatswood/
 - [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 9 clinic(s), checked 2026-10-30 · HTML: https://australia.md/medical/dental/macquarie-park/
 
 ## Machine endpoints

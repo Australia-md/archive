@@ -20,10 +20,13 @@ document.addEventListener('DOMContentLoaded', () => {
 // order and without updating the header count, so we sort and count from the
 // DOM to keep both honest, then wire the sort tabs and a name filter.
 function initSuburbDirectory() {
-  const list = document.querySelector('.suburb-dir-list');
-  if (!list) return;
+  // One list per state/territory section (<section class="state-dir">); a hub
+  // without sections still works with its single list.
+  const lists = Array.from(document.querySelectorAll('.suburb-dir-list'));
+  if (!lists.length) return;
 
-  const items = Array.from(list.querySelectorAll(':scope > li'));
+  const items = lists.flatMap((l) => Array.from(l.querySelectorAll(':scope > li')));
+  items.forEach((li) => { li._list = li.parentElement; });
   const countEl = document.querySelector('.suburb-dir-count');
   const input = document.getElementById('suburb-filter');
   const empty = document.querySelector('.suburb-dir-empty');
@@ -51,13 +54,32 @@ function initSuburbDirectory() {
     count: (a, b) => clinicsOf(b) - clinicsOf(a) || nameOf(a).localeCompare(nameOf(b)),
   };
   const applySort = (mode) => {
-    items.slice().sort(sorters[mode] || sorters.alpha).forEach((li) => list.appendChild(li));
+    items.slice().sort(sorters[mode] || sorters.alpha).forEach((li) => li._list.appendChild(li));
   };
   applySort('alpha');
 
   const total = items.length;
   const countLabel = (n) => `${n} suburb ${n === 1 ? 'directory' : 'directories'}`;
   if (countEl) countEl.textContent = countLabel(total);
+
+  // Per-state counts, "Coming soon" notes and jump-link counts, from the DOM.
+  const sections = Array.from(document.querySelectorAll('.state-dir'));
+  const updateSections = (filtering) => {
+    sections.forEach((sec) => {
+      const all = Array.from(sec.querySelectorAll('.suburb-dir-list > li'));
+      const shown = all.filter((li) => !li.hidden).length;
+      const countSpan = sec.querySelector('.state-dir-count');
+      if (countSpan) countSpan.textContent = all.length === 0 ? ''
+        : filtering ? `${shown} of ${all.length}` : countLabel(all.length);
+      const soon = sec.querySelector('.state-dir-soon');
+      if (soon) soon.hidden = all.length > 0;
+      // While filtering, collapse states with no match so results stay together.
+      sec.hidden = filtering && shown === 0;
+      const jump = document.querySelector(`.state-dir-jump[data-state="${sec.dataset.state}"] .state-dir-jump-count`);
+      if (jump) jump.textContent = String(all.length);
+    });
+  };
+  updateSections(false);
 
   // ── Service facets, derived from the suburbs' own service tags ──
   const selected = new Set();
@@ -135,6 +157,7 @@ function initSuburbDirectory() {
     if (countEl) countEl.textContent = filtering ? `${shown} of ${total}` : countLabel(total);
     if (facetClearBtn) facetClearBtn.hidden = selected.size === 0;
     if (empty) empty.hidden = shown !== 0;
+    updateSections(filtering);
   }
 
   // ── Sort tabs: ARIA radiogroup with click, Enter/Space, and arrow-key roving.
