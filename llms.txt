@@ -85,6 +85,7 @@
 - [Bowenfels, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bowenfels-nsw.md): 1 clinic(s), checked 2026-08-21 · HTML: https://australia.md/medical/dental/bowenfels/
 - [Bowral, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bowral-nsw.md): 5 clinic(s), checked 2026-08-23 · HTML: https://australia.md/medical/dental/bowral/
 - [Box Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/box-hill-nsw.md): 1 clinic(s), checked 2026-08-24 · HTML: https://australia.md/medical/dental/box-hill/
+- [Box Hill, VIC — Dental Clinics](https://australia.md/docs/medical/dental/box-hill-3128-vic.md): 6 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/box-hill-3128/
 - [Bradbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bradbury-nsw.md): 1 clinic(s), checked 2026-08-25 · HTML: https://australia.md/medical/dental/bradbury/
 - [Braidwood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/braidwood-nsw.md): 1 clinic(s), checked 2026-08-26 · HTML: https://australia.md/medical/dental/braidwood/
 - [Breakfast Point, NSW — Dental Clinics](https://australia.md/docs/medical/dental/breakfast-point-nsw.md): 1 clinic(s), checked 2026-09-01 · HTML: https://australia.md/medical/dental/breakfast-point/
