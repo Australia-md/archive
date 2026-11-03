@@ -429,6 +429,13 @@ Repeat one `<article>` per clinic. Number sequentially from 1.
 
 **Rationale:** Australia.md is the authoritative listing. Clinic websites may be outdated, unmaintained, or redirect to unrelated domains. Phone number (`<a href="tel:...">`) and AHPRA verification links are the only clickable elements permitted on clinic cards.
 
+**Owner-approved exceptions (2026-11-03):** The site owner has approved a live website link for the clinics listed below only. For these, the disabled button is replaced by `<a class="btn-view-profile" href="<official site>" target="_blank" rel="noopener" aria-label="Visit <Clinic> website (opens in a new tab)">Visit Website</a>`, and the source `.md` carries a `**Website**` row. Every other clinic keeps the disabled button. Do not add further exceptions without the owner's explicit approval.
+
+| Clinic | Page | Website |
+|---|---|---|
+| K Family Dental | `/medical/dental/chatswood/` | https://kfamilydental.com.au |
+| Smile To Go | `/medical/dental/blackburn-3130/` | https://smiletogo.com.au |
+
 ### 7a. AHPRA Badge Rules
 
 | Condition | HTML |
@@ -679,7 +686,7 @@ The only place raw hex values may appear is inside `:root { }` token definitions
 
 ### 12k. Clinic Cards — All Must Have `btn-view-profile`
 
-Every `<article class="clinic-card">` must contain a `<button class="btn-view-profile" disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>` in its `.clinic-card-footer`. Never replace this button with a live `<a href="...">` link to an external clinic website — see Section 7 policy.
+Every `<article class="clinic-card">` must contain a `<button class="btn-view-profile" disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>` in its `.clinic-card-footer`. Never replace this button with a live `<a href="...">` link to an external clinic website — see Section 7 policy (the only exceptions are the owner-approved clinics listed in Section 7).
 
 ### 12l. Accessibility — Inline Text Links Must Have Underlines
 
