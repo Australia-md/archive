@@ -1214,6 +1214,23 @@ a.btn-view-profile {
 .ref-link a { text-decoration: underline; }
 .ref-link a:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
 
+/* Directory disclaimer (scripts/seo-postprocess.mjs §11) */
+.listing-disclaimer {
+  margin: 2rem 0 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--clr-outline-variant);
+  border-radius: 8px;
+  background: var(--clr-surface-container-low);
+  color: var(--clr-on-surface-variant);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.listing-disclaimer-title { font-size: 1rem; margin: 0 0 0.5rem; color: var(--clr-on-surface); }
+.listing-disclaimer p { margin: 0; }
+.listing-disclaimer p + p { margin-top: 0.5rem; }
+.listing-disclaimer a { text-decoration: underline; overflow-wrap: anywhere; }
+.listing-disclaimer a:focus-visible { outline: 2px solid var(--clr-primary); outline-offset: 2px; }
+
 /* /medical/dental-costs/ single-column guide page (nav bar is position: fixed) */
 .costs-page { max-width: 60rem; margin: 0 auto; padding: 6.5rem 1.25rem 3rem; }
 .costs-main { min-width: 0; }

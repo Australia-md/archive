@@ -26,6 +26,8 @@
 // 11. Every nav version badge equals v{package.json version}.
 // 10. The clinic comparison table and the "services listed" clause match the page's own clinic cards,
 //     and nothing claims AHPRA registration.
+// 14. Every dental page carries exactly one directory disclaimer inside <main> (not advice, no
+//     bookings, mailto correction link) and it makes no "independent"/"not affiliated" claim.
 //  7. OKF bundle (docs/): every non-reserved .md has frontmatter with a non-empty `type`;
 //     index.md/log.md carry no frontmatter, except an `okf_version`-only block on docs/index.md.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
@@ -258,6 +260,24 @@ for (const rel of allPages.filter((r) => r.startsWith('medical/'))) {
 
 // ── 13: no FAQPage JSON-LD (Google removed FAQ rich results in May 2026) ─────────
 for (const rel of allPages) if (/"@type":\s*"FAQPage"/.test(read(join(ROOT, rel)))) fail('13', rel, 'FAQPage JSON-LD is no longer used by Google Search; keep the visible FAQ and drop the markup');
+
+// ── 14: directory disclaimer + correction link on every dental page ────────────
+// Pages stated data freshness but never the site's role (reference only, not advice, no bookings),
+// and gave practitioners no way to report an error.
+for (const slug of slugs) {
+  const where = `medical/dental/${slug}/index.html`;
+  const html = read(join(DENTAL, slug, 'index.html'));
+  const blocks = html.match(/<!-- listing-disclaimer:start[\s\S]*?<!-- listing-disclaimer:end -->/g) || [];
+  if (blocks.length !== 1) { fail('14', where, `${blocks.length} directory disclaimer blocks (expected 1; run npm run seo:build)`); continue; }
+  const b = blocks[0];
+  const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/);
+  if (!main || !main[1].includes(b)) fail('14', where, 'directory disclaimer must sit inside <main>, after the clinic cards');
+  if (!/not medical or dental advice/.test(b)) fail('14', where, 'disclaimer must state the page is not medical or dental advice');
+  if (!/does not take bookings/.test(b)) fail('14', where, 'disclaimer must state that Australia.md does not take bookings');
+  if (!/href="mailto:corrections@australia\.md\?subject=[^"]+"/.test(b)) fail('14', where, 'correction link must be a mailto:corrections@australia.md link with a subject');
+  const claim = b.match(/\b(?:independent|not affiliated|unaffiliated|no affiliation)\b/i);
+  if (claim) fail('14', where, `disclaimer must not claim "${claim[0]}" (state only checkable facts about the site's role)`);
+}
 
 // ── Report ──────────────────────────────────────────────────────────────────
 if (failures.length) {
