@@ -85,6 +85,7 @@
 - [Bowenfels, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bowenfels-nsw.md): 1 clinic(s), checked 2026-08-21 · HTML: https://australia.md/medical/dental/bowenfels/
 - [Bowral, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bowral-nsw.md): 5 clinic(s), checked 2026-08-23 · HTML: https://australia.md/medical/dental/bowral/
 - [Box Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/box-hill-nsw.md): 1 clinic(s), checked 2026-08-24 · HTML: https://australia.md/medical/dental/box-hill/
+- [Box Hill, VIC — Dental Clinics](https://australia.md/docs/medical/dental/box-hill-3128-vic.md): 6 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/box-hill-3128/
 - [Bradbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/bradbury-nsw.md): 1 clinic(s), checked 2026-08-25 · HTML: https://australia.md/medical/dental/bradbury/
 - [Braidwood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/braidwood-nsw.md): 1 clinic(s), checked 2026-08-26 · HTML: https://australia.md/medical/dental/braidwood/
 - [Breakfast Point, NSW — Dental Clinics](https://australia.md/docs/medical/dental/breakfast-point-nsw.md): 1 clinic(s), checked 2026-09-01 · HTML: https://australia.md/medical/dental/breakfast-point/
@@ -117,6 +118,7 @@
 - [Canley Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-heights-nsw.md): 5 clinic(s), checked 2026-10-27 · HTML: https://australia.md/medical/dental/canley-heights/
 - [Canley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-vale-nsw.md): 2 clinic(s), checked 2026-10-28 · HTML: https://australia.md/medical/dental/canley-vale/
 - [Canterbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canterbury-nsw.md): 6 clinic(s), checked 2026-10-29 · HTML: https://australia.md/medical/dental/canterbury/
+- [Cardiff, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cardiff-nsw.md): 3 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/cardiff/
 - [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 27 clinic(s), checked 2026-11-02 · HTML: https://australia.md/medical/dental/chatswood/
 - [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 9 clinic(s), checked 2026-10-30 · HTML: https://australia.md/medical/dental/macquarie-park/
 

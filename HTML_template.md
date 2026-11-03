@@ -65,7 +65,7 @@ Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`
 
    | Frontmatter field | Used for |
    |---|---|
-   | `title` | `<title>` / `og:title` (already in the dental format) |
+   | `title` | Not used for `<title>` — build `{page-title}` from the page data (§2 rule) |
    | `suburb`, `postcode`, `state` | `{Suburb}`, `{Postcode}`, `{STATE}` fill-ins, breadcrumbs, schema |
    | `lga` | `{LGA}` in the sidebar map region label (§8) |
    | latest `verified[].at`, else `last_verified`, else `timestamp` (date part) | `{Last Verified date}` → `<time datetime="YYYY-MM-DD">` and `dateModified` in JSON-LD |
@@ -87,14 +87,14 @@ Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="{meta-description}" />
-  <title>Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md</title>
+  <title>{page-title}</title>
   <link rel="canonical" href="https://australia.md/medical/dental/{suburb-slug}/" />
   <link rel="alternate" type="text/markdown" href="https://australia.md/docs/medical/dental/{suburb-slug}-{state}.md" title="OKF source (Markdown)" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Australia.md" />
-  <meta property="og:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
+  <meta property="og:title" content="{page-title}" />
   <meta property="og:description" content="{meta-description}" />
   <meta property="og:url" content="https://australia.md/medical/dental/{suburb-slug}/" />
   <meta property="og:image" content="https://australia.md/og-default.png" />
@@ -103,7 +103,7 @@ Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md" />
+  <meta name="twitter:title" content="{page-title}" />
   <meta name="twitter:description" content="{meta-description}" />
   <meta name="twitter:image" content="https://australia.md/og-default.png" />
 
@@ -142,6 +142,13 @@ Every OKF timestamp (`generated.at`, `verified[].at`, `stale_after`, `timestamp`
 
 ---
 
+**`{page-title}`** (used in `<title>`, `og:title`, `twitter:title` and the `MedicalWebPage` `name`) is built from the page's own data — searchers type "dentist {suburb}", and a title that names the clinic count or the clinic beats one fixed pattern:
+- 2+ clinics: `Dentists in {Suburb} {STATE} {Postcode} — {N} Clinics Compared | Australia.md` (N = number of clinic cards)
+- 1 clinic: `Dentist in {Suburb} {STATE} {Postcode} — {Clinic Name} | Australia.md`; if that exceeds 70 characters, use `Dentist in {Suburb} {STATE} {Postcode} — 1 Clinic Listed | Australia.md`
+The H1 matches: `Dentists in` (2+ clinics) or `Dentist in` (1 clinic), then `<br/>{Suburb} {STATE}`.
+
+---
+
 ## 3. Schema.org JSON-LD
 
 Three object types inside `@graph` are written by the generator: `MedicalWebPage`, `Dataset`, and one `Dentist` per clinic (no `FAQPage` — see §3c). The post-processor then adds an `ItemList` (`@id` `…/#clinics`), a `@id` on every `Dentist` (`…/#dentist-{N}`, in card order), `MedicalWebPage.mainEntity` and `Dataset.distribution` (the source `.md`). Do not write those four additions by hand.
@@ -150,7 +157,7 @@ Three object types inside `@graph` are written by the generator: `MedicalWebPage
 ```json
 {
   "@type": "MedicalWebPage",
-  "name": "Dental Clinics — {Suburb} {STATE} {Postcode} | Australia.md",
+  "name": "{page-title}",
   "description": "Verified AHPRA-registered dental clinics in {Suburb} {STATE} {Postcode} with registered practitioners.",
   "url": "https://australia.md/medical/dental/{suburb-slug}/",
   "dateModified": "{YYYY-MM-DD}",
@@ -298,7 +305,7 @@ For **each clinic** in the source MD, generate one `Dentist` object inside `@gra
       <img src="../../../assets/images/flag-australia.png" class="hero-flag" alt="Australian flag" width="30" height="15" style="margin-left:auto" loading="lazy" />
     </div>
 
-    <h1 class="listing-title">Dental Clinics<br/>{Suburb} {STATE}</h1>
+    <h1 class="listing-title">{Dentists|Dentist} in<br/>{Suburb} {STATE}</h1>
 
     <div class="listing-verified-row" role="group" aria-label="Verification status">
       <svg class="verified-shield" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
