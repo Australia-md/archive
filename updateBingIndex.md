@@ -176,6 +176,7 @@ This file records URLs submitted to Bing and IndexNow so unchanged URLs are not 
 | https://australia.md/medical/dental/canterbury/ | 2026-10-29 | 2026-11-02T12:42:33Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/box-hill-3128/ | 2026-11-03 | 2026-11-03T04:19:43Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 | https://australia.md/medical/dental/cardiff/ | 2026-11-03 | 2026-11-03T04:19:43Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
+| https://australia.md/medical/dental/blackburn-3130/ | 2026-11-03 | 2026-11-03T04:53:55Z | Bulk POST to api.indexnow.org/IndexNow | HTTP 200 OK | Page content, canonical URL, HTTP status, metadata, or sitemap lastmod changes |
 
 ## Additional Verification Submissions
 
