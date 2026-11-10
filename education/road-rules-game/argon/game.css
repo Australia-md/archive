@@ -1,0 +1,651 @@
+/* ============================================================================
+ * Australia.md — 3D Australian Road Rules & 2026 Licence Test Game
+ * High-Contrast Glassmorphism HUD & Responsive Layout
+ * ============================================================================ */
+
+:root {
+  --bg-deep: #0b111e;
+  --panel-bg: rgba(13, 21, 38, 0.88);
+  --panel-border: rgba(148, 163, 184, 0.22);
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --accent-gold: #f59e0b;
+  --accent-emerald: #10b981;
+  --accent-danger: #ef4444;
+  --accent-blue: #3b82f6;
+  --nsw-color: #2563eb;
+  --qld-color: #991b1b;
+  --vic-color: #1e3a8a;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 3D Canvas Viewport */
+#canvas-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+/* Police / Camera Flash Overlay */
+#flash-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+#flash-overlay.police-flash {
+  animation: policeStrobe 0.45s ease-in-out 4;
+}
+
+@keyframes policeStrobe {
+  0%, 100% { opacity: 0; background: transparent; }
+  25% { opacity: 0.42; background: radial-gradient(circle, rgba(239,68,68,0.65) 0%, rgba(37,99,235,0.65) 100%); }
+  75% { opacity: 0.42; background: radial-gradient(circle, rgba(37,99,235,0.65) 0%, rgba(239,68,68,0.65) 100%); }
+}
+
+/* Top Navigation & Telemetry HUD */
+.hud-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: linear-gradient(180deg, rgba(8, 13, 26, 0.94) 0%, rgba(8, 13, 26, 0.65) 80%, transparent 100%);
+  backdrop-filter: blur(8px);
+}
+
+.brand-cluster {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.au-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-gold);
+  color: #090d16;
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  padding: 5px 10px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.game-title-wrap h1 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.game-title-wrap p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Language Switcher Pills */
+.lang-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid var(--panel-border);
+  padding: 4px;
+  border-radius: 999px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: var(--font-sans);
+}
+
+.lang-btn:hover {
+  color: var(--text-main);
+}
+
+.lang-btn.active {
+  background: var(--accent-blue);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.45);
+}
+
+/* Telemetry Stats (State, Speed, Wallet, Demerits, Progress) */
+.stats-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stat-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 0.82rem;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat-value {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.state-tag {
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+}
+
+.state-NSW { background: #1d4ed8; color: #fff; }
+.state-QLD { background: #991b1b; color: #fff; }
+.state-VIC { background: #1e40af; color: #facc15; border: 1px solid rgba(250, 204, 21, 0.4); }
+
+.action-btn {
+  background: rgba(245, 158, 11, 0.16);
+  border: 1px solid rgba(245, 158, 11, 0.55);
+  color: #fbbf24;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 7px 13px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: var(--font-sans);
+}
+
+.action-btn:hover {
+  background: var(--accent-gold);
+  color: #090d16;
+}
+
+/* Dashboard Speedometer & Driving Status Banner (Bottom Left) */
+.hud-bottom-left {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  padding: 12px 18px;
+  border-radius: 14px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.speed-dial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 3px solid var(--accent-emerald);
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.speed-dial.paused {
+  border-color: var(--accent-gold);
+}
+
+.speed-num {
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.speed-unit {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.drive-status-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.drive-status-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-emerald);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.drive-road-desc {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-main);
+  max-width: 260px;
+}
+
+/* Camera & Filter Controls (Bottom Right) */
+.hud-bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cam-btn {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  color: var(--text-main);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 8px 13px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.18s ease;
+  font-family: var(--font-sans);
+}
+
+.cam-btn:hover, .cam-btn.active {
+  border-color: var(--accent-blue);
+  background: rgba(59, 130, 246, 0.22);
+}
+
+/* Interactive Scenario Decision Card (Right / Center-Right Overlay) */
+.scenario-card {
+  position: fixed;
+  top: 84px;
+  right: 24px;
+  width: min(460px, calc(100vw - 32px));
+  max-height: calc(100vh - 170px);
+  overflow-y: auto;
+  z-index: 15;
+  background: var(--panel-bg);
+  border: 1px solid rgba(148, 163, 184, 0.32);
+  border-radius: 16px;
+  padding: 20px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.28s ease;
+}
+
+.scenario-card.hidden {
+  transform: translateX(40px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scenario-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.scenario-step {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.scenario-title {
+  font-size: 1.12rem;
+  font-weight: 800;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.scenario-prompt {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #e2e8f0;
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  background: rgba(15, 23, 42, 0.65);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: 6px;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.option-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  background: rgba(30, 41, 59, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  color: var(--text-main);
+  padding: 11px 13px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: var(--font-sans);
+}
+
+.option-btn:hover:not(:disabled) {
+  background: rgba(59, 130, 246, 0.22);
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+}
+
+.option-btn:disabled {
+  cursor: default;
+}
+
+.option-btn.correct {
+  background: rgba(16, 185, 129, 0.22);
+  border-color: var(--accent-emerald);
+}
+
+.option-btn.wrong {
+  background: rgba(239, 68, 68, 0.22);
+  border-color: var(--accent-danger);
+}
+
+.opt-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  font-weight: 800;
+  font-size: 0.76rem;
+  color: var(--accent-gold);
+  margin-top: 1px;
+}
+
+/* Feedback & Official Source Citation Box */
+.feedback-box {
+  margin-top: 14px;
+  padding: 13px 14px;
+  border-radius: 10px;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  display: none;
+}
+
+.feedback-box.visible {
+  display: block;
+}
+
+.feedback-box.pass {
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(16, 185, 129, 0.45);
+}
+
+.feedback-box.fail {
+  background: rgba(239, 68, 68, 0.14);
+  border: 1px solid rgba(239, 68, 68, 0.45);
+}
+
+.feedback-verdict {
+  font-weight: 800;
+  font-size: 0.92rem;
+  margin-bottom: 5px;
+}
+
+.feedback-verdict.pass { color: #34d399; }
+.feedback-verdict.fail { color: #f87171; }
+
+.feedback-source {
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.feedback-source a {
+  color: #60a5fa;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.next-btn {
+  margin-top: 12px;
+  width: 100%;
+  background: var(--accent-emerald);
+  color: #052e16;
+  border: none;
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 11px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: filter 0.18s ease;
+  font-family: var(--font-sans);
+}
+
+.next-btn:hover {
+  filter: brightness(1.1);
+}
+
+/* Modal Drawer: 2026 Overseas Licence & Visa Calculator + End Summary */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  background: rgba(6, 10, 20, 0.78);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-backdrop.hidden {
+  display: none;
+}
+
+.modal-panel {
+  width: min(760px, 100%);
+  max-height: 88vh;
+  overflow-y: auto;
+  background: #0f172a;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+}
+
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.modal-top h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.close-btn {
+  background: rgba(148, 163, 184, 0.15);
+  border: none;
+  color: var(--text-main);
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.calc-field label {
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.calc-field select {
+  width: 100%;
+  background: #1e293b;
+  color: var(--text-main);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  padding: 9px 11px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-family: var(--font-sans);
+}
+
+.calc-result-card {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.calc-result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.calc-item {
+  background: rgba(30, 41, 59, 0.65);
+  padding: 11px 13px;
+  border-radius: 9px;
+  border-left: 3px solid var(--accent-blue);
+}
+
+.calc-item.warn {
+  border-left-color: var(--accent-gold);
+}
+
+.calc-item.danger {
+  border-left-color: var(--accent-danger);
+}
+
+.calc-item h4 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.calc-item p {
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.okf-footer-note {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--panel-border);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.okf-footer-note a {
+  color: #60a5fa;
+}
+
+@media (max-width: 768px) {
+  .hud-top {
+    padding: 10px 12px;
+  }
+  .scenario-card {
+    top: auto;
+    bottom: 84px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+    max-height: 56vh;
+  }
+  .hud-bottom-left {
+    bottom: 12px;
+    left: 12px;
+    padding: 8px 12px;
+  }
+  .speed-dial {
+    width: 52px;
+    height: 52px;
+  }
+  .speed-num {
+    font-size: 1.05rem;
+  }
+}

@@ -1,0 +1,10 @@
+/* Road rules game landing page. Tokens come from /style.css. */
+.rrg-verified { color: var(--clr-on-surface-variant); font-size: 0.9rem; }
+.rrg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1.25rem; }
+.rrg-card { background: var(--clr-surface-container); border: 1px solid var(--clr-outline-variant); border-top: 3px solid var(--clr-primary); border-radius: var(--radius-lg); padding: 1.25rem 1.5rem; }
+.rrg-card-warn { border-top-color: var(--clr-secondary-container); }
+.rrg-card h3 { margin-top: 0; }
+.rrg-model { color: var(--clr-on-surface); }
+.rrg-play { display: inline-block; text-decoration: none; }
+.rrg-play:focus-visible { outline: 2px solid var(--clr-secondary-container); outline-offset: 3px; }
+.rrg-url code { color: var(--clr-tertiary); font-size: 0.8rem; overflow-wrap: anywhere; }
