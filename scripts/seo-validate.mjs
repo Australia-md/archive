@@ -14,7 +14,7 @@
 //  3. Snippet control: data-nosnippet only on <span>, <div> or <section> (Google ignores it
 //     elsewhere); every breadcrumb <nav> sits inside a data-nosnippet wrapper.
 //  4. Hub: every suburb directory has exactly one hub entry and every hub entry has a directory.
-//  5. sitemap.xml: well-formed shape, every <loc> exists on disk, every page is listed, no
+//  5. sitemap.xml: well-formed shape, every <loc> exists on disk, every indexable page is listed, no
 //     duplicates, valid per-URL lastmod (not one date for everything).
 //  6. llms.txt / llms-full.txt: every australia.md URL exists on disk; no relative Markdown links
 //     in llms-full.txt (bodies are concatenated, so relative links would resolve wrongly).
@@ -54,6 +54,7 @@ function pages(dir = ROOT, out = []) {
 }
 const allPages = pages();
 const urlOf = (rel) => (rel === 'index.html' ? `${ORIGIN}/` : `${ORIGIN}/${rel.replace(/index\.html$/, '')}`);
+const isNoindex = (rel) => /<meta\b(?=[^>]*\bname=["']robots["'])[^>]*\bcontent=["'][^"']*\bnoindex\b/i.test(read(join(ROOT, rel)));
 
 // ── 1 + 2: dental pages vs their sources ────────────────────────────────────
 const slugs = readdirSync(DENTAL).filter((d) => existsSync(join(DENTAL, d, 'index.html'))).sort();
@@ -116,7 +117,12 @@ for (const loc of locs) {
   const path = loc.slice(ORIGIN.length + 1);
   if (path.endsWith('.md') || !existsSync(join(ROOT, path, path === '' ? 'index.html' : 'index.html'))) fail('5', 'sitemap.xml', `${loc} has no index.html on disk${path.endsWith('.md') ? ' (raw .md does not belong in the sitemap)' : ''}`);
 }
-for (const rel of allPages) if (!locs.includes(urlOf(rel))) fail('5', 'sitemap.xml', `${urlOf(rel)} is missing`);
+for (const rel of allPages) {
+  const listed = locs.includes(urlOf(rel));
+  const noindex = isNoindex(rel);
+  if (noindex && listed) fail('5', 'sitemap.xml', `${urlOf(rel)} is marked noindex but is listed`);
+  if (!noindex && !listed) fail('5', 'sitemap.xml', `${urlOf(rel)} is missing`);
+}
 if (lastmods.some((d) => !/^\d{4}-\d{2}-\d{2}$/.test(d))) fail('5', 'sitemap.xml', 'lastmod not in YYYY-MM-DD form');
 if (locs.length > 10 && new Set(lastmods).size < 2) fail('5', 'sitemap.xml', 'every URL has the same lastmod (Google ignores that)');
 

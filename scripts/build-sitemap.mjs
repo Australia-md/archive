@@ -92,7 +92,9 @@ function priority(rel) {
   return depth === 1 ? '0.8' : depth === 2 ? '0.7' : '0.6';
 }
 
-const urls = walk(ROOT).map(rel => {
+const urls = walk(ROOT).filter(rel =>
+  !/<meta\b(?=[^>]*\bname=["']robots["'])[^>]*\bcontent=["'][^"']*\bnoindex\b/i.test(readFileSync(join(ROOT, rel), 'utf8'))
+).map(rel => {
   const loc = rel === 'index.html' ? `${ORIGIN}/` : `${ORIGIN}/${dirname(rel)}/`;
   return { loc, lastmod: lastmod(rel), priority: priority(rel) };
 }).sort((a, b) => a.loc.localeCompare(b.loc));
