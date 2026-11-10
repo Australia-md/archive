@@ -21,7 +21,7 @@
 - [Adamstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/adamstown-nsw.md): 2 clinic(s), checked 2026-04-17 · HTML: https://australia.md/medical/dental/adamstown/
 - [Airds, NSW — Dental Clinics](https://australia.md/docs/medical/dental/airds-nsw.md): 1 clinic(s), checked 2026-04-20 · HTML: https://australia.md/medical/dental/airds/
 - [Albion Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albion-park-nsw.md): 2 clinic(s), checked 2026-11-06 · HTML: https://australia.md/medical/dental/albion-park/
-- [Albury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albury-nsw.md): 3 clinic(s), checked 2026-04-09 · HTML: https://australia.md/medical/dental/albury/
+- [Albury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albury-nsw.md): 11 clinic(s), checked 2026-11-08 · HTML: https://australia.md/medical/dental/albury/
 - [Alexandria, NSW — Dental Clinics](https://australia.md/docs/medical/dental/alexandria-nsw.md): 2 clinic(s), checked 2026-04-10 · HTML: https://australia.md/medical/dental/alexandria/
 - [Allambie Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/allambie-heights-nsw.md): 1 clinic(s), checked 2026-04-14 · HTML: https://australia.md/medical/dental/allambie-heights/
 - [Alstonville, NSW — Dental Clinics](https://australia.md/docs/medical/dental/alstonville-nsw.md): 3 clinic(s), checked 2026-04-24 · HTML: https://australia.md/medical/dental/alstonville/
@@ -121,6 +121,7 @@
 - [Canterbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canterbury-nsw.md): 6 clinic(s), checked 2026-10-29 · HTML: https://australia.md/medical/dental/canterbury/
 - [Cardiff, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cardiff-nsw.md): 3 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/cardiff/
 - [Carlton, NSW — Dental Clinics](https://australia.md/docs/medical/dental/carlton-nsw.md): 3 clinic(s), checked 2026-11-07 · HTML: https://australia.md/medical/dental/carlton/
+- [Carnes Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/carnes-hill-nsw.md): 1 clinic(s), checked 2026-11-09 · HTML: https://australia.md/medical/dental/carnes-hill/
 - [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 28 clinic(s), checked 2026-11-02 · HTML: https://australia.md/medical/dental/chatswood/
 - [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 9 clinic(s), checked 2026-10-30 · HTML: https://australia.md/medical/dental/macquarie-park/
 
