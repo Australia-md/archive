@@ -20,8 +20,8 @@
 - [Aberdare, NSW — Dental Clinics](https://australia.md/docs/medical/dental/aberdare-nsw.md): 1 clinic(s), checked 2026-04-02 · HTML: https://australia.md/medical/dental/aberdare/
 - [Adamstown, NSW — Dental Clinics](https://australia.md/docs/medical/dental/adamstown-nsw.md): 2 clinic(s), checked 2026-04-17 · HTML: https://australia.md/medical/dental/adamstown/
 - [Airds, NSW — Dental Clinics](https://australia.md/docs/medical/dental/airds-nsw.md): 1 clinic(s), checked 2026-04-20 · HTML: https://australia.md/medical/dental/airds/
-- [Albion Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albion-park-nsw.md): 2 clinic(s), checked 2026-04-05 · HTML: https://australia.md/medical/dental/albion-park/
-- [Albury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albury-nsw.md): 3 clinic(s), checked 2026-04-09 · HTML: https://australia.md/medical/dental/albury/
+- [Albion Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albion-park-nsw.md): 2 clinic(s), checked 2026-11-06 · HTML: https://australia.md/medical/dental/albion-park/
+- [Albury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/albury-nsw.md): 11 clinic(s), checked 2026-11-08 · HTML: https://australia.md/medical/dental/albury/
 - [Alexandria, NSW — Dental Clinics](https://australia.md/docs/medical/dental/alexandria-nsw.md): 2 clinic(s), checked 2026-04-10 · HTML: https://australia.md/medical/dental/alexandria/
 - [Allambie Heights, NSW — Dental Clinics](https://australia.md/docs/medical/dental/allambie-heights-nsw.md): 1 clinic(s), checked 2026-04-14 · HTML: https://australia.md/medical/dental/allambie-heights/
 - [Alstonville, NSW — Dental Clinics](https://australia.md/docs/medical/dental/alstonville-nsw.md): 3 clinic(s), checked 2026-04-24 · HTML: https://australia.md/medical/dental/alstonville/
@@ -120,6 +120,8 @@
 - [Canley Vale, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canley-vale-nsw.md): 2 clinic(s), checked 2026-10-28 · HTML: https://australia.md/medical/dental/canley-vale/
 - [Canterbury, NSW — Dental Clinics](https://australia.md/docs/medical/dental/canterbury-nsw.md): 6 clinic(s), checked 2026-10-29 · HTML: https://australia.md/medical/dental/canterbury/
 - [Cardiff, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cardiff-nsw.md): 3 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/cardiff/
+- [Carlton, NSW — Dental Clinics](https://australia.md/docs/medical/dental/carlton-nsw.md): 3 clinic(s), checked 2026-11-07 · HTML: https://australia.md/medical/dental/carlton/
+- [Carnes Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/carnes-hill-nsw.md): 1 clinic(s), checked 2026-11-09 · HTML: https://australia.md/medical/dental/carnes-hill/
 - [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 28 clinic(s), checked 2026-11-02 · HTML: https://australia.md/medical/dental/chatswood/
 - [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 9 clinic(s), checked 2026-10-30 · HTML: https://australia.md/medical/dental/macquarie-park/
 
@@ -1156,58 +1158,60 @@ All dental practitioners in Australia must hold current registration with the **
 <!-- https://australia.md/docs/medical/dental/albion-park-nsw.md -->
 # Albion Park, NSW — Dental Clinics
 
-**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
-**Suburb:** Albion Park · Postcode 2527 · Council: City of Shellharbour
-**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
-**Last Verified:** 2026-04-05
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW  
+**Suburb:** Albion Park · Postcode 2527 · Council: Shellharbour City Council  
+**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click “Look up practitioners” to search the register  
+**Last Verified:** 2026-11-06
 
 ---
 
 ## Overview
 
-**Albion Park** (postcode 2527) is a mixed residential and commercial suburb in the City of Shellharbour local government area, approximately 18 km south of Wollongong CBD. It sits in the Illawarra region and forms part of the wider Wollongong metropolitan area. The 2021 Census recorded a population of 13,826 people in Albion Park. The suburb's role as a long-established town centre on Tongarra Road supports local access to general dental, restorative, cosmetic, and emergency dental services.
+**Albion Park** (postcode 2527) is a mixed residential and commercial suburb in the Shellharbour City Council local government area, approximately 23 km south of Wollongong. Shellharbour City Council describes it as a suburb on the Illawarra Highway, bounded broadly by Macquarie Rivulet, Frazers Creek and Hazelton Creek. Two dental practices with current public listings were confirmed within the suburb during this re-verification.
 
-All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking "Look up practitioners".
+All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking “Look up practitioners”.
 
 ---
 
 ## Dental Clinics — Albion Park NSW 2527
 
-### 1. Tongarra Road Family Dental
+### 1. Albion Park Dental Surgery (Albion Park Dental)
 
 | Field | Detail |
 |---|---|
-| **Address** | Shop G01/12 McGrath Lane, Albion Park NSW 2527 |
+| **Address** | Medical Centre, Suite 3, 152 Tongarra Road, Albion Park NSW 2527 |
+| **Phone** | (02) 4256 4022 |
+| **Hours** | Mon–Fri 8:30am–6pm · Sat 9am–4pm · Sun not confirmed from public sources |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+> **Registered Practitioners:** Individual dentist names were not confirmed in the public practice information reviewed at time of re-verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General dentistry, preventive care, fillings, crowns, bridges, dentures, root canal therapy, orthodontics, dental implants, mouth guards, cosmetic dentistry and emergency treatment.
+
+---
+
+### 2. Tongarra Road Family Dental
+
+| Field | Detail |
+|---|---|
+| **Address** | Shop G01, 12 McGrath Lane, Albion Park NSW 2527 |
 | **Phone** | (02) 9146 6126 |
-| **Hours** | Mon–Fri 8:00am–5:00pm · Sat Closed · Sun Closed |
-| **Network** | Preferred providers/publicly listed funds: HCF, CBHS, Westfund, NIB |
-| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+| **Hours** | Mon–Fri 8am–5pm · Sat Closed · Sun Closed |
+| **Access** | Two dedicated parking spaces behind the building, marked G01; additional parking is available behind the Albion Park Service Centre arcade via McGrath Lane. Free one-hour parking is also available along Tongarra Road. |
+| **Network** | Preferred providers: HCF, CBHS, Westfund and nib; the practice also states it accepts other health funds |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jack Raval | Bachelor of Dental Surgery (2007) | Principal dentist; practice profile states interests in crown and bridge work, root canal therapy, surgical extractions, cosmetic dentistry, and implant surgery |
-| Dr Ronald Poulton | Not confirmed from public sources at time of verification | Associate dentist; practice profile states he has practised since 1979 |
+| Dr Jack Raval | Bachelor of Dental Surgery (2007); university not stated on the profile | The practice identifies him as Principal Dentist; verify current registration via the AHPRA register |
+| Dr Ronald Poulton | Qualification not stated on the profile | The practice identifies him as Associate Dentist and states his dental career began in 1979; verify current registration via the AHPRA register |
+| Dr Urvi Shah | Qualification not stated on the profile | The practice identifies her as Associate Dentist and states she has practised since 2019; verify current registration via the AHPRA register |
 
-**Services:** Teeth whitening, dental implants, dental veneers, digital smile design, Invisalign, dentures, cleaning and prevention, night and snore guards, Child Dental Benefit Schedule services, extractions, emergency dental, fillings, crowns and bridges, root canal therapy.
-
----
-
-### 2. Albion Park Dental
-
-| Field | Detail |
-|---|---|
-| **Address** | Shop 3/152 Tongarra Road, Albion Park NSW 2527 |
-| **Phone** | (02) 4256 4022 |
-| **Hours** | Not confirmed from public sources at time of verification |
-| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
-
-**Registered Practitioners (sourced from practice profile and public directories):**
-
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
-
-**Services:** Preventative care, root canal therapy, tooth whitening, veneers, white fillings, orthodontics, implants, mouth guards, dentures, crowns and bridges, emergency dental.
+**Services:** Family and general dentistry, cosmetic and restorative dentistry, emergency dental care, and same-day emergency appointments when available.
 
 ---
 
@@ -1216,9 +1220,9 @@ All dental practitioners listed below are required to hold current registration 
 All dental practitioners in Australia must hold current registration with the **Dental Board of Australia**. Registration status, conditions, and disciplinary history are publicly searchable:
 
 - **Website:** [Dental Board of Australia](https://www.dentalboard.gov.au)
-- **How to search:** Click the "Look up practitioners" button and search by practitioner name
+- **How to search:** Click the “Look up practitioners” button and search by practitioner name
 
-> **Note:** AHPRA registration numbers were not available from public web sources at time of verification. Registration status must be confirmed directly via the AHPRA practitioner register.
+> **Note:** AHPRA registration numbers were not reproduced. Confirm each listed practitioner's current registration directly via the [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
 
 ---
 
@@ -1226,14 +1230,22 @@ All dental practitioners in Australia must hold current registration with the **
 
 | Source | URL |
 |---|---|
-| Healthdirect Australia | https://www.healthdirect.gov.au |
-| HealthEngine | https://healthengine.com.au |
-| Yellow Pages Australia | https://www.yellowpages.com.au |
-| Word of Mouth | https://www.wordofmouth.com.au |
+| Healthdirect Australia — Albion Park Dental Surgery | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/albion-park-2527-nsw/albion-park-dental-surgery/dentists/ead12ddf-cc22-f7c1-4457-18fe9a7e2103 |
+| Albion Park Dental — practice information | https://www.albionparkdental.com.au/our-practice |
+| Albion Park Dental — services | https://www.albionparkdental.com.au/services |
+| Tongarra Road Family Dental — clinic | https://www.tongarraroadfamilydental.com.au/ |
+| Tongarra Road Family Dental — contact and access | https://www.tongarraroadfamilydental.com.au/contact |
+| Tongarra Road Family Dental — team | https://www.tongarraroadfamilydental.com.au/meet-your-team-albion-park-dental |
+| Tongarra Road Family Dental — location listing | https://www.localsearch.com.au/profile/tongarra-road-family-dental/albion-park-nsw/43dV |
+| HealthEngine — Tongarra Road Family Dental | https://healthengine.com.au/dentist/nsw/albion-park/tongarra-road-family-dental/s81793 |
+| Shellharbour City Council — Albion Park | https://discover.shellharbour.nsw.gov.au/nodes/view/450 |
+| Aussie Towns — Albion Park | https://www.aussietowns.com.au/town/albion-park-nsw |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
 
-**Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-04-05. Rosters change; always verify current practitioners and hours directly with the clinic.
+Re-verified 2026-11-06; previous verification 2026-04-05.
+
+**Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-11-06. Rosters change; always verify current practitioners and hours directly with the clinic.
 
 ---
 
@@ -1241,15 +1253,15 @@ All dental practitioners in Australia must hold current registration with the **
 # Albury, NSW — Dental Clinics
 
 **Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
-**Suburb:** Albury · Postcode 2640 · Council: City of Albury
+**Suburb:** Albury · Postcode 2640 · Council: Albury City Council
 **Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
-**Last Verified:** 2026-04-09
+**Last Verified:** 2026-11-08
 
 ---
 
 ## Overview
 
-**Albury** (postcode 2640) is a mixed residential and commercial suburb in the City of Albury local government area, on the northern side of the Murray River opposite Wodonga in Victoria. It lies approximately 326 km north-east of Melbourne CBD and about 554 km south-west of Sydney. Albury is a major regional service centre in southern New South Wales and forms the NSW side of the cross-border Albury–Wodonga urban area.
+**Albury** (postcode 2640) is a mixed urban centre in the Albury City Council local government area, on the Murray River in the Riverina region of south-eastern New South Wales. It is a major regional manufacturing, retail, commercial, administrative and cultural centre. Albury-Wodonga lies approximately 300 km north-east of Melbourne, with the twin cities on opposite sides of the Murray River. ([Your Council NSW](https://www.yourcouncil.nsw.gov.au/council-data/albury-1787123466/); [Two Cities One Community](https://www.alburywodonga.gov.au/region))
 
 All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking "Look up practitioners".
 
@@ -1257,57 +1269,216 @@ All dental practitioners listed below are required to hold current registration 
 
 ## Dental Clinics — Albury NSW 2640
 
-### 1. Albury Family Dental
+### 1. [Albury Community Dental](https://healthdirect.gov.au/australian-health-services/healthcare-service/albury-2640-nsw/southern-health-albury-community-health-centre-dental/dentists/cf7086ae-e940-e259-68a0-4fd381585bb2)
 
 | Field | Detail |
 |---|---|
-| **Address** | 685 David Street, Albury NSW 2640 |
-| **Phone** | (02) 6048 7808 |
-| **Hours** | Mon 9:00am–5:00pm · Tue 9:00am–7:00pm · Wed 8:00am–5:00pm · Thu 9:00am–5:00pm · Fri 9:00am–5:00pm · Sat By appointment · Sun Closed |
+| **Address** | 596 Smollett Street, Albury NSW 2640 |
+| **Phone** | (02) 6058 1800 |
+| **Hours** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jonathan Harrison | BMedSci, DMD (University of Sydney) | Practice profile states interests across preventive and general dentistry |
-| Dr Nick Magelakis | BDS (University of Sydney) | Practice profile states he graduated in 1986 and has longstanding local ties to Albury |
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
 
-**Services:** General dental services for all ages, children's dentistry, and eligible Child Dental Benefits Schedule services.
+**Services:** Public general dental, emergency and denture services.
 
 ---
 
-### 2. Smollett St Dental
+### 2. [Albury Family Dental](https://www.alburyfamilydental.com.au/)
+
+| Field | Detail |
+|---|---|
+| **Address** | 685 David Street, Albury NSW 2640 |
+| **Phone** | (02) 6048 7808 |
+| **Hours** | Mon 8:30am–5pm · Tue 9am–5pm · Wed–Thu 8am–5pm · Fri 8:30am–5pm · Sat by appointment · Sun closed |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** General dental services for all ages.
+
+---
+
+### 3. [Award Orthodontics](https://awardorthodontics.com.au/index.php/about-us/contact)
+
+| Field | Detail |
+|---|---|
+| **Address** | 607 Kiewa Street, Albury NSW 2640 |
+| **Phone** | (02) 6041 3433 |
+| **Hours** | Mon–Fri 9am–5pm · Sat–Sun closed |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** Orthodontic services.
+
+---
+
+### 4. [City Gardens Dental](https://cgdental.com.au/)
+
+| Field | Detail |
+|---|---|
+| **Address** | Suite 1, Level 4, Gardens Medical Centre, 470 Wodonga Place, Albury NSW 2640 |
+| **Phone** | (02) 6021 6141 |
+| **Hours** | Mon–Fri 8:30am–5pm · Sat–Sun closed |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** General, preventative, cosmetic and restorative dental treatments.
+
+---
+
+### 5. [Evolve Orthodontics — Albury](https://www.alburywodongaorthodontics.com.au/find-us/invisalign-clinic-albury)
+
+| Field | Detail |
+|---|---|
+| **Address** | Shop 6, 510 David Street, Albury NSW 2640 |
+| **Phone** | (02) 6021 1288 |
+| **Hours** | Mon–Fri 9am–5pm · Weekend hours not confirmed from public sources at time of verification |
+| **Access** | Practice website reports parking available. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** Orthodontic treatment, including Invisalign aligners.
+
+---
+
+### 6. [IM Dental](https://imdental.com.au/contact/)
+
+| Field | Detail |
+|---|---|
+| **Address** | 593 Englehardt Street, Albury NSW 2640 |
+| **Phone** | (02) 6021 4192 |
+| **Hours** | Mon–Wed 8:30am–5pm · Thu 8:30am–5:30pm · Fri 8:30am–4:30pm · Weekend hours not confirmed from public sources at time of verification |
+| **Access** | Street parking, two-hour signposted parking, and ramp/wheelchair access are listed by the practice. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** General, emergency, cosmetic, hygienist, examination and restorative dental services.
+
+---
+
+### 7. [Kreativ Dental Albury](https://kreativdental.com.au/)
+
+| Field | Detail |
+|---|---|
+| **Address** | 525 Wilson Street, Albury NSW 2640 |
+| **Phone** | (02) 6021 4171 |
+| **Hours** | Mon–Fri 8am–5:30pm · Sat 9am–1pm by appointment · Sun closed |
+| **Network** | Preferred provider for Bupa, Medibank Private, Smile, HCF and CBHS, as listed by the practice. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** Family and general dental care, emergency appointments and sleep dentistry.
+
+---
+
+### 8. [MP Dental Albury](https://mpdentalalbury.com.au/contact/)
+
+| Field | Detail |
+|---|---|
+| **Address** | 536 Thurgoona Street, Albury NSW 2640 |
+| **Phone** | (02) 6021 8011 |
+| **Hours** | Mon–Fri 8:30am–5pm · Thu after 5pm to 7pm by appointment · Sat 9:30am–1pm by appointment · Sun hours not confirmed from public sources at time of verification |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** General, emergency and cosmetic dentistry, dental implants, Invisalign, veneers and same-day crowns.
+
+---
+
+### 9. [Peach Dental](https://www.yellowpages.com.au/albury-nsw/bpp/peach-dental-580264422?lid=580264422)
+
+| Field | Detail |
+|---|---|
+| **Address** | 427 Guinea Street, Albury NSW 2640 |
+| **Phone** | (02) 6041 3177 |
+| **Hours** | Mon–Thu 8:30am–5:30pm · Fri 8:30am–3pm · Sat–Sun closed |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+
+**Services:** General and preventive dental care, cosmetic dentistry and orthodontic treatments, as described in public directory listings.
+
+---
+
+### 10. [Smollett Street Dental](https://smollettstreetdental.com.au/)
 
 | Field | Detail |
 |---|---|
 | **Address** | 471 Smollett Street, Albury NSW 2640 |
 | **Phone** | (02) 6041 1200 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Hours** | Public listings differ: the practice site displays 9am–5pm for "today", while a directory lists Mon–Fri 8:30am–5:30pm. Confirm current hours with the practice; weekend hours not confirmed. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
 
-**Services:** General dentistry, veneers, crowns, bridges, teeth whitening, and mouthguards.
+**Services:** General dentistry, veneers, crowns and bridges.
 
 ---
 
-### 3. Southern Health Albury Community Health Centre (Dental)
+### 11. [The Tooth Affair](https://www.thetoothaffair.com.au/)
 
 | Field | Detail |
 |---|---|
-| **Address** | 596 Smollett Street, Albury NSW 2640 |
-| **Phone** | 1800 450 046 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Address** | 526 Swift Street, Albury NSW 2640 |
+| **Phone** | (02) 6023 2678 |
+| **Hours** | Mon–Fri 8:30am–5pm · Sat 9am–1pm · Sun hours not confirmed from public sources at time of verification |
+| **Access** | The practice describes its location as accessible by car and public transport. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Not included in this directory | Not independently confirmed | Individual practitioners were not cross-checked against AHPRA for this entry. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
 
-**Services:** Public dental clinic service. Healthdirect states the service is available to under-18s with a medical card and adults with a Centrelink card and Medicare card; specific procedures were not confirmed from public sources at time of verification.
+**Services:** General dentistry, dental implants and oral surgery.
 
 ---
 
@@ -1332,11 +1503,23 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
-| Albury Family Dental | https://www.alburyfamilydental.com.au |
-| Smollett St Dental | http://www.smollettstreetdental.com.au/ |
-| Wikipedia — Albury | https://en.wikipedia.org/wiki/Albury |
+| Albury Community Dental — Healthdirect profile | https://healthdirect.gov.au/australian-health-services/healthcare-service/albury-2640-nsw/southern-health-albury-community-health-centre-dental/dentists/cf7086ae-e940-e259-68a0-4fd381585bb2 |
+| Albury Wodonga Health — Dental services | https://www.awh.org.au/services-departments/community-health-allied-health-dental-rehabilitation/dental-services |
+| Albury City Council — Your Council NSW | https://www.yourcouncil.nsw.gov.au/council-data/albury-1787123466/ |
+| Albury Family Dental | https://www.alburyfamilydental.com.au/ |
+| Award Orthodontics | https://awardorthodontics.com.au/index.php/about-us/contact |
+| City Gardens Dental | https://cgdental.com.au/ |
+| Evolve Orthodontics — Albury | https://www.alburywodongaorthodontics.com.au/find-us/invisalign-clinic-albury |
+| IM Dental | https://imdental.com.au/contact/ |
+| Kreativ Dental Albury | https://kreativdental.com.au/ |
+| MP Dental Albury | https://mpdentalalbury.com.au/contact/ |
+| Peach Dental — Yellow Pages | https://www.yellowpages.com.au/albury-nsw/bpp/peach-dental-580264422?lid=580264422 |
+| Smollett Street Dental | https://smollettstreetdental.com.au/ |
+| The Tooth Affair | https://www.thetoothaffair.com.au/ |
 
-**Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-04-09. Rosters change; always verify current practitioners and hours directly with the clinic.
+**Re-verified 2026-11-08; previous verification 2026-04-09.**
+
+**Data limitations:** Clinic contact details, hours and service summaries are from public directories and practice pages accessed on 2026-11-08. Practitioner rosters were not independently verified against AHPRA during this run; hours and services may change, so confirm directly with the clinic.
 
 ---
 
@@ -11682,6 +11865,176 @@ All dental practitioners in Australia must hold current registration with the **
 | Lake Macquarie City Council | https://shape.lakemac.com.au/planningcardiff |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-11-03. Rosters change; always verify current practitioners and hours directly with the clinic.
+
+---
+
+<!-- https://australia.md/docs/medical/dental/carlton-nsw.md -->
+# Carlton, NSW — Dental Clinics
+
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW  
+**Suburb:** Carlton · Postcode 2218 · Council: Georges River Council  
+**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register  
+**Last Verified:** 2026-11-07
+
+---
+
+## Overview
+
+**Carlton** (postcode 2218) is a suburb in the Georges River Council local government area in southern Sydney. The council includes Carlton among the suburbs within its area. The three directory listings below identify dental practices at street addresses in Carlton; details not confirmed in the sources are marked accordingly.
+
+All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking "Look up practitioners".
+
+---
+
+## Dental Clinics — Carlton NSW 2218
+
+### 1. [Kalo Dental](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/carlton-2218-nsw/kalo-dental/dentists/5d39f48c-5c5e-4101-9330-03a951eb16bd)
+
+| Field | Detail |
+|---|---|
+| **Address** | 332 Railway Parade, Carlton NSW 2218 |
+| **Phone** | (02) 9665 5000 |
+| **Hours** | Not confirmed from public sources at time of verification |
+| **Access** | Appointment needed |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+**Registered Practitioners:** Individual practitioner names and current registration were not confirmed from public sources at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** General dentistry, emergency care, cosmetic dental procedures.
+
+---
+
+### 2. [Dr Nick Papadopoulos Dental Surgery](https://www.dentist.com.au/dentist-detail/dr-nick-papadopoulos-dental-surgery/A11000553)
+
+| Field | Detail |
+|---|---|
+| **Address** | 338 Railway Parade, Carlton NSW 2218 |
+| **Phone** | (02) 9588 2314 |
+| **Hours** | Not confirmed from public sources at time of verification |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+**Registered Practitioners:** Individual practitioner names and current registration were not confirmed from public sources at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Not confirmed from public sources at time of verification.
+
+---
+
+### 3. [329 Princes Highway Dental Surgery](https://healthengine.com.au/dentist/nsw/carlton/329-princes-highway-dental-surgery/s36914)
+
+| Field | Detail |
+|---|---|
+| **Address** | 329 Princes Highway, Carlton NSW 2218 |
+| **Phone** | (02) 9587 7555 |
+| **Hours** | Not confirmed from public sources at time of verification |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+**Registered Practitioners:** Individual practitioner names and current registration were not confirmed from public sources at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Not confirmed from public sources at time of verification.
+
+---
+
+## AHPRA Registration Verification
+
+All dental practitioners in Australia must hold current registration with the **Dental Board of Australia**. Registration status, conditions, and disciplinary history are publicly searchable:
+
+- **Website:** [Dental Board of Australia](https://www.dentalboard.gov.au)
+- **How to search:** Click the "Look up practitioners" button and search by practitioner name
+
+> **Note:** AHPRA registration numbers were not available from public web sources at time of verification. Registration status must be confirmed directly via the AHPRA practitioner register.
+
+---
+
+## Data Sources
+
+| Source | URL |
+|---|---|
+| Healthdirect Australia — Kalo Dental | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/carlton-2218-nsw/kalo-dental/dentists/5d39f48c-5c5e-4101-9330-03a951eb16bd |
+| Healthdirect Australia — Carlton search | https://www.healthdirect.gov.au/australian-health-services/search/carlton-2218-nsw/dentists/310144008 |
+| HealthEngine — 338 Railway Parade Dental Surgery | https://healthengine.com.au/dentist/nsw/carlton/338-railway-parade-dental-surgery/s36915 |
+| Dentist.com.au — Dr Nick Papadopoulos Dental Surgery | https://www.dentist.com.au/dentist-detail/dr-nick-papadopoulos-dental-surgery/A11000553 |
+| HealthEngine — 329 Princes Highway Dental Surgery | https://healthengine.com.au/dentist/nsw/carlton/329-princes-highway-dental-surgery/s36914 |
+| Georges River Council — local government area suburbs | https://www.georgesriver.nsw.gov.au/StGeorge/files/82/829878d8-415e-404d-9d9b-d8822945e27d.pdf |
+| Yellow Pages Australia | https://www.yellowpages.com.au |
+| Word of Mouth | https://www.wordofmouth.com.au |
+| Dental Board of Australia | https://www.dentalboard.gov.au |
+| AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+
+**Data limitations:** Practitioner rosters, hours, and services are included only where confirmed from public listings as at 2026-11-07. Rosters change; always verify current practitioners and hours directly with the clinic.
+
+---
+
+<!-- https://australia.md/docs/medical/dental/carnes-hill-nsw.md -->
+# Carnes Hill, NSW — Dental Clinics
+
+**Parent:** [Australia.md](https://australia.md/Australia.md) → [Medical & Healthcare](https://australia.md/docs/medical.md) → Dental · NSW
+**Suburb:** Carnes Hill · Postcode 2171 · Council: Liverpool City Council
+**Authoritative registration source:** [Dental Board of Australia](https://www.dentalboard.gov.au) · Click "Look up practitioners" to search the register
+**Last Verified:** 2026-11-09
+
+---
+
+## Overview
+
+**Carnes Hill** (postcode 2171) is a residential suburb in the City of Liverpool local government area in south-west Sydney, approximately 38 km southwest of the Sydney CBD. The 2021 Census QuickStats for Carnes Hill reports a median age of 32 years. Carnes Hill Marketplace on Kurrajong Road is the verified location of the dental practice listed below.
+
+All dental practitioners listed below are required to hold current registration with the **Dental Board of Australia** under the Health Practitioner Regulation National Law. Registration status for any individual practitioner can be verified at [Dental Board of Australia](https://www.dentalboard.gov.au) by clicking "Look up practitioners".
+
+---
+
+## Dental Clinics — Carnes Hill NSW 2171
+
+### 1. Optim Dental
+
+| Field | Detail |
+|---|---|
+| **Address** | Shop 19, Carnes Hill Marketplace, Kurrajong Road, Carnes Hill NSW 2171 |
+| **Phone** | (02) 9753 2467 |
+| **Hours** | Not confirmed from public sources at time of verification for the Carnes Hill location. |
+| **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
+
+**Registered Practitioners (sourced from practice profile and public directories):**
+
+Individual practitioner names are not listed because current AHPRA registration was not independently verified for the Carnes Hill location at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+
+**Services:** Dental services are advertised by Optim Dental; treatments specifically confirmed for the Carnes Hill location were not available from public sources at time of verification.
+
+---
+
+## AHPRA Registration Verification
+
+All dental practitioners in Australia must hold current registration with the **Dental Board of Australia**. Registration status, conditions, and disciplinary history are publicly searchable:
+
+- **Website:** [Dental Board of Australia](https://www.dentalboard.gov.au)
+- **How to search:** Click the "Look up practitioners" button and search by practitioner name
+
+> **Note:** AHPRA registration numbers were not available from public web sources at time of verification. Registration status must be confirmed directly via the AHPRA practitioner register.
+
+---
+
+## Data Sources
+
+| Source | URL |
+|---|---|
+| Healthdirect Australia | https://www.healthdirect.gov.au/australian-health-services/search/carnes-hill-2171-nsw/dentists/310144008 |
+| HealthEngine | https://healthengine.com.au/dentist/nsw/horningsea-park/carnes-hill-dental-centre/s43899 |
+| Yellow Pages Australia | https://www.yellowpages.com.au/carnes-hill-nsw-2171/dentists |
+| Word of Mouth | https://www.wordofmouth.com.au/nsw/carnes-hill/dentist |
+| Dental Board of Australia | https://www.dentalboard.gov.au |
+| AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Optim Dental — Carnes Hill contact | https://www.optimdental.com.au/ |
+| NSW Health — practitioner location listing | https://www.health.nsw.gov.au/pharmaceutical/Pages/lost-stolen-prescriptions.aspx |
+| Australian Bureau of Statistics — 2021 Census QuickStats | https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10819 |
+| Australia Post — postcode finder | https://auspost.com.au/postcode/carnes-hill |
+| Liverpool City Council — Carnes Hill history | https://mylibrary.liverpool.nsw.gov.au/history/ourstories/suburbs-of-liverpool/carnes-hill |
+
+**Data limitations:** Practitioner rosters, location-specific hours and services are sourced from publicly available directories and clinic websites as at 2026-11-09. The related Carnes Hill Dental Centre listing gives its suburb as Horningsea Park NSW 2171 and was not included as an in-suburb clinic; a separate "Carnes Hill Dental Surgery" directory result did not establish a distinct current street address.
 
 ---
 
