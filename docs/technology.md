@@ -26,7 +26,7 @@ sources:
     resource: "https://startupaus.org"
     title: "StartupAus (tech industry body)"
   - id: rxai-practitioner-ai-workflow-commentary
-    resource: "https://rxai.com.au/blog.html"
+    resource: "https://www.rxai.com.au/blog.html"
     title: "RxAI — practitioner AI workflow commentary"
 ---
 
@@ -78,7 +78,7 @@ RxAI's source notes supplied for this update provide practitioner commentary on 
 
 RxAI's website strategy notes also frame modern websites as interfaces for both human readers and AI systems. For Australia.md, the relevant implementation pattern is semantic HTML, canonical URLs, structured data, extractable answers, and permission-aware workflows that help search engines and AI answer engines interpret content reliably.
 
-**Practitioner reference:** [RxAI AI and automation articles](https://rxai.com.au/blog.html)
+**Practitioner reference:** [RxAI AI and automation articles](https://www.rxai.com.au/blog.html)
 
 ---
 
@@ -135,4 +135,4 @@ The NBN is Australia's national wholesale broadband network; a mix of Fibre to t
 | NBN Co | <https://www.nbnco.com.au> |
 | Digital Transformation Agency (DTA) | <https://www.dta.gov.au> |
 | StartupAus (tech industry body) | <https://startupaus.org> |
-| RxAI — practitioner AI workflow commentary | <https://rxai.com.au/blog.html> |
+| RxAI — practitioner AI workflow commentary | <https://www.rxai.com.au/blog.html> |

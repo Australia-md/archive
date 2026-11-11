@@ -55,7 +55,7 @@ Most international visitors require a visa or travel authority before entering A
 | Visa/Authority | Eligible countries | Link |
 |---|---|---|
 | eVisitor (subclass 651) | EU, select European countries | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder) |
-| Electronic Travel Authority — ETA (subclass 601) | USA, UK, Canada, Japan, Singapore, and others | [eta.homeaffairs.gov.au](https://www.homeaffairs.gov.au/trav/visi/eta) |
+| Electronic Travel Authority — ETA (subclass 601) | USA, UK, Canada, Japan, Singapore, and others | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601) |
 | Visitor visa (subclass 600) | All nationalities | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600) |
 | New Zealand citizens | No visa required; Special Category visa on arrival | — |
 

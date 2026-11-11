@@ -837,6 +837,7 @@ The post-processor also prints `WARN` lines: a page whose clinic-card count diff
 | National dental-cost figures typed into templates go stale (the CDBS cap is indexed every 1 January) | Every figure lives once in `data/medicare-constants.json` with sources and `last_verified`; pages may only show those figures (check 9). The post-processor warns when the current year's cap is missing or the file is over 400 days old — the owner re-verifies it at Services Australia each January |
 | Pages stated data freshness but never the site's role, and practitioners had no way to report an error | Every dental page carries one post-processor directory disclaimer inside `<main>` — not medical or dental advice, no bookings, `mailto:corrections@australia.md` correction link — and it never claims "independent" or "not affiliated" (check 14) |
 | Frontmatter added to a non-root `index.md` | `index.md`/`log.md` carry no frontmatter except `okf_version` on `docs/index.md` (check 7) |
+| The site had no favicon (`/favicon.ico` 404), and the Fable 5.2 road-rules game rendered its only `<h1>` from JavaScript with no Twitter Card (SE Ranking audit, Nov 2026) | `/favicon.ico` exists and the homepage links it; every indexable page has exactly one `<h1>` in its static HTML and a `twitter:card` meta tag (check 15) |
 
 When a reviewer (human or Copilot) finds a new class of defect, add a check for it to `scripts/seo-validate.mjs` in the same fix, so it cannot recur silently.
 
