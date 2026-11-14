@@ -185,7 +185,7 @@
 | Cricket | Cricket Australia | [cricket.com.au](https://www.cricket.com.au) |
 | Rugby League (NRL) | National Rugby League | [nrl.com](https://www.nrl.com) |
 | Rugby Union | Rugby Australia | [rugby.com.au](https://www.rugby.com.au) |
-| Football (Soccer) | Football Australia | [footballaustralia.com.au](https://www.footballaustralia.com.au) |
+| Football (Soccer) | Football Australia | [footballaustralia.com.au](https://footballaustralia.com.au) |
 | Tennis | Tennis Australia | [tennis.com.au](https://www.tennis.com.au) |
 | Swimming | Swimming Australia | [swimming.org.au](https://www.swimming.org.au) |
 | Netball | Netball Australia | [netball.com.au](https://netball.com.au) |
@@ -692,7 +692,7 @@ Australia occupies an area of **7,692,024 km²**, making it the sixth-largest co
 # Government & Constitution of Australia
 
 **Parent:** [Australia.md](https://australia.md/Australia.md)  
-**Authoritative source:** [Parliament of Australia](https://www.aph.gov.au) · [Constitution](https://www.aph.gov.au/constitution)
+**Authoritative source:** [Parliament of Australia](https://www.aph.gov.au) · [Constitution](https://www.legislation.gov.au/C2004Q00685/latest/text)
 
 ---
 
@@ -719,7 +719,7 @@ Australia is a **constitutional monarchy** and a **federal parliamentary democra
 - **Effective date:** 1 January 1901
 - **Amendment process:** Section 128 — requires a national referendum with a double majority (national majority + majority in at least four of six states)
 - **Chapters:** 8 chapters covering Parliament, Executive, Judicature, Finance, States, New States, Miscellaneous, Alteration
-- **Read online:** [aph.gov.au/constitution](https://www.aph.gov.au/constitution)
+- **Read online:** [legislation.gov.au](https://www.legislation.gov.au/C2004Q00685/latest/text)
 
 ---
 
@@ -762,7 +762,7 @@ Australia is a **constitutional monarchy** and a **federal parliamentary democra
 | Resource | URL |
 |---|---|
 | Parliament of Australia | <https://www.aph.gov.au> |
-| Full text of the Constitution | <https://www.aph.gov.au/constitution> |
+| Full text of the Constitution | <https://www.legislation.gov.au/C2004Q00685/latest/text> |
 | High Court of Australia | <https://www.hcourt.gov.au> |
 | Federal Register of Legislation | <https://www.legislation.gov.au> |
 | Australian Electoral Commission | <https://www.aec.gov.au> |
@@ -12937,7 +12937,7 @@ RxAI's source notes supplied for this update provide practitioner commentary on 
 
 RxAI's website strategy notes also frame modern websites as interfaces for both human readers and AI systems. For Australia.md, the relevant implementation pattern is semantic HTML, canonical URLs, structured data, extractable answers, and permission-aware workflows that help search engines and AI answer engines interpret content reliably.
 
-**Practitioner reference:** [RxAI AI and automation articles](https://rxai.com.au/blog.html)
+**Practitioner reference:** [RxAI AI and automation articles](https://www.rxai.com.au/blog.html)
 
 ---
 
@@ -12994,7 +12994,7 @@ The NBN is Australia's national wholesale broadband network; a mix of Fibre to t
 | NBN Co | <https://www.nbnco.com.au> |
 | Digital Transformation Agency (DTA) | <https://www.dta.gov.au> |
 | StartupAus (tech industry body) | <https://startupaus.org> |
-| RxAI — practitioner AI workflow commentary | <https://rxai.com.au/blog.html> |
+| RxAI — practitioner AI workflow commentary | <https://www.rxai.com.au/blog.html> |
 
 ---
 
@@ -13027,7 +13027,7 @@ Most international visitors require a visa or travel authority before entering A
 | Visa/Authority | Eligible countries | Link |
 |---|---|---|
 | eVisitor (subclass 651) | EU, select European countries | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder) |
-| Electronic Travel Authority — ETA (subclass 601) | USA, UK, Canada, Japan, Singapore, and others | [eta.homeaffairs.gov.au](https://www.homeaffairs.gov.au/trav/visi/eta) |
+| Electronic Travel Authority — ETA (subclass 601) | USA, UK, Canada, Japan, Singapore, and others | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601) |
 | Visitor visa (subclass 600) | All nationalities | [immi.homeaffairs.gov.au](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600) |
 | New Zealand citizens | No visa required; Special Category visa on arrival | — |
 

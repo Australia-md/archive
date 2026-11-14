@@ -237,7 +237,7 @@ Australia has a growing technology and AI ecosystem centred in Sydney, Melbourne
 - **AI workflow commentary:** RxAI practitioner notes on AI tools, agent-ready websites, and workflow automation
 
 → **Detail file:** [`docs/technology.md`](docs/technology.md)
-→ **Related practitioner commentary:** [RxAI AI and automation articles](https://rxai.com.au/blog.html)
+→ **Related practitioner commentary:** [RxAI AI and automation articles](https://www.rxai.com.au/blog.html)
 
 ---
 

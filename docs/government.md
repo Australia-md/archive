@@ -11,7 +11,7 @@ sources:
     resource: "https://www.aph.gov.au"
     title: "Parliament of Australia"
   - id: full-text-of-the-constitution
-    resource: "https://www.aph.gov.au/constitution"
+    resource: "https://www.legislation.gov.au/C2004Q00685/latest/text"
     title: "Full text of the Constitution"
   - id: high-court-of-australia
     resource: "https://www.hcourt.gov.au"
@@ -27,7 +27,7 @@ sources:
 # Government & Constitution of Australia
 
 **Parent:** [Australia.md](../Australia.md)  
-**Authoritative source:** [Parliament of Australia](https://www.aph.gov.au) · [Constitution](https://www.aph.gov.au/constitution)
+**Authoritative source:** [Parliament of Australia](https://www.aph.gov.au) · [Constitution](https://www.legislation.gov.au/C2004Q00685/latest/text)
 
 ---
 
@@ -54,7 +54,7 @@ Australia is a **constitutional monarchy** and a **federal parliamentary democra
 - **Effective date:** 1 January 1901
 - **Amendment process:** Section 128 — requires a national referendum with a double majority (national majority + majority in at least four of six states)
 - **Chapters:** 8 chapters covering Parliament, Executive, Judicature, Finance, States, New States, Miscellaneous, Alteration
-- **Read online:** [aph.gov.au/constitution](https://www.aph.gov.au/constitution)
+- **Read online:** [legislation.gov.au](https://www.legislation.gov.au/C2004Q00685/latest/text)
 
 ---
 
@@ -97,7 +97,7 @@ Australia is a **constitutional monarchy** and a **federal parliamentary democra
 | Resource | URL |
 |---|---|
 | Parliament of Australia | <https://www.aph.gov.au> |
-| Full text of the Constitution | <https://www.aph.gov.au/constitution> |
+| Full text of the Constitution | <https://www.legislation.gov.au/C2004Q00685/latest/text> |
 | High Court of Australia | <https://www.hcourt.gov.au> |
 | Federal Register of Legislation | <https://www.legislation.gov.au> |
 | Australian Electoral Commission | <https://www.aec.gov.au> |

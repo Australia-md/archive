@@ -30,6 +30,8 @@
 //     bookings, mailto correction link) and it makes no "independent"/"not affiliated" claim.
 //  7. OKF bundle (docs/): every non-reserved .md has frontmatter with a non-empty `type`;
 //     index.md/log.md carry no frontmatter, except an `okf_version`-only block on docs/index.md.
+// 15. /favicon.ico exists and the homepage links it; every indexable page has exactly one static
+//     <h1> (outside <script>) and a twitter:card meta tag.
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
@@ -283,6 +285,20 @@ for (const slug of slugs) {
   if (!/href="mailto:corrections@australia\.md\?subject=[^"]+"/.test(b)) fail('14', where, 'correction link must be a mailto:corrections@australia.md link with a subject');
   const claim = b.match(/\b(?:independent|not affiliated|unaffiliated|no affiliation)\b/i);
   if (claim) fail('14', where, `disclaimer must not claim "${claim[0]}" (state only checkable facts about the site's role)`);
+}
+
+// ── 15: site favicon; static H1 and Twitter Card on every indexable page ───────
+// The site shipped with no favicon at all (/favicon.ico 404), and the Fable 5.2 road-rules game
+// rendered its only <h1> from JavaScript, so crawlers saw a page with no H1 and no Twitter Card
+// (SE Ranking audit, Nov 2026).
+if (!existsSync(join(ROOT, 'favicon.ico'))) fail('15', 'favicon.ico', 'missing at the site root (browsers and crawlers request /favicon.ico)');
+if (!/<link\b(?=[^>]*\brel="(?:shortcut )?icon")[^>]*\bhref="\/favicon\.ico"/.test(read(join(ROOT, 'index.html')))) fail('15', 'index.html', 'homepage needs <link rel="icon" href="/favicon.ico">');
+for (const rel of allPages) {
+  if (isNoindex(rel)) continue;
+  const html = read(join(ROOT, rel)).replace(/<script\b[\s\S]*?<\/script>/gi, '');
+  const h1 = (html.match(/<h1\b/gi) || []).length;
+  if (h1 !== 1) fail('15', rel, `${h1} <h1> elements in the static HTML (expected exactly 1; script-rendered headings do not count)`);
+  if (!/<meta\b(?=[^>]*\bname="twitter:card")[^>]*\bcontent="[^"]+"/.test(html)) fail('15', rel, 'no <meta name="twitter:card">');
 }
 
 // ── Report ──────────────────────────────────────────────────────────────────
