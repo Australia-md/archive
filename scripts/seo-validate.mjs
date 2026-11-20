@@ -15,7 +15,8 @@
 //     elsewhere); every breadcrumb <nav> sits inside a data-nosnippet wrapper.
 //  4. Hub: every suburb directory has exactly one hub entry and every hub entry has a directory.
 //  5. sitemap.xml: well-formed shape, every <loc> exists on disk, every indexable page is listed, no
-//     duplicates, valid per-URL lastmod (not one date for everything).
+//     duplicates, valid per-URL lastmod (not one date for everything). Pages matching SITEMAP_SKIP
+//     (scripts/sitemap-policy.mjs) must not be listed.
 //  6. llms.txt / llms-full.txt: every australia.md URL exists on disk; no relative Markdown links
 //     in llms-full.txt (bodies are concatenated, so relative links would resolve wrongly).
 //  8. Internal <a href> links are root-relative and point to a file that exists.
@@ -32,8 +33,11 @@
 //     index.md/log.md carry no frontmatter, except an `okf_version`-only block on docs/index.md.
 // 15. /favicon.ico exists and the homepage links it; every indexable page has exactly one static
 //     <h1> (outside <script>) and a twitter:card meta tag.
+// 16. Markdown tables in docs/: every row has the header's cell count. An unescaped | inside a cell
+//     splits it, and the page generator then leaks the stray | into the HTML (belmore, 2026-11-21).
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { SITEMAP_SKIP } from './sitemap-policy.mjs';
 
 const ROOT = process.cwd();
 const ORIGIN = 'https://australia.md';
@@ -124,8 +128,10 @@ for (const loc of locs) {
 for (const rel of allPages) {
   const listed = locs.includes(urlOf(rel));
   const noindex = isNoindex(rel);
+  const skipped = SITEMAP_SKIP.test(rel);
   if (noindex && listed) fail('5', 'sitemap.xml', `${urlOf(rel)} is marked noindex but is listed`);
-  if (!noindex && !listed) fail('5', 'sitemap.xml', `${urlOf(rel)} is missing`);
+  else if (skipped && listed) fail('5', 'sitemap.xml', `${urlOf(rel)} matches SITEMAP_SKIP (scripts/sitemap-policy.mjs) but is listed`);
+  if (!noindex && !skipped && !listed) fail('5', 'sitemap.xml', `${urlOf(rel)} is missing`);
 }
 if (lastmods.some((d) => !/^\d{4}-\d{2}-\d{2}$/.test(d))) fail('5', 'sitemap.xml', 'lastmod not in YYYY-MM-DD form');
 if (locs.length > 10 && new Set(lastmods).size < 2) fail('5', 'sitemap.xml', 'every URL has the same lastmod (Google ignores that)');
@@ -299,6 +305,27 @@ for (const rel of allPages) {
   const h1 = (html.match(/<h1\b/gi) || []).length;
   if (h1 !== 1) fail('15', rel, `${h1} <h1> elements in the static HTML (expected exactly 1; script-rendered headings do not count)`);
   if (!/<meta\b(?=[^>]*\bname="twitter:card")[^>]*\bcontent="[^"]+"/.test(html)) fail('15', rel, 'no <meta name="twitter:card">');
+}
+
+// ── 16: Markdown tables in docs/ have a consistent cell count ──────────────────
+// GFM splits a row on every unescaped |, even inside a code span; the dental page parser
+// (scripts/dental-pages/a.py) splits on every | as well.
+const cells = (line) => line.trim().replace(/^\|/, '').replace(/(?<!\\)\|$/, '').split(/(?<!\\)\|/).length;
+const SEP = /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)*\|?\s*$/;
+for (const f of mdFiles(DOCS)) {
+  const rel = relative(ROOT, f), lines = read(f).split('\n');
+  let fence = false;
+  for (let i = 0; i < lines.length; i++) {
+    if (/^\s*```/.test(lines[i])) fence = !fence;
+    if (fence || !/^\s*\|/.test(lines[i]) || !SEP.test(lines[i + 1] || '')) continue;
+    const n = cells(lines[i]);
+    let j = i + 2;
+    for (; j < lines.length && /^\s*\|/.test(lines[j]); j++) {
+      const m = cells(lines[j]);
+      if (m !== n) fail('16', `${rel}:${j + 1}`, `table row has ${m} cells, header has ${n} (an unescaped | inside a cell?)`);
+    }
+    i = j - 1;
+  }
 }
 
 // ── Report ──────────────────────────────────────────────────────────────────

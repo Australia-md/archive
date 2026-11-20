@@ -17,6 +17,7 @@ import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from '
 import { join, relative, dirname } from 'node:path';
 import { execSync } from 'node:child_process';
 import { frontmatterBlock, verificationDate } from './okf-frontmatter.mjs';
+import { SITEMAP_SKIP } from './sitemap-policy.mjs';
 
 const ROOT = process.cwd();
 const ORIGIN = 'https://australia.md';
@@ -92,7 +93,7 @@ function priority(rel) {
   return depth === 1 ? '0.8' : depth === 2 ? '0.7' : '0.6';
 }
 
-const urls = walk(ROOT).filter(rel =>
+const urls = walk(ROOT).filter(rel => !SITEMAP_SKIP.test(rel) &&
   !/<meta\b(?=[^>]*\bname=["']robots["'])[^>]*\bcontent=["'][^"']*\bnoindex\b/i.test(readFileSync(join(ROOT, rel), 'utf8'))
 ).map(rel => {
   const loc = rel === 'index.html' ? `${ORIGIN}/` : `${ORIGIN}/${dirname(rel)}/`;

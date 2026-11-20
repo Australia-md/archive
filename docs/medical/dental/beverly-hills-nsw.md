@@ -69,10 +69,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 476 King Georges Road, Beverly Hills NSW 2209 |
 | **Phone** | (02) 9150 8283 |
-| **Hours** | Weekdays 9am-5pm · Sat 9am-2pm · Sun Not confirmed from public sources at time of verification |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat 9:00am-2:00pm · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Amy Luong | Graduated University of Sydney (Bachelor degree, as stated) | General Dentist; speaks Vietnamese and English; Dentist.com.au listing |
+| Dr Dean Nguyen | — | General Dentist; Dentist.com.au listing |
+
+Source: https://www.dentist.com.au/dentist-detail/beverly-hills-dental/A11004584
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -84,16 +91,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 21 Frederick Avenue, Beverly Hills NSW 2209 |
 | **Phone** | (02) 8007 6700 |
-| **Hours** | Weekdays 8am-6pm · Sat 8am-4pm · Sun Not confirmed from public sources at time of verification |
+| **Website** | https://www.nogapsdental.com/location/dentist-beverly-hills/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8am-6pm · Tue 8am-6pm · Wed 8am-6pm · Thu 8am-6pm · Fri 8am-6pm · Sat 8am-6pm · Sun not listed |
+| **Billing** | No Gaps Guarantee: if you have private health insurance with dental cover, they accept your health fund's benefit as full payment for a range of preventive and general treatments (applies across their 18 Sydney locations); flexible in-clinic payment plans offered. |
 | **Access** | Official clinic page states the practice is a short walk from Beverly Hills station, is served by local bus routes, and has street parking plus a nearby small council car park with free 1-hour and 3-hour spaces. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Mohit Gupta | Qualification not confirmed from public sources at time of verification | Listed on Healthdirect as a dentist at No Gaps Dental - Beverly Hills. |
-| Dr Wilbert Zulueta | Qualification not confirmed from public sources at time of verification | Listed on Healthdirect as a dentist at No Gaps Dental - Beverly Hills. |
+| Dr Hussein Chamas | — | Emergency Dentist, Dental Implants; speaks English, Arabic; 15+ years surgical and restorative experience (as stated on location page) |
+
+Source: https://www.nogapsdental.com/location/dentist-beverly-hills/
 
 **Services:** Preventative treatments, restorative treatments, root canal treatments, surgical procedures including implants, orthodontic treatments, dentures, single day crowns, teeth whitening, porcelain veneers.
 
@@ -124,5 +135,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Beverly Hills, New South Wales | https://en.wikipedia.org/wiki/Beverly_Hills%2C_New_South_Wales |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Beverly Hills Dental Surgery — enrichment source | https://www.dentist.com.au/dentist-detail/beverly-hills-dental/A11004584 |
+| No Gaps Dental - Beverly Hills — enrichment source | https://www.nogapsdental.com/no-gaps-dental-guarantee/ ; https://www.nogapsdental.com/payment-plans/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-06. Rosters change; always verify current practitioners and hours directly with the clinic.

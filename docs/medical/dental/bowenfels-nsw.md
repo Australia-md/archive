@@ -60,6 +60,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Lithgow District Hospital Lith, 2 Col Drewe Drive, Bowenfels NSW 2790 |
 | **Phone** | (02) 6350 2550 |
+| **Email** | admin@lcprivate.com.au |
+| **Website** | https://lcprivate.com.au/ |
+| **Website check** | EverWeb site · robots.txt blocks: ClaudeBot, Amazonbot, GPTBot · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon-Fri 8:30am-5:00pm · Sat-Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -91,5 +94,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Lithgow Community Private brochure | https://www.lcprivate.com.au/documents/Information-Brochure.pdf |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Lithgow Community Private Day Surgery and Specialist Centre — enrichment source | https://lcprivate.com.au/ |
+| Lithgow Community Private Day Surgery and Specialist Centre — enrichment source | https://lcprivate.com.au/Contact-Us.html |
 
 **Data limitations:** Public sources verified one Bowenfels-based oral-surgery and dental day-surgery service, but they did not publish a practitioner roster for this service as at 2026-08-21. Clinic scope, staffing and appointment availability can change; confirm current services directly with the provider.

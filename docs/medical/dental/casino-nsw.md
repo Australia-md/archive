@@ -87,11 +87,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 74 Barker Street, Casino NSW 2470 |
 | **Phone** | (02) 6662 1722 |
-| **Hours** | Mon 8:00am–5:00pm · Tue–Fri 8:00am–5:30pm · Sat–Sun Not confirmed from public sources at time of verification |
+| **Email** | info@casinodental.com.au |
+| **Website** | https://casinodental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am–5:00pm · Tue–Fri 8:00am–5:30pm (Sat/Sun not stated) |
 | **Network** | Preferred providers for HCF, Medibank Private, Bupa, CBHS and nib |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Check current practitioner registration through the register |
 
-**Registered Practitioners:** Individual practitioners are not listed here because their current AHPRA registration was not independently verified during this run. Check current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Julie Lee | Dentist | Joined Casino Dental in 2024; trained at Griffith University |
+| Dr Su Xie | Bachelor of Dental Surgery (University of Adelaide, 2023) | Dentist |
+| Dr Chris Xu | Bdent MRACDS (PDS) FICCDE | Dentist; interest in implants and orthodontics incl. Invisalign |
+
+Source: https://casinodental.com.au/our-team/
 
 **Services:** General and cosmetic dentistry.
 
@@ -103,10 +114,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 124 Centre Street, Casino NSW 2470 |
 | **Phone** | (02) 6662 8585 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Website** | https://www.centrestreetdental.com.au/ |
+| **Website check** | CMS not identified · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am–6:00pm · Tue 8:00am–6:00pm · Wed 8:00am–5:00pm · Thu 8:00am–6:00pm · Fri 8:00am–5:00pm · Sat Closed · Sun Closed |
+| **Billing** | Payment plan page states Afterpay (four equal fortnightly payments, subject to eligibility); payment options listed: Cash, EFTPOS, Direct Debit, ZipMoney, Afterpay. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Check current practitioner registration through the register |
 
-**Registered Practitioners:** Individual practitioners are not listed here because their current AHPRA registration was not independently verified during this run. Check current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Greg Normoyle | BDSc | Dentist |
+| Dr Alejandra Hernandez | DDS (University of Melbourne) | Dentist |
+
+Source: https://www.centrestreetdental.com.au/about-us
 
 **Services:** Preventive, restorative, cosmetic and periodontal dentistry; root-canal treatment and extractions.
 
@@ -118,10 +139,16 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 44 West Street, Casino NSW 2470 |
 | **Phone** | (02) 6662 8355 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Hours** | Mon–Fri 8:00am–6:00pm (Sat/Sun not stated) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Check current practitioner registration through the register |
 
-**Registered Practitioners:** Individual practitioners are not listed here because their current AHPRA registration was not independently verified during this run. Check current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr John Handran | General Dentist | as listed on dentist.com.au |
+
+Source: https://www.dentist.com.au/dentist-detail/nsw/casino/west-street-dental/A11003784
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -133,7 +160,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 153 Canterbury Street, Casino NSW 2470 |
 | **Phone** | 1800 571 101 |
+| **Email** | info@bnmac.com.au |
+| **Website** | https://bnmac.com.au/clinics/casino-clinic/ |
 | **Hours** | Not confirmed from public sources at time of verification |
+| **Billing** | Casino Clinic page lists 'Dental' among services offered; no fee or billing information stated. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Check current practitioner registration through the register |
 
 **Registered Practitioners:** Individual practitioners are not listed here because their current AHPRA registration was not independently verified during this run. Check current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -148,7 +178,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 70B Canterbury Street, Casino NSW 2470 |
 | **Phone** | 1800 679 336 (Northern NSW Local Health District Oral Health) |
-| **Hours** | Mon–Fri 8:00am–4:30pm |
+| **Website** | https://nnswlhd.health.nsw.gov.au/community-health/casino-community-health/dental-services |
+| **Hours** | Mon–Fri 8:00am–4:30pm (Sat/Sun not stated) |
+| **Billing** | NNSWLHD states: 'provides free dental care for children aged up to 18 years, and adults who hold a Health Care Card or Pensioner Concession card and permanently reside in the Northern NSW Local Health District.' Appointments via Oral Health 1800 679 336. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Check current practitioner registration through the register |
 
 **Registered Practitioners:** Individual practitioners are not listed here because their current AHPRA registration was not independently verified during this run. Check current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -163,10 +195,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 125 Barker Street, Casino NSW 2470 |
 | **Phone** | (02) 6662 1137 |
-| **Hours** | Casino sessions Wed and Fri by appointment; phone enquiries Mon–Fri 9:00am–5:00pm |
+| **Website** | https://pearldenturestudio.com.au/casino-denture-clinic/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Casino clinic Wed & Fri by appointment only; phone Mon–Fri 9:00am–5:00pm |
+| **Billing** | Site states 'various treatment options available no matter your financial situation' and 'a Denticare payment plan solution available'. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Check current practitioner registration through the register |
 
-**Registered Practitioners:** Individual practitioners are not listed here because their current AHPRA registration was not independently verified during this run. Check current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| David Smith | Dental prosthetist (site also styles him 'Dr. David Smith') | Leads the clinic; 31+ years' experience per site |
+
+Source: https://pearldenturestudio.com.au/casino-denture-clinic/
 
 **Services:** Denture prosthetics, including dentures, maintenance and repairs.
 
@@ -203,5 +244,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Australia Post postcode search | https://auspost.com.au/postcode/casino |
 | Australian Bureau of Statistics — 2021 Casino QuickStats | https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10842 |
 | Richmond Valley Council — Casino location plan | https://richmondvalley.nsw.gov.au/wp-content/uploads/2020/11/Richmond-Valley-Council-Casino-Showground-and-Racecourse-Master-Plan.pdf |
+| Casino Dental — enrichment source | https://casinodental.com.au/our-team/ |
+| Centre Street Dental — enrichment source | https://www.centrestreetdental.com.au/about-us |
+| Centre Street Dental — enrichment source | https://www.centrestreetdental.com.au/contact |
+| Centre Street Dental — enrichment source | https://www.centrestreetdental.com.au/financial-info |
 
 **Data limitations:** Practitioner rosters and some opening hours were not confirmed from public sources as at 2026-11-15. Confirm current practitioners, eligibility and hours directly with each service.

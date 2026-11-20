@@ -78,7 +78,11 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 8 Meadows Road, Cabramatta West NSW 2166 |
 | **Phone** | (02) 9711 3272 |
-| **Hours** | Mon–Fri 9:00am–6:00pm · Sat–Sun not listed in the Healthdirect record |
+| **Email** | wrst_n1ghtmar3@hotmail.com |
+| **Website** | https://www.goldensmiledentureclinic.com.au/ |
+| **Website check** | Duda site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9am-6pm · Tue 9am-6pm · Wed 9am-6pm · Thu 9am-6pm · Fri 9am-6pm · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply for this service'. Clinic site offers 'Get a free quote!' and describes dentures 'suitable for any budget'; no health fund, CDBS or payment plan claims stated. |
 | **Access** | Healthdirect states that an appointment is needed; fees apply. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -114,5 +118,8 @@ All dental practitioners in Australia must hold current registration with the **
 | Golden Smile Denture Clinic | https://www.goldensmiledentureclinic.com.au/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Golden Smile Denture Clinic — enrichment source | https://healthdirect.gov.au/australian-health-services/healthcare-service/cabramatta-west-2166-nsw/golden-smile-denture-clinic/dentists/aff38456-4cf1-947d-d71c-cb6526028996 |
+| Golden Smile Denture Clinic — enrichment source | https://healthdirect.gov.au/australian-health-services/healthcare-service/cabramatta-west-2166-nsw/golden-smile-denture-clinic/dentists/aff38456-4cf1-947d-d71c-cb6526028996 and https://www.goldensmiledentureclinic.com.au/ |
+| Golden Smile Denture Clinic — enrichment source | https://www.goldensmiledentureclinic.com.au/contact (mailto link, printed on page) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and the clinic website as at 2026-10-14. Rosters change; always verify current practitioners and hours directly with the clinic.

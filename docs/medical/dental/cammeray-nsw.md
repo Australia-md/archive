@@ -111,14 +111,24 @@ All dental practitioners in Australia must hold current registration with the **
 |---|---|
 | **Address** | Shop 5, 520 Miller Street, Cammeray NSW 2062 ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/advanced-dental/dentists/2f10406c-7772-4d5c-2c67-3c38b44da9c0); [clinic contact page](https://www.advanceddental.com.au/contact-us/)) |
 | **Phone** | (02) 9922 6022 ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/advanced-dental/dentists/2f10406c-7772-4d5c-2c67-3c38b44da9c0)) |
-| **Hours** | Mon–Fri 8:00am–5:00pm · Sat 9:00am–3:00pm · Sun Closed ([clinic contact page](https://www.advanceddental.com.au/contact-us/)) |
+| **Email** | smile@advanceddental.com.au |
+| **Website** | https://www.advanceddental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri 8:00am-5:00pm · Sat 9:00am-3:00pm · Sun Closed |
+| **Billing** | Homepage and About: 'Promotion NO GAP or Only $299'; 'NO GAP initial dental check up for kids under 6 years old with Healthfund'; Medicare Child Dental Benefit Schedule (CDBS) and Veteran Affairs patients listed; new patient promotions. |
 | **Access** | Appointment needed; fees apply ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/advanced-dental/dentists/2f10406c-7772-4d5c-2c67-3c38b44da9c0)) |
 | **Network** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-Named practitioners are not listed because their current AHPRA registrations could not be checked during this verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Edwin Wijaya | — | Principal Dentist |
+| Dr Vanessa Burns | — | General Dentist |
+| Cindy Tran | OHT | Oral Health Therapist |
+
+Source: https://www.advanceddental.com.au/meet-our-team/
 
 **Services:** General, preventive, cosmetic, family and children’s dentistry ([clinic services](https://www.advanceddental.com.au/our-services/)).
 
@@ -130,14 +140,25 @@ Named practitioners are not listed because their current AHPRA registrations cou
 |---|---|
 | **Address** | Unit 102, 506 Miller Street, Cammeray NSW 2062 ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/dental-implants-on-miller/dentists/286f7482-2ad9-4ff9-bd1b-67a20bb4e876); [HealthEngine](https://healthengine.com.au/dentist/nsw/cammeray/dental-implants-on-miller/s90053)) |
 | **Phone** | (02) 9000 1904 ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/dental-implants-on-miller/dentists/286f7482-2ad9-4ff9-bd1b-67a20bb4e876)); HealthEngine displays a conflicting incomplete number, so confirm the current number with the clinic |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Email** | smile@dentalimplantsonmiller.com.au |
+| **Website** | https://www.dentalimplantsonmiller.com.au/ |
+| **Website check** | Webflow site · robots.txt blocks: * · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-12:00pm · Sat not listed · Sun not listed |
+| **Billing** | 'All major health funds accepted'; 'Flexible finance options available'; 'a range of flexible payment plans'; free consultation; prices start from $6,500 single implant, $14,500 implant bridge, $19,500 All-on-4 (as stated). |
 | **Access** | Healthdirect lists no appointment needed; fees apply ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/dental-implants-on-miller/dentists/286f7482-2ad9-4ff9-bd1b-67a20bb4e876)) |
 | **Network** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-Named practitioners are not listed because their current AHPRA registrations could not be checked during this verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Daniel Adamo | BDS, Dip.Clin Dent (Oral Implants), University of Sydney | Founder; All-on-4 implant dentistry |
+| Dr Edward Cruickshank | BOH (D.Sci), G.Dip.Dent, Griffith University | Dental implants and full mouth reconstruction |
+| Dr Simon Furber | — | Sedationist (described as a qualified medical practitioner monitoring IV sedation) |
+| Kirrana Bell | — | Oral Health Therapist |
+
+Source: https://www.dentalimplantsonmiller.com.au/
 
 **Services:** Dental implants, All-on-4 dental implants and cosmetic dentistry ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/dental-implants-on-miller/dentists/286f7482-2ad9-4ff9-bd1b-67a20bb4e876)).
 
@@ -149,14 +170,25 @@ Named practitioners are not listed because their current AHPRA registrations cou
 |---|---|
 | **Address** | Level 1, Suite 19C, 450–476 Miller Street, Cammeray NSW 2062 ([Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/miller-street-dental/dentists/8b60b95c-e57e-a99d-9720-1ac17d74c00c)) |
 | **Phone** | (02) 9922 5000 ([clinic contact page](http://www.millerstreetdental.com.au/ContactUs.aspx); [Healthdirect](https://www.healthdirect.gov.au/australian-health-services/healthcare-service/cammeray-2062-nsw/miller-street-dental/dentists/8b60b95c-e57e-a99d-9720-1ac17d74c00c)) |
-| **Hours** | Mon 9:00am–5:00pm · Tue 8:30am–5:30pm · Wed 8:30am–5:30pm · Thu 9:00am–5:00pm · Fri 8:30am–5:30pm · Sat 8:30am–12:30pm · Sun Closed ([clinic contact page](http://www.millerstreetdental.com.au/ContactUs.aspx)) |
+| **Email** | info@millerstreetdental.com.au |
+| **Website** | https://www.millerstreetdental.com.au/ |
+| **Website check** | CMS not identified · robots.txt not found · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 8:30am-5:30pm · Wed 8:30am-5:30pm · Thu 9:00am-5:00pm · Fri 8:30am-5:30pm · Sat 8:30am-12:30pm · Sun Closed |
+| **Billing** | Partners page: 'Health fund only preventative check-up and clean for family members under 18'; 'Custom-made mouthguards health fund only'; 10% off general dentistry for Cammeray Square residents/local businesses and North Sydney Leagues Club members; Special Offers: new patient promotion $285. |
 | **Access** | Two hours’ free undercover parking at Cammeray Square (vehicle entry via Amherst Street); bus stops are on Miller Street ([clinic contact page](http://www.millerstreetdental.com.au/ContactUs.aspx)) |
 | **Network** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-Named practitioners are not listed because their current AHPRA registrations could not be checked during this verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Roderic Le Thanh | — | Principal Dentist |
+| Dr Ellen Kaganer | — | Dentist |
+| Dr Michael Hui | — | Dentist |
+| Dr Maria Tran | Graduated with Honours, Sydney University School of Dentistry; Master of Education | Dentist (own profile page; not shown on the main team list) |
+
+Source: https://www.millerstreetdental.com.au/TeamList.aspx
 
 **Services:** General dentistry and prosthodontics ([Yellow Pages listing](https://www.yellowpages.com.au/nsw/cammeray/miller-street-dental-14262359-listing.html); [HealthEngine profile](https://healthengine.com.au/prosthodontist/nsw/cammeray/miller-street-dental/s36864)).
 
@@ -168,14 +200,22 @@ Named practitioners are not listed because their current AHPRA registrations cou
 |---|---|
 | **Address** | 64 Amherst Street, Cammeray NSW 2062 ([HealthEngine practitioner profile](https://healthengine.com.au/dentist/nsw/cammeray/dr-maria-caciulatu/p99673); [1300SMILES clinic page](https://www.1300smiles.com.au/locations/cammeray/)) |
 | **Phone** | (02) 9955 9506 ([1300SMILES clinic page](https://www.1300smiles.com.au/locations/cammeray/)) |
-| **Hours** | Mon 8:30am–6:00pm · Tue 8:30am–6:00pm · Wed 8:30am–5:30pm · Thu 8:30am–6:00pm · Fri 8:30am–6:00pm · Sat 9:00am–1:00pm · Sun Closed ([1300SMILES clinic page](https://www.1300smiles.com.au/locations/cammeray/)) |
+| **Email** | cammeray@1300smiles.com.au |
+| **Website** | https://www.1300smiles.com.au/locations/cammeray/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-5:30pm · Thu 8:30am-6:00pm · Fri 8:30am-6:00pm · Sat 9:00am-1:00pm · Sun Closed |
+| **Billing** | 'We accept all health funds, but are preferred by:' (fund logos not readable as text); payments via Afterpay, ZIP and Humm; Medicare CDBS 'Upto $1,158 Free Kids Dental' (terms apply); National Seniors cardholders 10% discount; $249 new patient check-up, clean and x-rays offer. |
 | **Access** | Close to public transport; HealthEngine lists a nearby bus stop and paid street parking ([1300SMILES](https://www.1300smiles.com.au/locations/cammeray/); [HealthEngine](https://healthengine.com.au/dentist/nsw/cammeray/1300smiles-cammeray/s36863)) |
 | **Network** | HealthEngine lists Medibank, Westfund and Defence Health as preferred providers; confirm eligibility with the clinic ([HealthEngine](https://healthengine.com.au/dentist/nsw/cammeray/1300smiles-cammeray/s36863)) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-Named practitioners are not listed because their current AHPRA registrations could not be checked during this verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Maria Caciulatu | B.D.S. | Dentist |
+
+Source: https://www.1300smiles.com.au/locations/cammeray/
 
 **Services:** General dental care, dentures, implants and snoring-related dental services ([HealthEngine](https://healthengine.com.au/dentist/nsw/cammeray/1300smiles-cammeray/s36863)).
 
@@ -206,5 +246,11 @@ All dental practitioners in Australia must hold current registration with the **
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
 | Practice websites | [Advanced Dental](https://www.advanceddental.com.au/contact-us/); [1300SMILES Cammeray](https://www.1300smiles.com.au/locations/cammeray/); [Miller Street Dental](http://www.millerstreetdental.com.au/ContactUs.aspx) |
+| Advanced Dental — enrichment source | https://www.advanceddental.com.au/meet-our-team/ |
+| Dental Implants on Miller — enrichment source | https://www.dentalimplantsonmiller.com.au/ |
+| Miller Street Dental — enrichment source | https://www.millerstreetdental.com.au/ |
+| Miller Street Dental — enrichment source | https://www.millerstreetdental.com.au/ContactUs.aspx |
+| Miller Street Dental — enrichment source | https://www.millerstreetdental.com.au/Partners.aspx |
+| Miller Street Dental — enrichment source | https://www.millerstreetdental.com.au/TeamList.aspx |
 
 **Data limitations:** Practitioner names were not checked because the AHPRA Practitioner Register returned a DNS resolution error. HealthEngine displayed an incomplete phone number that conflicts with Healthdirect’s listing for Dental Implants on Miller; the Healthdirect number is shown, but should be confirmed with the clinic. Word of Mouth and Yellow Pages direct pages returned access blocks, Google Maps and HotDoc did not expose readable listing details, and NPS redirected to the Australian Commission on Safety and Quality in Health Care. Practitioner rosters and hours change; verify directly with each clinic.

@@ -116,10 +116,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 113, 10 Norbrik Drive, Bella Vista NSW 2153 |
 | **Phone** | (02) 8074 1702 |
-| **Hours** | Mon 10:00am-6:00pm · Tue 10:00am-6:00pm · Wed 10:00am-6:00pm · Thu 10:00am-6:00pm · Fri 10:00am-6:00pm · Sat 10:00am-6:00pm · Sun 10:00am-6:00pm |
+| **Email** | Info@oraluxdental.com.au |
+| **Website** | https://oraluxdental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon-Sun: open 7 days by appointment (specific hours not published on the Bella Vista page) |
+| **Billing** | Bella Vista page: 'On the Spot Claiming'; payment plans via Zip Money ('pay later with no deposit and no interest'). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Wendy Wang | — | Principal Dentist |
+| Dr Georgina Towers | — | Dentist |
+| Dr Bill Li | — | Dentist |
+| Dr Cecy Xi | — | Dentist |
+| Gilda Massali | — | Practice Manager (non-clinical) |
+
+Source: https://oraluxdental.com.au/meet-the-team/
 
 **Services:** Cosmetic dentistry, restorative dentistry, children's dentistry.
 
@@ -131,10 +145,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 118, Level 1, Building B, 20 Lexington Drive, Bella Vista NSW 2153 |
 | **Phone** | (02) 9836 4666 |
-| **Hours** | Mon 9:00am-4:30pm · Tue 9:00am-4:30pm · Wed 2:00pm-7:00pm · Thu 9:00am-4:30pm · Fri 9:00am-4:30pm · Sat By appointment only · Sun Closed |
+| **Website** | https://www.norwestdentalcare.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 2:00pm-8:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat By appointment only · Sun not listed |
+| **Billing** | FAQ: 'We accept all major Australian health funds, including Bupa, Medibank, HCF, nib, AHM, Australian Unity, Frank, and Members Own'; 'Afterpay is available for eligible treatments'. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Randa Beshai | — | Listed first on the team page (clinical profile); no title text captured |
+| Amanda Alexander | — | Practice management & care focus (non-clinical) |
+| Dani | — | Patient support (non-clinical) |
+
+Source: https://www.norwestdentalcare.com.au/meet-the-team/
 
 **Services:** General dentistry, cosmetic dentistry, gum therapy.
 
@@ -146,16 +171,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 203, 20 Lexington Drive, Bella Vista NSW 2153 |
 | **Phone** | (02) 8814 7945 |
-| **Hours** | Mon 8:00am-4:00pm · Tue 8:00am-4:00pm · Wed 8:00am-4:00pm · Thu 8:00am-4:00pm · Fri Not confirmed from public sources at time of verification · Sat Not confirmed from public sources at time of verification · Sun Not confirmed from public sources at time of verification |
+| **Email** | reception@nwpd.com.au |
+| **Website** | https://nwpd.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-4:30pm · Tue 8:30am-4:30pm · Wed 8:30am-4:30pm · Thu 8:30am-4:30pm · Fri 8:30am-4:30pm · Sat not listed · Sun not listed |
 | **Access** | Free parking confirmed by Healthdirect; appointment needed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Rebecca Eggers | Specialist paediatric dentist | Name publicly associated with the clinic in public practice directories. |
-| Dr Jacqui Fechney | Specialist paediatric dentist | Name publicly associated with the clinic in public practice directories. |
+| Dr Rebecca Eggers | — | Paediatric Dentist |
+| Dr Julia Le | — | Paediatric Dentist |
+| Dr Jana Nikolovski | — | Paediatric Dentist |
+| Dr Nicole Olivera | — | Paediatric Dentist |
+| Dr Ashleigh Raikuna | — | Paediatric Dentist |
+| Dr Margaret Kim | — | Oral and Maxillofacial Surgeon |
+| Sylvia Crowe | — | Oral Health Therapist |
+| Lia Mendoza | — | Oral Health Therapist |
+
+Source: https://nwpd.com.au/about-us/our-team-of-specialist-paediatric-dentists-and-oral-health-therapist/
 
 **Services:** Paediatric dentistry and children's dental care.
 
@@ -167,15 +203,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 66, 24-32 Lexington Drive, Bella Vista NSW 2153 |
 | **Phone** | (02) 8814 6118 |
-| **Hours** | Mon Closed · Tue 9:30am-6:00pm · Wed 9:30am-6:00pm · Thu 9:30am-6:00pm · Fri 9:30am-6:00pm · Sat 9:30am-6:00pm · Sun Closed |
+| **Email** | bvdental@tpg.com.au |
+| **Website** | https://bellavistafamilydental.com/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:30am-6:00pm · Tue Closed · Wed 9:30am-6:00pm · Thu 9:30am-6:00pm · Fri 9:30am-6:00pm · Sat 9:30am-6:00pm · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Phillip Huang | Not confirmed from public sources at time of verification | Clinic meet-the-team page describes Dr Phillip Huang as a lead clinician with extensive orthodontic experience. |
-| Dr Rex | Not confirmed from public sources at time of verification | Clinic meet-the-team page lists Dr Rex as part of the lead team. |
+| Dr Phillip Huang | BDentTech, Bachelor of Dental Surgery | Principal Dentist; 35+ years clinical experience |
+| Dr Rex Huang | — | Dentist (listed as leading the team with Dr Phillip Huang) |
+| Dr Ying Lee | — | Dentist |
+
+Source: https://bellavistafamilydental.com/meet-the-team.html
 
 **Services:** General dentistry, cosmetic dentistry, gum treatment, root canal therapy, children's dentistry, wisdom teeth removal, oral surgery, dental implants, clear aligners, snoring and sleep apnoea appliances, grinding and TMJ management, dentures.
 
@@ -187,16 +229,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 1 Circa Boulevard, Bella Vista NSW 2153 |
 | **Phone** | 1300 698 326 |
-| **Hours** | Mon 8:00am-7:00pm · Tue 8:00am-7:00pm · Wed 8:00am-7:00pm · Thu 8:00am-7:00pm · Fri 8:00am-6:00pm · Sat 8:00am-1:00pm · Sun Closed |
+| **Email** | enquiries@mydentalteam.com.au |
+| **Website** | https://mydentalteam.com.au/location/dentist-bella-vista/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-7:00pm · Tue 8:00am-7:00pm · Wed 8:00am-7:00pm · Thu 8:00am-7:00pm · Fri 8:00am-7:00pm · Sat 8:30am-1:00pm · Sun Closed |
+| **Billing** | 'We accept all health funds with no-gap coverage for your biannual check-up and cleaning services, in addition to bulk-billing under the Medicare Child Dental Benefits Schedule for our youngest patients (subject to eligibility). We also customise payment plans.' Orthodontic plans advertised interest-free, no deposit, 2 years. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Ashwin Nair | Specialist Orthodontist | Public clinic orthodontics profile lists Dr Ashwin Nair as a specialist orthodontist. |
-| Dr Alex Wenden | Specialist Orthodontist | Public clinic orthodontics profile lists Dr Alex Wenden as a specialist orthodontist. |
-| Dr Albert Leung | Specialist Orthodontist | Public clinic orthodontics profile lists Dr Albert Leung as a specialist orthodontist. |
+| Dr Ashwin Nair | — | Specialist Orthodontist |
+| Dr Alex Wenden | — | Specialist Orthodontist |
+| Dr Albert Leung | — | Specialist Orthodontist |
+
+Source: https://mydentalteam.com.au/location/dentist-bella-vista/ ('Why Choose Our Bella Vista Dentists')
 
 **Services:** Family dentistry, general dentistry, cosmetic dentistry, braces, Invisalign, check-ups and cleans, veneers, whitening, crowns, children's dental care, emergency dental care, orthodontics.
 
@@ -208,10 +256,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite G06, 33 Lexington Drive, Bella Vista NSW 2153 |
 | **Phone** | (02) 8883 4560 |
-| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed Not confirmed from public sources at time of verification · Thu 9:00am-6:00pm · Fri Not confirmed from public sources at time of verification · Sat Not confirmed from public sources at time of verification · Sun Not confirmed from public sources at time of verification |
+| **Email** | info@lipworth.com.au |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed not listed · Thu 9:00am-6:00pm · Fri not listed · Sat not listed · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ken Lipworth | — | Named in the Healthdirect service title; no team page found |
+
+Source: https://www.healthdirect.gov.au/australian-health-services/healthcare-service/bella-vista-2153-nsw/dr-ken-lipworth-dental-surgery/dentists/25d49a17-789c-0f84-5070-5ff1d8eb5e89
 
 **Services:** General dentistry services; more specific service categories were not confirmed from public sources at time of verification.
 
@@ -223,15 +278,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | D72, 24-32 Lexington Drive, Bella Vista NSW 2153 |
 | **Phone** | (02) 5616 8919 |
+| **Email** | reception@lexingtondental.com.au |
+| **Website** | https://lexingtondental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat Closed · Sun Closed |
+| **Billing** | Payment options page: Denticare payment plans (customised deposit/amounts/duration); HICAPS on-the-spot private health insurance claiming. |
 | **Access** | Free onsite parking confirmed by clinic site; disabled parking near the practice entrance |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr David Le | Not confirmed from public sources at time of verification | Public practitioner directory associates Dr David Le with Lexington Dental Bella Vista. |
+| Dr David Le | BDS, Grad Dip Clin Dent (Oral Implants), USYD | Principal Dentist |
+| Dr George Nguyen | — | Dentist (named on About page; role text not captured) |
+
+Source: https://lexingtondental.com.au/about-us/
 
 **Services:** Preventative dentistry, general dentistry, cosmetic dentistry, fillings, root canal therapy, check-ups and cleans, children's dentistry, extractions, crowns, mouthguards and splints.
 
@@ -277,5 +339,15 @@ All dental practitioners in Australia must hold current registration with the **
 | Bella Vista, New South Wales — Wikipedia | https://en.wikipedia.org/wiki/Bella_Vista%2C_New_South_Wales |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Lexington Dental — enrichment source | https://lexingtondental.com.au/about-us/ |
+| Lexington Dental — enrichment source | https://lexingtondental.com.au/payment-options/ |
+| My Dental Team - Bella Vista — enrichment source | https://mydentalteam.com.au/location/dentist-bella-vista/ ('Why Choose Our Bella Vista Dentists') |
+| Norwest Dental Centre — enrichment source | https://www.norwestdentalcare.com.au/meet-the-team/ |
+| Norwest Paediatric Dentistry — enrichment source | https://nwpd.com.au/about-us/our-team-of-specialist-paediatric-dentists-and-oral-health-therapist/ |
+| Norwest Paediatric Dentistry — enrichment source | https://nwpd.com.au/contact-us/ |
+| Oralux Dental - Bella Vista — enrichment source | https://oraluxdental.com.au/bella-vista-dentist/ |
+| Oralux Dental - Bella Vista — enrichment source | https://oraluxdental.com.au/bella-vista-dentist/ and https://oraluxdental.com.au/payment-plans/ |
+| Oralux Dental - Bella Vista — enrichment source | https://oraluxdental.com.au/contact-us/ |
+| Oralux Dental - Bella Vista — enrichment source | https://oraluxdental.com.au/meet-the-team/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-19. Rosters change; always verify current practitioners and hours directly with the clinic.

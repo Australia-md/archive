@@ -90,13 +90,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 95 Oxford Street, Cambridge Park NSW 2747 |
 | **Phone** | (02) 4731 4655 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat: Not confirmed from public sources at time of verification (Healthdirect lists 8:00am–2:00pm; practice pages list 8:00am–3:00pm and 9:00am–2:00pm) · Sun: Not confirmed from public sources at time of verification |
+| **Email** | bestwesterndentalcentre@gmail.com |
+| **Website** | https://bestwesterndental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat 8:00am-3:00pm · Sun not listed |
+| **Billing** | Payment options page: HICAPS; 'Interest free payment plan available for selected treatment'; 'Payment is required at the time of treatment'; DVA Gold Card holders 'no out of pocket expense' for eligible services; 'We can bulk bill eligible children aged 2-17' (Medicare); cash, credit card (Amex and Diners excluded), EFT, bank cheque. |
 | **Access** | Healthdirect lists no appointment needed and fees apply; it advises calling ahead to confirm service availability. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-> **Registered Practitioners:** Individual practitioner names were not confirmed as currently registered from public sources at time of verification. HealthEngine profiles include practitioner names, but individual AHPRA registrations were not confirmed for this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Nathan Le | B.D.S (Sydney Uni) | Listed on The Dentists page; site tagline 'Dr. Nathan Le' |
+| Dr William Banh | — | Listed on The Dentists page and contact form dentist selector |
+| Antoinette Dib | — | Listed on The Dentists page and contact form dentist selector (role not stated) |
+| Dr James Lim | — | Appears only in the contact form dentist selector, not on The Dentists page |
+
+Source: https://bestwesterndental.com.au/the-dentists/ and https://bestwesterndental.com.au/contact/
 
 **Services:** Family and general dentistry, children’s dentistry, cosmetic dentistry, emergency dental care.
 
@@ -134,5 +145,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Penrith City Council — Government Wards | https://www.penrithcity.nsw.gov.au/council/council-business/government-wards |
 | The Dictionary of Sydney — Cambridge Park | https://dictionaryofsydney.org/place/cambridge_park |
 | Cambridge Park location and distance reference | https://en.wikipedia.org/wiki/Cambridge_Park,_New_South_Wales |
+| Best Western Dental Centre — enrichment source | https://bestwesterndental.com.au/payment-options/ |
+| Best Western Dental Centre — enrichment source | https://bestwesterndental.com.au/the-dentists/ and https://bestwesterndental.com.au/contact/ |
 
 **Data limitations:** Contact and service details are sourced from Healthdirect and the clinic website as at 2026-10-21. Published Saturday hours differ between sources, and Sunday hours and individual AHPRA registrations were not confirmed; verify current details directly with the clinic and the practitioner register.

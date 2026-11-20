@@ -63,15 +63,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 67 Duncan St, Braidwood NSW 2622 |
 | **Phone** | (02) 4842 2001 |
-| **Hours** | Mon-Fri 9:00am-5:00pm · Sat-Sun Closed |
+| **Email** | braidwooddental@gmail.com |
+| **Website** | https://www.braidwooddentalpractice.com/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9:00am-5:00pm; Sat/Sun not listed ('Appointments outside these hours can be accommodated by request') |
+| **Billing** | Family page: 'Children may be eligible for bulk billed treatment under the Child Dental Benefit Scheme provided by Medicare.' No HICAPS, health fund or payment plan claim found on pages read (home, appointment, family, services). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Brad Horwood | Not confirmed from public sources at time of verification | Practice website and Healthengine list him as a dentist at Braidwood Dental Practice. |
-| Dr Daniel Unger | Not confirmed from public sources at time of verification | Practice website and Healthengine list him as a dentist at Braidwood Dental Practice. |
+| Dr Brad Horwood | — | Named as dentist on the Contact page (Dr Brad Horwood & Dr Daniel Unger) |
+| Dr Daniel Unger | — | Named as dentist on the Contact page |
+
+Source: https://www.braidwooddentalpractice.com/contact
 
 **Services:** General dentistry, preventative care, trauma treatment, cavity fillings, cleaning, crowns and caps, cosmetic veneers, teeth whitening, tooth extractions, root canal treatment, implant dentistry, dentures, mouthguards, paediatric dentistry, same-day emergency appointments.
 
@@ -100,5 +106,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Braidwood Dental Practice - Healthengine | https://healthengine.com.au/dentist/nsw/braidwood/braidwood-dental-practice/s76787 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Braidwood Dental Practice — enrichment source | https://www.braidwooddentalpractice.com/contact |
+| Braidwood Dental Practice — enrichment source | https://www.braidwooddentalpractice.com/family |
 
 **Data limitations:** This directory includes Braidwood dental services whose complete public street address, phone number, opening hours and practitioner roster were verifiable from the checked public sources as at 2026-08-26. Practitioner qualifications, roster changes and appointment availability should be confirmed directly with the clinic.

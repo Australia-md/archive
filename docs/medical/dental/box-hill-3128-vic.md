@@ -76,23 +76,29 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 973 Whitehorse Road, Box Hill VIC 3128 |
 | **Phone** | (03) 9210 2000 |
-| **Hours** | Mon-Fri 8:00am-6:00pm · Sat 8:00am-5:00pm |
+| **Email** | reception.auboxhill@nationaldentalcare.com.au |
+| **Website** | https://www.nationaldentalcare.com.au/box-hill |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 8:00am-6:00pm · Fri 8:00am-6:00pm · Sat 8:00am-5:00pm · Sun not listed |
+| **Billing** | Site states: accepts all major health funds; HICAPS on-the-spot claiming; preferred provider for some funds; SmileFund up-to-18-month interest-free payment plan; 'No Gap check-up and clean' new patient offer (T&Cs apply). |
 | **Health funds** | Accepts all major health funds; preferred provider for Australian Unity, HCF, Medibank, NIB, HIF, CBHS, Defence Health, Nurses & Midwives, Teachers, Teachers Union, Uni, Union and RT Health |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Davin Pinto | Not confirmed from public sources at time of verification | Dentist named on the National Dental Care Box Hill page |
-| Dr Jason Ho | Not confirmed from public sources at time of verification | Dentist named on the National Dental Care Box Hill page |
-| Dr Jason Tan | Not confirmed from public sources at time of verification | Dentist named on the National Dental Care Box Hill page |
-| Dr Lakshmi Arunachalam | Not confirmed from public sources at time of verification | Dentist named on the National Dental Care Box Hill page |
-| Dr Kitty Liu | Not confirmed from public sources at time of verification | Dentist named on the National Dental Care Box Hill page |
-| Dr Mai Eltanbouli | Not confirmed from public sources at time of verification | Dentist named on the National Dental Care Box Hill page |
-| Dr Naser Albarbari | Not confirmed from public sources at time of verification | Oral surgeon named on the National Dental Care Box Hill page |
-| Fathima Samsudeen | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Oral health therapist named on the National Dental Care Box Hill page |
-| Karim Faltas | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Oral health therapist named on the National Dental Care Box Hill page |
+| Dr Davin Pinto | Dentist | — |
+| Dr Jason Ho | Dentist | — |
+| Dr Jason Tan | Dentist | — |
+| Dr Lakshmi Arunachalam | Dentist | — |
+| Dr Kitty Liu | Dentist | — |
+| Dr Mai Eltanbouli | Dentist | — |
+| Dr Naser Albarbari | Oral Surgeon | — |
+| Fathima Samsudeen | Oral Health Therapist | — |
+| Karim Faltas | Oral Health Therapist | — |
+
+Source: https://www.nationaldentalcare.com.au/box-hill
 
 **Services:** General dentistry, cosmetic dentistry, emergency dental care, check-ups, children's dentistry, periodontics, root canal treatment, fillings, mouthguards, extractions, veneers, dental implants.
 
@@ -104,7 +110,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 1, Level 1, 938-940 Whitehorse Road, Box Hill VIC 3128 |
 | **Phone** | 03 8595 3075 |
-| **Hours** | Mon-Fri 10:00am-6:00pm · Sat 10:00am-3:00pm · Sun Closed |
+| **Email** | admin@dentalboxhill.com.au |
+| **Hours** | Mon 10:00am-6:00pm · Tue 10:00am-6:00pm · Wed not listed · Thu 10:00am-6:00pm · Fri 10:00am-6:00pm · Sat 10:00am-3:00pm · Sun not listed |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -135,10 +142,28 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1, 27 Carrington Road, Box Hill VIC 3128 |
 | **Phone** | 03 8595 2632 |
+| **Email** | admin@smilegallerydental.com.au |
+| **Website** | https://smilegallerydental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Not confirmed from public sources at time of verification.
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr John Kim | BDS Sydney University | — |
+| Dr James Tung | — | Over two decades helping patients (as stated) |
+| Dr Angie Song | DDS | Dr Yuxuan Song |
+| Dr Joseph Huang | Doctor of Dental Surgery, University of Melbourne 2017 | — |
+| Dr Oscar Chng | Bachelor of Dental Surgery, University of Adelaide | — |
+| Dr Tony Deng | University of Queensland, honours | — |
+| Dr Eileen An | — | — |
+| Dr Sue Park | — | Described as fully accredited practitioner |
+| Dr Kitty Liu | Masters in Dentistry, La Trobe University | — |
+| Dr Simon Chiu | Doctor of Dental Surgery, University of Melbourne | — |
+
+Source: https://smilegallerydental.com.au/about-us/
 
 **Services:** General dentistry, orthodontics, dental implants, cosmetic dentistry.
 
@@ -150,6 +175,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Ground Floor, 41-43 Carrington Road, Box Hill VIC 3128 |
 | **Phone** | 03 9430 9100 |
+| **Email** | contact@healthability.org.au |
+| **Website** | https://healthability.org.au/location/box-hill/general-dental |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Mixed billing · Bulk billing available with conditions, fees may apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -163,6 +191,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 65 Carrington Road, Box Hill VIC 3128 |
 | **Phone** | 03 9897 4411 |
+| **Email** | info@wypdental.com.au |
+| **Website** | https://www.wypdental.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
 | **Billing** | Mixed billing · Bulk billing available with conditions, fees may apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -205,5 +236,16 @@ All dental practitioners in Australia must hold current registration with the **
 | Healthdirect — WYP Dental Clinic - Box Hill | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/box-hill-3128-vic/wyp-dental-clinic-box-hill/dentists/0dad229d-e644-4f87-acd1-df5cfd4ff21e |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| My Choice Dental Box Hill — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/box-hill-3128-vic/my-choice-dental-box-hill/dentists/8f04455e-27a2-4211-8e6f-31dae142e1e3 |
+| National Dental Care Box Hill — enrichment source | https://www.nationaldentalcare.com.au/box-hill (address in page source) |
+| Smile Gallery Dental Clinic — enrichment source | https://smilegallerydental.com.au/ |
+| Smile Gallery Dental Clinic — enrichment source | https://smilegallerydental.com.au/about-us/ |
+| Smile Gallery Dental Clinic — enrichment source | https://smilegallerydental.com.au/contact-us/ |
+| WYP Dental Clinic - Box Hill — enrichment source | https://www.wypdental.com.au/ |
+| WYP Dental Clinic - Box Hill — enrichment source | https://www.wypdental.com.au/contact |
+| WYP Dental Clinic - Box Hill — enrichment source | https://www.wypdental.com.au/our-team |
+| WYP Dental Clinic - Box Hill — enrichment source | https://zh.wypdental.com.au/box-hill-dentist |
+| healthAbility - Box Hill — enrichment source | https://healthability.org.au/location/box-hill/general-dental |
+| healthAbility - Box Hill — enrichment source | https://healthability.org.au/location/box-hill/general-dental (organisation-wide address in page source) |
 
 **Data limitations:** Clinic details are sourced from Healthdirect service profiles and the National Dental Care Box Hill page as at 2026-11-03. Opening hours are shown only where every trading day was published; for the other clinics, confirm hours directly with the clinic. Rosters change; always verify current practitioners and hours directly with the clinic.

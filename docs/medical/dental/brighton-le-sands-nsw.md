@@ -72,16 +72,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 247 Bay Street, Brighton-Le-Sands NSW 2216 |
 | **Phone** | (02) 9538 7028 |
-| **Hours** | Mon-Tue 9:00am-1:00pm and 2:00pm-5:30pm · Wed Closed · Thu-Fri 9:00am-1:00pm and 2:00pm-5:30pm · Sat 9:00am-1:00pm · Sun Closed |
+| **Email** | brightonbaydental@live.com.au |
+| **Website** | https://brightonbaydental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-5:30pm · Tue 9am-5:30pm · Wed Closed · Thu 9am-5:30pm · Fri 9am-5:30pm · Sat 9am-1pm · Sun Closed |
+| **Billing** | Homepage: Child Dental Benefits Schedule available for eligible children (confirm eligibility before booking); promotional offers (free Invisalign/orthodontic consult, whitening specials) with terms and conditions. Payment-method FAQ not expanded. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Janice Lau | Bachelor of Dentistry (Honours), University of Sydney, 2003 | Principal dentist and owner; the practice states she provides general, cosmetic and restorative dentistry and has an interest in orthodontics. |
-| Dr Alan Trinh | University of Sydney graduate, 2001; Graduate Diploma in Clinical Dentistry in Oral Implants, University of Sydney | Practice profile states he performs oral surgery, dental implants, wisdom teeth removal and surgical extractions. |
-| Dr Mei Lai | Not confirmed from public sources at time of verification | Practice profile states she is both a qualified dentist and dental hygienist. |
+| Dr Janice Lau | BDS (Hons) | Principal dentist and owner |
+| Dr Alan Trinh | — | Implants, wisdom teeth removal and surgical extractions |
+| Dr Mei Lai | Described as both a qualified dentist and dental hygienist | — |
+| Rehab Osman | Bachelor of Oral Health, University of Sydney, 2013 (as stated) | Oral health therapist / dental hygienist |
+| Vano Ravendiran | — | Oral health therapist |
+
+Source: https://brightonbaydental.com.au/
 
 **Services:** Preventative dentistry, restorative dentistry, cosmetic dentistry, check-ups, cleaning, fillings, root canal therapy, emergency dentistry, veneers, teeth whitening, orthodontics, dental implants, kids dentistry, snoring and sleep mouthguards.
 
@@ -93,14 +101,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 1 Crawford Road, Brighton-Le-Sands NSW 2216 |
 | **Phone** | (02) 9567 1959 |
-| **Hours** | Mon-Wed 8:00am-5:00pm · Thu Closed · Fri 8:00am-4:00pm · Sat 8:00am-12:00pm · Sun Closed |
+| **Email** | toothfairy@familydentalpractice.com.au |
+| **Website** | https://familydentalpractice.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-5:00pm · Tue 8:30am-5:00pm · Wed 8:30am-5:00pm · Thu Closed · Fri 8:30am-5:00pm · Sat 8:00am-12:00pm · Sun Closed |
+| **Billing** | Payment policy: payment required at time of treatment; accepts Cash, Eftpos, Amex, Mastercard, Visa, Afterpay, ZipPay and Veteran Affairs. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Fiona Gallagher | University of Sydney graduate, 1987; Fellow of the Royal Australasian College of Dental Surgeons in General Practice, 1992 | Practice founder; the clinic states she established Family Dental Practice in 1994. |
+| Dr Fiona Gallagher | Practising since 1987; RACDS general practice fellowship 1992 (as stated) | Referred to as Dr Gallagher / Dr Fiona on the site |
+
+Source: https://familydentalpractice.com.au/
 
 **Services:** General dentistry, emergency dentistry, dental checks and health, children's dentistry, teeth cleaning, teeth whitening, TMJ disorder and bruxism care, mouthguards, gum disease care, restorative dentistry, veneers, cosmetic dentistry, fillings and composites, tooth extractions, crowns and bridges, dental implants, dentures, root canal treatment, sedation dentistry.
 
@@ -132,5 +146,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Family Dental Practice - Dr Fiona Gallagher | https://familydentalpractice.com.au/about-family-dental/dr-fiona-gallagher/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Family Dental Practice — enrichment source | https://familydentalpractice.com.au/contact/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-03. Rosters change; always verify current practitioners and hours directly with the clinic.

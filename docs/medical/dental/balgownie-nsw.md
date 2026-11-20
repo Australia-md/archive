@@ -56,10 +56,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 120 Balgownie Road, Balgownie NSW 2519 |
 | **Phone** | (02) 4285 3855 |
-| **Hours** | Mon 8:15am–5:30pm · Tue 8:15am–5:30pm · Wed 8:15am–5:30pm · Thu 8:15am–5:30pm · Fri 8:15am–4:30pm |
+| **Email** | reception@balgowniedental.com.au |
+| **Website** | https://balgowniedental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:15am-5:30pm · Tue 8:15am-5:30pm · Wed 8:15am-5:30pm · Thu 8:15am-5:30pm · Fri 8:15am-4:30pm · Sat Closed · Sun Closed |
+| **Billing** | Site navigation lists dedicated 'SuperCare' and 'Zip Pay' payment pages (pages themselves not opened); no HICAPS/CDBS/bulk billing statement seen on pages read. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Jason Huang | BDS | Principal Dentist (leads practice from March 2025) |
+| Dr Kevin Casey | BDS | Dentist; opened the practice in 1985 |
+| Dr Lisa-Marie | BDS | Dentist (surname not shown) |
+| Barsha Dallakoti | — | Oral Health Therapist |
+
+Source: https://balgowniedental.com.au/about-us/
 
 **Services:** Family dentistry, general dentistry, restorative dentistry, cosmetic dentistry, preventative dentistry, emergency dentistry, child dental benefits schedule bulk billing, and payment plans.
 
@@ -86,5 +99,8 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Balgownie Dental Surgery — enrichment source | https://balgowniedental.com.au/ |
+| Balgownie Dental Surgery — enrichment source | https://balgowniedental.com.au/ (footer mailto link) |
+| Balgownie Dental Surgery — enrichment source | https://balgowniedental.com.au/about-us/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-20. Rosters change; always verify current practitioners and hours directly with the clinic.

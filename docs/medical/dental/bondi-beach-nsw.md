@@ -60,10 +60,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 136 Curlewis Street, Bondi Beach NSW 2026 |
 | **Phone** | (02) 9365 7187 |
-| **Hours** | Mon-Fri 8:00am-8:00pm · Sat 8:00am-8:00pm · Sun Closed except emergency call-ahead arrangements noted by the clinic |
+| **Email** | bondidental@hotmail.com |
+| **Website** | https://bondidental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-8:00pm · Tue 8:00am-8:00pm · Wed 8:00am-8:00pm · Thu 8:00am-8:00pm · Fri 8:00am-8:00pm · Sat 8:00am-8:00pm · Sun 8:00am-8:00pm (site states 'Monday - Sunday: 8:00AM - 8:00PM') |
+| **Billing** | Contact page: 'Smile Now, Pay Later - We accept flexible payment options' (terms and conditions apply); homepage references the Child Dental Benefits Schedule. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Haddon Suttner | Studied dentistry at Sydney University from 2003 (as stated) | Owner and principal dentist |
+| Dr Emma Robertson | — | Listed on team page |
+| Dr Adam Yurka | — | Listed on team page |
+
+Source: https://bondidental.com.au/our-team
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -75,10 +87,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 2, 177-179 Glenayr, Bondi Beach NSW 2026 |
 | **Phone** | (02) 9130 4827 |
-| **Hours** | Mon-Fri 9:00am-5:30pm · Sat 9:30am-2:30pm · Sun Closed |
+| **Website** | https://bondidentistry.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:30pm · Tue 9:00am-5:30pm · Wed Closed · Thu Closed · Fri 9:00am-5:30pm · Sat 9:30am-2:30pm · Sun Closed |
+| **Billing** | Payment options page: no gap for patients under 18 and those covered by the Child Dental Benefits Schedule; HICAPS on-the-spot health fund claims; cash, bank cheque, EFTPOS, all major credit cards; direct transfers if approved before treatment. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Helen Kanikevich | — | Named as the dentist on homepage and site title; practice states 25+ years providing treatment |
+
+Source: https://bondidentistry.com.au/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -106,5 +127,11 @@ All dental practitioners in Australia must hold current registration with the **
 | 2021 Census QuickStats — Bondi Beach | https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10463 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bondi Dental — enrichment source | https://bondidental.com.au/ |
+| Bondi Dental — enrichment source | https://bondidental.com.au/contact/ |
+| Bondi Dental — enrichment source | https://bondidental.com.au/our-team |
+| Bondi Dentistry — enrichment source | https://bondidentistry.com.au/ |
+| Bondi Dentistry — enrichment source | https://bondidentistry.com.au/contact/ |
+| Bondi Dentistry — enrichment source | https://bondidentistry.com.au/payment-options/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-08-07. Rosters change; always verify current practitioners and hours directly with the clinic.

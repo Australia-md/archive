@@ -66,16 +66,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Village Centre, Suite 3-4, 10-20 Market Street, Breakfast Point NSW 2137 |
 | **Phone** | (02) 9743 5744 |
-| **Hours** | Mon-Wed 9:00am-5:00pm · Thu 9:00am-8:00pm · Fri-Sat 9:00am-5:00pm · Sun Closed |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 10:00am-8:00pm · Fri 8:00am-6:00pm · Sat 9:00am-5:00pm · Sun not listed |
 | **Access** | Wheelchair accessible. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Mr Frank Nguyen | Not confirmed from public sources at time of verification | Listed as a dentist for this service on the current Healthdirect service profile. |
-| Dr Melissa Licenblat | Not confirmed from public sources at time of verification | Listed as a dentist for this service on the current Healthdirect service profile. |
+| Dr Yo-Han Choi | General Dentist | Dentist.com.au profile (as 'Canada Bay Dental and Dermal'): studied at the University of Queensland; speaks Korean and English |
+| Dr David Jang | General Dentist | Dentist.com.au profile (as 'Canada Bay Dental and Dermal'): speaks Korean and English |
+
+Source: https://www.dentist.com.au/dentist-detail/canada-bay-dental-and-dermal/A11004839
 
 **Services:** Not confirmed from public sources at time of verification.
 

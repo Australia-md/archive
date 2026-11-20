@@ -74,16 +74,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Bateau Bay Square, 12 Bay Village Road, Bateau Bay NSW 2261 |
 | **Phone** | (02) 4332 5400 |
-| **Hours** | Public sources conflict at time of verification: the Pacific Smiles clinic page lists Monday-Tuesday 8:30am-5:30pm, Wednesday 8:00am-4:30pm, Thursday 9:00am-6:00pm, Friday 8:30am-5:00pm and Saturday 9:00am-5:00pm, while indexed search snippets list slightly different Friday-Saturday hours. Sunday closed. Verify directly with the clinic. |
+| **Website** | https://pacificsmilesdental.com.au/locations/bateau-bay/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-5:00pm · Tue 8:30am-5:00pm · Wed 8:00am-4:30pm · Thu 9:00am-6:00pm · Fri 9:00am-4:30pm · Sat 9:00am-4:30pm · Sun Closed (site: public holiday hours may differ) |
+| **Billing** | Payment options page: payment plans for treatments with out-of-pocket cost over $1000, direct debit payment plans, Afterpay and zipMoney ('interest-free dental payment plans' per site); participating centres only. Location page: 'Child Dental Care' service listed; no bulk billing or HICAPS statement read. |
 | **Access** | Parking is available at Bateau Bay Square, and the clinic states it is located opposite Australia Post in the centre. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Mojtaba Dian | Qualification not confirmed from public sources at time of verification | General dentist; public profile notes interests in prosthodontics, endodontics, periodontics, veneers, cosmetic restorations and child dentistry |
-| Nicholas Lototzky | Dental prosthetist; qualified 1993 | Public profile notes 30+ years of experience and English/Russian communication |
+| Iain Henderson | — | Listed as 'General Dentist with Special Interest in Implants' under Specialist dentists |
+| Nicholas Lototzky | — | Listed as 'Dental Prosthetist (Dentures)' |
+| Dr Mojtaba Dian | — | Named in clinic news post 'Trusted Family Dentist at Pacific Smiles Dental Bateau Bay' |
+
+Source: https://pacificsmilesdental.com.au/locations/bateau-bay/
 
 **Services:** Cosmetic dentistry, child dental care, dental check-ups, dental crowns, dental implants, dentures, emergency dental, endodontics, gum disease treatment, Invisalign, orthodontics, periodontics, prosthodontics, root canal treatment, sleep dentistry, teeth cleaning, teeth whitening, tooth extraction, veneers, wisdom teeth removal.
 
@@ -95,11 +101,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 6, Cresthaven Shopping Complex, Bateau Bay NSW 2261 |
 | **Phone** | (02) 4331 8440 |
-| **Hours** | Mon 9:30am-5:30pm · Tue By Appointment · Wed 9:30am-5:30pm · Thu 9:30am-5:00pm · Fri Closed · Sat Closed · Sun Closed |
+| **Email** | reception@gentledentalbb.com.au |
+| **Website** | https://gentledentalbb.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed not listed · Thu 9:00am-5:00pm · Fri not listed · Sat not listed · Sun not listed (site prints 'Mon, Tues & Thu : 09:00 am - 05:00 pm' for Bateau Bay) |
+| **Billing** | Homepage Payment Options: gap-free preventive services for eligible members of HCF Extras, RT Health and CBHS Health Fund; interest-free payment plans through Humm; Afterpay accepted for eligible treatments; Medicare bulk billing for eligible children under 18 via the Child Dental Benefits Schedule (CDBS); cash, EFTPOS, Visa and Mastercard accepted. |
 | **Access** | Public practice information states easy access with unlimited free parking. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Manish Taneja | Bachelor of Dental Surgery 1997; MBA in healthcare (as stated on site) | Special interest in prosthodontics |
+| Dr Shveta Taneja | Bachelor of Dental Surgery 2000; Australian Dental Council certification examination completed (as stated on site) | General dentistry and orthodontics interest |
+
+Source: https://gentledentalbb.com.au/
 
 **Services:** Preventive care, cosmetic dentistry, oral surgery, laser dentistry, dentures, single-visit crowns and onlays, clear aligners, check-up and clean, mouthguards, fissure sealants, fillings, fluoride treatments, root canal treatment, implants, extractions, Zoom whitening.
 
@@ -131,5 +148,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Gentle Dental Bateau Bay | https://gentledentalbb.com.au/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Gentle Dental Bateau Bay — enrichment source | https://gentledentalbb.com.au/ (Bateau Bay contact block; info@gentledentalbb.com.au is printed for the Budgewoi location) |
+| Pacific Smiles Dental - Bateau Bay — enrichment source | https://pacificsmilesdental.com.au/payment-options/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-06. Rosters change; always verify current practitioners and hours directly with the clinic.

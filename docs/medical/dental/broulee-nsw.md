@@ -69,10 +69,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 6/40 Train Street, Broulee NSW 2537 |
 | **Phone** | (02) 4472 9535 |
-| **Hours** | Mon 8:00am–7:00pm · Tue 7:00am–7:00pm · Wed 8:00am–4:00pm · Thu 8:00am–4:00pm · Fri 8:00am–3:00pm · Sat–Sun Closed |
+| **Email** | smile@tidytooth.au |
+| **Website** | https://tidytooth.com.au/ |
+| **Website check** | Webflow site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-7:00pm · Tue 7:00am-7:00pm · Wed 8:00am-4:00pm · Thu 8:00am-4:00pm · Fri 8:00am-3:00pm · Sat Closed · Sun Closed |
+| **Billing** | New Patients page: 'Payment plans available to spread the cost of larger treatment'; itemised plan with costs in writing before treatment; patients asked to bring Medicare card and health fund card. No HICAPS, bulk billing or CDBS claim confirmed on the pages read (a separate Payment Plans page exists and was not read). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Steve Tangney | Principal Dentist · Co-Owner | Location shown on team page: Broulee |
+| Dr Eoin Lehane | Principal Dentist · Co-Owner | Location shown on team page: Broulee |
+| Dr Molly Wilcox | General Dentist | Location shown on team page: Batemans Bay and Broulee |
+| Dr Fiona Bian | General Dentist | Location shown on team page: Broulee |
+| Dr Leon Chin | General Dentist | Location shown on team page: Broulee |
+| Dr Neha Arghode | General Dentist | Location shown on team page: Batemans Bay and Broulee |
+| Mayomi Walisundara | Oral Health Therapist | Location shown on team page: Broulee |
+| Zoe Williams | Oral Health Therapist | Location shown on team page: Batemans Bay and Broulee |
+
+Source: https://tidytooth.com.au/meet-the-team
 
 **Services:** General and family dentistry, cosmetic dentistry, dental implants, clear aligner treatment, same-day crowns, children's dentistry, wisdom teeth care, and emergency dental appointments.
 
@@ -103,5 +120,8 @@ All dental practitioners in Australia must hold current registration with the **
 | Australian Bureau of Statistics, 2021 Census QuickStats | https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10605 |
 | Visit NSW | https://www.visitnsw.com/destinations/south-coast/batemans-bay-and-eurobodalla/broulee |
 | Tidy Tooth Dental — Broulee | https://tidytooth.com.au/locations/broulee |
+| Tidy Tooth Dental — Broulee — enrichment source | https://tidytooth.com.au/locations/broulee (mailto link and footer) |
+| Tidy Tooth Dental — Broulee — enrichment source | https://tidytooth.com.au/meet-the-team |
+| Tidy Tooth Dental — Broulee — enrichment source | https://tidytooth.com.au/new-patients |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-13. Rosters change; always verify current practitioners and hours directly with the clinic.

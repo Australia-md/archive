@@ -60,10 +60,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 14 Colonial Drive, Bligh Park NSW 2756 |
 | **Phone** | (02) 4572 7564 |
-| **Hours** | Mon–Thu 8:00am–6:00pm |
+| **Email** | reception@hbortho.com.au |
+| **Website** | https://hbortho.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 8:00am-6:00pm (header of About Us page); Sat/Sun not listed |
+| **Billing** | Homepage: '0% Payment Plans'; metal braces from $94 per week, $0 deposit; ceramic braces from $100 per week, $0 deposit; Invisalign from $117 per week, $0 deposit; free consultations until end of November 2026. No Medicare/CDBS/HICAPS claims found on pages read. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Priyanka Ponna | — | Listed as one of the orthodontists on The Orthodontists page; bio says she completed dental studies at the University of Sydney (Doctor of Dental Medicine) |
+| Dr Shanya Hammond | — | Listed on The Orthodontists page |
+| Dr Leigh Jones | — | Listed on The Orthodontists page |
+| Dr David Stuhmcke | — | Listed on The Orthodontists page |
+| Courtney Smith | Bachelor of Oral Health, University of Sydney (2009) | Oral Health Therapist (Meet The Team page) |
+| Ali Sawari | — | Oral Health Therapist (named on Meet The Team page) |
+
+Source: https://hbortho.com.au/the-orthodontists/ ; https://hbortho.com.au/meet-the-team/
 
 **Services:** Orthodontic consultations, Invisalign, metal braces, ceramic braces, retainers.
 
@@ -91,5 +106,8 @@ All dental practitioners in Australia must hold current registration with the **
 | Hawkesbury Orthodontics — Bligh Park | https://hbortho.com.au/the-orthodontists/bligh-park/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Hawkesbury Orthodontics — enrichment source | https://hbortho.com.au/about-us/ (site header) |
+| Hawkesbury Orthodontics — enrichment source | https://hbortho.com.au/contact-us/ (printed in an embedded social post on the Contact page) |
+| Hawkesbury Orthodontics — enrichment source | https://hbortho.com.au/the-orthodontists/ ; https://hbortho.com.au/meet-the-team/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-26. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -59,7 +59,11 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 2, 668 Botany Road, Alexandria NSW 2015 |
 | **Phone** | (02) 9693 2212 |
-| **Hours** | Mon–Fri 9:00am–6:00pm · Weekend hours not confirmed from public sources at time of verification |
+| **Email** | info@alphahealthclinic.com.au |
+| **Website** | https://alphahealthclinic.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-7:00pm · Tue 8:30am-7:00pm · Wed not listed · Thu 8:30am-7:00pm · Fri 8:30am-7:00pm · Sat 8:30am-4:00pm · Sun Closed |
+| **Billing** | Homepage: 'Payment Plans Available'. No other billing claims read. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
@@ -78,15 +82,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 2, 138-142 Botany Road, Alexandria NSW 2015 |
 | **Phone** | (02) 8399 3661 |
-| **Hours** | Mon–Fri 8:00am–8:00pm · Sat–Sun 8:00am–4:00pm · Closed on public holidays |
+| **Email** | welcome@densindente.com.au |
+| **Website** | https://densindente.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-8:00pm · Tue 8:00am-8:00pm · Wed 8:00am-8:00pm · Thu 8:00am-8:00pm · Fri 8:00am-8:00pm · Sat 8:00am-4:00pm · Sun 8:00am-4:00pm · Closed on public holidays |
+| **Billing** | Fees & Payment page: private fees; payment plans may be offered to long-term existing patients for major dental services only after prior discussion and written approval from the Principal Dentist in exceptional circumstances; otherwise arrange a payment plan independently via other financial providers. Site menu also has a Health Insurances page (contents not read). |
 | **Access** | Practice website states the clinic is near bus, train and metro public transport and is wheelchair accessible |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Thien-Nhien Nguyen | B.Med.Sc., B.Dent. (University of Sydney); Dip. Dent. Tech. (TAFE NSW) | General dentist; practice website says the clinic has operated in Alexandria since 2012 |
+| Dr Thien-Nhien Nguyen | Bachelors of Medical Science and Dentistry, University of Sydney (2006) as stated on About page | Presented as 'The Dentist'; general dentistry |
+
+Source: https://densindente.com.au/about-us/
 
 **Services:** Children's dentistry, preventative dentistry, general restorative dentistry, cosmetic dentistry, dental implants, dentures and overdentures, denture repairs and relines, emergency dentistry, gum hygiene and gum disease treatment, orthodontics by dentist, root canal therapy, snoring and sleep apnoea treatment, teeth whitening, TMJ pain and bruxism management, wisdom teeth management.
 
@@ -113,5 +123,13 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Alpha Health Clinic — enrichment source | https://alphahealthclinic.com.au/ |
+| Alpha Health Clinic — enrichment source | https://alphahealthclinic.com.au/about/ (footer, printed text) |
+| Alpha Health Clinic — enrichment source | https://alphahealthclinic.com.au/location/ |
+| Dens in Dente Dental Care — enrichment source | https://densindente.com.au/ |
+| Dens in Dente Dental Care — enrichment source | https://densindente.com.au/about-us/ |
+| Dens in Dente Dental Care — enrichment source | https://densindente.com.au/contact-us/ ('By Appointments'; 'Walk-in Welcome') |
+| Dens in Dente Dental Care — enrichment source | https://densindente.com.au/contact-us/ (printed text) |
+| Dens in Dente Dental Care — enrichment source | https://densindente.com.au/patient-resources/feespayment/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-04-10. Rosters change; always verify current practitioners and hours directly with the clinic.

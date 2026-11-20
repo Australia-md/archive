@@ -59,10 +59,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 24 Avalon Parade, Avalon Beach NSW 2107 |
 | **Phone** | (02) 9918 2786 |
-| **Hours** | Mon–Wed 8am–6pm · Thu 10am–7pm · Fri 8am–5pm · Sat–Sun Closed |
+| **Website** | https://mavendental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 9:00am-6:00pm · Fri 8:00am-5:00pm · Sat not listed · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Sherry Mousavi | — | Listed as Dentist on HealthEngine profile |
+
+Source: https://healthengine.com.au/dentist/nsw/avalon-beach/maven-dental-avalon-beach/s83806
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -74,10 +82,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 6, 15 Old Barrenjoey Road, Avalon Beach NSW 2107 |
 | **Phone** | (02) 9918 7778 |
-| **Hours** | Mon 8am–6pm · Tue 9am–7:30pm · Wed 9am–5:30pm · Thu 8:30am–7:30pm · Fri 8am–5pm · Sat by appointment only · Sun Closed |
+| **Email** | astrid@avalonbeachfamilydental.com.au |
+| **Website** | https://www.avalonbeachfamilydental.com.au/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-5:00pm · Tue 8:30am-5:00pm · Wed 8:30am-5:00pm · Thu 8:30am-5:00pm · Fri 8:30am-5:00pm · Sat not listed · Sun not listed |
+| **Billing** | Homepage: bulk billing for children eligible for the Medicare Child Dental Benefits Schedule and for Veteran Affairs patients; 'gap-free' check-ups for children under 7 if in a private health fund for dental, discounted rate up to age 25; HICAPS on-site for health fund claiming. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Jayne Temple | — | Named in team photo caption on homepage |
+| Dr Astrid Kylstra | — | Named in team photo caption on homepage |
+| Dr Mary Clayton | — | Named in team photo caption on homepage |
+| Dr Linda Roberts | — | Named in team photo caption on homepage |
+
+Source: https://www.avalonbeachfamilydental.com.au/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -104,5 +125,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Avalon Beach Family Dental — enrichment source | https://www.avalonbeachfamilydental.com.au/ |
+| Avalon Beach Family Dental — enrichment source | https://www.avalonbeachfamilydental.com.au/ (printed in footer contact line) |
+| Maven Dental Avalon Beach — enrichment source | https://healthengine.com.au/dentist/nsw/avalon-beach/maven-dental-avalon-beach/s83806 |
+| Maven Dental Avalon Beach — enrichment source | https://mavendental.com.au/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-10. Rosters change; always verify current practitioners and hours directly with the clinic.

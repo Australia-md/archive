@@ -69,13 +69,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 332 Railway Parade, Carlton NSW 2218 |
 | **Phone** | (02) 9665 5000 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Email** | hello@kalodental.com |
+| **Website** | https://kalodental.com/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-4:00pm · Tue 8:00am-5:00pm · Wed 11:00am-7:00pm · Thu 8:00am-4:00pm · Fri 8:00am-4:00pm · Sat 8:00am-12:00pm · Sun not listed |
+| **Billing** | Site menu/footer link: 'Free Children's Dental Care CDBS' (eligibility check). No other billing claims read. |
 | **Access** | Appointment needed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names and current registration were not confirmed from public sources at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Peter Bakouris | BOH(USyd), BDSc(CSU) | Founding Dentist |
+| Dr Aoife Canon | — | Associate Dentist |
+| Dr Nicholas Del Din (Dr Nick) | — | Named on Meet the Team page; role not read |
+
+Source: https://kalodental.com/about-us/meet-the-team/
 
 **Services:** General dentistry, emergency care, cosmetic dental procedures.
 
@@ -90,9 +100,13 @@ All dental practitioners listed below are required to hold current registration 
 | **Hours** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names and current registration were not confirmed from public sources at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Nicolaos Papadopoulos | — | Listed as General Dentist on Dentist.com.au |
+
+Source: https://www.dentist.com.au/dentist-detail/dr-nick-papadopoulos-dental-surgery/A11000553
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -140,5 +154,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Kalo Dental — enrichment source | https://kalodental.com/ |
+| Kalo Dental — enrichment source | https://kalodental.com/about-us/meet-the-team/ |
+| Kalo Dental — enrichment source | https://kalodental.com/contact-us/ |
+| Kalo Dental — enrichment source | https://kalodental.com/contact-us/ (also Healthdirect profile) |
 
 **Data limitations:** Practitioner rosters, hours, and services are included only where confirmed from public listings as at 2026-11-07. Rosters change; always verify current practitioners and hours directly with the clinic.

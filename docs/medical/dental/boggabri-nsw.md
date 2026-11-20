@@ -63,7 +63,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 10 Wee Waa Street, Boggabri NSW 2382 |
 | **Phone** | (02) 6749 7097 |
-| **Hours** | Mon-Fri 9:00am-5:00pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Website** | https://ochrehealth.com.au/medical-centre-boggabri/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9:00am-5:00pm; Sat not listed; Sun not listed (closed public holidays for in-person appointments) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -95,5 +97,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Boggabri Medical Centre — Healthengine | https://healthengine.com.au/medical-centre/nsw/boggabri/boggabri-medical-centre/s14443 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Boggabri Medical Centre — enrichment source | https://ochrehealth.com.au/medical-centre-boggabri/contact-us/ |
 
 **Data limitations:** Public sources verified one in-town practice currently tagged for dental services, but they did not publish a dental practitioner roster or detailed dental scope as at 2026-08-01. Practice service tags and opening hours can change; always confirm current availability directly with the practice.

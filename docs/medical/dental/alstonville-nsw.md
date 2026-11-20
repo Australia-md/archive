@@ -65,13 +65,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 21-23 Daley Street, Alstonville NSW 2477 |
 | **Phone** | (02) 6628 0783 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Website** | https://www.daleystreetdental.com.au/ |
+| **Website check** | CMS not identified · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00AM-6:00PM · Tue 8:00AM-6:00PM · Wed 8:00AM-6:00PM · Thu 8:00AM-6:00PM · Fri 8:00AM-6:00PM · Sat upon request · Sun Closed |
+| **Billing** | Preferred Bupa Members First and HCF Preferred Provider; accepts all health funds with on-the-spot rebates via HICAPS; bulk billing for eligible children under CDBS, eligible Veterans Affairs patients and local public patients under OHFFSS. |
 | **Network** | Bupa Members First; HCF Preferred Provider |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Kieran McNamara | Bachelor of Dental Surgery (University of Sydney, honours) | Cosmetic dentistry, implants, wisdom teeth |
+| Dr Marta Kozera | Graduated Sydney University with honours; Postgraduate Diploma in Orthodontics (James Cook University) | Family dentistry; not taking new orthodontic patients |
+| Dr Richard Redmayne | — | Principal dentist for over 36 years |
+| Dr Eleanor Robertson | — | General dentistry |
+| Dr Andrew Sharpe | Graduate Diploma of Dentistry and Bachelor of Oral Health (Griffith University) | — |
+| Dr Jefferson Berlt | Bachelor of Dentistry (Brazil); Masters of Periodontology | Site states he is a registered dental practitioner with the Australian Dental Council |
+| Ms Alana Kennedy | — | Oral Health Therapist |
+| Kylie | — | Hygienist |
+
+Source: https://www.daleystreetdental.com.au/about-us
 
 **Services:** General dentistry, children's dentistry, orthodontics, dental implants, cosmetic dentistry, emergency dentistry, wisdom teeth removal, restorative dentistry, family dentistry, sleep dentistry, crowns and bridges, extractions, and root canal treatment.
 
@@ -83,12 +97,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 37, 8-20 Robertson Street, Alstonville NSW 2477 |
 | **Phone** | (02) 6628 8556 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Email** | admin@alstonvillefamilydental.com.au |
+| **Website** | https://www.alstonvillefamilydental.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:30pm · Tue 8:00am-5:30pm · Wed 8:00am-5:30pm · Thu 8:00am-5:30pm · Fri 8:00am-5:00pm · Sat Closed · Sun Closed |
+| **Billing** | Participates in the Child Dental Benefits Schedule (costs for covered services billed directly to Medicare, no upfront payment); flexible payment options for non-CDBS patients (contact practice). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Steven Kleiman | — | Dentist; 40 years experience |
+| Dr Beth Peters | — | Dentist; restorative dentistry |
+| Dr Laura Donohoe | — | Dentist; previously at Maven Dental Plateau, which the site says has merged with Alstonville Family Dental |
+
+Source: https://www.alstonvillefamilydental.com.au/about-us
 
 **Services:** General dental services not confirmed from public sources at time of verification; Healthdirect confirms the practice operates as a dentist service in Alstonville with Saturday appointments available by appointment only.
 
@@ -100,12 +124,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 7 Commercial Road, Alstonville NSW 2477 |
 | **Phone** | (02) 6628 3525 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Email** | alstonville@mavendental.com.au |
+| **Website** | https://mavendental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8am-6pm · Tue 8am-6pm · Wed 8am-6pm · Thu 8am-6pm · Fri 8am-5pm · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: Fees apply; booking via website available. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Laura Donohoe | — | Per Alstonville Family Dental about page: has served Alstonville since 2019 at Maven Dental Plateau, which has recently merged with Alstonville Family Dental |
+
+Source: https://www.alstonvillefamilydental.com.au/about-us
 
 **Services:** General dental services not confirmed from public sources at time of verification; Healthdirect confirms online booking is available.
 
@@ -134,5 +166,14 @@ All dental practitioners in Australia must hold current registration with the **
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
 | Daley Street Dental | https://www.daleystreetdental.com.au/ |
 | Wikipedia — Alstonville | https://en.wikipedia.org/wiki/Alstonville,_New_South_Wales |
+| Alstonville Family Dental — enrichment source | https://www.alstonvillefamilydental.com.au/ |
+| Alstonville Family Dental — enrichment source | https://www.alstonvillefamilydental.com.au/about-us |
+| Alstonville Family Dental — enrichment source | https://www.alstonvillefamilydental.com.au/cdbs |
+| Alstonville Family Dental — enrichment source | https://www.alstonvillefamilydental.com.au/contact-us |
+| Daley Street Dental — enrichment source | https://www.daleystreetdental.com.au/about-us |
+| Daley Street Dental — enrichment source | https://www.daleystreetdental.com.au/contact |
+| Maven Dental Plateau Alstonville — enrichment source | https://mavendental.com.au/ |
+| Maven Dental Plateau Alstonville — enrichment source | https://www.alstonvillefamilydental.com.au/about-us |
+| Maven Dental Plateau Alstonville — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/alstonville-2477-nsw/maven-dental-plateau-alstonville/dentists/5ecc38f8-b646-2afa-05f1-e075008a58c2 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-04-24. Rosters change; always verify current practitioners and hours directly with the clinic.

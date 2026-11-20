@@ -63,7 +63,11 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 61 Oxley Street, Bourke NSW 2840 |
 | **Phone** | (02) 6872 3088 |
-| **Hours** | Mon-Fri 9:00am-5:00pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Email** | admin@bachs.com.au |
+| **Website** | https://bachs.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9am-5pm (clinic hours); Sat/Sun not listed |
+| **Billing** | Services page: 'Bourke Aboriginal Corporation Health Service Bulk Bills for all Medicare rebateable fees' (valid Medicare card needed); charges may apply for services outside Medicare scope or for patients not covered by Medicare; payment at time of appointment by credit card via eftpos (no cash); the GP service is stated as 'All services are bulk-billed'. The Dental Clinic section does not state its own billing terms, so dental bulk billing is not confirmed. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).

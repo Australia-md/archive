@@ -92,7 +92,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 8, 2A Brown Street, Ashfield NSW 2131 |
 | **Phone** | (02) 9747 8699 |
-| **Hours** | Mon 9am–6:30pm · Tue 8am–6:30pm · Wed 9am–5pm · Thu 2pm–8pm · Sat 9am–1pm · Fri and Sun hours not confirmed from public sources at time of verification |
+| **Email** | info@simplybraces.com |
+| **Website** | https://simplybraces.com/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Tue 9:00am-6:30pm · Thu 2:00pm-7:00pm · Alternate Saturday 9:00am-1:00pm (website; footer also says 'Monday – Saturday (By Appointment Only)'); Wed, Fri, Sun not stated on website |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 > **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -107,10 +110,28 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 249 Liverpool Road, Ashfield NSW 2131 |
 | **Phone** | (02) 9799 8374 |
-| **Hours** | Mon–Fri 9am–6pm · Sat 9am–5pm · Sun 9am–5pm |
+| **Email** | info@drclementcheung.com.au |
+| **Website** | https://www.dentalclinicsydney.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9:00am-6:00pm · Sat 9:00am-5:00pm · Sun 9:00am-5:00pm (open 7 days except public holidays) |
+| **Billing** | Payment methods listed: HICAPS, EFTPOS, cash, American Express, MasterCard, Visa, Bankcard. No bulk billing or CDBS claim stated. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Clement Cheung | Principal dentist; studied Dentistry at Sydney University 1981-1985 (as stated on site) | — |
+| Dr Lin Chen | Bachelor of Dental Surgery, University of Sydney | — |
+| Dr Wai Hung Sung | Bachelor of Dental Surgery, University of Hong Kong | — |
+| Dr Sarah Ooi | Bachelor of Dental Surgery, University of Adelaide | — |
+| Dr Nancy Wu | BMedSci, BDent (USyd) | — |
+| Dr Erica Wong | Faculty of Dentistry, University of Adelaide | — |
+| Dr Cecilia Yong | Bachelor of Dental Surgery, University of Adelaide | — |
+| Dr Qiushi Zeng | Bachelor of Pharmacy and Bachelor of Dentistry (Hons), University of Sydney | — |
+| Mandy Nga-Man Liu | BMedSci MPH BDent (Hons) | — |
+
+Source: https://www.dentalclinicsydney.com.au/dentist-sydney-meet-our-team/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -122,14 +143,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 24 Hercules Street, Ashfield NSW 2131 |
 | **Phone** | (02) 9798 4111 |
-| **Hours** | Mon–Fri 8:30am–5:30pm · Sat and Sun hours not confirmed from public sources at time of verification |
+| **Email** | info@ashfielddentalcentre.com.au |
+| **Website** | https://ashfielddentalcentre.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 8:00am-6:00pm · Sat Closed · Sun Closed |
+| **Billing** | Accepts Mastercard/VISA, American Express and cash; 'clinicians are registered with all Australian health funds' and claims can be processed on the spot with a health card; 'All major health funds accepted'; long-term flexible payment plans offered; Child Dental Benefits Schedule page present on site. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Anita Kouba | Not confirmed from public sources at time of verification | Healthdirect lists Dr Anita Kouba as a dentist at this clinic. |
+| Dr Anita Kouba | — | Listed as a dentist on the Healthdirect profile; clinic website team pages (/meet-the-team/, /our-team/) show no readable practitioner names in page text |
+
+Source: https://healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/ashfield-dental-and-orthodontic-centre/dentists/b6cd7cf7-3d1d-b504-5eab-989c25bdcc0d
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -141,14 +168,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 217 Liverpool Road, Ashfield NSW 2131 |
 | **Phone** | (02) 9799 8555 |
-| **Hours** | Mon–Tue 9am–6pm · Wed 9am–4pm · Thu–Fri 9am–6pm · Sat 8am–4pm · Sun emergencies only |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-4:00pm · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat 8:00am-4:00pm · Sun not listed |
+| **Billing** | Healthdirect: 'Mixed billing - Bulk billing available with condition' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Eui-Suk Shin | Not confirmed from public sources at time of verification | Healthdirect lists Dr Eui-Suk Shin as a dentist and notes Korean language support. |
+| Dr Eui-Suk Shin | — | Listed as a dentist on Healthdirect profile (per existing directory data) |
+| Dr James Shin | — | Named as a dentist at this clinic in the Dentist.com.au listing snippet (search result text); not confirmed whether same person as Dr Eui-Suk Shin |
+
+Source: https://www.dentist.com.au/dentist-detail/divine-dental-care/a11003250
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -160,14 +191,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 54, 1 Brown Street, Ashfield NSW 2131 |
 | **Phone** | (02) 9798 8839 |
-| **Hours** | Mon–Fri 9:30am–6pm · Sat 8am–4pm · Sun hours not confirmed from public sources at time of verification |
+| **Website** | https://ashfieldfamilydental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Thu 9:30am-6:00pm · Fri 9:30am-6:00pm · Sat 8:00am-4:00pm · Sun not listed (Healthdirect: 'Late appointments available on Thursday upon request') |
+| **Billing** | Healthdirect: 'Fees apply'. No bulk billing, CDBS, HICAPS or payment-plan claims seen on clinic pages opened. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Shirley Fong-Yang | Not confirmed from public sources at time of verification | Healthdirect lists Dr Shirley Fong-Yang as a dentist at this clinic. |
+| Dr Johnson Tang | Bachelor of Dental Surgery, University of Adelaide | Profile page on clinic website |
+| Dr Janette Ho | Bachelor of Dental Surgery, James Cook University | Profile page on clinic website |
+| Dr Shirley Fong-Yang | — | Listed as Dentist on Healthdirect profile only; not seen on clinic website pages opened |
+
+Source: https://ashfieldfamilydental.com.au/about-us/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -179,14 +217,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 4, 4 Brown Street, Ashfield NSW 2131 |
 | **Phone** | (02) 9716 7099 |
-| **Hours** | Mon–Tue 8am–4pm · Fri–Sat 8am–4pm · Wed, Thu and Sun hours not confirmed from public sources at time of verification |
+| **Hours** | Mon 8:00am-4:00pm · Tue 8:00am-4:00pm · Wed not listed · Thu not listed · Fri 8:00am-4:00pm · Sat 8:00am-4:00pm · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Ewa Walczak | Not confirmed from public sources at time of verification | Healthdirect lists Dr Ewa Walczak as a dentist at this address. |
+| Dr Ewa Walczak | General Dentist (as listed) | Listed on Healthdirect and Dentist.com.au |
+
+Source: https://www.dentist.com.au/dentist-detail/dr-ewa-walczak/A11004484
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -198,14 +239,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 185 Liverpool Road, Ashfield NSW 2131 |
 | **Phone** | (02) 9797 7455 |
-| **Hours** | Mon–Fri 8:30am–6pm · Sat and Sun hours not confirmed from public sources at time of verification |
+| **Email** | info@signaturedentalsydney.com.au |
+| **Website** | https://signaturedentalsydney.com.au/ |
+| **Website check** | WordPress site · robots.txt blocks: Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot, Google-Extended, GPTBot, anthropic-ai, Claude-Web · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9:00am-6:00pm · Sat Closed · Sun Closed (Weekends: Closed) |
+| **Billing** | Payment Options page: private health cover claiming explained in clinic, 'claiming in-clinic' and paying in instalments (payment plans); treatment costs explained before treatment; price list downloadable. No bulk billing or CDBS claim seen. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Deborah English | Not confirmed from public sources at time of verification | Healthdirect lists Dr Deborah English as a dentist at this clinic. |
+| Dr Anita Kouba | Dentist | Practice lead; general, cosmetic, crowns and bridges; special interest in orthodontic treatment and early intervention |
+| Dr Deborah English | Dentist | General and kids dental, cosmetic, whitening, crowns and bridges, Invisalign |
+| Dr Johanna Ramon | Dentist | General and kids dental, cosmetic, whitening, wisdom teeth, Invisalign |
+| Dr Ingrid Tovar | Dentist | — |
+
+Source: https://signaturedentalsydney.com.au/about-us/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -220,7 +270,13 @@ All dental practitioners listed below are required to hold current registration 
 | **Hours** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Colin Leece | — | Named in Healthengine / directory listing titles for this address (practice name 'Colin Leece and Associates'); no team page seen |
+
+Source: https://healthengine.com.au/dentist/nsw/ashfield/colin-leece-and-associates/s87563
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -232,14 +288,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 17-20 The Esplanade, Ashfield NSW 2131 |
 | **Phone** | (02) 9797 0334 |
-| **Hours** | Mon–Sat 9am–8pm · Sun hours not confirmed from public sources at time of verification |
+| **Email** | beata_rumianek@hotmail.com |
+| **Hours** | Mon-Sat 9:00am-8:00pm · Sun not listed (Healthdirect note: 'Hours vary. Appointment required.') |
+| **Billing** | Healthdirect: 'Fees apply' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Beata Rumianek-Dziubinski | Not confirmed from public sources at time of verification | Healthdirect lists Dr Beata Rumianek-Dziubinski as a dentist and notes Russian, Croatian, Polish, Ukrainian, Serbian, Czech and Slovak language support. |
+| Dr Beata Rumianek-Dziubinski | Dentist (as listed) | Healthdirect: speaks Russian, Croatian, Polish, Ukrainian, Serbian, Czech and Slovak |
+
+Source: https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/rumianek-dental-surgery/dentists/f01793e4-967b-9677-9ebc-ee6ff76deb18
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -251,7 +311,11 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Ashfield Mall, Level 4, 260A Liverpool Road, Ashfield NSW 2131 |
 | **Phone** | (02) 8799 8400 |
-| **Hours** | Mon–Wed 8:30am–6pm · Thu 8:30am–7pm · Fri 8:30am–6pm · Sat–Sun 9am–6pm |
+| **Email** | Ashfield@pacificsmiles.com.au |
+| **Website** | https://pacificsmilesdental.com.au/locations/ashfield/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-6:00pm · Thu 9:00am-7:00pm · Fri 8:30am-6:00pm · Sat 9:00am-5:00pm · Sun 10:00am-4:00pm (public holiday hours may differ) |
+| **Billing** | Healthdirect: 'Fees apply'; 'All health funds welcome'. Site banner promotes using dental extras; no bulk billing or CDBS claim seen on the location page. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 > **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -266,14 +330,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 26 Henry Street, Ashfield NSW 2131 |
 | **Phone** | (02) 9705 8558 |
-| **Hours** | Mon–Sat 7am–7pm · Sun hours not confirmed from public sources at time of verification |
+| **Email** | dentist@midwaydentalclinic.com.au |
+| **Website** | https://midwaydentalclinic.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon-Sat 7:00am-7:00pm · Sun Emergency only |
+| **Billing** | Site: 'No-gap check-ups, cleans and X-rays for all health funds' for eligible members with dental extras, on-the-spot HICAPS claims; registered private dental facility with NSW Health Vouchers; participates in Medicare Child Dental Benefits Schedule (CDBS); payment plans (Afterpay, Zip Pay and Zip Money, SuperCare pages). Healthdirect: 'Mixed billing - Bulk billing available with conditions, fees may apply.' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Rekha Halasagi | Not confirmed from public sources at time of verification | Healthdirect lists Dr Rekha Halasagi as a dentist at this clinic. |
+| Dr Rekha Halasagi | Principal Dentist | Named on Ashfield page and Healthdirect; team page shows 'Dr. Rekha - Principal Dentist' |
+| Dr Vinay | General Dentist | First name only as shown on team page; team page covers both Ryde and Ashfield clinics |
+| Dr Leslie | General Dentist | First name only as shown; clinic location not stated |
+| Dr Ine | General Dentist | First name only as shown; clinic location not stated |
+| Dr Haneet | General Dentist | First name only as shown; clinic location not stated |
+
+Source: https://midwaydentalclinic.com.au/our-dentists/
 
 **Services:** Dental check-up and clean, dentures, root canal treatment, tooth extraction, tooth filling, emergency dental services, bridges, crowns, veneers, Invisalign, teeth whitening, children's dentistry, children's braces, mouthguards, adult braces, dental implants, sleep apnoea and teeth grinding management, and wisdom teeth services.
 
@@ -311,5 +385,25 @@ All dental practitioners in Australia must hold current registration with the **
 | Midway Dental Clinic Ashfield — Healthdirect | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/ashfield-2131-nsw/midway-dental-clinic-ashfield/dentists/031737ca-2404-0ecc-82d0-aa10a1474f3d |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Ashfield Dental And Orthodontic Centre — enrichment source | https://ashfielddentalcentre.com.au/ |
+| Ashfield Dental And Orthodontic Centre — enrichment source | https://ashfielddentalcentre.com.au/meet-the-team/ |
+| Ashfield Dental And Orthodontic Centre — enrichment source | https://ashfielddentalcentre.com.au/payment-options/ |
+| Ashfield Family Dental — enrichment source | https://ashfieldfamilydental.com.au/ |
+| Ashfield Family Dental — enrichment source | https://ashfieldfamilydental.com.au/about-us/ |
+| Clement Cheung Dental Centre - Dynamic Smile Ashfield — enrichment source | https://www.dentalclinicsydney.com.au/ |
+| Clement Cheung Dental Centre - Dynamic Smile Ashfield — enrichment source | https://www.dentalclinicsydney.com.au/dentist-sydney-meet-our-team/ |
+| Colin Leece and Associates — enrichment source | https://healthengine.com.au/dentist/nsw/ashfield/colin-leece-and-associates/s87563 |
+| Divine Dental Care — enrichment source | https://www.dentist.com.au/dentist-detail/divine-dental-care/a11003250 |
+| Dr Ewa Walczak - Dentist — enrichment source | https://www.dentist.com.au/dentist-detail/dr-ewa-walczak/A11004484 |
+| Midway Dental Clinic Ashfield — enrichment source | https://midwaydentalclinic.com.au/ |
+| Midway Dental Clinic Ashfield — enrichment source | https://midwaydentalclinic.com.au/dentist-ashfield/ |
+| Midway Dental Clinic Ashfield — enrichment source | https://midwaydentalclinic.com.au/our-dentists/ |
+| Pacific Smiles Dental - Ashfield — enrichment source | https://pacificsmilesdental.com.au/locations/ashfield/ |
+| Signature Dental Sydney — enrichment source | https://signaturedentalsydney.com.au/ |
+| Signature Dental Sydney — enrichment source | https://signaturedentalsydney.com.au/about-us/ |
+| Signature Dental Sydney — enrichment source | https://signaturedentalsydney.com.au/contact/ |
+| Signature Dental Sydney — enrichment source | https://signaturedentalsydney.com.au/payments/ |
+| Simply Braces — enrichment source | https://simplybraces.com/ |
+| Simply Braces — enrichment source | https://simplybraces.com/contact-us/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-07. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -72,17 +72,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 23, Carmel Village, Corner Windsor and Mt Carmel Road, Box Hill NSW 2765 |
 | **Phone** | (02) 9000 3829 |
-| **Hours** | Mon-Fri 9:00am-7:00pm · Sat 8:00am-5:00pm · Sun Closed |
+| **Email** | contact@usmiledentalclub.com.au |
+| **Website** | https://usmiledentalclub.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9:00am-7:00pm · Sat 9:00am-5:00pm · Sun Closed |
+| **Billing** | Homepage: 'We accept all Health Funds Participating Under HICAPS'; 'We offer flexible payment plans, such as Afterpay, Smileright, Humm, and Supercare. We accept all health funds and are preferred providers for CBHS and NIB'. |
 | **Network** | Accepts all health funds and is a preferred provider for CBHS and NIB |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Niharika Katyal | Not confirmed from public sources at time of verification | Listed on the public HealthEngine practice profile; further practitioner details were not confirmed from the checked sources |
-| Dr Kunal Goyal | Not confirmed from public sources at time of verification | HealthEngine profile states interests in crowns, bridgework, root canal treatments, fillings, Invisalign and veneers; languages listed as English, Hindi and Punjabi |
-| Dr Rohit Goyal | Not confirmed from public sources at time of verification | Public HealthEngine listing confirms practice association at Box Hill; further practitioner details were not confirmed from the checked sources |
+| Dr Kunal Goyal | — | Principal Dentist; interests in crowns, bridgework, root canal treatment, Invisalign and veneers (About Us page) |
+| Dr Rohit Goyal | — | Associate Dentist (About Us page) |
+| Dr Niharika Katyal | — | Described as a dentist (About Us page) |
+
+Source: https://usmiledentalclub.com.au/about-us/
 
 **Services:** General dentistry, cosmetic dentistry, emergency dentistry, Invisalign, veneers.
 
@@ -114,5 +120,7 @@ All dental practitioners in Australia must hold current registration with the **
 | U Smile Dental Club veneers page | https://usmiledentalclub.com.au/dental-service/veneers/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| U Smile Dental Club — enrichment source | https://usmiledentalclub.com.au/about-us/ |
+| U Smile Dental Club — enrichment source | https://usmiledentalclub.com.au/dentist-boxhill/ (site footer) |
 
 **Data limitations:** This directory records the in-suburb Box Hill dental clinic with a publicly verifiable Box Hill street address, phone number and published opening hours that were available from the checked public sources as at 2026-08-24. Practitioner rosters, treatment menus, network arrangements and hours can change; confirm current details directly with the clinic.

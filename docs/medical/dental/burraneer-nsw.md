@@ -75,10 +75,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1 Suite 2, 145 Woolooware Road, Burraneer NSW 2230 |
 | **Phone** | (02) 9527 6588 |
-| **Hours** | Mon 9am–5pm · Tue 9am–5:30pm · Wed 9am–5:30pm · Thu 9am–5pm · Fri 8:30am–5pm · Sat 8am–1:30pm · Sun Closed |
+| **Email** | info@baysidedental.com.au |
+| **Website** | https://baysidedental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-5pm · Tue 9am-5:30pm · Wed 9am-5:30pm · Thu 9am-5pm · Fri 8:30am-5pm · Sat 8am-1:30pm · Sun not listed |
+| **Billing** | About page facilities: 'Health Fund Hicaps / EFTPOS'; 'Registered Dental Provider for Department of Veteran's Affairs and Medicare Child Dental Benefit Schedule (CDBS)'. Homepage: one free check up per year for kids under 5 (conditions apply); 'Health Fund members pay no gap' for that offer (exam only). Healthdirect: 'Fees apply'. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Monika Pawlowski | Graduate of University of Adelaide | Founded practice in 2000; member of Australian Dental Association (as stated on About page) |
+| Dr Chris Warren | Bachelor of Dental Surgery, University of Sydney (2004) | Listed on About page team |
+| Dr Matthew Moussa | Bachelor of Dental Science, Charles Sturt University | Undertaking Post-Graduate Diploma in Orthodontics; completed Post-Graduate Diploma in Dental Implants (as stated) |
+
+Source: https://baysidedental.com.au/about/
 
 **Services:** Dentists (Healthdirect service category).
 
@@ -111,5 +123,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
 | NPS MedicineWise / Find a Health Service | https://www.nps.org.au |
+| Bayside Dental Care — enrichment source | https://baysidedental.com.au/ |
+| Bayside Dental Care — enrichment source | https://baysidedental.com.au/about/ |
+| Bayside Dental Care — enrichment source | https://baysidedental.com.au/about/ and https://baysidedental.com.au/ |
+| Bayside Dental Care — enrichment source | https://baysidedental.com.au/contact/ |
 
 **Data limitations:** Practitioner rosters, service categories and hours are sourced from publicly available directories as at 2026-10-03. HealthEngine, Yellow Pages and Word of Mouth were unavailable to the runtime at time of verification; no unverified details were added. Rosters change; always verify current practitioners and hours directly with the clinic.

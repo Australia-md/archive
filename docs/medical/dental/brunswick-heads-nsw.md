@@ -57,7 +57,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 6, 18 Mullumbimbi Street, Brunswick Heads NSW 2483 |
 | **Phone** | (02) 6685 1264 |
-| **Hours** | Mon 8:30am–5:30pm · Tue 8:30am–6:30pm · Wed 8:30am–6:30pm · Thu 8:30am–5:30pm · Fri 8:30am–4:30pm · Sat 8:30am–4:00pm · Sun Closed |
+| **Hours** | Mon 8:30am-5:30pm · Tue 8:30am-6:30pm · Wed 8:30am-6:30pm · Thu 8:30am-5:30pm · Fri 8:30am-4:30pm · Sat 8:30am-4:00pm · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply for this service' (no appointment needed per listing; no other billing claims found) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -85,5 +86,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth Australia | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Brunswick Holistic Dental Centre — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/brunswick-heads-2483-nsw/brunswick-holistic-dental-centre/dentists/978ce31c-609f-92ee-4ef6-14702c785bb5 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic listings as at 2026-09-16. Rosters change; always verify current practitioners and hours directly with the clinic.

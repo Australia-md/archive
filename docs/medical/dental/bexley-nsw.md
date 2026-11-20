@@ -84,18 +84,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 400 Forest Road, Bexley NSW 2207 |
 | **Phone** | (02) 9567 4151 |
-| **Hours** | Mon 8:30am-7pm · Tue 8:30am-6pm · Wed 8:30am-6pm · Thu 8:30am-7pm · Fri 8:30am-5pm · Sat 8am-1pm · Sun Closed |
+| **Email** | reception@bexleydental.com.au |
+| **Website** | https://bexleydental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-7pm · Tue 8:30am-6pm · Wed 8:30am-6pm · Thu 8:30am-7pm · Fri 8:30am-5pm · Sat not listed · Sun not listed |
+| **Billing** | Homepage lists 'Flexible Payment Plans' (no further detail found). |
 | **Access** | Healthdirect lists wheelchair access, accessible parking, and an accessible toilet. The official contact page states there is a council car park on Albyn Street with rear access to the practice. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Theo Spyrakis | Qualification not confirmed from public sources at time of verification | Publicly listed by Bexley Dental as principal dentist and implant dentist. |
-| Dr Kenny Wong | Qualification not confirmed from public sources at time of verification | Publicly listed by Bexley Dental as a family dentist. |
-| Dr Joseph Kazzi | Qualification not confirmed from public sources at time of verification | Publicly listed by Bexley Dental with a special interest in braces and Invisalign. |
-| Dr Mark Psillakis | Qualification not confirmed from public sources at time of verification | Publicly listed by Bexley Dental as a dentist on the practice team page. |
+| Dr Theo Spyrakis | Dental Surgeon B.D.S (Hons) Syd Uni F.A.C.B.S | Implant and All-on-4 expert |
+| Dr Kenny Wong | Dental Surgeon B.D.S (Hons) Syd Uni | — |
+| Dr Joseph Kazzi | Dental Surgeon B.D.Sc. CSU | — |
+| Dr Mark Psillakis | Dental Surgeon B.D.S Syd Uni | — |
+| Laura Righetto | Oral Health Therapist | — |
+| Hazel De Felice | Dental Hygienist | — |
+| Jorge | Oral Health Therapist (Adult Scope) | Surname not shown |
+
+Source: https://bexleydental.com.au/about-us/
 
 **Services:** General dentistry, dental implants, All-on-4 dental implants, orthodontics, kids dentistry, veneers, teeth whitening, dental crowns, root canal therapy.
 
@@ -107,16 +116,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 35 Albyn Street, Bexley NSW 2207 |
 | **Phone** | (02) 9567 1618 |
-| **Hours** | Mon-Thu 8:30am-6:30pm · Fri 8:30am-6pm · Sat Closed · Sun Closed |
+| **Email** | admin@aelitedental.com.au |
+| **Website** | https://aelitedental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:30pm · Tue 8:30am-6:30pm · Wed 8:30am-6:30pm · Thu 8:30am-6:30pm · Fri 8:30am-6:00pm · Sat Closed · Sun Closed |
 | **Access** | Healthdirect lists wheelchair access, accessible parking, and toilet facilities. Appointment required. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Paul Murr | Qualification not confirmed from public sources at time of verification | Publicly listed by Aelite Dental as principal dentist. |
-| Dr John Tabba | Qualification not confirmed from public sources at time of verification | Publicly listed by Aelite Dental as a dentist on the clinic team page. |
+| Dr Paul Murr | Graduated Sydney University 1992; 2 year postgraduate course in orthodontics 1999 (as stated); member of the Australian Dental Association | Principal Dentist |
+| Dr John Tabba | — | Listed on team page; role not retrieved |
+
+Source: https://aelitedental.com.au/our-team/
 
 **Services:** General dentistry including scale and prophylaxis, fluoride treatments, dental sealants, white fillings and extractions; root canal therapy; partial, full and flexible dentures; crowns and bridges; veneers; dental implants; tooth whitening; Invisalign; braces for adults and children; mouth guards.
 
@@ -152,5 +166,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Bexley, New South Wales | https://en.wikipedia.org/wiki/Bexley%2C_New_South_Wales |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bexley Dental — enrichment source | https://bexleydental.com.au/contact-us/ (mailto link) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-07. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -75,15 +75,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 5/1 Bilambee Ave, Bilgola Plateau NSW 2107 |
 | **Phone** | (02) 9918 0981 |
+| **Email** | info@smilemedental.com.au |
+| **Website** | https://smilemedental.com.au/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Not confirmed from public sources at time of verification |
+| **Billing** | Payment page: CDBS (eligible children 2-17, up to $1,000 over two years); zipMoney interest-free (6 months under $2,000, min spend $500; 12 months over $2,000); Seniors Card 10% discount on treatment; DVA card holders welcome; 'We accept all health funds' with on-the-spot rebate claiming. |
 | **Access** | The clinic contact page says ample parking is available just outside the dental practice. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Claudia Cespedes | Qualification not confirmed from public sources at time of verification | The official site identifies Dr Claudia Cespedes as the founder of Smile Me Dental, says Spanish is her native language, and notes her experience in oral surgery. |
+| Dr Claudia Cespedes | — | Founder of Smile Me Dental; the only dentist named on the team page (other staff: Tany, front desk coordinator; Angie, dental nurse) |
+
+Source: https://smilemedental.com.au/teamatsmilemedental
 
 **Services:** Regular check-ups and cleaning, restorative dentistry, emergency dental care, cosmetic dentistry, crowns, bridges, root canal treatment, dental implants, wisdom teeth removal.
 
@@ -116,5 +122,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Full List of Dental Services — Smile Me Dental | https://smilemedental.com.au/full-list-of-dental-services |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Smile Me Dental — enrichment source | https://smilemedental.com.au/dentistpaymentplans |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-09. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -63,6 +63,7 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 135 Fassifern Road, Blackalls Park NSW 2283 |
 | **Phone** | (02) 4959 4594 |
+| **Email** | paulsdenturestudio@gmail.com |
 | **Hours** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -95,5 +96,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Paul's Denture Studio — Facebook | https://www.facebook.com/paulsdenturestudio/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Paul's Denture Studio — enrichment source | https://www.yellowpages.com.au/blackalls-park-nsw/bpp/pauls-denture-studio-581048616 (Email Business mailto link on directory listing) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-24. Rosters change; always verify current practitioners and hours directly with the clinic.

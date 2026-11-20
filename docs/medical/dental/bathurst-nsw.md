@@ -101,16 +101,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1, Suite 3, 90 Keppel Street, Bathurst NSW 2795 |
 | **Phone** | (02) 6331 3699 |
-| **Hours** | Mon 8:30am-6:30pm · Tue-Thu 8:00am-5:00pm · Fri 8:00am-2:30pm · Sat Closed · Sun Closed |
+| **Website** | https://www.dentalpractice.net.au/ |
+| **Website check** | WordPress site · robots.txt blocks: * · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8.30am-6.30pm · Tue 8am-5pm · Wed 8am-5pm · Thu 8am-5pm · Fri 8am-2.30pm · Sat Closed · Sun Closed (closed weekends and public holidays) |
+| **Billing** | Homepage mentions 'Find the payment plan that's right for you'; no other billing claims found. |
 | **Access** | Entrance on Bentinck Street; on-street parking available; accessible parking and wheelchair accessible facilities confirmed from public sources |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr William C Fitzpatrick | BDSc (CSU) | Public profile notes interests in oral surgery, prosthodontics and restorative treatments. |
-| Dr Jessica J Bloomfield | BDSc (CSU) | Public profile notes a special interest in treating anxious patients and experience in rural and remote service settings. |
+| Dr Jessica Bloomfield | — | Listed on team page (names only) |
+| Dr William Fitzpatrick | — | Listed on team page (names only) |
+| Dr Jake Ball | — | Listed on team page (names only) |
+
+Source: https://www.dentalpractice.net.au/our-team/
 
 **Services:** Dental implants, restorative dentistry, endodontics (root canal therapy), tooth whitening, crowns and bridges, orthodontics, periodontal treatment, oral surgery, prosthodontic services via visiting specialists.
 
@@ -122,16 +128,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 104 Piper Street, Bathurst NSW 2795 |
 | **Phone** | (02) 6331 3364 |
-| **Hours** | Mon 8:30am-5:30pm · Tue-Thu 7:30am-5:30pm · Fri 7:30am-5:00pm · Sat 8:00am-12:30pm · Sun Closed |
+| **Email** | info@bowmandental.com.au |
+| **Website** | https://www.bowmandental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8.30am-5.30pm · Tue 7.30am-5.30pm · Wed 7.30am-5.30pm · Thu 7.30am-5.30pm · Fri 7.30am-5.00pm · Sat 8.00am-12.30pm · Sun Closed (treatment appointment times) |
+| **Billing** | Payment required at time of appointment; EFTPOS, cash, all major credit cards and cheques accepted; on-the-spot health fund claims through HICAPS. |
 | **Access** | On-street patient parking in front of the practice; wheelchair accessible practice with accessible parking assistance available on request |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Kathryn R Bowman | BDSc (Hons) (Qld), BDSt (Qld) | General dentist publicly listed at Bowman Dental Practice. |
-| Dr Gerrard M Bowman | BDent (Hons) (Syd), Grad.Dip.Clin.Dent (Oral Implants) | Public profile confirms oral implants qualification. |
+| Dr Kathy Bowman | BDSc Hons Qld, BDSt Qld | — |
+| Dr Theresa Cook | BDS Hons Syd | — |
+| Dr Caleb Auhl | BDSc CSU | — |
+| Dr Gabrielle Starr | BDS Hons Qld | — |
+| Dr Emily Linn | BDSc CSU | — |
+| Dr Patrick Bowman | Bachelor of Dental Science (Honours), University of Queensland, 2016 | Periodontal studies at Melbourne University |
+
+Source: https://www.bowmandental.com.au/about/our-team/
 
 **Services:** Routine preventive care, crowns, root canal therapy, gum health treatment, children's dentistry, anxiety management, jaw health, porcelain veneers, tooth bonding, tooth whitening, dental implants, oral surgery, oral rehabilitation, dental sleep medicine, dento-facial aesthetics.
 
@@ -143,14 +159,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 1, 131 Howick Street, Bathurst NSW 2795 |
 | **Phone** | (02) 6331 6888 |
-| **Hours** | Mon-Thu 9:00am-5:00pm · Fri hours not confirmed from public sources at time of verification · Sat Closed · Sun Closed |
+| **Email** | cdebathurst@hotmail.com |
+| **Website** | https://www.cdebathurst.com/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-5pm · Tue 9am-5pm · Wed 9am-5pm · Thu 9am-5pm · Fri not listed · Sat not listed · Sun not listed |
+| **Billing** | Homepage services list includes 'CDBS' (no further billing terms stated). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr William Chua | BDS (Sydney Uni) | Public profile states he has practised in Bathurst for over 30 years with interests in aesthetic dentistry and full-mouth rehabilitation. |
+| Dr William Chua | BDS (Sydney Uni), graduated 1988 | Practising in Bathurst for over 30 years; aesthetic dentistry and full mouth rehabilitation |
+
+Source: https://www.cdebathurst.com/
 
 **Services:** Crowns, bridges, composite resin restorations, children's dental care through CDBS, aesthetic dentistry, full-mouth rehabilitation.
 
@@ -162,16 +184,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 154 Bentinck Street, Bathurst NSW 2795 |
 | **Phone** | (02) 6331 7877 |
-| **Hours** | Mon-Fri 8:30am-6:30pm · Sat 8:00am-4:00pm |
+| **Email** | info@bathurstdentalcare.com.au |
+| **Website** | https://bathurstdentalcare.com.au/ |
+| **Website check** | WordPress (Elementor) site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30AM-6:30PM · Tue 8:30AM-6:30PM · Wed 8:30AM-6:30PM · Thu 8:30AM-6:30PM · Fri 8:30AM-6:30PM · Sat 8:00AM-4:00PM · Sun Closed |
+| **Billing** | Site menu has 'Afterpay' and 'Zipmoney' pages; no other billing claims found. |
 | **Access** | Accessible toilet and wheelchair accessible facilities confirmed from public directory sources |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Charles Wong | BOHDS, GDipDent | Public team profile notes interests in root canal treatment, crown and bridge work, and dental implants. |
-| Dr Jun Han Yoon | M.Dent, M.Sc (Oral Implantology), B.Med Sci, B.Sci (Hons), FICOI, DICOI | Public profiles note interests in aesthetic dentistry and oral surgery; speaks Korean. |
+| Dr Charles Wong | BOHDS, GDipDent | Griffith University |
+| Dr Jun Han Yoon | M.Dent, M.Sc (Oral Implantology), B.Med Sci, B.Sci (Hons), FICOI, DICOI | — |
+| Dr Lap Ip | — | Dentist |
+| Dr Renita Tin | Bachelor of Health Sciences in Dentistry and Masters of Dentistry (La Trobe University) | Dentist |
+| Dr Josh Chin | Bachelor of Dental Science (Hons), University of Queensland | Dentist |
+
+Source: https://bathurstdentalcare.com.au/our-team/
 
 **Services:** Family and general dentistry, cosmetic dentistry, tooth whitening, crowns and bridges, porcelain veneers, children's dentistry, laughing gas, general anaesthetics, dental emergencies, root canal treatment, dentures and implants.
 
@@ -212,5 +243,8 @@ All dental practitioners in Australia must hold current registration with the **
 | Bathurst Dental Care — Dentist.com.au | https://www.dentist.com.au/dentist-detail/nsw/bathurst/bathurst-dental-care/A17014741 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bathurst Dental Care — enrichment source | https://bathurstdentalcare.com.au/ (footer business hours) |
+| Bowman Dental — enrichment source | https://www.bowmandental.com.au/about/our-team/ |
+| The Dental Practice — enrichment source | https://www.dentalpractice.net.au/our-team/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-09. Rosters change; always verify current practitioners and hours directly with the clinic.

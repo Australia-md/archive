@@ -75,13 +75,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 51 Iodide Street, Broken Hill NSW 2880 |
 | **Phone** | (08) 8087 3576 |
-| **Hours** | Mon–Thu 8:30am–1:00pm and 2:00pm–5:00pm · Fri–Sun Closed, according to the clinic website. Healthdirect displays a different public-hours listing; confirm directly before visiting. |
+| **Email** | admin@thedentalcentre.com.au |
+| **Website** | https://thedentalcentre.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-1:00pm and 2:00pm-5:00pm · Tue 8:30am-1:00pm and 2:00pm-5:00pm · Wed 8:30am-1:00pm and 2:00pm-5:00pm · Thu 8:30am-1:00pm and 2:00pm-5:00pm · Fri Closed · Sat Closed · Sun Closed |
+| **Billing** | 'We accept most health funds to assist in delivering treatments for your oral needs'; 'We offer a variety of different payment methods - please contact us here if you'd like to discuss your options.' Healthdirect: fees apply. |
 | **Access** | Appointment and access details should be confirmed directly with the clinic. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Jayneen Orwa | — | Associate Dentist |
+| Hannah Pryor | — | Oral Health Therapist |
+| Corinne Wilkins | — | Dental Hygienist |
+
+Source: https://thedentalcentre.com.au/about/team/
 
 **Services:** General dentistry, cosmetic dentistry, surgical dental treatments, check-up and clean, crowns and bridges, dental emergencies, Invisalign, veneers, wisdom teeth removal.
 
@@ -93,7 +103,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 168 Beryl Street, Broken Hill NSW 2880 |
 | **Phone** | (08) 8088 1022 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat–Sun Closed, according to Healthdirect. |
+| **Hours** | Mon 9am-5pm · Tue 9am-5pm · Wed 9am-5pm · Thu 9am-5pm · Fri not listed · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply for this service.' Appointment needed. |
 | **Access** | Appointment needed, according to Healthdirect. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -111,7 +122,11 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 439–443 Argent Street, Broken Hill NSW 2880 |
 | **Phone** | (08) 8082 9777 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat–Sun Closed, according to Healthdirect. |
+| **Email** | info@maarima.com.au |
+| **Website** | https://www.maarima.com.au/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-5pm · Tue 9am-5pm · Wed 9am-5pm · Thu 9am-5pm · Fri not listed · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: 'Bulk billing - No fee for eligible services with a Medicare card presented.' Appointment needed. Adult and Child dental. |
 | **Access** | Appointment needed; bulk billing is listed for eligible services with a Medicare card, according to Healthdirect. |
 | **Network** | Bulk billing only for eligible services with a Medicare card, according to Healthdirect. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
@@ -130,7 +145,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 153 Williams Street, Broken Hill NSW 2880 |
 | **Phone** | (08) 8088 7433 |
-| **Hours** | Mon 8:45am–5:15pm · Tue 7:30am–5:15pm · Wed 8:45am–7:15pm · Thu–Fri 8:45am–5:15pm · Sat–Sun Closed, according to Healthdirect. |
+| **Hours** | Mon 8:45am-5:15pm · Tue 7:30am-5:15pm · Wed 8:45am-7:15pm · Thu 8:45am-5:15pm · Fri not listed · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply for this service.' No appointment needed. |
 | **Access** | No appointment needed, according to Healthdirect; call ahead to confirm availability. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -169,5 +185,10 @@ All dental practitioners in Australia must hold current registration with the **
 | Australian Bureau of Statistics Census QuickStats | https://www.abs.gov.au/census/find-census-data/quickstats/2021/LGA11250 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Maari Ma Health Aboriginal Corporation — Adult and Child Dental Service — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broken-hill-2880-nsw/maari-ma-health-aboriginal-corporation/dentists/0dabeb7c-93a6-4c51-9437-2d0de42fdfcc |
+| Maari Ma Health Aboriginal Corporation — Adult and Child Dental Service — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/broken-hill-2880-nsw/maari-ma-health-aboriginal-corporation/dentists/0dabeb7c-93a6-4c51-9437-2d0de42fdfcc (also printed on https://www.maarima.com.au/services) |
+| Maari Ma Health Aboriginal Corporation — Adult and Child Dental Service — enrichment source | https://www.maarima.com.au/ |
+| The Dental Centre — enrichment source | https://thedentalcentre.com.au/ (mailto link) |
+| The Dental Centre — enrichment source | https://thedentalcentre.com.au/about/team/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-09. The Dental Centre's clinic website and Healthdirect listing display different public hours; verify current practitioners and hours directly with each clinic.

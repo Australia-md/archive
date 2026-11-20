@@ -62,7 +62,13 @@ All dental practitioners listed below are required to hold current registration 
 | **Hours** | Mon–Fri 8am–5:30pm · Sat–Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Sally Crowley | — | Listed as Dentist on HealthEngine practitioner profile at 425 Sydney Road, Balgowlah |
+
+Source: https://healthengine.com.au/dentist/nsw/balgowlah/dr-sally-crowley/p33259
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -74,10 +80,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 2, 343-345 Sydney Road, Balgowlah NSW 2093 |
 | **Phone** | (02) 9948 7818 |
-| **Hours** | Mon 9am–5:30pm · Tue–Thu 8:30am–5:30pm · Fri 8:30am–5pm · Sat 8:30am–3pm · Sun Closed |
+| **Email** | balgowlahdental@gmail.com |
+| **Website** | https://balgowlahdental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:30pm · Tue 8:30am-5:30pm · Wed 8:30am-5:30pm · Thu 8:30am-5:30pm · Fri 8:30am-5:00pm · Sat 9:00am-3:00pm · Sun Closed (site: please call for after-hours availability) |
+| **Billing** | Our-team page: 'All health funds accepted, including Bupa, Medibank, HCF and NIB'; 'Upfront quotes before every treatment'; site menu also has a Child Dental Benefits item. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Mario David | — | Principal Dentist |
+| Dr Isadora Barbisan | Graduated in Brazil 2006; Orthodontics specialisation completed 2010 (as stated on site) | Dentist |
+| Dr Da Jeong Jee | — | Dentist |
+| Dr Helen Chun | — | Dentist; conservative care, aesthetic dentistry, root canal treatments |
+
+Source: https://balgowlahdental.com.au/our-team/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -104,5 +123,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Balgowlah Family Dental Practice — enrichment source | https://balgowlahdental.com.au/ |
+| Balgowlah Family Dental Practice — enrichment source | https://balgowlahdental.com.au/contact/ |
+| Balgowlah Family Dental Practice — enrichment source | https://balgowlahdental.com.au/our-team/ |
+| Dr S Crowley's Dental Surgery — enrichment source | https://healthengine.com.au/dentist/nsw/balgowlah/dr-sally-crowley/p33259 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-17. Rosters change; always verify current practitioners and hours directly with the clinic.

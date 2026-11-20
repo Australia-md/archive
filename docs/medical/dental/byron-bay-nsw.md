@@ -87,10 +87,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 1, 140-142 Jonson Street, Byron Bay NSW 2481 |
 | **Phone** | (02) 6680 8066 |
-| **Hours** | Mon–Fri 9:00am–8:00pm · Sat Closed · Sun Closed |
+| **Website** | https://www.bytesofbyron.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-8:00pm · Tue 8:00am-8:00pm · Wed 8:00am-8:00pm · Thu 8:00am-8:00pm · Fri 8:00am-8:00pm · Sat 10:00am-4:00pm · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Jonathan Jeff | — | Listed under Meet The Staff |
+| Dr Alan Sfeir | Graduated University of Sydney 1996 | Listed under Meet The Staff |
+| Dr Amin Kol | — | Listed under Meet The Staff |
+| Dr Walter Piccoluaz | Bachelor of Dental Surgery, University of Sydney 1991 | Listed under Meet The Staff; surname spelled Piccolruaz in his own bio text |
+
+Source: https://www.bytesofbyron.com.au/about
 
 **Services:** Dental services (Healthdirect service category); detailed service list not confirmed from public sources at time of verification.
 
@@ -102,11 +113,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 4, 107 Jonson Street, Byron Bay NSW 2481 |
 | **Phone** | (02) 6685 8137 |
-| **Hours** | Mon 8:00am–5:00pm · Tue 8:00am–5:00pm · Wed 8:00am–5:00pm · Thu 8:00am–6:00pm · Fri 8:00am–5:00pm · Sat Closed · Sun Closed |
+| **Email** | byronfamilydentalcare@gmail.com |
+| **Website** | https://byronfamilydental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 9:00am-6:30pm · Fri Closed · Sat Closed · Sun not listed |
 | **Access** | The practice website states that rear-arcade parking is available and the clinic is wheelchair accessible. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Josh Boag | Degrees in pharmacy and dentistry, Griffith University (per About page) | Dentist; took over the practice from Dr Terry Potts in 2018 |
+
+Source: https://byronfamilydental.com.au/about-us/
 
 **Services:** General dental services, minor oral surgery, dental implants, IV sedation, dental check-ups and cleans, teeth whitening, root canal therapy, veneers, crowns, bridge work, fillings, wisdom teeth removal.
 
@@ -118,12 +138,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 6 Lawson Street, Byron Bay NSW 2481 |
 | **Phone** | (02) 6685 6040 |
-| **Hours** | Mon–Thu 8:00am–5:30pm · Fri 8:00am–1:00pm · Sat Closed · Sun Closed |
+| **Email** | reception.byronbay@nationaldentalcare.com.au |
+| **Website** | https://www.nationaldentalcare.com.au/byron-bay |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-5:00pm · Tue 8:30am-5:30pm · Wed 8:30am-5:00pm · Thu 8:30am-5:30pm · Fri 8:30am-4:00pm · Sat Closed · Sun Closed |
+| **Billing** | Site states: 'We accept all major health funds and are preferred providers for:' (list not captured); new patient 'No gap or $199* dental check-up' (terms apply); 'We offer a variety of payment plans'. |
 | **Access** | Healthdirect states that the service is for registered patients only; call ahead to confirm service availability. |
 | **Network** | National Dental Care states that its practices accept major health fund providers and offer HICAPS facilities; preferred-provider status varies by practice. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Jan Safranek | — | Lead Dentist |
+| Dr Annie Pellatt | — | Dentist |
+| Dr Helen Safranek | — | Dentist |
+| Dr Marc Smethurst | — | Dentist |
+| Dr Peter Suresh | — | Dentist |
+| Michelle Dunnett | — | Oral Health Therapist |
+
+Source: https://www.nationaldentalcare.com.au/byron-bay
 
 **Services:** Regular check-ups, teeth whitening, dental implants, smile makeovers, and other family dental treatments.
 
@@ -135,10 +170,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 7, 9 Fletcher Street, Byron Bay NSW 2481 |
 | **Phone** | (02) 6685 7026 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat Closed · Sun Closed |
+| **Hours** | Mon 9am-5pm · Tue 9am-5pm · Wed 9am-5pm · Thu 9am-5pm · Fri not listed · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply for this service.' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr John Patterson | — | Named in the clinic name on the Healthdirect listing; a HealthEngine search result titled 'Dr John Patterson, Dentist' (page not opened) |
+
+Source: https://www.healthdirect.gov.au/australian-health-services/healthcare-service/byron-bay-2481-nsw/dr-john-patterson-dental-surgery/dentists/0dc0f052-fef0-0d0d-52e2-f86de5c67360
 
 **Services:** Dental services (Healthdirect service category); detailed service list not confirmed from public sources at time of verification.
 
@@ -150,10 +192,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 1 Ironbark Avenue, Byron Bay NSW 2481 |
 | **Phone** | (02) 6680 8138 |
-| **Hours** | Mon–Fri 8:00am–5:00pm · Sat Closed · Sun Closed |
+| **Email** | office@byronbaydental.com |
+| **Website** | https://www.byronbaydental.com/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri 8:00am-5:00pm · Sat Closed · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr John Amsden | BDS (Otago), graduated 1994 | Established Byron Bay Dental in 2011 |
+| Dr Mark McGrory | BDentSt, BDSc (QLD) | Dentist at Byron Bay since 2002 |
+
+Source: https://www.byronbaydental.com/about
 
 **Services:** Routine check-ups, cosmetic dentistry, and restorative treatments.
 
@@ -188,5 +240,12 @@ All dental practitioners in Australia must hold current registration with the **
 | Byron Bay Dental | https://www.byronbaydental.com/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Byron Bay Dental — enrichment source | https://www.byronbaydental.com/about |
+| Byron Family Dental — enrichment source | https://byronfamilydental.com.au/about-us/ |
+| Byron Family Dental — enrichment source | https://byronfamilydental.com.au/contact-us/ |
+| Bytes Of Byron Dental Pty Ltd — enrichment source | https://www.bytesofbyron.com.au/ |
+| Bytes Of Byron Dental Pty Ltd — enrichment source | https://www.bytesofbyron.com.au/about |
+| National Dental Care — enrichment source | https://www.nationaldentalcare.com.au/byron-bay |
+| National Dental Care — enrichment source | https://www.nationaldentalcare.com.au/byron-bay/contact |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-10-11. Rosters change; always verify current practitioners and hours directly with the clinic.

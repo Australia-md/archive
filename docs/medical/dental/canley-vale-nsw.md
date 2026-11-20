@@ -92,11 +92,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 15 Canley Vale Road, Canley Vale NSW 2166 |
 | **Phone** | (02) 8102 5150 |
-| **Hours** | Monday–Saturday 9:00am–5:00pm; Sunday not confirmed from public sources at time of verification. |
+| **Website** | https://15dental.com.au/ |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat not listed · Sun not listed |
+| **Billing** | Instagram bio (seen in Google search result, not opened): 'Payment Plans Available'. No fund/CDBS claims confirmed from an opened page. |
 | **Access** | The clinic reports free parking on Westacott Lane and bus stops and Canley Vale Train Station directly across the road. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Public sources identify a practitioner, but no individual name is listed here because current AHPRA registration was not independently confirmed at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Amy Luong | — | Dentist; founder of the clinic (2019) per clinic's alternate site canleyvaledental.net |
+
+Source: https://healthengine.com.au/dentist/nsw/canley-vale/15-dental/s81847
 
 **Services:** Porcelain veneers, Invisalign, professional teeth whitening, smile makeovers, dental implants, wisdom teeth, Bioclear, orthodontics, and general dentistry.
 
@@ -127,5 +135,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Australia Post postcode finder | https://auspost.com.au/postcode/canley-vale |
 | ABS 2021 Census QuickStats | https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10791 |
 | Fairfield City Council | [Canley Vale profile](https://www.fairfieldcity.nsw.gov.au/Business/Place-Management-and-Town-Centres/Cabramatta-Place/Canley-Vale) · [Suburb and ward list](https://www.fairfieldcity.nsw.gov.au/files/assets/public/v/2/documents/your-council/council/suburb-and-ward-list.pdf) |
+| 15 Dental — enrichment source | https://www.instagram.com/15dental/ (search snippet only) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-10-28. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -72,12 +72,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 19, Carnes Hill Marketplace, Kurrajong Road, Carnes Hill NSW 2171 |
 | **Phone** | (02) 9753 2467 |
+| **Email** | info@optimdental.com.au |
+| **Website** | https://www.optimdental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Not confirmed from public sources at time of verification for the Carnes Hill location. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-Individual practitioner names are not listed because current AHPRA registration was not independently verified for the Carnes Hill location at time of verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Raed Said | MBBS; Master's Degree in Orthodontics (as stated) | Sr. Dentist and practice lead; site content is Fairfield-focused, Carnes Hill roster not stated |
+
+Source: https://www.optimdental.com.au/
 
 **Services:** Dental services are advertised by Optim Dental; treatments specifically confirmed for the Carnes Hill location were not available from public sources at time of verification.
 
@@ -109,5 +116,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Australian Bureau of Statistics — 2021 Census QuickStats | https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10819 |
 | Australia Post — postcode finder | https://auspost.com.au/postcode/carnes-hill |
 | Liverpool City Council — Carnes Hill history | https://mylibrary.liverpool.nsw.gov.au/history/ourstories/suburbs-of-liverpool/carnes-hill |
+| Optim Dental — enrichment source | https://www.optimdental.com.au/ and https://www.optimdental.com.au/contact-us/ (shared address; site content is Fairfield-focused) |
 
 **Data limitations:** Practitioner rosters, location-specific hours and services are sourced from publicly available directories and clinic websites as at 2026-11-09. The related Carnes Hill Dental Centre listing gives its suburb as Horningsea Park NSW 2171 and was not included as an in-suburb clinic; a separate "Carnes Hill Dental Surgery" directory result did not establish a distinct current street address.

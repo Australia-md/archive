@@ -92,16 +92,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1, 400 Burwood Road, Belmore NSW 2192 |
 | **Phone** | (02) 9758 1248 |
-| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat 9:00am-1:00pm · Sun Closed |
+| **Website** | https://www.thedentistsbelmore.com.au/ |
+| **Website check** | CMS not identified · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00AM-5:00PM · Tue 9:00AM-5:00PM · Wed 9:00AM-5:00PM · Thu 9:00AM-5:00PM · Fri 9:00AM-5:00PM · Sat 9:00AM-1:00PM · Sun Closed |
+| **Billing** | Site states: not a preferred-provider practice; payment requested on the day of treatment unless a payment plan is arranged beforehand; Zip (buy now pay later) listed as an option; accepts Child Dental Benefits Schedule (CDBS) through Medicare, Veterans' Affairs bulk billing and NSW Health Oral Health Fee for Service Scheme vouchers if eligible; new adult check-up and clean advertised at $250 including X-rays. |
 | **Access** | Entry via Collins Street; the clinic advises using the Canterbury Bulldogs mural as the landmark for the entrance. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Ibrahim Al-Salti | BDent (Hons), BPharm (Hons) | Clinic biography identifies Dr Al-Salti as the principal dentist and a University of Sydney graduate with ongoing training in contemporary treatments. |
-| Dr Sarah Elmir | BDent (Hons), BMedSci (Hons) | Clinic biography says Dr Elmir joined the practice in 2009 and focuses on patient comfort and desired outcomes. |
+| Dr Ibrahim Al-Salti | BDent (Hons), BPharm (Hons), University of Sydney | Principal Dentist and Owner |
+| Dr Sarah Elmir | BDent (Hons) | Associate Dentist |
+| Ash Nesirwan | BOH | Oral Health Therapist |
+
+Source: https://www.thedentistsbelmore.com.au/about-us
 
 **Services:** Children's dentistry, clear aligners, dental anxiety solutions, root canal treatment, sleep apnoea treatment, TMJ and bruxism treatment, dental implants, bridges, dentures, fillings, inlays, onlays, crowns, porcelain veneers, professional teeth whitening.
 
@@ -113,15 +119,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 370 Burwood Road, Belmore NSW 2192 |
 | **Phone** | (02) 9750 2322 |
-| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed Not confirmed from public sources at time of verification · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat Not confirmed from public sources at time of verification · Sun Not confirmed from public sources at time of verification |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed not listed · Thu 9:00am-6:00pm · Fri 9:00am-2:00pm (Dentist.com.au) / 9am-6pm (Healthdirect) · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: Fees apply. |
 | **Access** | Free parking; appointment required. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Elayne Tran | Not confirmed from public sources at time of verification | Healthdirect and Healthengine list Dr Elayne Tran as a dentist at this Belmore practice. |
+| Dr Elayne Tran | General Dentist | Listed as female general dentist on both profiles |
+
+Source: https://www.dentist.com.au/dentist-detail/belmore-dental-services/A11004543
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -133,15 +142,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 661 Canterbury Road, Belmore NSW 2192 |
 | **Phone** | (02) 9787 2003 |
-| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-5:00pm · Wed Closed · Thu 8:00am-5:00pm · Fri 8:00am-2:00pm · Sat 8:00am-1:00pm · Sun Closed |
+| **Email** | admin@nexgendental.com.au |
+| **Website** | https://www.nexgendental.com.au/ |
+| **Website check** | CMS not identified · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00AM-5:00PM · Tue 8:00AM-5:00PM · Wed 8:00AM-5:00PM · Thu 8:00AM-5:00PM · Fri 8:00AM-2:00PM · Sat 8:00AM-1:00PM · Sun Closed |
+| **Billing** | Orthodontic payment plans (usually 30% upfront, remainder over 10 months interest free, negotiable); Child Dental Benefit Scheme listed among services. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Elias Azzi | Bachelor of Dentistry, University of Sydney | Healthengine says Dr Azzi completed further orthodontic training and has interests in orthodontics, root canal therapy, wisdom tooth removal and cosmetic dentistry. |
-| Dr Mohammad Ali | Bachelor of Medical Science; Bachelor of Dentistry and Dental Surgery | Healthengine says Dr Ali has interests in smile makeovers, dental implant rehabilitation, orthodontics, oral surgery and TMJ management. |
+| Dr Elias Azzi | BDent (University of Sydney) | Principal dentist; cosmetic dentistry, implants and orthodontics |
+
+Source: https://www.nexgendental.com.au/about-us
 
 **Services:** Child Dental Benefit Scheme care, cosmetic dentistry, dental crowns, dental implants, endodontics, preventative general dentistry, laser teeth whitening, orthodontics.
 
@@ -180,5 +194,9 @@ All dental practitioners in Australia must hold current registration with the **
 | 2024 Belmore North Public School Annual Report — NSW Government | https://reports.sparo.schools.nsw.gov.au/annual-report/2024/1185/2024_Belmore_North_Public_School_Annual_Report.pdf |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Belmore Dental Services — enrichment source | https://www.dentist.com.au/dentist-detail/belmore-dental-services/A11004543 |
+| Nexgen Dental — enrichment source | https://www.nexgendental.com.au/about-us |
+| Nexgen Dental — enrichment source | https://www.nexgendental.com.au/financial-info |
+| The Dentists @ Belmore — enrichment source | https://www.thedentistsbelmore.com.au/financial-info |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-22. Rosters change; always verify current practitioners and hours directly with the clinic.

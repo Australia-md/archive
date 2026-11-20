@@ -81,11 +81,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Berowra Shopping Village, Shop 14, 1C Turner Road, Berowra Heights NSW 2082 |
 | **Phone** | (02) 9456 0013 |
-| **Hours** | Mon-Sat 9am-6pm · Sun Closed |
+| **Email** | info@cleardental.com.au |
+| **Website** | https://www.cleardental.com.au/berowra-dentist.html |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon-Sat 9am-6pm · Sun not listed (page states Mon-Sat 9am-6pm; closed public holidays) |
+| **Billing** | Preferred provider for Bupa, nib and CBHS members; claim on the spot with any health fund card; written estimate before larger treatments; payment plans available for treatments such as implants and Invisalign. |
 | **Network** | Bupa and CBHS member programs confirmed on clinic website |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Olivia Gao | — | Listed on Berowra Heights team (Berowra Heights & Chatswood) |
+| Dr Fiona Lo | — | Listed on Berowra Heights team (Chatswood & Berowra Heights) |
+| Dr Philip Mak | — | Listed on Berowra Heights team (Chatswood & Berowra Heights) |
+| Dr Johnson Huang | — | Listed as All Branches; llms.txt names him principal dentist |
+| Dr Sophia Ha | — | Listed on Berowra Heights team (Berowra Heights) |
+| Tiffany Yue | — | Listed as Therapist (Chatswood, Wentworth Point, Castle Hill & Berowra Heights) |
+| Dr Katrina Lowe | — | Listed on Berowra Heights team (Berowra Heights & Toronto) |
+
+Source: https://www.cleardental.com.au/berowra-dentist.html
 
 **Services:** Cosmetic dentistry, veneers, crowns, bridges, general dentistry, fillings, children's dentistry, geriatric care dentistry, preventive dentistry, root canal therapy, orthodontics, Invisalign, lingual braces, metal and ceramic braces, clear retainers, same-day emergency dentistry, wisdom teeth removals, dental implants, root canal surgery, piezoelectric surgery, IV sedation, happy gas, oral sedation.
 
@@ -97,16 +113,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Berowra Medical Family Practice, 1A Turner Road, Berowra Heights NSW 2082 |
 | **Phone** | (02) 9456 6477 |
-| **Hours** | Mon-Fri 8am-6pm · Sat 8am-12pm · Sun Closed |
+| **Email** | berowradental@outlook.com |
+| **Website** | https://berowradental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 8:15am-6:00pm · Sat 8:15am-12:00pm · Sun Closed (site footer); contact page lists Mon-Fri 8:00am-5:30pm · Sat 8:00am-12:00pm |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Sherif Ibrahim | ADC, DDA, MRACDS | Special interests in oral surgery, orthodontic and cosmetic dentistry; profile notes he graduated in 2001 and has worked in Newcastle and the Central Coast since 2007. |
-| Dr Ashna Vora | Qualification not confirmed from public sources at time of verification | General dental practitioner; profile notes interests in restorative dentistry and long-term treatment planning. |
-| Dr Shivani Rattan | Bachelor of Dental Science; Graduate Diploma in Dentistry, Griffith University | Profile notes expertise in root canal therapy, crown and bridgework, and experience treating anxious patients and children. |
+| Dr Sherif Ibrahim | — | Individual profile page on clinic site; bio text not retrievable |
+| Dr Ashna Vora | — | Individual profile page on clinic site; bio text not retrievable |
+| Dr Shivani Rattan | — | Individual profile page on clinic site; bio text not retrievable |
+
+Source: https://berowradental.com.au/ (profile pages /dr-sherif-ibrahim/, /dr-ashna-vora/, /dr-shivani-rattan/)
 
 **Services:** Veneers, dental implants, crowns and bridges, teeth whitening, orthodontic treatment, root canal therapy, toothache care, dental emergencies, general dentistry, children's dentistry, cosmetic dentistry.
 
@@ -141,5 +162,8 @@ All dental practitioners in Australia must hold current registration with the **
 | Berowra Heights — Wikipedia | https://en.wikipedia.org/wiki/Berowra_Heights |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Berowra Dental Care — enrichment source | https://berowradental.com.au/ (profile pages /dr-sherif-ibrahim/, /dr-ashna-vora/, /dr-shivani-rattan/) |
+| Berowra Dental Care — enrichment source | https://berowradental.com.au/contact-us/ |
+| Clear Dental - Berowra Heights — enrichment source | https://www.cleardental.com.au/berowra-dentist.html (mailto link) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-01. Rosters change; always verify current practitioners and hours directly with the clinic.

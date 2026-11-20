@@ -78,13 +78,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | First Care Medical Centre, Shop 2/103 Cartwright Avenue, Busby NSW 2168 |
 | **Phone** | (02) 8798 0882 |
-| **Hours** | Mon–Fri 10:00am–6:00pm · Sat 10:00am–2:00pm · Sun Closed |
+| **Email** | supremebusby@gmail.com |
+| **Website** | https://supreme-dental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 10:00am-6:00pm · Tue 10:00am-6:00pm · Wed 10:00am-6:00pm · Thu 10:00am-6:00pm · Fri 10:00am-6:00pm · Sat 10:00am-2:00pm · Sun Closed |
+| **Billing** | About page: 'HICAPS on-site claiming'; 'All major health funds accepted'; 'Child Dental Benefits Schedule'; 'Medicare bulk billing for eligible children'; 'OHFFSS vouchers accepted for eligible patients'; written quote with costs discussed before treatment. |
 | **Network** | HealthEngine reports the practice as a preferred provider for seven health insurance funds; individual funds were not named in the source. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Anjali Chaudhari | Bachelor of Dental Surgery (BDS), University of Bombay | Principal Dentist & Founder; site says 'Australian Dental Council Certified'. Named on shared Busby and Coogee About page (clinic assignment not specified) |
+| Dr Neha Mehta | Bachelor of Dental Surgery (BDS) | General Dentist; named on shared Busby and Coogee About page (clinic assignment not specified) |
+
+Source: https://supreme-dental.com.au/about
 
 **Services:** Check-up and clean, veneers, crowns and bridges, teeth whitening, dental implants, root canal therapy, restorative dentistry, dentures, wisdom teeth, emergency dentistry.
 
@@ -118,5 +127,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Google Maps | https://www.google.com/maps/search/dental+clinic+busby+NSW+2168 |
 | HotDoc | https://www.hotdoc.com.au/find/dentist/NSW/busby-2168 |
 | NPS MedicineWise / FindAHealthService | https://www.nps.org.au |
+| Supreme Dental Busby — enrichment source | https://supreme-dental.com.au/about |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and the clinic website as at 2026-10-08. Rosters change; always verify current practitioners and hours directly with the clinic.

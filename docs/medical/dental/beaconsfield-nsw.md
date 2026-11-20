@@ -77,14 +77,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 394 Botany Road, Beaconsfield NSW 2015 |
 | **Phone** | (02) 9319 1730 |
-| **Hours** | Mon-Thu 9:00am-6:00pm · Fri 9:00am-5:00pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Website** | https://greensquaredental.com.au/ |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-5:00pm · Sat not listed · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Dion Shapiro | Bachelor of Dental Surgery (B.D.S Wits), University of the Witwatersrand, 1991 | Public profile states he qualified in Johannesburg in 1991, completed the examinations required to practise dental surgery in Australia in Melbourne in 1996, and relocated the practice to Alexandria in 2000 under the Green Square Dental name. |
+| Dr Dion Shapiro | — | Dentist (HealthEngine profile; clinic site has a Dr Dion Shapiro page) |
+| Tom | — | Oral Hygienist (first name only, as shown on HealthEngine practice description) |
+
+Source: https://healthengine.com.au/dentist/nsw/alexandria/green-square-dental/s36573
 
 **Services:** Standard check-ups, oral restoration procedures, cosmetic dentistry, teeth straightening, scale and clean prophylaxis, teeth whitening, wisdom teeth extractions, dental implants, root canal therapy, porcelain veneers.
 

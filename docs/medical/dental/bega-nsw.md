@@ -89,14 +89,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 131 Carp Street, Bega NSW 2550 |
 | **Phone** | (02) 6492 1019 |
+| **Email** | reception@begadental.com.au |
+| **Website** | https://www.begadental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon-Fri 9:00am-5:00pm · Sat-Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jake Yu | BDS | Practice site identifies Dr Jake Yu as the clinic's general dentist. |
+| Dr Jake Yu | BDS | General dentist (as described on About page) |
+
+Source: https://www.begadental.com.au/about
 
 **Services:** General check-ups, cleaning, fillings, crowns, veneers, implant supported crowns, dentures, dental bridge work, Zoom whitening, wisdom teeth removal, cosmetic dentistry, sports mouthguards, root canal treatment, occlusal splints, snoring devices, clear aligners.
 
@@ -108,16 +113,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 95 Carp Street, Bega NSW 2550 |
 | **Phone** | (02) 6492 5150 |
-| **Hours** | Mon-Fri 9:00am-5:00pm · Sat-Sun Closed |
+| **Website** | https://begadentalpractice.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-5pm · Tue 9am-5pm · Wed 9am-5pm · Thu 9am-5pm · Fri 9am-5pm · Sat not listed · Sun not listed |
+| **Billing** | New Patients page, Fees and payments: EFTPOS, personal cheque, internet banking, Mastercard and Visa accepted; HICAPS available for health fund rebates. |
 | **Access** | Off-street parking is available at the rear of the building; practice site states the clinic is wheelchair accessible. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jessica Sunner | BDHS (Griffith), MDent (Griffith) | Practice site states Dr Jessica Sunner enjoys all aspects of general dentistry and moved from Canada to the Gold Coast to study dentistry at Griffith University. |
-| Dr Adelewa Olakitan Idowu | University of Sydney dentistry studies completed in 2022; exact dental degree title not confirmed from public sources at time of verification | Practice site notes Adelewa previously worked for 10 years as a physiotherapist and holds bachelor's and master's degrees specialising in women's health and continence. |
+| Dr Alexandra Kerr | BDSc (CSU) | Site notes she is not currently taking on new patients |
+| Dr Mary Tiutiunnik | BDS (Syd), GradCert Dent (Adel), Grad Dip Psyc (UNE) | Graduated 1983; founded Bega Dental Practice (per site) |
+| Dr Adelewa Idowu | DMD (Syd), M.Physio (Melb), B.Physio (Monash) | Listed on team page |
+| Dr Jessica Sunner | BDHS (Griffith), MDent (Griffith) | Listed on team page; role title not stated in text read |
+
+Source: https://begadentalpractice.com.au/about-us/our-team/
 
 **Services:** Emergency care and pain relief, general dentistry, preventative care, cosmetic dentistry, whitening, veneers, tooth replacement, implant restorations, restoration of worn or broken teeth, wisdom teeth care and removal, facial pain and jaw problem management, sports mouthguards, mandibular advancement devices, night guards, occlusal splints, Child Dental Benefits Schedule services for eligible families.
 
@@ -154,5 +166,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Getting here | https://civiccentre.begavalley.nsw.gov.au/Your-Visit/Getting-here |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bega Dental Practice Pty Ltd — enrichment source | https://begadentalpractice.com.au/new-patients/ |
+| Bega Dental Surgery & Laboratory — enrichment source | https://www.begadental.com.au/contacts (mailto link, also in site header) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-16. Rosters change; always verify current practitioners and hours directly with the clinic.
