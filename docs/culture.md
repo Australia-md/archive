@@ -75,7 +75,7 @@ sources:
 | Cricket | Cricket Australia | [cricket.com.au](https://www.cricket.com.au) |
 | Rugby League (NRL) | National Rugby League | [nrl.com](https://www.nrl.com) |
 | Rugby Union | Rugby Australia | [rugby.com.au](https://www.rugby.com.au) |
-| Football (Soccer) | Football Australia | [footballaustralia.com.au](https://www.footballaustralia.com.au) |
+| Football (Soccer) | Football Australia | [footballaustralia.com.au](https://footballaustralia.com.au) |
 | Tennis | Tennis Australia | [tennis.com.au](https://www.tennis.com.au) |
 | Swimming | Swimming Australia | [swimming.org.au](https://www.swimming.org.au) |
 | Netball | Netball Australia | [netball.com.au](https://netball.com.au) |
