@@ -66,11 +66,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 136 Torrens Street, Canley Heights NSW 2166 |
 | **Phone** | (02) 9723 8788 |
-| **Hours** | Mon 9:00am–6:00pm · Tue Closed · Wed 9:00am–6:00pm · Thu Closed · Fri 9:00am–6:00pm · Sat–Sun 9:00am–2:00pm |
+| **Email** | info@advdentalclinic.com.au |
+| **Website** | https://www.advdentalclinic.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-6pm · Tue Closed · Wed 9am-6pm · Thu Closed · Fri 9am-6pm · Sat 9am-2pm · Sun 9am-2pm |
 | **Access** | Located inside Advance Health Medical Centre; the clinic states ample car parking is available. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Names omitted because current AHPRA registration could not be independently verified during this run; verify via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Brendan Tran | Graduate Diploma of Dentistry and Bachelor of Oral Health in Dental Science (Griffith University); LLU/gIDE Master Clinician Program in Implant Dentistry | Principal Dentist |
+
+Source: https://www.advdentalclinic.com.au/about-us/
 
 **Services:** Preventive and general dentistry, check-ups and cleans, fillings, extractions, root canal therapy, gum treatments, dentures, and emergency dentistry.
 
@@ -80,11 +89,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 1/229 Canley Vale Road, Canley Heights NSW 2166 |
 | **Phone** | (02) 9199 9678 |
-| **Hours** | Mon–Fri 9:00am–6:00pm · Sat 8:30am–4:30pm · Sun 8:30am–3:30pm |
+| **Email** | canleyheightsdentalcare@gmail.com |
+| **Website** | https://canleyheightsdentalcare.com.au/ |
+| **Website check** | WordPress (Divi child theme) site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat 8:30am-4:30pm · Sun 8:30am-3:30pm |
+| **Billing** | Range of no-gap general dental treatments for patients with private health cover (any Australian fund including dental cover); children eligible under the Child Dental Benefits Scheme (CDBS) are bulk billed; tailored repayment plans available without private health cover; accepts BUPA, GMF, GMBHA and CBHS. |
 | **Access** | The clinic states that free car parking is available onsite. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Names omitted because current AHPRA registration could not be independently verified during this run; verify via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Anna Cao | Bachelor of Medical Science (UNSW 2009); Masters of Scientific Studies (UNE 2011); Doctor of Dental Surgery (University of Melbourne 2015); Invisalign Certified | General dentist |
+| Dr Cailu Ke | Bachelor of Dental Surgery (University of Adelaide) | — |
+| Dr Kevin Kim | DentSci, MDent (Griffith University) | Member of the Australian Dental Association (as stated on site) |
+| Dr Annabelle Tran | — | — |
+| Dr Jennifer Cam | Bachelor of Science/Doctor of Dental Medicine (University of Sydney) | Member of the Australian Dental Association (as stated on site) |
+
+Source: https://canleyheightsdentalcare.com.au/about-us/
 
 **Services:** General, preventive, cosmetic and restorative dentistry; children's dentistry; emergency dentistry; implants; crown and bridge; dentures; root canal and periodontal treatments. Details are listed by the [clinic](https://canleyheightsdentalcare.com.au/) and [Fairfield City Council business directory](https://www.fairfieldcity.nsw.gov.au/Business/Business-Directory/Canley-Heights-Dental-Care).
 
@@ -94,7 +117,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 2, 192 Canley Vale Road, Canley Heights NSW 2166 |
 | **Phone** | (02) 9724 6633 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat–Sun 9:00am–5:00pm |
+| **Website** | https://alwayssmiles.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9am-5pm · Tue 9am-5pm · Wed 9am-5pm · Thu 9am-5pm · Fri 9am-5pm · Sat 9am-5pm · Sun 9am-5pm |
+| **Billing** | Healthdirect: Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Names omitted because current AHPRA registration could not be independently verified during this run; verify via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -107,10 +133,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | [220 Canley Vale Road, Canley Heights NSW 2166](https://www.healthdirect.gov.au/australian-health-services/20089355/dr-joseph-petranovic-dental-surgery/services/canley-heights-2166-220-canley-vale-road) |
 | **Phone** | (02) 9724 4769 |
-| **Hours** | Not confirmed from public sources at time of verification; public directory listings show conflicting hours. |
+| **Hours** | Mon 9:00am-5:30pm · Tue 9:00am-5:30pm · Wed 9:00am-5:30pm · Thu 9:00am-1:30pm · Fri 9:00am-5:30pm · Sat 9:00am-1:00pm · Sun not listed |
+| **Billing** | Healthdirect: Fees apply; HealthEngine: free quotations for major dental work |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Names omitted because current AHPRA registration could not be independently verified during this run; verify via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Joseph Petranovic | Dentist | Listed as the practice's dentist; HealthEngine says 'over 25 years of experience' |
+
+Source: https://healthengine.com.au/dentist/nsw/canley-heights/dr-joseph-petranovic-fairfield-dentists/s36889
 
 **Services:** Check-ups and scale/clean, fillings, whitening, crowns and bridges, implants, cosmetic dentistry, children's dentistry, and emergency appointments, as listed by [HealthEngine](https://healthengine.com.au/dentist/nsw/canley-heights/dr-joseph-petranovic-fairfield-dentists/s36889).
 
@@ -153,5 +186,16 @@ All dental practitioners in Australia must hold current registration with the **
 | Australian Bureau of Statistics | https://www.abs.gov.au/census/find-census-data/quickstats/2021/SAL10790 |
 | Fairfield City Council | https://www.fairfieldcity.nsw.gov.au/Business/Town-Centres/Canley-Heights |
 | Australia Post postcode lookup | https://auspost.com.au/postcode/canley-heights |
+| Advance Dental Canley Heights — enrichment source | https://www.advdentalclinic.com.au/ |
+| Advance Dental Canley Heights — enrichment source | https://www.advdentalclinic.com.au/ (footer Opening Hours) |
+| Advance Dental Canley Heights — enrichment source | https://www.advdentalclinic.com.au/about-us/ |
+| Advance Dental Canley Heights — enrichment source | https://www.advdentalclinic.com.au/contact-us/ |
+| Always Smiles Dental — Canley Heights — enrichment source | https://alwayssmiles.com.au/ |
+| Always Smiles Dental — Canley Heights — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/canley-heights-2166-nsw/always-smiles-dental-canley-heights/dentists/36047212-e23e-fd0e-e6d0-b6fa717bc952 |
+| Canley Heights Dental Care — enrichment source | https://canleyheightsdentalcare.com.au/ |
+| Canley Heights Dental Care — enrichment source | https://canleyheightsdentalcare.com.au/about-us/ |
+| Canley Heights Dental Care — enrichment source | https://canleyheightsdentalcare.com.au/contact-us/ |
+| Fairfield Dentists — enrichment source | https://healthengine.com.au/dentist/nsw/canley-heights/dr-joseph-petranovic-fairfield-dentists/s36889 |
+| Fairfield Dentists — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/canley-heights-2166-nsw/dr-joseph-petranovic-dental-surgery/dentists/e2aee0a4-a7c6-f676-94aa-758ed0e236ec |
 
 **Data limitations:** Clinic details and hours are sourced from clinic websites and public directories as at 2026-10-27. Healthdirect lists the Medoptix location under Dentists, but dental-specific services and hours were not independently confirmed. Public hours for Fairfield Dentists conflict between directories. The AHPRA register could not be reached during this run, so current practitioner registration was not independently verified; confirm current practitioners and hours directly with each clinic.

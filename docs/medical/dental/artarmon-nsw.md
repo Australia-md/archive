@@ -80,19 +80,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 9 Elizabeth Street, Artarmon NSW 2064 |
 | **Phone** | (02) 8007 6704 |
-| **Hours** | Mon 8am–6pm · Tue 8am–6pm · Wed 8am–6pm · Thu 8am–6pm · Fri 8am–6pm · Sat 8am–6pm · Sun hours not confirmed from public sources at time of verification |
+| **Website** | https://www.nogapsdental.com/location/dentist-artarmon/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8am-6pm · Tue 8am-6pm · Wed 8am-6pm · Thu 8am-6pm · Fri 8am-6pm · Sat 8am-6pm · Sun not listed |
+| **Billing** | Clinic page: accepts all major private health insurances; 'No Gaps Guarantee' for many general and preventive treatments; HICAPS available for instant fund claiming; Payment Plans page linked in site menu. |
 | **Access** | One-minute walk from Artarmon railway station; nearby council car park and limited street parking are noted on the clinic website. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Bandana Shakya | Not confirmed from public sources at time of verification | Dentist.com.au lists Dr Bandana Shakya with Hindi and Nepali language support. |
-| Dr Shikha Garg | Not confirmed from public sources at time of verification | Dentist.com.au lists Dr Shikha Garg as part of the Artarmon team. |
-| Dr Than Lwin Ye Myint | Not confirmed from public sources at time of verification | Dentist.com.au lists Burmese language support. |
-| Dr William Machida | Not confirmed from public sources at time of verification | Dentist.com.au lists Japanese language support; the clinic page describes Dr William Machida as a senior dentist with prosthetic and restorative dentistry experience. |
-| Dr Christina Xu | Not confirmed from public sources at time of verification | The clinic website lists Dr Christina Xu among the Artarmon dentists with a focus on cosmetic enhancements and hygiene care. |
+| Dr Bandana Shakya | — | Listed as Dentist on clinic location page |
+| Dr William Machida | — | Listed as Dentist on clinic location page; crowns and implants; speaks English, Japanese |
+
+Source: https://www.nogapsdental.com/location/dentist-artarmon/
 
 **Services:** General check-ups and cleans, digital and OPG X-rays, fluoride treatments, fissure sealants, fillings, crowns, bridges, dentures, splints, dental implants, root canal therapy, whitening, veneers, bonding, orthodontic treatments, wisdom tooth extractions, mouthguards, nightguards, TMJ splint therapy, emergency dental care.
 
@@ -104,15 +106,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 1, 80 Hampden Road, Artarmon NSW 2064 |
 | **Phone** | (02) 9419 7484 |
-| **Hours** | Mon 8am–5pm · Tue 8am–5pm · Wed 8am–5pm · Thu 8am–5pm · Fri by appointment only · Sat 8am–2:30pm · Sun hours not confirmed from public sources at time of verification |
+| **Website** | https://artarmonfinedental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri not listed · Sat 8:00am-2:00pm (site notes Saturday opens on the 1st and 3rd of each month) · Sun not listed |
+| **Billing** | About page: accepts health funds, HICAPS machine on-site (claim rebate and pay only the gap); payment plan options available if no cover. |
 | **Access** | Healthengine lists a nearby bus stop and allied health services. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Mark Chung | Bachelor of Dental Surgery (Honours), University of Sydney, 2003 | Healthengine states Dr Mark Chung is an accredited Invisalign provider with interests in dental implants, crowns, and sleep disorders. |
+| Dr Mark Chung | — | Listed as Dentist; in practice since 2003; took over the practice in 2015 |
+
+Source: https://artarmonfinedental.com.au/about-us/
 
 **Services:** General dentistry, children's dentistry, dental hygiene, fillings, extractions, gum disease care, root canal treatment, sleep apnoea appliances, cosmetic dentistry, interceptive orthodontics, Invisalign, teeth whitening, veneers, crowns, dental implants, dentures, emergency dental care.
 
@@ -146,5 +153,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Wikipedia — Artarmon, New South Wales | https://en.wikipedia.org/wiki/Artarmon,_New_South_Wales |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Artarmon Fine Dental — enrichment source | https://artarmonfinedental.com.au/about-us/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-05. Rosters change; always verify current practitioners and hours directly with the clinic.

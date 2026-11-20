@@ -89,15 +89,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 48 Seven Hills Road, Baulkham Hills NSW 2153 |
 | **Phone** | (02) 9686 7288 |
-| **Hours** | Mon-Fri 9:00am-5:00pm · Sat 8:00am-12:00pm · Sun Closed |
+| **Email** | receptionbh@integritydental.com.au |
+| **Website** | https://integritydental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat 8:00am-2:00pm · Sun Closed |
+| **Billing** | Homepage: 'No Gap for CDBS patients'; 'Interest-free payment plans' (site also has Payment Plan and Child Dental Benefit pages, not opened). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Mohammed Calcuttawala | Not confirmed from public sources at time of verification | Dentist.com.au lists Dr Mohammed Calcuttawala as a general dentist at Integrity Dental in Baulkham Hills. |
-| Dr Ashima Gupta | Not confirmed from public sources at time of verification | Dentist.com.au lists Dr Ashima Gupta as a general dentist at Integrity Dental and notes she began her dental career in Orange in 2009 before moving to Sydney. |
+| Dr Muhammad Qasim Malik | — | Senior Dentist at Integrity Dental (about page); interests: cosmetic dentistry, extractions, root canals |
+| Dr Cal | — | Referred to on homepage as principal dentist (first name/title only) |
+
+Source: https://integritydental.com.au/about-us/
 
 **Services:** General dentistry, cosmetic dentistry, laser dentistry, preventative dentistry, dental implants, teeth whitening, tongue tie and lip tie release, crown and bridge work, root canal treatment, sedation dentistry, minor oral surgery, orthodontics, teeth cleaning.
 
@@ -109,7 +115,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 94, 375 Windsor Road, Baulkham Hills NSW 2153 |
 | **Phone** | (02) 9639 9555 |
-| **Hours** | Mon-Fri 9:00am-6:00pm · Sat 9:00am-4:00pm · Sun Closed |
+| **Hours** | Mon 9am-6pm · Tue 9am-6pm · Wed 9am-6pm · Thu 9am-6pm · Fri not listed · Sat 9am-5pm · Sun not listed |
+| **Billing** | Healthdirect: Fees apply |
 | **Access** | Accessible toilet, accessible parking and wheelchair access confirmed from Healthdirect public facility data |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -127,6 +134,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 38 Merindah Road, Baulkham Hills NSW 2153 |
 | **Phone** | (02) 9686 7375 |
+| **Website** | https://myhillsdentist.com/ |
+| **Website check** | WordPress (Avada theme) site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon-Thu 8:30am-6:30pm · Fri 8:30am-5:00pm · Sat 8:00am-1:00pm · Sun Closed |
 | **Access** | Free parking, accessible parking, wheelchair access and accessible toilet confirmed from Healthdirect public facility data |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
@@ -147,15 +156,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 1, 9 Seven Hills Road, Baulkham Hills NSW 2153 |
 | **Phone** | (02) 9639 4165 |
-| **Hours** | Mon-Thu 8:00am-9:00pm · Fri 8:00am-6:00pm · Sat 8:00am-5:00pm · Sun 8:00am-1:00pm |
+| **Email** | baulkhamhills7daydentalcentre@gmail.com |
+| **Website** | https://24hrdentist.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8am-9pm · Tue 8am-9pm · Wed 8am-9pm · Thu 8am-9pm · Fri 8am-6pm · Sat 8am-5pm · Sun 8am-1pm |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Winnie Chui | B.D.S (Syd. Uni.) | Public team profile states she has practised for more than 20 years at the surgery and has interests in periodontics, cosmetic dentistry and smile makeovers. |
-| Dr Nibir Hossain | BAppSc (Physiotherapy) (Uni. Syd.), DMD (Uni. Syd.) | Public team profile states interests in all aspects of dentistry, with additional implant dentistry training through the Australian Society of Implant Dentistry and a diploma in orthodontics in progress. |
+| Dr Michael Schokman | B.D.S (Syd. Uni.) | General dentist |
+| Dr Shaz Scheiwani | B.O.H (Uni. Syd.), B.D.Sc (Charles Sturt Uni.) | General dentist |
+| Dr Shiv Shashi | B.D.S (OTAGO.NZ) | General dentist |
+| Dr Winnie Chui | B.D.S (Syd. Uni.) | General dentist |
+| Dr Sibel Er | BHSc(Dent)/ MDent (La Trobe Uni), BDS (Hons) (La Trobe Uni) | General dentist |
+
+Source: https://24hrdentist.com.au/locations/baulkham-hills/
 
 **Services:** Routine examinations and cleans, fillings, emergency dental care, children's dentistry, chipped or cracked tooth repairs, dentures, extractions, gum disease treatment, mouthguards, sleep dentistry, splints and nightguards, tooth fillings, wisdom teeth removal, crowns and bridges, implants, root canal therapy, orthodontic treatment, clear aligners, veneers, full mouth smile makeovers.
 
@@ -192,5 +209,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Dr. Nibir Hossain — Baulkham Hills & Bella Vista 7 Day Dental Centre | https://24hrdentist.com.au/about-us/our-team/dr-nibir-hossain/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Baulkham Hills 7 Day Dental Centre — enrichment source | https://24hrdentist.com.au/contact-us/ (mailto link) |
+| Baulkham Hills 7 Day Dental Centre — enrichment source | https://24hrdentist.com.au/locations/baulkham-hills/ |
+| Integrity Dental - Baulkham Hills — enrichment source | https://integritydental.com.au/about-us/ |
+| Pro Dental Clinic - Baulkham Hills — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/baulkham-hills-2153-nsw/pro-dental-clinic-baulkham-hills/dentists/01f2d9fc-932c-f869-127f-2597c9791161 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-10. Rosters change; always verify current practitioners and hours directly with the clinic.

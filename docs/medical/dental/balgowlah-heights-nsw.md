@@ -59,11 +59,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Stockland Balgowlah, 197 Condamine Street, Balgowlah Heights NSW 2093 |
 | **Phone** | (02) 9902 5900 |
-| **Hours** | Mon–Fri 8:30am–6pm · Sat 9am–5pm · Sun 10am–4pm |
+| **Website** | https://pacificsmilesdental.com.au/locations/balgowlah/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-6:00pm · Thu 8:30am-6:00pm · Fri 8:30am-6:00pm · Sat 9:00am-5:00pm · Sun 10:00am-4:00pm (public holiday hours may differ) |
 | **Access** | Stockland Balgowlah offers over 700 undercover car parks with access from Condamine Street and Sydney Road |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-> **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+> **Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Rujuta Gyani | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Adriana Navas | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Sujatha Kulkarni | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Shanu Sandhu | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Su Min Lee | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Amrita Singh | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Camilo Rios | — | Named in a 'Meet...' news post on the clinic location page |
+| Dr Deborah Kwan | — | Named in a 'Meet...' news post on the clinic location page |
+
+Source: https://pacificsmilesdental.com.au/locations/balgowlah/
 
 **Services:** Family dentistry, cosmetic dentistry, implant dentistry, dentures, kids dental care, and emergency dental appointments.
 
@@ -90,5 +105,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Pacific Smiles Dental - Balgowlah — enrichment source | https://pacificsmilesdental.com.au/locations/balgowlah/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-19. Rosters change; always verify current practitioners and hours directly with the clinic.

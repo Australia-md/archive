@@ -81,16 +81,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 303 Bexley Road, Bexley North NSW 2207 |
 | **Phone** | (02) 9554 3254 |
-| **Hours** | Mon-Fri 8am-6pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 8:00am-6:00pm · Fri 8:00am-6:00pm · Sat not listed · Sun not listed |
 | **Access** | Appointment required. Other access notes not confirmed from public sources at time of verification. |
 | **Network** | Bupa preferred provider listed by Healthengine. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr George Tsepetzis | Qualification not confirmed from public sources at time of verification | Publicly listed by Dentist.com.au as a general dentist at this Bexley North practice. |
+| Dr George Tsepetzis | — | General Dentist (Dentist.com.au listing) |
+
+Source: https://www.dentist.com.au/dentist-detail/dr-george-tsepetzis-dental-surgery/A11004353
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -102,17 +104,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 25 Shaw Street, Bexley North NSW 2207 |
 | **Phone** | (02) 9554 3180 |
-| **Hours** | Mon-Fri 8:30am-5:30pm · Sat 8am-1pm · Sun Closed |
+| **Email** | info@smileinndentistry.com.au |
+| **Website** | https://smileinndentistry.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-5:30pm · Tue 8:30am-5:30pm · Wed 8:30am-5:30pm · Thu 8:30am-5:30pm · Fri 8:30am-5:30pm · Sat 8:00am-1:00pm · Sun Closed |
+| **Billing** | Contact page: 'We accept all health funds including the Medicare Child Dental Benefit Scheme, Veterans Affairs and NSW Oral Health Vouchers.' |
 | **Access** | Opposite Bexley North train station with street parking available on Shaw Street. |
 | **Network** | Accepts all health funds, including the Medicare Child Dental Benefits Schedule, Veterans Affairs, and NSW Oral Health Vouchers. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Kevin Lin | BDS, University of Sydney | Publicly listed with interests in cosmetic dentistry, implant dentistry, and family dental care. |
-| Dr Daryl Concepcion | BDS, Charles Sturt University | Publicly listed with interests in endodontics, oral surgery, and clear aligners. |
+| Dr Kevin Lin | BDS (Sydney) | General and cosmetic dentist; co-owner |
+| Dr Daryl Concepcion | BDS (Charles Sturt) | General dentist; co-owner |
+
+Source: https://smileinndentistry.com.au/about-us/
 
 **Services:** General dentistry, preventive dentistry, children's dentistry, restorative dentistry, cosmetic dentistry, implant dentistry.
 

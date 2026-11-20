@@ -68,19 +68,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 7, Centre Health Complex, 9-25 Captain Cook Drive, Barrack Heights NSW 2528 |
 | **Phone** | (02) 4216 9911 |
-| **Hours** | Public sources conflict at time of verification: the clinic website lists Monday-Friday 8:00am-5:00pm and Saturday by appointment only, while Dentist.com.au lists Monday-Friday 9:00am-7:00pm and Saturday 9:00am-4:00pm. Verify directly with the clinic. |
+| **Website** | https://shellharbourdentist.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri 8:00am-5:00pm · Sat 8:00am-4:00pm · Sun Closed |
+| **Billing** | Our Fees page: published fee guide with first-visit check-up caps (adults $250, children $150; without OPG, $200 with OPG where clinically appropriate); says fees, private health benefits and third-party payment arrangements vary. Site menu lists payment options Afterpay, Total Lifestyle Credit, MediPay and Zip. |
 | **Access** | Dedicated carpark at the front of the Centre Health Complex; access via Captain Cook Drive. |
 | **Network** | HCF, CBHS, Smile.com.au preferred provider. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Mazin Al-Aridhi | Qualification not confirmed from public sources at time of verification | General dentist; public profile notes Arabic and English |
-| Dr Adriana Sarmiento Giraldo | Qualification not confirmed from public sources at time of verification | General dentist; public profile notes Spanish and English |
-| Dr Mohit Tolani | Qualification not confirmed from public sources at time of verification | Principal dentist / general dentist on public practice profiles |
-| Dr Amy Min | Qualification not confirmed from public sources at time of verification | General dentist; public profile notes Korean and English |
+| Dr Mohit Tolani | Dentistry degree, Griffith University; Master of Public Health; Master of Health Management; Fellowship in Implant Dentistry (ICOI) | Leads the dental team |
+| Dr Pat Pandey | — | Listed as a dentist at Shellharbour Dentists |
+| Dr Maryam Kalo | — | Listed as a dentist at Shellharbour Dentists |
+| Dr Narayan Oli | — | Listed as a dentist at Shellharbour Dentists |
+
+Source: https://shellharbourdentist.com.au/meet-the-team
 
 **Services:** Dental check-ups, dental cleans, dental implants, cosmetic dentistry, smile makeovers, dental veneers, crowns, bridges, teeth whitening, emergency dentistry.
 
@@ -110,5 +115,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Shellharbour Dentists directory profile | https://www.dentist.com.au/dentist-detail/centre-health-dental-clinic/a11000273 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Shellharbour Dentists — enrichment source | https://shellharbourdentist.com.au/meet-the-team |
+| Shellharbour Dentists — enrichment source | https://shellharbourdentist.com.au/our-fees |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-02. Rosters change; always verify current practitioners and hours directly with the clinic.

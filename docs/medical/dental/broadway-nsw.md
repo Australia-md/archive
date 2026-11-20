@@ -75,14 +75,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unilodge Building, 185-211 Broadway, Ultimo NSW 2007 |
 | **Phone** | (02) 9280 1054 |
-| **Hours** | Mon-Thu 9:00am-6:00pm · Fri 9:00am-5:00pm · Sat 9:00am-1:00pm · Sun Closed |
+| **Website** | https://www.bupadental.com.au/find-a-dentist/nsw-ultimo-2007-au/bupa-dental-broadway/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-5:00pm · Sat 9:00am-1:00pm · Sun Closed. Clinic page also states: from 10 October 2026 open on alternate Saturdays 9:00am-1:00pm. |
+| **Billing** | Members First Ultimate practice (clinic states 100% back on up to two 6-monthly check-up and cleans, select items, and on General Dental fillings up to yearly limits; waiting periods, policy and fund rules apply); 'Preferred health fund providers: All major funds welcome. Policy rules apply'; 'Payment options may be available with participating clinicians at this practice' (payment plans listed under services). |
 | **Access** | Regular buses run along Broadway from Central Station; the clinic is within walking distance of Central Station. Two hours free parking is available at Broadway Shopping Centre across the road. |
 | **Network** | Bupa Members First Ultimate; all health funds accepted, according to the clinic profile. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Richard Wark | Bachelor of Dental Surgery, University of Adelaide (2008) | Interest in Invisalign, cosmetic treatments, wisdom tooth removal and implant surgery; Master Clinician in Implants (UCLA, 2014) |
+| Dr Julie Bishay | — | Associate dentist at Bupa Dental Broadway and Bupa Dental Liverpool |
+| Bryce Ko | — | Oral health therapist |
+
+Source: https://www.bupadental.com.au/find-a-dentist/nsw-ultimo-2007-au/bupa-dental-broadway/
 
 **Services:** Check-up and clean, dental emergencies, periodontics, TMJ care, mouthguards, sedation for anxious patients, sleep apnoea and snoring care, crowns and bridges, fillings, implants, inlays/onlays, root canal treatment, same-day crowns, teeth whitening, veneers, extractions, wisdom teeth removal, oral surgery, Invisalign and clear aligners.
 
@@ -94,13 +103,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unilodge Building, Shop 14/185-211 Broadway, Ultimo NSW 2007 |
 | **Phone** | (02) 9072 0556 |
-| **Hours** | Mon-Fri 9:00am-6:00pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Email** | info@fysmile.com.au |
+| **Website** | https://www.fysmile.com.au/dentist-broadway |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9am-6pm · Tue 9am-6pm · Wed 9am-6pm · Thu 9am-6pm · Fri 9am-6pm · Sat not listed · Sun not listed |
 | **Access** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Fadi Yassmin | — | Surgical And Restorative Aesthetic Dentist |
+| Dr Amelia Judson | — | Restorative Dentist |
+| Dr Christian Yassmin | — | Restorative Dentist |
+
+Source: https://www.fysmile.com.au/our-team
 
 **Services:** General dentistry, aesthetic dentistry, restorative dentistry, Invisalign, veneers, implants, digital radiography, CBCT scanning, intraoral cameras and 3D microscopy.
 
@@ -130,14 +148,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 86 Mountain Street, Broadway NSW 2007 |
 | **Phone** | (02) 9212 7119 |
-| **Hours** | Mon-Wed 9:00am-5:00pm · Thu 10:30am-7:00pm · Fri 9:00am-5:00pm · Sat 9:00am-4:00pm · Sun Closed |
+| **Email** | reception@flossdental.com.au |
+| **Website** | https://flossdental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 10:30am-7:00pm · Fri 9:00am-5:00pm · Sat 9:00am-4:00pm · Sun not listed (contact page: open 6 days a week, Monday to Saturday) |
+| **Billing** | 'We are a Medibank preferred provider, accepting all major health funds.' |
 | **Access** | Paid parking is available on Mountain and Smail Streets; three hours free parking is available at Broadway Shopping Centre. On-site disabled parking may be arranged in advance. Bus stops on Parramatta Road are about two minutes' walk away. |
 | **Network** | Medibank preferred provider; all major health funds accepted, according to the clinic website. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Leonard Kwan | Graduate of University of Sydney | Principal Dentist |
+| Dr Anthony Do | Graduate of University of Sydney (Dentistry and Forensic Biology) | Dentist; interest in endodontics |
+| Dr Victoria Ito | Graduate of University of Melbourne | Dentist |
+
+Source: https://flossdental.com.au/our-team/
 
 **Services:** Dental care; specific services not confirmed from public sources at time of verification.
 
@@ -170,5 +198,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Floss Dental location | https://flossdental.com.au/contact/location/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| FY Smile — Broadway Clinic — enrichment source | https://www.fysmile.com.au/our-team |
+| Floss Dental — enrichment source | https://flossdental.com.au/our-team/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-06. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -81,19 +81,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 1, 6 Bunberra Street, Bomaderry NSW 2541 |
 | **Phone** | (02) 4421 2416 |
-| **Hours** | Mon-Thu 8:00am-6:30pm · Fri 8:00am-6:00pm · Sat Closed · Sun Closed |
+| **Email** | bomaderrydentalsurgery@gmail.com |
+| **Website** | https://www.bomaderrydentalsurgery.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-6:30pm · Tue 8:00am-6:30pm · Wed 8:00am-6:30pm · Thu 8:00am-6:30pm · Fri 8:00am-6:00pm · Sat Closed · Sun Closed |
+| **Billing** | Billing & Payment Services: bulk billing for children eligible for the Child Dental Benefits Schedule; bulk billing for Department of Veterans Affairs patients; 30% discount for children under 16 for most treatments (conditions apply, excludes orthodontics); HICAPS on-the-spot health fund claims; EFTPOS; Denticare Payment Plan (approved applicants, conditions apply); Defence Health, Medibank Private and NIB First Choice preferred provider. |
 | **Access** | First-floor surgery with a chair lift, free off-street parking, and walking access from Bomaderry train and bus station; the clinic says the surgery is not suitable for wheelchairs. |
 | **Network** | Defence Health, Medibank Private and NIB First Choice Provider. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Brett Eaglen | Qualification not fully named on the public practice profile; Queensland University, 1982 | Practice profile says he is the principal dentist and has continued advanced dentistry training since graduating in 1982. |
-| Dr Wen Chao Liu | Doctor of Dental Medicine, University of Sydney | Practice profile says he previously worked as a pharmacist and has a special interest in orthodontics. |
-| Dr Daniel Kuipers | Bachelor of Dental Science, Charles Sturt University | Practice profile says he grew up in the Shoalhaven area and joined the surgery in 2015. |
-| Ailssia Hughes | Bachelor of Oral Health; Post Graduate Diploma in Dental Therapy, University of Newcastle; Graduate Certificate in Dental Therapy (Advanced Scope of Practice), University of Melbourne | Registered Oral Health Therapist; practice profile says she has worked at the surgery since 2009 and provides examinations, hygiene, fillings, deciduous tooth extractions and teeth whitening within her scope. |
+| Dr Brett Eaglen | Graduated Queensland University 1982 (as stated) | Principal dentist |
+| Dr Wen Chao Liu | Doctor of Dental Medicine, Sydney University (as stated) | Dentist; special interest in orthodontics; at the surgery since 2017 |
+| Dr Daniel Kuipers | Bachelor of Dental Science, Charles Sturt University (as stated) | Dentist; at the surgery since 2015 |
+| Ailssia Hughes | Bachelor of Oral Health 2008; Post Graduate Diploma in Dental Therapy, University of Newcastle; Graduate Certificate in Dental Therapy (Advanced Scope of Practice), University of Melbourne 2015 (as stated) | Oral Health Therapist |
+
+Source: https://www.bomaderrydentalsurgery.com.au/
 
 **Services:** Examinations, scale and clean, fluoride treatment, X-rays, oral hygiene education, restorations and fillings, fissure sealants, periodontal disease and gum infection treatment, root canal treatment, wisdom teeth extractions, oral surgery, dental implants, TMJ and bruxism management, mouth guards, splints, veneers, crowns, white fillings, teeth whitening, braces, ClearCorrect.
 
@@ -105,12 +111,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 2A, 6 Bunberra Street, Bomaderry NSW 2541 |
 | **Phone** | (02) 4422 1096 |
-| **Hours** | Mon-Thu 8:00am-4:30pm · Fri 8:00am-12:30pm · Sat Closed · Sun Closed |
+| **Email** | yourmouthmatters@outlook.com |
+| **Website** | https://www.yourmouthmatters.net.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-4:30pm · Tue 8:00am-4:30pm · Wed 8:00am-4:30pm · Thu 8:00am-4:30pm · Fri 8:00am-12:30pm · Sat not listed · Sun not listed |
+| **Billing** | Location page: 'DentiCare payment plans' offered; site menu has a 'Private patients/Health Funds' page (not read). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Andrew Merritt | Dip.DT, Advanced Diploma DP (Syd) (as shown) | Dental prosthetist (denture clinic); Australian Dental Prosthetist Association member per About page |
+| Jacob Stratton | — | Named on About page team section; role not shown in text retrieved |
+
+Source: https://www.yourmouthmatters.net.au/about/
 
 **Services:** Full dentures, partial dentures, implant dentures, immediate dentures, mouthguards, same-day relines and repairs.
 
@@ -145,5 +160,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Sydney CBD to Bomaderry — Rome2Rio | https://www.rome2rio.com/s/Sydney-CBD/Bomaderry |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Your Mouth Matters - Bomaderry Denture Clinic — enrichment source | https://www.yourmouthmatters.net.au/about/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-08-05. Rosters change; always verify current practitioners and hours directly with the clinic.

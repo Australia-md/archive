@@ -56,7 +56,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Demountable #2, 187 Riverside Drive, Airds NSW 2560 |
 | **Phone** | (02) 4624 9400 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat Closed · Sun Closed |
+| **Website** | https://tacams.com.au/primary-health-care/medical/dental-clinic/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat Closed · Sun Closed (also closed public holidays) |
+| **Billing** | Eligibility-based service: for Aboriginal and/or Torres Strait Islander people with confirmation of Aboriginality on file and a 715 health assessment at Tharawal Medical Service within the last 12 months. No fees, bulk-billing or health fund claims are stated. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**

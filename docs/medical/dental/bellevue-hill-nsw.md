@@ -95,14 +95,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 3, 11 Bellevue Road, Bellevue Hill NSW 2023 |
 | **Phone** | (02) 9369 4429 |
-| **Hours** | Mon 8:30am-7:00pm · Tue 8:30am-7:00pm · Wed 8:30am-7:00pm · Thu 8:30am-7:00pm · Fri 8:30am-7:00pm · Sat Not confirmed from public sources at time of verification · Sun Closed |
+| **Hours** | Mon 8:30am-5:30pm · Tue 8:30am-5:30pm · Wed 8:30am-5:30pm · Thu 8:30am-5:30pm · Fri 8:30am-5:30pm · Sat 9:00am-1:00pm · Sun not listed |
+| **Billing** | HealthEngine profile: 'We accept all major health funds'; patients insured with BUPA, Westfund, nib and CBHS can benefit from 'premium provider service'; preferred provider for 5 health funds per HealthEngine. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Shahin Nourozi | BDS (Tehran), Grad.Dip.Clin.Dent (Oral Implants) (Syd) | Public directory profiles describe Dr Nourozi as a general dentist with a focus on implant dentistry and complex general dental care. |
+| Dr Shahin Nourozi | — | Listed as Dentist on HealthEngine profile; languages English, Farsi |
+
+Source: https://healthengine.com.au/dentist/nsw/bondi-junction/mint-dental-care/s36702
 
 **Services:** General dentistry, emergency dentistry, cosmetic dentistry, child dentistry, dental implants, veneers, wisdom tooth extraction, broken filling repairs, teeth whitening, smile makeovers.
 
@@ -114,16 +117,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 3 Bellevue Road, Bellevue Hill NSW 2023 |
 | **Phone** | (02) 9389 4748 |
-| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 8:00am-6:00pm · Fri 8:00am-6:00pm · Sat 8:30am-2:00pm · Sun Closed |
+| **Email** | reception@bellevuehilldental.com.au |
+| **Website** | https://bellevuehilldental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 8:00am-6:00pm · Fri 8:00am-6:00pm · Sat 8:30am-2:00pm · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr David Digges | BDS, University of Sydney, 1981 | Clinic biography states Dr Digges has strong interests in cosmetic dentistry, general and family dentistry, and adult and children's orthodontics. |
-| Dr James Digges | B.Pharm, B.Dent, Grad.Dip Clin.Dent (Oral Implants) | Clinic biography states Dr Digges is skilled in wisdom teeth removal, dental implants and root canal therapy. |
-| Dr Karen Donnelly | BDSc, BSc | Clinic biography states Dr Donnelly specialises in general dentistry and has worked in Sydney's eastern suburbs for more than two decades. |
+| Dr David Digges | B.D.S | Listed on meet-the-team page |
+| Dr James Digges | B.Pharm, B.Dent, Grad.Dip Clin.Dent (Oral Implants) | Listed on meet-the-team page |
+| Dr Karen Donnelly | BDSc, BSc | Listed as Dentist |
+| Dr Fran Ryan | — | Listed as Dentist |
+| Jenny Chen | — | Oral Health Therapist |
+| Emma Noblet | — | Oral Health Therapist |
+
+Source: https://bellevuehilldental.com.au/meet-the-team/
 
 **Services:** General dentistry, children's dentistry, cosmetic dentistry, dental implants, veneers, crowns and bridges, braces, composite bonding, teeth whitening, Invisalign, smile makeovers, wisdom teeth extraction, tooth extraction, root canal therapy, orthodontics, professional cleans, sleep apnoea and snoring treatment.
 

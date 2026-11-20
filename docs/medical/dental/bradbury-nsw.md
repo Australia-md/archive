@@ -69,19 +69,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Bradbury Professional Centre - Campbelltown, Unit 6 / 67 Jacaranda Ave, Bradbury NSW 2560 |
 | **Phone** | (02) 4628 2151 |
-| **Hours** | Published hours varied across checked public sources at time of verification; Healthdirect listed Mon-Fri 9:00am-5:30pm and the practice website listed Mon-Fri 9:00am-6:00pm with Saturday hours also advertised. Confirm current hours directly with the clinic. |
+| **Email** | info@bradburydentalsurgery.com.au |
+| **Website** | https://www.bradburydentalsurgery.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon-Fri 9:00am-6:00pm · Sat 9:00am-3:00pm · Sun not listed |
+| **Billing** | Homepage: 'we process all Australian health fund claims instantly on-the-spot with HICAPS, so you only pay the gap'; Preferred Provider for Medibank, Bupa and nib; flexible payment options ('Smile Now, Pay Later'); claims directly for HCF, ahm, Australian Unity, Defence Health, Teachers Health, CBHS, HBF, GMHBA, Health Partners, TUH, Westfund, Navy Health, Police Health, Nurses & Midwives Health, Peoplecare. Site says it is ADA accredited. No bulk billing or CDBS claim seen on the homepage. |
 | **Access** | Wheelchair accessible and accessible parking listed on the Healthdirect service detail page |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Gurinder Matharu ("Dr Shelly") | Qualification not confirmed from public sources at time of verification | Listed on the practice website practitioner menu |
-| Dr Ravi Inder Singh Rai | Qualification not confirmed from public sources at time of verification | Listed on the practice website practitioner menu |
-| Dr Sumita Sharma | Qualification not confirmed from public sources at time of verification | Listed on the practice website practitioner menu |
-| Dr Ramandeep Kaur Bhullar | Qualification not confirmed from public sources at time of verification | Listed on the practice website practitioner menu |
-| Dr Umayal Narayanan | Qualification not confirmed from public sources at time of verification | Listed on the practice website practitioner menu |
+| Dr Gurinder Matharu ("Dr Shelly") | — | Listed in the team menu and on the homepage Campbelltown Dental Team |
+| Dr Ravi Inder Singh Rai | — | Listed on homepage team (as Dr Ravi Rai) and team menu |
+| Dr Sumita Sharma | — | Listed on homepage team and team menu |
+| Dr Ramandeep Kaur Bhullar | — | Listed in the site team menu (not on the homepage team strip) |
+| Dr Umayal Narayanan | — | Listed in the site team menu (not on the homepage team strip) |
+| Francois Benier-Alleaume | — | Listed in the homepage team strip and menu; role not shown on pages read |
+
+Source: https://www.bradburydentalsurgery.com.au/
 
 **Services:** Check-ups, cleans, fillings, cosmetic dentistry, emergency dental care, children's dentistry, root canal treatment, dental implants, orthodontic treatments, veneers, teeth whitening.
 
@@ -112,5 +119,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Bradbury Dental Surgery - HealthEngine | https://healthengine.com.au/dentist/nsw/bradbury/bradbury-dental-surgery/s36792 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bradbury Dental Surgery — enrichment source | https://www.bradburydentalsurgery.com.au/ (printed in site header/footer) |
+| Bradbury Dental Surgery — enrichment source | https://www.bradburydentalsurgery.com.au/ (site header and footer) |
 
 **Data limitations:** This directory records the in-suburb Bradbury dental practice that was publicly verifiable from the checked sources as at 2026-08-25. Practice hours, practitioner rosters and treatment menus can change; confirm current details directly with the clinic.

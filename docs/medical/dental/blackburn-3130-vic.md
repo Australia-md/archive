@@ -86,6 +86,7 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 20C Blackburn Road, Blackburn VIC 3130 |
 | **Phone** | 03 9894 4479 |
+| **Email** | admin@alphadentalgroup.net.au |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -99,6 +100,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 7, 195-197 Whitehorse Road, Blackburn VIC 3130 |
 | **Phone** | 03 9878 1597 |
+| **Email** | bcdc@bigpond.net.au |
+| **Website** | https://blackburndentalclinic.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -112,6 +116,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 23 Blackburn Road, Blackburn VIC 3130 |
 | **Phone** | 03 8847 7400 |
+| **Email** | office@blackburndental.com.au |
+| **Website** | https://blackburndental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -125,6 +132,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 1 Main Street, Blackburn VIC 3130 |
 | **Phone** | 03 9877 2589 |
+| **Email** | enquiries@blackburnfamilydentalcare.com.au |
+| **Website** | https://blackburnfamilydentalcare.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -138,10 +148,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 141 Canterbury Road, Blackburn VIC 3130 |
 | **Phone** | 03 8813 0556 |
+| **Email** | reception@blackburnsmilesdental.com.au |
+| **Website** | https://www.blackburnsmilesdental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Mixed billing · Bulk billing available with conditions, fees may apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Not confirmed from public sources at time of verification.
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Duong Nguyen | B. Dental Surgery (Adelaide, 2009) | Only dentist named on the team page; interests in orthodontics and implants |
+
+Source: https://www.blackburnsmilesdental.com.au/our-team
 
 **Services:** Orthodontics.
 
@@ -153,6 +172,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 27 Blackburn Road, Blackburn VIC 3130 |
 | **Phone** | 03 9878 8712 |
+| **Email** | droakley@freshdentistry.com.au |
+| **Website** | https://www.freshdentistry.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -166,10 +188,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 500 Middleborough Road, Blackburn VIC 3130 |
 | **Phone** | 03 9978 4869 |
+| **Email** | info@heartsdental.com.au |
+| **Website** | https://heartsdental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Mixed billing · Bulk billing available with conditions, fees may apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Not confirmed from public sources at time of verification.
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Qing Guo | — | General dentist; founded the clinic; crowns, bridges, implants, Invisalign, children's orthodontics |
+| Dr Sophia Zhao | — | General dentist; root canal, children's dentistry, gum disease, restorative |
+| Dr Simon Chiu | — | General dentist; root canal, general dentistry, implants and oral surgery |
+
+Source: https://heartsdental.com.au/about-us/hearts-dental-team/
 
 **Services:** Myotherapy, Myobrace, Teeth whitening, Children's dentistry.
 
@@ -181,6 +214,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 394-398 Middleborough Road, Blackburn VIC 3130 |
 | **Phone** | 03 9898 6530 |
+| **Email** | admin@affordablebraces.com.au |
+| **Website** | https://www.affordablebraces.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -194,11 +230,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 308 Middleborough Road, Blackburn VIC 3130 |
 | **Phone** | (03) 9898 9434 |
+| **Email** | info@smiletogo.com.au |
 | **Website** | [smiletogo.com.au](https://smiletogo.com.au) |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-7:30pm · Wed 9:00am-5:30pm · Thu 10:00am-6:30pm · Fri 9:00am-5:30pm · Sat 9:00am-1:00pm · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Not confirmed from public sources at time of verification.
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Terry Wong | — | Principal dentist; graduated University of Melbourne 1987 per site |
+| Dr Hing Chin | — | Principal dentist; graduated University of Melbourne 1987 per site |
+| Dr Shaun Wang | — | Listed on Our Dentists page |
+| Dr Derrick Mac | — | Listed on Our Dentists page |
+| Dr Tilley Wong | — | Listed on Our Dentists page |
+
+Source: https://smiletogo.com.au/about-us/our-dentists/
 
 **Services:** Fastbraces, Smile correction, Resin bonding, Porcelain veneers, Teeth whitening.
 
@@ -210,6 +258,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 215 Whitehorse Road, Blackburn VIC 3130 |
 | **Phone** | 03 9878 9227 |
+| **Email** | admin@suburbansmiles.com.au |
+| **Website** | https://www.suburbansmiles.com.au/ |
+| **Website check** | Webflow site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Fees apply |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -223,6 +274,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 129A Canterbury Road, Blackburn VIC 3130 |
 | **Phone** | 03 8838 8820 |
+| **Email** | info@whitehorsedental.com.au |
+| **Website** | https://whitehorsedental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Billing** | Mixed billing · Bulk billing available with conditions, fees may apply · Veteran Card accepted |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -260,5 +314,34 @@ All dental practitioners in Australia must hold current registration with the **
 | Healthdirect — Whitehorse Dental | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/blackburn-3130-vic/whitehorse-dental/dentists/0b455d7e-9fa0-42eb-8a5a-8970b80e80f7 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Blackburn Clinic Dental Centre — enrichment source | https://blackburndentalclinic.com.au/ |
+| Blackburn Clinic Dental Centre — enrichment source | https://blackburndentalclinic.com.au/contact-us/ |
+| Blackburn Clinic Dental Centre — enrichment source | https://blackburndentalclinic.com.au/doctors/ |
+| Blackburn Dental Group — enrichment source | https://blackburndental.com.au/ |
+| Blackburn Dental Group — enrichment source | https://blackburndental.com.au/about-us/our-practitioners/ |
+| Blackburn Dental Group — enrichment source | https://blackburndental.com.au/contact-us/ |
+| Blackburn Family Dental Care — enrichment source | https://blackburnfamilydentalcare.com.au/ |
+| Blackburn Family Dental Care — enrichment source | https://blackburnfamilydentalcare.com.au/about-us/ |
+| Blackburn Smiles Dental — enrichment source | https://www.blackburnsmilesdental.com.au/ |
+| Blackburn Smiles Dental — enrichment source | https://www.blackburnsmilesdental.com.au/contact |
+| Blackburn Smiles Dental — enrichment source | https://www.blackburnsmilesdental.com.au/costs |
+| Blackburn Smiles Dental — enrichment source | https://www.blackburnsmilesdental.com.au/our-team |
+| Fresh Dentistry — enrichment source | https://www.freshdentistry.com.au/ |
+| Fresh Dentistry — enrichment source | https://www.freshdentistry.com.au/ (mailto link in page source) |
+| Fresh Dentistry — enrichment source | https://www.freshdentistry.com.au/about |
+| Fresh Dentistry — enrichment source | https://www.freshdentistry.com.au/contact |
+| Fresh Dentistry — enrichment source | https://www.freshdentistry.com.au/fees |
+| Hearts Dental — enrichment source | https://heartsdental.com.au/ |
+| Hearts Dental — enrichment source | https://heartsdental.com.au/about-us/hearts-dental-team/ |
+| Hearts Dental — enrichment source | https://heartsdental.com.au/contact-us/ |
+| Smile Avenue Specialist Orthodontists - Blackburn — enrichment source | https://www.affordablebraces.com.au/ |
+| Smile Avenue Specialist Orthodontists - Blackburn — enrichment source | https://www.affordablebraces.com.au/contact-us |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-dentists/ |
+| Toothpals Dental Care — enrichment source | https://www.suburbansmiles.com.au/ |
+| Toothpals Dental Care — enrichment source | https://www.suburbansmiles.com.au/about-us |
+| Toothpals Dental Care — enrichment source | https://www.suburbansmiles.com.au/contact |
+| Whitehorse Dental — enrichment source | https://whitehorsedental.com.au/ |
+| Whitehorse Dental — enrichment source | https://whitehorsedental.com.au/about-us/ |
+| Whitehorse Dental — enrichment source | https://whitehorsedental.com.au/payment-options/ |
 
 **Data limitations:** Clinic details are sourced from Healthdirect service profiles and, for Smile To Go, the clinic's own contact page, as at 2026-11-03. Opening hours are shown only where every trading day was published; for the other clinics, confirm hours directly with the clinic. Rosters change; always verify current practitioners and hours directly with the clinic.

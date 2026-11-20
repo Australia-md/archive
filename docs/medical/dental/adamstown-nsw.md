@@ -59,7 +59,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 557 Glebe Road, Adamstown NSW 2289 |
 | **Phone** | (02) 4957 1888 |
-| **Hours** | Mon–Fri 8:45am–5:00pm · Sat Closed · Sun Closed |
+| **Email** | adamstowndental@hotmail.com |
+| **Website** | https://www.adamstowndental.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:45am-5:00pm · Tue 8:45am-5:00pm · Wed 8:45am-5:00pm · Thu 8:45am-5:00pm · Fri 8:45am-5:00pm · Sat not listed · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
@@ -76,14 +79,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 637 Glebe Road, Adamstown NSW 2289 |
 | **Phone** | (02) 4956 1515 |
-| **Hours** | Mon Closed · Tue 8:00am–5:30pm · Wed 8:00am–5:30pm · Thu 8:30am–5:00pm · Fri 8:00am–5:30pm · Sat 8:30am–1:00pm · Sun Closed |
+| **Website** | https://www.gwendent.com.au/ |
+| **Website check** | The Dental Site (dental website platform) site · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon Closed · Tue 8:00am-5:30pm · Wed 8:00am-5:30pm · Thu 8:30am-5:00pm · Fri 8:00am-5:30pm · Sat 8:30am-1:00pm · Sun Closed |
+| **Billing** | Site has a Child Dental Benefits Scheme (CDBS) service page: 'Check Your Child's CDBS Eligibility - call to schedule an appointment'. No other billing claims read (Patient Information page had no fund/payment-plan text). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Gwendolin Flanagan | BDS, University of Sydney | Practice website presents Dr Flanagan as providing family and cosmetic dental care in Adamstown. |
+| Dr Gwendolin (Gwen) Flanagan | Graduated in dentistry at Sydney University in 1987 (as stated on team page) | Principal Dentist |
+
+Source: https://www.gwendent.com.au/about-us/location/adamstown/1469
 
 **Services:** Preventive screenings, professional dental cleanings, periodontal treatment, crowns, bridges, dental implants, teeth whitening, tooth-coloured restorations, root canals, and extractions.
 
@@ -110,5 +118,12 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Adamstown Dental — enrichment source | https://www.adamstowndental.com.au/ |
+| Adamstown Dental — enrichment source | https://www.adamstowndental.com.au/contact-4 (printed as 'Mon - Fri 8:45 am - 5:00 pm') |
+| Adamstown Dental — enrichment source | https://www.adamstowndental.com.au/contact-4 (printed text and mailto link) |
+| Dr Gwendolin Flanagan — enrichment source | https://www.gwendent.com.au/ |
+| Dr Gwendolin Flanagan — enrichment source | https://www.gwendent.com.au/about-us/location/adamstown/1469 |
+| Dr Gwendolin Flanagan — enrichment source | https://www.gwendent.com.au/location/adamstown/1469 |
+| Dr Gwendolin Flanagan — enrichment source | https://www.gwendent.com.au/services/child-dental-benefits-scheme/38135 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-04-17. Rosters change; always verify current practitioners and hours directly with the clinic.

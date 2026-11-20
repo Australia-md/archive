@@ -57,10 +57,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 1/120 MacPherson Street, Bronte NSW 2024 |
 | **Phone** | (02) 9386 1858 |
-| **Hours** | Mon 8:00am–6:00pm · Tue 8:00am–6:00pm · Wed 8:00am–1:00pm · Thu 8:00am–6:00pm · Fri 8:00am–5:00pm · Sat 8:30am–12:00pm · Sun Not confirmed from public sources at time of verification |
+| **Email** | info@brontedentalcentre.com.au |
+| **Website** | https://www.brontedentalcentre.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-1:00pm · Thu 8:00am-6:00pm · Fri 8:00am-5:00pm · Sat 8:30am-12:00pm · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Andrew Wang | Bachelor of Dental Surgery with Honours; Fellowship of the Royal Australasian College of Dental Surgeons (as stated on site) | — |
+| Dr Maria Tran | Bachelor of Dental Surgery with Honours (University of Sydney, 1998) | Clinical Educator in the Doctor of Dental Medicine program, Sydney University (as stated) |
+
+Source: https://www.brontedentalcentre.com.au/about-us
 
 **Services:** Family dentistry, preventative dentistry, corrective dentistry, reconstruction/replacement dentistry, cosmetic dentistry, Invisalign, dental implants.
 
@@ -72,10 +82,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 30–32 MacPherson Street, Bronte NSW 2024 |
 | **Phone** | (02) 9389 4099 |
-| **Hours** | Mon–Fri 8:00am–5:00pm · Sat–Sun Not confirmed from public sources at time of verification |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri 8:00am-5:00pm · Sat not listed · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ming Ong | University of Melbourne (dental training, 2003, per profile) | General Dentist |
+| Dr Nathalie Hazan | — | General Dentist |
+
+Source: https://www.dentist.com.au/dentist-detail/hazan-healthy-smiles/A11000562
 
 **Services:** General dentistry, family dentistry, cosmetic dentistry, dental examinations, dental makeovers, teeth whitening, veneers, crowns, x-rays, cleanings.
 
@@ -87,11 +104,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 140A Macpherson Street, Bronte NSW 2024 |
 | **Phone** | (02) 9131 4112 |
-| **Hours** | Monday–Friday open; Saturday appointments available by request; exact daily hours and Sunday status not confirmed from public sources at time of verification |
+| **Website** | https://www.wellnessdentalbronte.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00 am-5:30 pm · Tue 8:00 am-5:30 pm · Wed 8:00 am-5:30 pm · Thu 8:00 am-5:30 pm · Fri 8:00 am-5:00 pm · Sat By Appointment · Sun not listed |
+| **Billing** | Payment options page: Afterpay (services over $500, four equal payments over eight weeks) and NDP payment plans listed; no health fund or bulk billing statement captured. |
 | **Access** | All-day street parking is available in the area; a bus stops in front of the clinic. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Yvonne Monte | — | Dentist (named under Meet Our Dentists) |
+| Dr Gisele Barreto | — | Dentist |
+| Dr Emma Robertson | — | Dentist |
+| Dr Julien Dubost | — | Dentist |
+
+Source: https://www.wellnessdentalbronte.com.au/meet-our-dentists/
 
 **Services:** General/family dentistry, cosmetic dentistry, dental implants, prenatal and postnatal dental care, check-ups and cleaning, dental emergency care.
 
@@ -116,5 +145,13 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bronte Dental Centre — enrichment source | https://www.brontedentalcentre.com.au/ |
+| Bronte Dental Centre — enrichment source | https://www.brontedentalcentre.com.au/about-us |
+| Bronte Dental Centre — enrichment source | https://www.brontedentalcentre.com.au/contact-us |
+| Hazan's Healthy Smiles — enrichment source | https://www.dentist.com.au/dentist-detail/hazan-healthy-smiles/A11000562 |
+| Wellness Dental Bronte — enrichment source | https://www.wellnessdentalbronte.com.au/ |
+| Wellness Dental Bronte — enrichment source | https://www.wellnessdentalbronte.com.au/contact-us/ |
+| Wellness Dental Bronte — enrichment source | https://www.wellnessdentalbronte.com.au/meet-our-dentists/ |
+| Wellness Dental Bronte — enrichment source | https://www.wellnessdentalbronte.com.au/payment-options/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-10. Rosters change; always verify current practitioners and hours directly with the clinic.

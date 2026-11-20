@@ -69,14 +69,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 24 Tweed Coast Road, Cabarita Beach NSW 2488 |
 | **Phone** | (02) 6676 4333 |
-| **Hours** | Practice website display: Mon–Fri 8:00am–5:00pm · Sat 8:00am–2:00pm · Sun Closed. Healthdirect lists different hours; confirm directly before attending. |
+| **Email** | cbdc@coastaldentalcare.com.au |
+| **Website** | https://coastaldentalcare.com.au/practices/cabarita-beach-dental-care/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri 8:00am-5:00pm · Sat 8:00am-2:00pm · Sun Closed |
+| **Billing** | Practice page: 'Preferred provider for major health funds like Bupa, CBHS Health Fund, Medibank Private, NIB First Choice, Westfund, HCF, and hif Choice Network'; lists Child Dental Benefits Schedule treatment page; '$200 Check-up & Clean' offer listed. |
 | **Access** | The practice website states that on-site parking and wheelchair access are available. |
 | **Network** | The practice website lists preferred-provider partnerships with Bupa, CBHS Health Fund, Medibank Private, NIB First Choice, Westfund, HCF and hif Choice Network. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Lachlan Barlow | Graduate of Griffith University (Bachelor, as shown in team excerpt) | Listed on practice page team |
+| Dr Avni Gadhiya | Bachelor of Dental Surgery (as shown in team excerpt) | Listed on practice page team |
+| Dr Karlie Mead | — | Listed on practice page team |
+| Nazariy Novak | — | Oral Health Therapist |
+| Chloe Smith | — | Oral Health Therapist |
+
+Source: https://coastaldentalcare.com.au/practices/cabarita-beach-dental-care/
 
 **Services:** General dentistry, children’s dentistry, emergency dental services, cosmetic dentistry, restorative dentistry, check-ups and cleans, teeth whitening, veneers, Invisalign, crowns and bridges, dental implants, fillings and mouthguards.
 

@@ -63,14 +63,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 4/2 Bonanza Dr, Billinudgel NSW 2483 |
 | **Phone** | (02) 6680 5002 |
+| **Email** | denturedesigns1@gmail.com |
 | **Hours** | Not confirmed from public sources at time of verification |
+| **Billing** | HealthShare listing shows HICAPS (as stated on the listing; no other billing claims found) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Mr Sandro Della Croce | Qualification not confirmed from public sources at time of verification | Public directory listings identify him as the Billinudgel dental prosthetist at Denture Designs and note denture fittings, partial dentures, repairs, cleaning, relines and mouthguards. |
+| Mr Sandro Della Croce | Dental Prosthetist | Listed as the practitioner at Denture Designs on HealthShare |
+
+Source: https://www.healthshare.com.au/practices/denture-designs/51459-billinudgel-2483/
 
 **Services:** Denture fittings, full and partial dentures, adjustments, cleaning, custom fittings, relines, repairs, replacements, whitening, mouthguards.
 
@@ -99,5 +103,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Della Croce Sandro — Localsearch | https://www.localsearch.com.au/profile/denture-designs/billinudgel-nsw/GjfE |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Denture Designs — enrichment source | https://www.healthshare.com.au/practices/denture-designs/51459-billinudgel-2483/ |
+| Denture Designs — enrichment source | https://www.yellowpages.com.au/billinudgel-nsw/bpp/denture-designs-580268278 (FAQ on directory listing; generic gmail address) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-10. Rosters change; always verify current practitioners and hours directly with the clinic.

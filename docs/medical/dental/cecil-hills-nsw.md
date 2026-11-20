@@ -77,9 +77,13 @@ All dental practitioners listed below are required to hold current registration 
 | **Access** | Appointment required; fees apply (Healthdirect) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — use "Look up practitioners" to confirm current registration |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-Current practitioner names and qualifications are not included because they could not be independently verified against the AHPRA register at time of verification. Confirm current practitioners via [the AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Luis Arguedas | General Dentist | Listed on Dentist.com.au profile as dentist at Cecil Hills Medical Centre |
+
+Source: https://www.dentist.com.au/dentist-detail/cecil-hills-medical-centre/A11000826
 
 **Services:** General dental practice service (Healthdirect category); further services not confirmed from public sources at time of verification.
 

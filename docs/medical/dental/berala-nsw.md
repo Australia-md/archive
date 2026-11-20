@@ -71,19 +71,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 184 Woodburn Road, Berala NSW 2141 |
 | **Phone** | (02) 9649 6468 |
-| **Hours** | Mon-Fri 9am-6pm · Sat 9am-4pm · Sun Closed |
+| **Email** | beraladental@hotmail.com |
+| **Website** | https://www.beraladental.com.au/ |
+| **Website check** | Webflow site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat 9:00am-4:00pm · Sun not listed |
+| **Billing** | About page: 'We never withhold care over a bill. Afterpay, Zip, CDBS - we'll find a way.' Contact page: CDBS eligibility checker; consultation $120 with X-rays included; some services priced 'from' on the site. No HICAPS statement seen. |
 | **Access** | Free street parking is available and the clinic website says the practice is about 5 minutes from Berala Station. |
 | **Network** | Bupa Members First Provider |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Belal Aly | BDS, University of Otago | Principal dentist; the clinic website says Dr Aly opened the practice in 2002 and has a special interest in implants and anxiety care. |
-| Dr Mahnaz | Qualification not confirmed from public sources at time of verification | Family dentist; the clinic website says Dr Mahnaz administers happy gas sedation for anxious patients. |
-| Humzah Aly | BOH, University of Sydney | Oral Health Therapist; the clinic website says Humzah Aly focuses on deep cleans, hygiene and kids coaching. |
-| Nadim Elhami | BOH, University of Sydney | Oral Health Therapist; the clinic website says Nadim Elhami focuses on deep cleans, preventive care and anxious patients. |
+| Dr Belal Aly | BDS, University of Otago | Principal Dentist; founder; practising since 2002; speaks English and Arabic |
+| Dr Mahnaz | — | Family Dentist (surname not shown); speaks English and Urdu; administers nitrous oxide sedation |
+| Nadim Elhami | BOH, University of Sydney | Oral Health Therapist |
+| Humzah Aly | BOH, University of Sydney | Oral Health Therapist |
+
+Source: https://www.beraladental.com.au/about
 
 **Services:** Check-up and clean, deep cleaning, tooth-coloured fillings, root canal and crown, dental implants, extractions, mouthguards, teeth whitening, sedation and happy gas, kids dentistry, fissure sealants, kids fillings, pulpotomy, special needs care, children's orthodontic assessment, emergency dental care.
 
@@ -115,5 +121,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Berala heritage listing sheets — Cumberland City Council | https://www.cumberland.nsw.gov.au/sites/default/files/inline-files/berala-listing-sheets-sep-2024.pdf |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Alys Dental Service — enrichment source | https://www.beraladental.com.au/contact (mailto link) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-27. Rosters change; always verify current practitioners and hours directly with the clinic.

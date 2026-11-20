@@ -102,17 +102,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 40 Brown Road, Broadmeadow NSW 2292 |
 | **Phone** | (02) 4962 7300 |
-| **Hours** | Mon-Fri 9:00am-5:00pm · Sat Closed · Sun Closed |
+| **Website** | https://www.kidssmile.com.au/ |
+| **Website check** | CMS not identified · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00AM-5:00PM · Tue 9:00AM-5:00PM · Wed 9:00AM-5:00PM · Thu 9:00AM-5:00PM · Fri 9:00AM-5:00PM · Sat Closed · Sun Closed |
+| **Billing** | Booking deposit of $150 for new patient and treatment appointments ($100 for active maintenance appointments); accepts Child Dental Benefit Scheme (CDBS); site says it accepts various payment and insurance options. |
 | **Access** | Accessible toilet, accessible parking and wheelchair access are listed on the Healthdirect service profile. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Helen Cornwell | Bachelor of Dental Surgery, Adelaide; specialist training at the University of Melbourne; Fellow of the Royal Australasian College of Dental Surgeons | Practice profile identifies Dr Helen as a paediatric specialist and practice founder. |
-| Dr William Tang | Bachelor of Dentistry, University of Sydney, 2010 | Practice profile identifies Dr William as a paediatric specialist with interests in endodontic treatment and trauma. |
-| Dr Nivethanan Kamalendran | Undergraduate dental training in India; specialist training in Paediatric Dentistry, University of Otago | Practice profile identifies Dr Niv as a registered specialist paediatric dentist. |
+| Dr Helen Cornwell | Bachelor of Dental Surgery (Adelaide); specialist training University of Melbourne; Fellow of the Royal Australasian College of Dental Surgeons | Paediatric Specialist |
+| Dr William Tang | — | Paediatric Specialist |
+| Dr Nivethanan Kamalendran | — | Paediatric Specialist |
+| Jennifer Mankelow | — | Hygienist |
+| Stoker | — | Dental Hygienist (surname only as shown) |
+| Netluch | — | Dental Hygienist (surname only as shown) |
+
+Source: https://www.kidssmile.com.au/about-us
 
 **Services:** Preventative paediatric dentistry, specialist dental care for infants to adolescents, care for children with special needs, diagnostic imaging including radiographs and 3D scans, behaviour management, relative analgesia, treatment under general anaesthesia, dental trauma care, restorative care, endodontic care, prosthodontic care, interceptive orthodontics.
 
@@ -124,16 +132,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 31 Lambton Road, Broadmeadow NSW 2292 |
 | **Phone** | 1300 794 797 |
-| **Hours** | Mon-Fri 8:30am-6:00pm · Sat Closed · Sun Closed |
+| **Website** | https://abcorthodontics.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8.30am-5.00pm · Tue 8.30am-5.00pm · Wed 8.30am-5.00pm · Thu 8.30am-5.00pm · Fri 8.30am-5.00pm · Sat not listed · Sun not listed |
+| **Billing** | Flexible payment plans via DentiCare (interest-free, weekly/fortnightly/monthly debits); accepts Visa, MasterCard, American Express, direct deposit. |
 | **Access** | The practice states the Broadmeadow clinic has onsite parking and is next to Harvey Norman Homestarters. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Ed Kosy | BDSc (Sydney Uni), DClinDent (Ortho) (Adel Uni), M.RACDS, M.Orth RCS (Edin/HK), FICD, FPFA, FIAED, FWFO | Practice profile identifies Dr Kosy as a specialist orthodontist and Australian Orthodontic Board Certified practitioner. |
-| Dr Johnathan Grove | BDSc (WA), DClinDent (Orth, Syd), MRACDS (Orth) | Practice profile identifies Dr Grove as a specialist orthodontist and Australasian Orthodontic Board certified practitioner. |
+| Dr Ed Kosy | BDSc (Sydney Uni), DClinDent (Ortho) (Adelaide Uni), M.RACDS, M.Orth RCS (Edin/HK) | Specialist Orthodontist (as titled on clinic site) |
+| Dr Johnathan Grove | BDSc (WA), DClinDent (Orth, SYD), MRACDS (Orth) | Specialist Orthodontist (as titled on clinic site) |
+
+Source: https://abcorthodontics.com.au/our-orthodontists/
 
 **Services:** Early orthodontic treatment, braces, Invisalign, Invisalign Teen, SureSmile, adolescent orthodontic treatment, adult orthodontic treatment, orthopaedics, complex interdisciplinary orthodontic care.
 
@@ -145,17 +158,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 122 Belford Street, Broadmeadow NSW 2292 |
 | **Phone** | (02) 4037 0903 |
-| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-7:00pm · Wed-Thu 8:30am-6:00pm · Fri 8:30am-4:00pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Website** | https://www.thesmilefactory.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30 am-6:00 pm · Tue 8:30 am-7:00 pm · Wed 8:30 am-6:00 pm · Thu 8:30 am-6:00 pm · Fri 8:30 am-4:00 pm · Sat not listed · Sun not listed |
+| **Billing** | Offers flexible payment plans including the Humm National Dental Plan (no-interest-ever, borrow up to $12,000). |
 | **Network** | Preferred provider with HCF; the clinic states it accepts all health funds with same-day rebates via HICAPS. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Hitesh Gupta | Bachelor of Dental Surgery, University of Sydney, 2004 | Practice profile states he has an emphasis on cosmetic dentistry and is a member of the Australian Dental Association. |
-| Dr Mandy Pabla | Dentistry degree, University of Sydney; prior Human Biology degree, University of Toronto | Practice profile states she has completed Invisalign and OrthEd Institute aligner training. |
-| Dr Ben Van Veenendaal | Bachelor of Medical Science, University of Sydney, 2005; Bachelor of Dentistry, University of Sydney, 2011 | Practice profile states he has further study in cosmetic dentistry, facial aesthetics and dental sleep medicine. |
+| Dr Hitesh Gupta | — | Dentist (Meet the Dentists page) |
+| Dr Mandy Pabla | — | Dentist |
+| Dr Ben Van Veenendaal | — | Dentist |
+| Dr Cameron White | — | Dentist |
+| Dr Jessica Powell | — | Dentist |
+
+Source: https://www.thesmilefactory.com.au/meet-the-dentists/
 
 **Services:** General dentistry, cosmetic dentistry, emergency dentistry, IV sedation dentistry, Invisalign clear aligners, dental implants, All-On-4 implants, veneers, children's dentistry, scale and clean, fluoride treatment, full-mouth X-rays.
 
@@ -197,5 +217,11 @@ All dental practitioners in Australia must hold current registration with the **
 | Dr Ben Van Veenendaal at The Smile Factory | https://www.thesmilefactory.com.au/dr-ben-van-veenendaal/ |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| ABC Orthodontics - Broadmeadow — enrichment source | https://abcorthodontics.com.au/contact/ |
+| ABC Orthodontics - Broadmeadow — enrichment source | https://abcorthodontics.com.au/finance/ |
+| KidsSmile Paediatric Dental — enrichment source | https://www.kidssmile.com.au/financial-info |
+| KidsSmile Paediatric Dental — enrichment source | https://www.kidssmile.com.au/location/broadmeadow/3891 |
+| The Smile Factory — enrichment source | https://www.thesmilefactory.com.au/contact-us/ |
+| The Smile Factory — enrichment source | https://www.thesmilefactory.com.au/payment-plans/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-05. Rosters change; always verify current practitioners and hours directly with the clinic.

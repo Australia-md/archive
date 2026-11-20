@@ -60,11 +60,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 80 Stroud Street, Bulahdelah NSW 2423 |
 | **Phone** | 0422 226 014 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Email** | pristineohc@outlook.com |
+| **Website** | https://www.pristineohc.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Tue-Fri (times not published); Mon not listed; Sat not listed; Sun not listed |
 | **Access** | Not confirmed from public sources at time of verification |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Brianna Grace | B.O.H (UON); Bachelor of Oral Health, University of Newcastle (2008) | Dental Hygienist, Owner & Operator |
+| Dr Barry Collins | B.D.S. (JCU); Bachelor of Dental Surgery, James Cook University (2013) | Dental Surgeon; available for dental appointments on Fridays |
+
+Source: https://www.pristineohc.com.au/
 
 **Services:** General dental care; teeth whitening.
 
@@ -90,5 +100,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth Australia | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Pristine Oral Health Clinic — enrichment source | https://www.pristineohc.com.au/ |
+| Pristine Oral Health Clinic — enrichment source | https://www.pristineohc.com.au/ (mailto link on site) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-09-22. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -90,14 +90,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 58 Queen Street, Berry NSW 2535 |
 | **Phone** | (02) 4464 1055 |
+| **Email** | berrydentist@gmail.com |
+| **Website** | https://www.berrydentist.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon 8:30am-1pm · Tue 8:30am-5:30pm · Wed 12pm-5:30pm · Thu 8:30am-5:30pm · Fri 8:30am-5:30pm · Sat Closed · Sun Closed |
+| **Billing** | Homepage: 'services for Health Funds (HICAPS) payments and claims, Veterans Affairs and NSW Health vouchers'; testimonial mentions health fund rebates processed on the spot. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Paul del Solar | Qualification not confirmed from public sources at time of verification | Practice website states Dr Paul del Solar has over 20 years of experience in public and private dentistry and is a member of the Australian Dental Association. |
+| Dr Paul del Solar | — | Homepage: over 20 years experience in public and private sector; member of the Australian Dental Association |
+
+Source: https://www.berrydentist.com.au/
 
 **Services:** Restorative fillings, endodontics, crowns and bridges, dentures, prosthetics, preventive dentistry, dental surgery, tooth whitening.
 
@@ -109,16 +115,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 1/78 Albert Street, Berry NSW 2535 |
 | **Phone** | (02) 4412 6888 |
-| **Hours** | Clinic website publishes Monday-Friday hours and alternate Saturday sessions, but practitioner and contact pages differ; confirm current hours directly with the clinic. |
+| **Email** | berrydentalstudio@gmail.com |
+| **Website** | https://www.berrydentalstudio.com/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8am-5pm · Tue 8am-5pm · Wed 8am-5pm · Thu 8am-5pm · Fri 8am-4pm · Sat 8am-1pm (alternate Saturdays) · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jenna Cutting | Qualification not fully stated on public sources; Griffith University, 2012 (Distinction) | Principal dentist and owner; clinic profile states postgraduate training in smile design, braces and Invisalign, plus a Graduate Diploma of Orthodontics from City of London Dental School (2018). |
-| Dr Mindie Nguyen | Qualification not fully stated on public sources; Griffith University, 2019 (Distinction) | General and cosmetic dentist; clinic profile states experience in routine care, restorative dentistry, emergency dental care, clear aligners and braces. |
-| Dr Olivia Elwell | Bachelor of Dental Surgery, University of Liverpool, 2016 | General and cosmetic dentist; clinic profile notes postgraduate study in clear braces, digital smile design, restorative dentistry and cosmetic bonding. |
+| Dr Jenna Cutting | — | Dentist and owner |
+| Dr Mindie Nguyen | — | Dentist |
+| Dr Olivia Elwell | Graduated 2016, University of Liverpool (as stated) | Dentist |
+| Georgia Henderson | Bachelor of Oral Health (Dental Hygiene), University of Newcastle, 2015 (as stated) | Registered Dental Hygienist |
+
+Source: https://www.berrydentalstudio.com/copy-of-our-team
 
 **Services:** Family dental care, smile makeovers, routine dental care, restorative dentistry, emergency dental care, porcelain veneers, cosmetic dentistry, braces, Invisalign and clear aligners.
 
@@ -144,10 +156,10 @@ All dental practitioners in Australia must hold current registration with the **
 | Berry Dentist — Healthdirect | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/berry-2535-nsw/berry-dentist/dentists/28ec8125-5dba-a248-b214-b29a9d1c7709 |
 | Berry Dentist | https://www.berrydentist.com.au/ |
 | Berry Dental Studio | https://www.berrydentalstudio.com/ |
-| Contact Us | Berry Dental Studio | https://www.berrydentalstudio.com/contact |
-| Dr Jenna Cutting | Berry Dental Studio | https://www.berrydentalstudio.com/drjennacutting |
-| Dr Mindie Nguyen | Berry Dental Studio | https://www.berrydentalstudio.com/drmindienguyen |
-| Dr Olivia Elwell | Berry Dental Studio | https://www.berrydentalstudio.com/copy-of-dr-olivia-elwell |
+| Contact Us — Berry Dental Studio | https://www.berrydentalstudio.com/contact |
+| Dr Jenna Cutting — Berry Dental Studio | https://www.berrydentalstudio.com/drjennacutting |
+| Dr Mindie Nguyen — Berry Dental Studio | https://www.berrydentalstudio.com/drmindienguyen |
+| Dr Olivia Elwell — Berry Dental Studio | https://www.berrydentalstudio.com/copy-of-dr-olivia-elwell |
 | Berry postcode — Australia Post | https://auspost.com.au/postcode/berry |
 | Berry, South Coast NSW | https://berry.org.au/ |
 | Map of Berry — Berry, South Coast NSW | https://berry.org.au/about/map-berry/ |
@@ -156,5 +168,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Berry, New South Wales | https://en.wikipedia.org/wiki/Berry%2C_New_South_Wales |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Berry Dental Studio — enrichment source | https://www.berrydentalstudio.com/copy-of-our-team |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-04. Rosters change; always verify current practitioners and hours directly with the clinic.

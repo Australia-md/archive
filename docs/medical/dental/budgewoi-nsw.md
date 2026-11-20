@@ -60,10 +60,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 82 Scenic Drive, Budgewoi NSW 2262 |
 | **Phone** | (02) 4390 0055 |
-| **Hours** | Mon–Fri 9:00am–5:30pm · Sat–Sun Not confirmed from public sources at time of verification |
+| **Website** | https://www.budgewoidental.com.au/ |
+| **Website check** | CMS not identified · robots.txt blocks: CCBot, Bytespider · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:30pm · Tue 9:00am-5:30pm · Wed 9:00am-5:30pm · Thu 9:00am-5:30pm · Fri 9:00am-5:30pm · Sat Closed · Sun Closed |
+| **Billing** | Financial Info page: payment in full on the day of treatment; payment plans available; HICAPS on-the-spot health fund claims ('you only pay the gap fee'); 'We welcome all health funds'; Child Dental Benefits Schedule information; cash, EFTPOS, Mastercard/Visa/Amex (credit card surcharge may apply; Amex stated as no surcharge); Afterpay, DentiCare, SuperCare listed as third-party payment options. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not included because current registration was not independently verified in the AHPRA register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Sanjeev Mishra | BDS, MS (Medical Imaging) | Principal dentist; also lists Diploma in Advanced Maxillofacial Implantology; Member of ADA |
+| Dr Hooman Atai | Bachelor of Oral Health in Dental Science; Grad Diploma in Dentistry (Griffith Univ.); Postgrad Cert in Prosthodontics | Member of ADA |
+| Dr Sonam Mishra | — | Listed as Dentist |
+
+Source: https://www.budgewoidental.com.au/about-us
 
 **Services:** General dentistry, children's dentistry, cosmetic dentistry, dental crowns and bridges, dental implants, root canal treatment, and All-on-4® implants.
 
@@ -75,10 +86,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 2, 56 Tenth Avenue, Budgewoi NSW 2262 |
 | **Phone** | (02) 4390 0445 |
-| **Hours** | Mon–Fri 9:00am–5:00pm · Sat–Sun Not confirmed from public sources at time of verification |
+| **Email** | info@gentledentalbb.com.au |
+| **Website** | https://gentledentalbb.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat not listed · Sun not listed |
+| **Billing** | Gap-free preventive services for eligible members of HCF Extras, RT Health and CBHS; interest-free payment plans via Humm (T&Cs apply); Afterpay for eligible treatments; Medicare bulk billing for eligible children under 18 through CDBS; cash, EFTPOS, Visa and Mastercard; DVA patients welcome. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Manish Taneja | Bachelor of Dental Surgery (1997); MBA in healthcare | Special interest in prosthodontics |
+| Dr Shveta Taneja | Bachelor of Dental Surgery (2000); passed Australian Dental Council certification examination | General dentistry and orthodontics |
+
+Source: https://gentledentalbb.com.au/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -106,5 +128,11 @@ All dental practitioners in Australia must hold current registration with the **
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
 | Budgewoi Dental | https://www.budgewoidental.com.au |
+| Budgewoi Dental — enrichment source | https://www.budgewoidental.com.au/ |
+| Budgewoi Dental — enrichment source | https://www.budgewoidental.com.au/about-us |
+| Budgewoi Dental — enrichment source | https://www.budgewoidental.com.au/contact |
+| Budgewoi Dental — enrichment source | https://www.budgewoidental.com.au/financial-info |
+| Budgewoi Dental Centre — enrichment source | https://gentledentalbb.com.au/ |
+| Budgewoi Dental Centre — enrichment source | https://gentledentalbb.com.au/ (Gentle Dental Budgewoi contact block) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and the Budgewoi Dental website as at 2026-09-20. Rosters change; always verify current practitioners and hours directly with the clinic.

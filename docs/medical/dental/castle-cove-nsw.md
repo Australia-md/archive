@@ -78,11 +78,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1, 16E Deepwater Road, Castle Cove NSW 2069 |
 | **Phone** | (02) 9417 7222 |
-| **Hours** | Mon 8:00am–7:30pm (Healthdirect and clinic website; HealthEngine lists 8:00am–5:30pm) · Tue 8:00am–5:00pm · Wed 8:00am–5:30pm · Thu 9:30am–7:30pm · Fri 8:00am–5:00pm · Sat 8:00am–5:00pm (clinic website; HealthEngine lists 8:00am–3:00pm) · Sun not listed |
+| **Email** | info@castlecovedental.com.au |
+| **Website** | https://castlecovedental.com.au |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00-7:30 · Tue 8:00-5:00 · Wed 8:00-5:30 · Thu 9:30-7:30 · Fri 8:00-5:00 · Sat 8:00-5:00 · Sun not listed (times as published, no am/pm shown) |
+| **Billing** | "We have the hicaps facility available for all major funds at Castle Cove Family Dental. This service conveniently enables you to claim the cost of your dental treatment at the time of your appointment." New-patient note: bring "Your Medicare card (if you are eligible for the CDBS) and/or DVA Card" and "Your Private Health Fund Card". |
 | **Access** | Short-visit parking at the Deepwater Road shops; longer-stay parking is available on surrounding streets, according to the clinic website. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names were not included because current AHPRA registration was not independently verified during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Mary Moss | — | Listed with 'Dr' title on clinic 'Meet our family' page; no qualification shown |
+| Dr Susie Kim | — | Listed with 'Dr' title on clinic 'Meet our family' page; no qualification shown |
+| Dr Mary Tazawa-Lim | — | Listed with 'Dr' title on clinic 'Meet our family' page; no qualification shown |
+| Dr Nicky Stiassny | — | Listed with 'Dr' title on clinic 'Meet our family' page; no qualification shown |
+| Dr Melissa Wijeratne | — | Listed with 'Dr' title on clinic 'Meet our family' page; no qualification shown |
+| Dr Shanili Alizedeh | — | Listed with 'Dr' title on clinic 'Meet our family' page; no qualification shown |
+
+Source: https://castlecovedental.com.au/family/
 
 **Services:** Routine check-ups and preventive care, fillings, crowns, root canal treatment, in-chair and take-home teeth whitening, nitrous oxide for nervous patients and children.
 
@@ -116,5 +131,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Google Maps / Google Business | https://www.google.com/maps/search/dentist+Castle+Cove+NSW+2069 |
 | HotDoc | https://www.hotdoc.com.au/find/dentist/NSW/castle-cove-2069 |
 | NPS MedicineWise / FindAHealthService | https://www.nps.org.au |
+| Castle Cove Family Dental — enrichment source | https://castlecovedental.com.au/family/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-11-16. Rosters change; always verify current practitioners and hours directly with the clinic. HealthEngine's listed Monday and Saturday closing times differ from the clinic website; confirm hours directly before visiting. No individual practitioner names are included because their current AHPRA registrations were not independently confirmed during this run.

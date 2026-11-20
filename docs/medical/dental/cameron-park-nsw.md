@@ -78,14 +78,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Cameron Park Plaza, corner of George Booth Drive & Portland Drive, Cameron Park NSW 2285 |
 | **Phone** | (02) 4064 2700 |
-| **Hours** | Pacific Smiles' clinic page lists Monday–Tuesday 8:30am–5:30pm · Wednesday 8:30am–5pm · Thursday 8:30am–6pm · Friday 8:30am–5pm · Saturday–Sunday Closed; public-holiday hours may differ. Healthdirect also describes emergency/extended weekend appointments, so call to confirm weekend availability. |
+| **Website** | https://pacificsmilesdental.com.au/locations/cameron-park/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-5:30pm · Tue 8:30am-5:30pm · Wed 8:30am-5:00pm · Thu 8:30am-6:00pm · Fri 8:30am-5:00pm · Sat Closed · Sun Closed |
 | **Access** | The clinic page notes 385 car spaces at Cameron Park Plaza. |
 | **Network** | Healthdirect states that all health funds are welcome. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-> Public directories identify individual practitioners, but their registration could not be verified against the live AHPRA register during this run. No individual is listed here as AHPRA-verified; confirm current practitioners via [the AHPRA register](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Samuel Wah | — | 'Compassionate General Dentist' per location page article title |
+| Dr Jeremy Chan | — | Named in location page article title |
+| Dr Michael Reilly | — | Named in location page article title |
+| Dr Nazi Aghaei | — | Named in location page article title |
+| Dr Nicholas Tarpey | — | 'Gentle and Skilled Dentist' per article title |
+| Yoonchul Shin (Danny) | — | Dental Prosthetist per article title |
+| Ashleigh Armstrong | — | Oral Health Therapist ('Family-Focused') per article title |
+
+Source: https://pacificsmilesdental.com.au/locations/cameron-park/ (staff profile article titles listed on the page; individual profiles not opened)
 
 **Services:** General and family dentistry, cosmetic dentistry, implant dentistry, dentures, and emergency dental appointments.
 
@@ -119,5 +131,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Mapcarta — Cameron Park | https://mapcarta.com/29042602 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Pacific Smiles Dental Cameron Park — enrichment source | https://pacificsmilesdental.com.au/locations/cameron-park/ (staff profile article titles listed on the page; individual profiles not opened) |
 
 **Data limitations:** Public practitioner rosters were not independently verified against the live AHPRA register during this run. Hours are reproduced from the official clinic page; Healthdirect separately describes weekend emergency availability, so confirm current hours and availability directly with the clinic.

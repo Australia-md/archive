@@ -99,12 +99,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 5 Suite 503, 3 Waverley Street, Bondi Junction NSW 2022 |
 | **Phone** | (02) 9387 1032 |
+| **Email** | reception@bettersmiles.com.au |
+| **Website** | https://www.bsmilesbondijunction.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Mon-Fri 8:00am-5:30pm · Sat 8:00am-12:00pm · Sun Not confirmed from public sources at time of verification |
+| **Billing** | Fees & Payment page: on-the-spot health fund rebates via HICAPS; Zip Pay and Zip Money; Afterpay; National Dental Plan; EFTPOS/Visa/Mastercard; superannuation access support for eligible procedures. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ian Young | Oral and Maxillofacial Surgeon | Clinical Director and owner; site states he does not see patients directly |
+| Dr John Wong | Oral Surgeon; Bachelor of Dental Surgery 1979 and Master of Dental Surgery 1990, University of Sydney (as stated) | — |
+| Dr Sawsan Alhafith | Dentist | Fluent in English, Russian and Arabic (as stated) |
+| Dr Michael Tveshor | Principal Dentist; graduated Sydney University Faculty of Dentistry 1993 (as stated) | — |
+| Ms Sasha Bekker | Dental Hygienist | Described as a registered dental hygienist |
+
+Source: https://www.bsmilesbondijunction.com.au/about-us/
 
 **Services:** Veneers, crowns, bridges, Invisalign, teeth whitening, implants, root canals, kid's dentistry, cosmetic dentistry, general dentistry, restorative dentistry, implant restorations, sedation dentistry, emergency dentistry.
 
@@ -116,12 +128,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 91 Spring Street, Bondi Junction NSW 2022 |
 | **Phone** | (02) 9353 1300 |
-| **Hours** | Mon-Wed 8:30am-6:00pm · Thu 8:30am-7:00pm · Fri 8:30am-6:00pm · Sat 9:00am-5:00pm · Sun Not confirmed from public sources at time of verification |
+| **Website** | https://pacificsmilesdental.com.au/locations/bondi-junction/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-6:00pm · Thu 8:30am-7:00pm · Fri 8:30am-6:00pm · Sat 9:00am-5:00pm · Sun 9:00am-5:00pm |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ellie Abedian | — | General Dentist (news post title) |
+| Dr Lidia Munteanu | — | Child dentist (news post title) |
+| Dr Ren Sun | — | Named in clinic news post |
+| Dr Angela Pierce | — | Named in clinic news post |
+| Dr Justin Halliday | — | Named in clinic news post |
+| Dr Priyanka Chandra | — | Named in clinic news post |
+| Dr Alexander Mark Efthymiou | — | Named in clinic news post |
+| Dr Anu Aggarwal | — | Named in clinic news post |
+| Dr Clare Hoy | — | General Dentist (news post title) |
+| Dr Shaylee Patel | — | Named in clinic news post |
+
+Source: https://pacificsmilesdental.com.au/locations/bondi-junction/
 
 **Services:** Family dentistry, cosmetic dentistry, implant dentistry, dentures, emergency dental appointments, general check-ups.
 
@@ -133,13 +160,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 3, 101-107 Oxford Street, Bondi Junction NSW 2022 |
 | **Phone** | (02) 9387 3181 |
-| **Hours** | Mon-Fri 8:00am-6:00pm · Sat By appointment only · Sun By appointment only |
+| **Email** | bondi@dentallifeline.com.au |
+| **Website** | https://dentallifeline.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 8:00am-6:00pm · Fri 8:00am-6:00pm · Sat not listed · Sun not listed |
 | **Access** | Free parking noted in public directory listings. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Meena Gambhir | General Dentist | Listed on Dentist.com.au profile for this clinic |
+| Dr Namita Mehta | General Dentist | Listed on Dentist.com.au profile for this clinic |
+| Dr Guru Gambhir | — | Listed on Dentist.com.au profile; bachelor degree 1997 and Masters in oral surgery 2002 (as stated there) |
+
+Source: https://www.dentist.com.au/dentist-detail/bondi-dental-lifeline/A11000848
 
 **Services:** General dentistry, cosmetic dentistry, implant dentistry, single tooth implants, implant supported dentures, Invisalign, children's dentistry, emergency dentistry.
 
@@ -151,16 +187,26 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 2, 110 Spring Street, Bondi Junction NSW 2022 |
 | **Phone** | (02) 9389 3333 |
-| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-6:00pm · Thu 9:00am-8:00pm · Fri 9:00am-5:00pm · Sat 9:00am-3:00pm · Sun Closed |
+| **Email** | bondijunction@smilebydesign.com.au |
+| **Website** | https://smilebydesign.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-6:00pm · Thu 11:00am-8:00pm · Fri 8:30am-6:00pm · Sat Closed · Sun Closed |
+| **Billing** | Payment plans through Humm (up to $30,000, up to 60 months, subject to Humm assessment); superannuation early-release information provided; Medicare/private health rebates can be added back onto the payment plan. |
 | **Access** | Paid parking noted in public directory listings. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Michael Tam | BDS (NZ) · Grad Dip Clin Dent (Implants) (Syd) | Practice site lists him as the clinic lead and says he has more than 30 years of clinical experience in cosmetic and implant dentistry. |
-| Dr Sandra Pedram | Qualification not confirmed from public sources at time of verification | Practice site lists her as part of the Smile by Design team. |
+| Dr Michael Tam | BDS (NZ), Grad Dip Clin Dent (Implants) (Syd) | Principal Dentist; over 30 years experience (as stated) |
+| Dr Sandra | BDS (Sydney University), GradDipClinDent (Hyp) | Associate Dentist (surname not printed) |
+| Dr Rowena | Bachelor of Dental Science, Charles Sturt University | Dentist (surname not printed) |
+| Fiona | Bachelor of Oral Health Therapy, University of Newcastle | Oral Health Therapist |
+| Linda | Diploma in Dental Hygiene and Diploma in Dental Therapy, Kings College London | Oral Health Therapist |
+| Jess Bui | B.O.H.T (Newcastle Uni) | Oral Health Therapist |
+
+Source: https://smilebydesign.com.au/about
 
 **Services:** Cosmetic dentistry, dental crowns, dental implants, veneers, dentofacial aesthetics, orthodontics, Invisalign, smile makeovers, teeth whitening, general dentistry.
 
@@ -172,14 +218,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Westfield Bondi Junction, Shop 2056, Level 2, 500 Oxford Street, Bondi Junction NSW 2022 |
 | **Phone** | (02) 8488 9986 |
-| **Hours** | Mon-Wed 9:00am-6:00pm · Thu 10:30am-8:00pm · Fri 10:00am-7:00pm · Sat 9:00am-6:00pm · Sun 10:00am-5:00pm |
+| **Website** | https://www.bupadental.com.au/find-a-dentist/nsw-bondi_junction-2022-au/bupa-dental-bondi-junction |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 10:30am-6:00pm · Thu 9:00am-8:00pm · Fri 9:30am-6:00pm · Sat 9:00am-6:00pm · Sun 10:00am-5:00pm |
+| **Billing** | Members First Ultimate practice (Bupa): 100% back on up to two check-up and cleans and on fillings up to yearly limits for eligible Bupa members (conditions apply); preferred health fund provider Bupa Australia; 'Payment options may be available with participating clinicians'. |
 | **Access** | Wheelchair access / accessible entry is noted in public practice listings. |
 | **Network** | Bupa Members First Ultimate |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr George Mangoulias | Bachelor of Dental Surgery (honours), University of Sydney | Lead dentist; interest in orthodontics, implants, crown and bridge |
+| Dr Michael Berger | Bachelor of Dental Science (South Africa) | Interest in restorative dentistry and oral surgery |
+| Dr Natalia | Universidad Nacional de Cordoba 2013 | Surname not printed; English and Spanish |
+| Dr Emma Gray | — | Preventative, general and restorative dentistry |
+| Dr Brian Gnesin | University of the Witwatersrand 1975; Master's in Dentistry 1986 | General dentist; endodontics and cosmetic interest |
+| Dr Iden Mahmood | Fellow of the Royal Australasian College of Dental Surgeons; Dental Implant Diploma (as stated) | Associate dentist; fluent in Arabic |
+| Dr Katrina Zhao | University of Adelaide | General dentist |
+
+Source: https://www.bupadental.com.au/find-a-dentist/nsw-bondi_junction-2022-au/bupa-dental-bondi-junction
 
 **Services:** Dental check-ups, dental cleaning, crowns, bridges, dentures, root canal therapy, gum disease treatment, Invisalign, orthodontics, veneers, teeth whitening, white fillings, wisdom teeth removal, mouth guards, laser dentistry.
 
@@ -191,18 +250,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 3A Bronte Road, Bondi Junction NSW 2022 |
 | **Phone** | (02) 8305 7720 |
-| **Hours** | Mon 9:00am-6:00pm · Tue 8:00am-5:00pm · Wed 8:00am-6:00pm · Thu 9:00am-5:00pm · Fri 8:00am-5:00pm · Sat Closed · Sun Closed |
+| **Website** | https://www.primarydental.com.au/dental-centre/bondi-junction/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-6:00pm · Fri 8:00am-5:00pm · Sat Closed · Sun Closed |
+| **Billing** | Site states: accepts most health funds; Afterpay payment plans; Medicare CDBS for children; government vouchers and DVA card holders accepted by independent dentists; fixed price check-ups from $149 adults / $89 kids; new patient check and clean offer $219. |
 | **Access** | Parking not available per public practice directory listings. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Craig Taylor | Qualification not confirmed from public sources at time of verification | Practice profile lists him as one of the Bondi Junction dentists. |
-| Dr Natalie Hytiris | Qualification not confirmed from public sources at time of verification | Practice profile lists her as one of the Bondi Junction dentists. |
-| Dr Priya Balaji | Qualification not confirmed from public sources at time of verification | Practice profile lists her as one of the Bondi Junction dentists. |
-| Dr Laura Kelly | Qualification not confirmed from public sources at time of verification | Practice profile lists her as one of the Bondi Junction dentists. |
+| Dr Craig Taylor | — | Root canal, anxious patients, general dentistry, crowns and bridges |
+| Dr Natalie Hytiris | — | Anxious patients, complex extractions and oral surgery, crowns and bridges, root canal |
+| Dr Priya Balaji | — | Root canal, anxious patients, complex extractions and oral surgery, children's dentistry |
+
+Source: https://www.primarydental.com.au/dental-centre/bondi-junction/
 
 **Services:** General dentistry, family dentistry, emergency dental care, routine check-ups, payment plan options, all-health-fund dental care.
 
@@ -243,5 +306,14 @@ All dental practitioners in Australia must hold current registration with the **
 | Sydney CBD to Bondi Junction — Rome2Rio | https://www.rome2rio.com/s/Sydney-CBD/Bondi-Junction |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Better Smiles Bondi Junction — enrichment source | https://www.bsmilesbondijunction.com.au/about-us/ |
+| Better Smiles Bondi Junction — enrichment source | https://www.bsmilesbondijunction.com.au/contact-us/ (address present in page source, not shown in visible text) |
+| Better Smiles Bondi Junction — enrichment source | https://www.bsmilesbondijunction.com.au/fees-payment/ |
+| Bondi Dental Lifeline — enrichment source | https://dentallifeline.com.au/contacts/ |
+| Bondi Dental Lifeline — enrichment source | https://www.dentist.com.au/dentist-detail/bondi-dental-lifeline/A11000848 |
+| Smile by Design - Bondi Dentist — enrichment source | https://smilebydesign.com.au/ (address in page source) |
+| Smile by Design - Bondi Dentist — enrichment source | https://smilebydesign.com.au/about |
+| Smile by Design - Bondi Dentist — enrichment source | https://smilebydesign.com.au/contact |
+| Smile by Design - Bondi Dentist — enrichment source | https://smilebydesign.com.au/payment-plans |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-08-18. Rosters change; always verify current practitioners and hours directly with the clinic.

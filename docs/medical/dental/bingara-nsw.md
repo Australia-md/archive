@@ -72,7 +72,9 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 30A Maitland Street, Bingara NSW 2404 |
 | **Phone** | 0419 485 432 |
+| **Email** | smilesdentalsurgery@outlook.com |
 | **Hours** | Not confirmed from public sources at time of verification |
+| **Billing** | Yellow Pages listing: 'Payment plans available to help you with your budget.' Localsearch listing (as Bingara Smiles Dental Clinic): ways to pay Cash, EFT, HICAPS. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -107,5 +109,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Bingara Central School project profile — NSW School Infrastructure | https://www.schoolinfrastructure.nsw.gov.au/schools/1/1234 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bingara Dental Clinic — enrichment source | https://www.yellowpages.com.au/bingara-nsw/bpp/bingara-dental-clinic-580872721 (Email Business mailto link on directory listing) |
+| Bingara Dental Clinic — enrichment source | https://www.yellowpages.com.au/bingara-nsw/bpp/bingara-dental-clinic-580872721 ; https://www.localsearch.com.au/profile/bingara-smiles-dental-clinic/bingara-nsw/dqKM |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-07-13. Rosters change; always verify current practitioners and hours directly with the clinic.

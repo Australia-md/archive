@@ -187,10 +187,27 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 2, 63A Archer Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9415 3555 |
-| **Hours** | Mon 8:00am–5:00pm · Tue 8:00am–5:00pm · Wed 8:00am–5:00pm · Thu 8:00am–6:00pm · Fri 8:00am–4:00pm · Sat 8:00am–4:00pm · Sun Closed |
+| **Email** | chatswood@aboutsmiles.com.au |
+| **Website** | https://aboutsmiles.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am–5:00pm · Tue 8:00am–5:00pm · Wed 8:00am–5:00pm · Thu 8:00am–6:00pm · Fri 8:00am–4:00pm · Sat 8:00am–4:00pm · Sun Closed (public holiday hours may differ) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr David Argent | Dentist | — |
+| Dr David Young | Dentist | — |
+| Dr Eugene Foo | Dentist | — |
+| Dr Paul Gaisford | Dentist | Also Zetland |
+| William Bui | Oral Health Therapist | Also Crows Nest |
+| Nicole Brierley | Oral Health Therapist | — |
+| Dr Mark Mingjie Lu | Dentist | Also Crows Nest |
+| Dr Caroline Chung | Specialist Paediatric Dentist | — |
+| Dr Gregory Nguyen | Dentist | Also Circular Quay |
+
+Source: https://aboutsmiles.com.au/location/chatswood/
 
 **Services:** General, cosmetic and restorative dentistry.
 
@@ -202,6 +219,7 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 7, 30 Anderson Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 5678 |
+| **Website** | https://advancedentalcare.com.au/ |
 | **Hours** | Open Monday–Saturday; exact daily hours not confirmed from public sources at time of verification. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -217,12 +235,31 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 61, 47 Neridah Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 3292 |
-| **Hours** | Monday 7:30am–5:00pm; Saturday by appointment only; other daily hours not confirmed from public sources at time of verification. |
+| **Website** | https://www.bupadental.com.au/find-a-dentist/nsw-chatswood-nsw-au/bupa-dental-chatswood |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 7:30am–5:00pm · Tue 7:30am–5:00pm · Wed 7:30am–4:00pm · Thu 8:00am–5:00pm · Fri 7:30am–5:00pm · Sat 8:00am–2:00pm (page notes Saturdays are by appointment only) · Sun Closed |
+| **Billing** | Members First Ultimate practice (Bupa); 'Preferred health fund providers: Bupa Australia Pty Ltd'; 'Payment options may be available with participating clinicians at this practice. We recommend confirming with our team before booking.' |
 | **Access** | Wheelchair-accessible entry. |
 | **Network** | Bupa Members First Ultimate (as listed by the practice). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Kasey | Bachelor of Dental Science (Charles Sturt University) | Surname not printed in text |
+| Dr Richa Singh | — | — |
+| Dr Dhivya Vikneson | — | — |
+| Dr Ellis Vakirtzis | — | — |
+| Dr Elly Kim | — | — |
+| Dr Bhansali | — | Given name not printed in text |
+| Dr Liew | — | Text also refers to 'Dr Yi Xing'; full name unclear |
+| Dr Joo Yoo | — | Text refers to 'Joo Yoo' and 'Dr. Yoo' |
+| Luximi Sivabalan | Oral Health Therapist | — |
+| Samantha Peach | Oral Health Therapist | — |
+| Clare Cheng | — | Role not captured |
+
+Source: https://www.bupadental.com.au/find-a-dentist/nsw-chatswood-nsw-au/bupa-dental-chatswood
 
 **Services:** General dental care, check-ups, fillings, teeth whitening and veneers.
 
@@ -234,10 +271,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 1, Ground Floor, 781 Pacific Highway, Chatswood NSW 2067 |
 | **Phone** | (02) 9054 5281 |
-| **Hours** | Monday 8:30am–6:00pm · Tuesday 8:00am–7:30pm · Wednesday 9:00am–7:00pm · remaining daily hours not confirmed from public sources at time of verification. |
+| **Email** | info@boutiquedentalcare.com.au |
+| **Website** | https://www.boutiquedentalcare.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am–6:00pm · Tue 8:00am–7:30pm · Wed 9:00am–7:00pm · Thu 8:00am–7:30pm · Fri 9:00am–5:00pm · Sat 9:00am–5:00pm · Sun Closed |
+| **Billing** | 'We Accept All Major Health Funds.' Flexible payment plans via Denticare, Fund My Dental, Humm and AfterPay. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ruta Bhalerao | General dentist | 15+ years private practice per site |
+| Dr Meng Quah-Shepherd | Dentist | Graduated London 1984 per site |
+
+Source: https://www.boutiquedentalcare.com.au/
 
 **Services:** General, cosmetic and Invisalign dentistry.
 
@@ -249,10 +297,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Chatswood Leura Building 11, Suite 19, 809 Pacific Highway, Chatswood NSW 2067 |
 | **Phone** | (02) 9412 4488 |
-| **Hours** | Monday 7:30am–5:00pm; other daily hours not confirmed from public sources at time of verification. |
+| **Website** | https://www.chatswooddentalassociates.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 7:30am–5:00pm · Tue 7:30am–5:00pm · Wed 7:30am–5:00pm · Thu 7:30am–5:00pm · Fri 7:30am–4:00pm · Sat/Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Poe Lim | — | Listed '(Dentist)' |
+| Dr Gautam Sridhar | — | Listed '(Dentist)' |
+
+Source: https://www.chatswooddentalassociates.com.au/dentists/
 
 **Services:** General dentistry, examinations and cleans, emergency dentistry, bridges and crowns, dentures, implants, sedation dentistry, sleep-apnoea services, cosmetic dentistry, orthodontics, clear aligners, whitening, veneers, fillings and bonding.
 
@@ -264,11 +321,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 11, 445 Victoria Avenue, Chatswood NSW 2067 |
 | **Phone** | (02) 9412 2295 |
-| **Hours** | Monday, Tuesday, Wednesday and Friday 8:00am–5:00pm · Thursday 8:00am–7:00pm (late appointments subject to availability) · Saturday 9:00am–3:00pm · Sunday hours not confirmed. |
+| **Email** | info@chatswooddentalcare.com.au |
+| **Website** | https://www.chatswooddentalcare.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon–Fri 8am–5pm · Thu 8am–7pm (late appointments subject to availability) · Sat 9am–3pm by appointment · Sun not listed |
 | **Access** | The clinic states it is about 50 metres from Chatswood rail and bus interchange; lift access to the mezzanine and nearby parking are listed. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Tim Hart | BDS, Cert. Implant (UCLA) | Led by |
+| Dr Fei Qiu | Doctor of Dental Medicine (Syd), BSc Mol. Bio. & Genetics (Hons) | Owner and Principal Dentist |
+| Dr Kylie Lam | Doctor of Dental Medicine (Griffith University) | — |
+| Dr Rachael Chung | BDS (USyd) | — |
+
+Source: https://www.chatswooddentalcare.com.au/our-team/
 
 **Services:** Not confirmed from public sources at time of verification.
 
@@ -280,6 +349,7 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 2A Blakesley Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9412 3805 |
+| **Website** | https://chatswooddentalcentresydney.com.au/ |
 | **Hours** | Monday–Saturday; exact daily hours not confirmed from public sources at time of verification. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -295,10 +365,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 20, 56 Neridah Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 8370 |
-| **Hours** | Monday–Thursday 9:00am–5:00pm; remaining daily hours not confirmed from public sources at time of verification. |
+| **Email** | info@dentistchatswood.com.au |
+| **Website** | https://dentistchatswood.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Open Monday to Friday (no daily times published on site); 'available 24 hours a day for emergency treatment to regular patients'. Saturday/Sunday not stated. |
+| **Billing** | Accepts cash, cheque, EFTPOS, MasterCard, Visa and American Express (no surcharge). 'HICAPS to claim directly from all the major health funds'. 'We Bulk Bill all eligible patients under the Medicare Child Benefits Scheme and Veterans Affairs.' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Richard D. Mumford | BDS (Sydney) | Owner and principal dentist; 'Dental Surgeon' |
+
+Source: https://dentistchatswood.com.au/aboutus/
 
 **Services:** General family dental practice; specific treatment list not confirmed from public sources at time of verification.
 
@@ -310,7 +390,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | High Park Tower, Shop 251, 813 Pacific Highway, Chatswood NSW 2067 |
 | **Phone** | (02) 9412 1303 |
-| **Hours** | Monday 9:00am–7:00pm; other daily hours not confirmed from public sources at time of verification. |
+| **Hours** | Mon 9am–7pm · Tue 9am–7pm · Wed 9am–7pm · Thu 9am–7pm · Fri 9am–7pm (shown as 'Today' on 2026-11-20) · Sat 9am–4pm · Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -325,11 +406,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 3, 3–9 Spring Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9412 3666 |
-| **Hours** | Monday–Saturday 9:00am–5:00pm; Sunday hours not confirmed from public sources at time of verification. |
+| **Email** | chatswoodsmiles@gmail.com |
+| **Website** | https://onefamilydental.com.au/locations/chatswood-smiles/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon–Sat 9am–5pm (Sunday not stated) |
+| **Billing** | 'We cooperate with all health insurance companies'; on-the-spot HICAPS claims; Veterans Affairs HICAPS; accepts cash and all credit cards except American Express; location page: 'Child Dental Benefits Schedule (CDBS) support for eligible kids – often with little or no out-of-pocket cost'. |
 | **Access** | The practice lists nearby parking and proximity to public transport. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Linh Pham | Bachelor of Dental Science (Charles Sturt University), Advanced Diploma in Dental Technology, Advanced Diploma in Dental Prosthetics | Listed as 'Dentist & Dental Prosthetist' under Chatswood Smiles on group team page |
+| Dr Kasey Qiu | Bachelor of Dental Science (Hons) The University of Queensland | Listed as 'Dentist'; appears in the Chatswood Smiles section of the group team page and also elsewhere on the page, so clinic assignment is not certain |
+
+Source: https://onefamilydental.com.au/our-teams
 
 **Services:** General and family dentistry, routine check-ups and children’s dental care; the practice states it supports eligible Child Dental Benefits Schedule patients.
 
@@ -341,12 +433,33 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 8, 18–26 Anderson Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 5663 |
-| **Hours** | Monday–Sunday 9:00am–6:00pm; closed public holidays. |
+| **Website** | https://www.cleardental.com.au/chatswood-dentist.html |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon–Sun 9am–6pm; closed public holidays |
+| **Billing** | 'PREFERRED PROVIDER'; 'Claim on the spot with any health fund card'; 'Payment plans for larger treatments' |
 | **Access** | Two hours validated parking is listed by the practice. |
 | **Network** | Preferred-provider clinic for Bupa, nib and Medibank (as listed by the practice). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Louisa Li | — | Location label on team page: Chatswood |
+| Dr Fiona Lo | — | Location label on team page: Chatswood & Berowra Heights |
+| Dr Alvin Kwan | — | Location label on team page: Chatswood |
+| Dr Philip Mak | — | Location label on team page: Chatswood & Berowra Heights |
+| Dr Melissa Qiu | — | Location label on team page: Chatswood |
+| Dr Olivia Gao | — | Location label on team page: Berowra Heights & Chatswood |
+| Dr Sara Chu | — | Location label on team page: Chatswood |
+| Dr Sherry Guo | — | Location label on team page: Chatswood |
+| Tiffany Yue | — | Listed as Therapist; Location label on team page: Chatswood, Wentworth Point, Castle Hill & Berowra Heights |
+| Dr Ruby Xie | — | Location label on team page: Chatswood |
+| Dr Charles Ma | — | Location label on team page: Chatswood |
+| Dr Rainbow Yang | — | Location label on team page: Chatswood & Parramatta |
+| Dr Amy Zhang | — | Location label on team page: Chatswood |
+
+Source: https://www.cleardental.com.au/about/team.html
 
 **Services:** General, cosmetic and family dentistry, check-ups and cleans, Invisalign, veneers, implants, wisdom-tooth removal and emergency dentistry.
 
@@ -358,10 +471,29 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1, 501 Victoria Avenue, Chatswood NSW 2067 |
 | **Phone** | Not confirmed from public sources at time of verification (published phone formatting was inconsistent). |
-| **Hours** | Monday–Friday 8:00am–5:30pm · Saturday and Sunday Closed. |
+| **Website** | https://dentalboutique.com.au/chatswood/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon–Fri 8:00am–5:30pm · Sat Closed · Sun Closed |
+| **Billing** | 'Multiple payment options'; 'Up To 60 Months Interest Free Payment Plans Available'; price list download offered (not opened) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Cigdem Kipel | Registered Dentist, General Registration (as stated by clinic) | Director & Principal Dentist of DB NSW |
+| Dr Ben Hargreave | Registered Dentist, General Registration (as stated by clinic) | Director & Principal Dentist of DB NSW |
+| Dr Jackie Ngo | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Colin Sar | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Jono Michael | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr John Breeze | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Garo Mazmanian | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Christopher Nou | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Daren Vujovic | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Bianca Milosavljevic | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+| Dr Brandon Wong | Registered Dentist, General Registration (as stated by clinic) | Dental Boutique Dentist |
+
+Source: https://dentalboutique.com.au/chatswood/
 
 **Services:** General and cosmetic dentistry, dental implants, sleep dentistry and veneers.
 
@@ -373,7 +505,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 1, Suite 102, 63A Archer Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9415 1333 |
-| **Hours** | Monday 9:00am–5:00pm; other daily hours not confirmed from public sources at time of verification. |
+| **Hours** | Mon 9am–5pm · Tue 9am–5pm · Wed 9am–3:30pm · Thu 9am–5pm · Fri 9am–5pm (shown as 'Today') · Sat 9am–1pm · Sun not listed; 'By appointment only' |
+| **Billing** | Healthdirect: 'Fees apply' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -388,11 +521,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 128, Mandarin Centre, 61–65 Albert Avenue, Chatswood NSW 2067 |
 | **Phone** | (02) 8074 3849 |
-| **Hours** | Six-day opening with extended weekday hours is stated by the clinic; exact daily hours not confirmed from public sources at time of verification. |
+| **Email** | info@evergreendental.com.au |
+| **Website** | https://evergreendental.com.au/ |
+| **Website check** | WordPress site · robots.txt blocks: amazonbot, applebot-extended, bytespider, ccbot, claudebot, google-extended, gptbot, anthropic-ai, claude-web · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon–Sat 9:30am–5:30pm (Sunday not stated) |
+| **Billing** | 'flexible payment plan options' and 'Gap Free Check-ups for new patients with private health insurance' (homepage) |
 | **Access** | The clinic lists three-hour free parking. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ryan Chou | Bachelor of Biomedical Science; dentistry degree University of Queensland; Fellowship in Implant Dentistry (University of Miami); Graduate Diploma of Dental Implantology (Charles Sturt University) | — |
+| Dr Steven You | Bachelor of Dentistry, University of Sydney | — |
+| Dr Helen Wang | Bachelor of Dental Science, University of Queensland | — |
+| Dr Vicky Lin | Bachelor of Dentistry, University of Sydney | Text also mentions Gosford |
+| Dr James Chiu | Bachelor of Dental Science (Hons), University of Queensland | — |
+
+Source: https://evergreendental.com.au/about-us/
 
 **Services:** Family dentistry, from check-ups to smile makeovers; specific treatment list not confirmed from public sources at time of verification.
 
@@ -404,7 +551,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 502, 71–73 Archer Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9410 1080 |
-| **Hours** | Monday–Saturday 9:30am–5:30pm · Sunday Closed. |
+| **Email** | chatswood@experteeth.com.au |
+| **Website** | https://www.experteeth.com.au/locations-chatswood/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon–Sat 9:30am–5:30pm, Sun Closed (contact block). Conflicting table on same page: Mon–Sat 9:00am–5:00pm, Sun CLOSED. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -419,7 +569,8 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 6, 13 Spring Street, Chatswood NSW 2067 |
 | **Phone** | (02) 8448 0144 |
-| **Hours** | Monday 8:00am–7:00pm; other daily hours not confirmed from public sources at time of verification. |
+| **Hours** | Mon 8am–7pm · Tue 8am–7pm · Wed 8am–7pm · Thu 8am–7pm · Fri 8am–7pm (shown as 'Today') · Sat/Sun not listed |
+| **Billing** | Healthdirect: 'Mixed billing' – 'Bulk billing available with conditions, fees may apply.' |
 | **Network** | HCF Dental Centre (practice name and Healthdirect service listing). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
@@ -435,6 +586,7 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 202, 6 Spring Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 5583 |
+| **Website** | https://www.jacodental.com.au/ |
 | **Hours** | Not confirmed from public sources at time of verification. |
 | **Access** | Metered street parking on Spring Street and a short walk from Chatswood train station and bus terminal are listed by the practice. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
@@ -451,11 +603,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 7, 6 McIntosh Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9419 8955 |
-| **Hours** | Monday 7:30am–4:30pm; other daily hours not confirmed from public sources at time of verification. |
+| **Website** | https://www.kidschompers.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 7:30am–4:30pm · Tue 7:30am–5pm · Wed 7:30am–12:30pm · Thu 7:30am–12:30pm · Fri 7:30am–4pm (shown as 'Today') · Sat/Sun not listed |
+| **Billing** | Healthdirect: 'Fees apply' |
 | **Access** | The clinic lists metered parking on McIntosh and Railway Streets and parking stations at Zenith Centre, Wilson Parking, Westfield Chatswood and Chatswood Chase. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Kareen Mekertichian | — | Named on contact page ('Get in touch with Dr Kareen'); qualification not printed |
+
+Source: https://www.kidschompers.com.au/contact-us/
 
 **Services:** Paediatric dental care; specific treatment list not confirmed from public sources at time of verification.
 
@@ -467,10 +628,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 2, 1 Anderson Street, Chatswood NSW 2067 |
 | **Phone** | 1300 345 300 |
-| **Hours** | Monday 8:00am–6:00pm; other daily hours not confirmed from public sources at time of verification. |
+| **Hours** | Mon 8am–6pm · Tue 8am–6pm · Wed 8am–6:30pm · Thu 8am–7pm · Fri 8am–6pm (shown as 'Today') · Sat 8:30am–5:30pm · Sun 9:30am–4:30pm |
+| **Billing** | Healthdirect: 'Fees apply' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Chunyan Cui | Dentist | Listed on Healthdirect as 'Miss Chunyan Cui, Dentist, Female' |
+| Dr Thomas Radge | Dentist | Listed on Healthdirect as 'Dentist, Male' |
+
+Source: https://www.healthdirect.gov.au/australian-health-services/healthcare-service/chatswood-2067-nsw/nib-dental-care-centre-chatswood/dentists/59b8b92e-e591-b919-9845-446b9a43f525
 
 **Services:** Dental service listing; specific treatment list not confirmed from public sources at time of verification.
 
@@ -482,10 +651,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 6, 809–811 Pacific Highway, Chatswood NSW 2067 |
 | **Phone** | (02) 8007 6701 |
-| **Hours** | Open six days a week and closed Sunday (practice site); exact daily hours not confirmed from public sources at time of verification. |
+| **Website** | https://www.nogapsdental.com/location/dentist-chatswood/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon–Fri 8am–6pm · Sat 8am–6pm (as stated: 'Monday to Friday 8am – 6pm, Saturday 8am – 6pm'); Sunday not stated on page (md notes closed Sunday) |
+| **Billing** | 'No Gaps Guarantee'; 'ALL Australian Private Health Funds'; FAQ: 'If you have health fund your most general treatment like consultation, cleaning, x-rays, filling are all no gaps and there is no out of pocket charge.'; 'Payment Plans' listed; children: 'if they come under CDBS Medicare scheme, their general dental treatment cost nothing and bulk billed.' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Marcia Okada | — | Listed on Chatswood location page |
+| Dr Tina (Thuy) Nguyen | — | Listed on Chatswood location page |
+| Dr Alisha Jason | — | Listed on Chatswood location page |
+| Dr William Machida | — | Listed on Chatswood location page |
+| Dr Pavithra Shetty | — | Listed on Chatswood location page |
+| Dr Nina Zhang | — | Listed on Chatswood location page |
+| Dr Shagun Gandhi Prajapati | — | Listed on Chatswood location page |
+
+Source: https://www.nogapsdental.com/location/dentist-chatswood/
 
 **Services:** General dental services; specific treatment list not confirmed from public sources at time of verification.
 
@@ -497,11 +681,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Level 5, 270 Victoria Avenue, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 1122 |
-| **Hours** | Monday 8:00am–5:00pm; hours and appointment availability may vary with dentist availability. |
+| **Website** | https://www.primarydental.com.au/dental-centre/chatswood/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am–5:00pm · Tue 8:30am–5:00pm · Wed 8:00am–6:00pm · Thu 8:30am–5:00pm · Fri 8:00am–6:00pm · Sat 8:00am–6:00pm · Sun Closed · Public holidays Closed |
+| **Billing** | 'Payment plans available with afterpay'; page has a 'Health funds' section (fund names not captured); new patient check & clean offer $249* |
 | **Access** | Parking is available on site or nearby (practice site). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Ian Shee | — | Listed under 'Meet the Dentists at Chatswood' |
+| Dr Neville Segall | — | Listed under 'Meet the Dentists at Chatswood' |
+| Dr Rogerio Miranda | — | Listed under 'Meet the Dentists at Chatswood' |
+| Dr Suman Deshpande | — | Listed under 'Meet the Dentists at Chatswood' |
+
+Source: https://www.primarydental.com.au/dental-centre/chatswood/
 
 **Services:** Wisdom-tooth removal, dental implants, fillings, teeth whitening and emergency dental care.
 
@@ -513,11 +709,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 6, Level 2, 6 McIntosh Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9904 6866 |
-| **Hours** | Monday–Friday 8:30am–5:00pm. |
+| **Website** | https://www.sydneyoralfacialsurgery.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon–Thu 8:30am–5:00pm · Fri 8:30am–4:00pm · Sat/Sun not stated |
+| **Billing** | Fees page: fee estimate given at initial consultation; medical procedures (e.g. jaw surgery, bone grafting, cyst removal) 'attract a Medicare rebate and are also claimable through private health insurance'; 'Dental procedures are not claimable under Medicare'; wisdom tooth extraction or implant placement 'can instead be claimed through "Dental Extras" cover'; separate anaesthetist fee estimate. |
 | **Access** | The practice states it is within walking distance of Chatswood train station. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Lydia Lim | — | Listed on 'Our Doctors' page |
+| Dr Margaret Kim | — | Listed on 'Our Doctors' page |
+| Dr Pearl Sirichai | — | Listed on 'Our Doctors' page |
+| Dr Suma Sukumar | — | Listed on 'Our Doctors' page |
+
+Source: https://www.sydneyoralfacialsurgery.com.au/about-us/our-doctors/
 
 **Services:** Oral and facial surgery; additional procedures are not listed here.
 
@@ -529,10 +737,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Ground Floor, Shop 1, 2 Help Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9410 2001 |
-| **Hours** | Monday 8:00am–5:00pm · Tuesday 8:00am–5:00pm · Wednesday 8:00am–1:00pm · Thursday 8:00am–7:00pm · Friday 8:00am–5:00pm · Saturday 9:00am–4:00pm · Sunday Closed. |
+| **Email** | reception@ssdental.com.au |
+| **Website** | https://sydneysmilesdental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am–5:00pm · Tue 8:00am–5:00pm · Wed 8:00am–1:00pm · Thu 8:00am–7:00pm · Fri 8:00am–5:00pm · Sat 9:00am–4:00pm · Sun Closed |
+| **Billing** | Payment options page: Child Dental Benefits Scheme information; Smile.com.au group savings (via Dr Marcel Lee); Zip Pay buy-now-pay-later; 'Hicaps Private Insurance Available' |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Marcel Lee | — | Listed on Our Team page |
+| Dr Isabelle Ahn | — | Listed on Our Team page |
+| Dr Andrew Ryu | — | Listed on Our Team page |
+
+Source: https://sydneysmilesdental.com.au/about-us/our-team/
 
 **Services:** General dental care and emergency dental contact arrangements (practice site).
 
@@ -544,10 +764,30 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Lemon Grove Shopping Centre, Shop 37, 431 Victoria Avenue, Chatswood NSW 2067 |
 | **Phone** | (02) 9413 1446 |
-| **Hours** | Monday 8:30am–6:00pm; other daily hours not confirmed from public sources at time of verification. |
+| **Email** | info@sodental.com.au |
+| **Website** | https://www.sodental.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Lemon Grove clinic per Healthdirect: Mon 8:30am–6pm · Tue 8:30am–6pm · Wed 8:30am–6pm · Thu 8:30am–7pm · Fri 8:30am–6pm (shown as 'Today') · Sat 8:30am–5pm · Sun 8:30am–5pm |
+| **Billing** | Healthdirect: 'Fees apply'; practice site: 'transparent fees' (no payment methods listed on pages opened) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Samson Yuen-To So | BDS (Bristol) IADFE (New York) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Yo Han Choi | BDent (Hons.) (USyd) MBiomedE (Hons.) (UNSW) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Andrew Chu | B Dent (Hons.) (Uni.Syd) B Commerce (UNSW) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr William Huang | BDSc (Melb), Grad Dip Clin Dent (Oral Implants) (Syd) MRACDS | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Jamie Lam | BPharm, DMD (Uni.Syd), GradDipClinDent (Clear Aligner) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Neo Kwan | BDSc. Hons (Uni. Melb) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Zilvia Cheng | BSc. MND. DMD. (Uni. Sydney) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Aaron Lo | BDS (James Cook Uni) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Jenny Hong | DMD (Uni.Syd), GradDipClinDent (Clear Aligner) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Dr Grace Zhang | DMD (Uni. Syd) BSc (Uni. Syd) | Listed under 'SO Dental Dentists' (group has two Chatswood clinics: Lemon Grove Centre and Chatswood Place; per-clinic assignment not stated) |
+| Eva Kuo | BOH (Uni. Newcastle) | Oral Health Therapist ('OHT') |
+
+Source: https://www.sodental.com.au/about
 
 **Services:** General dental practice.
 
@@ -559,10 +799,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | St Thomas House, Suite 101, 781 Pacific Highway, Chatswood NSW 2067 |
 | **Phone** | (02) 9419 5412 |
-| **Hours** | Monday–Friday 9:00am–6:00pm · Saturday 9:00am–5:00pm · Sunday appointments by arrangement. |
+| **Email** | info@sunrisedentalchatswood.com.au |
+| **Website** | https://www.sunrisedentalchatswood.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon–Fri 9:00am–5:30pm · Sat 9:00am–5:00pm · Sun emergency by appointment only |
+| **Billing** | 'We accept all Australian private health funds'; HICAPS on-the-spot claiming; 'We Accept All Dental Health Funds and Child Dental Benefits Schedule (CDBS)'; New Patient Welcome package 'gap free with Healthfunds' (promo valid 1-30 Sept); 5% price beat guarantee |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr William | — | Principal Dentist; surname not printed |
+| Dr Sandra | — | Associate Dentist; surname not printed |
+| Dr Vivian | — | Associate Dentist; surname not printed |
+| Dr Hugo | — | Oral Health Therapist; surname not printed |
+
+Source: https://www.sunrisedentalchatswood.com.au/
 
 **Services:** Children’s dentistry, veneers, internal bleaching and in-surgery whitening (practice site).
 
@@ -574,10 +827,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 4, 18 Thomas Street, Chatswood NSW 2067 |
 | **Phone** | (02) 8031 7777 |
-| **Hours** | Not confirmed from public sources at time of verification. |
+| **Email** | tdc.chatswood@gmail.com |
+| **Website** | https://transcendentalchatswood.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am–7:00pm · Tue 9:00am–5:00pm · Wed 9:00am–7:00pm · Thu 9:00am–7:00pm · Fri 9:00am–5:00pm · Sat 9:30am–4:30pm · Sun By Appointment |
+| **Billing** | 'accepts all major health funds'; HICAPS on-the-spot claims ('you only pay the gap (if any)'); FAQ lists Afterpay, superannuation and gap-free questions (answers not expanded) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Josephine Ahn | BDS (Otago), FRACDS (GDP), PGradDip (Orthodontics) (CoL) | — |
+| Dr Linbei | BDS (Hons) Otago, MRACDS (PDS) | Surname not printed in text captured |
+
+Source: https://transcendentalchatswood.com.au/meet-the-team/
 
 **Services:** General dentistry and children’s dental care.
 
@@ -589,10 +853,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Lemon Grove Shopping Centre, Shop 43, Level 3, 427–441 Victoria Avenue, Chatswood NSW 2067 |
 | **Phone** | (02) 9411 6097 |
-| **Hours** | Monday–Friday 9:30am–5:00pm · Saturday 9:30am–4:00pm · Sunday hours not confirmed from public sources at time of verification. |
+| **Website** | https://whitedentalclinic.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon–Fri 9:30am–5:00pm · Sat 9:30am–4:00pm · Sun not stated (Chatswood clinic block) |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register during this run. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Brandon Kim | B.D.S. - University of Sydney | Principal dentist per site; team page is shared with the group's Gordon clinic, per-clinic assignment not stated |
+| Dr Angel Halim | B.Sc, B.Dent - University of Sydney | Team page shared with Gordon clinic |
+| Dr Erica Kim | B.D.S. - University of Adelaide | Team page shared with Gordon clinic |
+
+Source: https://whitedentalclinic.com.au/meet-the-team/
 
 **Services:** General, cosmetic, restorative and orthodontic dentistry.
 
@@ -604,8 +878,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 52/47 Neridah Street, Chatswood NSW 2067 |
 | **Phone** | (02) 9415 2868 |
+| **Email** | enquiries@kfamilydental.com.au |
 | **Website** | [kfamilydental.com.au](https://kfamilydental.com.au) |
-| **Hours** | Monday–Tuesday 10:00am–6:00pm · Wednesday Closed · Thursday 10:00am–5:00pm · Friday 10:00am–6:00pm · Saturday 9:00am–6:00pm · Sunday Closed |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 10AM–6PM · Tue 10AM–6PM · Wed Closed · Thu 10AM–5PM · Fri 10AM–6PM · Sat 9AM–6PM · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
 **Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
@@ -680,6 +956,25 @@ All dental practitioners in Australia must hold current registration with the **
 | HealthEngine — TranscenDental Chatswood | https://healthengine.com.au/dentist/nsw/chatswood/transcendental-chatswood/s91637 |
 | White Dental Clinic Chatswood | https://whitedentalclinic.com.au/contact-us/ |
 | K Family Dental | https://kfamilydental.com.au |
+| Chatswood Dental Associates — enrichment source | https://www.chatswooddentalassociates.com.au/dentists/ |
+| Chatswood Dental Care — enrichment source | https://www.chatswooddentalcare.com.au/our-team/ |
+| Chatswood Family Dental Care — enrichment source | https://dentistchatswood.com.au/aboutus/ |
+| Chatswood Family Dental Care — enrichment source | https://dentistchatswood.com.au/our-location/ |
+| Chatswood Family Dental Care — enrichment source | https://dentistchatswood.com.au/payment/ |
+| Chatswood Smiles (One Family Dental) — enrichment source | https://onefamilydental.com.au/our-teams |
+| Chatswood Smiles (One Family Dental) — enrichment source | https://onefamilydental.com.au/payment-options |
+| Clear Dental Chatswood — enrichment source | https://www.cleardental.com.au/about/team.html |
+| Evergreen Dental Clinic — enrichment source | https://evergreendental.com.au/about-us/ |
+| Evergreen Dental Clinic — enrichment source | https://evergreendental.com.au/contact-us/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/about-us/ |
+| So Dental Surgery Chatswood — enrichment source | https://www.sodental.com.au/about |
+| Sydney Oral & Facial Surgery — enrichment source | https://www.sydneyoralfacialsurgery.com.au/about-us/our-doctors/ |
+| Sydney Oral & Facial Surgery — enrichment source | https://www.sydneyoralfacialsurgery.com.au/info/fees/ |
+| Sydney Smiles Dental — enrichment source | https://sydneysmilesdental.com.au/about-us/our-team/ |
+| Sydney Smiles Dental — enrichment source | https://sydneysmilesdental.com.au/payment-options/ |
+| TranscenDental Chatswood — enrichment source | https://transcendentalchatswood.com.au/meet-the-team/ |
+| White Dental Clinic Chatswood — enrichment source | https://whitedentalclinic.com.au/meet-the-team/ |
 
 | **Data limitations** | Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-11-02. Rosters change; always verify current practitioners and hours directly with the clinic. |
 

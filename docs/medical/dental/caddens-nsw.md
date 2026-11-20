@@ -84,20 +84,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 12B, Caddens Corner, 68 O'Connell Street, Caddens NSW 2747 |
 | **Phone** | (02) 9159 3955 |
-| **Hours** | Mon–Fri 9:00am–9:00pm · Sat 9:00am–5:00pm · Sun Closed |
+| **Website** | https://www.thecaddensdentalbar.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-9:00pm · Tue 9:00am-9:00pm · Wed 9:00am-9:00pm · Thu 9:00am-9:00pm · Fri 9:00am-9:00pm · Sat 9:00am-5:00pm · Sun Closed |
+| **Billing** | Footer: 'HICAPS Available'. Homepage: 'Free Kids Dental' government scheme, $1,000 per eligible child aged 2-17 (limitations apply, excludes orthodontics and cosmetic); Clean & Polish $129 per patient; 'Emergency: No emergency surcharge'. Payment plans page: DentiCare SmileNow up to $2,000 over 12 to 20 weeks, no interest, no deposit; DentiCare Plus up to $12,000 over up to 24 months interest-free ('not a credit or finance product'). FAQ lists 'Do you accept health funds' (answer not expanded on page). |
 | **Access** | Healthdirect states that an appointment is needed and fees apply. The practice website states that free parking is available at Caddens Corner shopping centre. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from public booking directory):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Ms Britteney Soltani | Qualification not confirmed from public sources at time of verification | Listed in the practice's MyHealth1st booking profile; verify current registration via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
-| Dr Jari Abbas | Qualification not confirmed from public sources at time of verification | Listed in the practice's MyHealth1st booking profile; verify current registration via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
-| Ms Shreya Bhaskar | Qualification not confirmed from public sources at time of verification | Listed in the practice's MyHealth1st booking profile; verify current registration via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
-| Mr Steven Lee | Qualification not confirmed from public sources at time of verification | Listed in the practice's MyHealth1st booking profile; verify current registration via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
-| Dr Raghad Matti | Qualification not confirmed from public sources at time of verification | Listed in the practice's MyHealth1st booking profile; verify current registration via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
-| Dr Jafar Hussain | Qualification not confirmed from public sources at time of verification | Listed in the practice's MyHealth1st booking profile; verify current registration via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au). |
+| Dr Jari Abbas | BDS | Dentist |
+| Dr Jafar Hussain | DMD, University of Sydney | Dentist |
+| Dr Raghad Matti | BDentH, MDent, Griffith University (with distinction) | Dentist |
+| Britteney Soltani | BOH, Charles Sturt University | Oral Health Therapist |
+| Steven Lee | BOH, University of Sydney | Oral Health Therapist |
+| Shreya Bhaskar | BOH, University of Sydney | Oral Health Therapist |
+
+Source: https://www.thecaddensdentalbar.com.au/
 
 **Services:** General dentistry, cosmetic dentistry, advanced dentistry, children's dentistry, emergency dentistry.
 
@@ -133,5 +138,7 @@ All dental practitioners in Australia must hold current registration with the **
 | MyHealth1st | https://www.myhealth1st.com.au/find/dentists/nsw/sydney-outer-west-and-blue-mountains/caddens/the-caddens-dental-bar |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| The Caddens Dental Bar — enrichment source | https://www.thecaddensdentalbar.com.au/ and https://www.thecaddensdentalbar.com.au/payment-plans |
+| The Caddens Dental Bar — enrichment source | https://www.thecaddensdentalbar.com.au/contact |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and the clinic website as at 2026-10-15. Rosters change; always verify current practitioners and hours directly with the clinic.

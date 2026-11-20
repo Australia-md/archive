@@ -76,7 +76,10 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Medical Centre, Suite 3, 152 Tongarra Road, Albion Park NSW 2527 |
 | **Phone** | (02) 4256 4022 |
-| **Hours** | Mon–Fri 8:30am–6pm · Sat 9am–4pm · Sun not confirmed from public sources |
+| **Email** | reception.albionparkdental@gmail.com |
+| **Website** | https://www.albionparkdental.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-6:00pm · Thu 8:30am-6:00pm · Fri 8:30am-6:00pm · Sat 9:00am-4:00pm · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
@@ -93,18 +96,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop G01, 12 McGrath Lane, Albion Park NSW 2527 |
 | **Phone** | (02) 9146 6126 |
-| **Hours** | Mon–Fri 8am–5pm · Sat Closed · Sun Closed |
+| **Email** | info@tongarraroadfamilydental.com.au |
+| **Website** | https://www.tongarraroadfamilydental.com.au/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-5:00pm · Fri 8:00am-5:00pm · Sat Closed · Sun Closed |
+| **Billing** | Homepage FAQ: 'Do you accept insurance? Yes, our preferred providers are, HCF, CBHS, Westfund and NIB. We work with most major insurance plans.' Services list includes Child Dental Benefit Schedule; footer carries Afterpay and Zip Pay disclaimers. |
 | **Access** | Two dedicated parking spaces behind the building, marked G01; additional parking is available behind the Albion Park Service Centre arcade via McGrath Lane. Free one-hour parking is also available along Tongarra Road. |
 | **Network** | Preferred providers: HCF, CBHS, Westfund and nib; the practice also states it accepts other health funds |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jack Raval | Bachelor of Dental Surgery (2007); university not stated on the profile | The practice identifies him as Principal Dentist; verify current registration via the AHPRA register |
-| Dr Ronald Poulton | Qualification not stated on the profile | The practice identifies him as Associate Dentist and states his dental career began in 1979; verify current registration via the AHPRA register |
-| Dr Urvi Shah | Qualification not stated on the profile | The practice identifies her as Associate Dentist and states she has practised since 2019; verify current registration via the AHPRA register |
+| Dr Jack Raval | — | Principal Dentist |
+| Dr Ronald Poulton | — | Page states over 40 years of experience in dentistry |
+| Dr Urvi Shah | — | Named on team page |
+
+Source: https://www.tongarraroadfamilydental.com.au/meet-your-team-albion-park-dental
 
 **Services:** Family and general dentistry, cosmetic and restorative dentistry, emergency dental care, and same-day emergency appointments when available.
 
@@ -137,6 +146,10 @@ All dental practitioners in Australia must hold current registration with the **
 | Aussie Towns — Albion Park | https://www.aussietowns.com.au/town/albion-park-nsw |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Albion Park Dental Surgery (Albion Park Dental) — enrichment source | https://www.albionparkdental.com.au/our-practice (Business Hours in header) |
+| Albion Park Dental Surgery (Albion Park Dental) — enrichment source | https://www.albionparkdental.com.au/our-practice (printed text and mailto link) |
+| Tongarra Road Family Dental — enrichment source | https://www.tongarraroadfamilydental.com.au/meet-your-team-albion-park-dental (Practice Hours) |
+| Tongarra Road Family Dental — enrichment source | https://www.tongarraroadfamilydental.com.au/meet-your-team-albion-park-dental (printed text and mailto link) |
 
 Re-verified 2026-11-06; previous verification 2026-04-05.
 

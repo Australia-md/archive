@@ -838,6 +838,8 @@ The post-processor also prints `WARN` lines: a page whose clinic-card count diff
 | Pages stated data freshness but never the site's role, and practitioners had no way to report an error | Every dental page carries one post-processor directory disclaimer inside `<main>` — not medical or dental advice, no bookings, `mailto:corrections@australia.md` correction link — and it never claims "independent" or "not affiliated" (check 14) |
 | Frontmatter added to a non-root `index.md` | `index.md`/`log.md` carry no frontmatter except `okf_version` on `docs/index.md` (check 7) |
 | The site had no favicon (`/favicon.ico` 404), and the Fable 5.2 road-rules game rendered its only `<h1>` from JavaScript with no Twitter Card (SE Ranking audit, Nov 2026) | `/favicon.ico` exists and the homepage links it; every indexable page has exactly one `<h1>` in its static HTML and a `twitter:card` meta tag (check 15) |
+| An unescaped `\|` inside a source table cell split the row, and the page leaked a stray `\|` into a practitioner line (belmore, Nov 2026) | Every table row in `docs/` has the header's cell count (check 16); the enrichment merger folds `\|` inside a value into a comma |
+| The road-rules games are not knowledge pages but were listed in the sitemap | `scripts/sitemap-policy.mjs` (`SITEMAP_SKIP`) keeps `education/road-rules-game/` out of `sitemap.xml`; `build-sitemap.mjs` and check 5 both read it |
 
 When a reviewer (human or Copilot) finds a new class of defect, add a check for it to `scripts/seo-validate.mjs` in the same fix, so it cannot recur silently.
 
@@ -850,9 +852,24 @@ A handoff item can be a **re-verification** of a suburb that already has a page 
 3. Update that suburb's existing hub `<li>` in place (clinic count, `aria-label`, LGA, chips). Do not add a second `<li>`.
 4. Run §14 as usual.
 
+## 16. Enriched clinic data (added 2026-11-20, owner-requested)
+
+Source `.md` clinic tables may carry extra rows, written by the enrichment gate (`scripts/dental-pages/`, spec in `AustraliaMD/dental-enrichment-gate.md`). Render them in the clinic card, only when present:
+
+| Source row | Rendering |
+|---|---|
+| `**Email**` | A `.clinic-meta-item` with `<a href="mailto:{email}">{email}</a>` (published enquiry address only; the only permitted new clickable element besides `tel:` and the AHPRA links) |
+| `**Hours**` | Full weekly hours as written, shown in the hours `.clinic-meta-item`; hours the source calls conflicting are never counted as "confirmed" (§14) |
+| `**Billing**` | `.clinic-billing-note` with the stated claim (omit if it only says no billing information was stated) |
+| `**Website check**` | A second `.clinic-billing-note` (aria-label "Clinic website check") reading `Website check: {CMS} site · robots.txt {does not block AI crawlers \| blocks: …} · llms.txt {found \| not found} (checked {date})` |
+| `**Website**` | Never rendered (§7: no external clinic URL or link) unless the owner approves an exception |
+| Practitioner table | `.practitioner-item` per row, followed by the note "Names listed on the clinic website; AHPRA registration not verified here." The AHPRA badge stays `AHPRA Unverified`; never write "registered" for these names |
+
+The gate must run before a page is built (see `dental-enrichment-gate.md`). Pages are generated with `scripts/dental-pages/c.py`.
+
 ---
 
-*Last updated: 2026-11-03 | Version: 1.7 — directory disclaimer with a correction link, written by the post-processor (§14, check 14).*
+*Last updated: 2026-11-20 — §16 enriched clinic data. Previous: 2026-11-03 | Version: 1.7 — directory disclaimer with a correction link, written by the post-processor (§14, check 14).*
 *Previous: 2026-10-28 | Version: 1.6 — OKF v0.2 source frontmatter (§1b: `generated`, `verified`, `stale_after`, `sources`); the Last Verified date prefers the latest `verified[].at`; `seo:build` runs `okf:backfill` first (§14).*
 *Previous: 2026-10-28 | Version: 1.5 — added mandatory post-processing and generated SEO files (§14), re-verified sources (§15), head alternate link, breadcrumb data-nosnippet, Raw .md badge, "Checked {date}" label and answer-first paragraph. Titles/descriptions frozen until 2026-11-25.*
 *Previous: 2026-06-29 | Version: 1.4 — added Section 13 (hub directory index entry, single-column grid format) and the progressive-enhancement `.js` flag in §2.*

@@ -87,19 +87,25 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 2, 5 Rigg Place, Bonnyrigg NSW 2177 |
 | **Phone** | (02) 8786 0109 |
-| **Hours** | Mon-Fri 9:00am-6:00pm · Sat 8:00am-12:00pm · Sun Closed |
+| **Email** | admin@bonnyriggdentalsurgery.com.au |
+| **Website** | https://www.bonnyriggdentalsurgery.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9am-6pm · Tue 9am-6pm · Wed 9am-6pm · Thu 9am-6pm · Fri 9am-6pm · Sat not listed · Sun not listed |
+| **Billing** | Healthdirect: Fees apply. The clinic site has an Afterpay page in its navigation (not opened). |
 | **Network** | Bupa preferred provider |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Sarah Arthurson | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Dr Abdul Gaffar | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Dr Brian Tran | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Sandra Atiyah | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Public Healthengine profile lists Sandra Atiyah as an oral health therapist |
-| Nada Khaled | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Public Healthengine profile lists Nada Khaled as an oral health therapist |
+| Dr Abdul Gaffar | Bachelor of Dental Surgery (Otago University, NZ) | Principle Dental Surgeon; opened the practice in 2002 |
+| Dr Brian Tran | Bachelor of Oral Health in Dental Science; Graduate Diploma of Dentistry (Griffith University) | Dental Surgeon |
+| Dr Sarah Arthurson | Bachelor of Dental Science (Charles Sturt University) | Dental Surgeon |
+| Nada Khaled | Bachelor of Oral Health with Distinction (University of Sydney) | Oral Health Therapist |
+| Sandra Atiyah | Bachelor of Oral Health (University of Sydney) | Oral Health Therapist |
+
+Source: https://www.bonnyriggdentalsurgery.com.au/meet-the-team
 
 **Services:** General dentistry, check-ups, cleans, restorative dentistry, emergency dental care, preventive care.
 
@@ -111,23 +117,29 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 4, 136-138 Edensor Road, Bonnyrigg NSW 2177 |
 | **Phone** | (02) 9823 2426 |
-| **Hours** | Mon-Fri 9:00am-5:30pm · Sat 9:00am-4:30pm · Sun 9:00am-3:30pm |
+| **Email** | bonnyriggfamilydental@gmail.com |
+| **Website** | https://www.bonnyriggfamilydental.com.au/ |
+| **Website check** | Squarespace site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9.00am-5.30pm · Tue 9.00am-5.30pm · Wed 9.00am-5.30pm · Thu 9.00am-5.30pm · Fri 9.00am-5.30pm · Sat 9.00am-4.30pm · Sun 9.00am-3.30pm |
+| **Billing** | Welcomes all Australian recognised health funds, claims processed on the spot via HICAPS; gap free on certain treatments (general check up, scale, clean, X-rays, fluoride) with any valid health insurance; Medicare bulk billing via the Child Dental Benefits Scheme; EFTPOS. |
 | **Access** | Parking directly in front of the complex, with alternate parking across the road in the council car park |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Tom Vuong | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Dr Gueck Thea | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Dr Linda Vuong-Rueegger | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Dr Nathan Nguyen | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Dr John Tran | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Dr Irene Jin | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Dr Edward Jin | Not confirmed from public sources at time of verification | Named on the public Bonnyrigg Family Dental practice profile |
-| Jennifer Le | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Named as OHT on the public Bonnyrigg Family Dental practice profile |
-| Johnathan Lu | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Named as OHT on the public Bonnyrigg Family Dental practice profile |
+| Dr Tom Vuong | — | Heads the practice (husband and wife team with Dr Gueck Thea) |
+| Dr Gueck Thea | — | Heads the practice |
+| Dr Linda Vuong-Rueegger | — | Dentist |
+| Dr Nathan Nguyen | — | Dentist |
+| Dr John Tran | — | Dentist |
+| Dr Irene Jin | — | Dentist |
+| Dr Edward Jin | — | Dentist |
+| Jennifer Le | — | Oral Health Therapist (OHT) |
+| Johnathan Lu | — | Oral Health Therapist (OHT) |
+
+Source: https://www.bonnyriggfamilydental.com.au/
 
 **Services:** Sedation, implants, surgery, prosthetics, braces, Invisalign, general dentistry.
 
@@ -139,19 +151,29 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 47, Bonnyrigg Plaza, 100 Bonnyrigg Avenue, Bonnyrigg NSW 2177 |
 | **Phone** | (02) 9610 6631 |
-| **Hours** | Mon-Fri 9:00am-6:00pm · Sat 9:00am-2:00pm · Sun Closed |
+| **Email** | bonnyrigg@gracedentalgroup.com.au |
+| **Website** | https://www.gracedentalgroup.com.au/bonnyrigg/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat 9:00am-2:00pm · Sun not listed |
+| **Billing** | HealthEngine: preferred provider for listed health insurance funds (fund list not captured); check-up and clean advertised at $179 for non-health-fund patients (X-rays included if required) alongside a $199 offer listing on the same profile; clinic site footer links an Afterpay page. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Sherry Mekhael | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Dr Scott Church | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Dr Wendy Nguyen | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Ms Thao Nguyen | Oral Health Therapist qualification not otherwise confirmed from public sources at time of verification | Listed as an oral health therapist on the public Healthengine practice profile |
-| Dr Chloe Kim | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
-| Dr John Park | Not confirmed from public sources at time of verification | Dentist listed on the public Healthengine practice profile |
+| Dr Sam Dawood | — | Listed on HealthEngine profile as dentist |
+| Dr Sana Owais | — | Listed on HealthEngine profile as dentist |
+| Dr Sherry Mekhael | — | Listed on HealthEngine profile as dentist |
+| Dr Scott Church | — | Listed on HealthEngine profile as dentist |
+| Dr Wendy Nguyen | — | Listed on HealthEngine profile as dentist |
+| Dr Chloe Kim | — | Listed on HealthEngine profile as dentist |
+| Dr John Park | — | Listed on HealthEngine profile as dentist |
+| Dr Jonathan Shin | — | Listed on HealthEngine profile as dentist |
+| Dr Monica Nguyen | — | Listed on HealthEngine profile as dentist |
+| Ms Thao Nguyen | — | Oral Health Therapist (HealthEngine) |
+
+Source: https://healthengine.com.au/dentist/nsw/bonnyrigg/grace-dental-group-bonnyrigg/s69749
 
 **Services:** Dental implants, children's dentistry, children and adult orthodontics, crowns and bridges, porcelain veneers, gum treatment, tooth-coloured fillings, whitening, toothache and emergency care, sleep apnoea and TMJ care.
 
@@ -188,5 +210,9 @@ All dental practitioners in Australia must hold current registration with the **
 | Healthengine — Grace Dental Group - Bonnyrigg | https://healthengine.com.au/dentist/nsw/bonnyrigg/grace-dental-group-bonnyrigg/s69749 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bonnyrigg Dental Surgery — enrichment source | https://www.bonnyriggdentalsurgery.com.au/contact-us |
+| Bonnyrigg Dental Surgery — enrichment source | https://www.bonnyriggdentalsurgery.com.au/meet-the-team |
+| Bonnyrigg Family Dental — enrichment source | https://www.bonnyriggfamilydental.com.au/new-patients |
+| Grace Dental Group - Bonnyrigg — enrichment source | https://www.gracedentalgroup.com.au/bonnyrigg/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-08-10. Rosters change; always verify current practitioners and hours directly with the clinic.

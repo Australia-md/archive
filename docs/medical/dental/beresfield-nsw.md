@@ -69,14 +69,16 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 46 Beresford Avenue, Beresfield NSW 2322 |
 | **Phone** | (02) 4966 2477 |
-| **Hours** | Mon-Fri 8:30am-5pm · Sat Closed · Sun Closed |
+| **Hours** | Mon 8:30am-5:00pm · Tue 8:30am-5:00pm · Wed 8:30am-5:00pm · Thu 8:30am-5:00pm · Fri 8:30am-5:00pm · Sat not listed · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Graham Johnson | Qualification not confirmed from public sources at time of verification | Principal dentist publicly named in the practice title and public directory listings for the Beresfield clinic. |
+| Dr Graham Johnson | — | Named in the practice listing title (Graham Johnson Dental Surgery); no team page or qualifications available |
+
+Source: https://www.dentist.com.au/dentist-detail/dr-graham-johnson.-dentist/A11004963
 
 **Services:** Dental check-ups and treatment plans, white fillings, cosmetic dentistry, root canal treatment, extractions and wisdom teeth treatment, gum disease treatment, TMJ treatment, dentures.
 
@@ -107,5 +109,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Beresfield placemaking and engagement case study — City of Newcastle | https://newcastle.nsw.gov.au/getmedia/E48BA966-A169-4259-B656-CE54C38D2D20/Beresfield-Place-Making-Case-Study.pdf |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Dr Graham Johnson - Beresfield — enrichment source | https://www.dentist.com.au/dentist-detail/dr-graham-johnson.-dentist/A11004963 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-28. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -66,11 +66,28 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 2, 10 Jungarra Crescent, Bonny Hills NSW 2445 |
 | **Phone** | (02) 6585 5772 |
-| **Hours** | Tue-Fri 9:00am-5:00pm · Monday, Saturday and Sunday not confirmed from public sources at time of verification |
+| **Website** | https://www.portsmiles.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Bonny Hills: Mon 8AM-5PM · Tue 8AM-5PM · Wed 8AM-5PM · Thu 8AM-5PM · Fri 8AM-5PM · Sat Closed · Sun Closed |
+| **Billing** | Health Funds page: maximum benefits on first visit for new patients with private health insurance dental cover. Payment Plans page: Denticare accredited provider (interest free direct debit plan), Afterpay, Zip Pay. Site menu lists 'Children's Dentistry/ CDBS'. No bulk billing claim found. |
 | **Access** | Accessible parking and free parking |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Sagnik Sengupta | Bachelor of Dental Surgery (University of Adelaide) | Principal Dentist and founder of Port Smiles (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Dr Mayukh (Neil) Sengupta | Bachelor of Dental Science (Charles Sturt University) | Dentist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Dr Kevin Tran | Doctor of Dental Surgery (University of Melbourne) | Dentist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Dr Theresa Ha | Doctor of Dental Medicine (University of Sydney) | Dentist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Dr Chi Vu | Doctor of Dental Surgery (University of Melbourne) | Dentist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Dr Sunny Jo | Doctor of Dental Surgery (University of Melbourne) | Dentist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Dr Neil Shin | Doctor of Dental Surgery (University of Melbourne) | Dentist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Karen Peach | Bachelor of Oral Health (University of Sydney) | Dental Hygienist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+| Erica Ventura | Bachelor of Oral Health (Charles Sturt University) | Dental Hygienist (practice-wide team page; site does not say which are based at Bonny Hills vs Port Macquarie) |
+
+Source: https://www.portsmiles.com.au/meet-our-team
 
 **Services:** General dentistry, dental hygiene, dental implants, teeth whitening, orthodontic treatment, same-day CEREC, Invisalign, braces, 3D digital X-rays.
 
@@ -100,5 +117,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Port Macquarie-Hastings Council — Bonny Hills Community Plan | https://www.pmhc.nsw.gov.au/files/assets/public/v/1/document-files/your-council/publications/plans/communityplans/bonny-hills-community-plan-a4_0.17.pdf |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Port Smiles Dental - Bonny Hills — enrichment source | https://www.portsmiles.com.au/health-fund ; https://www.portsmiles.com.au/payment-plans |
+| Port Smiles Dental - Bonny Hills — enrichment source | https://www.portsmiles.com.au/meet-our-team |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-08-09. Rosters change; always verify current practitioners and hours directly with the clinic.

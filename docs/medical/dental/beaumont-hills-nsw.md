@@ -83,18 +83,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Shop 1, 70 The Parkway, Beaumont Hills NSW 2155 |
 | **Phone** | (02) 8883 4236 |
-| **Hours** | Mon-Fri 9:00am-6:00pm · Sat-Sun Not confirmed from public sources at time of verification |
+| **Email** | info@precisedentalsurgery.com.au |
+| **Website** | https://www.precisedentalsurgery.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat 9:00am-6:00pm · Sun not listed |
+| **Billing** | Home page: 'We accept ALL PRIVATE HEALTH INSURANCES and offer On-the-Spot claiming'; Bupa Members First Platinum provider and CBHS Preferred provider at the Kellyville and Beaumont Hills practices (Medibank and CBHS Preferred at Edgecliff). |
 | **Access** | Appointment required. Practice is located in Beaumont Hills Shopping Centre opposite IGA. |
 | **Network** | Bupa Members First Platinum provider · CBHS Preferred provider |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Payam Poursoltan | B.D.Sc (Melb), FRACDS, Grad Cert. Pros (Syd), M.Sc (Orthodontics) | Practice site identifies Dr Payam Poursoltan as principal dentist and owner. |
-| Dr Catreen Abbas | Qualification not confirmed from public sources at time of verification | HealthShare lists restorative dentistry and cosmetic dentistry as special interests for Dr Catreen Abbas at Precise Dental Surgery. |
-| Dr Richard Oh | Qualification not confirmed from public sources at time of verification | HealthShare lists Dr Richard Oh on the Precise Dental Surgery practice roster. |
+| Dr Payam Poursoltan | B.D.Sc (Melb), FRACDS, Grad Cert. Pros (Syd), M.Sc (Orthodontics) | Principal Dentist & Owner (group-wide team page) |
+| Dr Catreen Abbas | B.Dent | Group-wide team page; location not specified |
+| Dr Richard Oh | B.Dent (Syd), B.Eng (Biomed)(Hons)(Syd) | Group-wide team page; location not specified |
+
+Source: https://www.precisedentalsurgery.com.au/our-team/
 
 **Services:** General dentistry, dental check-ups, children's dentistry, white fillings, root canal treatments, sleep dentistry, anti snoring appliances, wisdom teeth removal, emergency dentistry, braces, Invisalign, Myobrace, restorative dentistry, dental implants, porcelain crowns and bridges, cosmetic dentistry, cosmetic injections, veneers, teeth whitening.
 
@@ -129,5 +135,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Beaumont Drive Reserve — The Hills Shire Council | https://www.thehills.nsw.gov.au/Venues/Parks-Recreation/Parks-Recreation-Directory/Beaumont-Drive-Reserve |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Precise Dental Surgery - Beaumont Hills — enrichment source | https://www.precisedentalsurgery.com.au/contact-us/ (listed under Beaumont Hills) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-13. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -77,14 +77,17 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 2, 3 Firth Street, Arncliffe NSW 2205 |
 | **Phone** | (02) 9597 4622 |
-| **Hours** | Mon 8am–6pm · Tue 8am–6pm · Wed 8am–6pm · Thu 8am–1pm · Fri 8am–6pm · Sat 8am–1pm · Sun hours not confirmed from public sources at time of verification |
+| **Hours** | Mon 8:00am-6:00pm · Tue 8:00am-6:00pm · Wed 8:00am-6:00pm · Thu 8:00am-1:00pm · Fri 8:00am-6:00pm · Sat 8:00am-1:00pm · Sun not listed |
+| **Billing** | Healthdirect profile: 'Billing: Fees apply'. No other billing claims. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Ali Bazzi | General dentist | Public directory profile lists Dr Ali Bazzi at this practice and notes Arabic and French language support. |
+| Dr Ali Bazzi | — | Named in the practice name on the Healthdirect profile; no role or qualification stated on the page opened |
+
+Source: https://www.healthdirect.gov.au/australian-health-services/healthcare-service/arncliffe-2205-nsw/dr-ali-bazzi-dental-surgery/dentists/2481549a-b9a4-54a2-e73f-0ee2069960cf
 
 **Services:** General dental practice services.
 
@@ -96,16 +99,23 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 243 Forest Road, Arncliffe NSW 2205 |
 | **Phone** | (02) 9567 1511 |
-| **Hours** | Mon 9am–6pm · Tue 9am–6pm · Wed 9am–6pm · Thu 9am–6pm · Fri 9am–6pm · Sat 9am–1pm · Sun hours not confirmed from public sources at time of verification |
+| **Email** | arncliffedentalcare@yahoo.com |
+| **Website** | https://www.arncliffedentalcare.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-6:00pm · Tue 9:00am-6:00pm · Wed 9:00am-6:00pm · Thu 9:00am-6:00pm · Fri 9:00am-6:00pm · Sat 9:00am-1:00pm · Sun not listed |
+| **Billing** | Fees & Accounts page: payment on the day of consultation; accepts cash, personal cheques and all electronic cards, including HICAPS facility; itemised treatment plans given; 'GE Care Credit - interest free money'. Site menu also has a Medicare Child Dental Benefits Schedule page (contents not read). |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Monika Takla | General dentist | Practice profile notes special interest in paedodontics, root canal treatments, partial and full dentures, and white cosmetic fillings. |
-| Dr Fady Ghaly | Graduate, Cairo University | Practice profile notes interests in dental implants, orthodontics, implant-retained dentures, jaw joint pain, root canal treatment, porcelain facings, and laser surgery. |
-| Dr Dipesh Jagad | General dentist | Practice profile notes more than 20 years of experience in dentistry and University of Sydney faculty involvement. |
+| Dr Fady Ghaly | Graduate of Cairo University | Joined 2006; interests in implants, orthodontics, implant-retained dentures, jaw joint pain, root canal, porcelain facings |
+| Dr Monika Takla | — | General dentist, joined 2013; special interest in paedodontics and root canal treatment |
+| Dr Dipesh Jagad | — | Over 20 years experience; stated faculty of The University of Sydney; ADA member (as stated); interests in oral surgery, restorative, endodontics, prosthodontics |
+| Dr Sandra Saleib | — | Described as a young and caring dentist; general dentistry and children's oral health |
+
+Source: https://www.arncliffedentalcare.com.au/meet-the-team/
 
 **Services:** General dentistry, dental implants, orthodontic care, children's dentistry, root canal therapy, dentures, cosmetic dentistry, nitrous oxide sedation, intravenous sedation coordination, wisdom teeth assessment, TMJ splints, snoring and sleep apnea appliances, emergency denture repairs.
 
@@ -138,5 +148,10 @@ All dental practitioners in Australia must hold current registration with the **
 | Wikipedia — Arncliffe, New South Wales | https://en.wikipedia.org/wiki/Arncliffe,_New_South_Wales |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Arncliffe Dental Care — enrichment source | https://www.arncliffedentalcare.com.au/contact-us/ ('Mon-Fri 9am - 6pm Sat 9am - 1pm') |
+| Arncliffe Dental Care — enrichment source | https://www.arncliffedentalcare.com.au/contact-us/ (printed text) |
+| Arncliffe Dental Care — enrichment source | https://www.arncliffedentalcare.com.au/fees-accounts/ |
+| Arncliffe Dental Care — enrichment source | https://www.arncliffedentalcare.com.au/meet-the-team/ |
+| Dr Ali Bazzi Dental Surgery — enrichment source | https://www.healthdirect.gov.au/australian-health-services/healthcare-service/arncliffe-2205-nsw/dr-ali-bazzi-dental-surgery/dentists/2481549a-b9a4-54a2-e73f-0ee2069960cf (opening times, 'View other days' expanded; Friday read as 'Today' 8am-6pm on 2026-11-20) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-04. Rosters change; always verify current practitioners and hours directly with the clinic.

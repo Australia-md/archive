@@ -74,17 +74,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 5, 1 Ballina Road, Bangalow NSW 2479 |
 | **Phone** | (02) 6687 2766 |
-| **Hours** | Mon-Thu 8am-5pm · Fri-Sun Not confirmed from public sources at time of verification |
+| **Website** | https://www.bangalowdental.com/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8am-5pm · Tue 8am-5pm · Wed 8am-5pm · Thu 8am-5pm · Fri not listed · Sat not listed · Sun not listed (site states 'Mon-Thurs 8am-5pm') |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Fabio S Miranda | Dental degree, Federal University of Pernambuco, 2004; Master's degree in Orthodontics, 2007 | Principal dentist; restorative dentistry and clear aligners. |
-| Dr Eduarda L C Miranda | Dental degree, Federal University of Pernambuco, 2007 | Principal dentist; functional aesthetics. |
-| Jacqui Byrne | Bachelor of Applied Health Science in Oral Health, University of Queensland, 2001 | Oral health therapist and dental hygienist focused on preventive care. |
-| Hannah Morlock | Bachelor of Dental Hygiene, Griffith University | Oral health therapist and dental hygienist; practice profile notes three Academic Excellence awards at Griffith University. |
+| Dr Fabio Miranda | Graduate of Federal University of Pernambuco (2004); Master's in Orthodontics (2007) (as stated on site) | Principal Dentist - Restorative Dentistry and Clear Aligners |
+| Dr Eduarda Miranda | Graduate of Federal University of Pernambuco, Brazil (2007) (as stated on site) | Principal Dentist - Functional Aesthetics |
+| Jacqui Byrne | Bachelor of Applied Health Science in Oral Health, University of Queensland, 2001 (as stated on site) | Oral Health Therapist / Dental Hygiene |
+| Hannah Morlock | — | Oral Health Therapist / Dental Hygienist (role as listed on team page) |
+
+Source: https://www.bangalowdental.com/our-team-at-bangalow-dental/
 
 **Services:** Check-up and cleans, comprehensive oral exams, x-rays, composite bonding, ceramic restorations including fillings, crowns and veneers, Invisalign.
 
@@ -96,18 +100,21 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 2/42 Byron Street, Bangalow NSW 2479 |
 | **Phone** | (02) 6687 2150 |
-| **Hours** | Not confirmed from public sources at time of verification; official and directory sources publish inconsistent opening-hour details |
+| **Email** | reception@bangalowholisticdentist.com.au |
+| **Website** | https://bangalowholisticdentist.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 10:00am-6:00pm · Fri 9:00am-5:00pm · Sat not listed · Sun not listed |
+| **Billing** | HealthEngine profile lists supported government schemes: Child Dental Benefits Schedule; Department of Veterans Affairs card holders. |
 | **Access** | Practice information states parking is available at the bottom of Station Street or nearby, and the 641 bus stops near the Bangalow Road and Granuaille Street intersection |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Nigel Cluer | B.D.Sc (Hons) | Principal dentist and owner; practice profile notes a mercury-free, biocompatible approach and SMART certification for amalgam removal. |
-| Dr Leigh Bayliss | BDS | Senior dentist; practice profile notes experience across cosmetic and orthodontic care. |
-| Dr Damaris Fernandez | BDS, MOrtho (Spain) | Children's and general dentist; master's degree in Orthodontics and Dentofacial Orthopaedics. |
-| Dr Meritxell Jimenez | B.D.Sc; master's degree in Occlusion and Oral Rehabilitation, University of Barcelona, 2016 | Practice profile notes interests in crown and bridge, implant restorations, and full-mouth rehabilitation. |
+| Dr Nigel Cluer | — | Holistic dentistry; practice founder per HealthEngine profile. Clinic site Our Practitioners page shows team photos without printed names, so only HealthEngine names confirmed. |
+
+Source: https://healthengine.com.au/dentist/nsw/bangalow/dr-nigel-cluer/p41484
 
 **Services:** Tooth extractions, cavitation surgery, crowns, bridges, implants, cosmetic dentistry, veneers, at-home teeth whitening, biological gum treatments, orthodontic aligner systems, children's dentistry, denture solutions.
 
@@ -139,5 +146,7 @@ All dental practitioners in Australia must hold current registration with the **
 | HealthEngine | https://healthengine.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Bangalow Holistic Dentist — enrichment source | https://bangalowholisticdentist.com.au/holistic-dentist-dr-nigel-cluer/ (contact page) |
+| Bangalow Holistic Dentist — enrichment source | https://healthengine.com.au/dentist/nsw/bangalow/dr-nigel-cluer/p41484 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-25. Rosters change; always verify current practitioners and hours directly with the clinic.

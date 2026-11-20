@@ -68,13 +68,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Goodman’s Building, 4 Johnston Street, Annandale NSW 2038 |
 | **Phone** | (02) 9569 4257 |
-| **Hours** | Mon 9am–5pm · Tue 8am–6pm · Wed 8am–7pm · Thu 8am–7pm · Fri 8am–4pm · Sat 9am–1pm (alternate) · Sun Closed |
+| **Email** | hello@annandaledental.com.au |
+| **Website** | https://annandaledental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 8:00am-6:00pm · Wed 8:00am-7:00pm · Thu 8:00am-7:00pm · Fri 8:00am-4:00pm · Sat 9:00am-1:00pm (alternate) · Sun not listed |
 | **Access** | Wheelchair accessible; free parking; toilet |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Corbin Barry | — | Listed as Dentist |
+| Dr Emanuel Wollstein | — | Listed as Dentist |
+| Dr Maliha Pradhan | — | Listed as Dentist |
+| Ms Caitlin Plunkett | — | Listed as Hygienist |
+| Damien Trimboli | — | Listed as Oral Health Therapist |
+
+Source: https://annandaledental.com.au/about-us/
 
 **Services:** Family dentistry, preventative dentistry, restorative dentistry, cosmetic dentistry, Invisalign.
 
@@ -86,14 +97,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 79A Nelson Street, Annandale NSW 2038 |
 | **Phone** | (02) 9519 4226 |
-| **Hours** | Not confirmed from public sources at time of verification |
+| **Email** | teethplusclinic@gmail.com |
+| **Website** | https://www.teethplus.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 8:30am-6:00pm · Tue 8:30am-6:00pm · Wed 8:30am-6:00pm · Thu 8:30am-6:00pm · Fri 8:30am-6:00pm · Sat 8:30am-1:00pm · Sun not listed |
+| **Billing** | Homepage: 'Health fund members: No gap for check up, x-rays and professional clean. Non Health fund members: Free inital consultation'. 'Preferred Providers' list printed: NIB, Australian Unity, People care, Frank, GMHBA, Smile, Health.com.au, CBHS, Westfund. |
 | **Access** | Free street parking |
 | **Network** | NIB; Australian Unity; Peoplecare; Frank Health Insurance; GMHBA; smile.com.au; Health.com.au; CBHS; Westfund |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-**Registered Practitioners:** Individual practitioner names not confirmed from public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Faris Nobari | — | Founder and Principal Dentist (About page); page says the clinic has a wider team, others not named |
+
+Source: https://www.teethplus.com.au/about/
 
 **Services:** Dental consultations, assessments, examinations, check-ups, teeth cleaning, dental x-rays, cosmetic dentistry, preventative dentistry, emergency dentistry, implants, orthodontics, Invisalign.
 
@@ -123,5 +142,11 @@ All dental practitioners in Australia must hold current registration with the **
 | Annandale Dental | https://annandaledental.com.au/ |
 | Teeth Plus Clinic | https://www.teethplus.com.au/ |
 | Wikipedia — Annandale, New South Wales | https://en.wikipedia.org/wiki/Annandale,_New_South_Wales |
+| Annandale Dental — enrichment source | https://annandaledental.com.au/ (footer, printed text) |
+| Annandale Dental — enrichment source | https://annandaledental.com.au/ (practice hours in footer) |
+| Annandale Dental — enrichment source | https://annandaledental.com.au/about-us/ |
+| Teeth Plus Clinic — enrichment source | https://www.teethplus.com.au/ (printed text) |
+| Teeth Plus Clinic — enrichment source | https://www.teethplus.com.au/about/ |
+| Teeth Plus Clinic — enrichment source | https://www.teethplus.com.au/contact/ ('Mon to Fri: 8:30AM to 6PM; Saturdays: 8:30AM to 1PM') |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-04-27. Rosters change; always verify current practitioners and hours directly with the clinic.

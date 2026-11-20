@@ -71,14 +71,19 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Unit 3, 268 Beach Road, Batehaven NSW 2536 |
 | **Phone** | (02) 4472 6733 |
-| **Hours** | Public sources conflict at time of verification: the clinic website lists Monday-Thursday 9:00am-4:00pm and Friday-Sunday closed, while Dentist.com.au lists Monday 9:00am-12:00pm, Tuesday-Wednesday 9:00am-3:00pm, Thursday-Friday 9:00am-5:00pm and weekend closed. Verify directly with the clinic. |
+| **Email** | batehavendentalcare@gmail.com |
+| **Website** | https://www.batehavendentalcare.com.au/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-4:00pm · Tue 9:00am-4:00pm · Wed 9:00am-4:00pm · Thu 9:00am-4:00pm · Fri Closed · Sat Closed · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Jim Yun-Shih Wang | Bachelor of Dental Surgery, University of Otago, 2000 | Practice owner and principal dentist since 2007; public profiles note interests in cosmetic and implant dentistry and Mandarin language capability |
+| Dr Jim Yun-Shih Wang | Graduated University of Otago, New Zealand (2000) | Owner and principal dentist since 2007; interest in cosmetic and implant dentistry |
+
+Source: https://www.batehavendentalcare.com.au/
 
 **Services:** Regular exam and clean, fillings and restorations, bonding and build-ups, root canal treatment, crowns, bridges, extractions, dental implants, take-home teeth whitening.
 
@@ -109,5 +114,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Batehaven Dental Care profile — Dentist.com.au | https://www.dentist.com.au/dentist-detail/batehaven-dental-care/A23018542 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Batehaven Dental Care — enrichment source | https://www.batehavendentalcare.com.au/ (contact section; site also has a mailto for info@batehavendentalcare.com.au in the HTML only) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-06-07. Rosters change; always verify current practitioners and hours directly with the clinic.

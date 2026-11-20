@@ -72,16 +72,22 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 30 Veronica Street, Cardiff NSW 2285 |
 | **Phone** | (02) 4954 6888 |
-| **Hours** | Monday–Friday 9:00am–5:00pm · Saturday–Sunday Closed |
+| **Email** | info@cardiffdentistry.com.au |
+| **Website** | https://cardiffdentistry.com.au/ |
+| **Website check** | WordPress (Divi theme) site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat Closed · Sun Closed |
+| **Billing** | FAQ: eligible children may receive bulk-billed treatment under the Child Dental Benefits Schedule. Site footer/menu shows 'Preferred Providers' and 'Payment Plans' sections (specific funds not read on pages opened). |
 | **Access** | Ground-level wheelchair access; off-street parking |
 | **Network** | Preferred providers for nib and HCF |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Sumanth Kumar Reddy Bagapalli | Not confirmed from public sources at time of verification | The practice profile uses the name Sam Reddy; practitioner registration verified in the AHPRA register. |
+| Dr Sumanth Reddy Bagapalli (Sam Reddy) | — | Presented as comprehensive cosmetic, implant and family dentist on the clinic homepage |
+
+Source: https://cardiffdentistry.com.au/
 
 **Services:** Family and general dentistry, cosmetic dentistry, dental implants, orthodontics, veneers, teeth whitening, emergency dentistry, root canal treatment, fillings.
 
@@ -93,18 +99,24 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 20 Newcastle Street, Cardiff NSW 2285 |
 | **Phone** | (02) 4954 7722 |
-| **Hours** | Monday–Friday 9:00am–5:30pm · Saturday 9:00am–4:00pm · Sunday Closed |
+| **Email** | cardiff@msdental.com.au |
+| **Website** | https://www.msdental.com.au/cardiff/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:30pm · Tue 9:00am-5:30pm · Wed 9:00am-5:30pm · Thu 9:00am-5:30pm · Fri 9:00am-5:30pm · Sat 9:00am-4:00pm · Sun not listed |
+| **Billing** | 'We take every private health fund, we bulk bill eligible kids, and we're a preferred provider for HCF, Westfund, CBHS and SMILE'; 'CDBS bulk billed children'; '$295 new-patient check-up'; 'All private health funds welcome'. |
 | **Network** | HCF, Westfund, CBHS and SMILE preferred-provider arrangements; other major funds accepted |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Monika Shah | Bachelor of Dental Surgery (2006) | Principal Dentist and Founder; practitioner registration verified in the AHPRA register. |
-| Dr Michael Ell | Bachelor of Dental Surgery, University of Sydney (1981) | Cardiff practice team; practitioner registration verified in the AHPRA register. |
-| Dr Arti Patel | Bachelor of Dental Surgery (2007) | Cardiff practice team; practitioner registration verified in the AHPRA register. |
-| Mr Nikhil Kumar Kapoor | Bachelor of Dental Surgery, James Cook University (2019) | Practice profile uses the name Dr Nikhil Kapoor; practitioner registration verified in the AHPRA register. |
+| Dr Monika Shah | Bachelor of Dental Surgery (2006) | Principal Dentist and Founder, leads clinical team |
+| Dr Michael Ell | BDS, University of Sydney (1981) | Cardiff dentist |
+| Dr Arti Patel | — | Named on Cardiff page |
+| Dr Nikhil Kapoor | — | Named on Cardiff page |
+
+Source: https://www.msdental.com.au/cardiff/
 
 **Services:** Family and general dentistry, examinations and cleans, emergency dentistry, cosmetic dentistry, children's dentistry, orthodontics, dental implants, dentures and root canal treatment.
 
@@ -152,5 +164,10 @@ All dental practitioners in Australia must hold current registration with the **
 | MS Dental Cardiff | https://www.msdental.com.au/cardiff/ |
 | Word of Mouth Denture Clinic | https://wordofmouthdentures.com.au/ |
 | Lake Macquarie City Council | https://shape.lakemac.com.au/planningcardiff |
+| Cardiff Dental — enrichment source | https://cardiffdentistry.com.au/ (footer Contact Info, printed text) |
+| Cardiff Dental — enrichment source | https://cardiffdentistry.com.au/ (site footer, Opening Hours: Monday - Friday 9:00AM - 5:00PM, Saturday & Sunday CLOSED) |
+| Cardiff Dental — enrichment source | https://cardiffdentistry.com.au/dental-faq/ |
+| MS Dental Cardiff — enrichment source | https://www.msdental.com.au/cardiff/ (Cardiff clinic: Mon-Fri 9:00 AM - 5:30 PM, Saturday 9:00 AM - 4:00 PM) |
+| MS Dental Cardiff — enrichment source | https://www.msdental.com.au/cardiff/ (header, Cardiff clinic address) |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-11-03. Rosters change; always verify current practitioners and hours directly with the clinic.

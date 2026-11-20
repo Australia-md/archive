@@ -68,10 +68,20 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Suite 2, 5-9 Mellool Street, Barham NSW 2732 |
 | **Phone** | (03) 5453 3365 |
+| **Website** | https://localdentalclinics.com.au/ |
+| **Website check** | CMS not identified · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
 | **Hours** | Opening hours not confirmed from public sources at time of verification |
+| **Billing** | Group site has a 'Payment Plans' page ('Money can wait, but your pain cannot') but the page text read gave no provider, HICAPS or CDBS detail; page is Deniliquin-branded. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual practitioner names were not reproduced here because current in-clinic practitioner rosters could not be independently verified across authoritative public sources at time of last verification. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Jimmi Patel | — | Listed as General Dentist (dentist.com.au); co-owner of the Local Dental group |
+| Dr Kritika Patel | — | Named with Dr Jimmi Patel as group dentists/owners on the group About page; Barham roster not confirmed |
+
+Source: https://www.dentist.com.au/dentist-detail/local-dental-barham/A22018065
 
 **Services:** General dental care, orthodontic treatment, dental implants, root canal treatment, wisdom teeth treatment, fillings, teeth whitening, emergency dental care.
 
@@ -101,5 +111,6 @@ All dental practitioners in Australia must hold current registration with the **
 | Local Dental Clinics services | https://localdentalclinics.com.au/services/general-examination |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Local Dental Barham — enrichment source | https://localdentalclinics.com.au/payment-plans |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-31. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -57,7 +57,7 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | 133 Canterbury Road, Canterbury NSW 2193 |
 | **Phone** | (02) 9787 1635 |
-| **Hours** | Mon–Sat 9:00am–5:00pm · Sunday not listed by HealthEngine |
+| **Hours** | Mon 9:00am-5:00pm · Tue 9:00am-5:00pm · Wed 9:00am-5:00pm · Thu 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat 9:00am-5:00pm · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
 **Registered Practitioners (sourced from practice profile and public directories):**
@@ -108,12 +108,16 @@ No individual practitioner is listed here because current AHPRA registration cou
 |---|---|
 | **Address** | 351–353 Canterbury Road, Canterbury NSW 2193 |
 | **Phone** | Not confirmed from public sources at time of verification. |
-| **Hours** | Mon–Tue 10:00am–6:00pm · Thu 1:00pm–6:00pm · Fri 10:00am–6:00pm; Wednesday, Saturday and Sunday not listed by HealthEngine |
+| **Hours** | Mon 10:00am-4:00pm · Tue not listed · Wed not listed · Thu not listed · Fri 10:00am-4:00pm · Sat 10:00am-4:00pm · Sun not listed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Mahmoud Bacher | — | Named on Dentist.com.au profile |
+
+Source: https://www.dentist.com.au/dentist-detail/mhm-medical-_-dental/A16013838
 
 **Services:** Dental services; specific procedures not confirmed from public sources at time of verification.
 
@@ -125,14 +129,23 @@ No individual practitioner is listed here because current AHPRA registration cou
 |---|---|
 | **Address** | Canterbury Plaza, Shop 116/2B Charles Street, Canterbury NSW 2193 |
 | **Phone** | (02) 9037 6376 |
-| **Hours** | Mon/Thu 9:00am–5:30pm · Tue/Wed/Fri 9:30am–5:00pm · Sat 9:00am–3:00pm (appointment or online booking only) · Sun and public holidays closed |
+| **Email** | info@miracledentalfamily.com |
+| **Website** | https://www.miracledentalfamily.com/ |
+| **Website check** | Wix site · robots.txt does not block AI crawlers · llms.txt found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:30pm · Tue 9:30am-5:00pm · Wed 9:30am-5:00pm · Thu 9:00am-5:30pm · Fri 9:30am-5:00pm · Sat 9:00am-3:00pm (by appointment or online booking only) · Sun Closed (also closed public holidays) |
+| **Billing** | Homepage: Child Dental Benefit Schedule (CDBS) available for eligible children aged 0-17 (call to check eligibility). No other billing claims located. |
 | **Access** | HealthEngine lists site parking; the practice is beside Canterbury Station, with bus stops outside. |
 | **Network** | HealthEngine identifies the practice as a preferred provider for eight health funds; fund names are not listed in the available profile. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Lisa Kim | BDentSc, GradDipDent (Griffith University) | Principal Dentist; ADA member (as stated) |
+| Dr Sylvia Park | BDS (Hons) | Dentist |
+
+Source: https://www.miracledentalfamily.com/meet-the-team
 
 **Services:** General and preventive dentistry, cosmetic dentistry, children’s dentistry, teeth whitening, emergency dental care, dental implants, orthodontics and clear aligners.
 
@@ -144,13 +157,17 @@ No individual practitioner is listed here because current AHPRA registration cou
 |---|---|
 | **Address** | Shop 6, 1 Cooks Avenue, Canterbury NSW 2193 |
 | **Phone** | (02) 8084 2626 |
-| **Hours** | Not confirmed from public sources at time of verification; current directory schedules conflict. |
+| **Hours** | Mon 8:00am-5:00pm · Tue 8:00am-5:00pm · Wed 8:00am-5:00pm · Thu 8:00am-4:30pm · Fri not listed · Sat 8:00am-2:00pm · Sun not listed |
 | **Access** | Dentist360 lists a wheelchair-accessible entrance and surgery. |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click “Look up practitioners” |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
-No individual practitioner is listed here because current AHPRA registration could not be independently confirmed at the time of verification. Verify the clinic’s current practitioners via [AHPRA Practitioner Register](https://practitioners.ahpra.gov.au).
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Hany Kammoun | General Dentist | Speaks Arabic and French (as stated on Dentist.com.au) |
+
+Source: https://www.dentist.com.au/dentist-detail/pearl-dental-clinic/A14012515
 
 **Services:** Check-up and clean.
 
@@ -177,5 +194,11 @@ All dental practitioners in Australia must hold current registration with the **
 | Word of Mouth Australia | https://www.wordofmouth.com.au |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Ausbridge Dental — enrichment source | https://healthengine.com.au/dentist/nsw/canterbury/ausbridge-dental/s66726 |
+| MHM Medical & Dental Centre — enrichment source | https://www.dentist.com.au/dentist-detail/mhm-medical-_-dental/A16013838 |
+| Miracle Dental Care — enrichment source | https://www.miracledentalfamily.com/ |
+| Miracle Dental Care — enrichment source | https://www.miracledentalfamily.com/contact-us |
+| Miracle Dental Care — enrichment source | https://www.miracledentalfamily.com/meet-the-team |
+| Pearl Dental Clinic — enrichment source | https://www.dentist.com.au/dentist-detail/pearl-dental-clinic/A14012515 |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-10-29. Rosters change; always verify current practitioners and hours directly with the clinic.

@@ -74,15 +74,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Bangor Centre, Suite 3 / 121 Yala Road, Bangor NSW 2234 |
 | **Phone** | (02) 9543 1897 |
-| **Hours** | Mon 9:00am-5:00pm · Wed 9:00am-5:00pm · Fri 9:00am-5:00pm · Sat 9:00am-12:00pm · Tue/Thu/Sun Closed |
+| **Hours** | Mon 9:00am-5:00pm · Tue not listed · Wed 9:00am-5:00pm · Thu not listed · Fri 9:00am-5:00pm · Sat 9:00am-12:00pm · Sun not listed |
+| **Billing** | HealthEngine profile: 'Bangor Dental is a private billing practice, payment is required at the time of consultation'; preferred provider for 3 health funds (names not read); supported schemes listed: Child Dental Benefits Schedule, Department of Veterans Affairs card holders, Oral Health Fee For Service Scheme (OHFFSS) provider. |
 | **Access** | HealthEngine lists a bus stop nearby, free onsite parking, and an air-conditioned facility |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Stephen Peter Zorbas | Not confirmed from public sources at time of verification | General dentist at Bangor Dental; HealthEngine lists English as the published language. |
+| Dr Stephen Peter Zorbas | — | Listed as Dentist on HealthEngine practice profile |
+
+Source: https://healthengine.com.au/dentist/nsw/bangor/bangor-dental/s83233
 
 **Services:** Same-day emergency care, children's dental services, white fillings, denture repairs, teeth whitening, wisdom teeth removal, check-up and cleans, preventive treatment, crown and bridge, porcelain veneers.
 
@@ -94,14 +97,18 @@ All dental practitioners listed below are required to hold current registration 
 |---|---|
 | **Address** | Ground floor, Shop 20, Bangor Shopping Centre, 121 Yala Road, Bangor NSW 2234 |
 | **Phone** | (02) 9153 8903 |
-| **Hours** | Mon-Fri 9:00am-5:30pm · Sat 10:00am-1:00pm · Sun Closed |
+| **Website** | https://www.koudmanidental.com.au/ |
+| **Website check** | WordPress site · robots.txt does not block AI crawlers · llms.txt not found (checked 2026-11-20) |
+| **Hours** | Mon 9:00am-5:30pm · Tue 9:00am-5:30pm · Wed 9:00am-5:30pm · Thu 9:00am-5:30pm · Fri 9:00am-5:30pm · Sat by appointment only · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners (sourced from practice profile and public directories):**
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Mouhamad Al Koudmani | DDS | Founder and principal dentist; Dentist.com.au lists Arabic and English and notes more than 25 years of experience with advanced post-graduate training. |
+| Dr Mouhamad Koudmani | DDS Doctor of Dentistry; M.Sc. in Implantology and Dental Surgery (as stated on site) | Founder and principal dentist |
+
+Source: https://www.koudmanidental.com.au/about/
 
 **Services:** General and cosmetic dentistry, dental implants, orthodontics.
 
@@ -133,5 +140,7 @@ All dental practitioners in Australia must hold current registration with the **
 | Dentist.com.au — Dr Mouhamad Al Koudmani | https://www.dentist.com.au/general-dentist/dr-mouhamad-al-koudmani/C11000957 |
 | Dental Board of Australia | https://www.dentalboard.gov.au |
 | AHPRA Practitioner Register | https://practitioners.ahpra.gov.au |
+| Koudmani Dental Bangor — enrichment source | https://www.koudmanidental.com.au/about/ |
+| Koudmani Dental Bangor — enrichment source | https://www.koudmanidental.com.au/contact/ |
 
 **Data limitations:** Practitioner rosters and hours are sourced from publicly available directories and clinic websites as at 2026-05-26. Rosters change; always verify current practitioners and hours directly with the clinic.
