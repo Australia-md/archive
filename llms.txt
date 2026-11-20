@@ -122,6 +122,10 @@
 - [Cardiff, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cardiff-nsw.md): 3 clinic(s), checked 2026-11-03 · HTML: https://australia.md/medical/dental/cardiff/
 - [Carlton, NSW — Dental Clinics](https://australia.md/docs/medical/dental/carlton-nsw.md): 3 clinic(s), checked 2026-11-07 · HTML: https://australia.md/medical/dental/carlton/
 - [Carnes Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/carnes-hill-nsw.md): 1 clinic(s), checked 2026-11-09 · HTML: https://australia.md/medical/dental/carnes-hill/
+- [Casino, NSW — Dental Clinics](https://australia.md/docs/medical/dental/casino-nsw.md): 6 clinic(s), checked 2026-11-15 · HTML: https://australia.md/medical/dental/casino/
+- [Castle Cove, NSW — Dental Clinics](https://australia.md/docs/medical/dental/castle-cove-nsw.md): 1 clinic(s), checked 2026-11-16 · HTML: https://australia.md/medical/dental/castle-cove/
+- [Castle Hill, NSW — Dental Clinics](https://australia.md/docs/medical/dental/castle-hill-nsw.md): 20 clinic(s), checked 2026-11-17 · HTML: https://australia.md/medical/dental/castle-hill/
+- [Cecil Hills, NSW — Dental Clinics](https://australia.md/docs/medical/dental/cecil-hills-nsw.md): 1 clinic(s), checked 2026-11-20 · HTML: https://australia.md/medical/dental/cecil-hills/
 - [Chatswood, NSW — Dental Clinics](https://australia.md/docs/medical/dental/chatswood-nsw.md): 28 clinic(s), checked 2026-11-02 · HTML: https://australia.md/medical/dental/chatswood/
 - [Macquarie Park, NSW — Dental Clinics](https://australia.md/docs/medical/dental/macquarie-park-nsw.md): 9 clinic(s), checked 2026-10-30 · HTML: https://australia.md/medical/dental/macquarie-park/
 
