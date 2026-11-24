@@ -479,7 +479,35 @@
         "postalCode": "2067",
         "addressCountry": "AU"
       },
-      "telephone": "(02) 9415 2868"
+      "telephone": "(02) 9415 2868",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "10:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ]
     },
     {
       "@type": "ItemList",
@@ -833,7 +861,7 @@
       <tr><th scope="row"><a href="#clinic-25">Sunrise Dental Chatswood</a></th><td>Children’s dentistry, Veneers, Internal bleaching and in-surgery whitening (practice site)</td><td>Dr William, Dr Sandra, Dr Vivian, Dr Hugo</td></tr>
       <tr><th scope="row"><a href="#clinic-26">TranscenDental Chatswood</a></th><td>General dentistry and children’s dental care</td><td>Dr Josephine Ahn, Dr Linbei</td></tr>
       <tr><th scope="row"><a href="#clinic-27">White Dental Clinic Chatswood</a></th><td>General, Cosmetic, Restorative and orthodontic dentistry</td><td>Dr Brandon Kim, Dr Angel Halim, Dr Erica Kim</td></tr>
-      <tr><th scope="row"><a href="#clinic-28">K Family Dental</a></th><td>Braces (conventional and invisible), Check-up and clean, Cosmetic dentistry, Crowns and bridges, Dental implants, Dentures, Gum disease treatment, Invisalign, TMJ (jaw pain) treatment, Root canal therapy, Emergency dentistry, Teeth whitening, Wisdom tooth extraction</td><td>Not confirmed — check the <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA register</a></td></tr>
+      <tr><th scope="row"><a href="#clinic-28">K Family Dental</a></th><td>Braces (conventional and invisible), Check-up and clean, Cosmetic dentistry, Crowns and bridges, Dental implants, Dentures, Gum disease treatment, Invisalign, TMJ (jaw pain) treatment, Root canal therapy, Emergency dentistry, Teeth whitening, Wisdom tooth extraction</td><td>Dr Klein Chen, Dr Kate Lee, Dr Veronica Lee, Dr Jason Chuang, Dr Jimmy Chan</td></tr>
     </tbody>
   </table>
   </div>
@@ -2769,10 +2797,31 @@
 
   <section class="clinic-practitioners" aria-label="Registered practitioners at K Family Dental">
     <div class="practitioners-label">Registered Practitioners</div>
-    <p class="practitioners-unconfirmed">Practitioner names not confirmed from public sources at time of verification. Verify via <a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener noreferrer">AHPRA Practitioner Register</a>.</p>
+    <ul class="practitioners-list" role="list">
+      <li class="practitioner-item">
+        <span class="practitioner-name">Dr Klein Chen</span>
+        <span class="practitioner-detail">BHSc DDS PGdip(UK) Digital Orthodontics; doctoral degree in Dental Surgery - University of Melbourne · Languages: English, Mandarin, Japanese. Interests per site: cosmetic, restorative and implant dentistry. Certified Invisalign provider; member of the Australian Prosthodontic Society, Australian Society of Endodontology, International Team for Implantology and Progressive Orthodontic Seminars (per site)</span>
+      </li>
+      <li class="practitioner-item">
+        <span class="practitioner-name">Dr Kate Lee</span>
+        <span class="practitioner-detail">Doctor of Dentistry (with distinction) - University of Sydney · Languages: English, Korean. Interests per site: endodontic and restorative dentistry; further training in oral surgery and clear aligner orthodontics</span>
+      </li>
+      <li class="practitioner-item">
+        <span class="practitioner-name">Dr Veronica Lee</span>
+        <span class="practitioner-detail">Dental degree - University of Melbourne (degree title not stated on site) · Languages: English, Korean. Member of the Australian Dental Association; certified nitrous sedation practitioner (per site). Treats children and anxious patients</span>
+      </li>
+      <li class="practitioner-item">
+        <span class="practitioner-name">Dr Jason Chuang</span>
+        <span class="practitioner-detail">BSc - University of Alberta (dental degree not stated on site) · Languages: English, Mandarin. Interest per site: orthodontics</span>
+      </li>
+      <li class="practitioner-item">
+        <span class="practitioner-name">Dr Jimmy Chan</span>
+        <span class="practitioner-detail">Clinical training - University of Adelaide (graduated 2013); specialist training completed 2020 · Languages: English, Mandarin, Cantonese, Malay. Described on the clinic website as an Australian-trained Endodontist (root canal treatment)</span>
+      </li>
+    </ul>
     <p class="ahpra-verify-note">
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="verify-icon" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 4v4m0 2v.5"/></svg>
-      Verify registration: <a href="https://www.dentalboard.gov.au/" target="_blank" rel="noopener noreferrer">www.dentalboard.gov.au</a>
+      Names listed on the clinic website; AHPRA registration not verified here. Verify registration: <a href="https://www.dentalboard.gov.au/" target="_blank" rel="noopener noreferrer">www.dentalboard.gov.au</a>
     </p>
   </section>
 
@@ -2796,7 +2845,7 @@
   </div>
 
   <div class="clinic-card-footer">
-    <button class="btn-view-profile" disabled aria-label="Visit Website (Coming Soon)">Visit Website</button>
+    <a class="btn-view-profile" href="https://kfamilydental.com.au" target="_blank" rel="noopener" aria-label="Visit K Family Dental website (opens in a new tab)">Visit Website</a>
     <button class="btn-map-focus" data-clinic-id="28" aria-label="Show K Family Dental on map">
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 3L3 5v12l4-2 6 2 4-2V3l-4 2-6-2z"/><path stroke-linecap="round" d="M9 3v12M13 5v12"/></svg>
     </button>

@@ -884,11 +884,21 @@ Source: https://whitedentalclinic.com.au/meet-the-team/
 | **Hours** | Mon 10AM–6PM · Tue 10AM–6PM · Wed Closed · Thu 10AM–5PM · Fri 10AM–6PM · Sat 9AM–6PM · Sun Closed |
 | **AHPRA Registration** | [Dental Board of Australia](https://www.dentalboard.gov.au) — Click "Look up practitioners" |
 
-**Registered Practitioners:** Individual names are omitted because current AHPRA registration could not be verified against the public register. Verify current practitioners via [practitioners.ahpra.gov.au](https://practitioners.ahpra.gov.au).
+**Registered Practitioners (named on clinic website; AHPRA registration not verified):**
+
+| Practitioner | Qualification | Notes |
+|---|---|---|
+| Dr Klein Chen | BHSc DDS PGdip(UK) Digital Orthodontics; doctoral degree in Dental Surgery - University of Melbourne | Languages: English, Mandarin, Japanese. Interests per site: cosmetic, restorative and implant dentistry. Certified Invisalign provider; member of the Australian Prosthodontic Society, Australian Society of Endodontology, International Team for Implantology and Progressive Orthodontic Seminars (per site) |
+| Dr Kate Lee | Doctor of Dentistry (with distinction) - University of Sydney | Languages: English, Korean. Interests per site: endodontic and restorative dentistry; further training in oral surgery and clear aligner orthodontics |
+| Dr Veronica Lee | Dental degree - University of Melbourne (degree title not stated on site) | Languages: English, Korean. Member of the Australian Dental Association; certified nitrous sedation practitioner (per site). Treats children and anxious patients |
+| Dr Jason Chuang | BSc - University of Alberta (dental degree not stated on site) | Languages: English, Mandarin. Interest per site: orthodontics |
+| Dr Jimmy Chan | Clinical training - University of Adelaide (graduated 2013); specialist training completed 2020 | Languages: English, Mandarin, Cantonese, Malay. Described on the clinic website as an Australian-trained Endodontist (root canal treatment) |
+
+Source: https://kfamilydental.com.au/about-us/
 
 **Services:** Braces (conventional and invisible), check-up and clean, cosmetic dentistry, crowns and bridges, dental implants, dentures, gum disease treatment, Invisalign, TMJ (jaw pain) treatment, root canal therapy, emergency dentistry, teeth whitening, wisdom tooth extraction.
 
-*Added 2026-11-03 from the clinic's own website.*
+*Added 2026-11-03 from the clinic's own website. Practitioner details added 2026-11-25 from the clinic's About Us and team profile pages.*
 
 ---
 
@@ -968,6 +978,11 @@ All dental practitioners in Australia must hold current registration with the **
 | Evergreen Dental Clinic — enrichment source | https://evergreendental.com.au/contact-us/ |
 | K Family Dental — enrichment source | https://kfamilydental.com.au/ |
 | K Family Dental — enrichment source | https://kfamilydental.com.au/about-us/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/team/dr-klein-chen/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/team/dr-kate-lee/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/team/dr-veronica-lee/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/team/dr-jason-chuang/ |
+| K Family Dental — enrichment source | https://kfamilydental.com.au/team/dr-jimmy-chan/ |
 | So Dental Surgery Chatswood — enrichment source | https://www.sodental.com.au/about |
 | Sydney Oral & Facial Surgery — enrichment source | https://www.sydneyoralfacialsurgery.com.au/about-us/our-doctors/ |
 | Sydney Oral & Facial Surgery — enrichment source | https://www.sydneyoralfacialsurgery.com.au/info/fees/ |

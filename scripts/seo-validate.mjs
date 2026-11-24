@@ -33,6 +33,9 @@
 //     index.md/log.md carry no frontmatter, except an `okf_version`-only block on docs/index.md.
 // 15. /favicon.ico exists and the homepage links it; every indexable page has exactly one static
 //     <h1> (outside <script>) and a twitter:card meta tag.
+// 17. Live clinic website links: only the owner-approved clinics (HTML_template.md §7) carry
+//     <a class="btn-view-profile">, with the approved URL; every other card keeps the disabled button.
+//     A page regeneration dropped both approved links (2026-11-21); this keeps them from vanishing again.
 // 16. Markdown tables in docs/: every row has the header's cell count. An unescaped | inside a cell
 //     splits it, and the page generator then leaks the stray | into the HTML (belmore, 2026-11-21).
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
@@ -326,6 +329,21 @@ for (const f of mdFiles(DOCS)) {
     }
     i = j - 1;
   }
+}
+
+// ── 17: owner-approved clinic website links (HTML_template.md §7) ────────────
+const APPROVED_LINKS = { chatswood: { 'K Family Dental': 'https://kfamilydental.com.au' }, 'blackburn-3130': { 'Smile To Go': 'https://smiletogo.com.au' } };
+for (const slug of slugs) {
+  const where = `medical/dental/${slug}`, approved = APPROVED_LINKS[slug] || {}, seen = new Set();
+  for (const card of read(join(DENTAL, slug, 'index.html')).match(/<article\b[^>]*class="clinic-card\b[\s\S]*?<\/article>/g) || []) {
+    const name = (card.match(/<h2 class="clinic-name">([^<]*)<\/h2>/) || [, ''])[1].replace(/&amp;/g, '&').trim();
+    const href = (card.match(/<a\b(?=[^>]*class="btn-view-profile")[^>]*\bhref="([^"]*)"/) || [])[1];
+    if (approved[name]) {
+      seen.add(name);
+      if (href !== approved[name]) fail('17', where, `${name} must link ${approved[name]} from its Visit Website button (owner-approved, HTML_template.md §7); found ${href || 'the disabled button'}`);
+    } else if (href) fail('17', where, `${name} has a live website link (${href}) but is not an owner-approved exception (HTML_template.md §7)`);
+  }
+  for (const name of Object.keys(approved)) if (!seen.has(name)) fail('17', where, `owner-approved clinic ${name} has no card on this page`);
 }
 
 // ── Report ──────────────────────────────────────────────────────────────────
