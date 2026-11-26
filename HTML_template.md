@@ -839,6 +839,7 @@ The post-processor also prints `WARN` lines: a page whose clinic-card count diff
 | Frontmatter added to a non-root `index.md` | `index.md`/`log.md` carry no frontmatter except `okf_version` on `docs/index.md` (check 7) |
 | The site had no favicon (`/favicon.ico` 404), and the Fable 5.2 road-rules game rendered its only `<h1>` from JavaScript with no Twitter Card (SE Ranking audit, Nov 2026) | `/favicon.ico` exists and the homepage links it; every indexable page has exactly one `<h1>` in its static HTML and a `twitter:card` meta tag (check 15) |
 | An unescaped `\|` inside a source table cell split the row, and the page leaked a stray `\|` into a practitioner line (belmore, Nov 2026) | Every table row in `docs/` has the header's cell count (check 16); the enrichment merger folds `\|` inside a value into a comma |
+| A page regeneration replaced the owner-approved live website links with the disabled button (K Family Dental, Smile To Go, Nov 2026) | Each §7-approved clinic card carries `<a class="btn-view-profile">` with its approved URL, and no other card has a live link (check 17); the generator reads the same allowlist |
 | The road-rules games are not knowledge pages but were listed in the sitemap | `scripts/sitemap-policy.mjs` (`SITEMAP_SKIP`) keeps `education/road-rules-game/` out of `sitemap.xml`; `build-sitemap.mjs` and check 5 both read it |
 
 When a reviewer (human or Copilot) finds a new class of defect, add a check for it to `scripts/seo-validate.mjs` in the same fix, so it cannot recur silently.

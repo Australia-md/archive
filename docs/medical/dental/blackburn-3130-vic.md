@@ -240,15 +240,17 @@ Source: https://heartsdental.com.au/about-us/hearts-dental-team/
 
 | Practitioner | Qualification | Notes |
 |---|---|---|
-| Dr Terry Wong | — | Principal dentist; graduated University of Melbourne 1987 per site |
-| Dr Hing Chin | — | Principal dentist; graduated University of Melbourne 1987 per site |
-| Dr Shaun Wang | — | Listed on Our Dentists page |
-| Dr Derrick Mac | — | Listed on Our Dentists page |
-| Dr Tilley Wong | — | Listed on Our Dentists page |
+| Dr Terry Wong | B.Sc (Hons) Melb, B.D.Sc (Melb); dental degree 1987 - University of Melbourne | Principal Dentist per site. Interests per site: resin bonding, lifelike fillings and cosmetic dentistry. Fastbraces master provider and lecturer (per site) |
+| Dr Hing Chin | B.D.Sc (Melb); graduated 1987 - University of Melbourne School of Dentistry | General dentistry |
+| Dr Shaun Wang | B.Sci (Melb), DDS (Melb) | General dentistry and implants per site. Languages: English, Mandarin |
+| Dr Derrick Mac | B.Sci (Melb), DDS (Melb) | General dentistry |
+| Dr Tilley Wong | B.D.S. (Adelaide) | General dentistry. Interests per site: minimally invasive cosmetic dentistry and resin bonding |
 
 Source: https://smiletogo.com.au/about-us/our-dentists/
 
 **Services:** Fastbraces, Smile correction, Resin bonding, Porcelain veneers, Teeth whitening.
+
+*Practitioner details updated 2026-11-25 from the clinic's Our Dentists, Our Team and dentist profile pages.*
 
 ---
 
@@ -337,6 +339,12 @@ All dental practitioners in Australia must hold current registration with the **
 | Smile Avenue Specialist Orthodontists - Blackburn — enrichment source | https://www.affordablebraces.com.au/ |
 | Smile Avenue Specialist Orthodontists - Blackburn — enrichment source | https://www.affordablebraces.com.au/contact-us |
 | Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-dentists/ |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-team/ |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-team/dr-terry-wong/ |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-team/dr-hing-chin/ |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-team/dr-shaun-wang/ |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-team/dr-derrick-mac/ |
+| Smile To Go — enrichment source | https://smiletogo.com.au/about-us/our-team/dr-tilley-wong/ |
 | Toothpals Dental Care — enrichment source | https://www.suburbansmiles.com.au/ |
 | Toothpals Dental Care — enrichment source | https://www.suburbansmiles.com.au/about-us |
 | Toothpals Dental Care — enrichment source | https://www.suburbansmiles.com.au/contact |
